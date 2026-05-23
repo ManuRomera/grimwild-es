@@ -1,0 +1,40 @@
+{
+  "name": "Colgante Batamigo",
+  "type": "arcana",
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "system": {
+    "description": "<p>Advierte de intrusos que se acercan mientras se encuentra al aire libre por la noche.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Sólo funciona al aire libre por la noche.</p>",
+    "touchstones": "murciélagos—vigilancia—compañía",
+    "tier": "minor"
+  },
+  "effects": [],
+  "folder": "oqUqojrnxgojYi6E",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "ZKJ0BQZb43nB271N",
+  "sort": 200000,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768055809728,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ZKJ0BQZb43nB271N"
+}

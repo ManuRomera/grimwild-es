@@ -1,0 +1,185 @@
+{
+  "name": "Oso terrible",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Animales colosales, ferozmente territoriales, con pelaje espeso y garras enormes. Responde con saña a cualquier intrusión en su territorio.</p>",
+    "notes": "",
+    "role": "brute",
+    "tier": "tough",
+    "traits": [
+      "Pelaje denso",
+      "Velocidad sorprendente"
+    ],
+    "moves": [
+      "Cargo de prueba",
+      "Rugido bramido",
+      "Garfio demoledor"
+    ],
+    "desires": [
+      {
+        "value": "para fomentar la próxima generación de nuevos gobernantes.",
+        "are": false
+      },
+      {
+        "value": "para que se rompan sus fronteras.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Marrón profundo",
+          "color": "#371c06"
+        },
+        {
+          "name": "Negro peludo",
+          "color": "#221c1c"
+        },
+        {
+          "name": "Marrón Grizzly",
+          "color": "#623d09"
+        }
+      ],
+      "sights": "Árboles partidos, aliento humeante en el aire frío.",
+      "sounds": "rugido ensordecedor resonando, pasos fuertes",
+      "smells": "Pino crujiente, tierra volcada, pelaje mojado."
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Problemas territoriales",
+        "instructions": "",
+        "table": [
+          [
+            "Tiene demasiados cubos.",
+            "Se ha convocado una gran cacería para ello.",
+            "Ha llegado otro terrible depredador.",
+            "La civilización invade sus fronteras.",
+            "Las barreras totémicas restringen sus zonas de itinerancia.",
+            "Los duendes hacen la guerra a los orcos en sus tierras."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Oso terrible",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368371339,
+    "modifiedTime": 1750368379620,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "GsZvTAh6Vhk7SNIE",
+  "sort": 1600000,
+  "_key": "!actors!GsZvTAh6Vhk7SNIE"
+}

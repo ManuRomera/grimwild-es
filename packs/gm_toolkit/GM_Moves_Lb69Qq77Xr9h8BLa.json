@@ -1,0 +1,65 @@
+{
+  "folder": "V3M0EcoDlbmFxQPL",
+  "name": "Movimientos del DJ",
+  "_id": "Lb69Qq77Xr9h8BLa",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Movimientos del DJ",
+      "type": "text",
+      "_id": "h0l7hV2isumZbWY5",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Apparat'\"><strong>MOVIMIENTOS DEL DJ</strong></span><span style=\"font-family:'Capito04VAR'\">. Un marco para buenas prácticas de dirección de juego y </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>las reglas que tú (el DJ) sigues</strong></em></span><span style=\"font-family:'Capito04VAR'\">. Si bien se pueden mencionar específicamente, generalmente permanecen en un segundo plano y no se dicen, alineándose naturalmente con lo que haces como DJ.</span></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VARItalic'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.7zdZxUMRvanWB2OJ]{Movimientos de historia}<em> </em></span><span style=\"font-family:'Capito04VAR'\">Configura escenas y marca el ritmo del juego. Insinúan problemas y dan a los jugadores la oportunidad de reaccionar ante lo que está sucediendo. </span><span style=\"font-family:'Capito04VARItalic'\"><em>Realiza estos movimientos como quieras en cualquier momento.</em></span></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VARItalic'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.meKAiEb4xEJcJ58F]{Movimientos de suspense}<em> </em></span><span style=\"font-family:'Capito04VAR'\">ayudar a los jugadores de alguna manera o aumentar la tensión. </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong style=\"font-style:italic\">Llevar </strong><strong>suspense cuando se usa</strong></em></span><span style=\"font-family:'Capito04VAR'\">. </span><span style=\"font-family:'Capito04VARItalic'\"><em>Haga estos movimientos en el momento adecuado.</em></span></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VARItalic'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimientos de impacto}<em> </em></span><span style=\"font-family:'Capito04VAR'\">afrontar consecuencias importantes, aumentar la tensión y hacer que el mundo se sienta poderoso. </span><span style=\"font-family:'Capito04VARItalic'\"><em>Realice estos movimientos cuando se le solicite.</em></span></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738609581904,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!Lb69Qq77Xr9h8BLa.h0l7hV2isumZbWY5"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609110627,
+    "modifiedTime": 1738609110627,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!Lb69Qq77Xr9h8BLa"
+}

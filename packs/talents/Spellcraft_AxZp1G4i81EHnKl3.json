@@ -1,0 +1,61 @@
+{
+  "folder": "2tvdSlgYZ5v4Jiye",
+  "name": "Hechizo",
+  "type": "talent",
+  "_id": "AxZp1G4i81EHnKl3",
+  "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
+  "system": {
+    "description": "<p>Tienes habilidad para lanzar hechizos. Tiras Astucia para lanzarlo y el teorema del hechizo que estás lanzando sirve como piedra de toque. Conoces 4 teoremas de hechizos inscritos en tu libro de hechizos, creados usando @UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj.JournalEntryPage.oAUafgvMOjLisdE2]{Crisol de hechizos}. En cada sesión, puedes lanzar 4 hechizos y 2 hechizos potentes. Tu eliges qué teorema de hechizo usar cuando lo lanzas.</p><p>Puedes aprender nuevos teoremas de hechizos estudiando y experimentando con pergaminos, que puedes encontrar como tesoros u obtener de otros magos. Esto consume el pergamino.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, aumenta en 1 el lanzamiento de hechizos y hechizos potentes por sesión y crea 1 nuevo teorema con el <strong>@UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj.JournalEntryPage.oAUafgvMOjLisdE2]{Crisol de hechizos}</strong>.</p>",
+    "core": true,
+    "notes": {
+      "description": "<p><em>Escribe aquí tus teoremas de hechizos.</em></p>",
+      "label": "Teoremas de hechizos"
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Hechizos",
+        "points": {
+          "value": 4,
+          "max": 4,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0
+        }
+      },
+      {
+        "type": "points",
+        "label": "Hechizos potentes",
+        "points": {
+          "value": 2,
+          "max": 2,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0
+        }
+      }
+    ],
+    "path": "wizard"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "grimwild",
+    "systemVersion": "0.4.0",
+    "createdTime": 1739542636102,
+    "modifiedTime": 1768698501780,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "exportSource": null
+  },
+  "_key": "!items!AxZp1G4i81EHnKl3"
+}

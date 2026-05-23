@@ -1,0 +1,53 @@
+{
+  "name": "Anillo de espejismo dracónico",
+  "type": "arcana",
+  "img": "icons/equipment/finger/ring-ouroboros-copper.webp",
+  "system": {
+    "description": "<p>Invoca un dragón ilusorio que se eleva sobre nuestras cabezas.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Usos",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": false
+        },
+        "pool": {
+          "diceNum": 0
+        }
+      }
+    ],
+    "limitations": "<p>Utilizable una vez por sesión. El dragón actúa de forma impredecible.</p>",
+    "touchstones": "dragón—ilusión—asombro",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "mM5c4RKpgf3zEis7",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "grimwild",
+    "systemVersion": "0.3.1",
+    "createdTime": null,
+    "modifiedTime": 1768054984646,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mM5c4RKpgf3zEis7"
+}

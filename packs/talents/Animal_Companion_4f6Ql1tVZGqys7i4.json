@@ -1,0 +1,63 @@
+{
+  "folder": "0FZZ6ZaYmCNR9Vxc",
+  "name": "Compañero animal",
+  "type": "talent",
+  "_id": "4f6Ql1tVZGqys7i4",
+  "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+  "system": {
+    "description": "<p>Te acompaña un animal ferozmente leal. Cada PJ añade un vínculo recíproco con él. Elegir <em><strong>3 trucos</strong> </em>que lo sepa y <em><strong>2 defectos</strong> </em>que tiene:</p><p><strong>Engaños</strong>: <em>distraer—luchar—guardar—realizar—rescatar—recuperar—explorar—buscar—rastrear—advertir.</em></p><p><strong>Defectos</strong>: <em>agresivo—torpe—gruñón—insaciable—nervioso—ruidoso—sobreprotector—aterrador—rebelde</em>.</p><p>Tiras 3d para cualquier cosa que sepa hacer y 1d para todo lo demás. Tiene sólo dos cajas de daño, <em><strong>marcado</strong> </em>(para cualquier marca) y <em><strong>herir</strong> </em>(para ensangrentado o sacudido). Siempre puedes hacer que salga de una escena cuando esté herido. Si lo pierdes, puedes vincularte con un nuevo animal o seleccionar un nuevo talento.</p><p><em><strong>Especial</strong>: Puedes tomar este talento nuevamente para otorgarle 3 trucos más y otra casilla marcada.</em></p>",
+    "core": false,
+    "notes": {
+      "description": "<p><em>Anota los 3 trucos y los 2 defectos que tiene tu compañero animal.</em></p>",
+      "label": "Trucos y defectos"
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Marcado",
+        "points": {
+          "value": 0,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      },
+      {
+        "type": "pool",
+        "label": "Herir",
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        },
+        "points": {
+          "showSteps": false,
+          "value": 1,
+          "max": 1
+        }
+      }
+    ],
+    "path": "ranger"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739129525843,
+    "modifiedTime": 1739129525843,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!4f6Ql1tVZGqys7i4"
+}

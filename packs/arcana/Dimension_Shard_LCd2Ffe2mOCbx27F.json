@@ -1,0 +1,40 @@
+{
+  "name": "Fragmento de dimensión",
+  "type": "arcana",
+  "img": "icons/commodities/gems/gem-faceted-diamond-pink.webp",
+  "system": {
+    "description": "<p>Tiene una dimensión de refugio pequeña, del tamaño de una ciudad, donde el tiempo fluye de manera diferente.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>El tiempo pasa 10 veces más rápido o más lento en el interior, elegido al azar.</p>",
+    "touchstones": "refugio—tiempo—cambio",
+    "tier": "mythic"
+  },
+  "effects": [],
+  "folder": "PNHXnKBouD6bBJIK",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "LCd2Ffe2mOCbx27F",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768053128359,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LCd2Ffe2mOCbx27F"
+}

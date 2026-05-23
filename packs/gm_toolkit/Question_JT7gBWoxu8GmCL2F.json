@@ -1,0 +1,65 @@
+{
+  "folder": "AlWljQLa4nCSGD2H",
+  "name": "Pregunta",
+  "_id": "JT7gBWoxu8GmCL2F",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Pregunta",
+      "type": "text",
+      "_id": "UDzTrpnvr9LWfLIW",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 33\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Haz preguntas provocativas para provocar dramatismo o darle cuerpo al mundo.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"¿Por qué les permitiste matar a ese bandido?\" • \"¿Qué dices de la reina mientras te sientas alrededor del fuego?\"</em></span></p><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">PREGUNTA </span><span style=\"font-family:'Capito04VAR'\">jugadores para ayudar a descubrir qué tipo de historia les interesa, compartir la carga creativa y mantener la historia fresca para usted. Intenta mantener esto enfocado en la perspectiva de su personaje, pero siéntete libre de sumergirte en el canal meta aquí y hablar directamente como jugadores sobre lo que todos queréis ver en el juego.</span></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!JT7gBWoxu8GmCL2F.UDzTrpnvr9LWfLIW"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609119898,
+    "modifiedTime": 1738609119898,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!JT7gBWoxu8GmCL2F"
+}

@@ -1,0 +1,36 @@
+{
+  "folder": "stI4BJrCCbXWUzHc",
+  "name": "En la refriega",
+  "type": "talent",
+  "_id": "f0dLy8cY23PJeCN3",
+  "img": "icons/skills/melee/spear-tips-three-green.webp",
+  "system": {
+    "description": "<p>Cuando eres el primero en una situación intensa, <em><strong>Los 5 cuentan como 6, pero los 4 cuentan como 1</strong> </em>en tu primera tirada. También <strong>configuración</strong> la primera persona que te siga independientemente del resultado de tu tirada.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "path": "Berserker"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739062678115,
+    "modifiedTime": 1739746299218,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!f0dLy8cY23PJeCN3"
+}

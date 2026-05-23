@@ -1,0 +1,54 @@
+{
+  "name": "Dije de ojo de basilisco",
+  "type": "arcana",
+  "img": "icons/creatures/eyes/slime-stalk-green.webp",
+  "system": {
+    "description": "<p>Convierte a alguien en piedra con una mirada y le otorga inmunidad a la petrificación.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "pool",
+        "label": "Poder",
+        "pool": {
+          "diceNum": 4,
+          "max": 4
+        },
+        "points": {
+          "showSteps": false,
+          "value": 1,
+          "max": 1
+        }
+      }
+    ],
+    "limitations": "<p>Reserva de energía 4d, que se repone cuando llega a 0d.</p>",
+    "touchstones": "petrificación—mirada—protección",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "9jnvv1htsWa3yUGy",
+  "sort": 100000,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768055805536,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9jnvv1htsWa3yUGy"
+}

@@ -1,0 +1,40 @@
+{
+  "folder": "n7jEJF8MCm2SAEyA",
+  "name": "Entrada dinámica",
+  "type": "talent",
+  "_id": "zXK8rjJ7unzPhgie",
+  "img": "icons/skills/movement/figure-running-gray.webp",
+  "system": {
+    "description": "<p>Siempre puedes aparecer en una escena en cualquier lugar y en cualquier momento, limitado únicamente por tus capacidades físicas. Haz una tirada de historia [[/r 3d]] para preparar el escenario para tu entrada.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "path": "bard",
+    "core": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {
+    "core": {
+      "sheetClass": "grimwild.GrimwildItemSheetVue"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739042795826,
+    "modifiedTime": 1739141249114,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!zXK8rjJ7unzPhgie"
+}

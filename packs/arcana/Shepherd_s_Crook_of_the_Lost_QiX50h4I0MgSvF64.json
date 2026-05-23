@@ -1,0 +1,40 @@
+{
+  "name": "Cayado del pastor de los perdidos",
+  "type": "arcana",
+  "img": "icons/weapons/staves/staff-simple-spiral-grey.webp",
+  "system": {
+    "description": "<p>Atrae a los vagabundos y a los abandonados a tu lado.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Ninguno, excepto el peso de quienes te encuentran.</p>",
+    "touchstones": "guía—conexión—carga",
+    "tier": "mythic"
+  },
+  "effects": [],
+  "folder": "PNHXnKBouD6bBJIK",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "QiX50h4I0MgSvF64",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768055103741,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QiX50h4I0MgSvF64"
+}

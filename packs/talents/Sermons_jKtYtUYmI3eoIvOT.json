@@ -1,0 +1,63 @@
+{
+  "folder": "Km2uusPM1YvfRSZe",
+  "name": "Sermones",
+  "type": "talent",
+  "_id": "jKtYtUYmI3eoIvOT",
+  "img": "icons/magic/control/control-influence-crown-yellow.webp",
+  "system": {
+    "description": "<p>Cuando tengas tiempo, podrás lograrlo. <em><strong>Potentes hazañas de persuasión en nombre de tus creencias.</strong></em>, como <em>ordenar a una multitud que trajera al duque para ser juzgado </em>o <em>mostrando a los duendes la gloria de tu dios. </em>También puedes esforzarte para hacerlo en el acto. Sólo una vez, puedes hacer de este un efecto de nivel ritual.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Empujar",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      },
+      {
+        "type": "points",
+        "label": "Ritual",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      }
+    ],
+    "path": "cleric"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739063481754,
+    "modifiedTime": 1739746982533,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!jKtYtUYmI3eoIvOT"
+}

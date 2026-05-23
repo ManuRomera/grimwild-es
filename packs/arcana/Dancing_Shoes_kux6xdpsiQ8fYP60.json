@@ -1,0 +1,40 @@
+{
+  "name": "Zapatos de baile",
+  "type": "arcana",
+  "img": "icons/equipment/feet/boots-collared-pink.webp",
+  "system": {
+    "description": "<p>Te permite bailar con una gracia impecable, otorgando potencia para 4d Runs Out.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Gasta chispa para usarlos.</p>",
+    "touchstones": "gracia—belleza—baile",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "kux6xdpsiQ8fYP60",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768053013355,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kux6xdpsiQ8fYP60"
+}

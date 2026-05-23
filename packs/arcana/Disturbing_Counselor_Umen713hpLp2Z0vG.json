@@ -1,0 +1,54 @@
+{
+  "name": "Consejero perturbador",
+  "type": "arcana",
+  "img": "icons/equipment/neck/necklace-simple-bone-skull.webp",
+  "system": {
+    "description": "<p>Ofrece orientación sobre el arte de gobernar y revela secretos políticos.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "pool",
+        "label": "Poder",
+        "pool": {
+          "diceNum": 4,
+          "max": 4
+        },
+        "points": {
+          "showSteps": false,
+          "value": 1,
+          "max": 1
+        }
+      }
+    ],
+    "limitations": "<p>Reserva de energía 4d, que se repone alimentando sus desconcertantes vicios.</p>",
+    "touchstones": "sabiduría—secretos—arte de gobernar",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "Umen713hpLp2Z0vG",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768053194289,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Umen713hpLp2Z0vG"
+}

@@ -1,0 +1,186 @@
+{
+  "folder": null,
+  "name": "Basilisco",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Reptiles espinosos de ocho patas que acechan en lugares oscuros y olvidados. Esperan pacientemente para tender una emboscada a sus presas y luego darse un festín con los restos petrificados.</p>",
+    "notes": "",
+    "role": "lurker",
+    "tier": "tough",
+    "traits": [
+      "Sigilo lento",
+      "Piel espinosa",
+      "Agudo sentido del olfato"
+    ],
+    "moves": [
+      "Mirada petrificante",
+      "Muerde y golpea",
+      "Largarse"
+    ],
+    "desires": [
+      {
+        "value": "para comer una deliciosa estatua, más tarde.",
+        "are": false
+      },
+      {
+        "value": "luz que revela sus escondites.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "verde escamoso",
+          "color": "#566b30"
+        },
+        {
+          "name": "marrón musgo",
+          "color": "#8b4512"
+        },
+        {
+          "name": "gris rocoso",
+          "color": "#708090"
+        }
+      ],
+      "sights": "brillo de escamas, senderos deslizándose a través del polvo",
+      "sounds": "silencio, silbido áspero, crujido de piedra masticada",
+      "smells": "olor a tiza de piedra molida, aire seco"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Escondites",
+        "instructions": "",
+        "table": [
+          [
+            "Debajo de un puente en ruinas, pero todavía en uso.",
+            "Dentro del cadáver podrido de un dragón caído.",
+            "En el quinto historia de una torre de vigilancia abandonada.",
+            "En un campo lleno de estatuas de osos a medio comer.",
+            "Dentro de un laberinto de tuberías oxidadas y resonantes.",
+            "Entre las raíces retorcidas de un árbol gigante."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Basilisco",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368340356,
+    "modifiedTime": 1750368379620,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "r5qBaLthS6ISJLRs",
+  "sort": 100000,
+  "_key": "!actors!r5qBaLthS6ISJLRs"
+}

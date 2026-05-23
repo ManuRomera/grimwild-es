@@ -1,0 +1,185 @@
+{
+  "folder": null,
+  "name": "Ciempiés terrible",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Insectos gigantescos con armadura, pinzas venenosas e innumerables patas. Se deslizan a través de túneles oscuros, creando una red laberíntica de cotos de caza.</p>",
+    "notes": "",
+    "role": "skirmisher",
+    "tier": "tough",
+    "traits": [
+      "Aferrarse a las paredes",
+      "Velocidad aterradora"
+    ],
+    "moves": [
+      "Silbido de advertencia",
+      "Agacharse",
+      "Cortar las extremidades"
+    ],
+    "desires": [
+      {
+        "value": "para ampliar su laberinto de túneles.",
+        "are": false
+      },
+      {
+        "value": "luz brillante o ruidos fuertes.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Siena tostada",
+          "color": "#e97451"
+        },
+        {
+          "name": "Marrón terroso",
+          "color": "#8b4512"
+        },
+        {
+          "name": "Quitina negra",
+          "color": "#2f2f2f"
+        }
+      ],
+      "sights": "piernas que se retuercen sin cesar, quitina brillante, pinzas que se mueven",
+      "sounds": "chasquido rítmico, silbido agudo, crujido inquietante",
+      "smells": "aroma a insecto a nuez, madera agria y podrida"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Inicio Túneles",
+        "instructions": "",
+        "table": [
+          [
+            "Túneles llenos de altísimas setas.",
+            "Las ruinas de un lujoso palacio subterráneo.",
+            "Enorme caverna llena de bioluminiscencia.",
+            "A través de los huesos de un gigante enterrado.",
+            "Cuevas marinas inundadas, donde caza tiburones.",
+            "A través de raíces retorcidas de árboles colosales."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Ciempiés terrible",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368373777,
+    "modifiedTime": 1750368379620,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "mtNH98nx4OUgxgcP",
+  "sort": 1700000,
+  "_key": "!actors!mtNH98nx4OUgxgcP"
+}

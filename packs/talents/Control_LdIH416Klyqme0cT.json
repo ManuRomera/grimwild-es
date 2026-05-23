@@ -1,0 +1,50 @@
+{
+  "folder": "ho2SQrFiSNOlb9od",
+  "name": "Control",
+  "type": "talent",
+  "_id": "LdIH416Klyqme0cT",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "<p>Puede <strong>esfuérzate</strong> para declarar una zona que los enemigos no pueden cruzar sin tratar contigo. Si intentan pasar a tu lado, puedes <em><strong>interrumpir</strong></em> a ellos. En un perfecto, <strong>tomar chispa</strong>.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Empujar",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      }
+    ],
+    "path": "fighter"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739111225522,
+    "modifiedTime": 1739111225522,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!LdIH416Klyqme0cT"
+}

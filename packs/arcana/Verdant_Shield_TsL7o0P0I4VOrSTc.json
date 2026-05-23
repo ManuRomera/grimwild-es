@@ -1,0 +1,40 @@
+{
+  "name": "Escudo verdeante",
+  "type": "arcana",
+  "img": "icons/equipment/shield/heater-emossed-spiral-green.webp",
+  "system": {
+    "description": "<p>Cuando se golpea, libera energía vital que hace que las plantas crezcan y atrapen a los enemigos.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Oblígate a usarlo. Utiliza tu propia energía vital.</p>",
+    "touchstones": "reacción—verdor—enredo",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "TsL7o0P0I4VOrSTc",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768055455198,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!TsL7o0P0I4VOrSTc"
+}

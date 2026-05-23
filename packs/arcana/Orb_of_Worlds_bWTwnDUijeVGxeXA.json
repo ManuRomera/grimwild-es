@@ -1,0 +1,40 @@
+{
+  "name": "Orbe de mundos",
+  "type": "arcana",
+  "img": "icons/commodities/gems/pearl-storm.webp",
+  "system": {
+    "description": "<p>Revela visiones de reinos y planos de existencia distantes.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Tome sonajero cuando se use.</p>",
+    "touchstones": "visiones—reinos—distantes",
+    "tier": "mythic"
+  },
+  "effects": [],
+  "folder": "PNHXnKBouD6bBJIK",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "bWTwnDUijeVGxeXA",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768054636687,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bWTwnDUijeVGxeXA"
+}

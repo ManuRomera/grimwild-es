@@ -1,0 +1,190 @@
+{
+  "id": "grimwild",
+  "title": "Grimwild (castellano no oficial)",
+  "description": "Traducción no oficial al castellano del sistema Grimwild para FoundryVTT. Grimwild no es propiedad de este repositorio.",
+  "version": "0.5.3-es.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351",
+    "maximum": "13"
+  },
+  "manifest": "https://raw.githubusercontent.com/ManuRomera/grimwild-es/main/system.json",
+  "download": "https://github.com/ManuRomera/grimwild-es/archive/refs/heads/main.zip",
+  "authors": [
+    {
+      "name": "Asacolips",
+      "discord": "asacolips"
+    },
+    {
+      "name": "Gil",
+      "discord": "gil5815"
+    },
+    {
+      "name": "CalmRush",
+      "discord": "calmrush"
+    },
+    {
+      "name": "Phoenix",
+      "discord": "lostphoenix._."
+    },
+    {
+      "name": "ManuRomera",
+      "url": "https://github.com/ManuRomera",
+      "description": "Traducción no oficial al castellano"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {
+        "htmlFields": [
+          "biography",
+          "notes"
+        ]
+      },
+      "monster": {
+        "htmlFields": [
+          "biography",
+          "notes"
+        ]
+      },
+      "linkedChallenge": {
+        "htmlFields": [
+          "biography",
+          "notes"
+        ]
+      }
+    },
+    "Item": {
+      "talent": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "arcana": {
+        "htmlFields": [
+          "description",
+          "notes.description"
+        ]
+      },
+      "challenge": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    }
+  },
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css",
+        "html",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "styles",
+        "lang",
+        "templates"
+      ]
+    }
+  },
+  "url": "https://github.com/ManuRomera/grimwild-es",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "bugs": "https://github.com/ManuRomera/grimwild-es/issues",
+  "background": "systems/grimwild/assets/grimwild-system-splash.webp",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/grimwild/assets/grimwild-system-logo.webp",
+      "thumbnail": "systems/grimwild/assets/grimwild-system-logo.webp"
+    }
+  ],
+  "esmodules": [
+    "module/grimwild.mjs"
+  ],
+  "styles": [
+    "styles/grimwild.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Castellano",
+      "path": "lang/es.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "crucibles",
+      "label": "Crisoles",
+      "type": "RollTable",
+      "path": "packs/crucibles",
+      "system": "grimwild",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monsters",
+      "label": "Monstruos",
+      "type": "Actor",
+      "path": "packs/monsters",
+      "system": "grimwild",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Macros de Grimwild",
+      "type": "Macro",
+      "path": "packs/macros",
+      "system": "grimwild"
+    },
+    {
+      "name": "rules",
+      "label": "Reglas de Grimwild",
+      "type": "JournalEntry",
+      "path": "packs/rules",
+      "system": "grimwild"
+    },
+    {
+      "name": "gm_toolkit",
+      "label": "Herramientas del DJ",
+      "type": "JournalEntry",
+      "path": "packs/gm_toolkit",
+      "system": "grimwild"
+    },
+    {
+      "name": "talents",
+      "label": "Talentos",
+      "type": "Item",
+      "path": "packs/talents",
+      "system": "grimwild"
+    },
+    {
+      "name": "arcana",
+      "label": "Arcana",
+      "type": "Item",
+      "path": "packs/arcana",
+      "system": "grimwild"
+    }
+  ],
+  "packFolders": [],
+  "socket": true,
+  "grid": {
+    "type": 1,
+    "distance": 5,
+    "units": "ft",
+    "diagonals": 0
+  },
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power"
+}

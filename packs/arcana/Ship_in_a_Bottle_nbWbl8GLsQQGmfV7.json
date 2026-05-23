@@ -1,0 +1,40 @@
+{
+  "name": "Barco en una botella",
+  "type": "arcana",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "description": "<p>Se transforma en un barco de tamaño real tripulado por marineros durante siete días.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Debe llegar a un puerto dentro de los 7 días. La tripulación necesita tiempo en tierra.</p>",
+    "touchstones": "transformación—viaje—barco",
+    "tier": "mythic"
+  },
+  "effects": [],
+  "folder": "PNHXnKBouD6bBJIK",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "nbWbl8GLsQQGmfV7",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768055153345,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nbWbl8GLsQQGmfV7"
+}

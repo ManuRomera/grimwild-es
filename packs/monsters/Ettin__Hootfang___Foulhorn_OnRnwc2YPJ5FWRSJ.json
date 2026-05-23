@@ -1,0 +1,283 @@
+{
+  "folder": null,
+  "name": "Ettin: Hootfang y Foulhorn",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Figura imponente de dos cabezas con armas que no coinciden. Caminan pesadamente por el desierto, con ambas cabezas discutiendo interminablemente sobre asuntos triviales.</p>",
+    "notes": "<p>Para superar a un ettin sin luchar, tendrás que persuadir a ambas cabezas. Recuerda, son débiles y no se llevan bien.</p>",
+    "role": "brute",
+    "tier": "tough",
+    "traits": [
+      "Constantemente discutiendo",
+      "Paso torpe",
+      "Habla"
+    ],
+    "moves": [
+      "Armas oscilantes",
+      "Cabezazos",
+      "Grito dual"
+    ],
+    "desires": [
+      {
+        "value": "Placeres simples en los que ambas cabezas pueden estar de acuerdo.",
+        "are": false
+      },
+      {
+        "value": "para hacer cualquier cosa que requiera precisión.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Gris carnoso",
+          "color": "#a9a9a9"
+        },
+        {
+          "name": "cuero oscuro",
+          "color": "#4b3621"
+        },
+        {
+          "name": "Blanco cenizo",
+          "color": "#e3e0d1"
+        }
+      ],
+      "sights": "movimientos caóticos, arrastrar los pies, miradas frustradas",
+      "sounds": "Discusiones constantes, golpes torpes, palabras que no coinciden.",
+      "smells": "almizcle sudoroso, pieles de animales, pelo descuidado"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Protector improbable de...",
+        "instructions": "",
+        "table": [
+          [
+            "Tres viejas brujas, que lo utilizan como guardaespaldas.",
+            "Un grupo heterogéneo de huérfanos que lo salvaron.",
+            "Duendes, porque lo adoran como a un dios.",
+            "Aldea de agricultores, que la alimentan.",
+            "Circo errante, usándolo como portero.",
+            "Ermitaño, amigos con ambas cabezas."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Dragón",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Colmillo Hoot",
+      "type": "challenge",
+      "_id": "3ncdhDHn8vOXzz8q",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 4,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            false,
+            false
+          ]
+        },
+        "traits": [
+          "Extravagante, egoísta",
+          "Busca verdaderos elogios",
+          "Reacciona al aburrimiento"
+        ],
+        "moves": [],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!OnRnwc2YPJ5FWRSJ.3ncdhDHn8vOXzz8q"
+    },
+    {
+      "name": "Foulhorn",
+      "type": "challenge",
+      "_id": "Psb1XoGMJuezQf8v",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 8,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            false,
+            false
+          ]
+        },
+        "traits": [
+          "Tranquilo, manipulador",
+          "busca estafar",
+          "Reacciona a la confusión"
+        ],
+        "moves": [],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!OnRnwc2YPJ5FWRSJ.Psb1XoGMJuezQf8v"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368402892,
+    "modifiedTime": 1750368402892,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "OnRnwc2YPJ5FWRSJ",
+  "sort": 0,
+  "_key": "!actors!OnRnwc2YPJ5FWRSJ"
+}

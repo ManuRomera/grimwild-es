@@ -1,0 +1,65 @@
+{
+  "folder": "99u2UtMwTT8eluBk",
+  "name": "DJ con Moxie",
+  "_id": "G5T8lTrvGu0TC93L",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "DJ con Moxie",
+      "type": "text",
+      "_id": "d2fDhZPzxNINiLGF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 43\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Mapear la ficción con reglas</strong>. </em></span><span style=\"font-family:'Capito04VAR'\">Anima a los jugadores a centrarse en la ficción y deja que tú manejes las reglas. Cuanto más importante narrativamente sea algo, más peso mecánico debes darle.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>En un juego de intriga cortesana, matar a un dragón puede ser un montaje para un caballero, mientras que una cena importante es un desafío complejo y lleno de riesgos espantosos.</em></span></p><p><span style=\"font-family:'Capito04VAR'\">Sé creativo al aplicar las reglas, mezclándolas de maneras que no estén explícitamente establecidas. No tengas miedo de jugar. </span><span style=\"font-family:'Capito04VARItalic'\"><em>moxie </em></span><span style=\"font-family:'Capito04VAR'\">Es modular y no lo vas a romper. Injerta reglas de otros sistemas que te gusten o modifica </span><span style=\"font-family:'Capito04VARItalic'\"><em>moxie </em></span><span style=\"font-family:'Capito04VAR'\">y hazlo tuyo.</span></p><p><span style=\"font-family:'Capito04VAR'\">Si las reglas chocan con lo que tenga sentido en la ficción, la ficción gana. Comprométete con las reglas rápidamente, resuélvelas y regresa a la historia.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"¿Cómo se ve eso?\" o \"Danos una escena rápida\".</em></span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Toma decisiones para llenar los vacíos</strong>. </em></span><span style=\"font-family:'Capito04VAR'\">Las reglas son un marco flexible y no están diseñadas para cubrir todos los detalles. Cuando las cosas se pierdan, trata de interpretar la intención de las reglas y toma una decisión que se ajuste al momento. Si es una cuestión de criterio, díselo a los jugadores. Si no está seguro de una regla, toma una decisión rápida ahora y compruébela más tarde. En caso de duda, todo puede reducirse a una sola tirada de historia: pregunta a los jugadores qué quieren que suceda y luego tira para ver si así es como sucede.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Sigue el ritmo del juego cinematográficamente</strong>. </em></span><span style=\"font-family:'Capito04VAR'\">Mantén el juego fluyendo como una película con buen ritmo. No dejes que las escenas se prolonguen, </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.I4Aj7JK4MsDtnCAM]{Envuélvelo} </span><span style=\"font-family:'Capito04VAR'\">para pasar a algo más interesante. Si los jugadores no parecen interesados ​​en una situación próxima, sugiere un @UUID[Compendium.grimwild.rules.JournalEntry.hHy0ajd300aDAWxm]{Montaje}. Evita largas fases de planificación y pasa a la acción con un </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.44sUTDzcXMTbmN9i]{Establecer la escena} </span><span style=\"font-family:'Capito04VAR'\">movimiento. Recompensa a los jugadores que compren estas técnicas ofreciéndoles buenas probabilidades.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Sigue el ejemplo de los jugadores</strong>. </em></span><span style=\"font-family:'Capito04VAR'\">Mantente al tanto de los arcos de la historia y el presente </span><span style=\"font-family:'Capito04VARItalic'\"><em>drama</em></span><span style=\"font-family:'Capito04VAR'\">, </span><span style=\"font-family:'Capito04VARItalic'\"><em>dilemas</em></span><span style=\"font-family:'Capito04VAR'\">, y </span><span style=\"font-family:'Capito04VARItalic'\"><em>oportunidades </em></span><span style=\"font-family:'Capito04VAR'\">relacionadas con elloss. Sigue donde los personajes quieren ir. Presenta situaciones interesantes relacionadas con ellos. Cuando los jugadores duden o lleguen a un punto muerto, anímalos a actuar con @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Reservas de peligro}, @UUID[Compendium.grimwild.rules.JournalEntry.ZrytL42i0AD8UYXf]{Disputas}, </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.VV7uXLGhN8SS7Fzs]{Enredar}</span><span style=\"font-family:'Capito04VAR'\">, o </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.xEltzhhBRdgZ6FSn]{Puente} </span><span style=\"font-family:'Capito04VAR'\">y seguir adelante.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Usa los movimientos, o no</strong>. </em></span><span style=\"font-family:'Capito04VAR'\">Los movimientos del DJ pueden ser reglas explícitas, meras directrices o algo intermedio. Algunos DJ los llaman por su nombre, mientras que otros nunca los mencionan en absoluto. De cualquier manera, siempre que su dirección de DJ se alinee con su intención, lo estará haciendo bien.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Haz movimientos con impacto</strong>. </em></span><span style=\"font-family:'Capito04VAR'\">No te limites: @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimientos de impacto} se llaman así por una razón. Hacen avanzar la historia. Los jugadores tienen muchas herramientas a su disposición, así que </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>dale dientes al mundo</strong></em></span><span style=\"font-family:'Capito04VAR'\">. Haz que la victoria sea aún más dulce.</span></p><p><span style=\"font-family:'Capito04VAR'\">Un movimiento de un solo impacto es flexible. Puedes dividirlo en algunos efectos menores. </span><span style=\"font-family:'Capito04VARItalic'\"><em>(inflige una marca al romper su espada)</em></span><span style=\"font-family:'Capito04VAR'\">, golpear a varios PJ a la vez o hacer que la acción de un PJ afecte a un PJ totalmente diferente, aunque en ese caso obtienen una tirada de defensa.</span></p><p><span style=\"font-family:'Capito04VAR'\">Cuando un movimiento de impacto no fluye naturalmente de lo que sucede en la pantalla (</span><span style=\"font-family:'Capito04VARItalic'\"><em>común con tiradas complicadas</em></span><span style=\"font-family:'Capito04VAR'\">), piensa fuera de la pantalla y complícales la vida en otra parte o toman </span><span style=\"font-family:'Capito04VARItalic'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span style=\"font-family:'Capito04VAR'\"> y golpea más tarde con mejor sincronización dramática.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Narración inmediata del jugador</strong>. </em></span><span style=\"font-family:'Capito04VAR'\">Después de una tirada, asegúrate de que los jugadores narren cómo se desarrollan las cosas: especialmente </span><span style=\"font-family:'Capito04VARItalic'\"><em>especialmente</em></span><span style=\"font-family:'Capito04VAR'\">, con un resultado sombrío. Describir el fracaso es una excelente manera de expresar su personaje. Colabora, pero mantenlos narrando sus acciones.</span></p><p><span style=\"font-family:'Capito04VAR'\">Anímalos a jugar también entre sí, especialmente con @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Asistencias} y montajes. Pide tomas de reacción mientras se desarrollan las escenas de otros PJ para evaluar cómo se sienten al respecto o cómo su @UUID[Compendium.grimwild.rules.JournalEntry.J3qpvKK8eSPQ181G]{Vínculo} afecta su reacción.</span></p><p><span style=\"font-family:'Capito04VAR'\">Lo más importante es que, una vez que las reglas entren en juego, vuelve a la narración. Asegúrate de que el flujo siga siendo </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Ficción</strong></em></span><span style=\"font-family:'SegoeUIEmoji'\"><strong>→</strong></span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Reglas</strong></em></span><span style=\"font-family:'SegoeUIEmoji'\"><strong>→</strong></span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Ficción</strong></em></span><span style=\"font-family:'Capito04VAR'\">.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>Sé infinitamente curioso. </em></span><span style=\"font-family:'Capito04VAR'\">Haz preguntas provocativas sobre los PJ y sus motivaciones para darles a los jugadores la oportunidad de ampliar sus personajes.</span></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VARItalic'\"><em>¿Por qué demonios harías eso?</em></span></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VARItalic'\"><em>Bien, ¿a quién le robaste esa espada?</em></span></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VARItalic'\"><em>Entonces, ¿estás enojado o estás de acuerdo con eso?</em></span></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738609722972,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!G5T8lTrvGu0TC93L.d2fDhZPzxNINiLGF"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609112290,
+    "modifiedTime": 1738609112290,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!G5T8lTrvGu0TC93L"
+}

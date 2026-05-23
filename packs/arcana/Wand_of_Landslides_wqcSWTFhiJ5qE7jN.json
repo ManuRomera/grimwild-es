@@ -1,0 +1,40 @@
+{
+  "name": "Varita de deslizamientos de tierra",
+  "type": "arcana",
+  "img": "icons/weapons/staves/staff-simple-knotted.webp",
+  "system": {
+    "description": "<p>Ordena a la piedra y al suelo que suban o bajen a tu voluntad.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Enrolla Brawn para usarlo. Desestabiliza la tectónica de la región.</p>",
+    "touchstones": "tierra—control—colosal",
+    "tier": "mythic"
+  },
+  "effects": [],
+  "folder": "PNHXnKBouD6bBJIK",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "wqcSWTFhiJ5qE7jN",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768055531598,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wqcSWTFhiJ5qE7jN"
+}

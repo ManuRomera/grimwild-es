@@ -1,0 +1,89 @@
+{
+  "folder": "axv1GMaCSdy5XHII",
+  "name": "Vínculos primordiales",
+  "type": "talent",
+  "_id": "JV1UZANIFmbn1iFv",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "system": {
+    "description": "<p>Tienes un vínculo con cada uno de los elementos primordiales, <em><strong>Aire</strong></em>, <em><strong>Tierra</strong></em>, <em><strong>Fuego</strong></em>, y <em><strong>Agua</strong></em>. Enrolle los bonos, luego cambie uno a <em><strong>profundo</strong></em>. Tienes el lanzamiento de hechizos, tirando Presencia para invocar un elemento, que sirve como piedra de toque. Puedes invocar cada elemento una vez por sesión, o dos veces si tu vínculo es <em><strong>profundo</strong></em>. Puedes marcar dos usos de un solo elemento para lanzar un hechizo potente. Puedes combinar el uso de dos elementos para obtener +1d y utilizar ambos como piedra de toque. Los bonos cambian <em>en la suerte y en la desgracia</em>—realizar grandes hazañas y rituales para <em><strong>profundizar</strong> </em>a ellos.</p>",
+    "core": false,
+    "notes": {
+      "description": "<p><em>Escriba aquí el vínculo para cada elemento y ajuste el rastreador para el elemento que está <strong>profundo</strong>.</em></p>",
+      "label": "Vínculos"
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Aire",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      },
+      {
+        "type": "points",
+        "label": "Tierra",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      },
+      {
+        "type": "points",
+        "label": "Fuego",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      },
+      {
+        "type": "points",
+        "label": "Agua",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      }
+    ],
+    "path": "druid"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739109608751,
+    "modifiedTime": 1739139013727,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!JV1UZANIFmbn1iFv"
+}

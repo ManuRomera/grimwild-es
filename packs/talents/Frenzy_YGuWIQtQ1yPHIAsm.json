@@ -1,0 +1,50 @@
+{
+  "folder": "stI4BJrCCbXWUzHc",
+  "name": "Frenesí",
+  "type": "talent",
+  "_id": "YGuWIQtQ1yPHIAsm",
+  "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+  "system": {
+    "description": "<p>Una vez por sesión, o cuando te ensangrentes o te enojes, puedes ingresar a un <strong>frenesí</strong> para una escena. Durante el frenesí, sólo puedes realizar acciones agresivas. También:</p><p>◆ Toma +1d por cada marca que tengas e ignora todas las espinas de daños y marcas.<br/>◆ Infligir <em><strong>daño colateral</strong></em> en cada tirada de acción, independientemente del resultado. Debes elegir uno: <em>enviar algo volando</em>—<em>aplastar secuaces</em>—<em>lanzar insultos</em>—<em>arruinar algo</em>.<br/>◆ Siempre obtenga una acción final cuando se caiga. En caso crítico, ignora que te dejen caer.</p><p>Sólo puedes salir de un frenesí cuando <em>ningún retador se enfrenta a ti</em>, te dejan caer o <em><strong>esfuérzate</strong></em> para calmarse.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 3 niveles, gana 1 activación gratuita de esto por sesión.</p>",
+    "core": true,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Frenesí",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      }
+    ],
+    "path": "Berserker"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739062678115,
+    "modifiedTime": 1739064873704,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!YGuWIQtQ1yPHIAsm"
+}

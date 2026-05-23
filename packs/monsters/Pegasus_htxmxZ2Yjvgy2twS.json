@@ -1,0 +1,186 @@
+{
+  "folder": null,
+  "name": "Pegaso",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Caballos majestuosos, alados y de espíritu noble. Surcan los cielos, atraídos por aquellos con coraje y bondad, y aparecen en momentos de extrema necesidad.</p>",
+    "notes": "",
+    "role": "protector",
+    "tier": "tough",
+    "traits": [
+      "Volador elegante",
+      "De corazón puro",
+      "Entiende el lenguaje"
+    ],
+    "moves": [
+      "Carga alada",
+      "Aletazo",
+      "Relincho celestial"
+    ],
+    "desires": [
+      {
+        "value": "para acudir en ayuda en momentos espantosos.",
+        "are": false
+      },
+      {
+        "value": "para ser montado.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Gris Plata",
+          "color": "#c0c0c0"
+        },
+        {
+          "name": "azul cielo",
+          "color": "#b0c4dd"
+        },
+        {
+          "name": "nube blanca",
+          "color": "#e4e7ec"
+        }
+      ],
+      "sights": "plumas brillantes, andar elegante",
+      "sounds": "poderosos aleteos, suaves relinchos, viento que sopla",
+      "smells": "aire fresco, leve aroma a flores silvestres"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Mensajes llevados",
+        "instructions": "",
+        "table": [
+          [
+            "Citación real, sellada con cera encantada.",
+            "Carta de amor llena de terrible poesía.",
+            "Plan de batalla garabateado apresuradamente.",
+            "Súplica desesperada de un enemigo jurado.",
+            "Nota de rescate atada con una Roper negra.",
+            "Declaración oficial de invasión."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Pegaso",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368443999,
+    "modifiedTime": 1750368443999,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "htxmxZ2Yjvgy2twS",
+  "sort": 0,
+  "_key": "!actors!htxmxZ2Yjvgy2twS"
+}

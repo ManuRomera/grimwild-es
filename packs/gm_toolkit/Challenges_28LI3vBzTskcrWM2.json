@@ -1,0 +1,65 @@
+{
+  "folder": "ZYf6ozP1kinf3leD",
+  "name": "Desafíos",
+  "_id": "28LI3vBzTskcrWM2",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Desafíos",
+      "type": "text",
+      "_id": "OHw9EMj5ymkUqndc",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 36\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Un marco para representar </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>tareas</strong></em></span><span style=\"font-family:'Capito04VAR'\">, </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>obstáculos</strong></em></span><span style=\"font-family:'Capito04VAR'\">, </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>enemigos</strong></em></span><span style=\"font-family:'Capito04VAR'\">, y </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>escenarios</strong> </em></span><span style=\"font-family:'Capito04VAR'\">que tienen mayor tenacidad y complejidad de la que una sola acción puede lograr. <strong>Desafíos</strong> le permitirá seguir el progreso hacia ellos, pero también oponerse proactivamente a los PJ. cada uno tiene </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>2 de bonificación </strong></em>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}<em> </em></span><span style=\"font-family:'Capito04VAR'\">para gastar en movimientos relacionados con él, y un</span><span style=\"font-family:'Capito04VARItalic'\"><em><strong> </strong></em> @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Reserva de tarea} </span><span style=\"font-family:'Capito04VAR'\">para representar su tenacidad o complejidad. También pueden tener:</span></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆  </span><span style=\"font-family:'Capito04VAR'\"><strong>Rasgos</strong> (</span><span style=\"font-family:'SegoeUIEmoji'\">✱</span><span style=\"font-family:'Capito04VAR'\">): Cualidades que tienen con un fuerte impacto narrativo, imponiendo espinas, negando permisos o cambiando de posición.</span></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆  </span><span style=\"font-family:'Capito04VAR'\"><strong>Movimientos</strong> (</span><span style=\"font-family:'SegoeUIEmoji'\">◉</span><span style=\"font-family:'Capito04VAR'\">): Movimientos de impacto sugeridos que podrían realizar. Estos son ejemplos, no limitaciones.</span></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆  </span><span style=\"font-family:'Capito04VAR'\"><strong>Estado de fallo</strong> (</span><span style=\"font-family:'SegoeUIEmoji'\">✘</span><span style=\"font-family:'Capito04VAR'\">): Un disparador que indica que el desafío falló, como una reserva de temporizador de competencia o un evento específico. indica </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.Dsh3aKJ3gboNE9Qo]{Fíjalo}</span><span style=\"font-family:'Capito04VAR'\">.</span></p><p><span style=\"font-family:'Capito04VAR'\">Interpreta estas frases breves y evocadoras según se ajusten a la situación. Mantén tus propios desafíos creados igualmente breves y flexibles. Algunos usos:</span></p><ul style=\"list-style-type:none\"><li><p><span style=\"font-family:'SegoeUIEmoji'\">◆  </span><span style=\"font-family:'Capito04VAR'\">Crea un enemigo peligroso o una tarea excepcionalmente difícil.</span></p></li><li><p><span style=\"font-family:'Capito04VARItalic'\"><em>Navegar por un paso de montaña. Lucha contra el mago rebelde. Haz que el alcalde pague.</em></span></p></li><li><p><span style=\"font-family:'SegoeUIEmoji'\">◆  </span><span style=\"font-family:'Capito04VAR'\">Acércate a los momentos cruciales.</span></p></li><li><p><span style=\"font-family:'Capito04VARItalic'\"><em>Desactiva una trampa compleja. Completa el ritual. Corteja al príncipe.</em></span></p></li><li><p><span style=\"font-family:'SegoeUIEmoji'\">◆  </span><span style=\"font-family:'Capito04VAR'\">Aléjate para agrupar las tareas relacionadas en un solo objetivo.</span></p></li><li><p><span style=\"font-family:'Capito04VARItalic'\"><em>Evadir a los guardias del castillo. Localiza a los criminales. Organizar un motín.</em></span></p></li><li><p><span style=\"font-family:'SegoeUIEmoji'\">◆  </span><span style=\"font-family:'Capito04VAR'\">Convierte un concepto amplio en un objetivo viable.</span></p></li><li><p><span style=\"font-family:'Capito04VARItalic'\"><em>Restaurar el templo profanado. Asegurar alianzas suficientes. Expía tus pecados.</em></span></p></li></ul></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738609325085,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!28LI3vBzTskcrWM2.OHw9EMj5ymkUqndc"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609106510,
+    "modifiedTime": 1738609106510,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!28LI3vBzTskcrWM2"
+}

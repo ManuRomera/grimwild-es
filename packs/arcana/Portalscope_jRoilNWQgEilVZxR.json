@@ -1,0 +1,53 @@
+{
+  "name": "Portalscopio",
+  "type": "arcana",
+  "img": "icons/tools/navigation/spyglass-telescope-brass.webp",
+  "system": {
+    "description": "<p>Te teletransporta instantáneamente de forma segura a un lugar donde puedas ver a través de él.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Usos",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": false
+        },
+        "pool": {
+          "diceNum": 0
+        }
+      }
+    ],
+    "limitations": "<p>De un solo uso, luego vuelve a ser un catalejo mundano.</p>",
+    "touchstones": "teletransportación—visión—escape",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "jRoilNWQgEilVZxR",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "grimwild",
+    "systemVersion": "0.3.1",
+    "createdTime": null,
+    "modifiedTime": 1768054906265,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!jRoilNWQgEilVZxR"
+}

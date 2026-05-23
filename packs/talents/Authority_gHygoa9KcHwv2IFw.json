@@ -1,0 +1,50 @@
+{
+  "folder": "y6k4T3gOk4ZxsYPe",
+  "name": "Autoridad",
+  "type": "talent",
+  "_id": "gHygoa9KcHwv2IFw",
+  "img": "icons/magic/perception/eye-ringed-green.webp",
+  "system": {
+    "description": "<p>Tu presencia llena el aire de autoridad. El DJ juzga la respuesta de un PNJ, o puedes gastar historia para configurarla: <em>admiración—obediencia—respeto—desafío</em>. Puede <strong>esfuérzate</strong> para lograr un <em><strong>potente hazaña de mando justo</strong></em>, como <em>ordenar a un demonio que se arrodille </em>o <em>silenciar un motín con una palabra</em>.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Empujar",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      }
+    ],
+    "path": "paladin"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739115233991,
+    "modifiedTime": 1739745884060,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!gHygoa9KcHwv2IFw"
+}

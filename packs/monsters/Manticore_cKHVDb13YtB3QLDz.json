@@ -1,0 +1,186 @@
+{
+  "folder": null,
+  "name": "Mantícora",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Bestias feroces con cuerpo felino y cola puntiaguda. Merodean por desiertos y llanuras, haciendo huir a sus presas y luego lanzándoles ráfagas de mortíferas púas en la cola.</p>",
+    "notes": "",
+    "role": "marksman",
+    "tier": "tough",
+    "traits": [
+      "Piel de púas",
+      "Precavido",
+      "Habla (crudo)"
+    ],
+    "moves": [
+      "Palabras crueles",
+      "Volea de púas",
+      "Rugido aterrador"
+    ],
+    "desires": [
+      {
+        "value": "para asustar a su presa y hacerla huir para matarla fácilmente.",
+        "are": false
+      },
+      {
+        "value": "para dejar escapar a la presa que huye.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Marrón quemado",
+          "color": "#261618"
+        },
+        {
+          "name": "Ocre del desierto",
+          "color": "#8b4512"
+        },
+        {
+          "name": "Amanecer polvoriento",
+          "color": "#b19f5f"
+        }
+      ],
+      "sights": "Púas en los árboles, nubes de polvo, largos rastros de sangre.",
+      "sounds": "rugidos guturales, crujidos agudos de púas al aterrizar",
+      "smells": "Pelaje seco, polvo acre, aroma felino almizclado."
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Emparejamientos simbióticos",
+        "instructions": "",
+        "table": [
+          [
+            "Wyvern, caza presas heridas.",
+            "Gigante de la colina, lo convierte en una cama cómoda.",
+            "Basilisco, espera petrificar a los objetivos que escapan.",
+            "Minotauro, lo deja refugiarse en el laberinto.",
+            "Quimera, un tenso pacto de caza.",
+            "Underscourge, lo sigue desde abajo."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Mantícora",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368434440,
+    "modifiedTime": 1750368434440,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "cKHVDb13YtB3QLDz",
+  "sort": 0,
+  "_key": "!actors!cKHVDb13YtB3QLDz"
+}

@@ -1,0 +1,186 @@
+{
+  "folder": null,
+  "name": "Doppelganger",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Figuras que cambian de forma con piel gris y sin rasgos distintivos. Pueden imitar perfectamente a cualquier humanoide e infiltrarse en sociedades para lograr sus propios objetivos misteriosos.</p>",
+    "notes": "",
+    "role": "trickster",
+    "tier": "tough",
+    "traits": [
+      "Cambiador de forma",
+      "Lector de mentes",
+      "Habla, Telepatía"
+    ],
+    "moves": [
+      "Apariencia del turno",
+      "Sonda mental",
+      "Grito psíquico"
+    ],
+    "desires": [
+      {
+        "value": "para experimentar nuevas vidas.",
+        "are": false
+      },
+      {
+        "value": "su verdadera forma para ser vista.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Gris neutro",
+          "color": "#7a7d82"
+        },
+        {
+          "name": "",
+          "color": null
+        },
+        {
+          "name": "",
+          "color": null
+        }
+      ],
+      "sights": "rasgos faciales cambiantes, cambios sutiles de postura",
+      "sounds": "silencio desconcertante, suave autoreprimenda",
+      "smells": "un olor totalmente inesperado de esa persona"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Identidades que conoces",
+        "instructions": "",
+        "table": [
+          [
+            "Consejero de confianza de Noble, lo conocí el invierno pasado.",
+            "La penúltima persona que conocieron los PJ.",
+            "El viejo amor de un PJ, que se creía muerto hace mucho tiempo.",
+            "Monje errante, visto hace sólo unos días.",
+            "PJ anterior, de esta campaña o de otra.",
+            "Ladrón ejecutado, ahora libre."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Doppelganger",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368384874,
+    "modifiedTime": 1750368384874,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "o8DARi7C5xH9AwWE",
+  "sort": 0,
+  "_key": "!actors!o8DARi7C5xH9AwWE"
+}

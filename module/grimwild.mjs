@@ -1,0 +1,505 @@
+// Import document classes.
+import { GrimwildActor } from "./documents/actor.mjs";
+import { GrimwildItem } from "./documents/item.mjs";
+import { GrimwildChatMessage } from "./documents/chat-message.mjs";
+import { GrimwildCombat, GrimwildCombatTracker } from "./documents/combat.mjs";
+import { GrimwildRollTable } from "./documents/roll-table.mjs";
+// Import sheet classes.
+import { GrimwildActorSheet } from "./sheets/actor-sheet.mjs";
+import { GrimwildActorSheetVue } from "./sheets/actor-sheet-vue.mjs";
+import { GrimwildActorMonsterSheetVue } from "./sheets/actor-monster-sheet-vue.mjs";
+import { GrimwildItemSheet } from "./sheets/item-sheet.mjs";
+import { GrimwildItemSheetVue } from "./sheets/item-sheet-vue.mjs";
+import { GrimwildRollTableCrucibleSheet } from "./sheets/table-crucible-sheet.mjs";
+import { GrimwildRollDialog } from "./apps/roll-dialog.mjs";
+// Import helper/utility classes and constants.
+import { GRIMWILD } from "./helpers/config.mjs";
+import * as dice from "./dice/_module.mjs";
+import * as utils from "./helpers/utils.js";
+// Import DataModel classes
+import * as models from "./data/_module.mjs";
+
+import { SUSPENSE_TRACKER } from "./controls/suspense.mjs";
+import { GrimwildTokenHud } from "./apps/token-hud.mjs";
+
+/* -------------------------------------------- */
+/*  Init Hook                                   */
+/* -------------------------------------------- */
+
+// Add key classes to the global scope so they can be more easily used
+// by downstream developers
+globalThis.grimwild = {
+	documents: {
+		GrimwildActor,
+		GrimwildItem,
+		GrimwildChatMessage,
+		GrimwildCombat,
+		GrimwildRollTable
+	},
+	applications: {
+		GrimwildActorSheet,
+		GrimwildActorSheetVue,
+		GrimwildActorMonsterSheetVue,
+		GrimwildItemSheet,
+		GrimwildItemSheetVue,
+		GrimwildCombatTracker,
+		GrimwildRollTableCrucibleSheet,
+		GrimwildRollDialog
+	},
+	utils: {
+		rollItemMacro
+	},
+	models,
+	roll: dice.GrimwildRoll,
+	rollCrucible: dice.GrimwildCrucibleRoll,
+	diePools: dice.GrimwildDiePoolRoll
+};
+
+Hooks.once("init", function () {
+	// Add custom constants for configuration.
+	CONFIG.GRIMWILD = GRIMWILD;
+
+	/**
+	 * Set an initiative formula for the system
+	 * @type {string}
+	 */
+	CONFIG.Combat.initiative = {
+		formula: "d20",
+		decimals: 0
+	};
+
+	// Dice.
+	CONFIG.Dice.GrimwildRoll = dice.GrimwildRoll;
+	CONFIG.Dice.rolls.push(dice.GrimwildRoll);
+	CONFIG.Dice.GrimwildDicePool = dice.GrimwildDiePoolRoll;
+	CONFIG.Dice.rolls.push(dice.GrimwildDiePoolRoll);
+	CONFIG.Dice.GrimwildCrucibleRoll = dice.GrimwildCrucibleRoll;
+	CONFIG.Dice.rolls.push(dice.GrimwildCrucibleRoll);
+
+	// Define custom Document and DataModel classes
+	CONFIG.Actor.documentClass = GrimwildActor;
+
+	// Note that you don't need to declare a DataModel
+	// for the base actor/item classes - they are included
+	// with the Character/Monster as part of super.defineSchema()
+	CONFIG.Actor.dataModels = {
+		character: models.GrimwildCharacter,
+		monster: models.GrimwildMonster,
+		linkedChallenge: models.GrimwildLinkedChallenge
+	};
+	CONFIG.Item.documentClass = GrimwildItem;
+	CONFIG.Item.dataModels = {
+		talent: models.GrimwildTalent,
+		arcana: models.GrimwildArcana,
+		challenge: models.GrimwildChallenge
+	};
+
+	// Override chat message class.
+	CONFIG.ChatMessage.documentClass = grimwild.documents.GrimwildChatMessage;
+
+	// Override combat classes.
+	CONFIG.Combat.documentClass = grimwild.documents.GrimwildCombat;
+	CONFIG.ui.combat = grimwild.applications.GrimwildCombatTracker;
+	CONFIG.Token.hudClass = GrimwildTokenHud;
+
+	// Override the rolltable class.
+	CONFIG.RollTable.documentClass = grimwild.documents.GrimwildRollTable;
+
+	// Register sheet application classes
+	foundry.documents.collections.Actors.unregisterSheet("core", foundry.appv1.sheets.ActorSheet);
+	foundry.documents.collections.Actors.registerSheet("grimwild", GrimwildActorMonsterSheetVue, {
+		makeDefault: true,
+		label: "GRIMWILD.SheetLabels.Actor",
+		types: ["monster", "linkedChallenge"]
+	});
+	foundry.documents.collections.Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
+		makeDefault: true,
+		label: "GRIMWILD.SheetLabels.Actor",
+		types: ["character"]
+	});
+	foundry.documents.collections.Items.unregisterSheet("core", foundry.appv1.sheets.ItemSheet);
+	foundry.documents.collections.Items.registerSheet("grimwild", GrimwildItemSheet, {
+		makeDefault: false,
+		label: "GRIMWILD.SheetLabels.Item"
+	});
+	foundry.documents.collections.Items.registerSheet("grimwild", GrimwildItemSheetVue, {
+		makeDefault: true,
+		label: "GRIMWILD.SheetLabels.Item",
+		types: ["talent", "challenge", "arcana"]
+	});
+	foundry.documents.collections.RollTables.registerSheet("grimwild", GrimwildRollTableCrucibleSheet, {
+		makeDefault: false,
+		label: "GRIMWILD.SheetLabels.RollTable"
+	});
+
+	// Handlebars utilities.
+	utils.preloadHandlebarsTemplates();
+	utils.registerHandlebarsHelpers();
+
+	// Custom settings.
+	// Slow XP.
+	game.settings.register("grimwild", "slowXp", {
+		name: game.i18n.localize("GRIMWILD.Settings.slowXp.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.slowXp.hint"),
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: false,
+		requiresReload: true
+	});
+
+	game.settings.register("grimwild", "tokenActions", {
+		name: game.i18n.localize("GRIMWILD.Settings.tokenActions.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.tokenActions.hint"),
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: false,
+		requiresReload: true
+	});
+
+	// Override 3d dice.
+	if (game.modules.get("dice-so-nice")) {
+		game.settings.register("grimwild", "diceSoNiceOverride", {
+			name: game.i18n.localize("GRIMWILD.Settings.diceSoNiceOverride.name"),
+			hint: game.i18n.localize("GRIMWILD.Settings.diceSoNiceOverride.hint"),
+			scope: "client",
+			config: true,
+			type: Boolean,
+			default: false
+		});
+	}
+
+	// Hook into Foundry's dice rolling system
+	const originalCreate = Roll.create;
+
+	// Override the Roll.create method
+	Roll.create = function (formula) {
+		// Custom logic to handle "1d" and "1d1t"
+		const originalFormula = [...formula].join("");
+
+		// @todo find a way to handle something like `/r pool 4d`
+		// Handle raw dice pools.
+		formula = formula.replace(/\b(\d*)p\b/gi, (match, x) => {
+			// If "p" is alone, treat it as a d6 pool.
+			const diceX = x || 1;
+			return `{${diceX}d6}`;
+		});
+		if (originalFormula !== formula) {
+			return new dice.GrimwildDiePoolRoll(formula);
+		}
+
+		// Handle raw d6 rolls.
+		formula = formula.replace(/\b(\d*)d\b/gi, (match, x) => {
+			// If "d" is alone, treat it as "d6"
+			const diceX = x || 1; // Default to 1 if no number is provided
+			return `{${diceX}d6kh, 0d8}`;
+		});
+
+		// Handle raw d6 + thorn rolls.
+		formula = formula.replace(/\b(\d*)d(\d*)t\b/gi, (match, x, y) => {
+			// Handle "1d1t" as "1d6 + 1d8"
+			const diceX = x || 1; // Default to 1 if no number is provided
+			const diceY = y || 1; // Default to 1 if no number is provided
+			return `{${diceX}d6kh, ${diceY}d8}`;
+		});
+
+		// If we've made any changes, then this is a GrimwildRoll
+		if (originalFormula !== formula) {
+			return new dice.GrimwildRoll(formula);
+		}
+
+		// Call the original Roll.create for other cases
+		return originalCreate.call(this, formula);
+	};
+
+	SUSPENSE_TRACKER.init();
+
+	// Enable harm pools.
+	game.settings.register("grimwild", "enableHarmPools", {
+		name: game.i18n.localize("GRIMWILD.Settings.enableHarmPools.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.enableHarmPools.hint"),
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: false,
+		requiresReload: true
+	});
+
+	game.settings.register("grimwild", "maxBloodied", {
+		name: game.i18n.localize("GRIMWILD.Settings.maxBloodied.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.maxBloodied.hint"),
+		scope: "world",
+		config: true,
+		type: Number
+	});
+
+	game.settings.register("grimwild", "maxRattled", {
+		name: game.i18n.localize("GRIMWILD.Settings.maxRattled.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.maxRattled.hint"),
+		scope: "world",
+		config: true,
+		type: Number
+	});
+});
+
+/* -------------------------------------------- */
+/*  Handlebars Helpers                          */
+/* -------------------------------------------- */
+
+// If you need to add Handlebars helpers, here is a useful example:
+Handlebars.registerHelper("toLowerCase", function (str) {
+	return str.toLowerCase();
+});
+
+/* -------------------------------------------- */
+/*  Setup Hook                                  */
+/* -------------------------------------------- */
+Hooks.once("setup", function () {
+	CONFIG.TextEditor.enrichers.push(
+		{
+			pattern: /@CRUCIBLE\[([^\]]*)\]{*([^}]*)}*/gim,
+			enricher: async (match, options) => {
+				const [fullMatch, uuid, content] = match;
+				const el = document.createElement("div");
+				el.innerHTML = `${content}`;
+
+				const rollTable = await fromUuid(uuid);
+				if (rollTable && rollTable.isCrucible()) {
+					el.innerHTML = `
+					<div class="crucible-results">
+						<div class="flexrow">
+							<strong>${rollTable.name}</strong>
+							<button type="button" data-uuid="${uuid}" class="enriched-crucible-roll"><i class="fas fa-dice-d6"></i> ${game.i18n.localize("GRIMWILD.UI.rollCrucible")}</button>
+						</div>
+						<table class="flexcol">
+							<tbody class="scrollable grid grid-6col">
+							${rollTable.results.map((result) => `<tr class="flexrow"><td>${result.name}</td></tr>`).join("")}
+							</tbody>
+						</table>
+					</div>
+					`;
+					return el;
+				}
+
+				return fullMatch;
+			}
+		}
+	);
+});
+
+/* -------------------------------------------- */
+/*  Ready Hook                                  */
+/* -------------------------------------------- */
+
+Hooks.once("ready", function () {
+	// Wait to register hotbar drop hook on ready so that modules could register earlier if they want to
+	Hooks.on("hotbarDrop", (bar, data, slot) => createDocMacro(data, slot));
+
+	// Handle sockets.
+	game.socket.on("system.grimwild", (options) => {
+		// Limit to the active GM.
+		if (game.users.activeGM.id === game.user.id) {
+			// Handle the updateMessage type.
+			if (options.type === "updateMessage") {
+				if (options.flag && options.data) {
+					const message = game.messages.get(options.message);
+					if (message) {
+						const [scope, key] = options.flag.split(".");
+						message.setFlag(scope, key, options.data);
+					}
+				}
+			}
+		}
+	});
+
+	document.addEventListener("click", async (event) => {
+		if (event.target?.classList.contains("enriched-crucible-roll")) {
+			event.preventDefault();
+			const { uuid } = event.target.dataset;
+			if (uuid) {
+				const rollTable = await fromUuid(uuid);
+				if (rollTable.isCrucible()) {
+					rollTable.rollCrucible({ toMessage: true });
+				}
+			}
+		}
+
+		if (event.target?.classList.contains("create-crucible")) {
+			event.preventDefault();
+			const label = game.i18n.format("DOCUMENT.Create", { type: game.i18n.localize("GRIMWILD.UI.crucibleTable") });
+			try {
+				const crucibleName = await foundry.applications.api.DialogV2.prompt({
+					window: { title: label },
+					content: `
+						<div class="form-group">
+							<label for="name">${game.i18n.localize("Name")}</label>
+							<input name="name" type="text" value="" placeholder="${game.i18n.localize("GRIMWILD.UI.crucibleName")}" autofocus/>
+						</div>`,
+					ok: {
+						label: label,
+						callback: (event, button, dialog) => button.form.elements.name.value
+					}
+				});
+				const defaultData = Array.fromRange(36, 1).map((result) => {
+					return {
+						name: "",
+						range: [result, result],
+						weight: 1,
+						type: "text"
+					};
+				});
+				RollTable.create({
+					name: crucibleName?.length > 0 ? crucibleName : game.i18n.localize("GRIMWILD.UI.crucible"),
+					formula: "1d36",
+					results: defaultData,
+					flags: {
+						core: {
+							sheetClass: "grimwild.GrimwildRollTableCrucibleSheet"
+						}
+					}
+				});
+			}
+			catch(error) {
+				console.error(error);
+
+			}
+		}
+	});
+});
+
+Hooks.once("renderHotbar", function () {
+	SUSPENSE_TRACKER.render();
+});
+
+Hooks.on("updateScene", (document, changed, options, userId) => {
+	if (document.flags?.grimwild?.quickPools) {
+		SUSPENSE_TRACKER.render();
+	}
+});
+
+Hooks.on("renderSceneControls", (application, html, data) => {
+	SUSPENSE_TRACKER.render();
+});
+
+Hooks.on("renderDocumentDirectory", (application, html, data) => {
+	if (data.documentName === "RollTable") {
+		html.querySelector(".header-actions").insertAdjacentHTML("afterbegin", `
+			<button type="button" class="create-crucible" data-action="createCrucible"><i class="fas fa-grip"></i><span>${game.i18n.format("DOCUMENT.Create", { type: game.i18n.localize("GRIMWILD.UI.crucible") })}</span></button>
+		`);
+	}
+});
+
+/* -------------------------------------------- */
+/*  Dice So Nice                                */
+/* -------------------------------------------- */
+Hooks.once("diceSoNiceReady", (dice3d) => {
+	dice3d.addSystem({ id: "grimwild", name: game.i18n.localize("GRIMWILD.Settings.Grimwild") });
+	dice3d.addDicePreset({
+		system: "grimwild",
+		type: "d6",
+		labels: [
+			"systems/grimwild/assets/dice/d6-1.png",
+			"systems/grimwild/assets/dice/d6-2.png",
+			"systems/grimwild/assets/dice/d6-3.png",
+			"systems/grimwild/assets/dice/d6-4.png",
+			"systems/grimwild/assets/dice/d6-5.png",
+			"systems/grimwild/assets/dice/d6-6.png"
+		]
+	});
+	dice3d.addDicePreset({
+		system: "grimwild",
+		type: "d8",
+		labels: [
+			"systems/grimwild/assets/dice/d8-1.png",
+			"systems/grimwild/assets/dice/d8-2.png",
+			"systems/grimwild/assets/dice/d8-3.png",
+			"systems/grimwild/assets/dice/d8-4.png",
+			"systems/grimwild/assets/dice/d8-5.png",
+			"systems/grimwild/assets/dice/d8-6.png",
+			"systems/grimwild/assets/dice/d8-7.png",
+			"systems/grimwild/assets/dice/d8-8.png"
+		]
+	});
+	// @todo Figure out a better solution for standard dice.
+	dice3d.addColorset({
+		name: "grimwild-dark",
+		description: "Grimwild Dark",
+		category: "Grimwild",
+		foreground: "#999999",
+		background: "#333333",
+		font: "Arial",
+		outline: "#000000",
+		edge: "#444444",
+		texture: "none",
+		material: "glass"
+	});
+	// Preload grimwild dice.
+	dice3d.DiceFactory.preloadPresets(true, null, { global: { system: "grimwild" } });
+});
+
+/* -------------------------------------------- */
+/*  Hotbar Macros                               */
+/* -------------------------------------------- */
+
+/**
+ * Create a Macro from an Item drop.
+ * Get an existing item macro if one exists, otherwise create a new one.
+ * @param {object} data     The dropped data
+ * @param {number} slot     The hotbar slot to use
+ * @returns {Promise}
+ */
+async function createDocMacro(data, slot) {
+	// First, determine if this is a valid owned item.
+	if (data.type !== "Item") return;
+	if (!data.uuid.includes("Actor.") && !data.uuid.includes("Token.")) {
+		return ui.notifications.warn(
+			game.i18n.localize("GRIMWILD.Notification.OwnedItemsOnly")
+		);
+	}
+	// If it is, retrieve it based on the uuid.
+	const item = await Item.fromDropData(data);
+
+	// Create the macro command using the uuid.
+	const command = `game.grimwild.rollItemMacro("${data.uuid}");`;
+	let macro = game.macros.find(
+		(m) => m.name === item.name && m.command === command
+	);
+	if (!macro) {
+		macro = await Macro.create({
+			name: item.name,
+			type: "script",
+			img: item.img,
+			command: command,
+			flags: { "grimwild.itemMacro": true }
+		});
+	}
+	game.user.assignHotbarMacro(macro, slot);
+	return false;
+}
+
+/**
+ * Create a Macro from an Item drop.
+ * Get an existing item macro if one exists, otherwise create a new one.
+ * @param {string} itemUuid
+ */
+function rollItemMacro(itemUuid) {
+	// Reconstruct the drop data so that we can load the item.
+	const dropData = {
+		type: "Item",
+		uuid: itemUuid
+	};
+	// Load the item from the uuid.
+	Item.fromDropData(dropData).then((item) => {
+		// Determine if the item loaded and if it's an owned item.
+		if (!item || !item.parent) {
+			const itemName = item?.name ?? itemUuid;
+			return ui.notifications.warn(
+				`Could not find item ${itemName}. You may need to delete and recreate this macro.`
+			);
+		}
+
+		// Trigger the item roll
+		item.roll();
+	});
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Trasfondo",
+  "_id": "83BZRL246W4kP7jc",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Trasfondo",
+      "type": "text",
+      "_id": "rkqFfktACRQG1JIO",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Tu herencia, educación y profesión: el núcleo de tu @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Ventaja}. Eliges los dos que más influyan en quién eres ahora. Cada uno le brinda tres frases clave sabias y evocadoras que claramente amplían su ventaja.</p><p><em>El trasfondo de ragamuffin significa que aprendiste mucho de las calles; sin él, tu educación es simplemente vestirse.</em></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738610489990,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!83BZRL246W4kP7jc.rkqFfktACRQG1JIO"
+    }
+  ],
+  "folder": "vUGdoKGy7PZ2fdfW",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738366915122,
+    "modifiedTime": 1738366915122,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!83BZRL246W4kP7jc"
+}

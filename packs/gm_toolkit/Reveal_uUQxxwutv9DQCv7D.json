@@ -1,0 +1,65 @@
+{
+  "folder": "8qrZk7eOvPVdUhzZ",
+  "name": "Revelar",
+  "_id": "uUQxxwutv9DQCv7D",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Revelar",
+      "type": "text",
+      "_id": "2FihoraBCusgJKLU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 38\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VARItalic'\"><em>Pone a prueba la habilidad de un personaje.</em></span></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">PRESAGIAR </span><span style=\"font-family:'Capito04VAR'\">con una revelación obvia de una amenaza inmediatamente inminente. </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>la computadora</strong> </em></span><span style=\"font-family:'Capito04VAR'\">que toma conciencia tiene una oportunidad de reaccionar antes de que llegue el peligro. </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>La competencia del personaje guía la historia hacia adelante.</strong></em></span><span style=\"font-family:'Capito04VAR'\">. </span><span style=\"font-family:'Capito04VARItalic'\"><em>Descubriendo al asesino escondido. Un giro de engranajes delata la oscilante guadaña trampa a punto de saltar.</em></span></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!uUQxxwutv9DQCv7D.2FihoraBCusgJKLU"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609122965,
+    "modifiedTime": 1738609122965,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!uUQxxwutv9DQCv7D"
+}

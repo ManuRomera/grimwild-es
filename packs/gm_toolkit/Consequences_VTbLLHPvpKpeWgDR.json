@@ -1,0 +1,65 @@
+{
+  "folder": "WErPxEpB1oKJCPGq",
+  "name": "Consecuencias",
+  "_id": "VTbLLHPvpKpeWgDR",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Consecuencias",
+      "type": "text",
+      "_id": "UZRBBPl0350gplIN",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">¿Qué sucede cuando las cosas van mal, por tiradas fallidas, @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Temporizadores} o @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimientos de impacto}. Deberían sentir </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>duro pero justo</strong></em></span><span style=\"font-family:'Capito04VAR'\">, reflejando lo que está en juego y la gravedad de la situación. Cada tirada conlleva riesgos; de lo contrario, asuma el éxito y siga adelante.</span></p><p><span style=\"font-family:'Capito04VAR'\">El daño es una base sólida: en una pelea, las lesiones te dejan ensangrentado por defecto. Otras consecuencias, incluso las narrativas, deberían doler tanto. No existe una fórmula estricta.</span><span style=\"font-family:'Capito04VARItalic'\"><em>es un presentimiento</em></span><span style=\"font-family:'Capito04VAR'\">. Deja que la ficción te guíe y asegúrate de darle fuerza.</span></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738609779876,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!VTbLLHPvpKpeWgDR.UZRBBPl0350gplIN"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609113855,
+    "modifiedTime": 1738609113855,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!VTbLLHPvpKpeWgDR"
+}

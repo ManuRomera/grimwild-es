@@ -1,0 +1,385 @@
+{
+  "folder": null,
+  "name": "Gigante de tormenta",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Gobernantes reales del mar y el cielo, que encarnan la sabiduría y el orden natural. Convocan tormentas para imponer el equilibrio, impulsados ​​a mantener la armonía del mundo.</p>",
+    "notes": "",
+    "role": "blaster",
+    "tier": "tough",
+    "traits": [
+      "Aura crepitante",
+      "Presencia imponente",
+      "Habla"
+    ],
+    "moves": [
+      "Rayo",
+      "Tronido",
+      "Invocar tormenta"
+    ],
+    "desires": [
+      {
+        "value": "para hacer cumplir lo que considera el orden natural.",
+        "are": false
+      },
+      {
+        "value": "ver cómo el orden establecido se convierte en caos.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Azul eléctrico",
+          "color": "#4682b4"
+        },
+        {
+          "name": "Cielo nublado",
+          "color": "#b0c4dd"
+        },
+        {
+          "name": "Gris tormentoso",
+          "color": "#778898"
+        }
+      ],
+      "sights": "Crepitantes arcos de relámpagos, figura regia en el horizonte",
+      "sounds": "Estallido ensordecedor, viento soplando, zumbido estático",
+      "smells": "aire electrificado, tierra empapada de lluvia, piedra mojada"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Llega junto...",
+        "instructions": "",
+        "table": [
+          [
+            "Huracán que arrasa con el desafío.",
+            "Tornados gemelos, destrozando a los impenitentes.",
+            "Granizo que obliga a los culpables a confesar.",
+            "Tormenta eléctrica que arrasa el engaño.",
+            "Aguacero torrencial que arrasa con la corrupción.",
+            "Trombas marinas que arrastran a los malhechores ante el juicio."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Gigante de tormenta",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Tornado gemelo A",
+      "type": "challenge",
+      "_id": "RPnwAXHX6dRlhmRy",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 8,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [],
+        "moves": [
+          "Arrasa la ciudad",
+          "Aluvión de escombros"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!IvOdNeSjrmmqV8ZT.RPnwAXHX6dRlhmRy"
+    },
+    {
+      "name": "Cabeza y magia",
+      "type": "challenge",
+      "_id": "1qIwXF8G9jbHBole",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 8,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [],
+        "moves": [
+          "Estática Arcana",
+          "Invocar elementales",
+          "Rayo de hoja"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!IvOdNeSjrmmqV8ZT.1qIwXF8G9jbHBole"
+    },
+    {
+      "name": "Cuerpo y destreza",
+      "type": "challenge",
+      "_id": "nu4ekHaxUcgwIoiB",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 8,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [],
+        "moves": [
+          "Patear la pared",
+          "Lanzar torreta del castillo",
+          "Sacudirse a los escaladores"
+        ],
+        "failure": [
+          {
+            "pool": {
+              "diceNum": 0,
+              "max": null
+            },
+            "value": "✘ El rey muere"
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!IvOdNeSjrmmqV8ZT.nu4ekHaxUcgwIoiB"
+    },
+    {
+      "name": "Tornado gemelo B",
+      "type": "challenge",
+      "_id": "HdIzBUhzJbKxLPep",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 8,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [],
+        "moves": [
+          "Arrasa la ciudad",
+          "Aluvión de escombros"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!IvOdNeSjrmmqV8ZT.HdIzBUhzJbKxLPep"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368418511,
+    "modifiedTime": 1750368418511,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "IvOdNeSjrmmqV8ZT",
+  "sort": 0,
+  "_key": "!actors!IvOdNeSjrmmqV8ZT"
+}

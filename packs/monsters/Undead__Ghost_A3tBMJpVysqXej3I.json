@@ -1,0 +1,202 @@
+{
+  "folder": null,
+  "name": "No-muerto: fantasma",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Entidades espectrales ligadas al reino de los mortales, rondando lugares familiares y reviviendo momentos pasados. Su presencia aterroriza a todos los que presencian su dolor.</p>",
+    "notes": "",
+    "role": "blaster",
+    "tier": "tough",
+    "traits": [
+      "Forma etérea",
+      "Espíritu anclado",
+      "Habla"
+    ],
+    "moves": [
+      "Recuerdos compartidos",
+      "Lamento de tristeza",
+      "Sifón espiritual"
+    ],
+    "desires": [
+      {
+        "value": "hacer algo, si tan sólo pudiera recordar qué.",
+        "are": false
+      },
+      {
+        "value": "para que su presencia pase desapercibida.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Espíritu Plata",
+          "color": "#c0c0c0"
+        },
+        {
+          "name": "Niebla pálida",
+          "color": "#d7bfd7"
+        },
+        {
+          "name": "azul brumoso",
+          "color": "#b0c4dd"
+        }
+      ],
+      "sights": "figura que aparece y desaparece, cambiando sutilmente y a la deriva",
+      "sounds": "Sollozos débiles, pasos resonantes, un grito ocasional.",
+      "smells": "libros viejos, lavanda, recuerdos de la infancia."
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Asuntos pendientes",
+        "instructions": "Tira 3d6, interpreta",
+        "table": [
+          [
+            "reliquia de familia",
+            "bienes",
+            "retrato",
+            "llave",
+            "diario",
+            "reliquia"
+          ],
+          [
+            "confesión",
+            "voto",
+            "negación",
+            "oculto",
+            "susurro",
+            "promesa"
+          ],
+          [
+            "vendetta",
+            "culpa",
+            "traición",
+            "asesinato",
+            "carga",
+            "obsesión"
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "No-muerto: fantasma",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368456730,
+    "modifiedTime": 1750368456730,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "A3tBMJpVysqXej3I",
+  "sort": 0,
+  "_key": "!actors!A3tBMJpVysqXej3I"
+}

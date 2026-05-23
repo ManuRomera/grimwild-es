@@ -1,0 +1,40 @@
+{
+  "name": "Tetera reconstituyente",
+  "type": "arcana",
+  "img": "icons/consumables/drinks/coconut-fruit-milk.webp",
+  "system": {
+    "description": "<p>Prepara té caliente que elimina toda la fatiga que puedas sentir.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Tirada de defensa contra enojo cuando se bebe: puede exagerar.</p>",
+    "touchstones": "rejuvenecimiento—comodidad—exceso",
+    "tier": "minor"
+  },
+  "effects": [],
+  "folder": "oqUqojrnxgojYi6E",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "3cZhOjnEuEXWMno8",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768054858088,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!3cZhOjnEuEXWMno8"
+}

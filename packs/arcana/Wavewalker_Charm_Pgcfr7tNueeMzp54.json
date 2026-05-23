@@ -1,0 +1,54 @@
+{
+  "name": "Encanto caminante de olas",
+  "type": "arcana",
+  "img": "icons/equipment/neck/amulet-round-blue.webp",
+  "system": {
+    "description": "<p>Permite al portador caminar sobre el agua como si fuera tierra firme.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "pool",
+        "label": "Poder",
+        "pool": {
+          "diceNum": 4,
+          "max": 4
+        },
+        "points": {
+          "showSteps": false,
+          "value": 1,
+          "max": 1
+        }
+      }
+    ],
+    "limitations": "<p>4d Hundirse, activado por cualquier tirada de acción mientras se usa.</p>",
+    "touchstones": "libertad—agua—gracia",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "Pgcfr7tNueeMzp54",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768055573054,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Pgcfr7tNueeMzp54"
+}

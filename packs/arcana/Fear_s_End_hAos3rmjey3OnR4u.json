@@ -1,0 +1,40 @@
+{
+  "name": "El fin del miedo",
+  "type": "arcana",
+  "img": "icons/sundries/flags/banner-flag-pirate-blue.webp",
+  "system": {
+    "description": "<p>Cuando se vuela sobre un barco, aparece como la bandera del país de origen del espectador.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Muestra la bandera de una nación enemiga a aquellos con corazones malvados.</p>",
+    "touchstones": "bandera—engaño—esperanza",
+    "tier": "minor"
+  },
+  "effects": [],
+  "folder": "oqUqojrnxgojYi6E",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "hAos3rmjey3OnR4u",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768053392813,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hAos3rmjey3OnR4u"
+}

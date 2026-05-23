@@ -1,0 +1,186 @@
+{
+  "folder": null,
+  "name": "Minotauro",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Figuras imponentes con cabezas de toro que custodian laberintos. Acechan implacablemente sus pasadizos, cargando con fuerza salvaje a la primera señal de intrusos.</p>",
+    "notes": "",
+    "role": "brute",
+    "tier": "tough",
+    "traits": [
+      "Piel gruesa",
+      "Sentido del laberinto",
+      "Habla"
+    ],
+    "moves": [
+      "Emboscada del laberinto",
+      "Toro resopla",
+      "Lanzamiento de cuerno"
+    ],
+    "desires": [
+      {
+        "value": "víctimas a entrar en su laberinto, para satisfacer su sed de sangre.",
+        "are": false
+      },
+      {
+        "value": "sentir el aguijón de la soledad una vez más.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "cuero oscuro",
+          "color": "#4b3621"
+        },
+        {
+          "name": "Toro Marrón",
+          "color": "#8b4512"
+        },
+        {
+          "name": "Rojo Bestial",
+          "color": "#8b0101"
+        }
+      ],
+      "sights": "músculos abultados, cascos levantando polvo",
+      "sounds": "resoplidos enojados, ruido sordo de cascos hendidos contra la piedra",
+      "smells": "almizcle terroso, sangre vieja y sudor"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Diseños de laberinto",
+        "instructions": "",
+        "table": [
+          [
+            "Intrincado sistema de alcantarillado de la antigua capital.",
+            "Caminos llenos de espinas esconden hadas traviesas.",
+            "Túneles de una cueva marina, medio llenos de agua.",
+            "Caminos de piedra bordeados de frágiles espejos.",
+            "Pozo profundo con varios caminos cortados.",
+            "Bosques encantados con caminos cambiantes."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Minotauro",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368437261,
+    "modifiedTime": 1750368437261,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "jv4yMVAoNboAy8nc",
+  "sort": 0,
+  "_key": "!actors!jv4yMVAoNboAy8nc"
+}

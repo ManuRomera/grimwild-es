@@ -1,0 +1,50 @@
+{
+  "folder": "AqQ3YAkWtiAtqHH9",
+  "name": "Caminante",
+  "type": "talent",
+  "_id": "Zwe8xo1DhnYJpoks",
+  "img": "icons/magic/movement/trail-streak-pink.webp",
+  "system": {
+    "description": "<p>Puede <strong>esfuérzate</strong> para teletransportarse. Cuanto más o menos familiar sea el destino, menos preciso será el teletransporte. La autonomía máxima es de dos días de viaje. Cualquier cosa que esté a la vista y sin obstrucciones no requiere tirada; de lo contrario, haz una tirada de historia. Puedes traer a otros, tomando +1t por persona.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Empujar",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      }
+    ],
+    "path": "warlock"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739140434336,
+    "modifiedTime": 1739140434336,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!Zwe8xo1DhnYJpoks"
+}

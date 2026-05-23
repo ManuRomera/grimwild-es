@@ -1,0 +1,65 @@
+{
+  "folder": "cSF3Iw5klDLnZaJB",
+  "name": "Equipo de combate",
+  "_id": "exCu1dCPh6NH7nAe",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Equipo de combate",
+      "type": "text",
+      "_id": "Bp63jfZi2mmgsy9s",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 40\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Herramientas DJ para crear dinámicas </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>antagonistas</strong> </em></span><span style=\"font-family:'Capito04VAR'\">y </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>escenarios de combate</strong> </em></span><span style=\"font-family:'Capito04VAR'\">rápidamente. @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.M8cPhXO2ffJBIJTy]{Nivel} es el nivel de amenaza de un oponente. @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.D9XCxaiXxfGcjRg1]{Role} es una palabra clave utilizada para guiar su comportamiento en batalla y variar sus tácticas. @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.dziqdxkqsmj4DxTu]{Campos de batalla} hace que el entorno sea una parte proactiva o llena de obstáculos de la escena. Mézclalos para combates dinámicos.</span></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738609514889,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!exCu1dCPh6NH7nAe.Bp63jfZi2mmgsy9s"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609107710,
+    "modifiedTime": 1738609107710,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!exCu1dCPh6NH7nAe"
+}

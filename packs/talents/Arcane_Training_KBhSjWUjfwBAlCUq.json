@@ -1,0 +1,61 @@
+{
+  "folder": "ho2SQrFiSNOlb9od",
+  "name": "Entrenamiento arcano",
+  "type": "talent",
+  "_id": "KBhSjWUjfwBAlCUq",
+  "img": "icons/skills/trades/academics-book-study-runes.webp",
+  "system": {
+    "description": "<p>Tienes el lanzamiento de hechizos como el talento Spellcraft. Tiras Astucia y puedes lanzar 3 hechizos y 1 hechizo potente por sesión. Conoces 3 teoremas de hechizos, creados con @UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj.JournalEntryPage.oAUafgvMOjLisdE2]{Crisol de hechizos}, y puedes aprender nuevos hechizos de los pergaminos.</p>",
+    "core": false,
+    "notes": {
+      "description": "<p><em>Escribe aquí tus teoremas de hechizos.</em></p>",
+      "label": "Teoremas de hechizos"
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Hechizos",
+        "points": {
+          "value": 3,
+          "max": 3,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0
+        }
+      },
+      {
+        "type": "points",
+        "label": "Potente",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0
+        }
+      }
+    ],
+    "path": "fighter"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "grimwild",
+    "systemVersion": "0.4.0",
+    "createdTime": 1739111225522,
+    "modifiedTime": 1768698408821,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "exportSource": null
+  },
+  "_key": "!items!KBhSjWUjfwBAlCUq"
+}

@@ -1,0 +1,65 @@
+{
+  "folder": "vUGdoKGy7PZ2fdfW",
+  "name": "Estadísticas",
+  "_id": "rgrd5FQnGkUcfNDl",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Estadísticas",
+      "type": "text",
+      "_id": "qyCoSxkOHtEIVMv3",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Sus capacidades principales calificadas desde 1/<em>pobre </em>a 3/<em>excelente</em>, utilizado para tiradas de acción y defensa.</p><p><strong>QUESO DE CERDO </strong><em>Poder, amenaza, dureza. </em></p><p><strong>AGILIDAD</strong> <em>Precisión, atletismo, reflejos.</em></p><p><strong>INGENIO</strong> <em>Inteligencia, engaño, situaciones de lectura. </em></p><p><strong>PRESENCIA </strong><em>Influencia, fuerza de voluntad, lectura de personas.</em></p><p>◆ Fuerza y ​​agilidad están emparejadas <strong>físico</strong> estadísticas. </p><p>◆ El ingenio y la presencia están emparejados <strong>mental</strong> estadísticas.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!rgrd5FQnGkUcfNDl.qyCoSxkOHtEIVMv3"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738366915122,
+    "modifiedTime": 1738366915122,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!rgrd5FQnGkUcfNDl"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Espinas",
+  "_id": "CKZHOS0pAZTYwZQ9",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Espinas",
+      "type": "text",
+      "_id": "kwgKGJsnbtU3iABH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Uno o dos d8 (<em>t</em>) agregado a tu tirada por el DJ para reflejar una tarea más difícil de lo normal. Cada 7 u 8 en una espina <strong>Corte de escenas</strong> el resultado de una tirada en un paso <em>(complicado</em>→<em>sombrío)</em>.</p><p>Una tirada normal es <strong>+0t</strong>/<em>difícil</em>. El DJ añade espinas con sus <em>presentimiento</em>, dada la situación. ellos pueden hacerlo <strong>+1t</strong>/<em>muy duro </em>o <strong>+2t</strong>/<em>extremadamente duro</em>. si es en <strong>+3t</strong>/<em>imposible </em>o más, la tarea no se puede realizar; divídala en pasos o pruebe un nuevo enfoque. Si es necesario, pueden evaluar factores:</p><ul style=\"list-style-type:none\"><li><p>◆  <em><strong>Intrínseco</strong></em>: Escala, habilidad contraria, números... <em>Enorme abismo, detective experto, grupo de matones.</em></p></li><li><p>◆  <em><strong>Exterioridad</strong></em>: Medio ambiente, formación, herramientas... <em>Llueve mucho, no hay médico, la pala está rota.</em></p></li><li><p>◆  <em><strong>Intangibles</strong></em>: Sentimientos fuertes, mala información, encanto... <em>Lo amas, el mapa está equivocado, estás maldito.</em></p><p><strong>Daño</strong> a un PJ también añade espinas a una tirada, pero no cuentan para hacerla <em>imposible</em>.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!CKZHOS0pAZTYwZQ9.kwgKGJsnbtU3iABH"
+    }
+  ],
+  "folder": "x1tiKY3tWsedvhBe",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738366916457,
+    "modifiedTime": 1738366916457,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!CKZHOS0pAZTYwZQ9"
+}

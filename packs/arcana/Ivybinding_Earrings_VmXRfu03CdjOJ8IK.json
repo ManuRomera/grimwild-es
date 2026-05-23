@@ -1,0 +1,40 @@
+{
+  "name": "Pendientes vinculantes de hiedra",
+  "type": "arcana",
+  "img": "icons/commodities/treasure/plaque-wood-leaves.webp",
+  "system": {
+    "description": "<p>Los zarcillos de hiedra retienen al usuario cuando se pronuncia una orden.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>El usuario debe poder escuchar la orden.</p>",
+    "touchstones": "naturaleza—vinculación—engaño",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "VmXRfu03CdjOJ8IK",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768053763671,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VmXRfu03CdjOJ8IK"
+}

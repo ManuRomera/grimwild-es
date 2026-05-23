@@ -1,0 +1,65 @@
+{
+  "folder": "7rNlh42HUUDEXQ9f",
+  "name": "Dirigir combate",
+  "_id": "veHYoBb3khGbNClM",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Dirigir combate",
+      "type": "text",
+      "_id": "2MvkhyWfOwDcbAOa",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 41\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Cuando estalla una pelea, la acción fluye naturalmente, siguiendo el foco de atención. No existen reglas específicas que diferencien el combate de cualquier otro escenario.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><strong>No hay orden de turno</strong>. </em></span><span style=\"font-family:'Capito04VAR'\">El DJ describe el peligro inminente en la situación actual y pregunta cómo responden los PJ, o cómo toman medidas por su cuenta. El foco de atención suele estar puesto en los PJ, y las acciones del mundo se derivan de lo que hacen. Haz que los enemigos sean más proactivos al </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.BgDBVoiRbx5zUcoA]{presagio} </span><span style=\"font-family:'Capito04VAR'\">eventos y seguimiento posterior, o gasto </span><span style=\"font-family:'Capito04VARItalic'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span style=\"font-family:'Capito04VAR'\"> para hacer @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimientos de impacto}. Esto da como resultado un flujo y reflujo cinematográfico en el combate.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Las batallas ocurren en el teatro de la mente.</strong></em></span><span style=\"font-family:'Capito04VAR'\">, utilizando la imaginación compartida del grupo para realizar un seguimiento del posicionamiento ficticio de cada participante para asignar la ficción a las reglas. Sin embargo, usando </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>mapas de batalla</strong> </em></span><span style=\"font-family:'Capito04VAR'\">o dibujar mapas con minis o marcadores para rastrear ubicaciones durante una pelea también funciona bien. Esto ayuda a organizar la situación caótica, asegura que todos tengan tiempo para lucirse y mantiene alineada la imaginación de todos. No te dejes atrapar por el seguimiento detallado: actualice el mapa con cambios importantes.</span></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738610115165,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!veHYoBb3khGbNClM.2MvkhyWfOwDcbAOa"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609117631,
+    "modifiedTime": 1738609117631,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!veHYoBb3khGbNClM"
+}

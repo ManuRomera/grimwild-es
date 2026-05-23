@@ -1,0 +1,186 @@
+{
+  "folder": null,
+  "name": "Demonio: vrock",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Un demonio parecido a un buitre que se siente atraído por el caos de los campos de batalla. Esparcen esporas venenosas con cada aleteo, deleitándose con el caos que trae debajo.</p>",
+    "notes": "",
+    "role": "marauder",
+    "tier": "tough",
+    "traits": [
+      "Vuelo aterrador",
+      "Plumaje repugnante",
+      "Entiende el lenguaje"
+    ],
+    "moves": [
+      "Chillido ensordecedor",
+      "Nube de esporas",
+      "Invocar bandada"
+    ],
+    "desires": [
+      {
+        "value": "para mantener la batalla el mayor tiempo posible.",
+        "are": false
+      },
+      {
+        "value": "verse arrastrados directamente al conflicto mismo.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Gris emplumado",
+          "color": "#708090"
+        },
+        {
+          "name": "Verde enfermizo",
+          "color": "#566b30"
+        },
+        {
+          "name": "Blanco Hueso",
+          "color": "#d7d4c5"
+        }
+      ],
+      "sights": "nube de esporas, sombra oscura, plumas cubiertas de icor",
+      "sounds": "batir húmedo de alas, susurro de plumas enfermas",
+      "smells": "descomposición rancia, esporas que obstruyen las fosas nasales"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Efectos de las esporas",
+        "instructions": "",
+        "table": [
+          [
+            "Traición, envenenando la confianza entre aliados.",
+            "Terror, provocando una desesperación imprudente.",
+            "Visiones que transforman a los aliados en horrores.",
+            "Rabia que se convierte en una sed de sangre extrema.",
+            "La envidia, que engendra una ambición traicionera.",
+            "Heroísmo, convirtiéndose en locura abnegada."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Demonio: vrock",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368366750,
+    "modifiedTime": 1750368379620,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "588OtbbaS3lUhBH3",
+  "sort": 1100000,
+  "_key": "!actors!588OtbbaS3lUhBH3"
+}

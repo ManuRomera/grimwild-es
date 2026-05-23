@@ -1,0 +1,65 @@
+{
+  "folder": "ST2i2VfNYCsjRvDu",
+  "name": "Mejoras",
+  "_id": "wGlm4Lnx2a9wQtKE",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Mejoras",
+      "type": "text",
+      "_id": "2tZSeSez8JaX7Klz",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Efectos beneficiosos <em>(intrépido, invisible) </em>que amplían @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Ventaja}, facilitan tareas, hacen que las tiradas sean innecesarias o brindan asistencia externa. Si le das un beneficio a un aliado que persiste en tu ausencia, puedes @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Asistir} tiradas relevantes sin riesgo.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738611070988,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!wGlm4Lnx2a9wQtKE.2tZSeSez8JaX7Klz"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738510550844,
+    "modifiedTime": 1738510550844,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!wGlm4Lnx2a9wQtKE"
+}

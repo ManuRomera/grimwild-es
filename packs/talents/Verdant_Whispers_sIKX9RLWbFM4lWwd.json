@@ -1,0 +1,36 @@
+{
+  "folder": "axv1GMaCSdy5XHII",
+  "name": "Susurros verdes",
+  "type": "talent",
+  "_id": "sIKX9RLWbFM4lWwd",
+  "img": "icons/magic/nature/tree-animated-smile.webp",
+  "system": {
+    "description": "<p>Puedes comunicarte con las plantas, cuyas personalidades son tan extrañas y únicas como sus formas. <em><strong>Tira Ingenio para descifrar sus mensajes</strong></em>, recuerda que casi hablan de maneras realmente difíciles de entender. Siempre obtienes un <strong>pista</strong> o <strong>revelar</strong> sobre la vigilancia en lugares llenos de vida vegetal.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "path": "druid"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739109608751,
+    "modifiedTime": 1739109608751,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!sIKX9RLWbFM4lWwd"
+}

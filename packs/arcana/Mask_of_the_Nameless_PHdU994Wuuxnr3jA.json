@@ -1,0 +1,53 @@
+{
+  "name": "Máscara del Sin Nombre",
+  "type": "arcana",
+  "img": "icons/equipment/head/mask-carved-wood-white.webp",
+  "system": {
+    "description": "<p>Borra tu identidad de la mente de todos.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Usos",
+        "points": {
+          "value": 3,
+          "max": 3,
+          "showSteps": false
+        },
+        "pool": {
+          "diceNum": 0
+        }
+      }
+    ],
+    "limitations": "<p>Sólo utilizable tres veces. Aleatoriamente temporal o permanente.</p>",
+    "touchstones": "anonimato—rostro—olvido",
+    "tier": "mythic"
+  },
+  "effects": [],
+  "folder": "PNHXnKBouD6bBJIK",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "PHdU994Wuuxnr3jA",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "grimwild",
+    "systemVersion": "0.3.1",
+    "createdTime": null,
+    "modifiedTime": 1768054057545,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PHdU994Wuuxnr3jA"
+}

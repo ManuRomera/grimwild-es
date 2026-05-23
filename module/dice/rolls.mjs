@@ -1,0 +1,137 @@
+export default class GrimwildRoll extends Roll {
+	static CHAT_TEMPLATE = "systems/grimwild/templates/chat/roll-action.hbs";
+
+	constructor(formula, data, options) {
+		super(formula, data, options);
+		if (game.dice3d && game.settings.get("grimwild", "diceSoNiceOverride")) {
+			if (!this.options.appearance) this.options.appearance = {};
+			this.options.appearance.system = "grimwild";
+			this.options.appearance.colorset = "grimwild-dark";
+		}
+	}
+
+	async render({ flavor, template=this.constructor.CHAT_TEMPLATE, isPrivate=false }={}) {
+		if (!this._evaluated) await this.evaluate();
+
+		const chatData = {
+			formula: isPrivate ? "???" : this._formula,
+			flavor: isPrivate ? null : flavor ?? this.options.flavor,
+			user: game.user.id,
+			tooltip: isPrivate ? "" : await this.getTooltip(),
+			total: isPrivate ? "?" : this.total,
+			dice: this.dice[0].results,
+			thorns: this.dice[1].results,
+			stat: this.options?.stat ?? null,
+			assists: {},
+			crit: false,
+			success: 0,
+			rawSuccess: 0,
+			rawResult: "",
+			isCut: false,
+			isPrivate: isPrivate,
+			hasActions: false
+		};
+
+		if (this.options.pool) {
+			const dropped = chatData.dice.slice(0, this.options.pool.diceNum).filter((die) => die.result < 4);
+			chatData.startPool = !isPrivate
+				? `${this.options.pool.diceNum}d`
+				: "???";
+			chatData.endPool = !isPrivate
+				? `${this.options.pool.diceNum - dropped.length}d`
+				: "???";
+		}
+
+		const sixes = chatData.dice.filter((die) => die.result === 6);
+		const cuts = chatData.thorns.filter((die) => die.result >= 7);
+
+		const diceTotal = this.dice[0].total;
+
+		// Handle initial results.
+		if (diceTotal === 6) {
+			chatData.success = 2;
+
+			if (sixes.length > 1) {
+				chatData.crit = true;
+				chatData.success = 3;
+			}
+		}
+		else if (diceTotal === 5 || diceTotal === 4) {
+			chatData.success = 1;
+		}
+		else {
+			chatData.success = 0;
+		}
+
+		chatData.rawSuccess = chatData.success;
+
+		// Handle cuts.
+		if (!chatData.crit && cuts.length > 0) {
+			chatData.success -= cuts.length;
+		}
+
+		// Constraints.
+		chatData.success = setSuccessConstraint(chatData.success);
+		chatData.rawSuccess = setSuccessConstraint(chatData.rawSuccess);
+
+		// Handle messages.
+		chatData.result = successToResult(chatData.success);
+		chatData.rawResult = successToResult(chatData.rawSuccess);
+		chatData.isCut = chatData.success !== chatData.rawSuccess;
+		chatData.isFail = ["disaster", "grim", "messy"].includes(chatData.result);
+
+		// Separate assist dice from other dice
+		if (this.options?.assists) {
+			for (const [name, diceNum] of Object.entries(this.options.assists)) {
+				const assistResults = chatData.dice.splice(diceNum * -1);
+				chatData.assists[name] = assistResults;
+			}
+		}
+
+		// Handle actions.
+		if (chatData.result === "disaster" || chatData.isFail) {
+			chatData.hasActions = true;
+		}
+
+		return foundry.applications.handlebars.renderTemplate(template, chatData);
+	}
+}
+
+/**
+ * Set success constraints.
+ *
+ * @param {number} success Current success value.
+ * @returns {number} Constrained success value.
+ */
+function setSuccessConstraint(success) {
+	if (success < -1) {
+		success = -1;
+	}
+	else if (success > 3) {
+		success = 3;
+	}
+	return success;
+}
+
+/**
+ * Convert success to result status.
+ *
+ * @param {number} success Success value.
+ * @returns {string} Success status as a string.
+ */
+function successToResult(success) {
+	switch (success) {
+		case 3:
+			return "crit";
+		case 2:
+			return "perfect";
+		case 1:
+			return "messy";
+		case 0:
+			return "grim";
+		case -1:
+			return "disaster";
+		default:
+			return "";
+	}
+}

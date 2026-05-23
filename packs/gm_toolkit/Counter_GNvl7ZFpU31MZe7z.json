@@ -1,0 +1,65 @@
+{
+  "folder": "g4byq082efDAWI1S",
+  "name": "Contrarrestar",
+  "_id": "GNvl7ZFpU31MZe7z",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Contrarrestar",
+      "type": "text",
+      "_id": "sM67Sl8hZ5aUaB8s",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 35\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Negar las cosas que un PJ siempre puede hacer o negar algo que hizo.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"El lich lanza un rápido hechizo protector que ralentiza tu ataque.\" • \"La reina levanta la mano, silenciando a todos\".</em></span></p></div><div class=\"column\"><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">CONTRARRESTAR </span><span style=\"font-family:'Capito04VAR'\">hacer que el mundo sea tenazmente formidable, demostrando que no se va a desmoronar. Puedes detener cualquier cosa que haga un PJ, incluidas las tiradas de acción exitosas, los talentos que @UUID[Compendium.grimwild.rules.JournalEntry.nlCuUzlwbXjf3KNV]{Siempre} tiene permiso para usar y @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r7Cy7N816z6l6Cn5]{Vigilancia} adicionales. Si usan un talento que les cuesta recursos, generalmente no tienen que gastar ese recurso (su decisión), pero no pueden volver a usarlo rápidamente. Sin embargo, esto nunca podrá usarse para detener a @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Tiradas de defensa} y a los críticos; no les robes el protagonismo. Tenga cuidado, los jugadores se frustran si les arrebatan sus victorias y ventajas, así que utilícelo de maneras interesantes y asegúrese de que el centro de atención regrese a ellos después de aprovechar el momento.</span></p></div></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738609996860,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!GNvl7ZFpU31MZe7z.sM67Sl8hZ5aUaB8s"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609116086,
+    "modifiedTime": 1738609116086,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!GNvl7ZFpU31MZe7z"
+}

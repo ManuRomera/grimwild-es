@@ -1,0 +1,40 @@
+{
+  "name": "Sabiduría de las almas que hacen eco",
+  "type": "arcana",
+  "img": "icons/equipment/neck/pendant-rounded-blue.webp",
+  "system": {
+    "description": "<p>Contiene débiles impresiones de propietarios anteriores. Da tres sabios.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Gasta chispa para usarlo. De vez en cuando exige un favor.</p>",
+    "touchstones": "sabiduría—historia—orientación",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "WQUSg1xNTr4skt8Q",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768055686390,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!WQUSg1xNTr4skt8Q"
+}

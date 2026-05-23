@@ -1,0 +1,36 @@
+{
+  "folder": "5BjPrDN4LvtVJQ89",
+  "name": "Ladrón de mentes",
+  "type": "talent",
+  "_id": "BAenjV0a4rGJ6g0j",
+  "img": "icons/magic/control/encase-creature-humanoid-hold.webp",
+  "system": {
+    "description": "<p>En un crítico en una tirada de bastión, reembolsa los puntos de poder gastados y gana 3 puntos de poder. Esto causa problemas mentales. <em><strong>daño colateral</strong> </em>a tu alrededor: <em>confusión—alucinaciones—dolores de cabeza—pánico</em>. Solo una vez, puedes hacer de esto un efecto de nivel ritual, que afecte a todos en un radio de kilómetros.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "path": "psion"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739544993822,
+    "modifiedTime": 1739746577564,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!BAenjV0a4rGJ6g0j"
+}

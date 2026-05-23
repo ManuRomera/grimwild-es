@@ -1,0 +1,235 @@
+{
+  "folder": null,
+  "name": "Dragón de frío",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Bestias masivas con escamas con alas y ataques de aliento elemental. Acaparan tesoros e infunden miedos profundos e instintivos como un depredador superior.</p>",
+    "notes": "<p></p>",
+    "role": "blaster",
+    "tier": "tough",
+    "traits": [
+      "Presencia aterradora",
+      "Recuerdos antiguos",
+      "Habla"
+    ],
+    "moves": [
+      "Aliento elemental",
+      "Aletazo",
+      "Mordisco"
+    ],
+    "desires": [
+      {
+        "value": "para afirmar su supremacía sobre todo.",
+        "are": false
+      },
+      {
+        "value": "ser humillado de ninguna manera.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Esmeralda escama",
+          "color": "#4f7251"
+        },
+        {
+          "name": "Llama carmesí",
+          "color": "#8b0101"
+        },
+        {
+          "name": "Acento dorado",
+          "color": "#daa521"
+        }
+      ],
+      "sights": "rasgos masivos, postura engreída",
+      "sounds": "rugido atronador, batir de alas, inhalación",
+      "smells": "leve aroma a oro y reliquias antiguas"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Instintos de acaparamiento",
+        "instructions": "además del oro",
+        "table": [
+          [
+            "Pergaminos llenos de lenguas perdidas.",
+            "Joyas de la corona de reinos olvidados.",
+            "Lápidas de grandes héroes.",
+            "Mapas del mundo.",
+            "Armas forjadas en tiempos de gran necesidad.",
+            "Símbolos sagrados de dioses caídos."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Dragón",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Frío",
+      "type": "challenge",
+      "_id": "f20aa0akSO6OlPWG",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [],
+        "moves": [
+          "pared de hielo",
+          "Congelar en su lugar",
+          "movimiento lento"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!FgHLbqsBVkwZjhoT.f20aa0akSO6OlPWG"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368388077,
+    "modifiedTime": 1750368388077,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "FgHLbqsBVkwZjhoT",
+  "sort": 0,
+  "_key": "!actors!FgHLbqsBVkwZjhoT"
+}

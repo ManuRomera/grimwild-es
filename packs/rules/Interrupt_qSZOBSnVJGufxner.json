@@ -1,0 +1,65 @@
+{
+  "folder": "ST2i2VfNYCsjRvDu",
+  "name": "Interrumpir",
+  "_id": "qSZOBSnVJGufxner",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Interrumpir",
+      "type": "text",
+      "_id": "Q8ewzxFDoC9eZYBu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Haz un @UUID[Compendium.grimwild.rules.JournalEntry.pmTv1Nbggk6ql92W]{Tirada de acción} para intentar detener un @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto}. Esto requiere un talento específico. Si aún no está involucrado, ahora comparte el riesgo. En caso de desorden, el DJ toma o mantiene @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738611112770,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!qSZOBSnVJGufxner.Q8ewzxFDoC9eZYBu"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738510550844,
+    "modifiedTime": 1738510550844,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!qSZOBSnVJGufxner"
+}

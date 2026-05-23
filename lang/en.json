@@ -1,0 +1,469 @@
+{
+  "ACTOR": {
+    "ViewArt": "View actor art"
+  },
+  "GRIMWILD": {
+    "Settings": {
+      "Grimwild": "Grimwild",
+      "suspenseVisible": {
+        "name": "Suspense visible to players",
+        "hint": "Toggle this on/off to show/hide the suspense tracker for non-GMs."
+      },
+      "quickPoolsVisible": {
+        "name": "Quick Pools visible to players",
+        "hint": "Toggle this on/off to show/hide the quick pools in the bottom UI for non-GMs."
+      },
+      "quickPoolsVisibleDefault": {
+        "name": "Default Quick Pool visibility for players",
+        "hint": "Toggle this on/off to show/hide new quick pools by default."
+      },
+      "diceSoNiceOverride": {
+        "name": "Always use Grimwild 3d Dice",
+        "hint": "Override Dice So Nice settings on Grimwild rolls and pools to use the system's custom color scheme. (User setting)"
+      },
+      "enableHarmPools": {
+        "name": "[Homebrew] Enable harm pools on characters",
+        "hint": "Adds pool inputs to Bloodied and Rattled, similar to Grimwild's v1.3 rules text."
+      },
+      "maxBloodied": {
+        "name": "[Homebrew] Max bloodied value",
+        "hint": "Maximum value to use for the Bloodied input if harm pools are enabled."
+      },
+      "maxRattled": {
+        "name": "[Homebrew] Max rattled value",
+        "hint": "Maximum value to use for the Rattled input if harm pools are enabled."
+      },
+      "slowXp": {
+        "name": "Slow XP",
+        "hint": "Enable to use half-rate XP where it takes two pips per XP checkbox to be filled."
+      },
+      "tokenActions": {
+        "name": "[Variant] Token Initiative",
+        "hint": "Enable the variant <strong>Token Initiative</strong> rule that gives each players 2 tokens per \"round\" of combat/scenes. Otherwise, a simple action counter will be used to count how many actions have been taken."
+      }
+    },
+    "Stat": {
+      "bra": {
+        "long": "Brawn",
+        "abbr": "BRA"
+      },
+      "agi": {
+        "long": "Agility",
+        "abbr": "AGI"
+      },
+      "wit": {
+        "long": "Wits",
+        "abbr": "WIT"
+      },
+      "pre": {
+        "long": "Presence",
+        "abbr": "PRE"
+      }
+    },
+    "Damage": {
+      "marked": "Marked",
+      "bloodied": "Bloodied",
+      "rattled": "Rattled",
+      "conditions": "Conditions",
+      "ignored": "ignored from harm",
+      "vex": "Vex",
+      "dropped": "Dropped"
+    },
+    "Traits": {
+      "brave": "Brave",
+      "caring": "Caring",
+      "confident": "Confident",
+      "curious": "Curious",
+      "gentle": "Gentle",
+      "honest": "Honest",
+      "honorable": "Honorable",
+      "persistent": "Persistent",
+      "protective": "Protective",
+      "quiet": "Quiet",
+      "rash": "Rash",
+      "stubborn": "Stubborn"
+    },
+    "Desires": {
+      "belonging": "Belonging",
+      "glory": "Glory",
+      "harmony": "Harmony",
+      "honor": "Honor",
+      "justice": "Justice",
+      "knowledge": "Knowledge",
+      "love": "Love",
+      "power": "Power",
+      "renown": "Renown",
+      "thrills": "Thrills",
+      "wealth": "Wealth",
+      "wisdom": "Wisdom"
+    },
+    "Dice": {
+      "dice": "Dice",
+      "assist": "Assist",
+      "results": {
+        "crit": "Crit",
+        "perfect": "Perfect",
+        "messy": "Messy",
+        "grim": "Grim",
+        "disaster": "Disaster"
+      },
+      "thorns": "Thorns",
+      "difficulty": "Difficulty",
+      "total": "Total"
+    },
+    "Resources": {
+      "pools": "Pools",
+      "points": "Points",
+      "toggles": "Toggles",
+      "text": "Text",
+      "suspense": "Suspense"
+    },
+    "UI": {
+      "details": "Details",
+      "add": "Add",
+      "createItem": "Create item",
+      "compendium": "Compendium",
+      "import": "Import",
+      "rollCrucible": "Roll Crucible",
+      "crucible": "Crucible",
+      "crucibleTable": "Crucible Table",
+      "crucibleName": "Crucible name",
+      "talentName": "Talent Name",
+      "arcanaName": "Arcana Name",
+      "touchstones": "Touchstones:",
+      "limitations": "Limitations:",
+      "challengePool": "Challenge Pool",
+      "sensories": "Sensories",
+      "sights": "Sights",
+      "sounds": "Sounds",
+      "smells": "Smells",
+      "colors": "Colors",
+      "colorName": "Name of color",
+      "table": "Table",
+      "tableName": "Table name",
+      "tableNamePlaceholder": "Hoarding Instincts",
+      "tableInstructions": "Table instructions",
+      "tableInstructionsPlaceholder": "besides gold",
+      "d6": "d6",
+      "type": "Type",
+      "label": "Label",
+      "value": "Value",
+      "max": "Max",
+      "display": "Display",
+      "number": "Number",
+      "checkboxes": "Checkboxes",
+      "notes": "Notes",
+      "addCondition": "Add condition",
+      "deleteCondition": "Delete condition",
+      "conditionName": "Condition name",
+      "addBond": "Add bond",
+      "deleteBond": "Delete bond",
+      "bondCharacter": "Character",
+      "bondDescription": "Bond description",
+      "deleteTable": "Delete table",
+      "deleteD6Group": "Delete d6 group",
+      "addTableGroup": "Add table group",
+      "addD6TableGroup": "Add d6 table group",
+      "addTable": "Add table",
+      "addTrait": "Add trait",
+      "deleteTrait": "Delete trait",
+      "traitDescription": "Trait description",
+      "addMove": "Add move",
+      "deleteMove": "Delete move",
+      "moveDescription": "Move description",
+      "addFailureState": "Add failure state",
+      "deleteFail": "Delete failure state",
+      "failureDescription": "Failure state description",
+      "powerPool": "Power Pool",
+      "deletePool": "Delete pool",
+      "addPool": "Add pool",
+      "addTracker": "Add tracker",
+      "minorArcana": "Minor arcana",
+      "majorArcana": "Major arcana",
+      "mythicArcana": "Mythic arcana",
+      "marks": "Marks",
+      "harm": "Harm",
+      "takeSpark": "Take spark",
+      "grantSpark": "grant spark",
+      "traitsMoves": "Traits / Moves",
+      "tables": "Tables",
+      "wants": "Wants",
+      "doesNotWant": "Doesn't want",
+      "pool": "Pool",
+      "addQuickPool": "+ Pool"
+    },
+    "SheetLabels": {
+      "Actor": "Grimwild Actor Sheet",
+      "Item": "Grimwild Item Sheet",
+      "RollTable": "Grimwild Crucible Sheet"
+    },
+    "Actor": {
+      "Plural": {
+        "character": "Characters",
+        "monster": "Monsters",
+        "linkedChallenge": "Challenges",
+        "other": "Others"
+      },
+      "Tabs": {
+        "Details": "Details",
+        "Biography": "Biography",
+        "Notes": "Notes",
+        "Talents": "Talents",
+        "Challenges": "Challenges",
+        "Effects": "Effects",
+        "Arcana": "Arcana"
+      },
+      "base": {
+        "FIELDS": {
+          "biography": {
+            "label": "Biography"
+          },
+          "notes": {
+            "label": "Notes"
+          }
+        }
+      },
+      "Character": {
+        "FIELDS": {
+          "class": {
+            "label": "Class"
+          },
+          "xp": {
+            "label": "Experience",
+            "short": "XP"
+          },
+          "level": {
+            "label": "Level"
+          },
+          "path": {
+            "label": "Path"
+          },
+          "spark": {
+            "label": "Spark"
+          },
+          "story": {
+            "label": "Story"
+          },
+          "traits": {
+            "label": "Traits"
+          },
+          "desires": {
+            "label": "Desires"
+          },
+          "backgrounds": {
+            "label": "Backgrounds",
+            "placeholder": "Background name",
+            "FIELDS": {
+              "wises": {
+                "label": "Wises"
+              }
+            }
+          },
+          "bonds": {
+            "label": "Bonds"
+          },
+          "conditions": {
+            "label": "Conditions",
+            "FIELDS": {
+              "severity": {
+                "FIELDS": {
+                  "urgent": {
+                    "label": "Urgent"
+                  },
+                  "shortTerm": {
+                    "label": "Short Term"
+                  },
+                  "longTerm": {
+                    "label": "Long Term"
+                  },
+                  "permanent": {
+                    "label": "Permanent"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Monster": {
+        "FIELDS": {
+          "pool": {
+            "label": "Pool"
+          },
+          "role": {
+            "label": "Role"
+          },
+          "traits": {
+            "label": "Traits"
+          },
+          "moves": {
+            "label": "Moves"
+          }
+        },
+        "Tiers": {
+          "mook": "Mook",
+          "tough": "Tough",
+          "elite": "Elite",
+          "boss": "Boss"
+        },
+        "Roles": {
+          "blaster": "Blaster",
+          "brute": "Brute",
+          "lurker": "Lurker",
+          "marauder": "Marauder",
+          "marksman": "Marksman",
+          "overseer": "Overseer",
+          "predator": "Predator",
+          "protector": "Protector",
+          "skirmisher": "Skirmisher",
+          "swarmer": "Swarmer",
+          "tactician": "Tactician",
+          "trickster": "Trickster"
+        }
+      },
+      "LinkedChallenge": {
+        "FIELDS": {
+          "pool": {
+            "label": "Pool"
+          },
+          "role": {
+            "label": "Role"
+          },
+          "traits": {
+            "label": "Traits"
+          },
+          "moves": {
+            "label": "Moves"
+          }
+        }
+      }
+    },
+    "Item": {
+      "Tabs": {
+        "Attributes": "Attributes",
+        "Description": "Description",
+        "Effects": "Effects"
+      },
+      "Arcana": {
+        "FIELDS": {
+          "tier": {
+            "label": "Tier"
+          },
+          "touchstones": {
+            "label": "Touchstones"
+          },
+          "limitations": {
+            "label": "Limitations"
+          },
+          "notes": {
+            "label": "Notes"
+          },
+          "trackers": {
+            "label": "Trackers"
+          },
+          "rollFormula": {
+            "label": "Roll Formula"
+          },
+          "numDice": {
+            "label": "Number of Dice"
+          },
+          "dieSize": {
+            "label": "Die Size"
+          },
+          "rollMod": {
+            "label": "Roll Modifier"
+          },
+          "quantity": {
+            "label": "Quantity"
+          },
+          "weight": {
+            "label": "Weight"
+          }
+        }
+      },
+      "base": {
+        "FIELDS": {
+          "description": {
+            "label": "Description"
+          }
+        }
+      },
+      "Talent": {
+        "FIELDS": {
+          "notes": {
+            "label": "Notes"
+          },
+          "trackers": {
+            "label": "Trackers"
+          }
+        }
+      },
+      "Challenge": {
+        "FIELDS": {
+          "pool": {
+            "label": "Pool"
+          },
+          "rollFormula": {
+            "label": "Roll Formula"
+          },
+          "numDice": {
+            "label": "Number of Dice"
+          },
+          "traits": {
+            "label": "Traits"
+          },
+          "moves": {
+            "label": "Moves"
+          },
+          "failure": {
+            "label": "Failure States"
+          },
+          "suspense": {
+            "label": "Suspense"
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Source": "Source",
+      "Toggle": "Toggle Effect",
+      "Temporary": "Temporary Effects",
+      "Passive": "Passive Effects",
+      "Inactive": "Inactive Effects"
+    },
+    "Dialog": {
+      "Roll": "Roll",
+      "GrimwildRoll": "Grimwild Roll",
+      "Assist": "Assist",
+      "WeaponMastery": "Weapon Mastery"
+    },
+    "Notification": {
+      "NoCharacterForSpark": "No active characters on this user to add spark to.",
+      "NoCharacterForMark": "No active characters on this user to add a mark to.",
+      "MaxSpark": "{name} already has maximum spark. Use it more often!",
+      "OwnedItemsOnly": "You can only create macro buttons for owned Items"
+    },
+    "Combat": {
+      "ActionCount": "Rolls",
+      "ResetActionCount": "Reset Action Count",
+      "ResetActionTokens": "Reset Action Tokens",
+      "AddActionToken": "Add Action Token",
+      "RemoveActionToken": "Remove Action Token",
+      "SpotlightActor": "Spotlight",
+      "TokenActions": "Actions"
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "monster": "Monster",
+      "linkedChallenge": "Linked Challenge",
+      "other": "Other"
+    },
+    "Item": {
+      "talent": "Talent",
+      "arcana": "Arcana",
+      "challenge": "Challenge"
+    }
+  }
+}

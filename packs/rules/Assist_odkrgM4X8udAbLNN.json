@@ -1,0 +1,65 @@
+{
+  "name": "Asistir",
+  "_id": "odkrgM4X8udAbLNN",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Asistir",
+      "type": "text",
+      "_id": "QWuXJGv9XSzUVuRj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Ayuda a otro PJ en racha. Estado <strong>cómo y por qué</strong>, entonces <em><strong>tira 1d y comparte el riesgo</strong></em>. Incluya el resultado de su tirada con el de ellos para obtener el resultado final; luego, cada uno narre su contribución, utilizando su propio resultado y vínculos como guía.</p><p><em><strong>Puedes ayudar cuando la acción de otro PJ genera una </strong></em>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto}. Haces un 1d @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Tirada de defensa} para ellos.</p><p>cuando tu <strong>compartir el riesgo</strong>, te expones a consecuencias, que pueden provocar un movimiento más poderoso o de impacto adicional, o el DJ puede tomar @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense} en su lugar.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738611446502,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!odkrgM4X8udAbLNN.QWuXJGv9XSzUVuRj"
+    }
+  ],
+  "folder": "p3IcETq9NG4OSRkx",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738366919492,
+    "modifiedTime": 1738366919492,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!odkrgM4X8udAbLNN"
+}

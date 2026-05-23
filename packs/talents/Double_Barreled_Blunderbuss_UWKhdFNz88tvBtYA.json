@@ -1,0 +1,115 @@
+{
+  "folder": "i53xgSVOBOe4n7Mr",
+  "name": "Trabuco de dos cañones",
+  "type": "talent",
+  "_id": "UWKhdFNz88tvBtYA",
+  "img": "icons/skills/ranged/cannon-barrel-firing-white-yellow.webp",
+  "system": {
+    "description": "<p>Tienes un arma de fuego que dispara munición elaborada y especializada. Obtienes una carga de cada tipo por sesión. Cuando dispares, elige la munición: <em>núcleo explosivo—disparo perforante—disparo infernal—disparo disperso—explosión de metralla—disparo de enredo</em>. Cada disparo tiene un <em>secundario </em>o <em><strong>efecto colateral</strong> </em>relacionado con el tipo. Puedes disparar dos tipos de munición al mismo tiempo durante un <em><strong>disparo potente</strong></em>.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Núcleo explosivo",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      },
+      {
+        "type": "points",
+        "label": "Disparo perforante",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      },
+      {
+        "type": "points",
+        "label": "Disparo infernal",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      },
+      {
+        "type": "points",
+        "label": "Disparo disperso",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      },
+      {
+        "type": "points",
+        "label": "Explosión de metralla",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      },
+      {
+        "type": "points",
+        "label": "Tiro de enredo",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      }
+    ],
+    "path": "artificer"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739543988913,
+    "modifiedTime": 1739746062270,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!UWKhdFNz88tvBtYA"
+}

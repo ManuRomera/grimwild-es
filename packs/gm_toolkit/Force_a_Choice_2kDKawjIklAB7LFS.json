@@ -1,0 +1,65 @@
+{
+  "folder": "g4byq082efDAWI1S",
+  "name": "Forzar una elección",
+  "_id": "2kDKawjIklAB7LFS",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Forzar una elección",
+      "type": "text",
+      "_id": "xYiWtMrlzbwZHVFw",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 35\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Presente opciones difíciles, con espacio para elegir solo una.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"Tu bolsa de oro y tu espada se deslizan hacia la lava\". • \"Ahora es la elección: ¿el príncipe o el marqués?\"</em></span></p><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">FORZAR UNA ELECCIÓN </span><span style=\"font-family:'Capito04VAR'\">para presentar decisiones crudas y binarias de las que no pueden escapar. Esta medida no ofrece una salida fácil. Cuando lo uses, asegúrate de seguir sin suavizar el impacto. Esto añade un toque cinematográfico real, que refleja las decisiones realmente difíciles que deben afrontar los protagonistas.</span></p></div></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!2kDKawjIklAB7LFS.xYiWtMrlzbwZHVFw"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609116086,
+    "modifiedTime": 1738609116086,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!2kDKawjIklAB7LFS"
+}

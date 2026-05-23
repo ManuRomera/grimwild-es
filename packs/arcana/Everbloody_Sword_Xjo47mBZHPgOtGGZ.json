@@ -1,0 +1,40 @@
+{
+  "name": "Espada eternamente sangrienta",
+  "type": "arcana",
+  "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+  "system": {
+    "description": "<p>Ignora las espinas de las dificultades en la batalla contra enemigos que aún no están sangrando.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Cuando no esté ensangrentado después de empuñar esto en una pelea, llévalo ensangrentado.</p>",
+    "touchstones": "sangre—nitidez—sacrificio",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "Xjo47mBZHPgOtGGZ",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768053243925,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Xjo47mBZHPgOtGGZ"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Colgante de corazón venenoso",
+  "type": "arcana",
+  "img": "icons/equipment/neck/amulet-round-faceted-green.webp",
+  "system": {
+    "description": "<p>Convierte las relaciones en rencor y obsesión, enredando las emociones en toxicidad.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Sólo funciona en el que lo usa.</p>",
+    "touchstones": "corrupción—emoción—obsesión",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "HWskoPKFgjHE5Ymx",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768054881726,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HWskoPKFgjHE5Ymx"
+}

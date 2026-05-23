@@ -1,0 +1,65 @@
+{
+  "folder": "ST2i2VfNYCsjRvDu",
+  "name": "Esfuérzate",
+  "_id": "i7KRerD2wyqcWclD",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Esfuérzate",
+      "type": "text",
+      "_id": "swjZnzBxD1eMsFoJ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Dedica un esfuerzo extra para activar ciertos talentos que lo requieran. Después de usar el talento, @UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marca}<em> <strong>una estadística relacionada</strong> </em>(<em>tu elección</em>). Los talentos que requieren que te esfuerces se pueden activar sin marca una vez por sesión.</p><p>También puedes esforzarte para descartar el último dado de un @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{reserva decreciente} si fue una tirada de grupo de 1d y no se descartó.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1741535372088,
+        "lastModifiedBy": "yOjpW3DHmrlL7PzO",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!i7KRerD2wyqcWclD.swjZnzBxD1eMsFoJ"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738510550844,
+    "modifiedTime": 1738510550844,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!i7KRerD2wyqcWclD"
+}

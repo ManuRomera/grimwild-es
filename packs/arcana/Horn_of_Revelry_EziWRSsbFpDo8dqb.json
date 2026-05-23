@@ -1,0 +1,40 @@
+{
+  "name": "Cuerno de juerga",
+  "type": "arcana",
+  "img": "icons/commodities/bones/horn-drinking-white.webp",
+  "system": {
+    "description": "<p>Atrae a personas que quieren compartir historias. Si escuchas, se animan.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Gasta chispa para usar.</p>",
+    "touchstones": "carisma—juerga—festividad",
+    "tier": "minor"
+  },
+  "effects": [],
+  "folder": "oqUqojrnxgojYi6E",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "EziWRSsbFpDo8dqb",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1767754345697,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EziWRSsbFpDo8dqb"
+}

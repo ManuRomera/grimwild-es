@@ -1,0 +1,186 @@
+{
+  "folder": null,
+  "name": "Elemental de aire",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Masas arremolinadas de viento y nubes que pueden cambiar de forma. Representan el poder puro de las tormentas y el viento, volubles e impredecibles.</p>",
+    "notes": "",
+    "role": "trickster",
+    "tier": "tough",
+    "traits": [
+      "Forma ciclónica",
+      "Intocable",
+      "Habla"
+    ],
+    "moves": [
+      "Fuerza de vendaval",
+      "Torbellino",
+      "Sofocar"
+    ],
+    "desires": [
+      {
+        "value": "fluir siempre libre.",
+        "are": false
+      },
+      {
+        "value": "para ser ignorado.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "nube blanca",
+          "color": "#e3e6eb"
+        },
+        {
+          "name": "azul cielo",
+          "color": "#a4c5e4"
+        },
+        {
+          "name": "Gris susurro",
+          "color": "#a9a9a9"
+        }
+      ],
+      "sights": "hojas y escombros arremolinándose, polvo y arena levantados",
+      "sounds": "Viento aullante, ráfagas de aire, ráfagas silbantes",
+      "smells": "vientos de gran altitud, lluvia y tierra recién removida"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Forma y personalidad",
+        "instructions": "",
+        "table": [
+          [
+            "Ciclón arremolinado, errático y salvaje.",
+            "Nube flotante, serena y evasiva.",
+            "Tornado, furioso e imparable.",
+            "Diablo del polvo, astuto y persistente.",
+            "Vientos racheados, juguetones y traviesos.",
+            "Zephyr, amable pero poco confiable."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Elemental de aire",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368394928,
+    "modifiedTime": 1750368394928,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "TYyXy93gKMFPcboi",
+  "sort": 0,
+  "_key": "!actors!TYyXy93gKMFPcboi"
+}

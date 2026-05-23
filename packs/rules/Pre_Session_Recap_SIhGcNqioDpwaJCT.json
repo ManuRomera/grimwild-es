@@ -1,0 +1,65 @@
+{
+  "folder": "9seG8V3dqcMX06FZ",
+  "name": "Resumen previo a la sesión",
+  "_id": "SIhGcNqioDpwaJCT",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Resumen previo a la sesión",
+      "type": "text",
+      "_id": "1dgaTSoj6nuTG3kr",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Antes de cada sesión (después de la primera), reRoper la sesión anterior y comparte el mejor momento de tu PJ. <em><strong>Cada jugador toma </strong>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Chispa}</em>.</p><p>Cuando todos hayan terminado, el DJ RESUMEN (<em>tomando </em>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}) uniendo todos estos momentos en un \"adecuado\"<em>Anteriormente en...</em>\" y comienza la sesión.</p><p><em><strong>Nota</strong>: Spark se transfiere y la historia se reinicia en cada sesión.</em></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1739288374508,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!SIhGcNqioDpwaJCT.1dgaTSoj6nuTG3kr"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738510545972,
+    "modifiedTime": 1738510545972,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!SIhGcNqioDpwaJCT"
+}

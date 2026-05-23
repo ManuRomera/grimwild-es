@@ -1,0 +1,186 @@
+{
+  "folder": null,
+  "name": "No-muerto: liche",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Magos inmortales impulsados ​​por un propósito singular y oscuro. Controlan hordas de muertos vivientes desde una guarida bien defendida y ejecutan planes con frío cálculo.</p>",
+    "notes": "<p>Libros de hechizos de Lich</p><p style=\"text-align:center\">Un lich conoce 8 hechizos de mago. Elige un libro de hechizos a continuación o crea uno. Obtienen 1 bonificación de suspense por cada hechizo.</p><p></p><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Libro de hechizos 1</span></span></p><p>Gusano lento - Transmutación</p><p>Cascada de dolor - Nigromancia</p><p>Aura de grito - Encantamiento</p><p>Máscara fascinante - Ilusión</p><p></p><p>Guía mental - Adivinación</p><p>Baliza de carne - Transmutación</p><p>Escudo de aceite - Abjuración</p><p>Pared ósea - Conjuración</p><p></p><p><span style=\"text-decoration:underline\">Libro de hechizos 2</span></p><p>Carne en expansión - Transmutación</p><p>Alas hambrientas - Conjuración</p><p>Vid deslumbrante - Ilusión</p><p>Lore terrible - Adivinación</p><p></p><p>Cadenas Lentas - Transmutación</p><p>Palabra vinculante - Encantamiento</p><p>Humo Prismático - Evocación</p><p>Terror hambriento - Nigromancia</p>",
+    "role": "overseer",
+    "tier": "tough",
+    "traits": [
+      "8 hechizos de mago",
+      "Dos pasos por delante",
+      "Habla"
+    ],
+    "moves": [
+      "Lanzar hechizo",
+      "Levantar muertos vivientes",
+      "Sanguijuela de alma"
+    ],
+    "desires": [
+      {
+        "value": "para obtener el poder que necesita para su gran plan.",
+        "are": false
+      },
+      {
+        "value": "nada parecido a su filacteria.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Púrpura antiguo",
+          "color": "#4b0081"
+        },
+        {
+          "name": "Verde podrido",
+          "color": "#566b30"
+        },
+        {
+          "name": "Blanco Hueso",
+          "color": "#e6e1ce"
+        }
+      ],
+      "sights": "túnicas andrajosas, manos esqueléticas, ojos penetrantes",
+      "sounds": "Encantamientos roncos, silencio inquietante entre palabras.",
+      "smells": "polvo antiguo, incienso quemado, decadencia aguda y empalagosa"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Rituales oscuros demasiado grandiosos",
+        "instructions": "",
+        "table": [
+          [
+            "Esclaviza a cada alma del reino a su voluntad.",
+            "Roba la esencia vital del linaje real.",
+            "Invoca al Bonegrinder, devorador de leyendas.",
+            "Canta la canción que acabará con el mundo.",
+            "Levanta una necrópolis desde la que gobernar.",
+            "Convierte los vastos bosques en un laberinto de árboles no muertos."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "No-muerto: liche",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368457200,
+    "modifiedTime": 1750368457200,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "L14dmMrOg6AW2jBf",
+  "sort": 0,
+  "_key": "!actors!L14dmMrOg6AW2jBf"
+}

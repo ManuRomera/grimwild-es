@@ -1,0 +1,51 @@
+<div class="details grid grid-5col">
+
+  <div class='resource document-name grid-span-3'>
+    <label for='name' class='resource-label'>{{localize "Name"}}</label>
+    <input
+      name='name'
+      type='text'
+      value='{{actor.name}}'
+      placeholder='{{localize "Name"}}'
+    />
+  </div>
+
+  <div class='resource flex-group-center'>
+    <label for='system.class' class='resource-label'>{{localize "GRIMWILD.Actor.Character.FIELDS.class.label"}}</label>
+    <input
+      type="text"
+      name="system.path"
+      value="{{system.path}}"
+    />
+  </div>
+
+  <div class='resource flex-group-center'>
+    <label for='system.xp' class='resource-label'>{{localize 'GRIMWILD.Actor.Character.FIELDS.xp.label'}}</label>
+    <div class='resource-content flexrow flex-center flex-between'>
+      <input
+        type='text'
+        name='system.xp'
+        value='{{system.xp}}'
+        data-dtype='Number'
+      />
+    </div>
+  </div>
+
+</div>
+
+<div class='resources grid grid-6col'>
+
+  {{#each system.stats as |stat key|}}
+    <div class='resource flex-group-center'>
+      <label for='system.stats.{{key}}.value' class='resource-label'><button type="button" data-action="roll" data-roll-type="stat" data-stat="{{key}}">{{stat.abbr}}</button></label>
+      <div class='resource-content flexrow flex-center flex-between'>
+        <input
+          type='text'
+          name='system.stats.{{key}}.value'
+          value='{{stat.value}}'
+          data-dtype='Number'
+        />
+      </div>
+    </div>
+  {{/each}}
+</div>

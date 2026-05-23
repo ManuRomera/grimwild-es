@@ -1,0 +1,65 @@
+{
+  "folder": "g4byq082efDAWI1S",
+  "name": "Movimientos de impacto",
+  "_id": "3Jw6Ds3TAJYimqxj",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Movimientos de impacto",
+      "type": "text",
+      "_id": "sQIKozYqWC5DPjVg",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 35\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VARItalic'\"><em>Usa estos movimientos cuando se le solicite.</em></span></p><p><span style=\"font-family:'Apparat'\"><strong>MOVIMIENTOS DE IMPACTO</strong></span><span style=\"font-family:'Capito04VAR'\">. Ofrezca consecuencias contundentes que desafíen a los PJ e impulsen la acción hacia adelante. Requieren indicaciones, por lo que cuando las utilice, seguramente estarán justificadas y serán justas, codificadas en las reglas. Han recibido una advertencia justa y deberían tener una idea de los riesgos. Entonces, cuando hagas un movimiento, asegúrate de que tenga <strong>IMPACTO</strong> para garantizar que las decisiones que conducen a ellas importen y que el mundo se sienta poderoso.</span></p><p><span style=\"font-family:'Capito04VAR'\">Cuando no lo indica una tirada, los movimientos de impacto directamente contra un PJ les dan una tirada de defensa. Algunos talentos también brindan la capacidad de interrumpir movimientos de impacto, posiblemente anulándolos. Si la tirada para interrumpir es complicada, tomas suspense o lo conservas si lo gastaste para provocar el movimiento.</span></p><p></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.24qGlYooVgMC1ZJu]{Cosas complicadas}</span><span style=\"font-family:'Capito04VAR'\">: intensifica una situación, introduce un nuevo problema o presiona un vínculo.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"Se acerca una gran tormenta\". • \"El guardia te ve y toca la alarma\".</em></span></p><p></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GNvl7ZFpU31MZe7z]{Contrarrestar}</span><span style=\"font-family:'Capito04VAR'\">: Negar cosas que un PJ siempre puede hacer o negar algo que hizo.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"El lich lanza un rápido hechizo protector que ralentiza tu ataque.\" • \"La reina levanta la mano, silenciando a todos\".</em></span></p><p></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.2kDKawjIklAB7LFS]{Forzar una elección}</span><span style=\"font-family:'Capito04VAR'\">: Presente opciones difíciles, con espacio para elegir solo una.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"Tu bolsa de oro y tu espada se deslizan hacia la lava\". • \"Ahora es la elección: ¿el príncipe o el marqués?\"</em></span></p><p></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.JqSJSbNs9EAyNJOy]{Golpéalos fuerte}</span><span style=\"font-family:'Capito04VAR'\">: Inflige daño a un PJ, como ensangrentado, sacudido, irritado, marcas o una condición.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"El techo se derrumba y te llueven piedras\". • \"Ella te sonríe con malicia; enojate, estás enojado\".</em></span></p><p></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.Dsh3aKJ3gboNE9Qo]{Fíjalo}</span><span style=\"font-family:'Capito04VAR'\">: Declara que algo ocurre, cerrando los intentos inmediatos de cambiarlo.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"El ladrón se escapa y no se le ve por ningún lado\". • \"El puente detrás de ti se derrumba. No hay vuelta atrás\".</em></span></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738610065394,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!3Jw6Ds3TAJYimqxj.sQIKozYqWC5DPjVg"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "JournalEntry.3Jw6Ds3TAJYimqxj",
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609116086,
+    "modifiedTime": 1738609116086,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!3Jw6Ds3TAJYimqxj"
+}

@@ -1,0 +1,36 @@
+{
+  "folder": "n7jEJF8MCm2SAEyA",
+  "name": "Experto en todos los oficios",
+  "type": "talent",
+  "_id": "FvD0agNmsYSpVreY",
+  "img": "icons/sundries/gaming/playing-cards.webp",
+  "system": {
+    "description": "<p>Aumenta una de tus estadísticas que es de 1 a 2. También obtienes +1d en las tiradas de montaje.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "path": "bard"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739042795826,
+    "modifiedTime": 1739064759166,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!FvD0agNmsYSpVreY"
+}

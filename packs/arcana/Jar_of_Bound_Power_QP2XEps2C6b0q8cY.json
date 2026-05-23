@@ -1,0 +1,40 @@
+{
+  "name": "Jarra de poder ligado",
+  "type": "arcana",
+  "img": "icons/creatures/magical/fae-fairy-winged-glowing-green.webp",
+  "system": {
+    "description": "<p>Tiene una fuerza terrible disfrazada de hada inofensiva.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Se rompe violentamente si se maneja mal, liberando todo su poder.</p>",
+    "touchstones": "malevolencia—contención—destrucción",
+    "tier": "mythic"
+  },
+  "effects": [],
+  "folder": "PNHXnKBouD6bBJIK",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "QP2XEps2C6b0q8cY",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768053843966,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QP2XEps2C6b0q8cY"
+}

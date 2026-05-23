@@ -1,0 +1,49 @@
+{
+  "folder": "ce6PuVxHOMYhnUk3",
+  "name": "Fuegos fatuos",
+  "type": "talent",
+  "_id": "nZD44qEavwjX2gY0",
+  "img": "icons/magic/unholy/projectiles-binary-pink.webp",
+  "system": {
+    "description": "<p>Dos pequeñas esferas de tu camino mágico flotan a tu alrededor. Dales 2 rasgos: <em>molesto—caprichoso—malévolo—fascinante—caprichoso</em>. Sirven como piedras de toque. Puedes sacrificar uno para: <em>ayudar sin riesgo—distraer a alguien—enviar un breve mensaje lejos—sufrir molestias en su lugar</em>. Haz tiradas de historia para determinar los efectos si se sacrifica. Regresan en cada sesión.</p>",
+    "core": false,
+    "notes": {
+      "description": "<p><em>Escribe aquí tus 2 rasgos de wisp.</em></p>",
+      "label": "Rasgos"
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "sacrificado",
+        "points": {
+          "value": 0,
+          "max": 2,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0
+        }
+      }
+    ],
+    "path": "sorcerer"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "grimwild",
+    "systemVersion": "0.5.0",
+    "createdTime": 1739139357959,
+    "modifiedTime": 1768923586280,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "exportSource": null
+  },
+  "_key": "!items!nZD44qEavwjX2gY0"
+}

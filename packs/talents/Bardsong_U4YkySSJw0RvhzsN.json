@@ -1,0 +1,61 @@
+{
+  "folder": "n7jEJF8MCm2SAEyA",
+  "name": "Canto de bardo",
+  "type": "talent",
+  "_id": "U4YkySSJw0RvhzsN",
+  "img": "icons/tools/instruments/harp-yellow-teal.webp",
+  "system": {
+    "description": "<p>En cada sesión podrás cantar. <strong>3 canciones de bardo</strong>, Presencia rodante. Canta uno para lograr un <em><strong>potente hazaña de influencia emocional</strong></em>, como provocar una respuesta irritante en un PNJ, mejorar a un grupo de aliados o infligir obstáculos a los enemigos. También puedes cantar uno para <em><strong>interrumpir</strong></em> un movimiento de impacto. El efecto de una canción de bardo surge de su composición. Elige un <em><strong>estilo</strong></em>, <em><strong>melodía</strong></em>, y <em><strong>impacto</strong></em> (<em>abajo</em>) que coincida con el efecto.</p><p>En cada sesión, también podrás cantar. <strong>3 melodías</strong>, melodías espontáneas sin composición específica. Gastarlos en: <em>ayudar sin riesgo—calmar o intensificar una respuesta irritante—limpiar una marca</em>. Estos no requieren tirada. No puedes afectarte a ti mismo.</p><hr/><p><strong>Crecimiento</strong>: Cada 3 niveles, obtienes +1 Canto de bardo y +1 melodía por sesión.</p>",
+    "core": true,
+    "notes": {
+      "description": "<section class=\"grid grid-3col\"><div><h4 data-tooltip=\"Cómo te sientes al cantar la canción.\">Estilo</h4><ul><li>caótico</li><li>terrible</li><li>ardiente</li><li>amable</li><li>obsesionante</li><li>juguetón</li><li>nostálgico</li><li>conmovedor</li><li>vicioso</li><li>caprichoso</li></ul></div><div><h4 data-tooltip=\"Una forma familiar que cualquiera puede reconocer.\">Melodía</h4><ul><li>himno</li><li>aria</li><li>balada</li><li>cantar</li><li>cancioneta</li><li>himno</li><li>oda</li><li>réquiem</li><li>rapsodia</li><li>serenarse</li></ul></div><div><h4 data-tooltip=\"Cómo quieres que les haga sentir la canción.\">Impacto</h4><ul><li>afecto</li><li>temor</li><li>calma</li><li>desesperación</li><li>miedo</li><li>furia</li><li>esperanza</li><li>alegría</li><li>mofa</li><li>preguntarse</li></ul></div></section>",
+      "label": "Composición de la canción"
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Canciones de bardo",
+        "points": {
+          "value": 3,
+          "max": 3,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0
+        }
+      },
+      {
+        "type": "points",
+        "label": "Melodías",
+        "points": {
+          "value": 3,
+          "max": 3,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0
+        }
+      }
+    ],
+    "path": "bard"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "grimwild",
+    "systemVersion": "0.5.2",
+    "createdTime": 1739042795826,
+    "modifiedTime": 1769315849737,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "exportSource": null
+  },
+  "_key": "!items!U4YkySSJw0RvhzsN"
+}

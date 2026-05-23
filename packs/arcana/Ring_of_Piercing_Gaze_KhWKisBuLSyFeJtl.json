@@ -1,0 +1,40 @@
+{
+  "name": "Anillo de mirada penetrante",
+  "type": "arcana",
+  "img": "icons/equipment/finger/ring-eye-silver-green.webp",
+  "system": {
+    "description": "<p>Mire a través de la niebla, el humo o las paredes.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Si ves algo sensible, también puede verte a ti.</p>",
+    "touchstones": "percepción—claridad—conexión",
+    "tier": "minor"
+  },
+  "effects": [],
+  "folder": "oqUqojrnxgojYi6E",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "KhWKisBuLSyFeJtl",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768055000152,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KhWKisBuLSyFeJtl"
+}

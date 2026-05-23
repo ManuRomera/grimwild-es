@@ -1,0 +1,65 @@
+{
+  "folder": "g4byq082efDAWI1S",
+  "name": "Complicar las cosas",
+  "_id": "24qGlYooVgMC1ZJu",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Complicar las cosas",
+      "type": "text",
+      "_id": "UE4mQwFrIw0blFdM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 35\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Intensifica una situación, introduce un nuevo problema o presiona un vínculo. </span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"Se acerca una gran tormenta\". • \"El guardia te ve y toca la alarma\".</em></span></p><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">COSAS COMPLICADAS </span><span style=\"font-family:'Capito04VAR'\">para agregar giros y elevar el drama. Úselo cuando las cosas se sientan demasiado estables o quiera que sean aún más caóticas de lo que ya son. También es genial para añadirle un punto espinoso al introducir obstáculos ambientales repentinos, una gran salida para el suspense extra que no introduce nuevo drama.</span></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!24qGlYooVgMC1ZJu.UE4mQwFrIw0blFdM"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609116086,
+    "modifiedTime": 1738609116086,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!24qGlYooVgMC1ZJu"
+}

@@ -1,0 +1,50 @@
+{
+  "folder": "2tvdSlgYZ5v4Jiye",
+  "name": "Alquimista",
+  "type": "talent",
+  "_id": "KQM82DlCYc9UZiJD",
+  "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
+  "system": {
+    "description": "<p>En cada sesión tienes un <em><strong>pociones 4d</strong></em> reserva de recursos. Puedes tener una poción menor y tirar la reserva, o soltar 1 y tirar para obtener una poción mayor. Conoces recetas para tus teoremas de hechizos, además de dos más obtenidas en @UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj]{Crisol de hechizos}. Aprende nuevas recetas sacrificando pociones.</p>",
+    "core": false,
+    "notes": {
+      "description": "<p><em>Anota aquí tus recetas.</em></p>",
+      "label": "Recetas"
+    },
+    "trackers": [
+      {
+        "type": "pool",
+        "label": "pociones",
+        "pool": {
+          "diceNum": 4,
+          "max": 4
+        },
+        "points": {
+          "showSteps": false,
+          "value": 1,
+          "max": 1
+        }
+      }
+    ],
+    "path": "wizard"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "grimwild",
+    "systemVersion": "0.4.0",
+    "createdTime": 1739542636102,
+    "modifiedTime": 1768767417994,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "exportSource": null
+  },
+  "_key": "!items!KQM82DlCYc9UZiJD"
+}

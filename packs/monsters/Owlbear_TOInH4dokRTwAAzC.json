@@ -1,0 +1,185 @@
+{
+  "folder": null,
+  "name": "Osobúho",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Bestias descomunales, ferozmente territoriales, con cuerpo de oso y cabeza de búho. Cazan en los bosques, utilizando sus agudos sentidos y su fuerza bruta.</p>",
+    "notes": "",
+    "role": "brute",
+    "tier": "tough",
+    "traits": [
+      "Cazador nocturno",
+      "Velocidad de tala"
+    ],
+    "moves": [
+      "Rugido Territorial",
+      "Pico aplastante",
+      "Chillido penetrante"
+    ],
+    "desires": [
+      {
+        "value": "para proteger su territorio.",
+        "are": false
+      },
+      {
+        "value": "cualquier amenaza a su cueva de anidación.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Pluma leonada",
+          "color": "#d1b48c"
+        },
+        {
+          "name": "Marrón peludo",
+          "color": "#8b4512"
+        },
+        {
+          "name": "Pizarra de garra",
+          "color": "#708090"
+        }
+      ],
+      "sights": "imponente silueta entre los árboles, garrote nudoso",
+      "sounds": "Pasos pesados, gruñidos bajos",
+      "smells": "sudor rancio, suciedad, olor persistente a carne cruda"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Víctimas, aún frescas",
+        "instructions": "",
+        "table": [
+          [
+            "Erudito, boca abajo, con dibujos esparcidos por todas partes.",
+            "Cultista, muerto en un árbol sin un rasguño.",
+            "Messenger, pergamino a medio consumir en mano.",
+            "Granjero, sosteniendo un ramo marchito.",
+            "Contrabandista, sosteniendo un frasco de veneno púrpura.",
+            "Artista, disfrazado y con la máscara todavía puesta."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Osobúho",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368443150,
+    "modifiedTime": 1750368443150,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "TOInH4dokRTwAAzC",
+  "sort": 0,
+  "_key": "!actors!TOInH4dokRTwAAzC"
+}

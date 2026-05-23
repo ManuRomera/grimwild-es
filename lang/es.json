@@ -1,0 +1,471 @@
+{
+  "Name": "Nombre",
+  "ACTOR": {
+    "ViewArt": "Ver imagen del actor"
+  },
+  "GRIMWILD": {
+    "Settings": {
+      "Grimwild": "Grimwild",
+      "suspenseVisible": {
+        "name": "Suspense visible para los jugadores",
+        "hint": "Activa o desactiva esta opción para mostrar u ocultar el marcador de suspense a quienes no sean DJ."
+      },
+      "quickPoolsVisible": {
+        "name": "Reservas rápidas visibles para los jugadores",
+        "hint": "Activa o desactiva esta opción para mostrar u ocultar las reservas rápidas de la interfaz inferior a quienes no sean DJ."
+      },
+      "quickPoolsVisibleDefault": {
+        "name": "Visibilidad predeterminada de las reservas rápidas",
+        "hint": "Activa o desactiva esta opción para mostrar u ocultar las nuevas reservas rápidas por defecto."
+      },
+      "diceSoNiceOverride": {
+        "name": "Usar siempre los dados 3D de Grimwild",
+        "hint": "Ignora la configuración de Dice So Nice en las tiradas y reservas de Grimwild para usar el esquema de colores personalizado del sistema. Configuración de usuario."
+      },
+      "enableHarmPools": {
+        "name": "[Casera] Activar reservas de daño en personajes",
+        "hint": "Añade entradas de reserva a Ensangrentado y Alterado, de forma similar al texto de reglas de Grimwild v1.3."
+      },
+      "maxBloodied": {
+        "name": "[Casera] Valor máximo de Ensangrentado",
+        "hint": "Valor máximo para la entrada de Ensangrentado si las reservas de daño están activadas."
+      },
+      "maxRattled": {
+        "name": "[Casera] Valor máximo de Alterado",
+        "hint": "Valor máximo para la entrada de Alterado si las reservas de daño están activadas."
+      },
+      "slowXp": {
+        "name": "PX lentos",
+        "hint": "Activa esta opción para usar PX a mitad de ritmo, donde hacen falta dos marcas por cada casilla de PX."
+      },
+      "tokenActions": {
+        "name": "[Variante] Iniciativa con fichas",
+        "hint": "Activa la regla variante de <strong>Iniciativa con fichas</strong>, que da a cada jugador 2 fichas por \"ronda\" de combate o escena. Si no, se usará un contador sencillo de acciones realizadas."
+      }
+    },
+    "Stat": {
+      "bra": {
+        "long": "Músculo",
+        "abbr": "MUS"
+      },
+      "agi": {
+        "long": "Agilidad",
+        "abbr": "AGI"
+      },
+      "wit": {
+        "long": "Ingenio",
+        "abbr": "ING"
+      },
+      "pre": {
+        "long": "Presencia",
+        "abbr": "PRE"
+      }
+    },
+    "Damage": {
+      "marked": "Marcado",
+      "bloodied": "Ensangrentado",
+      "rattled": "Alterado",
+      "conditions": "Condiciones",
+      "ignored": "ignorado del daño",
+      "vex": "Vex",
+      "dropped": "Derribado"
+    },
+    "Traits": {
+      "brave": "Valiente",
+      "caring": "Atento",
+      "confident": "Seguro",
+      "curious": "Curioso",
+      "gentle": "Amable",
+      "honest": "Honesto",
+      "honorable": "Honorable",
+      "persistent": "Persistente",
+      "protective": "Protector",
+      "quiet": "Callado",
+      "rash": "Temerario",
+      "stubborn": "Terco"
+    },
+    "Desires": {
+      "belonging": "Pertenencia",
+      "glory": "Gloria",
+      "harmony": "Armonía",
+      "honor": "Honor",
+      "justice": "Justicia",
+      "knowledge": "Conocimiento",
+      "love": "Amor",
+      "power": "Poder",
+      "renown": "Renombre",
+      "thrills": "Emociones",
+      "wealth": "Riqueza",
+      "wisdom": "Sabiduría"
+    },
+    "Dice": {
+      "dice": "Dados",
+      "assist": "Ayuda",
+      "results": {
+        "crit": "Crítico",
+        "perfect": "Perfecto",
+        "messy": "Complicado",
+        "grim": "Sombrío",
+        "disaster": "Desastre"
+      },
+      "thorns": "Espinas",
+      "difficulty": "Dificultad",
+      "total": "Total"
+    },
+    "Resources": {
+      "pools": "Reservas",
+      "points": "Puntos",
+      "toggles": "Conmutadores",
+      "text": "Texto",
+      "suspense": "Suspense"
+    },
+    "UI": {
+      "details": "Detalles",
+      "add": "Añadir",
+      "createItem": "Crear objeto",
+      "compendium": "Compendio",
+      "import": "Importar",
+      "rollCrucible": "Tirar crisol",
+      "crucible": "Crisol",
+      "crucibleTable": "Tabla de crisol",
+      "crucibleName": "Nombre del crisol",
+      "talentName": "Nombre del talento",
+      "arcanaName": "Nombre del arcano",
+      "touchstones": "Piedras de toque:",
+      "limitations": "Limitaciones:",
+      "challengePool": "Reserva de desafío",
+      "sensories": "Sensaciones",
+      "sights": "Vistas",
+      "sounds": "Sonidos",
+      "smells": "Olores",
+      "colors": "Colores",
+      "colorName": "Nombre del color",
+      "table": "Tabla",
+      "tableName": "Nombre de la tabla",
+      "tableNamePlaceholder": "Instintos acaparadores",
+      "tableInstructions": "Instrucciones de la tabla",
+      "tableInstructionsPlaceholder": "aparte del oro",
+      "d6": "d6",
+      "type": "Tipo",
+      "label": "Etiqueta",
+      "value": "Valor",
+      "max": "Máximo",
+      "display": "Vista",
+      "number": "Número",
+      "checkboxes": "Casillas",
+      "notes": "Notas",
+      "addCondition": "Añadir condición",
+      "deleteCondition": "Eliminar condición",
+      "conditionName": "Nombre de la condición",
+      "addBond": "Añadir vínculo",
+      "deleteBond": "Eliminar vínculo",
+      "bondCharacter": "Personaje",
+      "bondDescription": "Descripción del vínculo",
+      "deleteTable": "Eliminar tabla",
+      "deleteD6Group": "Eliminar grupo d6",
+      "addTableGroup": "Añadir grupo de tabla",
+      "addD6TableGroup": "Añadir grupo de tabla d6",
+      "addTable": "Añadir tabla",
+      "addTrait": "Añadir rasgo",
+      "deleteTrait": "Eliminar rasgo",
+      "traitDescription": "Descripción del rasgo",
+      "addMove": "Añadir movimiento",
+      "deleteMove": "Eliminar movimiento",
+      "moveDescription": "Descripción del movimiento",
+      "addFailureState": "Añadir estado de fallo",
+      "deleteFail": "Eliminar estado de fallo",
+      "failureDescription": "Descripción del estado de fallo",
+      "powerPool": "Reserva de poder",
+      "deletePool": "Eliminar reserva",
+      "addPool": "Añadir reserva",
+      "addTracker": "Añadir marcador",
+      "minorArcana": "Arcano menor",
+      "majorArcana": "Arcano mayor",
+      "mythicArcana": "Arcano mítico",
+      "marks": "Marcas",
+      "harm": "Daño",
+      "takeSpark": "Tomar chispa",
+      "grantSpark": "otorga chispa",
+      "traitsMoves": "Rasgos / Movimientos",
+      "tables": "Tablas",
+      "wants": "Quiere",
+      "doesNotWant": "No quiere",
+      "pool": "Reserva",
+      "addQuickPool": "+ Reserva",
+      "none": "Ninguno"
+    },
+    "SheetLabels": {
+      "Actor": "Hoja de actor de Grimwild",
+      "Item": "Hoja de objeto de Grimwild",
+      "RollTable": "Hoja de crisol de Grimwild"
+    },
+    "Actor": {
+      "Plural": {
+        "character": "Personajes",
+        "monster": "Monstruos",
+        "linkedChallenge": "Desafíos",
+        "other": "Otros"
+      },
+      "Tabs": {
+        "Details": "Detalles",
+        "Biography": "Biografía",
+        "Notes": "Notas",
+        "Talents": "Talentos",
+        "Challenges": "Desafíos",
+        "Effects": "Efectos",
+        "Arcana": "Arcana"
+      },
+      "base": {
+        "FIELDS": {
+          "biography": {
+            "label": "Biografía"
+          },
+          "notes": {
+            "label": "Notas"
+          }
+        }
+      },
+      "Character": {
+        "FIELDS": {
+          "class": {
+            "label": "Clase"
+          },
+          "xp": {
+            "label": "Experiencia",
+            "short": "PX"
+          },
+          "level": {
+            "label": "Nivel"
+          },
+          "path": {
+            "label": "Camino"
+          },
+          "spark": {
+            "label": "Chispa"
+          },
+          "story": {
+            "label": "Historia"
+          },
+          "traits": {
+            "label": "Rasgos"
+          },
+          "desires": {
+            "label": "Deseos"
+          },
+          "backgrounds": {
+            "label": "Trasfondos",
+            "placeholder": "Nombre del trasfondo",
+            "FIELDS": {
+              "wises": {
+                "label": "Saberes"
+              }
+            }
+          },
+          "bonds": {
+            "label": "Vínculos"
+          },
+          "conditions": {
+            "label": "Condiciones",
+            "FIELDS": {
+              "severity": {
+                "FIELDS": {
+                  "urgent": {
+                    "label": "Urgente"
+                  },
+                  "shortTerm": {
+                    "label": "Corto plazo"
+                  },
+                  "longTerm": {
+                    "label": "Largo plazo"
+                  },
+                  "permanent": {
+                    "label": "Permanente"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Monster": {
+        "FIELDS": {
+          "pool": {
+            "label": "Reserva"
+          },
+          "role": {
+            "label": "Rol"
+          },
+          "traits": {
+            "label": "Rasgos"
+          },
+          "moves": {
+            "label": "Movimientos"
+          }
+        },
+        "Tiers": {
+          "mook": "Secuaz",
+          "tough": "Duro",
+          "elite": "Élite",
+          "boss": "Jefe"
+        },
+        "Roles": {
+          "blaster": "Artillero",
+          "brute": "Bruto",
+          "lurker": "Acechador",
+          "marauder": "Saqueador",
+          "marksman": "Tirador",
+          "overseer": "Capataz",
+          "predator": "Depredador",
+          "protector": "Protector",
+          "skirmisher": "Hostigador",
+          "swarmer": "Enjambre",
+          "tactician": "Táctico",
+          "trickster": "Embaucador"
+        }
+      },
+      "LinkedChallenge": {
+        "FIELDS": {
+          "pool": {
+            "label": "Reserva"
+          },
+          "role": {
+            "label": "Rol"
+          },
+          "traits": {
+            "label": "Rasgos"
+          },
+          "moves": {
+            "label": "Movimientos"
+          }
+        }
+      }
+    },
+    "Item": {
+      "Tabs": {
+        "Attributes": "Atributos",
+        "Description": "Descripción",
+        "Effects": "Efectos"
+      },
+      "Arcana": {
+        "FIELDS": {
+          "tier": {
+            "label": "Rango"
+          },
+          "touchstones": {
+            "label": "Piedras de toque"
+          },
+          "limitations": {
+            "label": "Limitaciones"
+          },
+          "notes": {
+            "label": "Notas"
+          },
+          "trackers": {
+            "label": "Marcadores"
+          },
+          "rollFormula": {
+            "label": "Fórmula de tirada"
+          },
+          "numDice": {
+            "label": "Número de dados"
+          },
+          "dieSize": {
+            "label": "Tamaño del dado"
+          },
+          "rollMod": {
+            "label": "Modificador de tirada"
+          },
+          "quantity": {
+            "label": "Cantidad"
+          },
+          "weight": {
+            "label": "Peso"
+          }
+        }
+      },
+      "base": {
+        "FIELDS": {
+          "description": {
+            "label": "Descripción"
+          }
+        }
+      },
+      "Talent": {
+        "FIELDS": {
+          "notes": {
+            "label": "Notas"
+          },
+          "trackers": {
+            "label": "Marcadores"
+          }
+        }
+      },
+      "Challenge": {
+        "FIELDS": {
+          "pool": {
+            "label": "Reserva"
+          },
+          "rollFormula": {
+            "label": "Fórmula de tirada"
+          },
+          "numDice": {
+            "label": "Número de dados"
+          },
+          "traits": {
+            "label": "Rasgos"
+          },
+          "moves": {
+            "label": "Movimientos"
+          },
+          "failure": {
+            "label": "Estados de fallo"
+          },
+          "suspense": {
+            "label": "Suspense"
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Source": "Origen",
+      "Toggle": "Alternar efecto",
+      "Temporary": "Efectos temporales",
+      "Passive": "Efectos pasivos",
+      "Inactive": "Efectos inactivos"
+    },
+    "Dialog": {
+      "Roll": "Tirar",
+      "GrimwildRoll": "Tirada de Grimwild",
+      "Assist": "Ayuda",
+      "WeaponMastery": "Maestría con armas"
+    },
+    "Notification": {
+      "NoCharacterForSpark": "No hay personajes activos de este usuario a los que añadir chispa.",
+      "NoCharacterForMark": "No hay personajes activos de este usuario a los que añadir una marca.",
+      "MaxSpark": "{name} ya tiene el máximo de chispa. Úsala más a menudo.",
+      "OwnedItemsOnly": "Solo puedes crear botones de macro para objetos poseídos"
+    },
+    "Combat": {
+      "ActionCount": "Tiradas",
+      "ResetActionCount": "Restablecer contador de acciones",
+      "ResetActionTokens": "Restablecer fichas de acción",
+      "AddActionToken": "Añadir ficha de acción",
+      "RemoveActionToken": "Quitar ficha de acción",
+      "SpotlightActor": "Foco",
+      "TokenActions": "Acciones"
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Personaje",
+      "monster": "Monstruo",
+      "linkedChallenge": "Desafío vinculado",
+      "other": "Otro"
+    },
+    "Item": {
+      "talent": "Talento",
+      "arcana": "Arcana",
+      "challenge": "Desafío"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Espada alada de égida",
+  "type": "arcana",
+  "img": "icons/weapons/swords/sword-gold-holy.webp",
+  "system": {
+    "description": "<p>Lucha junto a ti como un aliado de confianza, como si fuera un luchador de nivel 1 con Bulwark.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Si se destruye, mueres.</p>",
+    "touchstones": "huida—protección—lealtad",
+    "tier": "mythic"
+  },
+  "effects": [],
+  "folder": "PNHXnKBouD6bBJIK",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "CdhGqhWL9uvx2QMG",
+  "sort": 100000,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768055792567,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!CdhGqhWL9uvx2QMG"
+}

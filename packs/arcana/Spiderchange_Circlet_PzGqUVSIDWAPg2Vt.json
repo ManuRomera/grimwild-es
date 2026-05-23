@@ -1,0 +1,40 @@
+{
+  "name": "Aro de cambio de araña",
+  "type": "arcana",
+  "img": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+  "system": {
+    "description": "<p>Te transforma en una araña, ganando extremidades, colmillos, telarañas e instintos.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Sólo se activa cuando decide que es necesario.</p>",
+    "touchstones": "transformación—instintos—araña",
+    "tier": "mythic"
+  },
+  "effects": [],
+  "folder": "PNHXnKBouD6bBJIK",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "PzGqUVSIDWAPg2Vt",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768055289195,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PzGqUVSIDWAPg2Vt"
+}

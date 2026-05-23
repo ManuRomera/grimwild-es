@@ -1,0 +1,65 @@
+{
+  "folder": "8qrZk7eOvPVdUhzZ",
+  "name": "Pista",
+  "_id": "W4Hs8Ihk1StF1edv",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Pista",
+      "type": "text",
+      "_id": "Tcd4kg779oPxoUYx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 38\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VARItalic'\"><em>Pone a prueba la habilidad de un jugador.</em></span></p><p><span style=\"font-variant:'small-caps'\">PRESAGIAR </span><span style=\"font-family:'Capito04VAR'\">con una pista sutil sobre un elemento oculto. </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>el jugador</strong> </em></span><span style=\"font-family:'Capito04VAR'\">tiene una única oportunidad de interpretar la situación. Se limitan a uno solo para resaltar la respuesta natural de la PJ y mantener el flujo de todo. </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>La intuición del jugador guía la historia.</strong>. </em></span><span style=\"font-family:'Capito04VAR'\">Una respuesta correcta conduce a una revelación o posiblemente evita la situación por completo. </span><span style=\"font-family:'Capito04VARItalic'\"><em>Esa extraña sensación de ser observado. Un rastro de sangre por un pasillo.</em></span></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!W4Hs8Ihk1StF1edv.Tcd4kg779oPxoUYx"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609122965,
+    "modifiedTime": 1738609122965,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!W4Hs8Ihk1StF1edv"
+}

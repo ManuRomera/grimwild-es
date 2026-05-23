@@ -1,0 +1,36 @@
+{
+  "folder": "ce6PuVxHOMYhnUk3",
+  "name": "Brujería",
+  "type": "talent",
+  "_id": "MnncHMBYzPHIQJWG",
+  "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+  "system": {
+    "description": "<p>Tienes habilidad para lanzar hechizos. Tiras Presencia para lanzar y tus caminos y técnicas mágicas sirven como piedras de toque. Elija cualquiera de los 4 siguientes (<em>o crea un camino mágico con el DJ</em>), con al menos 1 camino mágico y 1 técnica:</p><p><strong>Caminos magicos</strong>: <em>sangre</em>—<em>decadencia—llama—escarcha—lux—sombra—piedra—tempestad.</em></p><p><strong>Técnicas</strong>: <em>atacar—crear—defender—mejorar—obstaculizar—influir—transformar—atravesar.</em></p><p>Puedes lanzar hechizos a voluntad, aunque siempre conllevan riesgos y requieren una tirada. Cuando lo lanzas, cada hechizo debe combinar al menos un camino mágico y una técnica como piedras de toque. Puedes esforzarte para lanzar un <em><strong>hechizo potente</strong></em>, pero no obtendrás ninguna activación gratuita del mismo.</p><p>Al lanzar, sacar dos o más 1 (incluidas las espinas) activa una secundaria <strong>@UUID[Compendium.grimwild.rules.JournalEntry.T61vQHWAc1MN4LDB]{oleada salvaje}</strong>—La magia pura se escapa de tu control. <em><strong>Haz una [[/r 2d]]{2d tirada de historia}</strong> </em>para ver que pasa. El efecto puede deberse a tus piedras de toque, a tu esencia mágica en bruto o a algo caóticamente aleatorio. Usa @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.czz9p07Cxj5KiIQu]{Crisoles DJ} o pregunte en su grupo para obtener ideas.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, obtienes una nueva técnica o camino mágico.</p>",
+    "core": true,
+    "notes": {
+      "description": "<p><em>Anota aquí tus 4 caminos y técnicas mágicas.</em></p>",
+      "label": "Caminos y técnicas mágicas"
+    },
+    "trackers": [],
+    "path": "sorcerer"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "grimwild",
+    "systemVersion": "0.5.0",
+    "createdTime": 1739139357959,
+    "modifiedTime": 1768923519685,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "exportSource": null
+  },
+  "_key": "!items!MnncHMBYzPHIQJWG"
+}

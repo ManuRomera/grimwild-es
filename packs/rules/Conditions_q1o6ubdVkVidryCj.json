@@ -1,0 +1,65 @@
+{
+  "folder": "x6w85f8sAHMiKcbw",
+  "name": "Condiciones",
+  "_id": "q1o6ubdVkVidryCj",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Condiciones",
+      "type": "text",
+      "_id": "kS4wWtSckfZByqcB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Lesiones o enfermedades específicas que afectan sólo a situaciones relevantes y que a menudo son duraderas. A veces vienen acompañadas de un daño o una marca. <em>(sacudido + corazón roto)</em>, y puede ser:</p><p>◆ <em><strong>Urgente.</strong> 4d desangrarse, 6d perder la cabeza.<br/></em>◆ <em><strong>Corto plazo.</strong> Tobillo torcido, borracho.<br/></em>◆ <em><strong>A largo plazo.</strong> Brazo roto, un odio profundo.<br/></em>◆ <em><strong>Permanente.</strong> Ojo arrancado, locura.</em></p><p><em><strong>Toma +1 espina cuando una condición dificulta específicamente una tirada.</strong>. </em>Las condiciones también pueden reducir tu ventaja, lo que puede prohibir una tirada. <em>(no puedo saltar con una pierna rota)</em>.</p><p>Las condiciones se aclaran cuando tenga sentido, como después de una escena, con descanso o cuando un @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Reserva} que las rastrea se agota. También pueden requerir tratamiento u otro método específico para eliminarlas.</p><p><em><strong>Tú tienes la última palabra sobre las condiciones permanentes y a largo plazo</strong></em>. Cuando elijas uno, trabaja con el DJ para encontrar uno que se adapte a tu PJ y a la situación.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1750166446816,
+        "lastModifiedBy": "UV77mtxQgW7KpS6B",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!q1o6ubdVkVidryCj.kS4wWtSckfZByqcB"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738510549034,
+    "modifiedTime": 1738510549034,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!q1o6ubdVkVidryCj"
+}

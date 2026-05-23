@@ -1,0 +1,40 @@
+{
+  "name": "Mapa de La locura del pirata",
+  "type": "arcana",
+  "img": "icons/tools/navigation/map-marked-gold.webp",
+  "system": {
+    "description": "<p>Revela la ubicación de un tesoro, que puede ser real o no.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Debes declarar en voz alta en público que estás buscando un tesoro.</p>",
+    "touchstones": "mapas—tesoro—engaño",
+    "tier": "minor"
+  },
+  "effects": [],
+  "folder": "oqUqojrnxgojYi6E",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "1Dp1Vf7H5Y8WtZiL",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768054274234,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!1Dp1Vf7H5Y8WtZiL"
+}

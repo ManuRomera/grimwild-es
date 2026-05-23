@@ -1,0 +1,65 @@
+{
+  "folder": "8qrZk7eOvPVdUhzZ",
+  "name": "Vigilancia",
+  "_id": "r7Cy7N816z6l6Cn5",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Vigilancia",
+      "type": "text",
+      "_id": "U2FvHvrkX6TQMvXD",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 38\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Apparat'\"><strong>VIGILANCIA</strong></span><span style=\"font-family:'Capito04VAR'\">. El supuesto estado de alerta de los PJ, evitando un juego demasiado cauteloso para mantener el foco en la acción.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Siempre se considera que los PJ están tan atentos como lo permite su posición ventajosa.</strong> </em></span><span style=\"font-family:'Capito04VAR'\">cuando se trata de peligros ocultos como </span><span style=\"font-family:'Capito04VARItalic'\"><em>trampas</em></span><span style=\"font-family:'Capito04VAR'\">, </span><span style=\"font-family:'Capito04VARItalic'\"><em>mentiras</em></span><span style=\"font-family:'Capito04VAR'\">, o </span><span style=\"font-family:'Capito04VARItalic'\"><em>puertas secretas</em></span><span style=\"font-family:'Capito04VAR'\">. Sin embargo, esto no significa que siempre estén al tanto de las amenazas ocultas. En lugar de ello, el DJ utiliza un </span><span style=\"font-family:'Capito04VARItalic'\"><em>presentimiento </em></span><span style=\"font-family:'Capito04VAR'\">decidir cuánto percibe el PJ en función de su posición ventajosa y el tipo de tensión que el DJ quiere generar.</span></p><p><span style=\"font-family:'Capito04VAR'\">Cada uno de los tres niveles de vigilancia crea una dinámica diferente en la escena, una visión diferente de la competencia del PJ y del peligro del mundo. Estos tres niveles son: @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.W4Hs8Ihk1StF1edv]{Pista}, @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.uUQxxwutv9DQCv7D]{Revelar} y @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.vUfXP0trLVE9LXWV]{Golpe}.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>Contra una pantera que merodea, lo más probable es que un granjero consiga una <strong>pista</strong>, un cazador obtiene un <strong>revelar</strong>, y un erudito toma una <strong>golpe</strong>. Sin embargo, siempre puedes mezclarlo y darle solo al erudito la oportunidad. <strong>revelar</strong>, sacándolos de su elemento.</em></span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>Contra un duque que miente sobre su linaje, un sacerdote obtiene una <strong>pista</strong>, otro noble obtiene un <strong>revelar</strong>, y un plebeyo toma un <strong>golpe</strong>. Sin embargo, siempre puedes mezclarlo y darle al plebeyo una <strong>pista</strong>, conociendo el detalle aleatorio correcto.</em></span></p><p></p><hr/></div><div class=\"column\"><p><span style=\"font-family:'Capito04'\"><strong>EJEMPLOS DE VIGILANCIA</strong></span></p><p><span style=\"font-family:'Capito04VAR'\">A continuación se muestran algunas formas en que un peligro puede manifestarse como pistas, revelaciones o ataques.</span></p><p></p><table><thead><tr><td><p><strong>PELIGRO</strong></p></td><td><p><strong>PISTA</strong></p></td><td><p><strong>REVELAR</strong></p></td><td><p><strong>GOLPE</strong></p></td></tr></thead><tbody><tr><td><p><em>Trampa de dardos envenenados</em></p></td><td><p>El suelo cruje de forma poco natural</p></td><td><p>Lanzadardos en la pared vista</p></td><td><p>Los dardos vuelan desde las paredes</p></td></tr><tr><td><p><em>Trampa de gas inflamable</em></p></td><td><p>Persiste un ligero olor</p></td><td><p>Se enciende un poco de gas</p></td><td><p>Zona envuelta en llamas</p></td></tr><tr><td><p><em>intriga politica</em></p></td><td><p>Inconsistencias en la carta</p></td><td><p>El sello de cera es claramente falso.</p></td><td><p>La falsificación conduce a la crisis</p></td></tr><tr><td><p><em>Malicia oculta</em></p></td><td><p>Miradas sospechosas</p></td><td><p>Amenaza a un PJ</p></td><td><p>llama a la guardia</p></td></tr><tr><td><p><em>Resolución fracturada</em></p></td><td><p>Duda al hablar</p></td><td><p>Expresar dudas o miedos</p></td><td><p>Actuar contra los planes</p></td></tr><tr><td><p><em>ocultando la ilusión</em></p></td><td><p>Distorsión brillante</p></td><td><p>Revela la verdadera forma</p></td><td><p>Provoca un movimiento en falso</p></td></tr><tr><td><p><em>Confianza destrozada</em></p></td><td><p>Evita el contacto visual</p></td><td><p>Deja que las intenciones se escapen</p></td><td><p>Traiciona al grupo</p></td></tr><tr><td><p><em>Techo desmoronado</em></p></td><td><p>El polvo cae ligeramente</p></td><td><p>Las grietas se extienden visiblemente</p></td><td><p>Los escombros caen</p></td></tr><tr><td><p><em>Enjambres de insectos</em></p></td><td><p>animales huyendo</p></td><td><p>Nube de insectos en el cielo.</p></td><td><p>El enjambre desciende brutalmente</p></td></tr><tr><td><p><em>reliquia maldita</em></p></td><td><p>El aire se vuelve anormalmente frío</p></td><td><p>Dice tu nombre</p></td><td><p>Maldice al portador</p></td></tr></tbody></table></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738610398301,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!r7Cy7N816z6l6Cn5.U2FvHvrkX6TQMvXD"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609122965,
+    "modifiedTime": 1738609122965,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!r7Cy7N816z6l6Cn5"
+}

@@ -1,0 +1,430 @@
+{
+  "folder": null,
+  "name": "Demonio: bálor",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Encarnaciones imponentes del mal puro, con enormes alas parecidas a las de un murciélago. Gobiernan con caos y destrucción, y tienen un hambre insaciable de más poder.</p>",
+    "notes": "<p>Argumento de la historia: INFIERNO PARA PAGAR.</p><p>\"El balor emerge del destrozado círculo de invocación mientras la catedral estalla en llamas a su alrededor. Aquellos que lo perturbaron yacen muertos y ahora la capital sentirá su furia\".</p>",
+    "role": "overseer",
+    "tier": "tough",
+    "traits": [
+      "Perfora engaños",
+      "Aura ardiente",
+      "Habla, Telepatía"
+    ],
+    "moves": [
+      "Látigo ardiente",
+      "Espada crepitante",
+      "Teletransporte en auge"
+    ],
+    "desires": [
+      {
+        "value": "disfrutar de su propia grandeza.",
+        "are": false
+      },
+      {
+        "value": "su control absoluto vacilara, aunque fuera por un segundo.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "rojo infierno",
+          "color": "#b22222"
+        },
+        {
+          "name": "Negro ahumado",
+          "color": "#2f2f2f"
+        },
+        {
+          "name": "Naranja ascua",
+          "color": "#ff4500"
+        }
+      ],
+      "sights": "llamas danzantes caóticas, grandes huellas humeantes",
+      "sounds": "Latigazos, relámpagos crepitantes, cantos guturales",
+      "smells": "azufre abrumador, ceniza sofocante"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "agonía de muerte",
+        "instructions": "Tirada 2",
+        "table": [
+          [
+            "Explosión devastadora, reduciendo todo a cenizas.",
+            "Un destello brillante que cega a todos los que lo presencian.",
+            "Los géiseres de lava brotan del suelo.",
+            "Los meteoros Hellfire bombardean la zona.",
+            "Un ciclón abrasador y una lluvia derretida causan estragos.",
+            "Se abre un portal al abismo, una entrada obligada."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Demonio: bálor",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Cabeza",
+      "type": "challenge",
+      "_id": "pDGl6EoysNRgf25k",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 8,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [
+          "bien defendido"
+        ],
+        "moves": [
+          "Burlas horribles",
+          "Cruel"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!4K0jDJ6DG6aSnqpI.pDGl6EoysNRgf25k"
+    },
+    {
+      "name": "Látigo ardiente",
+      "type": "challenge",
+      "_id": "rm165nOj5917NVJJ",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 4,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [
+          "Protege la cabeza"
+        ],
+        "moves": [
+          "Latigazo",
+          "Arrastrar cerca"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!4K0jDJ6DG6aSnqpI.rm165nOj5917NVJJ"
+    },
+    {
+      "name": "Magia demoniaca",
+      "type": "challenge",
+      "_id": "Fy9mzsxl1NjlYTGj",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 8,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [
+          "Ward el Balor"
+        ],
+        "moves": [
+          "Invocar demonios",
+          "Crear tormenta de fuego"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!4K0jDJ6DG6aSnqpI.Fy9mzsxl1NjlYTGj"
+    },
+    {
+      "name": "Espada crepitante",
+      "type": "challenge",
+      "_id": "IQIwLgygxAPNaiPM",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 4,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [
+          "Protege la cabeza"
+        ],
+        "moves": [
+          "Decapitar",
+          "Golpe de arco"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!4K0jDJ6DG6aSnqpI.IQIwLgygxAPNaiPM"
+    },
+    {
+      "name": "Cuerpo",
+      "type": "challenge",
+      "_id": "37wVsrVhRvbo5fyX",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 8,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [
+          "Piel impenetrable",
+          "Inmensamente fuerte"
+        ],
+        "moves": [],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!4K0jDJ6DG6aSnqpI.37wVsrVhRvbo5fyX"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368365475,
+    "modifiedTime": 1750368379620,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "4K0jDJ6DG6aSnqpI",
+  "sort": 900000,
+  "_key": "!actors!4K0jDJ6DG6aSnqpI"
+}

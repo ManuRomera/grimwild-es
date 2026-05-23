@@ -1,0 +1,65 @@
+{
+  "folder": "AlWljQLa4nCSGD2H",
+  "name": "Movimientos de historia",
+  "_id": "7zdZxUMRvanWB2OJ",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Movimientos de historia",
+      "type": "text",
+      "_id": "HtozUCvku2S65og4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 33\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VARItalic'\"><em>Usa estos movimientos en cualquier momento.</em></span></p><p><span style=\"font-family:'Capito04VAR'\">Mantén la narrativa fluida, la acción atractiva y haz que las cosas se muevan cuando se estanquen. Las acciones de los jugadores impulsan la historia y los movimientos de la historia los impulsan hacia adelante. Eso no significa que el mundo sea pasivo: puedes describir cualquier cosa que suceda y que tenga sentido. Sin embargo, desde una perspectiva de historia y jugabilidad, es más satisfactorio cuando los jugadores tienen </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>advertencia justa</strong> </em></span><span style=\"font-family:'Capito04VAR'\">sobre problemas. Saben que las acciones tienen consecuencias y que el suspense que te has ganado puede volverse en su contra. Esto parece justo, así que fuera de estos les das la iniciativa. Muestra que las cosas no son arbitrarias.</span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>El DJ también está jugando, solo que con reglas diferentes.</strong></em></span><span style=\"font-family:'Capito04VAR'\">.</span></p><p></p></div><div class=\"column\"><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.BgDBVoiRbx5zUcoA]{Presagiar}</span><span style=\"font-family:'Capito04VAR'\">: Insinúa problemas, a veces con un reserva de reloj. Provoca un movimiento de impacto posterior.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"El mago entrecierra los ojos con enojo cuando entras. • Se oyen ruidos de cascos, un reloj 4d\".</em></span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><br/></em></span><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.JT7gBWoxu8GmCL2F]{Pregunta}</span><span style=\"font-family:'Capito04VAR'\">: Haz preguntas provocativas para provocar dramatismo o darle cuerpo al mundo.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"¿Por qué les permitiste matar a ese bandido?\" • \"¿Qué dices de la reina mientras te sientas alrededor del fuego?\"</em></span></p><p></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆</span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.44sUTDzcXMTbmN9i]{Establecer la escena}</span><span style=\"font-family:'Capito04VAR'\">: Usa una tirada de historia para determinar cómo comienza una escena cuando no está clara.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"Todos parecen tener espíritu festivo en el gran salón\". • \"Todos los ojos se vuelven fríamente cuando entras al gran salón\".</em></span></p><p></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.HIO9pDCMlifR7iox]{Destacar}</span><span style=\"font-family:'Capito04VAR'\">: Centra la atención en un PJ, animándolo a actuar o hacer un seguimiento.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"Has estado callado por un tiempo, ¿qué estás haciendo?\" • \"Los ojos de la bruja se fijan en los tuyos, esperando una respuesta\".</em></span></p><p></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.I4Aj7JK4MsDtnCAM]{Envuélvelo}</span><span style=\"font-family:'Capito04VAR'\">: solicita una tirada de montaje o salta a una conclusión probable de una escena.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"Vamos a montar tu escape de la mazmorra que se derrumba\". • \"Está bien, termina de limpiar a la chusma de duendes\".</em></span></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738610217851,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!7zdZxUMRvanWB2OJ.HtozUCvku2S65og4"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609119898,
+    "modifiedTime": 1738609119898,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!7zdZxUMRvanWB2OJ"
+}

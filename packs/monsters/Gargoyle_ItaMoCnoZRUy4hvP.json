@@ -1,0 +1,186 @@
+{
+  "folder": null,
+  "name": "Gárgola",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Criaturas aladas parecidas a piedras que se disfrazan como parte de edificios y sirven como guardianes. Pueden permanecer inmóviles durante años hasta que se acercan intrusos.</p>",
+    "notes": "",
+    "role": "protector",
+    "tier": "tough",
+    "traits": [
+      "Camuflaje de piedra",
+      "Vigilancia eterna",
+      "Habla"
+    ],
+    "moves": [
+      "saltar susto",
+      "Arrebatar y volar",
+      "Garras de piedra"
+    ],
+    "desires": [
+      {
+        "value": "dejar que los intrusos pasen el punto de no retorno.",
+        "are": false
+      },
+      {
+        "value": "para sobrevivir a su deber.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Gris Piedra",
+          "color": "#696969"
+        },
+        {
+          "name": "Negro Ceniza",
+          "color": "#2f2f2f"
+        },
+        {
+          "name": "Verde musgo",
+          "color": "#6a8e22"
+        }
+      ],
+      "sights": "nada de interés, alas desplegadas, ojos abiertos",
+      "sounds": "Lento raspado de piedra, suave silbido de alas, fuerte ruido sordo.",
+      "smells": "tierra polvorienta, piedra antigua, sabor a agua de lluvia"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Salas impares",
+        "instructions": "",
+        "table": [
+          [
+            "Puerta que debe permanecer abierta.",
+            "Trono destinado a un rey caído.",
+            "Puerta que aparentemente no lleva a ninguna parte.",
+            "Altar mucho tiempo sin su dios.",
+            "Campanario, ni una sola vez sonó.",
+            "Pozo vacío, su comunidad ahora polvo."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Gárgola",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368409704,
+    "modifiedTime": 1750368409704,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "ItaMoCnoZRUy4hvP",
+  "sort": 0,
+  "_key": "!actors!ItaMoCnoZRUy4hvP"
+}

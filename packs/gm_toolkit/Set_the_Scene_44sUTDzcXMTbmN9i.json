@@ -1,0 +1,65 @@
+{
+  "folder": "AlWljQLa4nCSGD2H",
+  "name": "Establecer la escena",
+  "_id": "44sUTDzcXMTbmN9i",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Establecer la escena",
+      "type": "text",
+      "_id": "q2wMnbkD2ZdMG5lV",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 33\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Usa una tirada de historia para determinar cómo comienza una escena cuando no está clara.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"Todos parecen tener espíritu festivo en el gran salón\". • \"Todos los ojos se vuelven fríamente cuando entras al gran salón\".</em></span></p><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">ESTABLECER LA ESCENA </span><span style=\"font-family:'Capito04VAR'\">cuando no estás seguro de los detalles de la ficción actual o quieres sumergirte directamente en la acción. Omita la planificación detallada y los preparativos cautelosos que a menudo retrasan el juego. En cambio, </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>saltar directamente a la acción</strong></em></span><span style=\"font-family:'Capito04VAR'\">, ¡una toma in media res de cosas que ya están en movimiento! El tirada establece el ambiente inicial y lo que está en juego para la escena. En un escenario sombrío, incluso puede desencadenar un @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto}, lo que desencadena las cosas con fuerza y ​​aumenta la tensión de inmediato.</span></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738610168224,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!44sUTDzcXMTbmN9i.q2wMnbkD2ZdMG5lV"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "JournalEntry.44sUTDzcXMTbmN9i",
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609119898,
+    "modifiedTime": 1738609119898,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!44sUTDzcXMTbmN9i"
+}

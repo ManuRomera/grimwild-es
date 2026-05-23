@@ -1,0 +1,76 @@
+{
+  "folder": "AqQ3YAkWtiAtqHH9",
+  "name": "Pacto",
+  "type": "talent",
+  "_id": "fvnHaIRh7aJEJj1H",
+  "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+  "system": {
+    "description": "<p>Crea tu patrón, un poderoso ser de otro mundo con el que has hecho un pacto para obtener regalos a cambio de obligaciones.</p><p><strong>Regalos</strong>: Su patrón se entromete activa o pasivamente en sus asuntos. Antes de cada sesión, tira 2d y anota estos resultados como Regalos. Durante la sesión, puedes reemplazar <em>cualquier </em>rodado d6 <em>(por cualquiera) </em>con uno de los resultados de tu regalo, luego borra el regalo.</p><p>También puedes lanzar trucos con los adornos de tu patrón como piedras de toque, útiles como <em>vestirse </em>y <em>utilidad truco</em>. <em><strong>Obtienes un talento adicional</strong></em>, y cada uno de tus talentos está impregnado de sus características.</p><p><strong>Obligaciones</strong>: Cada cliente tiene demandas diferentes. Tienes un arco argumental adicional para representar sus demandas. Algunos clientes esperan un progreso significativo, mientras que otros sólo piden un servicio mínimo. Tu defines lo que esto significa. Antes de cada sesión, analice este arco narrativo. Tu patrón tiene un <em><strong>8d paciencia</strong> </em>reserva. Llévelo si su usuario no quedó satisfecho con su progreso en la última sesión. En 0d, tu patrón te hará una visita de alguna forma para <em><strong>aclarar el problema</strong></em>, reponiendo la reserva.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 3 niveles, obtienes un talento adicional, pero disminuyes la paciencia máxima en 2d.</p>",
+    "core": true,
+    "notes": {
+      "description": "<p><em>Describe aquí los atributos de tu mecenas.</em></p>",
+      "label": "Patrón"
+    },
+    "trackers": [
+      {
+        "type": "pool",
+        "label": "Paciencia",
+        "pool": {
+          "diceNum": 8,
+          "max": 8
+        },
+        "points": {
+          "showSteps": false,
+          "value": 1,
+          "max": 1
+        }
+      },
+      {
+        "type": "points",
+        "label": "Regalo 1",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      },
+      {
+        "type": "points",
+        "label": "Regalo 2",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      }
+    ],
+    "path": "warlock"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.fvnHaIRh7aJEJj1H",
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739140434336,
+    "modifiedTime": 1739746734515,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!fvnHaIRh7aJEJj1H"
+}

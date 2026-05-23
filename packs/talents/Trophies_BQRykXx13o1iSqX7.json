@@ -1,0 +1,36 @@
+{
+  "folder": "0FZZ6ZaYmCNR9Vxc",
+  "name": "Trofeos",
+  "type": "talent",
+  "_id": "BQRykXx13o1iSqX7",
+  "img": "icons/commodities/treasure/cup-trophy-gold.webp",
+  "system": {
+    "description": "<p>Cuando juegas un papel clave en matar a un <em>monstruo poderoso</em>, puedes cosechar un <em><strong>trofeo</strong> </em>de ello. Esto actúa como una varita que sólo tú puedes usar. <em>Trofeos menores </em>No requiere tirada para cosechar. <em>Grandes trofeos </em>requieren una tirada de acción de Ingenio. El nombre, la habilidad y la parte del cuerpo del monstruo son la piedra de toque. Tu tambien ganas uno <em>trofeo mayor </em>cuando tomes esto, detallalo. Algunos ejemplos:</p><p>▸ <em><strong>Ojo del Basilisco</strong>: Varita Stoneflesh 4d. Una varita menor frena a alguien. Una varita importante los convierte en una estatua. </em><br/>▸ <em><strong>Cuernos de un minotauro</strong>: Varita de carga potente 4d. Una varita menor aumenta la velocidad. Una varita importante da potencia. </em><br/>▸ <em><strong>Corazón de troll</strong>: Varita de regeneración 4d. Una varita menor elimina pequeñas dolencias. Una varita importante elimina las marcas.</em></p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "path": "ranger"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739129525843,
+    "modifiedTime": 1739129525843,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!BQRykXx13o1iSqX7"
+}

@@ -1,0 +1,50 @@
+{
+  "folder": "axv1GMaCSdy5XHII",
+  "name": "Forma salvaje",
+  "type": "talent",
+  "_id": "Wv8wTvn4GX7wtr2u",
+  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "system": {
+    "description": "<p>Puedes adoptar la forma de cualquier bestia con la que estés familiarizado. tienes un <em><strong>Forma salvaje 4d</strong> </em>grupo de recursos, obtenido cuando cambias; en 0d, no logras convertirte en esa forma. La reserva se repone después de cada escena.</p><p>Adoptas las cualidades físicas y los instintos salvajes de la forma. Mueve tus puntos de estadísticas para representar esto, con un mínimo. de 1 y máx. de 3 en una estadística. Pierdes el acceso a cualquier talento relacionado con tu propia forma física.</p><p>Algunas formas son más difíciles de adoptar. para cada <em><strong>talento salvaje</strong> </em>(máximo 2) que tiene una forma, suelta 1d del grupo antes de tirarla. Estas son cosas como <em>acuático</em>, <em>más pequeño que un gato</em>, <em>más grande que un oso</em>, <em>venenoso</em>, y <em>vuelo</em>. También puede ser un talento específico de un camino, o cualquier cosa que requiera un talento heredado. El DJ juzga el <em><strong>zona gris</strong></em>.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, aumenta tu reserva de Formas Salvajes en 1d.</p>",
+    "core": true,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "pool",
+        "label": "Forma salvaje",
+        "pool": {
+          "diceNum": 4,
+          "max": 4
+        },
+        "points": {
+          "showSteps": false,
+          "value": 1,
+          "max": 1
+        }
+      }
+    ],
+    "path": "druid"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739109608751,
+    "modifiedTime": 1739109608751,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!Wv8wTvn4GX7wtr2u"
+}

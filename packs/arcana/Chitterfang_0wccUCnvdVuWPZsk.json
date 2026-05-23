@@ -1,0 +1,40 @@
+{
+  "name": "Chitterfang",
+  "type": "arcana",
+  "img": "icons/weapons/daggers/dagger-straight-green.webp",
+  "system": {
+    "description": "<p>Vibra como las alas de un insecto y golpea con un zumbido inquietante.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Pierde poder cuando el insecto vivo en la empuñadura se va ocasionalmente.</p>",
+    "touchstones": "insecto—precisión—resonancia",
+    "tier": "minor"
+  },
+  "effects": [],
+  "folder": "oqUqojrnxgojYi6E",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "0wccUCnvdVuWPZsk",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768052726575,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0wccUCnvdVuWPZsk"
+}

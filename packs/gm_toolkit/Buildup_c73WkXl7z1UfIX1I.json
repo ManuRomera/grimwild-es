@@ -1,0 +1,65 @@
+{
+  "folder": "5YXY1yqWw7ivAdLy",
+  "name": "Acumulación",
+  "_id": "c73WkXl7z1UfIX1I",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Acumulación",
+      "type": "text",
+      "_id": "Ptc789qmzQ8UXbVY",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 34\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Da chispa a cada PJ, quienes dan una breve viñeta antes de la próxima acción.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>El dragón ruge en su guarida. Hagamos una preparación. • ¿Cómo es entrar al baile de máscaras?</em></span></p></div><div class=\"column\"><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">CONSTRUIR </span><span style=\"font-family:'Capito04VAR'\">para concentrarse en sus PJ y crear momentos que preparen el escenario para eventos importantes. Estas viñetas, ya sea una escena tranquila de una fogata o un momento tenso antes de una batalla, brindan a los jugadores la oportunidad de agregar profundidad y sentimiento a sus personajes que podrían pasar desapercibidos, y el \"</span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>gratis</strong></em></span><span style=\"font-family:'Capito04VAR'\">\" El @UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Chispa} que obtienen les permite saber que lo que les espera será un verdadero desafío.</span></p></div></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!c73WkXl7z1UfIX1I.Ptc789qmzQ8UXbVY"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609121380,
+    "modifiedTime": 1738609121380,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!c73WkXl7z1UfIX1I"
+}

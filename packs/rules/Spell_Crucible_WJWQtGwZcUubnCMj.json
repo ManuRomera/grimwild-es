@@ -1,0 +1,65 @@
+{
+  "folder": "vUGdoKGy7PZ2fdfW",
+  "name": "Crisol de hechizos",
+  "_id": "WJWQtGwZcUubnCMj",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Crisol de hechizos",
+      "type": "text",
+      "_id": "oAUafgvMOjLisdE2",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>Estilo, esencia y forma del tirada. Elija 2 y luego asigne una escuela.</em></p><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.It97TCUGhQfa7I5n]{Estilo}</p><hr/><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.1sh14AQ5dmCICtQZ]{Esencia}</p><hr/><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.XO9Fu2nSiTKNTrbM]{Forma}</p><h2><strong>Escuelas de Magia</strong></h2><p><em>Elige o tira por ello @UUID[Compendium.grimwild.crucibles.RollTable.tnEydB0CU9F9LWNI]{Escuelas de Magia}</em></p><ul><li><p><strong>A</strong><span class=\"s2\"><strong>bj</strong></span><strong>uración</strong>: Protege, bloquea, disipa o destierra.</p></li><li><p class=\"p1\"><strong>Conjuración</strong>: Invoca criaturas, objetos y se teletransporta.</p></li><li><p class=\"p1\"><span class=\"s3\"><strong>Divinidad</strong>: Revela información, predice el futuro y lee la mente.</span></p></li><li><p class=\"p1\"><span class=\"s2\"><strong>Encantamiento</strong></span>: Encanta, influye y maldice a criaturas sensibles.</p></li><li><p class=\"p1\"><strong>Evocación</strong>: Crea y controla fuerzas elementales y mágicas.</p></li><li><p class=\"p1\"><strong>Espejismo</strong>: Genera imágenes falsas y engaños sensoriales.</p></li><li><p class=\"p1\"><strong>Nigromancia</strong>: Manipula la vida, la muerte y los muertos vivientes.</p></li><li><p class=\"p1\"><strong>Transmutación</strong>: Transforma la materia y altera las propiedades físicas.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "UV77mtxQgW7KpS6B": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "grimwild",
+        "systemVersion": "0.4.0",
+        "createdTime": 1768697386279,
+        "modifiedTime": 1768697818710,
+        "lastModifiedBy": "UV77mtxQgW7KpS6B"
+      },
+      "_key": "!journal.pages!WJWQtGwZcUubnCMj.oAUafgvMOjLisdE2"
+    }
+  ],
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UV77mtxQgW7KpS6B": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "grimwild",
+    "systemVersion": "0.4.0",
+    "createdTime": 1768697379136,
+    "modifiedTime": 1768697379136,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B"
+  },
+  "_key": "!journal!WJWQtGwZcUubnCMj"
+}

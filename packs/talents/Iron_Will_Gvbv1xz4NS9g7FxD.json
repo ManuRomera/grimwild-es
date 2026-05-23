@@ -1,0 +1,50 @@
+{
+  "folder": "Km2uusPM1YvfRSZe",
+  "name": "Voluntad de hierro",
+  "type": "talent",
+  "_id": "Gvbv1xz4NS9g7FxD",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "description": "<p>En cada sesión tienes un <em><strong>Voluntad de hierro 3d</strong> </em>reserva de recursos. Cuando te pongas nervioso o te molestes, tira la reserva. Si quedan dados, ignora el daño. Si la situación lo permite, también puedes arremeter contra la causa o contra un espectador y: <em>infundir temor en sus corazones, sembrar dudas en sus mentes</em>.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "pool",
+        "label": "Voluntad de hierro",
+        "pool": {
+          "diceNum": 3,
+          "max": 3
+        },
+        "points": {
+          "showSteps": false,
+          "value": 1,
+          "max": 1
+        }
+      }
+    ],
+    "path": "cleric"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739063481754,
+    "modifiedTime": 1739746322911,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!Gvbv1xz4NS9g7FxD"
+}

@@ -1,0 +1,186 @@
+{
+  "folder": null,
+  "name": "Diablo barbado",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Horribles demonios cubiertos de púas dentadas. Saborean el miedo y el tormento, y a menudo prolongan el sufrimiento lo más posible antes de asestar el golpe final.</p>",
+    "notes": "",
+    "role": "lurker",
+    "tier": "tough",
+    "traits": [
+      "Púas enganchadas",
+      "Presencia horrible",
+      "Habla, Telepatía"
+    ],
+    "moves": [
+      "abrazo de púas",
+      "Lanzar fuego del infierno",
+      "Burla lenta"
+    ],
+    "desires": [
+      {
+        "value": "para saborear lentamente la agonía y las súplicas de misericordia.",
+        "are": false
+      },
+      {
+        "value": "para que se soporte el dolor que inflige.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "hollín negro",
+          "color": "#2f2f2f"
+        },
+        {
+          "name": "Rojo ascua",
+          "color": "#b22222"
+        },
+        {
+          "name": "verde oscuro",
+          "color": "#566b30"
+        }
+      ],
+      "sights": "sombras retorciéndose de forma antinatural, púas retorciéndose",
+      "sounds": "Arañazos de púas a lo largo de las paredes, sonido desgarrador de carne",
+      "smells": "sangre fresca cobriza y agonía"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Convocado a...",
+        "instructions": "",
+        "table": [
+          [
+            "Boda real, destinada a sellar una paz frágil.",
+            "Ejecución pública, destinada a aplastar la rebelión.",
+            "Consagración del templo, destinada a protegerse del mal.",
+            "Fiesta que marca el fin de una gran hambruna.",
+            "Juicio de un querido noble, acusado de traición.",
+            "Coronación de un gobernante vacilante, lleno de dudas."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Diablo barbado",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368367995,
+    "modifiedTime": 1750368379620,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "iF3Cx4WpibNVplLw",
+  "sort": 1200000,
+  "_key": "!actors!iF3Cx4WpibNVplLw"
+}

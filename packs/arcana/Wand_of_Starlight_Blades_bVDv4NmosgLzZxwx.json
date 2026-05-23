@@ -1,0 +1,54 @@
+{
+  "name": "Varita de espadas de luz estelar",
+  "type": "arcana",
+  "img": "icons/weapons/staves/staff-ornate-blue-jewel.webp",
+  "system": {
+    "description": "<p>Envía brillantes zarcillos de luz que atraviesan la oscuridad y los enemigos.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "pool",
+        "label": "Poder",
+        "pool": {
+          "diceNum": 8,
+          "max": 8
+        },
+        "points": {
+          "showSteps": false,
+          "value": 1,
+          "max": 1
+        }
+      }
+    ],
+    "limitations": "<p>Grupo de energía 8d, reabastecido en una noche sin nubes ni luna.</p>",
+    "touchstones": "Luz—Corte de escena—precisión",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "bVDv4NmosgLzZxwx",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768055545664,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bVDv4NmosgLzZxwx"
+}

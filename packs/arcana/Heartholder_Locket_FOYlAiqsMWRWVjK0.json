@@ -1,0 +1,40 @@
+{
+  "name": "Medallón de corazón",
+  "type": "arcana",
+  "img": "icons/equipment/neck/amulet-heart.webp",
+  "system": {
+    "description": "<p>Teletransporta a la persona que más quieres directamente hacia ti.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Sólo funciona si sus sentimientos por ti son mutuos.</p>",
+    "touchstones": "amor—teletransportación—apertura",
+    "tier": "mythic"
+  },
+  "effects": [],
+  "folder": "PNHXnKBouD6bBJIK",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "FOYlAiqsMWRWVjK0",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768053566774,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FOYlAiqsMWRWVjK0"
+}

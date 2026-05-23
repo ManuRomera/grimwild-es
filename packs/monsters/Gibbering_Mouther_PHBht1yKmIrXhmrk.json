@@ -1,0 +1,185 @@
+{
+  "folder": null,
+  "name": "Hablador farfullante",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Masas de ojos y bocas retorciéndose, balbuceando constantemente de forma incoherente. Confunden y enloquecen a los enemigos con sonidos caóticos y caos frenético.</p>",
+    "notes": "",
+    "role": "brute",
+    "tier": "tough",
+    "traits": [
+      "Balbuceo enloquecedor",
+      "Forma caótica"
+    ],
+    "moves": [
+      "Saliva cegadora",
+      "Neblina mental",
+      "Tragar entero"
+    ],
+    "desires": [
+      {
+        "value": "para añadir más ojos y bocas a sí mismo.",
+        "are": false
+      },
+      {
+        "value": "para que se entienda su galimatías.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Carne pálida",
+          "color": "#fee4c3"
+        },
+        {
+          "name": "rojo carnoso",
+          "color": "#8b0101"
+        },
+        {
+          "name": "Rosa carnoso",
+          "color": "#c18680"
+        }
+      ],
+      "sights": "gotas de saliva, trozos de carne, carne burbujeante",
+      "sounds": "sorbidos, chillidos agudos, gemidos, risas",
+      "smells": "olor agrio a bilis y podredumbre, vísceras, carne rancia"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Voces en el caos",
+        "instructions": "",
+        "table": [
+          [
+            "Voces familiares que llaman tu nombre.",
+            "Fragmentos de promesas incumplidas.",
+            "Súplicas de ayuda y perdón.",
+            "Tonos burlones de un viejo enemigo.",
+            "Cantos de rituales olvidados.",
+            "Tu propia voz, gritando tus pensamientos."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Hablador farfullante",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368419429,
+    "modifiedTime": 1750368419429,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "PHBht1yKmIrXhmrk",
+  "sort": 0,
+  "_key": "!actors!PHBht1yKmIrXhmrk"
+}

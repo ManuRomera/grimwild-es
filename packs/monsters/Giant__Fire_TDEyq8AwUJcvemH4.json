@@ -1,0 +1,344 @@
+{
+  "folder": null,
+  "name": "Gigante de fuego",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Tiranos acorazados de fuego y forja, que valoran el orden y el dominio por encima de todo. Dan forma a reinos a través del fuego, el acero y una voluntad inquebrantable.</p>",
+    "notes": "",
+    "role": "marauder",
+    "tier": "tough",
+    "traits": [
+      "Sangre de magma",
+      "Aura ardiente"
+    ],
+    "moves": [
+      "Martillo llameante",
+      "Lanzar magma",
+      "Ola de fuego"
+    ],
+    "desires": [
+      {
+        "value": "para transportar el botín a su fortaleza volcánica.",
+        "are": false
+      },
+      {
+        "value": "para cruzar cuerpos de agua.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Ascua quemada",
+          "color": "#cc5600"
+        },
+        {
+          "name": "Rojo ardiente",
+          "color": "#b22222"
+        },
+        {
+          "name": "Negro Carbón",
+          "color": "#2f2f2f"
+        }
+      ],
+      "sights": "enormes extensiones de tierra quemada, rastros de magma",
+      "sounds": "Crepitante rugiente, silbido de fuego, estruendo de lava.",
+      "smells": "Olor sofocante a humo, tierra carbonizada, piedra quemada"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Sede del poder",
+        "instructions": "",
+        "table": [
+          [
+            "bastión de piedra carbonizada",
+            "gran aguja de obsidiana",
+            "finca cubierta de cenizas",
+            "baños de azufre humeantes",
+            "catedral de basalto",
+            "ruido metálico de forjas"
+          ],
+          [
+            "isla en un río de lava",
+            "escarpado acantilado volcánico",
+            "borde ondulante de la caldera",
+            "centro de una vasta llanura",
+            "debajo de las caídas de magma",
+            "sistema de cuevas sulfúricas"
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Gigante de fuego",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Cabeza y magia",
+      "type": "challenge",
+      "_id": "TfMRnVnLGB7TQLbz",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 8,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [],
+        "moves": [
+          "Túneles de colapso",
+          "Oferta Alianza",
+          "Invocar demonios"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!TDEyq8AwUJcvemH4.TfMRnVnLGB7TQLbz"
+    },
+    {
+      "name": "Cuerpo y destreza",
+      "type": "challenge",
+      "_id": "SmkG4QYm7RMBJHav",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 8,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [
+          "Armadura gruesa",
+          "lanza de fuego"
+        ],
+        "moves": [
+          "Barrido de lanza",
+          "Pisotón",
+          "Agarrar y lanzar"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!TDEyq8AwUJcvemH4.SmkG4QYm7RMBJHav"
+    },
+    {
+      "name": "Guarida volcánica",
+      "type": "challenge",
+      "_id": "SCo7ACb654OJplpZ",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [
+          "Pozos de lava, nubes sulfúricas asfixiantes",
+          "6d arroja magma"
+        ],
+        "moves": [
+          "Firelings 6d (Secuaz Blasters)",
+          "3 Hellhounds (brutos duros)",
+          "4d | Elemental de fuego (Blaster de élite)"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!TDEyq8AwUJcvemH4.SCo7ACb654OJplpZ"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368415844,
+    "modifiedTime": 1750368415844,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "TDEyq8AwUJcvemH4",
+  "sort": 0,
+  "_key": "!actors!TDEyq8AwUJcvemH4"
+}

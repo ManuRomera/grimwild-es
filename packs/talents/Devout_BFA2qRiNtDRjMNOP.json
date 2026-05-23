@@ -1,0 +1,36 @@
+{
+  "folder": "Km2uusPM1YvfRSZe",
+  "name": "Devoto",
+  "type": "talent",
+  "_id": "BFA2qRiNtDRjMNOP",
+  "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+  "system": {
+    "description": "<p>Las criaturas inteligentes te reconocen como una persona de profunda honestidad y sólo tus enemigos más odiados te faltarían el respeto o dudarían de tu palabra. Un enemigo nunca te hirió gravemente ni te matará, a menos que no tenga otra opción. Cualquier criatura que pueda hablar siempre te escuchará. Esta aura se mantiene gracias a tu compromiso inquebrantable: debes <strong>esfuérzate</strong> actuar de mala fe <em>(sin activación gratuita).</em></p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "path": "cleric"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739063481754,
+    "modifiedTime": 1739063888106,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!BFA2qRiNtDRjMNOP"
+}

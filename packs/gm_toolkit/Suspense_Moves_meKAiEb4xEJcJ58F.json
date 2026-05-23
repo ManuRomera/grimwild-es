@@ -1,0 +1,65 @@
+{
+  "folder": "5YXY1yqWw7ivAdLy",
+  "name": "Movimientos de suspense",
+  "_id": "meKAiEb4xEJcJ58F",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Movimientos de suspense",
+      "type": "text",
+      "_id": "MFDpOGsKqjdhewhc",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" title=\"Page 34\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VARItalic'\"><em>Usa estos movimientos con sincronización cinematográfica.</em></span></p><p><span style=\"font-family:'Capito04VAR'\">Crea momentos familiares inspirados en programas de televisión, incentivándote automáticamente a tomarte el tiempo para estructurar la historia cinematográficamente. </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>ganas </strong></em>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span style=\"font-family:'Capito04VAR'\">, por lo que te recompensan por manejar parte del tedio de ser DJ y mantienen implicados a los jugadores que sigan atentos. El suspense mantiene al mundo activo cuando las cosas se estancan. Cuando se te acabe el suministro de suspense, puedes usarlos para reactivar la acción nuevamente. Sin embargo, úsalos con cuidado.</span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Uso excesivo</strong> </em></span><span style=\"font-family:'Capito04VAR'\">puede resultar frustrante para los jugadores, así que elige tus lugares. Pero </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>oportuno</strong> </em></span><span style=\"font-family:'Capito04VAR'\">su uso tiene sentido cinematográfico.</span></p><p></p></div></div><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.xEltzhhBRdgZ6FSn]{Puente}</span><span style=\"font-family:'Capito04VAR'\">: resuelve un problema que enfrentan los PJ o usa la exposición para conectar algunos puntos.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>Escuchas desde arriba: “¿Necesitas ayuda ahí abajo?” • De repente tiene sentido: el barón es un vampiro.</em></span></p><p></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.c73WkXl7z1UfIX1I]{Acumulación}</span><span style=\"font-family:'Capito04VAR'\">: Da chispa a cada PJ, quienes dan una breve viñeta antes de la próxima acción.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>El dragón ruge en su guarida. Hagamos una preparación. • ¿Cómo es entrar al baile de máscaras?</em></span></p><p></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.s5kx6NIL4rDoZbUM]{Corte de escena}</span><span style=\"font-family:'Capito04VAR'\">: Narra una escena rica en información en otro lugar, dando pistas a los jugadores.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>En un pueblo lejano, una extraña enfermedad comienza a extenderse. • Mientras tanto, vemos sombras trepando por las paredes.</em></span></p><p></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.VV7uXLGhN8SS7Fzs]{Enredar}</span><span style=\"font-family:'Capito04VAR'\">: Propón un enredo interesante a un PJ. Toma suspense sólo si aceptan.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>Él te mira con una sonrisa, retándote a hablar. • El prisionero sabe dónde está tu madre.</em></span></p><p></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.cudGLx4CTx5gFHEN]{Resumen}</span><span style=\"font-family:'Capito04VAR'\">: Resume la última sesión o eventos anteriores.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>Bien, la última vez destrozaste esa fortaleza. • ¿Recuerdas cuando dejaste ir a ese bandido?</em></span></p></div></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1738610334612,
+        "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!meKAiEb4xEJcJ58F.MFDpOGsKqjdhewhc"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738609121380,
+    "modifiedTime": 1738609121380,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!meKAiEb4xEJcJ58F"
+}

@@ -1,0 +1,185 @@
+{
+  "folder": null,
+  "name": "Roc",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Aves colosales con alas que bloquean el sol. Aparecen en tiempos de estancamiento para traer cambios al llevarse lo que ya no pertenece.</p>",
+    "notes": "",
+    "role": "brute",
+    "tier": "tough",
+    "traits": [
+      "Bloquea el sol",
+      "Impermeable al daño"
+    ],
+    "moves": [
+      "Vientos huracanados",
+      "Agarre de garra",
+      "Tragar entero"
+    ],
+    "desires": [
+      {
+        "value": "para volver a su nido.",
+        "are": false
+      },
+      {
+        "value": "distraerse de lo que debe hacer.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "Arena emplumada",
+          "color": "#d1b48c"
+        },
+        {
+          "name": "Marrón polvoriento",
+          "color": "#7d6244"
+        },
+        {
+          "name": "Azul tormentoso",
+          "color": "#6a7b8b"
+        }
+      ],
+      "sights": "tan grande como las nubes, vasta silueta en el horizonte",
+      "sounds": "aleteos resonantes, ráfagas masivas de viento",
+      "smells": "almizcle terroso abrumador, plumas secas"
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Compradores potenciales de huevos",
+        "instructions": "",
+        "table": [
+          [
+            "Emperatriz moribunda, que se alimentará de él para vivir.",
+            "Dragón, que lo utilizará para intercambiar por su vida.",
+            "Antiguo lich, que creará su mayor esbirro.",
+            "Gigante de la tormenta, que lo levantará como montura.",
+            "Pirata infame, que lo ve como un futuro skyship.",
+            "Orden druídica, que la desatará en el mundo."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Roc",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368450031,
+    "modifiedTime": 1750368450031,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "gpizIRWsGj1Jd0lh",
+  "sort": 0,
+  "_key": "!actors!gpizIRWsGj1Jd0lh"
+}

@@ -1,0 +1,337 @@
+{
+  "folder": null,
+  "name": "Gigante de escarcha",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Señores brutales del hielo y la piedra, honrando la fuerza y ​​la tradición por encima de todo. Buscan demostrar que son dignos de los duros e implacables yermos helados.</p>",
+    "notes": "",
+    "role": "blaster",
+    "tier": "tough",
+    "traits": [
+      "Pasos helados",
+      "Aura de lentitud",
+      "Habla"
+    ],
+    "moves": [
+      "Aliento de escarcha",
+      "Invocar tormenta de nieve",
+      "Martillo congelado"
+    ],
+    "desires": [
+      {
+        "value": "para dominar las amplias vistas de la tundra.",
+        "are": false
+      },
+      {
+        "value": "sentir el frío filtrarse de sus huesos.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "azul helado",
+          "color": "#add9e6"
+        },
+        {
+          "name": "Gris escarchado",
+          "color": "#d3d3d3"
+        },
+        {
+          "name": "Gris Piedra",
+          "color": "#696969"
+        }
+      ],
+      "sights": "enormes carámbanos colgantes, nubes de copos de nieve",
+      "sounds": "crujido de hielo, aullidos de viento helado, crujido de escarcha",
+      "smells": "Frío cortante, aire helado, pinos, nieve fresca."
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Ubicaciones inesperadas",
+        "instructions": "",
+        "table": [
+          [
+            "Toda la torre construida a su alrededor, manteniéndola congelada.",
+            "Pasa a través de un portal y llega a una playa de arena.",
+            "Montando sobre un iceberg flotante hacia una ciudad portuaria.",
+            "En el laboratorio de un gran mago.",
+            "Emergiendo de una extraña tormenta de nieve a mediados de primavera.",
+            "Atado en medio de un vasto desierto."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Gigante de escarcha",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Patio exterior",
+      "type": "challenge",
+      "_id": "DPY1AOkPcTgPa0oF",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [
+          "Pilares y estatuas de hielo agrietados"
+        ],
+        "moves": [
+          "Nube Iceling 4d (Enjambre Secuaz)",
+          "8d | Remorhaz (depredador de élite)"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!BtbyjzUztKLvhRPE.DPY1AOkPcTgPa0oF"
+    },
+    {
+      "name": "Salas heladas",
+      "type": "challenge",
+      "_id": "xz6BeTgNv83MTfgC",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [
+          "Pasillos laberínticos",
+          "4d aullido aterrador"
+        ],
+        "moves": [
+          "Lobos de invierno 6d (depredadores duros)",
+          "6d | Lobo invernal terrible (supervisor de élite)"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!BtbyjzUztKLvhRPE.xz6BeTgNv83MTfgC"
+    },
+    {
+      "name": "Salón del trono congelado",
+      "type": "challenge",
+      "_id": "jjgDIDaDecJ5e7j8",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "roll": {
+          "diceNum": 0,
+          "max": null
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        },
+        "suspense": {
+          "steps": [
+            true,
+            true
+          ]
+        },
+        "traits": [
+          "intensamente frio",
+          "Carámbanos que caen 4d"
+        ],
+        "moves": [
+          "3 trolls de hielo (merodeadores duros)",
+          "Elementales de aire 6d (blásteres de élite)",
+          "8d-8d | Gigante de Hielo (Boss Blaster)"
+        ],
+        "failure": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jgipq2YBy9KMjQWt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.7",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!BtbyjzUztKLvhRPE.jjgDIDaDecJ5e7j8"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368416685,
+    "modifiedTime": 1750368416685,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "BtbyjzUztKLvhRPE",
+  "sort": 0,
+  "_key": "!actors!BtbyjzUztKLvhRPE"
+}

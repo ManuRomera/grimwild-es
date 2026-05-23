@@ -1,0 +1,50 @@
+{
+  "folder": "ho2SQrFiSNOlb9od",
+  "name": "Te cubro la espalda",
+  "type": "talent",
+  "_id": "Sq85Y0kFTg6i8Nl8",
+  "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+  "system": {
+    "description": "<p>Puede <strong>esfuérzate</strong> para ayudar a un aliado después de que obtenga un resultado sombrío. El aliado también puede tirar 1d. En un perfecto, ambos <strong>tomar chispa</strong>.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Empujar",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      }
+    ],
+    "path": "fighter"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739111225522,
+    "modifiedTime": 1739111225522,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!Sq85Y0kFTg6i8Nl8"
+}

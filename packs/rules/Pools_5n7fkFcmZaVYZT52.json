@@ -1,0 +1,65 @@
+{
+  "name": "Reservas",
+  "_id": "5n7fkFcmZaVYZT52",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Reservas",
+      "type": "text",
+      "_id": "yy1d6VbmnCznGkjo",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Un conjunto de d6 que se utiliza para realizar un seguimiento de cosas como el tiempo, los recursos o el esfuerzo. Cuando se activa (🎲), tira la reserva y <strong>descarta</strong> 1d por cada resultado 1-3. En 0d, la reserva se agota y la ficción cambia.</p><p>El tamaño de una reserva es <strong>4d</strong>/<em>corto</em>, <strong>6d</strong>/<em>medio</em>, o <strong>8d</strong>/<em>largo</em>. En <strong>0d</strong>, ocurre un evento, termina una situación o se agota un recurso. Asegúrate de reflejar la ficción: si una reserva y la ficción no coinciden, ajústala o descártala.</p><p>◆ Si no se descarta ningún dado de una reserva de tarea en una tirada de acción perfecta o complicada, en su lugar <strong>toma un efecto secundario</strong> <em>(Revelan un secreto, algunos secuaces mueren)</em>. Si la tirada de la reserva fue solo de 1d y no se descartó, en su lugar puedes <strong>@UUID[Compendium.grimwild.rules.JournalEntry.i7KRerD2wyqcWclD]{Esfuérzate}</strong> para tirar el último dado. En casos similares, el DJ puede <strong>gastar @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</strong> para tirar el último dado.</p><p>◆ <strong>Descarta</strong> 1d de la reserva antes de tirarlo cuando un talento te lo indique, tienes poder o tomas el <em>mayor efecto </em>bonificación crítica. Esto se acumula.</p><p></p><p>Las reservas se pueden aplicar de manera flexible en muchas situaciones, generalmente por parte del DJ. Algunas reservas típicas se enumeran a continuación. Hay otras a lo largo del libro.</p><p><strong>RESERVAS DE RELOJ</strong>. Los acontecimientos se desarrollan en segundo plano. 🎲 Momentos clave, paso del tiempo o algunos PJ entran en acción. <em>6d Llegan refuerzos, 8d Amanecer.</em></p><p><strong>RESERVAS DE PRESIÓN</strong>. Las amenazas son cada vez más probables. 🎲 Movimientos de impacto, eventos importantes o nivel de amenaza. <em>Los vigías 6d te detectan, la corrupción 8d crece.</em></p><p><strong>RESERVAS DE TAREAS</strong>. Esfuerzo para superar las tareas. 🎲 Progreso de la tarea, generalmente una tirada de acción. <em>4d Pelea de bar, 6d Seguir una presa, 8d Escape de los guardias.</em></p><p><strong>RESERVAS DE RECURSOS</strong>. Cantidad de algo precioso. 🎲 El recurso experimenta un uso significativo. <em>4d suministros de alimentos, 8d mano de obra restante.</em></p><p></p><p><em>Nota: Las reservas siempre se anotan con el tamaño de la reserva delante, generalmente escrito en cursiva.</em></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Dl5Tvf37OuEHwdAh": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "grimwild",
+        "systemVersion": "0.1.0",
+        "createdTime": null,
+        "modifiedTime": 1741535527703,
+        "lastModifiedBy": "yOjpW3DHmrlL7PzO",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!5n7fkFcmZaVYZT52.yy1d6VbmnCznGkjo"
+    }
+  ],
+  "folder": "JAfDvPq9GOlzPUKM",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1738366918498,
+    "modifiedTime": 1738366918498,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "categories": [],
+  "_key": "!journal!5n7fkFcmZaVYZT52"
+}

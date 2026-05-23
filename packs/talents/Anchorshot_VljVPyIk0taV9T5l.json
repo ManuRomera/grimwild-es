@@ -1,0 +1,50 @@
+{
+  "folder": "i53xgSVOBOe4n7Mr",
+  "name": "Tiro de anclaje",
+  "type": "talent",
+  "_id": "VljVPyIk0taV9T5l",
+  "img": "icons/skills/ranged/arrow-flying-broadhead-metal.webp",
+  "system": {
+    "description": "<p>Tienes un artilugio de gancho, arpón y Roper que ancla monstruos grandes al suelo. Con ello tienes <em><strong>potencia</strong></em> para obstaculizar el movimiento de cualquier cosa del tamaño de un elefante o más. Cuando es golpeado, el objetivo se vuelve <em><strong>4d atado</strong></em>. Se ancla al suelo para que puedas dejarlo.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "pool",
+        "label": "Ancla",
+        "pool": {
+          "diceNum": 4,
+          "max": 4
+        },
+        "points": {
+          "showSteps": false,
+          "value": 1,
+          "max": 1
+        }
+      }
+    ],
+    "path": "artificer"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739543988913,
+    "modifiedTime": 1739543988913,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!VljVPyIk0taV9T5l"
+}

@@ -1,0 +1,186 @@
+{
+  "folder": null,
+  "name": "Feérico: gorro rojo",
+  "type": "monster",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "<p>Criaturas maliciosas y sedientas de sangre con una gorra roja sangre, impulsadas por la violencia y el amor por la matanza. A menudo se manifiestan cerca de los lugares de asesinato.</p>",
+    "notes": "",
+    "role": "marauder",
+    "tier": "tough",
+    "traits": [
+      "Sed de sangre",
+      "Carcajada sombría",
+      "Habla"
+    ],
+    "moves": [
+      "Tajo de guadaña",
+      "Frenesí de sangre",
+      "Hacer que la piel se arrastre"
+    ],
+    "desires": [
+      {
+        "value": "su sombrero nunca se seque completamente.",
+        "are": false
+      },
+      {
+        "value": "que se le muestren sus propias debilidades.",
+        "are": false
+      }
+    ],
+    "sensories": {
+      "colors": [
+        {
+          "name": "rojo sangre",
+          "color": "#8b0101"
+        },
+        {
+          "name": "Cuero Envejecido",
+          "color": "#714214"
+        },
+        {
+          "name": "Verde matorral",
+          "color": "#566b30"
+        }
+      ],
+      "sights": "Ojos inyectados en sangre, sonrisa malévola, guadaña brillante.",
+      "sounds": "agudo chasquido de una guadaña, carcajada",
+      "smells": "Espeso aroma cobrizo de sangre fresca como una niebla."
+    },
+    "pool": {
+      "diceNum": 0,
+      "max": null
+    },
+    "tables": [
+      {
+        "name": "Jefes de banda de guerra",
+        "instructions": "",
+        "table": [
+          [
+            "Goretooth, temido incluso por sus parientes.",
+            "Bloodsoak, que se baña en sangre.",
+            "Rotfoot, quien gobernaría a los elfos",
+            "Nocap, el sin sombrero.",
+            "Redeyes, nacido de un asesinato muy repugnante.",
+            "Feybane, a quien llaman traidor."
+          ]
+        ]
+      }
+    ]
+  },
+  "prototypeToken": {
+    "name": "Feérico: gorro rojo",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.7",
+    "createdTime": 1750368407684,
+    "modifiedTime": 1750368407684,
+    "lastModifiedBy": "jgipq2YBy9KMjQWt"
+  },
+  "ownership": {
+    "default": 0,
+    "jgipq2YBy9KMjQWt": 3
+  },
+  "_id": "QZrneSVrUxsEJ1T1",
+  "sort": 0,
+  "_key": "!actors!QZrneSVrUxsEJ1T1"
+}

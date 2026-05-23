@@ -1,0 +1,50 @@
+{
+  "folder": "QQwq5i3yUUjhboM4",
+  "name": "Envenenador",
+  "type": "talent",
+  "_id": "VQCjpLQxWDSfYs9C",
+  "img": "icons/skills/toxins/poison-bottle-open-fire-purple.webp",
+  "system": {
+    "description": "<p>En cada sesión tienes un <em><strong>Venenos 4d</strong> </em>reserva de recursos. Tienes acceso a los siguientes venenos: <em>alucinaciones—golpe de gracia—pérdida de memoria—náuseas—parálisis—suero de la verdad</em>. Cada uno de ellos necesita un poco de tiempo para hacer efecto y son más eficaces si se ingieren.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "pool",
+        "label": "Venenos",
+        "pool": {
+          "diceNum": 4,
+          "max": 4
+        },
+        "points": {
+          "showSteps": false,
+          "value": 1,
+          "max": 1
+        }
+      }
+    ],
+    "path": "rogue"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739130472186,
+    "modifiedTime": 1739746760770,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!VQCjpLQxWDSfYs9C"
+}

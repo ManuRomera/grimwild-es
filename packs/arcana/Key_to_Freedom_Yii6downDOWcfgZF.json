@@ -1,0 +1,40 @@
+{
+  "name": "Llave de la libertad",
+  "type": "arcana",
+  "img": "icons/sundries/misc/key-short-glowing.webp",
+  "system": {
+    "description": "<p>Localiza a cualquiera, abre todas las puertas a su paso y lo teletransporta a un lugar seguro.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>La persona localizada se convierte en su nuevo propietario.</p>",
+    "touchstones": "descubrimiento—libertad—clave",
+    "tier": "mythic"
+  },
+  "effects": [],
+  "folder": "PNHXnKBouD6bBJIK",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "Yii6downDOWcfgZF",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768053924152,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Yii6downDOWcfgZF"
+}

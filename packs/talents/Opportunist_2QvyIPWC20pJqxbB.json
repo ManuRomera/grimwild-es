@@ -1,0 +1,50 @@
+{
+  "folder": "QQwq5i3yUUjhboM4",
+  "name": "Oportunista",
+  "type": "talent",
+  "_id": "2QvyIPWC20pJqxbB",
+  "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
+  "system": {
+    "description": "<p>Cuando alguien cercano tira defensa, recibes +1d en un seguimiento inmediato. En un crítico por parte de un aliado cercano, puedes <strong>esfuérzate</strong> para agregar otra bonificación crítica.</p>",
+    "core": false,
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "points",
+        "label": "Empujar",
+        "points": {
+          "value": 1,
+          "max": 1,
+          "showSteps": true
+        },
+        "pool": {
+          "diceNum": 0,
+          "max": null
+        }
+      }
+    ],
+    "path": "rogue"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Dl5Tvf37OuEHwdAh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "grimwild",
+    "systemVersion": "0.1.0",
+    "createdTime": 1739130472186,
+    "modifiedTime": 1739130472186,
+    "lastModifiedBy": "Dl5Tvf37OuEHwdAh",
+    "exportSource": null
+  },
+  "_key": "!items!2QvyIPWC20pJqxbB"
+}

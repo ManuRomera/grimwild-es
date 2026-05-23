@@ -1,0 +1,54 @@
+{
+  "name": "Caja de música de recuerdos que hacen eco",
+  "type": "arcana",
+  "img": "icons/containers/chest/chest-reinforced-box-brown.webp",
+  "system": {
+    "description": "<p>Reproduce suaves melodías que evocan recuerdos fugaces y agridulces.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [
+      {
+        "type": "pool",
+        "label": "Poder",
+        "pool": {
+          "diceNum": 4,
+          "max": 4
+        },
+        "points": {
+          "showSteps": false,
+          "value": 1,
+          "max": 1
+        }
+      }
+    ],
+    "limitations": "<p>Reserva de energía 4d, refrescada por genuinas lágrimas agridulces.</p>",
+    "touchstones": "música—memoria—nostalgia",
+    "tier": "minor"
+  },
+  "effects": [],
+  "folder": "oqUqojrnxgojYi6E",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "h84rDwHdsWej5bPx",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768054563849,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!h84rDwHdsWej5bPx"
+}

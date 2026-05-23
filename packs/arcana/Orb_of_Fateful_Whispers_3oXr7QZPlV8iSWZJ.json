@@ -1,0 +1,40 @@
+{
+  "name": "Orbe de susurros fatídicos",
+  "type": "arcana",
+  "img": "icons/commodities/gems/pearl-swirl-blue.webp",
+  "system": {
+    "description": "<p>Predice los resultados de las decisiones cuando se le hace una pregunta no secreta de sí o no.</p>",
+    "notes": {
+      "description": "",
+      "label": ""
+    },
+    "trackers": [],
+    "limitations": "<p>Tirada de defensa contra recibir ensangrentado.</p>",
+    "touchstones": "previsión—riesgo—engaño",
+    "tier": "major"
+  },
+  "effects": [],
+  "folder": "TXQhZm5xNEInpO1T",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_id": "3oXr7QZPlV8iSWZJ",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": 1768054610779,
+    "lastModifiedBy": "UV77mtxQgW7KpS6B",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!3oXr7QZPlV8iSWZJ"
+}
