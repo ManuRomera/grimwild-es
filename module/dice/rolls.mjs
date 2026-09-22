@@ -80,6 +80,13 @@ export default class GrimwildRoll extends Roll {
 		chatData.isCut = chatData.success !== chatData.rawSuccess;
 		chatData.isFail = ["disaster", "grim", "messy"].includes(chatData.result);
 
+		// Result icon (the outcome must not rely on colour alone).
+		chatData.icon = RESULT_ICONS[chatData.result] ?? "fa-dice-d6";
+
+		// Mark the die that sets the outcome (first highest d6).
+		const kept = chatData.dice.reduce((best, die) => (!best || die.result > best.result ? die : best), null);
+		chatData.dice = chatData.dice.map((die) => ({ ...die, kept: die === kept }));
+
 		// Separate assist dice from other dice
 		if (this.options?.assists) {
 			for (const [name, diceNum] of Object.entries(this.options.assists)) {
@@ -96,6 +103,14 @@ export default class GrimwildRoll extends Roll {
 		return foundry.applications.handlebars.renderTemplate(template, chatData);
 	}
 }
+
+const RESULT_ICONS = {
+	crit: "fa-burst",
+	perfect: "fa-circle-check",
+	messy: "fa-circle-half-stroke",
+	grim: "fa-circle-xmark",
+	disaster: "fa-skull-crossbones"
+};
 
 /**
  * Set success constraints.

@@ -1,15 +1,18 @@
 {{#unless isPrivate}}
-<section class="grimwild-chat grimwild-roll {{result}} stroke stroke-top">
-  <div class="results">
-    <h2>{{ startPool }} &#8594; {{ endPool }}</h2>
-    <em>{{stat}}</em>
-  </div>
+<section class="grimwild-chat grimwild-roll gw-result gw-result--pool">
+  <header class="gw-result__banner">
+    <i class="fa-solid fa-dice-d6 gw-result__icon" inert></i>
+    <div class="gw-result__text">
+      <h2 class="gw-result__title">{{ startPool }} &#8594; {{ endPool }}</h2>
+      <span class="gw-result__stat">{{#if empty}}{{localize "GRIMWILD.Chat.poolEmpty"}}{{else}}{{localize "GRIMWILD.Chat.poolRolled"}}{{/if}}</span>
+    </div>
+  </header>
   <div class="dice-tooltip expanded">
     <section class="tooltip-part">
       <div class="dice">
         <ul class="dice-rolls">
           {{#each dice as |die key|}}
-            <li class="roll die d6 {{grimwildDie die.result}}">{{die.result}}</li>
+            <li class="roll die d6 {{grimwildDie die.result}}{{#if (lt die.result 4)}} discarded{{/if}}">{{die.result}}</li>
           {{/each}}
         </ul>
       </div>

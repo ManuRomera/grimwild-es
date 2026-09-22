@@ -1,16 +1,17 @@
-/**
- * @typedef {object} GrimwildRollDialogOptions
- * @property {GrimwildRollDialogRollData} rollData  The data to be injected into the roll dialog
- */
+import { tieneTalento, clavesDeCamino } from "../helpers/claves.mjs";
+import { ConMemoria } from "../ui/memoria.mjs";
 
 /**
  * @typedef {object} GrimwildRollDialogRollData
+ * @property {string} [name]                        Name of the rolling actor
  * @property {string} stat                          Shorthand string for the stat being rolled
+ * @property {string} diceLabel                     Label of the main dice source
  * @property {number} diceDefault                   The number of dice associated with the stat being rolled
  * @property {number} spark                         The maximum spark available to be used
  * @property {boolean} isBloodied                   If the actor is bloodied
  * @property {boolean} isRattled                    If the actor is rattled
  * @property {boolean} isMarked                     If the stat being rolled is marked
+ * @property {Actor} [actor]                        The rolling actor
  */
 
 /**
@@ -23,252 +24,164 @@
  */
 
 /**
- * A simple wrapper around a standard DialogV2's wait method to encapsulate the specific logic needed.
- * @extends {DialogV2}
+ * Roll dialog: dice sources on one side, thorn sources on the other, and both totals always
+ * visible on top. Totals are recomputed from every source on each change.
  *
- * @example Open a new roll dialog for rolling BRAWN with marked and bloodied
- * ```js
- * const dialog = await GrimwildRollDialog.open({
- *  rollData: {
- *      stat: "bra",
- *      diceDefault: 2,
- *      isBloodied: true,
- *      isRattled: false,
- *      isMarked: true
- *  }
- * });
- * const totalDice = dialog.dice;
- * const totalThorns = dialog.thorns;
- * const sparkUsed = dialog.sparkUsed;
- * const assistMap = dialog.assisters;
- * ```
+ * @example
+ * const result = await GrimwildRollDialog.open({ rollData: { stat: "bra", diceDefault: 2 } });
  */
-export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
+export class GrimwildRollDialog extends ConMemoria(foundry.applications.api.DialogV2) {
 	static DEFAULT_OPTIONS = {
-		...super.DEFAULT_OPTIONS,
+		classes: ["grimwild", "grimwild-roll-dialog"],
+		position: { width: 520 },
 		actions: {
-			addAssist: this._addAssist
-		},
-		changeActions: {
-			updateDice: this._updateDiceTotal,
-			updateThorns: this._updateThornsTotal
-		},
-		inputActions: {
-			updateDice: this._updateDiceTotal,
-			updateThorns: this._updateThornsTotal
+			addAssist: this.#onAddAssist,
+			removeAssist: this.#onRemoveAssist,
+			step: this.#onStep
 		}
 	};
 
 	/**
-	 * Attach listeners to the application frame.
+	 * Opens a new Grimwild Roll Dialog.
+	 * @param {object} options
+	 * @param {GrimwildRollDialogRollData} options.rollData
+	 * @returns {Promise<null|GrimwildRollDialogResponse>}
 	 */
-	_attachFrameListeners() {
-		super._attachFrameListeners();
-		// Attach event listeners in here to prevent duplicate calls.
-		const change = this.#onChange.bind(this);
-		this.element.addEventListener("change", change);
-		const input = this.#onInput.bind(this);
-		this.element.addEventListener("input", input);
-	}
+	static async open({ rollData, ...options } = {}) {
+		const actor = rollData.actor;
+		const context = {
+			...rollData,
+			img: actor?.img && actor.img !== "icons/svg/mystery-man.svg" ? actor.img : null,
+			hasSpark: rollData.spark > 0,
+			sparkArray: Array.from({ length: rollData.spark ?? 0 }, (_, i) => i),
+			conditions: 0
+		};
 
-	/**
-	 * Change event actions in this.options.changeActions.
-	 *
-	 * Functionally similar to this.options.actions and fires callbacks
-	 * specified in data-action-change on the element(s).
-	 *
-	 * @param {ChangeEvent} event Change event that triggered the call.
-	 */
-	async #onChange(event) {
-		const target = event.target;
-		const changeElement = target.closest("[data-action-change]");
-		if (changeElement) {
-			const { actionChange } = changeElement.dataset;
-			if (actionChange) {
-				this.options.changeActions?.[actionChange]?.call(
-					this,
-					event,
-					changeElement
-				);
-			}
-		}
-	}
+		// Possible helpers: other characters (player characters first as quick buttons).
+		const others = game.actors.filter((a) => a.type === "character" && a.id !== actor?.id && a.name !== rollData.name);
+		context.assistants = others.map((a) => a.name);
+		context.helpers = others.filter((a) => a.hasPlayerOwner).map((a) => a.name);
 
-	/**
-	 * Input event actions in this.options.inputActions.
-	 *
-	 * Functionally similar to this.options.actions and fires callbacks
-	 * specified in data-action-input on the element(s).
-	 *
-	 * @param {InputEvent} event Input event that triggered the call.
-	 */
-	async #onInput(event) {
-		const target = event.target;
-		const inputElement = target.closest("[data-action-input]");
-		if (inputElement) {
-			const { actionInput } = inputElement.dataset;
-			if (actionInput) {
-				this.options.inputActions?.[actionInput]?.call(
-					this,
-					event,
-					inputElement
-				);
-			}
-		}
-	}
-
-	/**
-	 * Render function to set the initial dice and thorns on the dialog
-	 *
-	 * @param {any} event           The render event for the dialog
-	 * @param {any} application     Application instance.
-	 */
-	static _render(event, application) {
-		// set first thorns value
-		const html = application.element;
-		const checkTotal = Array.from(html.querySelectorAll(".thornCheck")).reduce((sum, checkbox) => sum + (checkbox.checked ? 1 : 0), 0);
-		const numTotal = Array.from(html.querySelectorAll(".thornInput")).reduce((sum, number) => sum + parseInt(number.value || 0, 10), 0);
-		html.querySelector("#totalThorns").textContent = numTotal + checkTotal;
-		html.querySelector("#totalThornsInput").value = numTotal + checkTotal;
-
-		// set first dice value
-		const assists = html.querySelectorAll(".assist-value");
-		const assistTotal = Array.from(assists).reduce((sum, assist) => sum + parseInt(assist.value || 0, 10), 0);
-		const stat = html.querySelector("#stat");
-		const statTotal = parseInt(stat.value || 0, 10);
-		html.querySelector("#totalDice").textContent = assistTotal + statTotal;
-		html.querySelector("#totalDiceInput").value = assistTotal + statTotal;
-	}
-
-	/**
-	 * Opens a new Grimwild Roll Dialog
-	 *
-	 * @param {Partial<ApplicationConfiguration & DialogV2Configuration & DialogV2WaitOptions & GrimwildRollDialogOptions>} options
-	 * @param {GrimwildRollDialogRollData} [options.rollData]   The roll data to be injected into the dialog content
-	 * @returns {Promise<null|GrimwildRollDialogResponse>}      Resolves to either null if dismissed or an object with data to be passed
-	 *                                                          to a grimwild roll.
-	 */
-	static async open({ rollData, ...options }={}) {
-		// add some preprocessed data
-		rollData.hasSpark = rollData.spark > 0;
-		rollData.sparkArray = Array.from({ length: rollData.spark }, (_, i) => i);
-		rollData.assistants = game.actors.filter((a) => a.type === "character" && a.name !== rollData.name).map((a) => a.name);
-		// Add weapon mastery as an assistant.
-		if (rollData.actor) {
-			const path = rollData.actor.system.path;
-			const weaponMastery = rollData.actor.itemTypes.talent.filter((t) => t.name.trim().toLowerCase()
-				.includes("weapon mastery"));
-
-			if (path.trim().toLowerCase() === "fighter" || weaponMastery.length > 0) {
-				rollData.assistants.push(game.i18n.localize("GRIMWILD.Dialog.WeaponMastery"));
-			}
+		// Weapon mastery acts as an extra assist die. Identified by compendium id and path key,
+		// never by the (translatable) visible names.
+		if (actor && (tieneTalento(actor, "weaponMastery") || (await clavesDeCamino(actor)).has("fighter"))) {
+			const label = game.i18n.localize("GRIMWILD.Dialog.WeaponMastery");
+			context.assistants.push(label);
+			context.helpers.unshift(label);
 		}
 
-		options.content = await foundry.applications.handlebars.renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", rollData);
-		options.render = this._render;
+		options.content = await foundry.applications.handlebars.renderTemplate(
+			"systems/grimwild/templates/dialog/stat-roll.hbs",
+			context
+		);
 		options.modal = true;
-		options.window = { title: game.i18n.localize("GRIMWILD.Dialog.GrimwildRoll") };
+		options.memoria = "dialogo-tirada";
+		options.window = {
+			title: game.i18n.localize("GRIMWILD.Dialog.GrimwildRoll"),
+			icon: "fa-solid fa-dice-d6"
+		};
 		options.rejectClose = false;
-		options.buttons = [
-			{
-				label: game.i18n.localize("GRIMWILD.Dialog.Roll"),
-				action: "roll",
-				callback: (event, button, dialog) => {
-					const assists = dialog.element.querySelectorAll(".assist-value");
-					const assisters = {};
-					Array.from(assists).forEach((assist) => {
-						const nameInput = assist.closest(".grimwild-form-group").querySelector(".assist-name");
-						const value = parseInt(assist.value || 0, 10);
-						// Ignore empty assists
-						if (value !== 0) {
-							// Ensure there is a name to the assist
-							const name = nameInput.value || game.i18n.localize("GRIMWILD.Dialog.Assist");
-							assisters[name] = !assisters[name]
-								? value
-								: assisters[name] + value;
-						}
-					});
-					const sparks = dialog.element.querySelectorAll(".sparkCheck");
-					const sparkUsed = Array.from(sparks).reduce((sum, checkbox) => sum + (checkbox.checked ? 1 : 0), 0);
-					return {
-						dice: button.form.elements.totalDiceInput.value,
-						thorns: button.form.elements.totalThornsInput.value,
-						assisters,
-						sparkUsed
-					};
-				}
-			}
-		];
-		return super.wait(options);
+		options.buttons = [{
+			label: game.i18n.localize("GRIMWILD.Dialog.Roll"),
+			icon: "fa-solid fa-dice-d6",
+			action: "roll",
+			default: true,
+			callback: (event, button, dialog) => dialog.resultado()
+		}];
+		return this.wait(options);
 	}
 
-	static async _addAssist(event, target) {
-		// create new row
-		const row = document.createElement("div");
-		row.classList.add("grimwild-form-group");
-
-		// create new name input
-		const textInput = document.createElement("input");
-		textInput.classList.add("assist-name");
-		textInput.type = "text";
-		textInput.name = "textInput[]";
-		textInput.placeholder = game.i18n.localize("Name");
-		textInput.setAttribute("list", "assistants-list");
-
-		// create new dice value input
-		const numberInput = document.createElement("input");
-		numberInput.classList.add("assist-value");
-		numberInput.type = "number";
-		numberInput.name = "numberInput[]";
-		numberInput.value = 1;
-		numberInput.setAttribute("data-action-input", "updateDice");
-		numberInput.setAttribute("data-prev", 1);
-
-		// add inputs to row
-		row.appendChild(textInput);
-		row.appendChild(numberInput);
-
-		// add row to container
-		const dialog = document.querySelector("#grimwild-roll-dialog");
-		dialog.querySelector("#assistContainer").appendChild(row);
-
-		// update totals
-		const totalDisplay = dialog.querySelector("#totalDice");
-		const totalValue = dialog.querySelector("#totalDiceInput");
-		const currentValue = parseInt(totalDisplay.textContent || 0, 10);
-		totalDisplay.textContent = currentValue + 1;
-		totalValue.value = currentValue + 1;
+	/** @override */
+	_onRender(context, options) {
+		super._onRender(context, options);
+		this.element.addEventListener("input", () => this.recalcular());
+		this.element.addEventListener("change", () => this.recalcular());
+		this.recalcular();
 	}
 
-	static async _updateThornsTotal(event, target) {
-		const dialog = document.querySelector("#grimwild-roll-dialog");
-		const totalDisplay = dialog.querySelector("#totalThorns");
-		const totalValue = dialog.querySelector("#totalThornsInput");
-		handleUpdate(event, target, totalDisplay, totalValue);
+	/** Recompute both totals from every source. */
+	recalcular() {
+		const el = this.element;
+		const numero = (input) => Math.max(parseInt(input?.value || 0, 10) || 0, 0);
+		const marcados = (sel) => el.querySelectorAll(`${sel}:checked`).length;
+		const suma = (sel) => Array.from(el.querySelectorAll(sel)).reduce((t, i) => t + numero(i), 0);
+
+		const dice = suma("[data-dice]") + marcados("[data-spark]") + suma("[data-assist-value]");
+		const thorns = marcados("[data-thorn]") + suma("[data-thorns]");
+		el.querySelector("[data-total=dice]").textContent = dice;
+		el.querySelector("[data-total=thorns]").textContent = thorns;
+		el.querySelector("[name=totalDiceInput]").value = dice;
+		el.querySelector("[name=totalThornsInput]").value = thorns;
+		el.querySelector(".gw-total--dice").classList.toggle("empty", dice === 0);
 	}
 
-	static async _updateDiceTotal(event, target) {
-		const dialog = document.querySelector("#grimwild-roll-dialog");
-		const totalDisplay = dialog.querySelector("#totalDice");
-		const totalValue = dialog.querySelector("#totalDiceInput");
-		handleUpdate(event, target, totalDisplay, totalValue);
+	/**
+	 * Values returned to the caller.
+	 * @returns {GrimwildRollDialogResponse}
+	 */
+	resultado() {
+		this.recalcular();
+		const el = this.element;
+		const assisters = {};
+		for (const row of el.querySelectorAll("[data-assist-row]")) {
+			const value = parseInt(row.querySelector("[data-assist-value]").value || 0, 10) || 0;
+			if (value <= 0) continue;
+			const name = row.querySelector("[data-assist-name]").value.trim() || game.i18n.localize("GRIMWILD.Dialog.Assist");
+			assisters[name] = (assisters[name] ?? 0) + value;
+		}
+		return {
+			dice: Number(el.querySelector("[name=totalDiceInput]").value),
+			thorns: Number(el.querySelector("[name=totalThornsInput]").value),
+			assisters,
+			sparkUsed: el.querySelectorAll("[data-spark]:checked").length
+		};
+	}
+
+	/**
+	 * Add an assist row, optionally prefilled with a helper's name.
+	 * @this {GrimwildRollDialog}
+	 * @param {PointerEvent} event
+	 * @param {HTMLElement} target
+	 */
+	static #onAddAssist(event, target) {
+		const name = target.dataset.name ?? "";
+		const li = document.createElement("li");
+		li.className = "gw-assist";
+		li.dataset.assistRow = "";
+		const nombre = game.i18n.localize("Name");
+		const quitar = game.i18n.localize("GRIMWILD.Dialog.RemoveAssist");
+		li.innerHTML = `
+			<input type="text" data-assist-name list="assistants-list" placeholder="${nombre}" aria-label="${nombre}">
+			<input type="number" data-assist-value value="1" min="0" aria-label="${game.i18n.localize("GRIMWILD.Dice.dice")}">
+			<button type="button" class="gw-icon-button" data-action="removeAssist" aria-label="${quitar}" data-tooltip="${quitar}">
+				<i class="fa-solid fa-xmark" inert></i>
+			</button>`;
+		li.querySelector("[data-assist-name]").value = name;
+		this.element.querySelector("[data-assists]").append(li);
+		if (!name) li.querySelector("[data-assist-name]").focus();
+		this.recalcular();
+	}
+
+	/**
+	 * @this {GrimwildRollDialog}
+	 * @param {PointerEvent} event
+	 * @param {HTMLElement} target
+	 */
+	static #onRemoveAssist(event, target) {
+		target.closest("[data-assist-row]")?.remove();
+		this.recalcular();
+	}
+
+	/**
+	 * Stepper buttons (−/+) for numeric sources.
+	 * @this {GrimwildRollDialog}
+	 * @param {PointerEvent} event
+	 * @param {HTMLElement} target
+	 */
+	static #onStep(event, target) {
+		const input = this.element.querySelector(`[name="${target.dataset.target}"]`);
+		if (!input) return;
+		input.value = Math.max((parseInt(input.value || 0, 10) || 0) + Number(target.dataset.step), 0);
+		this.recalcular();
 	}
 }
-
-const handleUpdate = (event, target, totalDisplay, totalValue) => {
-	const currentValue = parseInt(totalDisplay.textContent || 0, 10);
-	if (event.type === "change") {
-		const newValue = target.checked ? currentValue + 1 : currentValue - 1;
-		totalDisplay.textContent = newValue;
-		totalValue.value = newValue;
-	}
-	else if (event.type === "input") {
-		const previousValue = parseInt(target.dataset.prev || 0, 10);
-		const newValue = parseInt(target.value || 0, 10);
-		const diff = newValue - previousValue;
-		const newTotal = currentValue + diff;
-		target.dataset.prev = newValue;
-		totalDisplay.textContent = newTotal;
-		totalValue.value = newTotal;
-	}
-};

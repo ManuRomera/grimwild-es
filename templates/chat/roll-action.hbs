@@ -1,59 +1,61 @@
 {{#unless isPrivate}}
-<section class="grimwild-chat grimwild-roll {{result}} stroke stroke-top">
-  <div class="results">
-    <h2>{{#if isCut }}
-      {{localize (concat "GRIMWILD.Dice.results." rawResult)}} &#8594;
-      {{/if}}
-      {{localize (concat "GRIMWILD.Dice.results." result)}}</h2>
-    {{#if stat}}<strong class="dice-stat">{{localize (concat "GRIMWILD.Stat." stat ".long")}}</strong>{{/if}}
-    {{#if startPool}}
-    <div class="pool-result">
-      <strong>{{ startPool }} &#8594; {{ endPool }}</strong>
+<section class="grimwild-chat grimwild-roll gw-result gw-result--{{result}}">
+  <header class="gw-result__banner">
+    <i class="fa-solid {{icon}} gw-result__icon" inert></i>
+    <div class="gw-result__text">
+      <h2 class="gw-result__title">
+        {{#if isCut}}<s class="gw-result__raw">{{localize (concat "GRIMWILD.Dice.results." rawResult)}}</s>
+        <i class="fa-solid fa-arrow-right-long" inert></i><span class="visually-hidden">{{localize "GRIMWILD.Chat.cutTo"}}</span>{{/if}}
+        {{localize (concat "GRIMWILD.Dice.results." result)}}
+      </h2>
+      {{#if stat}}<span class="gw-result__stat">{{localize (concat "GRIMWILD.Stat." stat ".long")}}</span>{{/if}}
     </div>
-    {{/if}}
-    <div></div>
-  </div>
+    {{#if startPool}}<span class="gw-result__pool" data-tooltip="{{localize "GRIMWILD.Chat.poolChange"}}">{{ startPool }} &#8594; {{ endPool }}</span>{{/if}}
+  </header>
   <div class="dice-tooltip expanded">
     <section class="tooltip-part">
       <div class="dice">
-        <ul class="dice-rolls">
+        <ul class="dice-rolls" aria-label="{{localize "GRIMWILD.Dice.dice"}}">
           {{#each dice as |die key|}}
-            <li class="roll die d6 {{grimwildDie die.result}}">{{die.result}}</li>
+            <li class="roll die d6 {{grimwildDie die.result}}{{#if die.kept}} kept{{/if}}">{{die.result}}</li>
           {{/each}}
         </ul>
         {{#each assists}}
-          <ul class="dice-rolls">
-            <span> &#8594; {{@key}}</span>
+          <ul class="dice-rolls" aria-label="{{@key}}">
+            <span>&#8594; {{@key}}</span>
             {{#each this as |die key|}}
-              <li class="roll die d6 {{grimwildDie die.result}}">{{die.result}}</li>
+              <li class="roll die d6 {{grimwildDie die.result}}{{#if die.kept}} kept{{/if}}">{{die.result}}</li>
             {{/each}}
           </ul>
-          {{/each}}
-        <ul class="dice-rolls">
+        {{/each}}
+        {{#if thorns.length}}
+        <ul class="dice-rolls" aria-label="{{localize "GRIMWILD.Dice.thorns"}}">
           {{#each thorns as |die key|}}
             <li class="roll die d8 {{grimwildThorn die.result}}">{{die.result}}</li>
           {{/each}}
+          <span>{{localize "GRIMWILD.Dice.thorns"}}</span>
         </ul>
+        {{/if}}
       </div>
     </section>
   </div>
   <div class="action-links">
     {{#if isFail }}
-    <div class="action-row action-marks flexrow">
+    <div class="action-row action-marks">
       <strong>{{localize "GRIMWILD.UI.marks"}}</strong>
-      <button data-action="applyMark" data-stat="bra">{{localize "GRIMWILD.Stat.bra.abbr"}}</button>
-      <button data-action="applyMark" data-stat="agi">{{localize "GRIMWILD.Stat.agi.abbr"}}</button>
-      <button data-action="applyMark" data-stat="wit">{{localize "GRIMWILD.Stat.wit.abbr"}}</button>
-      <button data-action="applyMark" data-stat="pre">{{localize "GRIMWILD.Stat.pre.abbr"}}</button>
+      <button type="button" data-action="applyMark" data-stat="bra" aria-label="{{localize "GRIMWILD.Chat.markStat"}} {{localize "GRIMWILD.Stat.bra.long"}}">{{localize "GRIMWILD.Stat.bra.abbr"}}</button>
+      <button type="button" data-action="applyMark" data-stat="agi" aria-label="{{localize "GRIMWILD.Chat.markStat"}} {{localize "GRIMWILD.Stat.agi.long"}}">{{localize "GRIMWILD.Stat.agi.abbr"}}</button>
+      <button type="button" data-action="applyMark" data-stat="wit" aria-label="{{localize "GRIMWILD.Chat.markStat"}} {{localize "GRIMWILD.Stat.wit.long"}}">{{localize "GRIMWILD.Stat.wit.abbr"}}</button>
+      <button type="button" data-action="applyMark" data-stat="pre" aria-label="{{localize "GRIMWILD.Chat.markStat"}} {{localize "GRIMWILD.Stat.pre.long"}}">{{localize "GRIMWILD.Stat.pre.abbr"}}</button>
     </div>
-    <div class="action-row action-harms flexrow">
+    <div class="action-row action-harms">
       <strong>{{localize "GRIMWILD.UI.harm"}}</strong>
-      <button data-action="applyHarm" data-harm="bloodied"><i class="fas fa-droplet"></i> {{localize "GRIMWILD.Damage.bloodied"}}</button>
-      <button data-action="applyHarm" data-harm="rattled"><i class="fas fa-brain"></i> {{localize "GRIMWILD.Damage.rattled"}}</button>
+      <button type="button" data-action="applyHarm" data-harm="bloodied"><i class="fas fa-droplet" inert></i> {{localize "GRIMWILD.Damage.bloodied"}}</button>
+      <button type="button" data-action="applyHarm" data-harm="rattled"><i class="fas fa-brain" inert></i> {{localize "GRIMWILD.Damage.rattled"}}</button>
     </div>
     {{/if}}
-    <div class="action-row action-spark flexcol">
-      <button data-action="updateSpark"><i class="fas fa-bolt"></i> {{localize "GRIMWILD.UI.takeSpark"}}</button>
+    <div class="action-row action-spark">
+      <button type="button" data-action="updateSpark"><i class="fas fa-bolt" inert></i> {{localize "GRIMWILD.UI.takeSpark"}}</button>
       {{#if (eq result "disaster")}}
       <div class="spark-footnote"><em>{{localize "GRIMWILD.Dice.results.disaster"}}</em> {{localize "GRIMWILD.UI.grantSpark"}}</div>
       {{/if}}

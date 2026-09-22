@@ -28,6 +28,7 @@ export default class GrimwildDiePoolRoll extends Roll {
 		const dropped = chatData.dice.filter((die) => die.result < 4);
 		chatData.startPool = `${chatData.dice.length}d`;
 		chatData.endPool = `${chatData.dice.length - dropped.length}d`;
+		chatData.empty = chatData.dice.length === dropped.length;
 
 		return foundry.applications.handlebars.renderTemplate(template, chatData);
 	}
