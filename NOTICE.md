@@ -19,3 +19,8 @@ Este repositorio contiene una traducción no oficial al castellano de Grimwild p
 El repositorio original indica que el contenido de compendios de Grimwild está incluido con permiso de Oddity Press, y que logos y texturas de `assets/` son © 2024 Oddity Press y se usan con permiso.
 
 Esta copia conserva esos avisos y debe tratarse como una localización derivada del sistema original, no como una obra independiente.
+
+## Fuentes
+
+- Noto Serif © The Noto Project Authors, con licencia SIL Open Font License 1.1. Se incluye en `assets/fonts/noto-serif/` junto a su licencia (`OFL.txt`).
+- «tiller» y «greycliff-cf» son fuentes de Adobe Fonts que el sistema original carga desde su kit de Typekit. No se distribuyen en este repositorio.

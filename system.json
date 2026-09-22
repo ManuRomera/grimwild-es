@@ -2,7 +2,7 @@
   "id": "grimwild",
   "title": "Grimwild (castellano no oficial)",
   "description": "Traducción no oficial al castellano del sistema Grimwild para FoundryVTT. Grimwild no es propiedad de este repositorio.",
-  "version": "0.5.3-es.1",
+  "version": "0.5.3-es.2",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351",
