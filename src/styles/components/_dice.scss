@@ -1,0 +1,139 @@
+h2 {
+	font-family: $font-display;
+	font-weight: bold;
+}
+
+&.crit h2,
+&.perfect h2 {
+	body.theme-dark & {
+		color: #00bd00;
+	}
+
+	body.theme-light & {
+		color: #007a00;
+	}
+}
+
+&.messy h2 {
+	body.theme-dark & {
+		color: #ffd400;
+	}
+
+	body.theme-light & {
+		color: #d68c03;
+	}
+}
+
+&.grim h2 {
+	body.theme-dark & {
+		color: #999;
+	}
+
+	body.theme-light & {
+		color: #555;
+	}
+}
+
+&.disaster h2 {
+	body.theme-dark & {
+		color: #ff5c37;
+	}
+
+	body.theme-light & {
+		color: #9c1e01;
+	}
+}
+
+.dice {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+
+	.dice-rolls {
+		margin: 0;
+		display: flex;
+		gap: 4px;
+		flex-wrap: wrap;
+
+		.roll {
+			order: 1;
+		}
+
+		> span {
+			order: 2;
+		}
+	}
+
+	.die {
+		font-family: $font-dice;
+		background: #444;
+		background-image: none !important;
+		border-radius: 2px;
+		margin: 0;
+		width: 24px;
+		height: 24px;
+		line-height: 24px;
+	}
+
+	.d8 {
+		overflow: visible;
+		background: transparent;
+		position: relative;
+		z-index: 1;
+		height: 28px;
+		line-height: 28px;
+
+		&::before,
+		&::after {
+			display: block;
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 0;
+			top: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			border-bottom: 15px solid #444;
+			border-left: 12px solid transparent;
+			border-right: 12px solid transparent;
+			z-index: -1;
+		}
+
+		&::after {
+			top: auto;
+			bottom: 0px;
+			border-bottom: none;
+			border-top: 14px solid #444;
+		}
+	}
+
+	.perfect {
+		color: #00bd00;
+	}
+
+	.messy {
+		color: #ffd400;
+	}
+
+	.grim {
+		color: #999;
+	}
+
+	.wild {
+		color: #2a8dff;
+	}
+
+	.cut {
+		color: #ff5c37;
+	}
+
+	.skip {
+		color: #999;
+	}
+
+	.divider {
+		background: none;
+		color: white;
+	}
+}

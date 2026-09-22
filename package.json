@@ -1,0 +1,23 @@
+{
+  "name": "grimwild-es",
+  "private": true,
+  "description": "Traducción no oficial al castellano del sistema Grimwild para Foundry VTT. Herramientas de compilación.",
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:vue && npm run build:css && npm run build:packs",
+    "build:vue": "vite build",
+    "build:css": "sass --style=compressed --silence-deprecation=import src/styles/grimwild.scss styles/grimwild.css",
+    "build:packs": "node tools/packs.mjs pack",
+    "unpack": "node tools/packs.mjs unpack",
+    "watch:vue": "vite build --watch",
+    "watch:css": "sass --watch --silence-deprecation=import src/styles/grimwild.scss styles/grimwild.css",
+    "check": "node tools/check.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.1.0",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "sass": "^1.89.2",
+    "vite": "^5.4.19",
+    "vue": "3.5.16"
+  }
+}

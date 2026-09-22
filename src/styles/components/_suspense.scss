@@ -1,0 +1,129 @@
+#sus-control {
+	display: flex;
+	transition: opacity var(--ui-fade-delay) var(--ui-fade-duration), transform 250ms ease;
+	opacity: 1;
+}
+
+#sus-control-inner {
+	display: flex;
+	justify-content: left;
+	margin: 0;
+	gap: 2px;
+}
+
+#sus-adjust,
+.quick-pool-adjust {
+	display: flex;
+	flex-direction: column;
+	min-width: fit-content;
+	gap: 2px;
+}
+
+.quick-pool-adjust {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+
+	button {
+		height: 100%;
+	}
+}
+
+button {
+	background-color: var(--sus-bg);
+	pointer-events: all;
+	border: none;
+	// border-color: var(--sus-bg-highlight);
+	margin: 0;
+	line-height: inherit;
+	flex: 1;
+	color: var(--color-text-light-highlight);
+
+	&.hover-highlight:hover {
+		background-color: var(--sus-bg-highlight);
+		// box-shadow: 0 0 10px var(--color-warm-2) inset;
+	}
+
+	&.button-icon {
+		background: none;
+		border-style: none;
+		i {
+			max-width: 14px;
+			&.dim {
+				color: var(--color-dark-6);
+			}
+		}
+		&:hover {
+			box-shadow: none;
+			i {
+				text-shadow: 0 0 10px var(--color-warm-2);
+			}
+		}
+	}
+}
+
+.quick-pool-inner {
+	display: flex;
+	flex-direction: row;
+	gap: 2px;
+	max-width: 472px;
+}
+
+.quick-pool-list {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	gap: 2px;
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#sus-display,
+.quick-pool {
+	background: var(--sus-bg);
+
+	padding: 2px;
+	border: none;
+	border-radius: 4px;
+	// border-color: var(--sus-bg-highlight);
+	margin: 0;
+	pointer-events: all;
+	height: 100%;
+
+	&:hover {
+		background-color: var(--sus-bg-highlight);
+	}
+	&.flash {
+		box-shadow: 0 0 40px var(--color-warm-2) inset;
+	}
+}
+
+#sus-current,
+.quick-pool-current {
+	padding: 2px;
+	font-size: xx-large;
+	height: 100%;
+	flex: 1;
+}
+
+#sus-label,
+.quick-pool-label {
+	padding: 2px;
+	max-height: fit-content;
+	// text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 4px;
+}

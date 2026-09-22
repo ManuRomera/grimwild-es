@@ -1,0 +1,26 @@
+.journal-page-content span {
+	font-family: inherit !important;
+}
+
+.journal-page-header,
+.journal-entry-page h1,
+.journal-entry-page h2 {
+	font-family: $font-display;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.journal-page-content {
+	font-size: 14px;
+
+	h1, h2, h3, h4, h5 {
+		line-height: 1.1;
+	}
+
+	table {
+		td {
+			padding: 0.5rem;
+		}
+	}
+}

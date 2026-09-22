@@ -4,3 +4,8 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# LevelDB runtime files (Foundry/classic-level los regenera)
+packs/*/LOG
+packs/*/LOG.old
+packs/*/LOCK

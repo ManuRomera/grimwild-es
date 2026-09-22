@@ -1,0 +1,91 @@
+// Add custom fonts by visiting and search https://fonts.google.com
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+// Import utilities.
+@import 'utils/typography';
+@import 'utils/colors';
+@import 'utils/mixins';
+@import 'utils/variables';
+
+/* Global styles */
+@import 'global/window';
+@import 'global/grid';
+@import 'global/flex';
+@import 'global/scroll-regions';
+@import 'global/journals';
+@import 'global/strokes';
+
+/* Styles limited to grimwild sheets */
+.grimwild {
+  @import 'components/forms';
+  @import 'components/items';
+  @import 'components/effects';
+  @import 'components/crucible';
+  @import 'components/stats';
+  @import 'components/backgrounds';
+  @import 'components/character';
+  @import 'components/monster';
+  @import 'components/trackers';
+  @import 'components/talents';
+  @import 'components/challenge';
+}
+
+.combat-sidebar {
+  @import 'components/combat';
+}
+
+.chat-message {
+  @import 'components/chat';
+
+  .grimwild-chat {
+    @import 'components/dice';
+  }
+}
+
+.grimwild-crucible-sheet {
+  .crucible-inputs {
+    label {
+      display: none;
+    }
+
+    .form-fields {
+      flex-direction: column;
+    }
+
+    tr {
+      background: transparent;
+    }
+
+    td {
+      padding: 0;
+      background: transparent;
+    }
+  }
+}
+
+.dialog {
+  @import 'components/dialog';
+}
+
+.jump-to-bottom {
+  z-index: 2;
+}
+
+#sus-control {
+  #ui-bottom & {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 4px;
+    gap: 2px;
+
+    color: var(--color-text-light-highlight);
+    text-align: center;
+    font-family: $font-display;
+    transition: all 100ms ease-in-out;
+    --sus-bg: rgba(0, 0, 0, 0.6);
+    --sus-bg-highlight: rgba(0, 0, 0);
+  }
+
+  @import 'components/suspense';
+}

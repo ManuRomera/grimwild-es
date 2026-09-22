@@ -1,0 +1,184 @@
+&.monster {
+	.grimwild-vue {
+		gap: 0;
+	}
+
+	.grimwild-avatar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.profile-img {
+		width: auto;
+		margin: auto;
+		flex: 0 0 auto;
+	}
+
+	.item-image {
+		flex: 0 0 24px;
+	}
+
+	.item-name {
+		gap: 8px;
+
+		.rollable {
+			flex: 0 auto;
+			flex-wrap: nowrap;
+		}
+
+		.suspense {
+			flex: 0 0 auto;
+		}
+	}
+
+	.header-fields {
+		align-items: flex-end;
+		margin: 0;
+		padding: 0 2px;
+
+		.name {
+			flex: 3;
+		}
+
+		.challenge-pool {
+			flex: 1;
+		}
+	}
+
+	.items-header {
+		justify-content: flex-end;
+
+		.item-controls {
+			flex: 0 0 auto;
+			// Weird CSS bug that was causing this overflow if there was no margin.
+			margin: 0 2px;
+		}
+	}
+
+	.items-list {
+		columns: 3;
+		column-gap: 8px;
+		padding: 8px 0;
+
+		.challenge {
+			background: #dbd2bca9;
+			border-radius: 4px;
+			break-inside: avoid-column;
+			padding: 4px;
+
+			body.theme-dark & {
+				background: var(--background);
+			}
+
+			.item-summary {
+				background: #ffffff44;
+				padding: 0 2px;
+
+				body.theme-dark & {
+					background: #ffffff11;
+				}
+
+				.item-name {
+					border-bottom: 1px solid;
+					padding: 4px 0;
+					gap: 2px;
+					cursor: inherit;
+
+					&:hover {
+						color: inherit;
+					}
+				}
+			}
+
+			.suspense-controls {
+				padding: 4px 2px 2px;
+
+				input[type="checkbox"] {
+					margin: 0;
+				}
+			}
+
+			.challenge-pool {
+				flex: 0 0 auto;
+			}
+
+			.challenge-fields-wrapper {
+				width: 100%;
+				padding: 8px 4px 4px
+			}
+
+			.item-description-content {
+				padding: 4px 8px;
+				margin: 4px;
+				background: var(--color-dark-2);
+				border-radius: 4px;
+			}
+
+			hr {
+				margin: 2px 0;
+			}
+
+			.item-trait {
+				font-style: italic;
+			}
+
+			.item-move {
+				list-style-type: disc;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+
+			.roll-pool {
+				gap: 2px;
+			}
+
+			.roll-pool-button {
+				padding: 4px;
+				line-height: 1;
+				height: auto;
+			}
+
+			.roll-pool-suffix {
+				border-right: 1px solid;
+				padding-right: 4px;
+			}
+
+			.item-failure {
+				padding: 0;
+				list-style-type: none;
+			}
+
+			.item-fail {
+				font-style: italic;
+				font-weight: bold;
+
+				.roll-pool {
+					flex: 0 0 auto;
+				}
+			}
+		}
+	}
+}
+
+.monster-colors {
+	flex-wrap: nowrap;
+}
+
+.monster-color {
+	flex: 1;
+	height: 5px;
+}
+
+.monster-color-name {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	padding: 2px 0 0;
+}
+
+.monster-tables-wrapper {
+	overflow-x: hidden;
+	padding-right: 2px;
+}
