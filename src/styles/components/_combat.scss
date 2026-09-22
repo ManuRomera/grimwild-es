@@ -1,63 +1,112 @@
 .combat-tracker-subtype {
-  font-family: $font-display;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 8px;
-  margin: 12px 0 0;
-  line-height: 1;
-  background: #00000055;
-}
-
-.combatant-controls {
-  .token-resources {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-
-    .resource-spark {
-      color: #6ebbbf;
-    }
-
-    .resource-bloodied,
-    .resource-rattled {
-      opacity: 0.25;
-
-      &.active {
-        opacity: 1;
-      }
-    }
-
-    .resource-bloodied {
-      color: #da4b4b;
-    }
-
-    .resource-rattled {
-      color: #c05ac0;
-    }
-  }
+	font-family: $font-display;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	text-align: center;
+	padding: 6px 8px;
+	margin: 10px 0 0;
+	line-height: 1;
+	font-size: 1em;
+	border: none;
+	background: rgba(0, 0, 0, 0.3);
 }
 
 .combat-tracker {
-  .combatant-header {
-    background: #00000055;
-    padding-top: 0;
-    border-bottom: 1px solid #ffffff33;
-    .token-image {
-      height: 0;
-    }
-  }
+	.combatant {
+		.token-name .name {
+			display: block;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
 
-  .token-initiative {
-    border-left: 1px solid #ffffff33;
-    flex: 0 0 50px;
-    text-align: center;
-  }
+		// El combatiente con el foco (turno activo) destaca con barra lateral, no solo color.
+		&.active {
+			box-shadow: inset 4px 0 0 var(--gw-accent);
+		}
+	}
+
+	.combatant-header {
+		background: rgba(0, 0, 0, 0.3);
+		padding-top: 0;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+		.token-image {
+			height: 0;
+		}
+	}
+
+	.token-initiative {
+		border-left: 1px solid rgba(255, 255, 255, 0.2);
+		flex: 0 0 50px;
+		text-align: center;
+
+		.gw-actions {
+			font-family: $font-display;
+			font-size: 1.3em;
+			font-weight: 700;
+		}
+	}
+
+	.combatant-controls {
+		gap: 0;
+		flex-wrap: wrap;
+	}
+
+	// Foco: el control del DJ más usado, más visible que el resto.
+	.gw-spotlight {
+		color: var(--gw-accent);
+		opacity: 1;
+	}
+}
+
+.combatant-controls .token-resources {
+	display: flex;
+	flex-direction: row;
+	gap: 2px;
+	margin-left: 4px;
+
+	.resource {
+		display: inline-flex;
+		align-items: center;
+		gap: 3px;
+		min-width: 26px;
+		width: auto;
+		padding: 0 4px;
+		font-size: var(--font-size-12);
+
+		i {
+			margin: 0;
+		}
+	}
+
+	.resource-spark {
+		color: var(--gw-spark);
+
+		&:not(.active) {
+			opacity: 0.55;
+		}
+	}
+
+	.resource-bloodied,
+	.resource-rattled {
+		opacity: 0.45;
+
+		&.active {
+			opacity: 1;
+			outline: 1px solid currentColor;
+		}
+	}
+
+	.resource-bloodied {
+		color: var(--gw-bloodied);
+	}
+
+	.resource-rattled {
+		color: var(--gw-rattled);
+	}
 }
 
 .encounter-context-menu {
-  margin-left: auto;
-}
-
-.combat-tracker .combatant-controls {
-  gap: 0;
+	margin-left: auto;
 }

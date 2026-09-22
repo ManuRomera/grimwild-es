@@ -3,27 +3,44 @@
 	font-family: $font-body;
 }
 
+// Elementos tirables (plantillas Handlebars y enlaces): tinta de acento y subrayado, sin neón.
 .rollable {
+	cursor: pointer;
+
 	&:hover,
-	&:focus {
-		color: $c-black;
-		text-shadow: 0 0 10px red;
-		cursor: pointer;
+	&:focus-visible {
+		color: var(--gw-accent);
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 3px;
 	}
 }
 
+.theme-light {
+	--gw-texture: url("../assets/grimwild-page-texture-light.webp");
+	--gw-texture-opacity: 0.75;
+	--gw-texture-height: 100%;
+}
+
+.theme-dark {
+	--gw-texture: url("../assets/grimwild-page-texture-dark.webp");
+	--gw-texture-opacity: 1;
+	--gw-texture-height: 300px;
+}
+
 .grimwild.application {
+	background: var(--gw-paper);
+
 	.window-content {
 		display: flex;
 		flex-direction: column;
 	}
 
 	hr {
-		body.theme-light & {
-			color: var(--grimwild-c-tan);
-			background-image: linear-gradient(90deg, transparent 0%, var(--grimwild-c-tan) 50%, transparent 100%);
-			opacity: 0.25;
-		}
+		color: var(--gw-rule-strong);
+		background-image: linear-gradient(90deg, transparent 0%, var(--gw-rule-strong) 50%, transparent 100%);
+		border: none;
+		height: 1px;
 	}
 
 	.sheet-header {
@@ -44,10 +61,6 @@
 .grimwild {
 	font-family: $font-body;
 
-	body.theme-light & {
-		background: #fff9ef;
-	}
-
 	h1, h2, h3, h4 {
 		font-family: $font-body;
 		font-weight: bold;
@@ -58,39 +71,25 @@
 
 	.window-content {
 		position: relative;
+		isolation: isolate;
 
 		button {
 			font-family: $font-body;
 		}
 
-		body.theme-dark &::before {
-			content: '';
+		// Textura de página: el papel de Grimwild bajo el contenido.
+		&::before {
+			content: "";
 			display: block;
 			position: absolute;
 			left: 0;
 			top: 0;
 			right: 0;
-			height: 300px;
-			background-image: url("../assets/grimwild-page-texture-dark.webp");
+			height: var(--gw-texture-height);
+			background-image: var(--gw-texture);
 			background-size: cover;
 			mask-image: linear-gradient(to bottom, black, transparent);
-			opacity: 1;
-			z-index: -1;
-			pointer-events: none;
-		}
-
-		body.theme-light &::before {
-			content: '';
-			display: block;
-			position: absolute;
-			left: 0;
-			top: 0;
-			right: 0;
-			height: 100%;
-			background-image: url("../assets/grimwild-page-texture-light.webp");
-			background-size: cover;
-			mask-image: linear-gradient(to bottom, black, transparent);
-			opacity: 0.75;
+			opacity: var(--gw-texture-opacity);
 			z-index: -1;
 			pointer-events: none;
 		}

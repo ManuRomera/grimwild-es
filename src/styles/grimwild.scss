@@ -1,11 +1,11 @@
-// Add custom fonts by visiting and search https://fonts.google.com
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 // Import utilities.
 @import 'utils/typography';
 @import 'utils/colors';
 @import 'utils/mixins';
 @import 'utils/variables';
+@import 'utils/tokens';
 
 /* Global styles */
 @import 'global/window';
@@ -15,19 +15,20 @@
 @import 'global/journals';
 @import 'global/strokes';
 
-/* Styles limited to grimwild sheets */
+/* Shared controls, layouts and sheets (gw- prefix) */
+@import 'components/ui';
+@import 'components/tabs';
+@import 'components/sheet';
+@import 'components/gw-items';
+@import 'components/monster';
+@import 'components/dialog';
+
+/* Legacy styles (Handlebars sheets) limited to grimwild sheets */
 .grimwild {
   @import 'components/forms';
   @import 'components/items';
   @import 'components/effects';
   @import 'components/crucible';
-  @import 'components/stats';
-  @import 'components/backgrounds';
-  @import 'components/character';
-  @import 'components/monster';
-  @import 'components/trackers';
-  @import 'components/talents';
-  @import 'components/challenge';
 }
 
 .combat-sidebar {
@@ -63,29 +64,9 @@
   }
 }
 
-.dialog {
-  @import 'components/dialog';
-}
 
 .jump-to-bottom {
   z-index: 2;
 }
 
-#sus-control {
-  #ui-bottom & {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 4px;
-    gap: 2px;
-
-    color: var(--color-text-light-highlight);
-    text-align: center;
-    font-family: $font-display;
-    transition: all 100ms ease-in-out;
-    --sus-bg: rgba(0, 0, 0, 0.6);
-    --sus-bg-highlight: rgba(0, 0, 0);
-  }
-
-  @import 'components/suspense';
-}
+@import 'components/suspense';

@@ -280,15 +280,125 @@
 	}
 
 	.action-row {
-		border-top: 1px solid #ffffff33;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 4px;
+		border-top: 1px solid var(--gw-rule);
 		margin: 0;
-		padding: 8px 0;
-		gap: 2px;
-	}
+		padding: 6px 0;
 
-	.action-marks {
+		> strong {
+			flex: 0 0 100%;
+			font-size: 0.8em;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+		}
+
 		button {
-			padding: 0;
+			flex: 1 1 auto;
+			min-height: 30px;
 		}
 	}
+
+	.action-spark {
+		flex-direction: column;
+		align-items: stretch;
+	}
+}
+// Resultado de tirada: icono + texto + borde. El color refuerza, no es la única pista.
+.gw-result {
+	--gw-result-color: var(--gw-grim);
+	margin-top: 6px;
+	padding: 0 0 0 10px !important;
+	border-left: 4px solid var(--gw-result-color);
+
+	&::after {
+		display: none;
+	}
+
+	&--crit {
+		--gw-result-color: var(--gw-crit);
+		border-left-style: double;
+		border-left-width: 6px;
+	}
+
+	&--perfect {
+		--gw-result-color: var(--gw-perfect);
+	}
+
+	&--messy {
+		--gw-result-color: var(--gw-messy);
+	}
+
+	&--grim {
+		--gw-result-color: var(--gw-grim);
+	}
+
+	&--disaster {
+		--gw-result-color: var(--gw-disaster);
+		border-left-style: dashed;
+	}
+
+	&--pool {
+		--gw-result-color: var(--gw-ink-faint);
+	}
+}
+
+.gw-result__banner {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 2px 0 6px;
+}
+
+.gw-result__icon {
+	font-size: 1.6em;
+	color: var(--gw-result-color);
+}
+
+.gw-result__text {
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	flex: 1;
+}
+
+h2.gw-result__title {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: $font-display;
+	font-size: 1.55em;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	line-height: 1.05;
+	color: var(--gw-result-color) !important;
+
+	i {
+		font-size: 0.6em;
+		vertical-align: middle;
+		color: var(--gw-ink-faint);
+	}
+}
+
+.gw-result__raw {
+	font-size: 0.7em;
+	color: var(--gw-ink-faint);
+}
+
+.gw-result__stat {
+	font-variant: small-caps;
+	letter-spacing: 0.05em;
+	color: var(--gw-ink-soft);
+}
+
+.gw-result__pool {
+	flex: 0 0 auto;
+	padding: 2px 6px;
+	border: 1px solid var(--gw-rule-strong);
+	border-radius: var(--gw-radius);
+	font-family: $font-dice;
+	font-weight: 700;
 }

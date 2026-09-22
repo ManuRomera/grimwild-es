@@ -1,0 +1,924 @@
+// Estructura común de las hojas Vue y ficha de personaje.
+//
+// Responsive por contenedor: las ventanas de Foundry cambian de tamaño dentro del mismo viewport,
+// así que las reglas dependen del ancho (y alto) de la propia hoja, no de la pantalla.
+//  - gwsheet: la hoja entera (ancho y alto).
+//  - gwmain: la columna principal (pestañas y cabeceras).
+//  - gwpanel: el contenido de las pestañas.
+
+.grimwild.application {
+	min-width: 340px;
+	min-height: 240px;
+
+	.window-content {
+		padding: 0;
+		overflow: hidden;
+	}
+
+	&.item {
+		min-height: 200px;
+	}
+}
+
+.gw-sheet {
+	container: gwsheet / size;
+	flex: 1;
+	min-height: 0;
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+	line-height: 1.4;
+
+	body.grimwild-accesible & {
+		font-size: 15.5px;
+	}
+}
+
+.gw-scroll {
+	flex: 1;
+	min-height: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	scrollbar-width: thin;
+}
+
+.gw-panels {
+	container: gwpanel / inline-size;
+	padding: 12px 14px 16px;
+}
+
+.gw-panel {
+	outline: none;
+}
+
+.gw-prose {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	margin-bottom: 14px;
+
+	.prose-mirror-wrapper {
+		min-height: 120px;
+	}
+
+	prose-mirror {
+		min-height: 160px;
+		border: 1px dashed var(--gw-rule);
+		border-radius: var(--gw-radius);
+		padding: 4px 8px;
+
+		&.active {
+			border-style: solid;
+			border-color: var(--gw-rule-strong);
+		}
+
+		// Botón de editar visible sin depender del hover (táctil, teclado).
+		> .toggle {
+			opacity: 0.8;
+			visibility: visible;
+		}
+	}
+}
+
+// Retrato con marco editorial.
+.gw-portrait {
+	@include boton-plano;
+	display: block;
+	padding: 3px;
+	border: 1px solid var(--gw-rule-strong);
+	border-radius: var(--gw-radius);
+	background: var(--gw-paper-raised);
+	cursor: pointer;
+
+	img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: top center;
+		border: none;
+		border-radius: 1px;
+	}
+
+	&:disabled {
+		cursor: default;
+	}
+
+	&:hover:not(:disabled) {
+		border-color: var(--gw-accent);
+	}
+}
+
+// ─── Ficha de personaje ────────────────────────────────────────────────────────────────────────
+
+.gw-char__layout {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	grid-auto-rows: max-content;
+	align-content: start;
+}
+
+.gw-char__main {
+	container: gwmain / inline-size;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+}
+
+// Pestañas pegadas arriba mientras se desplaza todo (modo de una columna).
+.gw-char__main > .gw-tabs {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+// Ancho: lateral de identidad + columna principal, cada una con su propio desplazamiento.
+@container gwsheet (min-width: 700px) and (min-height: 480px) {
+	.gw-char__layout {
+		grid-template-columns: clamp(210px, 29%, 260px) minmax(0, 1fr);
+		grid-template-rows: minmax(0, 1fr);
+		overflow: hidden;
+	}
+
+	.gw-id {
+		overflow-y: auto;
+		scrollbar-width: thin;
+		border-right: 1px solid var(--gw-rule);
+	}
+
+	.gw-char__main {
+		overflow: hidden;
+	}
+
+	.gw-char__main > .gw-tabs {
+		position: static;
+	}
+
+	.gw-char__main .gw-panels {
+		flex: 1;
+		min-height: 0;
+		overflow-y: auto;
+		scrollbar-width: thin;
+	}
+}
+
+// Identidad.
+.gw-id {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 14px 12px;
+	min-height: 0;
+}
+
+.gw-id__top {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+	text-align: center;
+
+	.gw-portrait {
+		width: clamp(120px, 100%, 168px);
+		aspect-ratio: 1;
+	}
+}
+
+.gw-id__who {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 2px;
+	width: 100%;
+	min-width: 0;
+}
+
+input[type="text"].gw-id__name {
+	font-family: var(--gw-font-display);
+	font-size: 1.7em;
+	font-weight: 700;
+	line-height: 1.15;
+	height: auto;
+	padding: 2px 4px;
+	text-align: inherit;
+	border-bottom-color: transparent;
+}
+
+.gw-id__path input[type="text"] {
+	width: 100%;
+	font-variant: small-caps;
+	letter-spacing: 0.05em;
+	font-size: 1.05em;
+	color: var(--gw-ink-soft);
+	text-align: inherit;
+	height: auto;
+	padding: 1px 4px;
+}
+
+.gw-id__level {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	gap: 10px;
+	margin-top: 4px;
+	color: var(--gw-ink-soft);
+
+	.gw-level {
+		font-family: var(--gw-font-display);
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+
+		strong {
+			font-size: 1.35em;
+			color: var(--gw-ink);
+		}
+	}
+
+	.gw-xp-count {
+		font-size: 0.85em;
+	}
+}
+
+.gw-xp {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3px;
+}
+
+.gw-xp__row {
+	display: flex;
+	gap: 3px;
+}
+
+.gw-xp__pip {
+	@include boton-plano;
+	width: 18px;
+	height: 18px;
+	border: 1px solid var(--gw-rule-strong);
+	border-radius: 2px;
+	transform: rotate(45deg) scale(0.78);
+	cursor: pointer;
+
+	&.full {
+		background: var(--gw-ink-soft);
+		border-color: var(--gw-ink-soft);
+	}
+
+	&.half {
+		background: linear-gradient(135deg, var(--gw-ink-soft) 50%, transparent 50%);
+	}
+
+	&:hover:not(:disabled) {
+		border-color: var(--gw-accent);
+	}
+}
+
+.gw-id__lists {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+// Rasgos y deseos: estado visible como etiqueta (ES / NO ES) además del color.
+.gw-traits__list {
+	list-style: none;
+	margin: 4px 0 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}
+
+.gw-trait {
+	display: grid;
+	grid-template-columns: auto minmax(0, 1fr);
+	align-items: center;
+	gap: 6px;
+
+	.gw-trait__state {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 4px;
+		min-width: 6.4em;
+		min-height: 26px;
+		padding: 0 6px;
+		border: 1px solid;
+		border-radius: var(--gw-radius);
+		font-size: 0.72em;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		cursor: pointer;
+		white-space: nowrap;
+
+		&:has(input:focus-visible) {
+			outline: 2px solid var(--gw-focus);
+			outline-offset: 1px;
+		}
+	}
+
+	&.is .gw-trait__state {
+		color: var(--gw-moss);
+		border-color: var(--gw-moss);
+		background: color-mix(in srgb, var(--gw-moss) 12%, transparent);
+	}
+
+	&.isnt .gw-trait__state {
+		color: var(--gw-accent);
+		border-style: dashed;
+	}
+
+	&.isnt .gw-trait__value {
+		font-style: italic;
+	}
+
+	.gw-trait__value {
+		height: 26px;
+		width: 100%;
+	}
+}
+
+// Una columna: la identidad pasa a ser cabecera y los controles de juego suben justo debajo.
+// Identidad y columna principal se «deshacen» (display: contents) para ordenar sus partes en
+// una sola rejilla.
+@container gwsheet (max-width: 699px) or (max-height: 479px) {
+	.gw-char__layout {
+		grid-template-columns: auto minmax(0, 1fr);
+		grid-template-areas:
+			"top xp"
+			"play play"
+			"lists lists"
+			"tabs tabs"
+			"panels panels";
+	}
+
+	.gw-id,
+	.gw-char__main {
+		display: contents;
+	}
+
+	// Sin caja no puede ser contenedor: las consultas pasan a medir la hoja entera.
+	.gw-char__main {
+		container-type: normal;
+	}
+
+	.gw-id__top {
+		grid-area: top;
+		flex-direction: row;
+		align-items: center;
+		text-align: left;
+		gap: 12px;
+		padding: 12px 0 4px 14px;
+		min-width: 0;
+
+		.gw-portrait {
+			width: 104px;
+			flex: 0 0 auto;
+		}
+	}
+
+	.gw-id__level {
+		justify-content: flex-start;
+	}
+
+	.gw-xp {
+		grid-area: xp;
+		align-items: flex-end;
+		align-self: center;
+		padding: 12px 14px 4px 0;
+	}
+
+	.gw-play {
+		grid-area: play;
+	}
+
+	.gw-id__lists {
+		grid-area: lists;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 12px;
+		padding: 10px 14px;
+	}
+
+	.gw-tabs {
+		grid-area: tabs;
+	}
+
+	.gw-panels {
+		grid-area: panels;
+	}
+}
+
+@container gwsheet (max-width: 520px) {
+	.gw-char__layout {
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-areas: "top" "play" "lists" "xp" "tabs" "panels";
+	}
+
+	.gw-id__top {
+		padding-right: 14px;
+
+		.gw-portrait {
+			width: 84px;
+		}
+	}
+
+	.gw-xp {
+		align-items: flex-start;
+		padding: 0 14px 10px;
+	}
+
+	.gw-id__lists {
+		grid-template-columns: 1fr;
+	}
+}
+
+// Zona de juego.
+.gw-play {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 12px 14px;
+	border-bottom: 1px solid var(--gw-rule);
+}
+
+.gw-play__stats {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 10px;
+}
+
+.gw-statgroup {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 6px;
+	min-width: 0;
+}
+
+@container (max-width: 560px) {
+	.gw-play__stats {
+		grid-template-columns: 1fr;
+		gap: 6px;
+	}
+}
+
+.gw-play__status {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px 14px;
+}
+
+// Atributo: tarjeta entera clicable para tirar.
+.gw-stat {
+	position: relative;
+	min-width: 0;
+	display: grid;
+	grid-template-columns: 1fr auto;
+	grid-template-areas:
+		"name name"
+		"value mark";
+	align-items: end;
+	gap: 0 4px;
+	min-height: 76px;
+	padding: 6px 8px 6px;
+	border: 1px solid var(--gw-rule-strong);
+	border-radius: var(--gw-radius);
+	background: var(--gw-paper-raised);
+	transition: border-color 120ms ease, background-color 120ms ease;
+
+	&:hover {
+		border-color: var(--gw-accent);
+		background: color-mix(in srgb, var(--gw-accent) 6%, var(--gw-paper-raised));
+
+		.gw-stat__dice {
+			color: var(--gw-accent);
+			transform: rotate(-14deg);
+		}
+	}
+
+	&:has(.gw-stat__roll:focus-visible) {
+		outline: 2px solid var(--gw-focus);
+		outline-offset: 2px;
+	}
+
+	&.marked {
+		border-color: var(--gw-accent);
+		border-style: dashed;
+	}
+}
+
+.gw-stat__roll {
+	@include boton-plano;
+	grid-area: name;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 4px;
+	font-family: var(--gw-font-display);
+	font-size: 0.95em;
+	font-weight: 700;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-align: left;
+	min-width: 0;
+
+	&:focus-visible {
+		outline: none;
+	}
+
+	// Área clicable = tarjeta completa.
+	&::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		border-radius: inherit;
+	}
+
+	.gw-stat__name {
+		flex: 1 1 auto;
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}
+
+.gw-stat__dice {
+	flex: 0 0 auto;
+	margin: 0;
+	color: var(--gw-ink-soft);
+	transition: transform 150ms ease, color 120ms ease;
+}
+
+input[type="number"].gw-stat__value {
+	position: relative;
+	z-index: 1;
+	grid-area: value;
+	justify-self: start;
+	width: 2.2em;
+	height: 1.35em;
+	padding: 0;
+	font-family: var(--gw-font-display);
+	font-size: 2em;
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+	border-bottom-color: transparent;
+	-moz-appearance: textfield;
+
+	&::-webkit-inner-spin-button,
+	&::-webkit-outer-spin-button {
+		-webkit-appearance: none;
+	}
+}
+
+.gw-mark {
+	position: relative;
+	z-index: 1;
+	grid-area: mark;
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	min-height: 26px;
+	padding: 0 6px;
+	margin: 0;
+	border: 1px dashed transparent;
+	border-radius: var(--gw-radius);
+	font-size: 0.75em;
+	color: var(--gw-ink-faint);
+	cursor: pointer;
+	white-space: nowrap;
+
+	&:hover {
+		color: var(--gw-accent);
+		border-color: var(--gw-rule-strong);
+	}
+
+	&:has(input:focus-visible) {
+		outline: 2px solid var(--gw-focus);
+		outline-offset: 1px;
+	}
+
+	&.on {
+		border: 1px solid var(--gw-accent);
+		background: var(--gw-accent);
+		color: var(--gw-on-accent);
+		font-weight: 700;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+	}
+}
+
+// El texto «Marca» solo cuando cabe; el icono siempre.
+@container (max-width: 680px) {
+	.gw-stat:not(.marked) .gw-mark__text {
+		@include element-invisible;
+	}
+}
+
+.gw-harms {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+}
+
+.gw-harm-wrap {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.gw-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px 16px;
+}
+
+.gw-meta__item {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+// Detalles.
+.gw-details {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 18px;
+}
+
+@container gwpanel (min-width: 540px) {
+	.gw-details {
+		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+	}
+}
+
+.gw-details__col {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+	min-width: 0;
+}
+
+.gw-bg {
+	margin: 0 0 14px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid var(--gw-rule);
+
+	&:last-child {
+		border-bottom: none;
+	}
+
+	.gw-bg__name {
+		width: 100%;
+		height: auto;
+		margin-bottom: 4px;
+		font-size: 1.25em;
+		font-weight: 700;
+		font-variant: small-caps;
+		letter-spacing: 0.03em;
+	}
+}
+
+.gw-bg__wises {
+	list-style: none;
+	margin: 2px 0 0;
+	padding: 0;
+
+	li {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		align-items: center;
+		gap: 6px;
+
+		&::before {
+			content: "◆";
+			font-size: 0.6em;
+			color: var(--gw-ink-faint);
+		}
+	}
+
+	input {
+		height: 26px;
+		width: 100%;
+	}
+}
+
+// Condiciones: tarjetas de estado.
+.gw-cond {
+	--gw-cond-color: var(--gw-ink-faint);
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	padding: 6px 6px 6px 10px;
+	border: 1px solid var(--gw-rule);
+	border-left: 4px solid var(--gw-cond-color);
+	border-radius: var(--gw-radius);
+	background: var(--gw-paper-raised);
+
+	&--urgent {
+		--gw-cond-color: var(--gw-accent);
+	}
+
+	&--shortTerm {
+		--gw-cond-color: var(--gw-gold);
+	}
+
+	&--longTerm {
+		--gw-cond-color: var(--gw-rattled);
+	}
+
+	&--permanent {
+		--gw-cond-color: var(--gw-ink-soft);
+		border-left-style: double;
+		border-left-width: 5px;
+	}
+}
+
+.gw-cond__row {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+
+	> input,
+	> select {
+		flex: 1;
+		min-width: 0;
+	}
+}
+
+.gw-cond__name {
+	font-weight: 700;
+}
+
+.gw-cond__severity {
+	font-size: 0.85em;
+	max-width: 12em;
+}
+
+// Vínculos: la persona primero.
+.gw-bond {
+	display: grid;
+	grid-template-columns: auto minmax(0, 1fr) auto;
+	align-items: start;
+	gap: 8px;
+	padding: 4px 0 6px;
+	border-bottom: 1px solid var(--gw-rule);
+
+	.gw-bond__icon {
+		margin-top: 7px;
+		color: var(--gw-ink-faint);
+	}
+
+	.gw-bond__text {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.gw-bond__name {
+		font-weight: 700;
+		font-size: 1.05em;
+	}
+
+	.gw-bond__desc {
+		font-style: italic;
+		color: var(--gw-ink-soft);
+	}
+}
+
+// ─── Modo compacto ─────────────────────────────────────────────────────────────────────────────
+
+.gw-compact {
+	flex: 1;
+	min-height: 0;
+	overflow-y: auto;
+	scrollbar-width: thin;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 10px 12px 14px;
+}
+
+.gw-compact__head {
+	display: grid;
+	grid-template-columns: auto minmax(0, 1fr);
+	align-items: center;
+	gap: 10px;
+
+	.gw-compact__portrait {
+		width: 52px;
+		height: 52px;
+		object-fit: cover;
+		object-position: top;
+		border: 1px solid var(--gw-rule-strong);
+		border-radius: var(--gw-radius);
+	}
+
+	.gw-id__name {
+		font-size: 1.35em;
+		width: 100%;
+	}
+}
+
+.gw-compact__who {
+	min-width: 0;
+}
+
+.gw-compact__sub {
+	display: block;
+	padding: 0 4px;
+	font-variant: small-caps;
+	letter-spacing: 0.04em;
+	color: var(--gw-ink-soft);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.gw-compact__stats {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 6px;
+
+	.gw-stat {
+		grid-template-columns: 1fr;
+		grid-template-areas: "name" "value" "mark";
+		justify-items: center;
+		min-height: 0;
+		padding: 5px 4px;
+		text-align: center;
+	}
+
+	.gw-stat__roll {
+		justify-content: center;
+	}
+
+	input[type="number"].gw-stat__value {
+		justify-self: center;
+		font-size: 1.7em;
+	}
+
+	.gw-mark__text {
+		@include element-invisible;
+	}
+}
+
+@container gwsheet (max-width: 330px) {
+	.gw-compact__stats {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+.gw-harms.compact .gw-toggle {
+	padding: 0 7px;
+	font-size: 0.82em;
+}
+
+.gw-compact__section {
+	border-top: 1px solid var(--gw-rule);
+	padding-top: 6px;
+}
+
+.gw-compact__conds,
+.gw-compact__items {
+	list-style: none;
+	margin: 4px 0 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.gw-cond--mini {
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3px 4px 3px 8px;
+
+	.gw-cond__label {
+		font-weight: 700;
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+.gw-compact__items li {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 4px 8px;
+	padding: 2px 0;
+	border-bottom: 1px solid var(--gw-rule);
+
+	.gw-compact__item-name {
+		font-weight: 700;
+		font-variant: small-caps;
+	}
+}

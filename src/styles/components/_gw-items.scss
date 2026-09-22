@@ -1,0 +1,305 @@
+// Listas de Talentos y Arcana.
+.gw-items__head {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 6px;
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid var(--gw-rule-strong);
+}
+
+.gw-items__tools {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.gw-items__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.gw-item {
+	border-bottom: 1px solid var(--gw-rule);
+
+	&:last-child {
+		border-bottom: none;
+	}
+}
+
+.gw-item__head {
+	display: grid;
+	grid-template-columns: auto minmax(0, 1fr) auto auto;
+	grid-template-areas: "img name trackers controls";
+	align-items: center;
+	gap: 4px 8px;
+	padding: 5px 0;
+}
+
+@container gwpanel (max-width: 540px) {
+	.gw-item__head {
+		grid-template-columns: auto minmax(0, 1fr) auto;
+		grid-template-areas:
+			"img name controls"
+			"img trackers trackers";
+	}
+
+	.gw-item__trackers {
+		justify-content: flex-start;
+	}
+}
+
+.gw-item__img {
+	@include boton-plano;
+	grid-area: img;
+	width: 36px;
+	height: 36px;
+	padding: 1px;
+	border: 1px solid var(--gw-rule);
+	border-radius: var(--gw-radius);
+	cursor: pointer;
+
+	img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border: none;
+	}
+
+	&:hover {
+		border-color: var(--gw-accent);
+	}
+}
+
+.gw-item__name {
+	@include boton-plano;
+	grid-area: name;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 6px;
+	min-width: 0;
+	min-height: var(--gw-hit);
+	text-align: left;
+	font-size: 1.15em;
+	font-weight: 700;
+	font-variant: small-caps;
+	letter-spacing: 0.02em;
+	cursor: pointer;
+
+	span {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	&:hover {
+		color: var(--gw-accent);
+	}
+}
+
+.gw-item__chev {
+	flex: 0 0 auto;
+	margin: 0;
+	font-size: 0.65em;
+	color: var(--gw-ink-faint);
+	transform: rotate(-90deg);
+	transition: transform 150ms ease;
+}
+
+.gw-item.open .gw-item__chev {
+	transform: none;
+}
+
+.gw-item__trackers {
+	grid-area: trackers;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 4px 6px;
+	min-width: 0;
+
+	&--more {
+		justify-content: flex-start;
+		margin-bottom: 6px;
+	}
+}
+
+.gw-item__controls {
+	grid-area: controls;
+	display: flex;
+}
+
+// Despliegue animado (altura automática).
+.gw-item__body {
+	display: grid;
+	grid-template-rows: 0fr;
+	transition: grid-template-rows 200ms ease;
+}
+
+.gw-item.open .gw-item__body {
+	grid-template-rows: 1fr;
+}
+
+.gw-item__inner {
+	overflow: hidden;
+	min-height: 0;
+}
+
+.gw-item.open .gw-item__inner {
+	padding: 0 0 10px 44px;
+}
+
+@container gwpanel (max-width: 540px) {
+	.gw-item.open .gw-item__inner {
+		padding-left: 0;
+	}
+}
+
+.gw-item__desc {
+	p:first-child {
+		margin-top: 0;
+	}
+}
+
+.gw-item__notes {
+	margin-top: 6px;
+	padding: 6px 10px;
+	border-left: 3px solid var(--gw-rule-strong);
+	background: var(--gw-paper-sunk);
+
+	p {
+		margin: 2px 0;
+	}
+}
+
+.gw-arcana__meta {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 4px 10px;
+	margin: 0 0 6px;
+}
+
+.gw-arcana__limits {
+	margin-bottom: 6px;
+
+	p {
+		margin: 2px 0;
+	}
+}
+
+// Marcador (tracker) de talento/arcano.
+.gw-tracker {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	padding: 1px 4px;
+	border: 1px solid var(--gw-rule);
+	border-radius: var(--gw-radius);
+	background: var(--gw-paper-sunk);
+	font-size: 0.9em;
+	white-space: nowrap;
+}
+
+.gw-tracker__roll {
+	@include boton-plano;
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	min-height: 26px;
+	padding: 0 6px;
+	border-radius: var(--gw-radius);
+	font-weight: 700;
+	cursor: pointer;
+
+	&:hover:not(:disabled) {
+		color: var(--gw-accent);
+		background: var(--gw-paper-raised);
+	}
+
+	&:disabled {
+		opacity: 0.5;
+		cursor: default;
+	}
+
+	i {
+		margin: 0;
+	}
+}
+
+.gw-tracker__label {
+	font-weight: 700;
+	padding: 0 2px;
+}
+
+.gw-tracker__num {
+	display: inline-flex;
+	align-items: center;
+	gap: 2px;
+	font-family: var(--gw-font-dice);
+
+	input[type="number"] {
+		width: 2.6em;
+		height: 24px;
+		padding: 0;
+		text-align: center;
+		border: 1px solid var(--gw-rule);
+	}
+}
+
+.gw-tracker__pips {
+	display: inline-flex;
+	gap: 2px;
+}
+
+.gw-point {
+	@include boton-plano;
+	width: 22px;
+	height: 22px;
+	display: inline-grid;
+	place-items: center;
+	cursor: pointer;
+
+	&::before {
+		content: "";
+		width: 12px;
+		height: 12px;
+		border: 1px solid var(--gw-ink-soft);
+		transform: rotate(45deg);
+	}
+
+	&.on::before {
+		background: var(--gw-ink-soft);
+	}
+
+	&:hover:not(:disabled)::before {
+		border-color: var(--gw-accent);
+	}
+}
+
+// Edición de marcadores en la hoja de ítem.
+.gw-tracker-edit {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+	gap: 0 12px;
+	padding: 8px 40px 4px 10px;
+	border: 1px solid var(--gw-rule);
+	border-radius: var(--gw-radius);
+	background: var(--gw-paper-raised);
+
+	.gw-field {
+		grid-template-columns: 5.5em 1fr;
+	}
+
+	.gw-tracker-edit__delete {
+		position: absolute;
+		top: 4px;
+		right: 4px;
+	}
+}

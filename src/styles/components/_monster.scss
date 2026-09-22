@@ -1,184 +1,397 @@
-&.monster {
-	.grimwild-vue {
-		gap: 0;
+// Monstruos, desafíos vinculados y cabecera de ítems.
+.gw-monster__layout,
+.gw-itemsheet__layout {
+	container: gwmain / inline-size;
+	display: flex;
+	flex-direction: column;
+}
+
+.gw-monster__layout > .gw-tabs,
+.gw-itemsheet__layout > .gw-tabs {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+// Banda de colores sensoriales.
+.gw-colorband {
+	display: flex;
+	flex: 0 0 auto;
+	gap: 2px;
+	padding: 0 0 2px;
+}
+
+.gw-colorband__item {
+	flex: 1;
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gw-colorband__swatch {
+	display: block;
+	width: 100%;
+	height: 8px;
+	box-shadow: inset 0 0 0 1px var(--gw-rule-strong);
+}
+
+.gw-colorband__name {
+	max-width: 100%;
+	padding: 2px 4px 0;
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--gw-ink-soft);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+// Cabecera.
+.gw-mhead {
+	display: grid;
+	grid-template-columns: auto minmax(0, 1fr);
+	align-items: center;
+	gap: 14px;
+	padding: 12px 14px 10px;
+
+	.gw-portrait {
+		width: 112px;
+		aspect-ratio: 1;
 	}
 
-	.grimwild-avatar {
+	&.gw-ihead .gw-portrait {
+		width: 80px;
+	}
+}
+
+.gw-mhead__main {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	min-width: 0;
+}
+
+input[type="text"].gw-mhead__name {
+	width: 100%;
+	height: auto;
+	padding: 2px 4px;
+	font-family: var(--gw-font-display);
+	font-size: 1.75em;
+	font-weight: 700;
+	line-height: 1.15;
+	border-bottom-color: transparent;
+}
+
+.gw-mhead__meta {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px 10px;
+}
+
+.gw-mhead__pool {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+@container gwmain (max-width: 440px) {
+	.gw-mhead {
+		gap: 10px;
+
+		.gw-portrait {
+			width: 72px;
+		}
+	}
+
+	input[type="text"].gw-mhead__name {
+		font-size: 1.4em;
+	}
+}
+
+// Sensaciones.
+.gw-senses {
+	margin-bottom: 14px;
+}
+
+.gw-sense {
+	display: grid;
+	grid-template-columns: 1.4em 5.5em minmax(0, 1fr);
+	align-items: center;
+	gap: 6px;
+	padding: 2px 0;
+
+	> i {
+		color: var(--gw-ink-faint);
+		text-align: center;
+	}
+
+	input {
+		font-style: italic;
+		width: 100%;
+	}
+}
+
+.gw-colors {
+	margin-bottom: 14px;
+}
+
+.gw-colors__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+	gap: 6px 12px;
+}
+
+.gw-color-edit {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+
+	> input {
+		order: -1;
+		font-weight: 700;
+	}
+
+	color-picker {
+		--input-height: 26px;
+	}
+}
+
+// Rasgos, movimientos, deseos: tratamientos distintos.
+.gw-lists {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 16px;
+}
+
+@container gwpanel (min-width: 560px) {
+	.gw-lists {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+.gw-entries__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.gw-entry {
+	display: grid;
+	grid-template-columns: 1em minmax(0, 1fr) auto;
+	align-items: center;
+	gap: 4px;
+
+	input {
+		width: 100%;
+	}
+
+	.gw-entry__bullet {
+		font-size: 0.6em;
+		color: var(--gw-ink-faint);
+		text-align: center;
+	}
+
+	&--fail {
+		grid-template-columns: auto minmax(0, 1fr) auto;
+	}
+}
+
+.gw-entries--trait .gw-entry input {
+	font-style: italic;
+}
+
+.gw-entries--move .gw-entry {
+	input {
+		font-weight: 700;
+		font-variant: small-caps;
+		letter-spacing: 0.03em;
+	}
+
+	.gw-entry__bullet {
+		font-size: 0.9em;
+		color: var(--gw-accent);
+	}
+}
+
+.gw-desires {
+	margin-top: 16px;
+}
+
+.gw-desire {
+	display: grid;
+	grid-template-columns: 8em minmax(0, 1fr);
+	align-items: center;
+	gap: 8px;
+	padding: 2px 0;
+
+	input {
+		width: 100%;
+	}
+
+	&--want .gw-desire__label i {
+		color: var(--gw-moss);
+	}
+
+	&--avoid .gw-desire__label {
+		i {
+			color: var(--gw-accent);
+		}
+	}
+}
+
+.gw-desire__label {
+	font-size: 0.8em;
+	font-weight: 700;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	color: var(--gw-ink-soft);
+}
+
+// Desafíos: 3 / 2 / 1 columnas según el ancho.
+.gw-challenges {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	columns: 3;
+	column-gap: 10px;
+}
+
+@container gwpanel (max-width: 700px) {
+	.gw-challenges {
+		columns: 2;
+	}
+}
+
+@container gwpanel (max-width: 440px) {
+	.gw-challenges {
+		columns: 1;
+	}
+}
+
+.gw-challenge {
+	break-inside: avoid;
+	display: inline-flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0 0 10px;
+	border: 1px solid var(--gw-rule-strong);
+	border-radius: var(--gw-radius);
+	background: var(--gw-paper-raised);
+}
+
+.gw-challenge__head {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 6px 8px 4px;
+	border-bottom: 1px solid var(--gw-rule);
+}
+
+.gw-challenge__name {
+	margin: 0;
+	border: none;
+	font-family: var(--gw-font-body);
+	font-size: 1.05em;
+	font-weight: 700;
+	font-variant: small-caps;
+	line-height: 1.2;
+	min-width: 0;
+	overflow-wrap: anywhere;
+}
+
+.gw-challenge__bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 6px;
+	padding: 2px 4px 2px 8px;
+
+	.gw-pip {
+		width: 26px;
+		height: 26px;
+		font-size: 0.8em;
+	}
+}
+
+.gw-challenge__suspense {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.gw-challenge__controls {
+	display: flex;
+
+	.gw-icon-button {
+		width: 28px;
+		height: 28px;
+	}
+}
+
+.gw-challenge__body {
+	padding: 4px 10px 8px;
+
+	ul {
+		list-style: none;
+		margin: 4px 0;
+		padding: 0;
+	}
+}
+
+.gw-challenge__desc {
+	font-size: 0.95em;
+
+	p {
+		margin: 2px 0;
+	}
+}
+
+.gw-challenge__traits li {
+	font-style: italic;
+
+	&::before {
+		content: "◆ ";
+		font-size: 0.6em;
+		vertical-align: middle;
+		color: var(--gw-ink-faint);
+	}
+}
+
+.gw-challenge__moves {
+	padding-top: 4px !important;
+	border-top: 1px solid var(--gw-rule);
+
+	li {
+		font-weight: 700;
+		font-variant: small-caps;
+		letter-spacing: 0.02em;
+
+		&::before {
+			content: "▸ ";
+			color: var(--gw-accent);
+		}
+	}
+}
+
+.gw-challenge__fails {
+	padding-top: 4px !important;
+	border-top: 1px solid var(--gw-rule);
+
+	li {
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		gap: 6px;
+		padding: 1px 0;
+		font-style: italic;
 	}
 
-	.profile-img {
-		width: auto;
-		margin: auto;
-		flex: 0 0 auto;
+	.gw-challenge__fail-mark {
+		width: 1.2em;
+		text-align: center;
+		color: var(--gw-accent);
 	}
-
-	.item-image {
-		flex: 0 0 24px;
-	}
-
-	.item-name {
-		gap: 8px;
-
-		.rollable {
-			flex: 0 auto;
-			flex-wrap: nowrap;
-		}
-
-		.suspense {
-			flex: 0 0 auto;
-		}
-	}
-
-	.header-fields {
-		align-items: flex-end;
-		margin: 0;
-		padding: 0 2px;
-
-		.name {
-			flex: 3;
-		}
-
-		.challenge-pool {
-			flex: 1;
-		}
-	}
-
-	.items-header {
-		justify-content: flex-end;
-
-		.item-controls {
-			flex: 0 0 auto;
-			// Weird CSS bug that was causing this overflow if there was no margin.
-			margin: 0 2px;
-		}
-	}
-
-	.items-list {
-		columns: 3;
-		column-gap: 8px;
-		padding: 8px 0;
-
-		.challenge {
-			background: #dbd2bca9;
-			border-radius: 4px;
-			break-inside: avoid-column;
-			padding: 4px;
-
-			body.theme-dark & {
-				background: var(--background);
-			}
-
-			.item-summary {
-				background: #ffffff44;
-				padding: 0 2px;
-
-				body.theme-dark & {
-					background: #ffffff11;
-				}
-
-				.item-name {
-					border-bottom: 1px solid;
-					padding: 4px 0;
-					gap: 2px;
-					cursor: inherit;
-
-					&:hover {
-						color: inherit;
-					}
-				}
-			}
-
-			.suspense-controls {
-				padding: 4px 2px 2px;
-
-				input[type="checkbox"] {
-					margin: 0;
-				}
-			}
-
-			.challenge-pool {
-				flex: 0 0 auto;
-			}
-
-			.challenge-fields-wrapper {
-				width: 100%;
-				padding: 8px 4px 4px
-			}
-
-			.item-description-content {
-				padding: 4px 8px;
-				margin: 4px;
-				background: var(--color-dark-2);
-				border-radius: 4px;
-			}
-
-			hr {
-				margin: 2px 0;
-			}
-
-			.item-trait {
-				font-style: italic;
-			}
-
-			.item-move {
-				list-style-type: disc;
-				font-weight: bold;
-				text-transform: uppercase;
-			}
-
-			.roll-pool {
-				gap: 2px;
-			}
-
-			.roll-pool-button {
-				padding: 4px;
-				line-height: 1;
-				height: auto;
-			}
-
-			.roll-pool-suffix {
-				border-right: 1px solid;
-				padding-right: 4px;
-			}
-
-			.item-failure {
-				padding: 0;
-				list-style-type: none;
-			}
-
-			.item-fail {
-				font-style: italic;
-				font-weight: bold;
-
-				.roll-pool {
-					flex: 0 0 auto;
-				}
-			}
-		}
-	}
-}
-
-.monster-colors {
-	flex-wrap: nowrap;
-}
-
-.monster-color {
-	flex: 1;
-	height: 5px;
-}
-
-.monster-color-name {
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 10px;
-	letter-spacing: 1px;
-	padding: 2px 0 0;
-}
-
-.monster-tables-wrapper {
-	overflow-x: hidden;
-	padding-right: 2px;
 }

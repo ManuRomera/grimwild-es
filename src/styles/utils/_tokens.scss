@@ -1,0 +1,90 @@
+// Tokens de diseño de Grimwild ES.
+//
+// Se definen en cada elemento con clase de tema (.theme-light / .theme-dark): Foundry V13 pone esa
+// clase en <body> (tema de la interfaz) y en cada ventana (tema de las aplicaciones). Como las
+// variables se heredan, cada elemento usa el tema de su antecesor más cercano, aunque interfaz y
+// ventanas tengan temas distintos.
+
+@mixin tokens-comunes {
+	--gw-radius: 3px;
+	--gw-hit: 32px;
+	--gw-font-body: #{$font-body};
+	--gw-font-display: #{$font-display};
+	--gw-font-dice: #{$font-dice};
+}
+
+@mixin tokens-claro {
+	--gw-paper: #f5eddb;
+	--gw-paper-raised: rgba(255, 252, 243, 0.62);
+	--gw-paper-sunk: rgba(74, 60, 34, 0.07);
+	--gw-ink: #2a241a;
+	--gw-ink-soft: #564d3d;
+	--gw-ink-faint: #7c7261;
+	--gw-rule: rgba(42, 36, 26, 0.2);
+	--gw-rule-strong: rgba(42, 36, 26, 0.45);
+	--gw-accent: #8b2d20;
+	--gw-on-accent: #fff8ec;
+	--gw-moss: #46522d;
+	--gw-gold: #8f6418;
+	--gw-spark: #1d6770;
+	--gw-bloodied: #972018;
+	--gw-rattled: #633a80;
+	--gw-dropped: #2e2a24;
+	--gw-focus: #b25f10;
+	--gw-perfect: #2f6b1f;
+	--gw-messy: #8a5a00;
+	--gw-grim: #57524a;
+	--gw-disaster: #9c1e01;
+	--gw-crit: #1f5c6b;
+}
+
+@mixin tokens-oscuro {
+	--gw-paper: #1c1b17;
+	--gw-paper-raised: rgba(255, 248, 230, 0.05);
+	--gw-paper-sunk: rgba(0, 0, 0, 0.24);
+	--gw-ink: #ebe4d1;
+	--gw-ink-soft: #c2b9a3;
+	--gw-ink-faint: #928a78;
+	--gw-rule: rgba(235, 228, 209, 0.16);
+	--gw-rule-strong: rgba(235, 228, 209, 0.38);
+	--gw-accent: #db7a58;
+	--gw-on-accent: #1c1b17;
+	--gw-moss: #a9b981;
+	--gw-gold: #dcb867;
+	--gw-spark: #72c2c6;
+	--gw-bloodied: #ec6b62;
+	--gw-rattled: #c897e0;
+	--gw-dropped: #d7d0bf;
+	--gw-focus: #eaa94f;
+	--gw-perfect: #7fce63;
+	--gw-messy: #f0c341;
+	--gw-grim: #aaa393;
+	--gw-disaster: #ff7b5a;
+	--gw-crit: #6fd0e0;
+}
+
+:root {
+	@include tokens-comunes;
+	@include tokens-claro;
+}
+
+.theme-light {
+	@include tokens-claro;
+}
+
+.theme-dark {
+	@include tokens-oscuro;
+}
+
+// Modo de accesibilidad (ajuste de cliente): texto algo mayor, más contraste y controles más
+// grandes y siempre visibles. Solo cambia variables; los componentes no tienen casos especiales.
+body.grimwild-accesible {
+	--gw-hit: 38px;
+
+	&,
+	.theme-light,
+	.theme-dark {
+		--gw-ink-faint: var(--gw-ink-soft);
+		--gw-rule: var(--gw-rule-strong);
+	}
+}

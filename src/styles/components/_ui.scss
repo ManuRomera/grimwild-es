@@ -1,0 +1,472 @@
+// Controles compartidos de las hojas y diálogos de Grimwild (prefijo gw-).
+// Estética editorial: líneas finas, tinta, papel; radios pequeños y sin sombras llamativas.
+
+.visually-hidden {
+	@include element-invisible;
+}
+
+// Reinicio de los estilos de botón de Foundry para controles propios.
+@mixin boton-plano {
+	background: none;
+	border: none;
+	box-shadow: none;
+	height: auto;
+	min-height: 0;
+	line-height: inherit;
+	padding: 0;
+	margin: 0;
+	color: inherit;
+	font: inherit;
+	width: auto;
+}
+
+@mixin foco {
+	outline: 2px solid var(--gw-focus);
+	outline-offset: 2px;
+}
+
+.gw-sheet,
+.gw-roll,
+.grimwild-chat {
+	color: var(--gw-ink);
+	font-family: var(--gw-font-body);
+
+	:focus-visible {
+		@include foco;
+	}
+
+	button:focus:not(:focus-visible) {
+		outline: none;
+		box-shadow: none;
+	}
+
+	// Entradas «en línea»: parecen texto hasta que se pasan o se enfocan.
+	input[type="text"],
+	input[type="number"],
+	select,
+	textarea {
+		color: var(--gw-ink);
+		font-family: var(--gw-font-body);
+		background: transparent;
+		border: 1px solid transparent;
+		border-bottom-color: var(--gw-rule);
+		border-radius: var(--gw-radius);
+		box-shadow: none;
+
+		&:hover:not(:disabled) {
+			border-color: var(--gw-rule-strong);
+		}
+
+		&:focus {
+			border-color: var(--gw-accent);
+			background: var(--gw-paper-raised);
+			box-shadow: none;
+			outline: none;
+		}
+
+		&:disabled {
+			border-bottom-color: transparent;
+			opacity: 1;
+			color: var(--gw-ink);
+		}
+
+		&::placeholder {
+			color: var(--gw-ink-faint);
+			font-style: italic;
+			opacity: 1;
+		}
+	}
+
+	select option {
+		color: initial;
+		background: initial;
+	}
+}
+
+.gw-heading {
+	margin: 0;
+	padding: 0 0 4px;
+	border: none;
+	font-family: var(--gw-font-display);
+	font-size: 1.05em;
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--gw-ink);
+	line-height: 1.1;
+}
+
+.gw-label {
+	font-size: 0.78em;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--gw-ink-soft);
+	margin: 0;
+	line-height: 1.2;
+
+	i {
+		margin-right: 2px;
+	}
+}
+
+.gw-empty {
+	margin: 4px 0;
+	font-style: italic;
+	color: var(--gw-ink-faint);
+}
+
+.gw-tag {
+	display: inline-block;
+	padding: 1px 6px;
+	border: 1px solid var(--gw-rule-strong);
+	border-radius: var(--gw-radius);
+	font-size: 0.78em;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--gw-ink-soft);
+}
+
+// Cabecera de sección con acción a la derecha.
+.gw-section-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+	margin-bottom: 6px;
+	border-bottom: 1px solid var(--gw-rule);
+
+	.gw-heading {
+		padding-bottom: 2px;
+	}
+}
+
+// Botón de texto secundario.
+.gw-button,
+.gw-link,
+.gw-chip {
+	@include boton-plano;
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	min-height: calc(var(--gw-hit) - 6px);
+	padding: 0 8px;
+	border: 1px solid var(--gw-rule-strong);
+	border-radius: var(--gw-radius);
+	color: var(--gw-ink-soft);
+	font-size: 0.85em;
+	cursor: pointer;
+	white-space: nowrap;
+
+	&:hover:not(:disabled) {
+		color: var(--gw-accent);
+		border-color: var(--gw-accent);
+		background: var(--gw-paper-raised);
+	}
+
+	&:focus-visible {
+		@include foco;
+	}
+
+	i {
+		margin: 0;
+		font-size: 0.9em;
+	}
+}
+
+.gw-link {
+	border-color: transparent;
+	text-decoration: underline;
+	text-decoration-color: var(--gw-rule-strong);
+	text-underline-offset: 3px;
+}
+
+.gw-chip {
+	border-style: dashed;
+}
+
+// Botón de icono: visible siempre (tenue), completo al pasar o enfocar.
+.gw-icon-button {
+	@include boton-plano;
+	display: inline-grid;
+	place-items: center;
+	flex: 0 0 auto;
+	width: var(--gw-hit);
+	height: var(--gw-hit);
+	border-radius: var(--gw-radius);
+	color: var(--gw-ink-faint);
+	cursor: pointer;
+
+	&:hover:not(:disabled),
+	&:focus-visible {
+		color: var(--gw-ink);
+		background: var(--gw-paper-sunk);
+	}
+
+	&.gw-danger:hover:not(:disabled),
+	&.gw-danger:focus-visible {
+		color: var(--gw-accent);
+	}
+
+	i {
+		margin: 0;
+	}
+}
+
+// Conmutador con icono + texto + forma (daño, marcas en el diálogo…).
+.gw-toggle {
+	--gw-toggle-color: var(--gw-ink-soft);
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	min-height: var(--gw-hit);
+	padding: 0 10px;
+	border: 1px dashed var(--gw-rule-strong);
+	border-radius: var(--gw-radius);
+	color: var(--gw-ink-faint);
+	cursor: pointer;
+	user-select: none;
+	font-size: 0.9em;
+	line-height: 1.1;
+
+	&:hover {
+		color: var(--gw-ink);
+		border-color: var(--gw-toggle-color);
+	}
+
+	&:has(input:focus-visible) {
+		@include foco;
+	}
+
+	&.on,
+	&:has(input:checked) {
+		border: 2px solid var(--gw-toggle-color);
+		padding: 0 9px;
+		color: var(--gw-toggle-color);
+		background: color-mix(in srgb, var(--gw-toggle-color) 13%, transparent);
+		font-weight: 700;
+	}
+
+	.gw-toggle__check {
+		font-size: 0.8em;
+	}
+
+	&--bloodied {
+		--gw-toggle-color: var(--gw-bloodied);
+	}
+
+	&--rattled {
+		--gw-toggle-color: var(--gw-rattled);
+	}
+
+	&--dropped {
+		--gw-toggle-color: var(--gw-dropped);
+	}
+
+	&--mark {
+		--gw-toggle-color: var(--gw-accent);
+	}
+}
+
+// Marcadores circulares de dos estados (Chispa, Historia, Suspense).
+.gw-pips {
+	--gw-pip-color: var(--gw-accent);
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+
+	&--spark {
+		--gw-pip-color: var(--gw-spark);
+	}
+
+	&--story {
+		--gw-pip-color: var(--gw-gold);
+	}
+}
+
+.gw-pip {
+	display: inline-grid;
+	place-items: center;
+	width: var(--gw-hit);
+	height: var(--gw-hit);
+	margin: 0;
+	border: 1px dashed var(--gw-rule-strong);
+	border-radius: 50%;
+	color: var(--gw-ink-faint);
+	cursor: pointer;
+	font-size: 0.95em;
+
+	&:hover {
+		border-color: var(--gw-pip-color);
+		color: var(--gw-pip-color);
+	}
+
+	&:has(input:focus-visible) {
+		@include foco;
+	}
+
+	&.on {
+		border: 2px solid var(--gw-pip-color);
+		background: var(--gw-pip-color);
+		color: var(--gw-on-accent);
+	}
+}
+
+// Reserva de dados: botón de tirar + valor.
+.gw-pool {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+
+	.gw-pool__roll {
+		@include boton-plano;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 4px;
+		min-width: calc(var(--gw-hit) - 4px);
+		min-height: calc(var(--gw-hit) - 4px);
+		padding: 0 6px;
+		border: 1px solid var(--gw-rule-strong);
+		border-radius: var(--gw-radius);
+		color: var(--gw-ink-soft);
+		cursor: pointer;
+
+		&:hover:not(:disabled) {
+			color: var(--gw-accent);
+			border-color: var(--gw-accent);
+		}
+
+		&:disabled {
+			opacity: 0.45;
+			cursor: default;
+		}
+
+		i {
+			margin: 0;
+		}
+	}
+
+	.gw-pool__input {
+		width: 3.2em;
+		text-align: center;
+		height: calc(var(--gw-hit) - 4px);
+		padding: 0 2px;
+		border: 1px solid var(--gw-rule);
+	}
+
+	.gw-pool__value,
+	.gw-pool__suffix {
+		font-family: var(--gw-font-dice);
+		font-weight: 700;
+		color: var(--gw-ink-soft);
+	}
+}
+
+// Selector con etiqueta visible en línea («Rol: Bruto»).
+.gw-select-chip {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	padding: 0 0 0 8px;
+	border: 1px solid var(--gw-rule-strong);
+	border-radius: var(--gw-radius);
+
+	> span {
+		font-size: 0.75em;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--gw-ink-faint);
+	}
+
+	select {
+		border: none;
+		font-weight: 700;
+		height: calc(var(--gw-hit) - 4px);
+	}
+}
+
+// Campo con etiqueta en línea.
+.gw-field {
+	display: grid;
+	grid-template-columns: minmax(7em, auto) 1fr;
+	align-items: center;
+	gap: 4px 10px;
+	margin: 0 0 6px;
+
+	&--stacked {
+		grid-template-columns: 1fr;
+	}
+
+	&--check {
+		grid-template-columns: auto 1fr;
+		cursor: pointer;
+	}
+}
+
+// Listas de tarjetas.
+.gw-cards {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.gw-disclosure {
+	@include boton-plano;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	width: 100%;
+	min-height: calc(var(--gw-hit) - 4px);
+	cursor: pointer;
+	text-align: left;
+
+	i {
+		transition: transform 150ms ease;
+	}
+
+	&[aria-expanded="false"] i {
+		transform: rotate(-90deg);
+	}
+}
+
+// Ayuda contextual (tooltip rico).
+#tooltip.grimwild-ayuda,
+.locked-tooltip.grimwild-ayuda {
+	max-width: 300px;
+	text-align: left;
+	font-family: $font-body;
+	line-height: 1.35;
+
+	.gw-ayuda-titulo {
+		display: block;
+		font-family: $font-display;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		margin-bottom: 2px;
+	}
+
+	p {
+		margin: 2px 0;
+	}
+
+	.gw-ayuda-regla {
+		margin-top: 6px;
+		font-size: 0.9em;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.gw-sheet *,
+	.gw-roll *,
+	#sus-control * {
+		transition: none !important;
+		animation: none !important;
+	}
+}
