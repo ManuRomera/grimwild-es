@@ -186,7 +186,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 						return 0;
 					case "agi":
 						return 1;
-					case "wis":
+					case "wit":
 						return 2;
 					case "pre":
 						return 3;
@@ -344,10 +344,9 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				updates[`system.stats.${options.stat}.marked`] = false;
 			}
 
-			// Handle the updates.
-			const actor = game.actors.get(this.parent.id);
-			await actor.update(updates);
-			actor.sheet.render(true);
+			// Handle the updates. Use the owning document itself: for unlinked tokens
+			// game.actors.get() would return the base actor instead.
+			if (Object.keys(updates).length) await this.parent.update(updates);
 
 			await roll.toMessage({
 				actor: this,

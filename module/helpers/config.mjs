@@ -55,3 +55,25 @@ export const isPhysicalStat = (stat) => {
 export const isMentalStat = (stat) => {
 	return !isPhysicalStat(stat);
 };
+
+/** i18n labels of the pool fields that can be rolled from sheets (used in chat flavours). */
+const POOL_LABELS = {
+	bloodied: "GRIMWILD.Damage.bloodied",
+	rattled: "GRIMWILD.Damage.rattled",
+	conditions: "GRIMWILD.Damage.conditions",
+	pool: "GRIMWILD.UI.challengePool",
+	failure: "GRIMWILD.Item.Challenge.FIELDS.failure.label"
+};
+
+/**
+ * Chat flavour for a pool roll: "Condiciones: Tobillo torcido", "Talento: Escurridizo"…
+ * Never shows internal keys.
+ * @param {string} kind   Field key (conditions, pool…) or "item:<type>".
+ * @param {string} name   Name of what is rolled.
+ * @returns {string}
+ */
+export function poolFlavor(kind, name) {
+	const key = kind?.startsWith("item:") ? `TYPES.Item.${kind.slice(5)}` : POOL_LABELS[kind];
+	const label = key ? game.i18n.localize(key) : "";
+	return [label, name].filter(Boolean).join(": ");
+}

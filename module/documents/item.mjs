@@ -1,3 +1,5 @@
+import { poolFlavor } from "../helpers/config.mjs";
+
 /**
  * Extend the basic Item with some very simple modifications.
  * @extends {Item}
@@ -40,7 +42,7 @@ export class GrimwildItem extends Item {
 		// Initialize chat data.
 		const speaker = ChatMessage.getSpeaker({ actor: this.actor });
 		const rollMode = game.settings.get("core", "rollMode");
-		const label = `[${item.type}] ${item.name}`;
+		const label = poolFlavor(`item:${item.type}`, item.name);
 
 		// If there's no roll data, send a chat message.
 		if (!this.system.pool) {
