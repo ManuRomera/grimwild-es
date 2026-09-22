@@ -21,11 +21,11 @@
 
 				{{!-- Name & Controls --}}
 				<div class="token-name">
-					<strong class="name">{{ name }}</strong>
+					<strong class="name" title="{{ name }}">{{ name }}</strong>
 					<div class="combatant-controls">
 						{{#if @root.user.isGM}}
-						<button type="button" class="inline-control combatant-control icon fa-solid fa-arrows-to-dot"
-								data-action="spotlight" data-tooltip aria-label="{{ localize "GRIMWILD.Combat.SpotlightActor" }}"></button>
+						<button type="button" class="inline-control combatant-control icon fa-solid fa-arrows-to-dot gw-spotlight {{#if active}}active{{/if}}"
+								data-action="spotlight" data-tooltip="{{ localize "GRIMWILD.Combat.SpotlightActor" }}" aria-label="{{ localize "GRIMWILD.Combat.SpotlightActor" }}" data-ayuda="spotlight"></button>
 						<button type="button" class="inline-control combatant-control icon fa-solid fa-eye-slash {{#if hidden}}active{{/if}}"
 								data-action="toggleHidden" data-tooltip aria-label="{{ localize "COMBAT.ToggleVis" }}"></button>
 						<button type="button" class="inline-control combatant-control icon fa-solid fa-skull {{#if isDefeated}}active{{/if}}"
@@ -50,9 +50,18 @@
 						</div>
 						{{#if (eq type "character")}}
 						<div class="token-resources">
-							<span class="resource resource-spark" data-action="toggleSpark" data-tooltip="{{localize 'GRIMWILD.Actor.Character.FIELDS.spark.label'}}"><i class="fas fa-bolt"></i>{{spark.value}}</span>
-							<span class="resource resource-bloodied {{#if bloodied.marked}}active{{/if}}" data-action="toggleHarm" data-harm="bloodied" data-tooltip="{{localize 'GRIMWILD.Damage.bloodied'}}"><i class="fas fa-droplet"></i>{{#if @root.enableHarmPools}}{{bloodied.pool.diceNum}}{{/if}}</span>
-							<span class="resource resource-rattled {{#if rattled.marked}}active{{/if}}" data-action="toggleHarm" data-harm="rattled" data-tooltip="{{localize 'GRIMWILD.Damage.rattled'}}"><i class="fas fa-brain"></i>{{#if @root.enableHarmPools}}{{rattled.pool.diceNum}}{{/if}}</span>
+							<button type="button" class="inline-control resource resource-spark {{#if spark.value}}active{{/if}}" data-action="toggleSpark"
+								data-tooltip="{{localize 'GRIMWILD.Actor.Character.FIELDS.spark.label'}}: {{spark.value}}/2"
+								aria-label="{{localize 'GRIMWILD.Actor.Character.FIELDS.spark.label'}}: {{spark.value}}/2" data-ayuda="spark"
+							><i class="fas fa-bolt" inert></i><span>{{spark.value}}</span></button>
+							<button type="button" class="inline-control resource resource-bloodied {{#if bloodied.marked}}active{{/if}}" data-action="toggleHarm" data-harm="bloodied"
+								aria-pressed="{{#if bloodied.marked}}true{{else}}false{{/if}}"
+								data-tooltip="{{localize 'GRIMWILD.Damage.bloodied'}}" aria-label="{{localize 'GRIMWILD.Damage.bloodied'}}" data-ayuda="bloodied"
+							><i class="fa-{{#if bloodied.marked}}solid{{else}}regular{{/if}} fa-droplet" inert></i>{{#if @root.enableHarmPools}}<span>{{bloodied.pool.diceNum}}</span>{{/if}}</button>
+							<button type="button" class="inline-control resource resource-rattled {{#if rattled.marked}}active{{/if}}" data-action="toggleHarm" data-harm="rattled"
+								aria-pressed="{{#if rattled.marked}}true{{else}}false{{/if}}"
+								data-tooltip="{{localize 'GRIMWILD.Damage.rattled'}}" aria-label="{{localize 'GRIMWILD.Damage.rattled'}}" data-ayuda="rattled"
+							><i class="fa-{{#if rattled.marked}}solid{{else}}regular{{/if}} fa-brain" inert></i>{{#if @root.enableHarmPools}}<span>{{rattled.pool.diceNum}}</span>{{/if}}</button>
 						</div>
 						{{/if}}
 					</div>
@@ -68,7 +77,7 @@
 				{{!-- Initiative --}}
 				<div class="token-initiative">
 					{{#if (eq type "character")}}
-					<span>{{actionCount}}</span>
+					<span class="gw-actions" aria-label="{{#if @root.tokenActions}}{{localize "GRIMWILD.Combat.TokenActions"}}{{else}}{{localize "GRIMWILD.Combat.ActionCount"}}{{/if}}: {{actionCount}}">{{actionCount}}</span>
 					{{/if}}
 				</div>
 			</li>

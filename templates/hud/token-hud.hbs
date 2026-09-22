@@ -44,9 +44,12 @@
         <i class="fa-solid fa-bullseye" inert></i>
     </button>
 
-    <button type="button" class="control-icon {{targetClass}}" data-action="spotlight" data-tooltip="GRIMWILD.Combat.SpotlightActor">
+    {{#if inCombat}}
+    <button type="button" class="control-icon gw-hud-spotlight" data-action="spotlight"
+            data-tooltip="GRIMWILD.Combat.SpotlightTooltip" aria-label="{{localize "GRIMWILD.Combat.SpotlightTooltip"}}">
         <i class="fa-solid fa-arrows-to-dot" inert></i>
     </button>
+    {{/if}}
 
     {{#if canToggleCombat}}
     <button type="button" class="control-icon {{combatClass}}" data-action="combat" data-tooltip="HUD.ToggleCombatState">
