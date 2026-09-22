@@ -5,7 +5,7 @@
   "_id": "tRDRankQ1OZzpLzz",
   "img": "icons/tools/navigation/map-marked-blue.webp",
   "system": {
-    "description": "<p>Siempre sabes dónde estará la guarida de un monstruo. Una vez por sesión, puedes decirles a todos que <em><strong>¡Estar atento!</strong></em> y declara cómo un desafío monstruoso gasta 1 de su suspense en un movimiento para atacar a tu grupo. Cualquiera involucrado recibe +1d en una tirada de defensa y en tiradas de acción posteriores.</p>",
+    "description": "<p>Siempre sabes dónde estará la guarida de un monstruo. Una vez por sesión, puedes gritar a todos <em><strong>¡Cuidado!</strong></em> y declarar cómo un desafío monstruoso gasta 1 de su suspense en un movimiento para atacar a tu grupo. Todos los implicados tienen +1d en la tirada de defensa y en las tiradas de acción inmediatamente posteriores.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "¡Estar atento!",
+        "label": "¡Cuidado!",
         "points": {
           "value": 1,
           "max": 1,

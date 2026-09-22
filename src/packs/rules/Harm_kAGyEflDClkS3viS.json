@@ -1,11 +1,11 @@
 {
   "folder": "x6w85f8sAHMiKcbw",
-  "name": "Daño",
+  "name": "Daño grave",
   "_id": "kAGyEflDClkS3viS",
   "pages": [
     {
       "sort": 100000,
-      "name": "Daño",
+      "name": "Daño grave",
       "type": "text",
       "_id": "XxShjzFmJXEztxOa",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Daño grave a su mente o cuerpo, un obstáculo persistente. <em><strong>Este es el daño predeterminado de un movimiento de impacto. </strong></em>– aunque se puede dividir en un par de marcas u otras consecuencias.</p><p>◆ El daño físico intenso o las marcas acumuladas en Fuerza o Agilidad te dejan <strong>ensangrentado</strong>.</p><p>◆ El daño mental sombrío o las marcas acumuladas de Ingenio o Presencia te abandonan <strong>sacudido</strong>.</p><p><em><strong>Ensangrentado y sacudido infligen +1t cada uno en todas las tiradas.</strong></em>. Recibir un tipo de daño por segunda vez te deja <strong>abandonó</strong> — estás fuera de escena. Haz un tirada de historia (<em>generalmente 2d</em>) — en un caso perfecto, simplemente estás fuera hasta que termine la escena. En un desorden, las cosas se ponen <em><strong>incluso peor</strong></em>, como también asumir una condición (<em>4d moribundo, pierna rota, trauma</em>). En un momento sombrío, las cosas se ponen<em> <strong>mucho peor</strong></em>, como morir o adquirir una condición permanente (<em>locura, cambio de moralidad</em>).</p><p>Los daños deben coincidir con el tono de la escena. <strong>apuestas mansas</strong> podría causar una marca, mientras <strong>en juego</strong> podría causar daño y caer al mismo tiempo.</p>"
+        "content": "<p>Daño serio a tu mente o a tu cuerpo, un lastre persistente. <em><strong>Es el daño por defecto de un movimiento de impacto</strong></em>, aunque puede dividirse en un par de marcas u otras consecuencias.</p><p>◆ Un daño físico serio o marcas acumuladas en Músculo o Agilidad te dejan <strong>ensangrentado</strong>.</p><p>◆ Un daño mental serio o marcas acumuladas en Ingenio o Presencia te dejan <strong>alterado</strong>.</p><p><em><strong>Ensangrentado y alterado imponen +1t cada uno a todas las tiradas</strong></em>. Si recibes un mismo tipo de daño grave por segunda vez, quedas <strong>derribado</strong>: estás fuera de la escena. Haz una tirada de historia (<em>normalmente 2d</em>): con un perfecto, simplemente quedas fuera hasta que acabe la escena. Con un complicado, las cosas se ponen <em><strong>aún peor</strong></em>, como recibir además una condición (<em>4d muriéndote, pierna rota, trauma</em>). Con un sombrío, las cosas se ponen<em> <strong>mucho peor</strong></em>, como morir o recibir una condición permanente (<em>locura, cambio moral</em>).</p><p>El daño debe estar a la altura del tono de la escena: si <strong>lo que está en juego es leve</strong>, puede causar una marca; si <strong>lo que está en juego es grave</strong>, puede causar daño grave y derribado a la vez.</p>"
       },
       "video": {
         "controls": true,

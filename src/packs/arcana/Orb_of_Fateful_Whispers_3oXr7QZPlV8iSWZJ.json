@@ -1,15 +1,15 @@
 {
-  "name": "Orbe de susurros fatídicos",
+  "name": "Orbe de los susurros del destino",
   "type": "arcana",
   "img": "icons/commodities/gems/pearl-swirl-blue.webp",
   "system": {
-    "description": "<p>Predice los resultados de las decisiones cuando se le hace una pregunta no secreta de sí o no.</p>",
+    "description": "<p>Predice el resultado de una decisión cuando se le hace una pregunta de sí o no que no sea secreta.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Tirada de defensa contra recibir ensangrentado.</p>",
+    "limitations": "<p>Tirada de defensa para no quedar ensangrentado.</p>",
     "touchstones": "previsión—riesgo—engaño",
     "tier": "major"
   },

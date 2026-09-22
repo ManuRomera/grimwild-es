@@ -5,10 +5,10 @@
   "_id": "fvnHaIRh7aJEJj1H",
   "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
   "system": {
-    "description": "<p>Crea tu patrón, un poderoso ser de otro mundo con el que has hecho un pacto para obtener regalos a cambio de obligaciones.</p><p><strong>Regalos</strong>: Su patrón se entromete activa o pasivamente en sus asuntos. Antes de cada sesión, tira 2d y anota estos resultados como Regalos. Durante la sesión, puedes reemplazar <em>cualquier </em>rodado d6 <em>(por cualquiera) </em>con uno de los resultados de tu regalo, luego borra el regalo.</p><p>También puedes lanzar trucos con los adornos de tu patrón como piedras de toque, útiles como <em>vestirse </em>y <em>utilidad truco</em>. <em><strong>Obtienes un talento adicional</strong></em>, y cada uno de tus talentos está impregnado de sus características.</p><p><strong>Obligaciones</strong>: Cada cliente tiene demandas diferentes. Tienes un arco argumental adicional para representar sus demandas. Algunos clientes esperan un progreso significativo, mientras que otros sólo piden un servicio mínimo. Tu defines lo que esto significa. Antes de cada sesión, analice este arco narrativo. Tu patrón tiene un <em><strong>8d paciencia</strong> </em>reserva. Llévelo si su usuario no quedó satisfecho con su progreso en la última sesión. En 0d, tu patrón te hará una visita de alguna forma para <em><strong>aclarar el problema</strong></em>, reponiendo la reserva.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 3 niveles, obtienes un talento adicional, pero disminuyes la paciencia máxima en 2d.</p>",
+    "description": "<p>Crea a tu patrón, un poderoso ser de otro mundo con el que has sellado un pacto: te concede dones a cambio de obligaciones.</p><p><strong>Dones</strong>: Tu patrón se entromete en tus asuntos, de forma activa o pasiva. Antes de cada sesión, tira 2d y anota los resultados como Dones. Durante la sesión, puedes sustituir <em>cualquier </em>d6 tirado <em>(por quien sea) </em>por uno de tus resultados de Don y luego borrar ese Don.</p><p>También puedes lanzar trucos con los atributos de tu patrón como piedras de toque, útiles como <em>detalles de escena </em>y <em>utilidad de trucos</em>. <em><strong>Ganas un talento adicional</strong></em>, y todos tus talentos quedan impregnados de esos atributos.</p><p><strong>Obligaciones</strong>: Cada patrón exige cosas distintas. Tienes un arco argumental adicional que representa sus exigencias. Algunos patrones esperan avances importantes; otros solo piden el más leve de los servicios. Tú defines qué significa. Antes de cada sesión, comentad este arco argumental. Tu patrón tiene una reserva de <em><strong>8d Paciencia</strong></em>. Tírala si tu patrón no quedó satisfecho con tus avances en la sesión anterior. Cuando llega a 0d, tu patrón te hará una visita de algún modo para <em><strong>aclarar las cosas</strong></em>, y la reserva se repone.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 3 niveles, ganas un talento adicional, pero tu Paciencia máxima baja 2d.</p>",
     "core": true,
     "notes": {
-      "description": "<p><em>Describe aquí los atributos de tu mecenas.</em></p>",
+      "description": "<p><em>Describe aquí los atributos de tu patrón.</em></p>",
       "label": "Patrón"
     },
     "trackers": [
@@ -27,7 +27,7 @@
       },
       {
         "type": "points",
-        "label": "Regalo 1",
+        "label": "Don 1",
         "points": {
           "value": 1,
           "max": 1,
@@ -40,7 +40,7 @@
       },
       {
         "type": "points",
-        "label": "Regalo 2",
+        "label": "Don 2",
         "points": {
           "value": 1,
           "max": 1,

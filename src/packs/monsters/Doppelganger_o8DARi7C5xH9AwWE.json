@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Figuras que cambian de forma con piel gris y sin rasgos distintivos. Pueden imitar perfectamente a cualquier humanoide e infiltrarse en sociedades para lograr sus propios objetivos misteriosos.</p>",
+    "biography": "<p>Figuras cambiaformas de piel gris y sin rasgos. Pueden imitar a la perfección a cualquier humanoide y se infiltran en la sociedad para lograr sus misteriosos objetivos.</p>",
     "notes": "",
     "role": "trickster",
     "tier": "tough",
     "traits": [
-      "Cambiador de forma",
+      "Cambiaformas",
       "Lector de mentes",
-      "Habla, Telepatía"
+      "Habla, telepatía"
     ],
     "moves": [
-      "Apariencia del turno",
+      "Cambiar de apariencia",
       "Sonda mental",
       "Grito psíquico"
     ],
     "desires": [
       {
-        "value": "para experimentar nuevas vidas.",
+        "value": "vivir nuevas vidas.",
         "are": false
       },
       {
-        "value": "su verdadera forma para ser vista.",
+        "value": "que se vea su verdadera forma.",
         "are": false
       }
     ],
@@ -44,8 +44,8 @@
         }
       ],
       "sights": "rasgos faciales cambiantes, cambios sutiles de postura",
-      "sounds": "silencio desconcertante, suave autoreprimenda",
-      "smells": "un olor totalmente inesperado de esa persona"
+      "sounds": "silencio desconcertante, reproches a sí mismo en voz baja",
+      "smells": "un olor que nunca esperarías de esa persona"
     },
     "pool": {
       "diceNum": 0,
@@ -57,12 +57,12 @@
         "instructions": "",
         "table": [
           [
-            "Consejero de confianza de Noble, lo conocí el invierno pasado.",
+            "El consejero de confianza de un noble, al que conocisteis el invierno pasado.",
             "La penúltima persona que conocieron los PJ.",
-            "El viejo amor de un PJ, que se creía muerto hace mucho tiempo.",
-            "Monje errante, visto hace sólo unos días.",
-            "PJ anterior, de esta campaña o de otra.",
-            "Ladrón ejecutado, ahora libre."
+            "Un antiguo amor de un PJ, al que se creía muerto hace tiempo.",
+            "Un monje errante al que visteis hace solo unos días.",
+            "Un PJ anterior, de esta campaña o de otra.",
+            "Un ladrón ejecutado que ahora anda libre."
           ]
         ]
       }

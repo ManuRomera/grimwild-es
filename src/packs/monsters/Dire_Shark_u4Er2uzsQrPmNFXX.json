@@ -4,47 +4,47 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Bestias enormes de las profundidades del océano, con hileras de dientes dentados y un cuerpo elegante y poderoso. Merodean por los mares, siempre en busca de presas de tamaño considerable.</p>",
+    "biography": "<p>Enormes bestias de las profundidades oceánicas, con hileras de dientes aserrados y un cuerpo estilizado y poderoso. Merodean por los mares, siempre en busca de presas de buen tamaño.</p>",
     "notes": "",
     "role": "predator",
     "tier": "tough",
     "traits": [
-      "Se mezcla con las profundidades",
+      "Se funde con las profundidades",
       "No conoce el miedo"
     ],
     "moves": [
       "Desde las profundidades",
-      "Golpe frenético",
-      "Muerde un trozo"
+      "Sacudida frenética",
+      "Arrancar un bocado"
     ],
     "desires": [
       {
-        "value": "para infundir un miedo profundo mucho antes de que ocurra.",
+        "value": "infundir un miedo profundo mucho antes de atacar.",
         "are": false
       },
       {
-        "value": "para que los buques operen en sus aguas.",
+        "value": "que haya barcos navegando por sus aguas.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Gris Océano",
+          "name": "Gris océano",
           "color": "#7a899c"
         },
         {
-          "name": "Blanco Hueso",
+          "name": "Blanco hueso",
           "color": "#d7d4c5"
         },
         {
-          "name": "azul profundo",
+          "name": "Azul profundo",
           "color": "#254e86"
         }
       ],
-      "sights": "parche de océano teñido de rojo, siniestra aleta dorsal",
-      "sounds": "Un ruido sordo golpeando el barco, un silencio inquietante.",
-      "smells": "agua salada y salada, agua de mar revuelta"
+      "sights": "mancha de mar teñida de rojo, siniestra aleta dorsal",
+      "sounds": "golpe sordo contra el casco, silencio inquietante",
+      "smells": "salitre, agua de mar revuelta"
     },
     "pool": {
       "diceNum": 0,
@@ -56,12 +56,12 @@
         "instructions": "",
         "table": [
           [
-            "Buque insignia real, las joyas de la corona aún a bordo.",
-            "Galeón de guerra, con el botín de guerra.",
-            "Un transatlántico de pasajeros apenas flota.",
-            "Submarino, los supervivientes en una cueva de aguas profundas.",
-            "Barco fantasma, que ha maldecido las aguas durante décadas.",
-            "Buque de guerra orco, fusionado a su espalda por magia oscura."
+            "El buque insignia real, con las joyas de la corona aún a bordo.",
+            "Un galeón de guerra, con el botín de la guerra.",
+            "Un barco de pasajeros que apenas se mantiene a flote.",
+            "Un submarino, con los supervivientes en una cueva submarina.",
+            "Un barco fantasma que llevaba décadas maldiciendo estas aguas.",
+            "Un buque de guerra orco, fundido a su lomo con magia oscura."
           ]
         ]
       }

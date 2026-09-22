@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Orbes brillantes y parpadeantes que acechan en pantanos y ciénagas, atrayendo a los viajeros con luces espeluznantes. Los guían para revelar secretos que sólo ellos entienden.</p>",
+    "biography": "<p>Orbes brillantes y titilantes que rondan pantanos y ciénagas y atraen a los viajeros con luces espeluznantes. Los guían para revelarles secretos que solo ellos entienden.</p>",
     "notes": "",
     "role": "trickster",
     "tier": "tough",
     "traits": [
       "Forma etérea",
       "Rápido y esquivo",
-      "Entiende el lenguaje"
+      "Entiende el idioma"
     ],
     "moves": [
       "Luz atrayente",
-      "El parpadeo desaparece",
+      "Parpadear y desvanecerse",
       "Confundir"
     ],
     "desires": [
       {
-        "value": "para saber hasta dónde te llevará tu curiosidad.",
+        "value": "descubrir hasta dónde te llevará tu curiosidad.",
         "are": false
       },
       {
-        "value": "para que los seguidores lleguen realmente a su destino.",
+        "value": "que quienes lo siguen lleguen de verdad a su destino.",
         "are": false
       }
     ],
@@ -35,7 +35,7 @@
           "color": "#a7c07f"
         },
         {
-          "name": "violeta fantasma",
+          "name": "Violeta fantasma",
           "color": "#83799e"
         },
         {
@@ -44,7 +44,7 @@
         }
       ],
       "sights": "leve parpadeo, sombras espeluznantes, colores cambiantes",
-      "sounds": "Débiles susurros, zumbidos bajos, ecos de pasos lejanos.",
+      "sounds": "susurros débiles, zumbido grave, eco de pasos lejanos",
       "smells": "olores fugaces pero familiares y nostálgicos"
     },
     "pool": {
@@ -53,11 +53,11 @@
     },
     "tables": [
       {
-        "name": "Secretos para revelar",
+        "name": "Secretos por revelar",
         "instructions": "",
         "table": [
           [
-            "Lugar de descanso final de un héroe nunca llorado.",
+            "Lugar de descanso final de un héroe al que nadie lloró.",
             "Máscara de madera marcada con el sello de un clan perdido.",
             "Nombres secretos de los fuegos fatuos.",
             "Llama eterna escondida en el corazón del pantano.",

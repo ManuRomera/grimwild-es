@@ -1,11 +1,11 @@
 {
   "folder": "Km2uusPM1YvfRSZe",
-  "name": "Curador",
+  "name": "Sanador",
   "type": "talent",
   "_id": "J2l6RYXBenZvuoDS",
   "img": "icons/magic/life/heart-red-blue.webp",
   "system": {
-    "description": "<p>Obtienes +1d cuando curas a alguien, con magia o tratamiento. En una crítica, ustedes dos <strong>tomar chispa</strong>.</p>",
+    "description": "<p>Tienes +1d cuando curas a alguien, con magia o con tratamiento. Con un crítico, ambos <strong>ganáis chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",

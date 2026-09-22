@@ -1,11 +1,11 @@
 {
   "folder": "x1tiKY3tWsedvhBe",
-  "name": "Flujo suave",
+  "name": "Fluidez",
   "_id": "a0e6cIg1i6gjljzj",
   "pages": [
     {
       "sort": 100000,
-      "name": "Flujo suave",
+      "name": "Fluidez",
       "type": "text",
       "_id": "OzaRWGxEZmvwfssC",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Si un siniestro amenaza con detener la historia, el DJ puede mantener las cosas en movimiento: obtienes lo que quieres, pero de una manera que empeora las cosas mucho. Si una tirada de alguna manera resulta no tener efecto <em>(el guardia ya estaba muerto)</em>, aprende nueva información o configura un seguimiento.</p>"
+        "content": "<p>Si un sombrío amenaza con atascar la historia, el DJ puede mantenerla en marcha: consigues lo que quieres, pero de un modo que empeora mucho las cosas. Si una tirada acaba sin tener efecto <em>(el guardia ya estaba muerto)</em>, descubres información nueva o preparas una continuación.</p>"
       },
       "video": {
         "controls": true,

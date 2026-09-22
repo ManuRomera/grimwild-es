@@ -1,10 +1,10 @@
 {
   "folder": null,
-  "name": "Hablador farfullante",
+  "name": "Boca farfullante",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Masas de ojos y bocas retorciéndose, balbuceando constantemente de forma incoherente. Confunden y enloquecen a los enemigos con sonidos caóticos y caos frenético.</p>",
+    "biography": "<p>Masas retorcidas de ojos y bocas que balbucean sin cesar de forma incoherente. Confunden y enloquecen a sus enemigos con sonidos caóticos y un caos frenético.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
@@ -19,11 +19,11 @@
     ],
     "desires": [
       {
-        "value": "para añadir más ojos y bocas a sí mismo.",
+        "value": "añadirse más ojos y bocas.",
         "are": false
       },
       {
-        "value": "para que se entienda su galimatías.",
+        "value": "que entiendan su galimatías.",
         "are": false
       }
     ],
@@ -34,7 +34,7 @@
           "color": "#fee4c3"
         },
         {
-          "name": "rojo carnoso",
+          "name": "Rojo carne",
           "color": "#8b0101"
         },
         {
@@ -42,7 +42,7 @@
           "color": "#c18680"
         }
       ],
-      "sights": "gotas de saliva, trozos de carne, carne burbujeante",
+      "sights": "gotas de saliva, pedazos de carne, carne que borbotea",
       "sounds": "sorbidos, chillidos agudos, gemidos, risas",
       "smells": "olor agrio a bilis y podredumbre, vísceras, carne rancia"
     },
@@ -59,7 +59,7 @@
             "Voces familiares que llaman tu nombre.",
             "Fragmentos de promesas incumplidas.",
             "Súplicas de ayuda y perdón.",
-            "Tonos burlones de un viejo enemigo.",
+            "El tono burlón de un viejo enemigo.",
             "Cantos de rituales olvidados.",
             "Tu propia voz, gritando tus pensamientos."
           ]
@@ -68,7 +68,7 @@
     ]
   },
   "prototypeToken": {
-    "name": "Hablador farfullante",
+    "name": "Boca farfullante",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

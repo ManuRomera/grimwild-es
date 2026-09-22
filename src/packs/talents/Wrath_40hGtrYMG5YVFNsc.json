@@ -5,7 +5,7 @@
   "_id": "40hGtrYMG5YVFNsc",
   "img": "icons/magic/unholy/strike-beam-blood-large-red-purple.webp",
   "system": {
-    "description": "<p>Cuando tú o un aliado cercano queda ensangrentado, sacudido o caído, recibes +1d y <em><strong>potencia</strong></em> en tu próximo hechizo si atacas inmediatamente.</p>",
+    "description": "<p>Cuando tú o un aliado cercano quedáis ensangrentados, alterados o derribados, tienes +1d y <em><strong>potencia</strong></em> en tu siguiente conjuro si respondes con él de inmediato.</p>",
     "core": false,
     "notes": {
       "description": "",

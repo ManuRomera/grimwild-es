@@ -22,7 +22,7 @@
         }
       }
     ],
-    "limitations": "<p>Sólo utilizable tres veces. Aleatoriamente temporal o permanente.</p>",
+    "limitations": "<p>Solo se puede usar tres veces. El efecto es temporal o permanente, al azar.</p>",
     "touchstones": "anonimato—rostro—olvido",
     "tier": "mythic"
   },

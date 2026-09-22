@@ -3,7 +3,7 @@
   "type": "arcana",
   "img": "icons/equipment/finger/ring-eye-purple-yellow.webp",
   "system": {
-    "description": "<p class=\"p1\">La víbora venenosa del anillo se desenroscará y se convertirá en una auténtica víbora.</p>",
+    "description": "<p class=\"p1\">La víbora venenosa del anillo se desenrosca y se convierte en una víbora de verdad.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,7 +23,7 @@
         }
       }
     ],
-    "limitations": "<p>Grupo de energía 4d, renovado al ser mordido por la víbora.</p>",
+    "limitations": "<p>Reserva de poder de 4d, que se renueva cuando te muerde la víbora.</p>",
     "touchstones": "víbora—veneno—susurros",
     "tier": "minor"
   },

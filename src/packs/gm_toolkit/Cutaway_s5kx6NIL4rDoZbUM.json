@@ -1,11 +1,11 @@
 {
   "folder": "5YXY1yqWw7ivAdLy",
-  "name": "Corte de escena",
+  "name": "Mientras tanto",
   "_id": "s5kx6NIL4rDoZbUM",
   "pages": [
     {
       "sort": 100000,
-      "name": "Corte de escena",
+      "name": "Mientras tanto",
       "type": "text",
       "_id": "SwhTNw3LNTZW9IxM",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 34\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Narra una escena rica en información en otro lugar, dando pistas a los jugadores.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>En un pueblo lejano, una extraña enfermedad comienza a extenderse. • Mientras tanto, vemos sombras trepando por las paredes.</em></span></p><p></p></div><div class=\"column\"><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">CORTE </span><span style=\"font-family:'Capito04VAR'\">para dar pistas a los jugadores sobre el panorama general, como la escena de un programa de televisión. Muestra villanos conspirando, ejércitos marchando o incluso eventos positivos. Es más divertido cuando los jugadores saben lo que está sucediendo y pueden dirigir las acciones de sus PJ hacia ese drama, incluso si sus personajes no lo saben explícitamente.</span></p></div></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 34\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p>Narra una escena en otro lugar, rica en información, que ponga al tanto a los jugadores.</p><p><em>En una aldea lejana, una extraña enfermedad empieza a extenderse. • Mientras tanto, vemos sombras trepando por los muros.</em></p><p></p></div><div class=\"column\"><p>Usa MIENTRAS TANTO para mostrar a los jugadores el panorama general, como en una escena de una serie de televisión. Muestra villanos conspirando, ejércitos en marcha o incluso sucesos positivos. Es más divertido cuando los jugadores saben lo que pasa y pueden orientar las acciones de sus PJ hacia ese drama, aunque sus personajes no lo sepan explícitamente.</p></div></div></div></div>"
       },
       "video": {
         "controls": true,

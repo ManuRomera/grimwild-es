@@ -28,7 +28,7 @@
       "_key": "!tables.results!XO9Fu2nSiTKNTrbM.qpGttcNk7h0ULglX"
     },
     {
-      "name": "Servidor",
+      "name": "Sirviente",
       "range": [
         2,
         2
@@ -220,7 +220,7 @@
       "_key": "!tables.results!XO9Fu2nSiTKNTrbM.1TWFoNSaMN07zt43"
     },
     {
-      "name": "Web",
+      "name": "Telaraña",
       "range": [
         10,
         10
@@ -268,7 +268,7 @@
       "_key": "!tables.results!XO9Fu2nSiTKNTrbM.WxGfxJfwhmkWvejC"
     },
     {
-      "name": "Ascuas",
+      "name": "Ascua",
       "range": [
         12,
         12
@@ -292,7 +292,7 @@
       "_key": "!tables.results!XO9Fu2nSiTKNTrbM.Xrm3Dbioh5xYRA6A"
     },
     {
-      "name": "Cadenas",
+      "name": "Cadena",
       "range": [
         13,
         13
@@ -412,7 +412,7 @@
       "_key": "!tables.results!XO9Fu2nSiTKNTrbM.ox7VKwu4ksbXqtZx"
     },
     {
-      "name": "Oscuro",
+      "name": "Oscuridad",
       "range": [
         18,
         18
@@ -508,7 +508,7 @@
       "_key": "!tables.results!XO9Fu2nSiTKNTrbM.HsBPcgCZtUuamUPm"
     },
     {
-      "name": "susurros",
+      "name": "Susurro",
       "range": [
         22,
         22
@@ -532,7 +532,7 @@
       "_key": "!tables.results!XO9Fu2nSiTKNTrbM.pfJgPPTXfTmGwWYQ"
     },
     {
-      "name": "Alas",
+      "name": "Ala",
       "range": [
         23,
         23
@@ -604,7 +604,7 @@
       "_key": "!tables.results!XO9Fu2nSiTKNTrbM.sFIUwChbevoCaSdd"
     },
     {
-      "name": "Blindaje",
+      "name": "Escudo",
       "range": [
         26,
         26
@@ -772,7 +772,7 @@
       "_key": "!tables.results!XO9Fu2nSiTKNTrbM.WU3VYDlJdegruTUX"
     },
     {
-      "name": "Bailar",
+      "name": "Danza",
       "range": [
         33,
         33
@@ -820,7 +820,7 @@
       "_key": "!tables.results!XO9Fu2nSiTKNTrbM.liYMLjx3KGhZVs7k"
     },
     {
-      "name": "Mascarilla",
+      "name": "Máscara",
       "range": [
         35,
         35
@@ -844,7 +844,7 @@
       "_key": "!tables.results!XO9Fu2nSiTKNTrbM.8v3NWPoMikBHHpIE"
     },
     {
-      "name": "Putrefacción",
+      "name": "Podredumbre",
       "range": [
         36,
         36

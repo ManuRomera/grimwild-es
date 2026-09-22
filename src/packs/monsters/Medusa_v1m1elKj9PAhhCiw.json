@@ -4,38 +4,38 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Figuras malditas con cabellos serpentinos y una mirada que convierte en piedra a los espectadores. Se esconden en ruinas antiguas, atormentados por el dolor y la amargura del pasado.</p>",
+    "biography": "<p>Figuras malditas con cabellos de serpiente y una mirada que convierte en piedra a quien la contempla. Se esconden en ruinas antiguas, atormentadas por el dolor y la amargura del pasado.</p>",
     "notes": "",
     "role": "trickster",
     "tier": "tough",
     "traits": [
-      "Pelo de serpiente vigilante",
+      "Cabellera de serpientes vigilante",
       "Belleza antinatural",
       "Habla"
     ],
     "moves": [
       "Mirada petrificante",
-      "Golpe de pelo de serpiente",
+      "Ataque de la cabellera de serpientes",
       "Encanto hipnótico"
     ],
     "desires": [
       {
-        "value": "para que simplemente te vayas.",
+        "value": "que te largues sin más.",
         "are": false
       },
       {
-        "value": "para recordar su pasado.",
+        "value": "que le recuerden su pasado.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Víbora Verde",
+          "name": "Verde víbora",
           "color": "#2e8a57"
         },
         {
-          "name": "Bronce Oro",
+          "name": "Oro bronce",
           "color": "#cd8032"
         },
         {
@@ -43,8 +43,8 @@
           "color": "#778898"
         }
       ],
-      "sights": "Pelo de serpiente retorciéndose, estatuas de víctimas, ojos enojados.",
-      "sounds": "suave silbido, murmullo vengativo, repentino chasquido de escamas",
+      "sights": "cabellera de serpientes que se retuerce, estatuas de víctimas, ojos airados",
+      "sounds": "siseo suave, murmullo vengativo, chasquido repentino de escamas",
       "smells": "podredumbre antigua, piedra cubierta de musgo, aire estancado"
     },
     "pool": {
@@ -60,9 +60,9 @@
             "Vanidad, castigada por un espejo que nunca refleja.",
             "Mentiras, rompió una promesa hecha en la desesperación.",
             "Codicia, obligada a proteger para siempre la reliquia que robó.",
-            "Paranoia, habiendo sido traicionado innumerables veces.",
+            "Paranoia, tras haber sido traicionada innumerables veces.",
             "Celos, generados por un anhelo insatisfecho.",
-            "Hubris, habiéndose creído por encima de los dioses."
+            "Soberbia, por haberse creído por encima de los dioses."
           ]
         ]
       }

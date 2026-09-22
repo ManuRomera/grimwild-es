@@ -4,18 +4,18 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Arácnidos monstruosamente enormes con patas como troncos de árboles y colmillos venenosos. Tejen vastas redes que cubren áreas enteras o caen desde enormes alturas sobre sus presas.</p>",
+    "biography": "<p>Arácnidos monstruosamente enormes con patas como troncos y colmillos venenosos. Tejen vastas telarañas que cubren zonas enteras o se dejan caer sobre sus presas desde enormes alturas.</p>",
     "notes": "",
     "role": "tactician",
     "tier": "tough",
     "traits": [
-      "Sentido de vibración",
-      "Correas complejas"
+      "Sentido vibratorio",
+      "Telarañas complejas"
     ],
     "moves": [
-      "Descarta sorpresa",
+      "Caída por sorpresa",
       "Mordedura venenosa",
-      "Envolver presa"
+      "Envolver a la presa"
     ],
     "desires": [
       {
@@ -23,14 +23,14 @@
         "are": false
       },
       {
-        "value": "estar cerca del fuego.",
+        "value": "acercarse lo más mínimo al fuego.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "veneno verde",
+          "name": "Verde veneno",
           "color": "#566b30"
         },
         {
@@ -38,13 +38,13 @@
           "color": "#060505"
         },
         {
-          "name": "carmesí oscuro",
+          "name": "Carmesí oscuro",
           "color": "#8b0101"
         }
       ],
-      "sights": "gruesas hebras de seda, apenas visibles en la sombra, pelos gruesos",
-      "sounds": "deslizamiento inquietante, silencio inquietante, ruido sordo suave, sorber",
-      "smells": "Veneno empalagoso y dulzón, cuerpos pútridos envueltos."
+      "sights": "gruesas hebras de seda apenas visibles en la sombra, pelos gruesos",
+      "sounds": "correteo inquietante, silencio sobrecogedor, golpe sordo y suave, sorbetones",
+      "smells": "veneno empalagoso, cuerpos pútridos envueltos en seda"
     },
     "pool": {
       "diceNum": 0,
@@ -56,12 +56,12 @@
         "instructions": "",
         "table": [
           [
-            "Netcaster, atrapando desde muy lejos.",
-            "Saltar, atrapar a la presa con la guardia baja con un salto.",
-            "Patas largas, moviéndose rápidamente a través del follaje.",
-            "Habitante de los Pozos, atacando desde agujeros bien escondidos.",
-            "Planeador acuático, deslizándose por las marismas.",
-            "Campana de buceo, viviendo completamente bajo el agua."
+            "Lanzarredes, que atrapa desde lejos.",
+            "Saltadora, que sorprende a la presa de un brinco.",
+            "Patilarga, que se mueve rápido entre el follaje.",
+            "Moradora de fosos, que ataca desde agujeros bien ocultos.",
+            "Patinadora, que se desliza por las marismas.",
+            "Campana de buceo, que vive completamente bajo el agua."
           ]
         ]
       }

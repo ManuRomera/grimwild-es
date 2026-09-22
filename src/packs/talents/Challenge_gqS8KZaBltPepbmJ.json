@@ -5,7 +5,7 @@
   "_id": "gqS8KZaBltPepbmJ",
   "img": "icons/magic/control/control-influence-rally-purple.webp",
   "system": {
-    "description": "<p>Puede <strong>esfuérzate</strong> desafiar a un enemigo. Obtienes +1d en todas las tiradas contra ellos, pero les das 1 suspense. Si hacen algo además de confrontarte, puedes <em><strong>interrumpir</strong> </em>él. En perfecto, el desafío continúa. Si un aliado se enfrenta a tu enemigo, el desafío termina.</p>",
+    "description": "<p>Puedes <strong>esforzarte</strong> para desafiar a un enemigo. Tienes +1d en todas las tiradas contra él, pero le das 1 de suspense. Si hace cualquier cosa que no sea enfrentarse a ti, puedes <em><strong>interrumpirlo</strong></em>. Con un perfecto, el desafío continúa. Si un aliado se enfrenta a tu enemigo, el desafío termina.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

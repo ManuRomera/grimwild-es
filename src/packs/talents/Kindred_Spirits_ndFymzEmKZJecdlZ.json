@@ -5,7 +5,7 @@
   "_id": "ndFymzEmKZJecdlZ",
   "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
   "system": {
-    "description": "<p>Puedes hablar con animales y espíritus de la naturaleza, cuyas personalidades están moldeadas por sus instintos. <em><strong>eres conocido por ellos</strong></em>—Cuando os encontréis, desarrolla su vínculo contigo o gasta una historia para establecerlo. Cuando llames, los que estén cerca te contestarán.</p>",
+    "description": "<p>Puedes hablar con los animales y los espíritus de la naturaleza, cuyas personalidades moldean sus instintos. <em><strong>Te conocen</strong></em>: cuando os encontráis, tira el vínculo que tienen contigo o gasta historia para establecerlo. Cuando llamas, los que están cerca responden.</p>",
     "core": false,
     "notes": {
       "description": "",

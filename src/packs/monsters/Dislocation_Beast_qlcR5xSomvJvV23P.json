@@ -1,10 +1,10 @@
 {
   "folder": null,
-  "name": "Bestia dislocada",
+  "name": "Bestia dislocadora",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criaturas esquivas, parecidas a panteras, con seis patas y tentáculos con púas. Deforman la realidad para desorientarla y confundirla, mezclándose con su entorno.</p>",
+    "biography": "<p>Criaturas esquivas, parecidas a panteras, con seis patas y tentáculos con púas. Distorsionan la realidad para desorientar y confundir, y se funden con su entorno.</p>",
     "notes": "",
     "role": "trickster",
     "tier": "tough",
@@ -13,17 +13,17 @@
       "Agilidad etérea"
     ],
     "moves": [
-      "Golpes de tentáculo",
-      "Desenfoques desorientadores",
+      "Zarpazos de tentáculo",
+      "Borrones desorientadores",
       "Salto repentino"
     ],
     "desires": [
       {
-        "value": "para aprovechar rápidamente el caos que crea.",
+        "value": "aprovechar enseguida el caos que crea.",
         "are": false
       },
       {
-        "value": "ponerse alguna vez en peligro.",
+        "value": "ponerse en peligro, jamás.",
         "are": false
       }
     ],
@@ -42,9 +42,9 @@
           "color": "#6e498c"
         }
       ],
-      "sights": "Desenfoques cambiantes, realidad perturbada, imágenes fantasmas.",
+      "sights": "borrones cambiantes, realidad alterada, imágenes fantasmales",
       "sounds": "gruñido distorsionado, ecos extraños, silbido de movimiento",
-      "smells": "almizcle especiado, aromas marcadamente cortados, matiz cáustico"
+      "smells": "almizcle especiado, aromas nítidos y cortantes, un fondo cáustico"
     },
     "pool": {
       "diceNum": 6,
@@ -52,15 +52,15 @@
     },
     "tables": [
       {
-        "name": "Fenómenos extraños",
+        "name": "Fenómenos extravagantes",
         "instructions": "",
         "table": [
           [
-            "Sonidos mundanos, completamente fuera de lugar.",
+            "Sonidos cotidianos completamente fuera de lugar.",
             "Reflejos fugaces de mundos alternativos.",
             "Las sombras se alargan de forma antinatural y persisten.",
-            "Los ecos rebotan de forma impredecible.",
-            "Los colores se mezclan con los tonos vecinos.",
+            "Los ecos rebotan de forma imprevisible.",
+            "Los colores se derraman sobre los tonos vecinos.",
             "Ondas invisibles que distorsionan la visión."
           ]
         ]
@@ -68,7 +68,7 @@
     ]
   },
   "prototypeToken": {
-    "name": "Bestia dislocada",
+    "name": "Bestia dislocadora",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

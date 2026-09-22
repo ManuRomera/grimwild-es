@@ -5,7 +5,7 @@
   "_id": "N0DDLBdAw8YfJNMK",
   "img": "icons/skills/social/intimidation-impressing.webp",
   "system": {
-    "description": "<p>Tu presencia infunde miedo en los demás. El DJ juzga la respuesta de un PNJ, o puedes gastar historia para configurarla: <em>hostil—nervioso—respetuoso—asustado</em>. Puedes esforzarte para lograr un <em><strong>potente hazaña de intimidación</strong></em>, como <em>mirando hacia abajo a un dragón </em>o <em>exigiendo ver al rey</em>.</p>",
+    "description": "<p>Tu presencia infunde miedo. El DJ decide la reacción de un PNJ, o puedes gastar historia para fijarla tú: <em>hostil—nervioso—respetuoso—asustado</em>. Puedes esforzarte para lograr una <em><strong>hazaña potente de intimidación</strong></em>, como <em>sostenerle la mirada a un dragón </em>o <em>exigir ver al rey</em>.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "path": "Berserker"
+    "path": "berserker"
   },
   "effects": [],
   "sort": 0,

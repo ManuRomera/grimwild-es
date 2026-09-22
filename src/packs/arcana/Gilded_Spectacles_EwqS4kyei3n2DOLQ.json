@@ -1,16 +1,16 @@
 {
-  "name": "Gafas doradas",
+  "name": "Anteojos dorados",
   "type": "arcana",
   "img": "icons/equipment/head/goggles-leather-blue.webp",
   "system": {
-    "description": "<p>Revela las mejores cualidades y talentos de cada uno.</p>",
+    "description": "<p>Revelan las mejores cualidades y talentos de cada persona.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Gasta chispa para usar. Exagera esas cualidades.</p>",
-    "touchstones": "perspicacia—exageración—apreciación",
+    "limitations": "<p>Gasta chispa para usarlos. Exageran esas cualidades.</p>",
+    "touchstones": "perspicacia—exageración—aprecio",
     "tier": "minor"
   },
   "effects": [],

@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Poderosos espíritus elementales que dominan las fuerzas de la naturaleza. Conceden Deseos, pero a menudo los tergiversan para lograr fines misteriosos e impredecibles.</p>",
+    "biography": "<p>Poderosos espíritus elementales que dominan las fuerzas de la naturaleza. Conceden deseos, pero a menudo los retuercen para servir a fines misteriosos e impredecibles.</p>",
     "notes": "",
     "role": "blaster",
     "tier": "tough",
     "traits": [
       "Maestría elemental",
-      "Confianza real",
+      "Aplomo regio",
       "Habla"
     ],
     "moves": [
       "Deseo retorcido",
-      "Elemento de comando",
+      "Dominar elemento",
       "Torbellino"
     ],
     "desires": [
       {
-        "value": "sus Deseos de dar una lección a los mortales.",
+        "value": "que sus deseos den una lección a los mortales.",
         "are": false
       },
       {
-        "value": "estar obligado o controlado.",
+        "value": "estar atado o controlado.",
         "are": false
       }
     ],
@@ -35,7 +35,7 @@
           "color": "#b8860b"
         },
         {
-          "name": "Azul Zafiro",
+          "name": "Azul zafiro",
           "color": "#5989c9"
         },
         {
@@ -43,9 +43,9 @@
           "color": "#6e498c"
         }
       ],
-      "sights": "túnicas sueltas, runas y símbolos grabados en el aire",
-      "sounds": "Zumbido etéreo, silbido del viento, crepitar de magia",
-      "smells": "aire fresco, jazmín y loto persistentes, especias seductoras"
+      "sights": "túnicas ondeantes, runas y símbolos grabados en el aire",
+      "sounds": "zumbido etéreo, silbido del viento, crepitar de magia",
+      "smells": "aire fresco, rastro de jazmín y loto, especias seductoras"
     },
     "pool": {
       "diceNum": 0,
@@ -59,10 +59,10 @@
           [
             "Intenta destruirse con el deseo.",
             "Se esfuerza demasiado por mejorar el deseo.",
-            "Hace que el deseo de alguna manera logre lo contrario.",
-            "Oye mal, cambiando una letra en el deseo.",
-            "Divide el deseo de manera desigual.",
-            "En realidad, no puedo conceder Deseos, pero no lo admitiré."
+            "Hace que el deseo consiga, de algún modo, lo contrario.",
+            "Oye mal y cambia una letra del deseo.",
+            "Reparte el deseo de forma desigual.",
+            "En realidad no puede conceder deseos, pero no lo admitirá."
           ]
         ]
       }

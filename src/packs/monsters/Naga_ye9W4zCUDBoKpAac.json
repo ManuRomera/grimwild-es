@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Malévolas figuras serpentinas que guardan la sabiduría antigua. Defienden arboledas sagradas y ruinas perdidas con magia potente contra cualquiera que se atreva a traspasarlas.</p>",
+    "biography": "<p>Malévolas figuras serpentinas que custodian la sabiduría antigua. Defienden arboledas sagradas y ruinas perdidas con magia poderosa frente a cualquiera que ose adentrarse en ellas.</p>",
     "notes": "",
     "role": "blaster",
     "tier": "tough",
@@ -15,23 +15,23 @@
     ],
     "moves": [
       "Colmillos venenosos",
-      "Apretar",
-      "Magia hexagonal"
+      "Constreñir",
+      "Maleficios"
     ],
     "desires": [
       {
-        "value": "guardar sus secretos para sí mismo, sin importar el costo.",
+        "value": "guardarse sus secretos, cueste lo que cueste.",
         "are": false
       },
       {
-        "value": "ser insultado con ofertas, como si se pudiera comprar.",
+        "value": "que lo insulten con ofertas, como si se le pudiera comprar.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Verde escalado",
+          "name": "Verde escamoso",
           "color": "#2e8a57"
         },
         {
@@ -39,12 +39,12 @@
           "color": "#4682b4"
         },
         {
-          "name": "Oro Envejecido",
+          "name": "Oro envejecido",
           "color": "#b8860b"
         }
       ],
       "sights": "escamas iridiscentes, ojos brillantes",
-      "sounds": "silbido de escamas deslizándose sobre la piedra, susurrando",
+      "sounds": "siseo de escamas que se deslizan sobre la piedra, susurros",
       "smells": "incienso exótico, notas florales mezcladas con almizcle"
     },
     "pool": {
@@ -57,24 +57,24 @@
         "instructions": "(Tira 3 e interpreta)",
         "table": [
           [
-            "secreto",
-            "retorcido",
-            "FALSO",
-            "verdadero",
-            "blasfemo",
-            "roto"
+            "secretos",
+            "retorcidos",
+            "falsos",
+            "verdaderos",
+            "blasfemos",
+            "destrozados"
           ],
           [
-            "tiradas de",
+            "pergaminos de",
             "visiones de",
             "ritos de",
             "pactos de",
             "elixires de",
-            "cifrados de"
+            "códigos de"
           ],
           [
             "inmortalidad",
-            "unión del alma",
+            "vinculación de almas",
             "nigromancia",
             "teletransportación",
             "polimorfismo",

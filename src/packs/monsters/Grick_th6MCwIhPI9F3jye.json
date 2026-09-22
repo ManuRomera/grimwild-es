@@ -4,26 +4,26 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criaturas reptantes parecidas a gusanos con tentáculos ganchudos y pico. Se esconden en cavernas oscuras y tienen mucho cuidado de tender una emboscada a sus presas con golpes precisos.</p>",
+    "biography": "<p>Criaturas reptantes parecidas a gusanos, con tentáculos ganchudos y pico. Se esconden en cavernas oscuras y preparan con sumo cuidado emboscadas para atacar a sus presas con golpes precisos.</p>",
     "notes": "",
     "role": "lurker",
     "tier": "tough",
     "traits": [
       "Camuflaje rocoso",
-      "Alcance extendido"
+      "Largo alcance"
     ],
     "moves": [
-      "Golpe de tentáculo",
-      "chasquido de pico",
-      "Retiro apresurado"
+      "Zarpazo de tentáculo",
+      "Picotazo",
+      "Retirada apresurada"
     ],
     "desires": [
       {
-        "value": "para no dejar rastro de su caza.",
+        "value": "no dejar rastro de su caza.",
         "are": false
       },
       {
-        "value": "perder la oportunidad de comer.",
+        "value": "perder la ocasión de comer.",
         "are": false
       }
     ],
@@ -34,17 +34,17 @@
           "color": "#708090"
         },
         {
-          "name": "Gris Malva",
+          "name": "Gris malva",
           "color": "#b783a7"
         },
         {
-          "name": "oliva oscuro",
+          "name": "Oliva oscuro",
           "color": "#566b30"
         }
       ],
-      "sights": "Tentáculos retorciéndose, mirada intensa, movimiento débil.",
-      "sounds": "deslizamiento suave, chasquido débil, chasquido repentino",
-      "smells": "tierra mohosa, roca húmeda, ligero olor a pescado"
+      "sights": "tentáculos que se retuercen, mirada intensa, movimiento apenas perceptible",
+      "sounds": "reptar suave, chasquidos débiles, dentelladas repentinas",
+      "smells": "tierra con olor a moho, roca húmeda, leve olor a pescado"
     },
     "pool": {
       "diceNum": 0,
@@ -56,12 +56,12 @@
         "instructions": "",
         "table": [
           [
-            "Cubre toda el área en oscuridad.",
+            "Sume toda la zona en la oscuridad.",
             "Estalla en una luz cegadora cuando golpea.",
-            "Libera una nube de gas somnífero cuando se golpea.",
+            "Libera una nube de gas somnífero cuando lo golpean.",
             "Emite silbidos estridentes y resonantes.",
-            "Absorbe todo sonido en un silencio absoluto.",
-            "Los tentáculos se estiran tres veces su longitud normal."
+            "Absorbe todo sonido y deja un silencio absoluto.",
+            "Sus tentáculos se estiran hasta el triple de su longitud normal."
           ]
         ]
       }

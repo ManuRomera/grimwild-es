@@ -1,16 +1,16 @@
 {
-  "name": "Aro de restauración primordial",
+  "name": "Diadema de restauración primigenia",
   "type": "arcana",
   "img": "icons/equipment/finger/ring-crown-gold-pink.webp",
   "system": {
-    "description": "<p>Una extremidad perdida vuelve a crecer en el transcurso de una hora terriblemente dolorosa.</p>",
+    "description": "<p>Hace que vuelva a crecer una extremidad perdida a lo largo de una hora terriblemente dolorosa.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Tome sonajero cuando se use.</p>",
-    "touchstones": "curación—recrecimiento—sacrificio",
+    "limitations": "<p>Al usarla, quedas alterado.</p>",
+    "touchstones": "curación—regeneración—sacrificio",
     "tier": "major"
   },
   "effects": [],

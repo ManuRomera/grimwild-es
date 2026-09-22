@@ -5,7 +5,7 @@
   "_id": "fIog3yA3YUAFLtQg",
   "img": "icons/magic/movement/trail-streak-impact-blue.webp",
   "system": {
-    "description": "<p>Cuando el DJ gasta suspense para provocar un movimiento de impacto, recibes +1d en cualquier acción de seguimiento contra la fuente. En un punto crítico, <strong>tomar chispa</strong>.</p>",
+    "description": "<p>Cuando el DJ gasta suspense para hacer un movimiento de impacto, tienes +1d en cualquier acción inmediata contra su origen. Con un crítico, <strong>ganas chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",

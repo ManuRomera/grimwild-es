@@ -1,11 +1,11 @@
 {
   "folder": "7rNlh42HUUDEXQ9f",
-  "name": "Dirigir combate",
+  "name": "Dirigir el combate",
   "_id": "veHYoBb3khGbNClM",
   "pages": [
     {
       "sort": 100000,
-      "name": "Dirigir combate",
+      "name": "Dirigir el combate",
       "type": "text",
       "_id": "2MvkhyWfOwDcbAOa",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 41\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Cuando estalla una pelea, la acción fluye naturalmente, siguiendo el foco de atención. No existen reglas específicas que diferencien el combate de cualquier otro escenario.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><strong>No hay orden de turno</strong>. </em></span><span style=\"font-family:'Capito04VAR'\">El DJ describe el peligro inminente en la situación actual y pregunta cómo responden los PJ, o cómo toman medidas por su cuenta. El foco de atención suele estar puesto en los PJ, y las acciones del mundo se derivan de lo que hacen. Haz que los enemigos sean más proactivos al </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.BgDBVoiRbx5zUcoA]{presagio} </span><span style=\"font-family:'Capito04VAR'\">eventos y seguimiento posterior, o gasto </span><span style=\"font-family:'Capito04VARItalic'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span style=\"font-family:'Capito04VAR'\"> para hacer @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimientos de impacto}. Esto da como resultado un flujo y reflujo cinematográfico en el combate.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Las batallas ocurren en el teatro de la mente.</strong></em></span><span style=\"font-family:'Capito04VAR'\">, utilizando la imaginación compartida del grupo para realizar un seguimiento del posicionamiento ficticio de cada participante para asignar la ficción a las reglas. Sin embargo, usando </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>mapas de batalla</strong> </em></span><span style=\"font-family:'Capito04VAR'\">o dibujar mapas con minis o marcadores para rastrear ubicaciones durante una pelea también funciona bien. Esto ayuda a organizar la situación caótica, asegura que todos tengan tiempo para lucirse y mantiene alineada la imaginación de todos. No te dejes atrapar por el seguimiento detallado: actualice el mapa con cambios importantes.</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 41\"><div class=\"layoutArea\"><div class=\"column\"><p>Cuando estalla una pelea, la acción fluye con naturalidad, siguiendo el foco. No hay reglas específicas que distingan el combate de cualquier otra escena.</p><p><em><strong>No hay orden de turnos</strong>. </em>El DJ describe el peligro inminente de la situación y pregunta cómo responden los PJ, o los PJ actúan por iniciativa propia. El foco suele estar en los PJ, y las acciones del mundo surgen de lo que hacen. Puedes hacer que los enemigos sean más activos usando @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.BgDBVoiRbx5zUcoA]{Presagia} para anunciar sucesos y dándoles continuidad después, o gastando @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense} para hacer @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimientos de impacto}. Así el combate tiene un vaivén cinematográfico.</p><p><em><strong>Las batallas transcurren en el teatro de la mente</strong></em>: se usa la imaginación compartida del grupo para seguir la posición de cada participante en la ficción y trasladarla a las reglas. Aun así, también funciona bien usar <em><strong>mapas de batalla</strong> </em>o dibujar mapas con miniaturas o fichas para seguir las posiciones durante una pelea. Ayuda a ordenar el caos, garantiza que todos tengan su momento de lucimiento y mantiene alineada la imaginación de todos. No te obsesiones con un seguimiento detallado: actualiza el mapa solo con los cambios importantes.</p></div></div></div>"
       },
       "video": {
         "controls": true,

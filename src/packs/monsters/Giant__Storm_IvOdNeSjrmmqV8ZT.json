@@ -1,10 +1,10 @@
 {
   "folder": null,
-  "name": "Gigante de tormenta",
+  "name": "Gigante de las tormentas",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Gobernantes reales del mar y el cielo, que encarnan la sabiduría y el orden natural. Convocan tormentas para imponer el equilibrio, impulsados ​​a mantener la armonía del mundo.</p>",
+    "biography": "<p>Regios soberanos del mar y el cielo que encarnan la sabiduría y el orden natural. Invocan tormentas para imponer el equilibrio, empeñados en mantener la armonía del mundo.</p>",
     "notes": "",
     "role": "blaster",
     "tier": "tough",
@@ -15,16 +15,16 @@
     ],
     "moves": [
       "Rayo",
-      "Tronido",
+      "Trueno",
       "Invocar tormenta"
     ],
     "desires": [
       {
-        "value": "para hacer cumplir lo que considera el orden natural.",
+        "value": "imponer lo que considera el orden natural.",
         "are": false
       },
       {
-        "value": "ver cómo el orden establecido se convierte en caos.",
+        "value": "ver cómo el orden establecido degenera en caos.",
         "are": false
       }
     ],
@@ -43,8 +43,8 @@
           "color": "#778898"
         }
       ],
-      "sights": "Crepitantes arcos de relámpagos, figura regia en el horizonte",
-      "sounds": "Estallido ensordecedor, viento soplando, zumbido estático",
+      "sights": "arcos de relámpagos crepitantes, figura regia en el horizonte",
+      "sounds": "estruendo ensordecedor, viento impetuoso, zumbido de estática creciente",
       "smells": "aire electrificado, tierra empapada de lluvia, piedra mojada"
     },
     "pool": {
@@ -53,23 +53,23 @@
     },
     "tables": [
       {
-        "name": "Llega junto...",
+        "name": "Llega acompañado de...",
         "instructions": "",
         "table": [
           [
-            "Huracán que arrasa con el desafío.",
-            "Tornados gemelos, destrozando a los impenitentes.",
-            "Granizo que obliga a los culpables a confesar.",
-            "Tormenta eléctrica que arrasa el engaño.",
-            "Aguacero torrencial que arrasa con la corrupción.",
-            "Trombas marinas que arrastran a los malhechores ante el juicio."
+            "Un huracán que barre toda rebeldía.",
+            "Tornados gemelos que despedazan a los impenitentes.",
+            "Una granizada que golpea a los culpables hasta que confiesan.",
+            "Una tormenta eléctrica que calcina el engaño.",
+            "Un aguacero torrencial que lava la corrupción.",
+            "Trombas marinas que arrastran a los malhechores ante la justicia."
           ]
         ]
       }
     ]
   },
   "prototypeToken": {
-    "name": "Gigante de tormenta",
+    "name": "Gigante de las tormentas",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
@@ -186,7 +186,7 @@
         },
         "traits": [],
         "moves": [
-          "Arrasa la ciudad",
+          "Arrasar el pueblo",
           "Aluvión de escombros"
         ],
         "failure": []
@@ -233,9 +233,9 @@
         },
         "traits": [],
         "moves": [
-          "Estática Arcana",
+          "Estática arcana",
           "Invocar elementales",
-          "Rayo de hoja"
+          "Relámpago difuso"
         ],
         "failure": []
       },
@@ -281,8 +281,8 @@
         },
         "traits": [],
         "moves": [
-          "Patear la pared",
-          "Lanzar torreta del castillo",
+          "Derribar un muro de una patada",
+          "Lanzar un torreón",
           "Sacudirse a los escaladores"
         ],
         "failure": [
@@ -337,7 +337,7 @@
         },
         "traits": [],
         "moves": [
-          "Arrasa la ciudad",
+          "Arrasar el pueblo",
           "Aluvión de escombros"
         ],
         "failure": []

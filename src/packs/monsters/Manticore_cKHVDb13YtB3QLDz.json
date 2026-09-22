@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Bestias feroces con cuerpo felino y cola puntiaguda. Merodean por desiertos y llanuras, haciendo huir a sus presas y luego lanzándoles ráfagas de mortíferas púas en la cola.</p>",
+    "biography": "<p>Bestias feroces con cuerpo felino y cola erizada de púas. Merodean por desiertos y llanuras, hacen huir a sus presas y luego las acribillan con andanadas de mortíferas púas de la cola.</p>",
     "notes": "",
     "role": "marksman",
     "tier": "tough",
     "traits": [
-      "Piel de púas",
+      "Pellejo con púas",
       "Precavido",
-      "Habla (crudo)"
+      "Habla (tosca)"
     ],
     "moves": [
       "Palabras crueles",
-      "Volea de púas",
+      "Andanada de púas",
       "Rugido aterrador"
     ],
     "desires": [
       {
-        "value": "para asustar a su presa y hacerla huir para matarla fácilmente.",
+        "value": "asustar a su presa para que huya y cazarla con facilidad.",
         "are": false
       },
       {
-        "value": "para dejar escapar a la presa que huye.",
+        "value": "dejar escapar a una presa que huye.",
         "are": false
       }
     ],
@@ -43,9 +43,9 @@
           "color": "#b19f5f"
         }
       ],
-      "sights": "Púas en los árboles, nubes de polvo, largos rastros de sangre.",
-      "sounds": "rugidos guturales, crujidos agudos de púas al aterrizar",
-      "smells": "Pelaje seco, polvo acre, aroma felino almizclado."
+      "sights": "púas en los árboles, nubes de polvo, largos rastros de sangre",
+      "sounds": "rugidos guturales, chasquidos secos de púas al clavarse",
+      "smells": "pelaje seco, polvo acre, aroma felino almizclado"
     },
     "pool": {
       "diceNum": 0,
@@ -57,12 +57,12 @@
         "instructions": "",
         "table": [
           [
-            "Wyvern, caza presas heridas.",
-            "Gigante de la colina, lo convierte en una cama cómoda.",
-            "Basilisco, espera petrificar a los objetivos que escapan.",
-            "Minotauro, lo deja refugiarse en el laberinto.",
+            "Guiverno, da caza a las presas heridas.",
+            "Gigante de las colinas, le sirve de cama cómoda.",
+            "Basilisco, aguarda para petrificar a quien escape.",
+            "Minotauro, le deja tener su guarida en el laberinto.",
             "Quimera, un tenso pacto de caza.",
-            "Underscourge, lo sigue desde abajo."
+            "Azote subterráneo, lo sigue desde abajo."
           ]
         ]
       }

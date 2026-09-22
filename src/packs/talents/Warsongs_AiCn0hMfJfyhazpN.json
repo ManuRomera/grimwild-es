@@ -5,11 +5,11 @@
   "_id": "AiCn0hMfJfyhazpN",
   "img": "icons/skills/trades/music-singing-voice-blue.webp",
   "system": {
-    "description": "<p>En cada sesión, puedes cantar 2 canciones de bardo. Escribe la composición de las únicas 3 canciones que conoces.</p>",
+    "description": "<p>En cada sesión puedes cantar 2 cantos de bardo. Anota la composición de las 3 únicas canciones que conoces.</p>",
     "core": false,
     "notes": {
       "description": "<p><em>Anota aquí tus composiciones.</em></p>",
-      "label": "Composiciones de gritos de guerra"
+      "label": "Composiciones de cantos de guerra"
     },
     "trackers": [
       {
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "path": "Berserker"
+    "path": "berserker"
   },
   "effects": [],
   "sort": 0,

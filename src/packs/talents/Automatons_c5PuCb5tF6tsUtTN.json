@@ -5,16 +5,16 @@
   "_id": "c5PuCb5tF6tsUtTN",
   "img": "icons/environment/creatures/golem-stone-purple.webp",
   "system": {
-    "description": "<p>Tienes tres pequeños ayudantes que creaste. Cada uno tiene un descriptor diferente, un adjetivo que determina qué tareas pueden realizar. Cada sesión, cada una tiene una <em><strong>reserva de poder 2d</strong></em> para realizar tareas. Al ayudar, tiran 1d de su reserva. Pueden seguir comandos simples, sin los cuales simplemente te buscarán.</p>",
+    "description": "<p>Tienes tres pequeños ayudantes que tú mismo creaste. Cada uno tiene un descriptor distinto, un adjetivo que determina qué tareas puede hacer. En cada sesión, cada uno tiene una <em><strong>reserva de poder de 2d</strong></em> que tiras para que haga tareas. Cuando ayudan, tiran 1d de su reserva. Pueden seguir órdenes sencillas; si no se las das, se limitan a buscarte.</p>",
     "core": false,
     "notes": {
-      "description": "<p><em>Escriba aquí los descriptores de sus Autómatas.</em></p>",
+      "description": "<p><em>Anota aquí los descriptores de tus autómatas.</em></p>",
       "label": "Autómatas"
     },
     "trackers": [
       {
         "type": "pool",
-        "label": "autómata 1",
+        "label": "Autómata 1",
         "pool": {
           "diceNum": 2,
           "max": 2
@@ -27,7 +27,7 @@
       },
       {
         "type": "pool",
-        "label": "autómata 2",
+        "label": "Autómata 2",
         "pool": {
           "diceNum": 2,
           "max": 2
@@ -40,7 +40,7 @@
       },
       {
         "type": "pool",
-        "label": "autómata 3",
+        "label": "Autómata 3",
         "pool": {
           "diceNum": 2,
           "max": 2

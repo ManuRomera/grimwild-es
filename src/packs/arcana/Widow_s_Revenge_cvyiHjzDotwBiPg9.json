@@ -1,16 +1,16 @@
 {
-  "name": "La venganza de la viuda",
+  "name": "Venganza de la viuda",
   "type": "arcana",
   "img": "icons/equipment/shield/kite-wooden-sigil-purple.webp",
   "system": {
-    "description": "<p>Cuando te dejan caer, la araña se baja y ataca a tu asesino.</p>",
+    "description": "<p>Cuando caes derribado, la araña se baja de ti y ataca a tu asesino.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Si se mata, la araña desaparece para siempre. También desprecia el asesinato.</p>",
-    "touchstones": "araña—veneno—comando",
+    "limitations": "<p>Si la matan, la araña desaparece para siempre. Además, detesta el asesinato.</p>",
+    "touchstones": "araña—veneno—mando",
     "tier": "minor"
   },
   "effects": [],

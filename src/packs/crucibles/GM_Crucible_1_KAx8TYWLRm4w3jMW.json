@@ -1,6 +1,6 @@
 {
   "folder": "XMWukrtnFwdbpYHy",
-  "name": "Crisol DJ 1",
+  "name": "Crisol del DJ 1",
   "_id": "KAx8TYWLRm4w3jMW",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
@@ -30,7 +30,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.k4uVV8ThI0OF5T3d"
     },
     {
-      "name": "tranquilo",
+      "name": "silente",
       "range": [
         2,
         2
@@ -54,7 +54,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.va1yuuY30ZUpI32n"
     },
     {
-      "name": "precario",
+      "name": "inestable",
       "range": [
         3,
         3
@@ -102,7 +102,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.YIzzQNkMdvbVgRsn"
     },
     {
-      "name": "misterioso",
+      "name": "insondable",
       "range": [
         5,
         5
@@ -126,7 +126,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.J4qy3zGW7FiuoJQS"
     },
     {
-      "name": "rústico",
+      "name": "campestre",
       "range": [
         6,
         6
@@ -150,7 +150,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.Y5E2A7D0saNx6YIA"
     },
     {
-      "name": "sordo",
+      "name": "tenue",
       "range": [
         7,
         7
@@ -174,7 +174,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.AXVRHZTJeDMe8MoB"
     },
     {
-      "name": "viejo",
+      "name": "ancestral",
       "range": [
         8,
         8
@@ -198,7 +198,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.b8ocsQbhLTW4kK7m"
     },
     {
-      "name": "romántico",
+      "name": "pasional",
       "range": [
         9,
         9
@@ -222,7 +222,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.bTItRyrqyWP5dAuu"
     },
     {
-      "name": "amenazador",
+      "name": "amenazante",
       "range": [
         10,
         10
@@ -246,7 +246,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.z6QvFKsMG0u9VSL3"
     },
     {
-      "name": "misterioso",
+      "name": "desconcertante",
       "range": [
         11,
         11
@@ -270,7 +270,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.6MjuOdezHT7GLze0"
     },
     {
-      "name": "misterioso",
+      "name": "inquietante",
       "range": [
         12,
         12
@@ -294,7 +294,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.xmLOZMnNLURWeoy3"
     },
     {
-      "name": "roto",
+      "name": "en ruinas",
       "range": [
         13,
         13
@@ -318,7 +318,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.tWCC1H9SuAi3RcQa"
     },
     {
-      "name": "menguando",
+      "name": "menguante",
       "range": [
         14,
         14
@@ -366,7 +366,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.UtCTuOXDP2VIxjMl"
     },
     {
-      "name": "peligroso",
+      "name": "temible",
       "range": [
         16,
         16
@@ -390,7 +390,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.DyQvj5lvbk1utwJp"
     },
     {
-      "name": "desolado",
+      "name": "lúgubre",
       "range": [
         17,
         17
@@ -414,7 +414,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.qBydtXpuR9nvTUWG"
     },
     {
-      "name": "tenso",
+      "name": "tirante",
       "range": [
         18,
         18
@@ -438,7 +438,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.PMvGyu5mHamyx6yn"
     },
     {
-      "name": "olvidado",
+      "name": "en el olvido",
       "range": [
         19,
         19
@@ -486,7 +486,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.4t9Nz6Q8KtDlfoi8"
     },
     {
-      "name": "oculto",
+      "name": "latente",
       "range": [
         21,
         21
@@ -510,7 +510,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.r0p9Ms2vinVWg2ZE"
     },
     {
-      "name": "marchito",
+      "name": "decadente",
       "range": [
         22,
         22
@@ -534,7 +534,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.HhvtHJQM2nMQoAyt"
     },
     {
-      "name": "caótico",
+      "name": "ingobernable",
       "range": [
         23,
         23
@@ -558,7 +558,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.P7q2oFcXCcRmEXQZ"
     },
     {
-      "name": "acechando",
+      "name": "inminente",
       "range": [
         24,
         24
@@ -582,7 +582,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.3r8j3yMaFhLQn1kr"
     },
     {
-      "name": "festivo",
+      "name": "alegre",
       "range": [
         25,
         25
@@ -606,7 +606,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.Xe116FDA1wo7iwq9"
     },
     {
-      "name": "perdido",
+      "name": "a la deriva",
       "range": [
         26,
         26
@@ -630,7 +630,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.klIg8k1r6u6sHWbV"
     },
     {
-      "name": "inmenso",
+      "name": "colosal",
       "range": [
         27,
         27
@@ -654,7 +654,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.0kmUTSxPEY0rBqke"
     },
     {
-      "name": "sereno",
+      "name": "apacible",
       "range": [
         28,
         28
@@ -702,7 +702,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.2FO7qEK2hMEQLPbN"
     },
     {
-      "name": "parpadeo",
+      "name": "titilante",
       "range": [
         30,
         30
@@ -726,7 +726,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.HdaXz8KIopn8fqjW"
     },
     {
-      "name": "escabroso",
+      "name": "agreste",
       "range": [
         31,
         31
@@ -750,7 +750,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.As0yALLCOtKonMe1"
     },
     {
-      "name": "astillado",
+      "name": "en pedazos",
       "range": [
         32,
         32
@@ -774,7 +774,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.IkwiD2OoRLsYt5CW"
     },
     {
-      "name": "sagrado",
+      "name": "venerable",
       "range": [
         33,
         33
@@ -822,7 +822,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.bkWdfYoGaEW2kUmR"
     },
     {
-      "name": "enredado",
+      "name": "inextricable",
       "range": [
         35,
         35
@@ -846,7 +846,7 @@
       "_key": "!tables.results!KAx8TYWLRm4w3jMW.pPhu8sEywMjSKOI3"
     },
     {
-      "name": "retorcido",
+      "name": "aberrante",
       "range": [
         36,
         36

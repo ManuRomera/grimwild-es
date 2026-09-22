@@ -1,11 +1,11 @@
 {
   "folder": "5YXY1yqWw7ivAdLy",
-  "name": "Enredar",
+  "name": "Enreda",
   "_id": "VV7uXLGhN8SS7Fzs",
   "pages": [
     {
       "sort": 100000,
-      "name": "Enredar",
+      "name": "Enreda",
       "type": "text",
       "_id": "mkGVE8bpEOSGO6LR",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 34\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Propón un enredo interesante a un PJ. Toma suspense sólo si aceptan.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>Él te mira con una sonrisa, retándote a hablar. • El prisionero sabe dónde está tu madre.</em></span></p><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">ENREDAR </span><span style=\"font-family:'Capito04VAR'\">un jugador proponiendo un jugoso enredo para su PJ. Empuja </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>dilemas</strong> </em></span><span style=\"font-family:'Capito04VAR'\">y </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>drama</strong> </em></span><span style=\"font-family:'Capito04VAR'\">hacia sus rasgos, Deseos, vínculos y arcos argumentales. ¡Los jugadores los eligen porque quieren las opciones que vienen con ellos! Cuando tengas una gran idea, propone un @UUID[Compendium.grimwild.rules.JournalEntry.zyFQU71s311j9gzi]{Enredo} para un PJ. Recuerda que solo ganas </span><span style=\"font-family:'Capito04VARItalic'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span style=\"font-family:'Capito04VAR'\"> si aceptan, depende de ti hacer que el enredo sea irresistible. No presiones demasiado: esta mecánica está diseñada para respetar la agencia del jugador. No castigues por decir que no.</span></p></div></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 34\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p>Propón un enredo interesante a un PJ. Ganas suspense solo si lo acepta.</p><p><em>Te mira con una sonrisa burlona, desafiándote a hablar. • El prisionero sabe dónde está tu madre.</em></p><p></p><p>ENREDA a un jugador proponiendo un enredo jugoso para su PJ. Lleva los <em><strong>dilemas</strong> </em>y el <em><strong>drama</strong> </em>hacia sus rasgos, deseos, vínculos y arcos argumentales. ¡Los jugadores los eligen precisamente por las decisiones que traen consigo! Cuando tengas una buena idea, propón un @UUID[Compendium.grimwild.rules.JournalEntry.zyFQU71s311j9gzi]{Enredo} a un PJ. Recuerda que solo ganas @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense} si lo acepta, así que te toca a ti hacer que el enredo sea irresistible. No presiones demasiado: esta mecánica está pensada para respetar la libertad del jugador. No lo castigues por decir que no.</p></div></div></div></div>"
       },
       "video": {
         "controls": true,

@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Magos inmortales impulsados ​​por un propósito singular y oscuro. Controlan hordas de muertos vivientes desde una guarida bien defendida y ejecutan planes con frío cálculo.</p>",
-    "notes": "<p>Libros de hechizos de Lich</p><p style=\"text-align:center\">Un lich conoce 8 hechizos de mago. Elige un libro de hechizos a continuación o crea uno. Obtienen 1 bonificación de suspense por cada hechizo.</p><p></p><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Libro de hechizos 1</span></span></p><p>Gusano lento - Transmutación</p><p>Cascada de dolor - Nigromancia</p><p>Aura de grito - Encantamiento</p><p>Máscara fascinante - Ilusión</p><p></p><p>Guía mental - Adivinación</p><p>Baliza de carne - Transmutación</p><p>Escudo de aceite - Abjuración</p><p>Pared ósea - Conjuración</p><p></p><p><span style=\"text-decoration:underline\">Libro de hechizos 2</span></p><p>Carne en expansión - Transmutación</p><p>Alas hambrientas - Conjuración</p><p>Vid deslumbrante - Ilusión</p><p>Lore terrible - Adivinación</p><p></p><p>Cadenas Lentas - Transmutación</p><p>Palabra vinculante - Encantamiento</p><p>Humo Prismático - Evocación</p><p>Terror hambriento - Nigromancia</p>",
+    "biography": "<p>Magos inmortales impulsados por un único y oscuro propósito. Controlan hordas de no muertos desde una guarida bien defendida y ejecutan sus planes con frío cálculo.</p>",
+    "notes": "<p>Libros de conjuros del liche</p><p style=\"text-align:center\">Un liche conoce 8 conjuros de mago. Elige uno de los libros de conjuros siguientes o crea uno. Gana 1 de suspense adicional por cada conjuro.</p><p></p><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Libro de conjuros 1</span></span></p><p>Gusano lento - Transmutación</p><p>Cascada de dolor - Nigromancia</p><p>Aura aullante - Encantamiento</p><p>Máscara hipnótica - Ilusión</p><p></p><p>Guía mental - Adivinación</p><p>Faro de carne - Transmutación</p><p>Escudo de aceite - Abjuración</p><p>Muro de hueso - Conjuración</p><p></p><p><span style=\"text-decoration:underline\">Libro de conjuros 2</span></p><p>Carne expansiva - Transmutación</p><p>Alas hambrientas - Conjuración</p><p>Enredadera deslumbrante - Ilusión</p><p>Saber terrible - Adivinación</p><p></p><p>Cadenas lentas - Transmutación</p><p>Palabra de atadura - Encantamiento</p><p>Humo prismático - Evocación</p><p>Terror hambriento - Nigromancia</p>",
     "role": "overseer",
     "tier": "tough",
     "traits": [
-      "8 hechizos de mago",
+      "8 conjuros de mago",
       "Dos pasos por delante",
       "Habla"
     ],
     "moves": [
-      "Lanzar hechizo",
-      "Levantar muertos vivientes",
-      "Sanguijuela de alma"
+      "Lanzar conjuro",
+      "Alzar no muertos",
+      "Sanguijuela de almas"
     ],
     "desires": [
       {
-        "value": "para obtener el poder que necesita para su gran plan.",
+        "value": "obtener el poder que necesita para su gran plan.",
         "are": false
       },
       {
-        "value": "nada parecido a su filacteria.",
+        "value": "que nada se acerque a su filacteria.",
         "are": false
       }
     ],
@@ -39,13 +39,13 @@
           "color": "#566b30"
         },
         {
-          "name": "Blanco Hueso",
+          "name": "Blanco hueso",
           "color": "#e6e1ce"
         }
       ],
       "sights": "túnicas andrajosas, manos esqueléticas, ojos penetrantes",
-      "sounds": "Encantamientos roncos, silencio inquietante entre palabras.",
-      "smells": "polvo antiguo, incienso quemado, decadencia aguda y empalagosa"
+      "sounds": "encantamientos roncos, silencio inquietante entre palabras",
+      "smells": "polvo antiguo, incienso quemado, podredumbre penetrante y empalagosa"
     },
     "pool": {
       "diceNum": 0,
@@ -53,13 +53,13 @@
     },
     "tables": [
       {
-        "name": "Rituales oscuros demasiado grandiosos",
+        "name": "Rituales oscuros excesivamente grandiosos",
         "instructions": "",
         "table": [
           [
-            "Esclaviza a cada alma del reino a su voluntad.",
+            "Somete a su voluntad a todas las almas del reino.",
             "Roba la esencia vital del linaje real.",
-            "Invoca al Bonegrinder, devorador de leyendas.",
+            "Invoca al Muelehuesos, devorador de leyendas.",
             "Canta la canción que acabará con el mundo.",
             "Levanta una necrópolis desde la que gobernar.",
             "Convierte los vastos bosques en un laberinto de árboles no muertos."

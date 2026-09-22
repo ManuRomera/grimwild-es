@@ -1,11 +1,11 @@
 {
   "folder": "QQwq5i3yUUjhboM4",
-  "name": "Sentido de trampa",
+  "name": "Sentido de las trampas",
   "type": "talent",
   "_id": "l7fghNbTrlBFmVQh",
   "img": "icons/environment/traps/trap-jaw-tan.webp",
   "system": {
-    "description": "<p>Siempre obtienes un <strong>pista</strong> o <strong>revelar</strong> sobre vigilancia contra trampas. Cuando evitas o desactivas una trampa, <strong>tomar chispa</strong>.</p>",
+    "description": "<p>Siempre obtienes una <strong>pista</strong> o una <strong>revelación</strong> en las tiradas de vigilancia contra trampas. Cuando evitas o desactivas una trampa, <strong>ganas chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",

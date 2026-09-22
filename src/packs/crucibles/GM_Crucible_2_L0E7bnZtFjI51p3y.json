@@ -1,6 +1,6 @@
 {
   "folder": "XMWukrtnFwdbpYHy",
-  "name": "Crisol DJ 2",
+  "name": "Crisol del DJ 2",
   "_id": "L0E7bnZtFjI51p3y",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
@@ -30,7 +30,7 @@
       "_key": "!tables.results!L0E7bnZtFjI51p3y.TPJnIKucVrTmE5GZ"
     },
     {
-      "name": "coyuntura",
+      "name": "encrucijada",
       "range": [
         2,
         2
@@ -78,7 +78,7 @@
       "_key": "!tables.results!L0E7bnZtFjI51p3y.vTHNAQdjNFK00GsC"
     },
     {
-      "name": "esquema",
+      "name": "intriga",
       "range": [
         4,
         4
@@ -342,7 +342,7 @@
       "_key": "!tables.results!L0E7bnZtFjI51p3y.VsmLokj4MgO3UdNp"
     },
     {
-      "name": "camino",
+      "name": "sendero",
       "range": [
         15,
         15
@@ -462,7 +462,7 @@
       "_key": "!tables.results!L0E7bnZtFjI51p3y.YgGC8KJAtDGed0W3"
     },
     {
-      "name": "límite",
+      "name": "umbral",
       "range": [
         20,
         20
@@ -654,7 +654,7 @@
       "_key": "!tables.results!L0E7bnZtFjI51p3y.CyzutKndlduSBU4f"
     },
     {
-      "name": "lucha",
+      "name": "discordia",
       "range": [
         28,
         28
@@ -774,7 +774,7 @@
       "_key": "!tables.results!L0E7bnZtFjI51p3y.YuBMYIRZ1OJFmZZC"
     },
     {
-      "name": "bote",
+      "name": "filón",
       "range": [
         33,
         33

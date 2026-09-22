@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p></p><table><thead><tr><td><p style=\"font-size:2rem\">Roles</p></td></tr></thead><tbody><tr><td><p><strong>desintegrador</strong></p></td></tr><tr><td><p><strong>Bruto</strong></p></td></tr><tr><td><p><strong>Acechador</strong></p></td></tr><tr><td><p><strong>Tirador escondido</strong></p></td></tr><tr><td><p><strong>Capataz</strong></p></td></tr><tr><td><p><strong>Merodeador</strong></p></td></tr><tr><td><p><strong>Depredador</strong></p></td></tr><tr><td><p><strong>Protector</strong></p></td></tr><tr><td><p><strong>Tirador escondido</strong></p></td></tr><tr><td><p><strong>enjambre</strong></p></td></tr><tr><td><p><strong>Táctico</strong></p></td></tr><tr><td><p><strong>Embaucador</strong></p></td></tr></tbody></table>"
+        "content": "<p></p><table><thead><tr><td><p style=\"font-size:2rem\">Roles</p></td></tr></thead><tbody><tr><td><p><strong>Artillero</strong></p></td></tr><tr><td><p><strong>Bruto</strong></p></td></tr><tr><td><p><strong>Acechador</strong></p></td></tr><tr><td><p><strong>Tirador</strong></p></td></tr><tr><td><p><strong>Capataz</strong></p></td></tr><tr><td><p><strong>Saqueador</strong></p></td></tr><tr><td><p><strong>Depredador</strong></p></td></tr><tr><td><p><strong>Protector</strong></p></td></tr><tr><td><p><strong>Hostigador</strong></p></td></tr><tr><td><p><strong>Enjambre</strong></p></td></tr><tr><td><p><strong>Táctico</strong></p></td></tr><tr><td><p><strong>Embaucador</strong></p></td></tr></tbody></table>"
       },
       "video": {
         "controls": true,

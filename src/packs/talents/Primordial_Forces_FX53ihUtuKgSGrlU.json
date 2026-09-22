@@ -5,7 +5,7 @@
   "_id": "FX53ihUtuKgSGrlU",
   "img": "icons/magic/water/pseudopod-teal.webp",
   "system": {
-    "description": "<p>Elige un elemento: <em>Aire—Tierra—Fuego—Agua</em>. Puedes lanzar trucos con ese elemento, útiles como <em>vestirse </em>y <em>utilidad truco</em>. En un momento crítico usando tu elemento, cárgalo (marca su casilla). Gastarlo para lograr un <em><strong>Potente hazaña de fuerza o movimiento.</strong> </em>potenciado por el elemento.</p><p><em>Especial: Puedes volver a tomar esto, ganando todos los elementos. En un crítico, carga dos elementos.</em></p>",
+    "description": "<p>Elige un elemento: <em>Aire—Tierra—Fuego—Agua</em>. Puedes lanzar trucos con ese elemento, útiles como <em>detalles de escena </em>y <em>utilidad de trucos</em>. Con un crítico usando tu elemento, lo cargas (marca su casilla). Gasta la carga para lograr una <em><strong>hazaña potente de fuerza o movimiento</strong> </em>potenciada por el elemento.</p><p><em>Especial: Puedes volver a elegir este talento para obtener todos los elementos. Con un crítico, cargas dos elementos.</em></p>",
     "core": false,
     "notes": {
       "description": "",

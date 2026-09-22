@@ -4,22 +4,22 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Insectos gigantescos con armadura, pinzas venenosas e innumerables patas. Se deslizan a través de túneles oscuros, creando una red laberíntica de cotos de caza.</p>",
+    "biography": "<p>Insectos gigantescos y acorazados, con pinzas venenosas e innumerables patas. Corretean por túneles oscuros y crean una red laberíntica de cotos de caza.</p>",
     "notes": "",
     "role": "skirmisher",
     "tier": "tough",
     "traits": [
-      "Aferrarse a las paredes",
+      "Se adhiere a las paredes",
       "Velocidad aterradora"
     ],
     "moves": [
-      "Silbido de advertencia",
-      "Agacharse",
-      "Cortar las extremidades"
+      "Siseo de advertencia",
+      "Dejarse caer",
+      "Cercenar extremidades"
     ],
     "desires": [
       {
-        "value": "para ampliar su laberinto de túneles.",
+        "value": "ampliar su laberinto de túneles.",
         "are": false
       },
       {
@@ -38,13 +38,13 @@
           "color": "#8b4512"
         },
         {
-          "name": "Quitina negra",
+          "name": "Negro quitina",
           "color": "#2f2f2f"
         }
       ],
-      "sights": "piernas que se retuercen sin cesar, quitina brillante, pinzas que se mueven",
-      "sounds": "chasquido rítmico, silbido agudo, crujido inquietante",
-      "smells": "aroma a insecto a nuez, madera agria y podrida"
+      "sights": "patas que se retuercen sin cesar, quitina brillante, pinzas que se crispan",
+      "sounds": "chasquido rítmico, siseo agudo, susurro inquietante",
+      "smells": "aroma a insecto, como a frutos secos, madera agria y podrida"
     },
     "pool": {
       "diceNum": 0,
@@ -52,16 +52,16 @@
     },
     "tables": [
       {
-        "name": "Inicio Túneles",
+        "name": "Túneles de su guarida",
         "instructions": "",
         "table": [
           [
-            "Túneles llenos de altísimas setas.",
+            "Túneles llenos de setas gigantescas.",
             "Las ruinas de un lujoso palacio subterráneo.",
-            "Enorme caverna llena de bioluminiscencia.",
+            "Una enorme caverna llena de bioluminiscencia.",
             "A través de los huesos de un gigante enterrado.",
             "Cuevas marinas inundadas, donde caza tiburones.",
-            "A través de raíces retorcidas de árboles colosales."
+            "Entre las raíces retorcidas de árboles colosales."
           ]
         ]
       }

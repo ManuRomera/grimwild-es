@@ -1,9 +1,9 @@
 {
-  "name": "Anillo de buena fortuna",
+  "name": "Anillo de la buena fortuna",
   "type": "arcana",
   "img": "icons/equipment/finger/ring-band-gold-purple.webp",
   "system": {
-    "description": "<p>Añade hasta 3 puntos a cualquiera de tus tiradas de historia.</p>",
+    "description": "<p>Suma hasta 3 puntos a cualquiera de tus propias tiradas de historia.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -22,8 +22,8 @@
         }
       }
     ],
-    "limitations": "<p>Tiene 3 puntos, que se reponen tomando 3 puntos de una tirada de historia.</p>",
-    "touchstones": "suerte—equilibrio—timing",
+    "limitations": "<p>Contiene 3 puntos; se repone quitando 3 puntos a una tirada de historia.</p>",
+    "touchstones": "suerte—equilibrio—oportunidad",
     "tier": "mythic"
   },
   "effects": [],

@@ -1,15 +1,15 @@
 {
   "folder": "ce6PuVxHOMYhnUk3",
-  "name": "Brujería",
+  "name": "Hechicería",
   "type": "talent",
   "_id": "MnncHMBYzPHIQJWG",
   "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
   "system": {
-    "description": "<p>Tienes habilidad para lanzar hechizos. Tiras Presencia para lanzar y tus caminos y técnicas mágicas sirven como piedras de toque. Elija cualquiera de los 4 siguientes (<em>o crea un camino mágico con el DJ</em>), con al menos 1 camino mágico y 1 técnica:</p><p><strong>Caminos magicos</strong>: <em>sangre</em>—<em>decadencia—llama—escarcha—lux—sombra—piedra—tempestad.</em></p><p><strong>Técnicas</strong>: <em>atacar—crear—defender—mejorar—obstaculizar—influir—transformar—atravesar.</em></p><p>Puedes lanzar hechizos a voluntad, aunque siempre conllevan riesgos y requieren una tirada. Cuando lo lanzas, cada hechizo debe combinar al menos un camino mágico y una técnica como piedras de toque. Puedes esforzarte para lanzar un <em><strong>hechizo potente</strong></em>, pero no obtendrás ninguna activación gratuita del mismo.</p><p>Al lanzar, sacar dos o más 1 (incluidas las espinas) activa una secundaria <strong>@UUID[Compendium.grimwild.rules.JournalEntry.T61vQHWAc1MN4LDB]{oleada salvaje}</strong>—La magia pura se escapa de tu control. <em><strong>Haz una [[/r 2d]]{2d tirada de historia}</strong> </em>para ver que pasa. El efecto puede deberse a tus piedras de toque, a tu esencia mágica en bruto o a algo caóticamente aleatorio. Usa @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.czz9p07Cxj5KiIQu]{Crisoles DJ} o pregunte en su grupo para obtener ideas.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, obtienes una nueva técnica o camino mágico.</p>",
+    "description": "<p>Puedes lanzar conjuros. Tiras Presencia para lanzar, y tus caminos mágicos y técnicas sirven como piedras de toque. Elige 4 cualesquiera de abajo (<em>o inventa un camino mágico con el DJ</em>), con al menos 1 camino mágico y 1 técnica:</p><p><strong>Caminos mágicos</strong>: <em>sangre</em>—<em>putrefacción—llama—escarcha—luz—sombra—piedra—tempestad.</em></p><p><strong>Técnicas</strong>: <em>atacar—crear—defender—potenciar—obstaculizar—influir—transformar—desplazar.</em></p><p>Puedes lanzar conjuros a voluntad, aunque siempre conllevan riesgo y requieren tirada. Cada conjuro que lanzas debe combinar como piedras de toque al menos un camino mágico y una técnica. Puedes esforzarte para lanzar un <em><strong>conjuro potente</strong></em>, pero no tienes activación gratuita para ello.</p><p>Al lanzar, sacar dos o más 1 (espinas incluidas) desencadena una <strong>@UUID[Compendium.grimwild.rules.JournalEntry.T61vQHWAc1MN4LDB]{Oleada salvaje}</strong> secundaria: la magia en bruto se descontrola. <em><strong>Haz una [[/r 2d]]{tirada de historia de 2d}</strong> </em>para ver qué pasa. El efecto puede surgir de tus piedras de toque, de la esencia mágica en bruto o de algo caótico y aleatorio. Usa los @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.czz9p07Cxj5KiIQu]{Crisoles del DJ} o pide ideas al grupo.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, ganas una técnica o un camino mágico nuevos.</p>",
     "core": true,
     "notes": {
-      "description": "<p><em>Anota aquí tus 4 caminos y técnicas mágicas.</em></p>",
-      "label": "Caminos y técnicas mágicas"
+      "description": "<p><em>Anota aquí tus 4 caminos mágicos y técnicas.</em></p>",
+      "label": "Caminos mágicos y técnicas"
     },
     "trackers": [],
     "path": "sorcerer"

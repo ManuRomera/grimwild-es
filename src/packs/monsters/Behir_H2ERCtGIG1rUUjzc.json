@@ -4,12 +4,12 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criaturas serpentinas enormes y solitarias con una docena de patas y escamas azules brillantes. Viven en lugares oscuros y decadentes y rara vez toleran a los intrusos.</p>",
+    "biography": "<p>Criaturas serpentinas enormes y solitarias, con una docena de patas y brillantes escamas azur. Viven en lugares oscuros y ruinosos y rara vez toleran a los intrusos.</p>",
     "notes": "",
     "role": "predator",
     "tier": "tough",
     "traits": [
-      "Aferrarse a las paredes",
+      "Se adhiere a las paredes",
       "Flexibilidad serpentina",
       "Habla"
     ],
@@ -20,11 +20,11 @@
     ],
     "desires": [
       {
-        "value": "para encontrar un nuevo territorio de caza seguro.",
+        "value": "encontrar un nuevo territorio de caza seguro.",
         "are": false
       },
       {
-        "value": "depredadores rivales que desafían su territorio.",
+        "value": "depredadores rivales que le disputen el territorio.",
         "are": false
       }
     ],
@@ -43,9 +43,9 @@
           "color": "#4682b4"
         }
       ],
-      "sights": "marcas de garras profundas, chispas estáticas, marcas de rayos",
-      "sounds": "Chisporroteos eléctricos, boom repentino, movimiento de piernas.",
-      "smells": "Sabor metálico, leve olor acre, piel quemada."
+      "sights": "profundas marcas de garras, chispas de estática, marcas de rayos",
+      "sounds": "chasquidos eléctricos chisporroteantes, estruendo repentino, patas que se arrastran",
+      "smells": "regusto metálico, leve olor acre, piel chamuscada"
     },
     "pool": {
       "diceNum": 6,
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "Desenterrado por...",
+        "name": "Desenterrado por…",
         "instructions": "",
         "table": [
           [
-            "Deslizamiento de tierra durante una tormenta masiva.",
-            "Una inundación generacional que acaba con pueblos enteros.",
-            "Terremoto que derriba los muros del castillo.",
-            "Colapso de una mina de plata, obligándola a huir.",
-            "Los secuaces del Lich cavaron demasiado profundo.",
-            "Los aventureros abandonaron una mazmorra casi vacía."
+            "Un corrimiento de tierras durante una tormenta descomunal.",
+            "Una riada histórica que arrasa pueblos enteros.",
+            "Un terremoto que derriba las murallas de un castillo.",
+            "El derrumbe de una mina de plata, que lo obliga a huir.",
+            "Los esbirros de un liche cavaron demasiado hondo.",
+            "Unos aventureros dejaron una mazmorra casi vacía."
           ]
         ]
       }

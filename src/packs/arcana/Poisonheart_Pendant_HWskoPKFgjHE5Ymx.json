@@ -1,15 +1,15 @@
 {
-  "name": "Colgante de corazón venenoso",
+  "name": "Colgante del corazón envenenado",
   "type": "arcana",
   "img": "icons/equipment/neck/amulet-round-faceted-green.webp",
   "system": {
-    "description": "<p>Convierte las relaciones en rencor y obsesión, enredando las emociones en toxicidad.</p>",
+    "description": "<p>Convierte las relaciones en rencor y obsesión, y enreda las emociones en la toxicidad.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Sólo funciona en el que lo usa.</p>",
+    "limitations": "<p>Solo afecta a quien lo lleva puesto.</p>",
     "touchstones": "corrupción—emoción—obsesión",
     "tier": "major"
   },

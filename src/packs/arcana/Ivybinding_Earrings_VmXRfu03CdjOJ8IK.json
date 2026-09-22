@@ -1,16 +1,16 @@
 {
-  "name": "Pendientes vinculantes de hiedra",
+  "name": "Pendientes de la hiedra apresadora",
   "type": "arcana",
   "img": "icons/commodities/treasure/plaque-wood-leaves.webp",
   "system": {
-    "description": "<p>Los zarcillos de hiedra retienen al usuario cuando se pronuncia una orden.</p>",
+    "description": "<p>Cuando se pronuncia una orden, unos zarcillos de hiedra inmovilizan a quien los lleva.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>El usuario debe poder escuchar la orden.</p>",
-    "touchstones": "naturaleza—vinculación—engaño",
+    "limitations": "<p>Quien los lleva tiene que poder oír la orden.</p>",
+    "touchstones": "naturaleza—ataduras—engaño",
     "tier": "major"
   },
   "effects": [],

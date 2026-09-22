@@ -1,9 +1,9 @@
 {
-  "name": "Varita corazón de araña",
+  "name": "Varita de corazón de araña",
   "type": "arcana",
   "img": "icons/weapons/staves/staff-spiked.webp",
   "system": {
-    "description": "<p>Llama a las arañas normales para que tejen telarañas normales dondequiera que apuntes.</p>",
+    "description": "<p>Llama a arañas corrientes para que tejan telarañas corrientes allí donde apuntes.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,7 +23,7 @@
         }
       }
     ],
-    "limitations": "<p>Reserva de energía 4d, que se repone comiendo insectos envueltos en seda.</p>",
+    "limitations": "<p>Reserva de poder de 4d, que se repone comiendo bichos envueltos en seda.</p>",
     "touchstones": "arañas—telaraña—control",
     "tier": "minor"
   },

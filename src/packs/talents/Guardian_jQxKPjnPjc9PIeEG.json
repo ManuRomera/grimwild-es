@@ -5,7 +5,7 @@
   "_id": "jQxKPjnPjc9PIeEG",
   "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
   "system": {
-    "description": "<p>Obtienes +1d cuando ayudas en una tirada de defensa. Si su propia tirada sale como un 6, ambos <strong>tomar chispa</strong>.</p>",
+    "description": "<p>Tienes +1d cuando ayudas en una tirada de defensa. Si en tu propia tirada sale un 6, ambos <strong>ganáis chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",

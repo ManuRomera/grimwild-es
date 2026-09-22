@@ -5,7 +5,7 @@
   "_id": "VwcZ87uGQcIKSxTx",
   "img": "icons/magic/control/silhouette-aura-energy.webp",
   "system": {
-    "description": "<p>Puedes gastar 2 puntos de poder para ganar potencia en cualquier tirada de defensa de Ingenio o Presencia. Independientemente de la tirada, si el atacante es consciente, puedes <em><strong>interrumpir</strong></em> su próximo movimiento de impacto.</p>",
+    "description": "<p>Puedes gastar 2 puntos de poder para tener potencia en cualquier tirada de defensa de Ingenio o Presencia. Sea cual sea el resultado, si el atacante es consciente, puedes <em><strong>interrumpir</strong></em> su siguiente movimiento de impacto.</p>",
     "core": false,
     "notes": {
       "description": "",

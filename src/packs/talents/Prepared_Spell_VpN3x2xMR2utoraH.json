@@ -1,11 +1,11 @@
 {
   "folder": "2tvdSlgYZ5v4Jiye",
-  "name": "Hechizo preparado",
+  "name": "Conjuro preparado",
   "type": "talent",
   "_id": "VpN3x2xMR2utoraH",
   "img": "icons/magic/time/clock-spinning-gold-pink.webp",
   "system": {
-    "description": "<p>Obtienes 1 historia por sesión y puedes gastar la historia en un flashback para lanzar un hechizo con desencadenantes específicos. Si necesitas realizar un montaje para acceder a un lugar, el DJ siempre utiliza suspense en lugar de un movimiento de impacto. Tira para ver la efectividad del hechizo ahora.</p>",
+    "description": "<p>Ganas 1 de historia por sesión y puedes gastar historia para hacer un flashback en el que lanzaste un conjuro con detonantes concretos. Si tienes que hacer una tirada de montaje para acceder a un lugar, el DJ siempre gana suspense en lugar de hacer un movimiento de impacto. Tira ahora para ver la eficacia del conjuro.</p>",
     "core": false,
     "notes": {
       "description": "",

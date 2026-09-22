@@ -1,11 +1,11 @@
 {
   "folder": "77L6EaT58DF6hYDr",
-  "name": "Decorado",
+  "name": "Detalles de escena",
   "_id": "l1bIcnawFgjunvcF",
   "pages": [
     {
       "sort": 100000,
-      "name": "Decorado",
+      "name": "Detalles de escena",
       "type": "text",
       "_id": "ix9thpsshnt9evrP",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Añade libremente detalles menores y de sentido común. Haz suposiciones y añade <em>decorado </em>a escenas con las que jugar para que todo fluya dinámicamente. No es necesario consultar con el DJ: él intervendrá si un detalle va más allá de la decoración del escenario. Cualquier cosa que sea un <em>dado </em>para tu @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Ventaja}, como conocer a alguien o tener un equipo que tenga sentido, es decorado.</p>"
+        "content": "<p>Añade libremente detalles menores y de sentido común. Haz suposiciones y añade <em>detalles de escena </em>con los que jugar para que todo fluya con dinamismo. No hace falta consultar al DJ: intervendrá si un detalle va más allá de un simple detalle de escena. Todo lo que sea <em>evidente </em>para tu @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Perspectiva}, como conocer a alguien o llevar un equipo que tenga sentido, es un detalle de escena.</p>"
       },
       "video": {
         "controls": true,

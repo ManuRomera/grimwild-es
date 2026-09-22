@@ -5,7 +5,7 @@
   "_id": "AJsmvHhzb8aEUfCc",
   "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
   "system": {
-    "description": "<p>En cada sesión tienes un <em><strong>Reserva de Baluarte 3d</strong></em> de armaduras u otras defensas. Cuando te ensangrentes o te caigas por daño físico, tira la reserva. Si quedan dados, ignora el daño.</p>",
+    "description": "<p>En cada sesión tienes una <em><strong>reserva de recursos de 3d Baluarte</strong></em>, gracias a tu armadura u otras defensas. Cuando quedas ensangrentado o derribado por daño físico, tira la reserva. Si quedan dados, ignoras el daño.</p>",
     "core": false,
     "notes": {
       "description": "",

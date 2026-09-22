@@ -1,10 +1,10 @@
 {
   "folder": null,
-  "name": "Bruja nocturna",
+  "name": "Saga nocturna",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Figuras siniestras que encarnan pesadillas, manipulando los sueños para aterrorizar a los mortales. Son tortuosos y negocian tratos oscuros.</p>",
+    "biography": "<p>Figuras siniestras que encarnan las pesadillas y manipulan los sueños para aterrorizar a los mortales. Son taimadas y cierran tratos oscuros.</p>",
     "notes": "",
     "role": "trickster",
     "tier": "tough",
@@ -16,15 +16,15 @@
     "moves": [
       "Pesadillas",
       "Forma fantasmal",
-      "Susurro misterioso"
+      "Susurro inquietante"
     ],
     "desires": [
       {
-        "value": "para explorar las verdaderas profundidades de tus miedos.",
+        "value": "explorar las verdaderas profundidades de tus miedos.",
         "are": false
       },
       {
-        "value": "tener sus propios miedos expuestos.",
+        "value": "que sus propios miedos queden al descubierto.",
         "are": false
       }
     ],
@@ -39,13 +39,13 @@
           "color": "#2f2f2f"
         },
         {
-          "name": "morado oscuro",
+          "name": "Púrpura intenso",
           "color": "#4b0081"
         }
       ],
-      "sights": "envuelto en sombras, rastro de niebla púrpura",
+      "sights": "envuelta en sombras, rastro de niebla púrpura",
       "sounds": "susurros espeluznantes, capa ondeante, crujido de pasos invisibles",
-      "smells": "aire fresco de la noche, un toque de cuero envejecido"
+      "smells": "aire fresco de la noche, un deje a cuero viejo"
     },
     "pool": {
       "diceNum": 0,
@@ -53,31 +53,31 @@
     },
     "tables": [
       {
-        "name": "Crisol de hechizos nocturnos",
-        "instructions": "Haz 3 hechizos (tira 2d6 tres veces)",
+        "name": "Crisol de conjuros nocturnos",
+        "instructions": "Crea 3 conjuros (tira 2d6 tres veces).",
         "table": [
           [
-            "envuelto",
-            "temblando",
-            "susurro",
-            "apagado",
-            "desolado",
-            "misterioso"
+            "velado",
+            "trémulo",
+            "susurrante",
+            "sordo",
+            "lúgubre",
+            "inquietante"
           ],
           [
-            "oscuridad",
-            "tocar",
-            "luz tenue",
+            "penumbra",
+            "toque",
+            "destello",
             "aura",
             "aliento",
-            "gemir"
+            "gemido"
           ]
         ]
       }
     ]
   },
   "prototypeToken": {
-    "name": "Bruja nocturna",
+    "name": "Saga nocturna",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

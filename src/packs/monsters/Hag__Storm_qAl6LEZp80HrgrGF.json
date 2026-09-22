@@ -1,30 +1,30 @@
 {
   "folder": null,
-  "name": "Bruja de la tormenta",
+  "name": "Saga de las tormentas",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Figuras feroces que deambulan por los acantilados costeros, convocando vientos y relámpagos. Desatan su ira sobre los asentamientos, asegurándose de que ninguno se sienta demasiado cómodo.</p>",
+    "biography": "<p>Figuras feroces que recorren los acantilados costeros invocando vientos y relámpagos. Descargan su ira sobre los asentamientos para asegurarse de que ninguno se acomode demasiado.</p>",
     "notes": "",
     "role": "blaster",
     "tier": "tough",
     "traits": [
-      "siempre tormentoso",
-      "Jinete del viento",
+      "Siempre tormentosa",
+      "Cabalgavientos",
       "Habla"
     ],
     "moves": [
       "Conjurar tempestades",
       "Rayo",
-      "Trueno"
+      "Estruendo de trueno"
     ],
     "desires": [
       {
-        "value": "causar estragos donde prevalece la estabilidad.",
+        "value": "sembrar el caos allí donde reina la estabilidad.",
         "are": false
       },
       {
-        "value": "Se reveló el tranquilo centro de su propia furia.",
+        "value": "que se revele la calma en el centro de su propia furia.",
         "are": false
       }
     ],
@@ -35,7 +35,7 @@
           "color": "#6a7b8b"
         },
         {
-          "name": "verde azulado lluvioso",
+          "name": "Verde azulado lluvioso",
           "color": "#3b6a7a"
         },
         {
@@ -43,8 +43,8 @@
           "color": "#778898"
         }
       ],
-      "sights": "nubes oscuras arremolinándose, electricidad crepitante",
-      "sounds": "Vientos aullantes, crepitantes de relámpagos, truenos rugientes.",
+      "sights": "nubes oscuras arremolinadas, electricidad crepitante",
+      "sounds": "vientos aullantes, crepitar de relámpagos, truenos rugientes",
       "smells": "aire empapado de lluvia, leve olor a tierra mojada"
     },
     "pool": {
@@ -53,31 +53,31 @@
     },
     "tables": [
       {
-        "name": "Crisol de hechizos de tormenta (Haz 3 hechizos)",
+        "name": "Crisol de conjuros de tormenta (crea 3 conjuros)",
         "instructions": "Tira 2d6 tres veces.",
         "table": [
           [
-            "andrajoso",
-            "chicharrón",
-            "mordaz",
-            "clamoroso",
+            "hecho jirones",
+            "crepitante",
+            "cortante",
+            "aullante",
             "atronador",
-            "surgiendo"
+            "embravecido"
           ],
           [
             "torrente",
-            "aplaudir",
+            "estampido",
             "arco",
-            "auge",
+            "estruendo",
             "destello",
-            "cantar"
+            "cántico"
           ]
         ]
       }
     ]
   },
   "prototypeToken": {
-    "name": "Bruja de la tormenta",
+    "name": "Saga de las tormentas",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

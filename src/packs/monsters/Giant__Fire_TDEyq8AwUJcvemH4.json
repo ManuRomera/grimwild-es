@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Tiranos acorazados de fuego y forja, que valoran el orden y el dominio por encima de todo. Dan forma a reinos a través del fuego, el acero y una voluntad inquebrantable.</p>",
+    "biography": "<p>Tiranos acorazados de llama y forja que valoran el orden y el dominio por encima de todo. Moldean reinos a base de fuego, acero y una voluntad inquebrantable.</p>",
     "notes": "",
     "role": "marauder",
     "tier": "tough",
@@ -15,15 +15,15 @@
     "moves": [
       "Martillo llameante",
       "Lanzar magma",
-      "Ola de fuego"
+      "Oleada de fuego"
     ],
     "desires": [
       {
-        "value": "para transportar el botín a su fortaleza volcánica.",
+        "value": "acarrear el botín hasta su fortaleza volcánica.",
         "are": false
       },
       {
-        "value": "para cruzar cuerpos de agua.",
+        "value": "cruzar masas de agua.",
         "are": false
       }
     ],
@@ -34,17 +34,17 @@
           "color": "#cc5600"
         },
         {
-          "name": "Rojo ardiente",
+          "name": "Rojo fuego",
           "color": "#b22222"
         },
         {
-          "name": "Negro Carbón",
+          "name": "Negro carbón",
           "color": "#2f2f2f"
         }
       ],
       "sights": "enormes extensiones de tierra quemada, rastros de magma",
-      "sounds": "Crepitante rugiente, silbido de fuego, estruendo de lava.",
-      "smells": "Olor sofocante a humo, tierra carbonizada, piedra quemada"
+      "sounds": "crepitar rugiente, bufido del fuego, retumbar de lava",
+      "smells": "olor asfixiante a humo, tierra carbonizada, piedra abrasada"
     },
     "pool": {
       "diceNum": 0,
@@ -58,18 +58,18 @@
           [
             "bastión de piedra carbonizada",
             "gran aguja de obsidiana",
-            "finca cubierta de cenizas",
+            "finca ahogada en ceniza",
             "baños de azufre humeantes",
             "catedral de basalto",
-            "ruido metálico de forjas"
+            "fraguas resonantes"
           ],
           [
             "isla en un río de lava",
             "escarpado acantilado volcánico",
-            "borde ondulante de la caldera",
+            "borde humeante de una caldera volcánica",
             "centro de una vasta llanura",
-            "debajo de las caídas de magma",
-            "sistema de cuevas sulfúricas"
+            "bajo cascadas de magma",
+            "red de cuevas sulfurosas"
           ]
         ]
       }
@@ -193,9 +193,9 @@
         },
         "traits": [],
         "moves": [
-          "Túneles de colapso",
-          "Oferta Alianza",
-          "Invocar demonios"
+          "Derrumbar túneles",
+          "Ofrecer alianza",
+          "Invocar diablos"
         ],
         "failure": []
       },
@@ -241,7 +241,7 @@
         },
         "traits": [
           "Armadura gruesa",
-          "lanza de fuego"
+          "Lanza de fuego"
         ],
         "moves": [
           "Barrido de lanza",
@@ -291,13 +291,13 @@
           ]
         },
         "traits": [
-          "Pozos de lava, nubes sulfúricas asfixiantes",
-          "6d arroja magma"
+          "Fosos de lava, nubes sulfurosas asfixiantes",
+          "6d Escupir magma"
         ],
         "moves": [
-          "Firelings 6d (Secuaz Blasters)",
-          "3 Hellhounds (brutos duros)",
-          "4d | Elemental de fuego (Blaster de élite)"
+          "6d Llamitas (Artilleros secuaces)",
+          "3 Perros del infierno (Brutos duros)",
+          "4d | Elemental de fuego (Artillero de élite)"
         ],
         "failure": []
       },

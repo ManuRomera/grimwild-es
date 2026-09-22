@@ -5,7 +5,7 @@
   "_id": "ZyQ3HICTt04syyGF",
   "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
   "system": {
-    "description": "<p>Cuando tengas tiempo, podrás lograrlo. <em><strong>potentes hazañas de fuerza bruta</strong></em>, como <em>arrancando un árbol </em>o <em>rompiendo la puerta de un castillo</em>. Puede <strong>esfuérzate</strong> hacerlo en el acto.</p>",
+    "description": "<p>Si tienes tiempo, puedes lograr <em><strong>hazañas potentes de fuerza bruta</strong></em>, como <em>arrancar un árbol de raíz </em>o <em>echar abajo la puerta de un castillo</em>. Puedes <strong>esforzarte</strong> para hacerlo sobre la marcha.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "path": "Berserker"
+    "path": "berserker"
   },
   "effects": [],
   "sort": 0,

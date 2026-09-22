@@ -5,7 +5,7 @@
   "_id": "GhqUAmuKb8SI89SM",
   "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
   "system": {
-    "description": "<p>Tu cuerpo en sí es un arma, y <em>cualquier cosa </em>en tus manos no es más que una extensión del mismo. Nunca sufrirás espinas debido a los enfrentamientos de armas. Una vez por sesión, puedes <em><strong>interrumpir</strong> </em>con un: <em>punto filosófico—reacción rápida—golpe aturdidor</em>. Cada escena, tienes <strong>4 flujo</strong>. Puedes gastarlo en:</p><p>◆ Ignore las espinas difíciles de: <em>siendo superado en número</em>—<em>un solo oponente poderoso</em>.<br/>◆ Intentar un <strong>maniobra fluida</strong>. Antes de lanzar, declara que quieres también: <em>desarmarlos, redirigir el impulso, reposicionarlos a usted, a ellos o a ambos</em>. En un momento perfecto o complicado, sucede. <br/>◆ Saque un <em><strong>potente hazaña de gracia mística</strong></em>, como <em>corriendo a través del agua </em>o <em>caer inofensivamente desde una gran altura</em>. <em>Por 1 flujo más</em>, extiende esto a aquellos a quienes estás tocando.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 3 niveles, aumenta el flujo en 1 por escena y las interrupciones en 1 por sesión.</p>",
+    "description": "<p>Tu propio cuerpo es un arma, y <em>cualquier cosa </em>que tengas en las manos no es más que una extensión de él. Nunca sufres espinas por la diferencia de armas. Una vez por sesión, puedes <em><strong>interrumpir</strong> </em>con: <em>una reflexión filosófica—una reacción rápida—un golpe aturdidor</em>. En cada escena tienes <strong>4 de flujo</strong>. Puedes gastarlo para:</p><p>◆ Ignorar las espinas de dificultad por: <em>estar en inferioridad numérica</em>—<em>un único oponente poderoso</em>.<br/>◆ Intentar una <strong>maniobra fluida</strong>. Antes de tirar, declara que además quieres: <em>desarmarlo—redirigir su impulso—recolocarte a ti, a él o a ambos</em>. Con un perfecto o un complicado, ocurre. <br/>◆ Lograr una <em><strong>hazaña potente de gracia mística</strong></em>, como <em>correr sobre el agua </em>o <em>caer sin daño desde una gran altura</em>. <em>Por 1 de flujo más</em>, extiendes el efecto a quienes estés tocando.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 3 niveles, aumenta en 1 el flujo por escena y en 1 las interrupciones por sesión.</p>",
     "core": true,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Fluir",
+        "label": "Flujo",
         "points": {
           "value": 4,
           "max": 4,

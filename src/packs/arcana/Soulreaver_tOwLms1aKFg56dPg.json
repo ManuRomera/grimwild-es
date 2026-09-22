@@ -3,7 +3,7 @@
   "type": "arcana",
   "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
   "system": {
-    "description": "<p>Almacena las almas de enemigos dignos asesinados para desatar devastadores golpes finales.</p>",
+    "description": "<p>Almacena las almas de enemigos dignos abatidos para desatar golpes de gracia devastadores.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,8 +23,8 @@
         }
       }
     ],
-    "limitations": "<p>Cada muerte acumula 1d (3d), que se puede gastar para ganar +1d en una pelea.</p>",
-    "touchstones": "almas—muerte—finalidad",
+    "limitations": "<p>Cada muerte acumula 1d (3d), que puedes gastar para ganar +1d en un combate.</p>",
+    "touchstones": "almas—muerte—final",
     "tier": "mythic"
   },
   "effects": [],

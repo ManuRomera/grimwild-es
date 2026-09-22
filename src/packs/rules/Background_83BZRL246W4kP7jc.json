@@ -15,7 +15,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Tu herencia, educación y profesión: el núcleo de tu @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Ventaja}. Eliges los dos que más influyan en quién eres ahora. Cada uno le brinda tres frases clave sabias y evocadoras que claramente amplían su ventaja.</p><p><em>El trasfondo de ragamuffin significa que aprendiste mucho de las calles; sin él, tu educación es simplemente vestirse.</em></p>"
+        "content": "<p>Tu ascendencia, crianza y profesión: el núcleo de tu @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Perspectiva}. Eliges los dos que más influyen en quién eres ahora. Cada uno te da tres saberes, frases clave evocadoras que amplían claramente tu perspectiva.</p><p><em>El trasfondo de golfillo significa que aprendiste mucho en la calle; sin él, tu crianza es solo un detalle de escena.</em></p>"
       },
       "video": {
         "controls": true,

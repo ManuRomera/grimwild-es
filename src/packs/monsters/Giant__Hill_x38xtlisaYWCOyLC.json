@@ -4,34 +4,34 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Grandes glotones, tontos, con grandes barrigas y músculos abultados. Aplastan y consumen todo a su paso, viviendo sólo para el próximo festín.</p>",
+    "biography": "<p>Glotones descomunales y cortos de entendederas, con grandes barrigas y músculos abultados. Aplastan y devoran todo a su paso y solo viven para el próximo festín.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
       "Apetito sin fondo",
-      "Demasiado tonto para engañar",
-      "Habla (limitado)"
+      "Demasiado tonto para dejarse engañar",
+      "Habla (limitada)"
     ],
     "moves": [
-      "aplastarlo",
-      "Tíralo",
-      "Cómelo"
+      "Aplastarlo",
+      "Lanzarlo",
+      "Comérselo"
     ],
     "desires": [
       {
-        "value": "para obligar a las criaturas más débiles a traerle comida.",
+        "value": "obligar a criaturas más débiles a que le traigan comida.",
         "are": false
       },
       {
-        "value": "confrontarse con la lógica y la razón.",
+        "value": "que lo enfrenten a la lógica y la razón.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Bronceado polvoriento",
+          "name": "Tostado polvoriento",
           "color": "#d1b48c"
         },
         {
@@ -39,13 +39,13 @@
           "color": "#8b4512"
         },
         {
-          "name": "Verde fangoso",
+          "name": "Verde fango",
           "color": "#566b30"
         }
       ],
       "sights": "músculos abultados, vientre hinchado, ropa andrajosa",
-      "sounds": "eructos guturales, risas tontas, respiración agitada",
-      "smells": "hedor abrumador a sudor, comida agria y podrida"
+      "sounds": "eructos guturales, risitas bobas, respiración pesada",
+      "smells": "hedor insoportable a sudor, comida agria y podrida"
     },
     "pool": {
       "diceNum": 0,
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "peculiaridades",
+        "name": "Manías",
         "instructions": "",
         "table": [
           [
-            "Siempre preparando un guiso nuevo.",
+            "Siempre está cocinando un guiso nuevo.",
             "Acumula objetos pequeños y brillantes, como espejos.",
             "Deambula con una gran jauría de perros callejeros.",
-            "Excepcionalmente rotundo, incluso para un gigante de las colinas.",
-            "Extremadamente corto, para un gigante de las colinas.",
-            "Piensa que incluso la más mínima cosa extraña es hilarante."
+            "Excepcionalmente orondo, incluso para ser un gigante de las colinas.",
+            "Extremadamente bajo, para ser un gigante de las colinas.",
+            "Le parece desternillante la más mínima rareza."
           ]
         ]
       }
@@ -164,7 +164,7 @@
   },
   "items": [
     {
-      "name": "El concepto básico",
+      "name": "La idea básica",
       "type": "challenge",
       "_id": "Q21gZZkV0BDbfFo8",
       "img": "icons/svg/item-bag.svg",
@@ -185,12 +185,12 @@
           ]
         },
         "traits": [
-          "Odia las grandes palabras"
+          "Odia las palabras difíciles"
         ],
         "moves": [
-          "Arañazos en la cabeza",
-          "Se repite incorrectamente",
-          "Pierde la pista"
+          "Se rasca la cabeza",
+          "Lo repite mal",
+          "Pierde el hilo"
         ],
         "failure": [
           {
@@ -222,7 +222,7 @@
       "_key": "!actors.items!x38xtlisaYWCOyLC.Q21gZZkV0BDbfFo8"
     },
     {
-      "name": "lo que quiere",
+      "name": "Lo que quiere",
       "type": "challenge",
       "_id": "jB9gOyHYcr8CxUdB",
       "img": "icons/svg/item-bag.svg",
@@ -245,8 +245,8 @@
         "traits": [],
         "moves": [
           "Quiere demasiado",
-          "Rumores del vientre",
-          "quiere pruebas"
+          "Le rugen las tripas",
+          "Quiere pruebas"
         ],
         "failure": [
           {
@@ -254,7 +254,7 @@
               "diceNum": 0,
               "max": null
             },
-            "value": "✘ Mencionar Comida"
+            "value": "✘ Mencionar comida"
           }
         ]
       },
@@ -278,7 +278,7 @@
       "_key": "!actors.items!x38xtlisaYWCOyLC.jB9gOyHYcr8CxUdB"
     },
     {
-      "name": "Sellando el trato",
+      "name": "Cerrar el trato",
       "type": "challenge",
       "_id": "uJgNgqRsTCwu2kka",
       "img": "icons/svg/item-bag.svg",
@@ -300,7 +300,7 @@
         },
         "traits": [],
         "moves": [
-          "\"Buena\" idea repentina",
+          "Una «buena» idea repentina",
           "Cambia el trato",
           "Repite lo obvio"
         ],
@@ -310,7 +310,7 @@
               "diceNum": 0,
               "max": null
             },
-            "value": "✘ Inconstante (tirando un sombrío)"
+            "value": "✘ Voluble (al sacar un sombrío)"
           }
         ]
       },

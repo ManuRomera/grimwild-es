@@ -1,11 +1,11 @@
 {
   "folder": "g4byq082efDAWI1S",
-  "name": "Contrarrestar",
+  "name": "Contrarresta",
   "_id": "GNvl7ZFpU31MZe7z",
   "pages": [
     {
       "sort": 100000,
-      "name": "Contrarrestar",
+      "name": "Contrarresta",
       "type": "text",
       "_id": "sM67Sl8hZ5aUaB8s",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 35\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Negar las cosas que un PJ siempre puede hacer o negar algo que hizo.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"El lich lanza un rápido hechizo protector que ralentiza tu ataque.\" • \"La reina levanta la mano, silenciando a todos\".</em></span></p></div><div class=\"column\"><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">CONTRARRESTAR </span><span style=\"font-family:'Capito04VAR'\">hacer que el mundo sea tenazmente formidable, demostrando que no se va a desmoronar. Puedes detener cualquier cosa que haga un PJ, incluidas las tiradas de acción exitosas, los talentos que @UUID[Compendium.grimwild.rules.JournalEntry.nlCuUzlwbXjf3KNV]{Siempre} tiene permiso para usar y @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r7Cy7N816z6l6Cn5]{Vigilancia} adicionales. Si usan un talento que les cuesta recursos, generalmente no tienen que gastar ese recurso (su decisión), pero no pueden volver a usarlo rápidamente. Sin embargo, esto nunca podrá usarse para detener a @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Tiradas de defensa} y a los críticos; no les robes el protagonismo. Tenga cuidado, los jugadores se frustran si les arrebatan sus victorias y ventajas, así que utilícelo de maneras interesantes y asegúrese de que el centro de atención regrese a ellos después de aprovechar el momento.</span></p></div></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 35\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p>Impide algo que un PJ siempre puede hacer o anula algo que ha hecho.</p><p><em>«El liche lanza un rápido conjuro protector que frena tu golpe». • «La reina alza la mano y todos enmudecen».</em></p></div><div class=\"column\"><p></p><p>CONTRARRESTA para que el mundo resulte tenaz y formidable, y demuestre que no se va a dejar pisotear. Puedes detener cualquier cosa que haga un PJ, incluidas las tiradas de acción con éxito, los talentos que @UUID[Compendium.grimwild.rules.JournalEntry.nlCuUzlwbXjf3KNV]{Siempre} tiene permiso para usar y la @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r7Cy7N816z6l6Cn5]{Vigilancia} adicional. Si usa un talento que le cuesta recursos, en general no tiene que gastarlos (tú decides), pero no puede volver a usarlo enseguida. Sin embargo, nunca puedes usarlo para detener @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Tiradas de defensa} ni críticos: no les robes el protagonismo. Ten cuidado: a los jugadores les frustra que les arrebaten sus victorias y ventajas, así que úsalo de formas interesantes y asegúrate de que el foco vuelva a ellos después de aprovechar el momento.</p></div></div></div></div>"
       },
       "video": {
         "controls": true,

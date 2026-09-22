@@ -1,11 +1,11 @@
 {
   "folder": "WErPxEpB1oKJCPGq",
-  "name": "Dividirlo",
+  "name": "Dividir el golpe",
   "_id": "vR77Oa1oHXHwCgR8",
   "pages": [
     {
       "sort": 100000,
-      "name": "Dividirlo",
+      "name": "Dividir el golpe",
       "type": "text",
       "_id": "0tsJrtTmnkhvWZmy",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Dividir las grandes consecuencias en otras más pequeñas. Múltiples efectos pueden ser igual de efectivos y tener más sentido en la situación. Podrías dividir @UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Ensangrentado} en unos pocos @UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marcas}, o sacudirte convirtiéndose en @UUID[Compendium.grimwild.rules.JournalEntry.LjjAaVn72uputf9b]{Vex} y sacar un @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Reserva} en su lugar. Las divisiones hacen que la historia se mueva en múltiples direcciones.</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p>Divide las grandes consecuencias en otras más pequeñas. Varios efectos pueden ser igual de eficaces y tener más sentido en la situación. Podrías dividir un @UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Ensangrentado} en unas cuantas @UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marcas}, o convertir un alterado en un @UUID[Compendium.grimwild.rules.JournalEntry.LjjAaVn72uputf9b]{Arrebato} y tirar una @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Reserva} en su lugar. Las divisiones hacen que la historia avance en varias direcciones.</p></div></div></div>"
       },
       "video": {
         "controls": true,

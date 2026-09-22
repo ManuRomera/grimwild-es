@@ -5,7 +5,7 @@
   "_id": "w5pKb8DRT6uQFBnV",
   "img": "icons/magic/life/crosses-trio-red.webp",
   "system": {
-    "description": "<p>En una tirada perfecta con una estadística sin marcar, borra una marca en otra estadística.</p>",
+    "description": "<p>Con un perfecto en una tirada con un atributo sin marcar, borra una marca de otro atributo.</p>",
     "core": false,
     "notes": {
       "description": "",

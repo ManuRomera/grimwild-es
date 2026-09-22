@@ -4,47 +4,47 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criatura encorvada, de dos patas, parecida a una araña, con garras que tejen telarañas. Acechan dentro de un laberinto de trampas palmeadas y a menudo controlan enormes colonias de arañas.</p>",
+    "biography": "<p>Criatura encorvada y bípeda, parecida a una araña, con garras que tejen telarañas. Acecha en un laberinto de trampas de tela y a menudo controla enormes colonias de arañas.</p>",
     "notes": "",
     "role": "tactician",
     "tier": "tough",
     "traits": [
-      "Trampas de seda inteligentes",
+      "Astutas trampas de seda",
       "Se aferra a las paredes",
-      "Habla (raramente)"
+      "Habla (rara vez)"
     ],
     "moves": [
-      "Correas de eslinga",
+      "Lanzar telarañas",
       "Mordedura venenosa",
-      "Deslizamiento web"
+      "Correteo por la telaraña"
     ],
     "desires": [
       {
-        "value": "nunca afrontar el peligro directamente.",
+        "value": "no enfrentarse nunca directamente al peligro.",
         "are": false
       },
       {
-        "value": "para que su ardua red de trabajo sea destruida.",
+        "value": "que destruyan sus telarañas, fruto de tanto esfuerzo.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Gris Araña",
+          "name": "Gris araña",
           "color": "#808080"
         },
         {
-          "name": "Veneno Púrpura",
+          "name": "Púrpura veneno",
           "color": "#6c4c7d"
         },
         {
-          "name": "Verde Bosque",
+          "name": "Verde bosque",
           "color": "#495d3a"
         }
       ],
-      "sights": "Telarañas entre árboles, víctimas que luchan, colmillos brillantes.",
-      "sounds": "leve movimiento de piernas, zumbido de telarañas",
+      "sights": "telarañas entre los árboles, víctimas que forcejean, colmillos brillantes",
+      "sounds": "leve correteo de patas, zumbido de telarañas tejiéndose",
       "smells": "madera podrida, tierra mojada, cuerpos en descomposición"
     },
     "pool": {
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "Dominios palmeados",
+        "name": "Dominios de telaraña",
         "instructions": "",
         "table": [
           [
-            "Zona de zarzas, cada centímetro cubierto de telarañas.",
+            "Zarzal con cada palmo cubierto de telarañas.",
             "Cañones largos, estrechos y sinuosos.",
             "Biblioteca enorme y abandonada en la capital.",
             "Graneros abandonados durante la hambruna.",
-            "Naufragio abandonado, velas palmeadas.",
-            "Escollo hundido en medio del bosque."
+            "Pecio abandonado, con las velas cubiertas de telarañas.",
+            "Hondonada hundida en medio del bosque."
           ]
         ]
       }
@@ -164,7 +164,7 @@
   },
   "items": [
     {
-      "name": "Soportes de alarma",
+      "name": "Hilos de alarma",
       "type": "challenge",
       "_id": "5YlWvrIEnYY3mlEY",
       "img": "icons/svg/item-bag.svg",
@@ -213,7 +213,7 @@
       "_key": "!actors.items!0i8IJgOEEpJObYmy.5YlWvrIEnYY3mlEY"
     },
     {
-      "name": "Sostener trampas",
+      "name": "Trampas de sujeción",
       "type": "challenge",
       "_id": "RMCNsi31iDtU8jT1",
       "img": "icons/svg/item-bag.svg",
@@ -237,8 +237,8 @@
           "Increíblemente pegajoso"
         ],
         "moves": [
-          "Atracción atrapante",
-          "Telarañas enredadas"
+          "Tirón atrapador",
+          "Telarañas que enredan"
         ],
         "failure": []
       },
@@ -283,11 +283,11 @@
           ]
         },
         "traits": [
-          "Correas dentadas"
+          "Telaraña dentada"
         ],
         "moves": [
-          "Rebanada de cuello",
-          "Web constrictiva"
+          "Tajo al cuello",
+          "Telaraña constrictora"
         ],
         "failure": []
       },
@@ -311,7 +311,7 @@
       "_key": "!actors.items!0i8IJgOEEpJObYmy.eXQ6apVjSPhWG2Ln"
     },
     {
-      "name": "capullos",
+      "name": "Capullos",
       "type": "challenge",
       "_id": "IgOlri1qvYxhBha8",
       "img": "icons/svg/item-bag.svg",
@@ -332,7 +332,7 @@
           ]
         },
         "traits": [
-          "Víctimas retorciéndose"
+          "Víctimas que se retuercen"
         ],
         "moves": [
           "Súplicas desesperadas",
@@ -360,7 +360,7 @@
       "_key": "!actors.items!0i8IJgOEEpJObYmy.IgOlri1qvYxhBha8"
     },
     {
-      "name": "Nido de araña",
+      "name": "Nido de arañas",
       "type": "challenge",
       "_id": "0Z4BcKOask7goYX4",
       "img": "icons/svg/item-bag.svg",
@@ -384,8 +384,8 @@
           "Arañas del tamaño de un conejo"
         ],
         "moves": [
-          "Dividir presa",
-          "Frenesí mordaz"
+          "Separar a las presas",
+          "Frenesí de mordiscos"
         ],
         "failure": []
       },
@@ -434,7 +434,7 @@
         ],
         "moves": [
           "Mordedura letal",
-          "Huir a la seguridad"
+          "Huir a lugar seguro"
         ],
         "failure": []
       },

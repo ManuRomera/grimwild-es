@@ -1,11 +1,11 @@
 {
   "folder": "AlWljQLa4nCSGD2H",
-  "name": "Destacar",
+  "name": "Foco",
   "_id": "HIO9pDCMlifR7iox",
   "pages": [
     {
       "sort": 100000,
-      "name": "Destacar",
+      "name": "Foco",
       "type": "text",
       "_id": "izEjWXRODbDrCIpP",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 33\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Centra la atención en un PJ, animándolo a actuar o hacer un seguimiento.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"Has estado callado por un tiempo, ¿qué estás haciendo?\" • \"Los ojos de la bruja se fijan en los tuyos, esperando una respuesta\".</em></span></p><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">DESTACAR </span><span style=\"font-family:'Capito04VAR'\">PJ para ayudar a dirigir la acción, garantizar que nadie quede fuera y centrarse donde sea necesario. Esto incita a los jugadores a actuar. Mezclar en lenguaje cinematográfico como </span><span style=\"font-family:'Capito04VARItalic'\"><em>\"Cortamos a...\" </em></span><span style=\"font-family:'Capito04VAR'\">o </span><span style=\"font-family:'Capito04VARItalic'\"><em>\"La cámara se desplaza para mostrar...\" </em></span><span style=\"font-family:'Capito04VAR'\">mientras usas la \"cámara\", el espacio de imaginación compartido de tu grupo. Cambie entre PJ y escenas para generar tensión y evite centrarse en una sola PJ durante demasiado tiempo.</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 33\"><div class=\"layoutArea\"><div class=\"column\"><p>Centra la atención en un PJ y anímalo a actuar o a continuar lo que hacía.</p><p><em>«Llevas un rato muy callado, ¿qué haces?» • «La vieja bruja clava sus ojos en los tuyos, esperando una respuesta».</em></p><p></p><p>Pon el FOCO en los PJ para ayudar a dirigir la acción, asegurarte de que nadie se queda fuera y centrar la atención donde hace falta. Esto empuja a los jugadores a actuar. Intercala lenguaje cinematográfico como <em>«Cortamos a…» </em>o <em>«La cámara se desplaza y muestra…» </em>mientras manejas la «cámara», el espacio de imaginación compartido de tu grupo. Salta de un PJ a otro y de una escena a otra para crear tensión y no centrarte demasiado tiempo en un solo PJ.</p></div></div></div>"
       },
       "video": {
         "controls": true,

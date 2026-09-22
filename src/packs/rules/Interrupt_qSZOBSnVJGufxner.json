@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Haz un @UUID[Compendium.grimwild.rules.JournalEntry.pmTv1Nbggk6ql92W]{Tirada de acción} para intentar detener un @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto}. Esto requiere un talento específico. Si aún no está involucrado, ahora comparte el riesgo. En caso de desorden, el DJ toma o mantiene @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}.</p>"
+        "content": "<p>Haz una @UUID[Compendium.grimwild.rules.JournalEntry.pmTv1Nbggk6ql92W]{Tirada de acción} para intentar detener un @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto}. Requiere un talento específico. Si no estabas implicado ya, ahora compartes el riesgo. Con un complicado, el DJ gana o conserva @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}.</p>"
       },
       "video": {
         "controls": true,

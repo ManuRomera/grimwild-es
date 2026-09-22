@@ -5,7 +5,7 @@
   "_id": "BFA2qRiNtDRjMNOP",
   "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
   "system": {
-    "description": "<p>Las criaturas inteligentes te reconocen como una persona de profunda honestidad y sólo tus enemigos más odiados te faltarían el respeto o dudarían de tu palabra. Un enemigo nunca te hirió gravemente ni te matará, a menos que no tenga otra opción. Cualquier criatura que pueda hablar siempre te escuchará. Esta aura se mantiene gracias a tu compromiso inquebrantable: debes <strong>esfuérzate</strong> actuar de mala fe <em>(sin activación gratuita).</em></p>",
+    "description": "<p>Las criaturas inteligentes te reconocen como una persona profundamente honesta, y solo tus enemigos más acérrimos te faltarían al respeto o dudarían de tu palabra. Un enemigo nunca te herirá gravemente ni te matará, salvo que no tenga otra opción. Cualquier criatura capaz de hablar siempre te escuchará. Esta aura se sostiene por tu compromiso inquebrantable: debes <strong>esforzarte</strong> para actuar de mala fe <em>(sin activación gratuita).</em></p>",
     "core": false,
     "notes": {
       "description": "",

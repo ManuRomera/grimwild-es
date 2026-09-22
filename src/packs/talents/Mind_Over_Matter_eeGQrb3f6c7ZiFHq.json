@@ -1,11 +1,11 @@
 {
   "folder": "85AhjhNgoBP9pTvr",
-  "name": "Mente sobre materia",
+  "name": "La mente sobre la materia",
   "type": "talent",
   "_id": "eeGQrb3f6c7ZiFHq",
   "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal-purple.webp",
   "system": {
-    "description": "<p>Cuando tomas una marca física, puedes optar por tomar una marca mental. Cuando borras cualquier marca al rodarla, <strong>tomar chispa</strong>.</p>",
+    "description": "<p>Cuando recibes una marca física, puedes elegir recibir una marca mental en su lugar. Cuando borras cualquier marca tirándola, <strong>ganas chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",

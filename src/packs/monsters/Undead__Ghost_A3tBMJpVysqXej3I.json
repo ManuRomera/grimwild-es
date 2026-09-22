@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Entidades espectrales ligadas al reino de los mortales, rondando lugares familiares y reviviendo momentos pasados. Su presencia aterroriza a todos los que presencian su dolor.</p>",
+    "biography": "<p>Entidades espectrales atadas al mundo de los mortales, que rondan lugares conocidos y reviven momentos pasados. Su presencia aterroriza a todo el que presencia su dolor.</p>",
     "notes": "",
     "role": "blaster",
     "tier": "tough",
@@ -15,12 +15,12 @@
     ],
     "moves": [
       "Recuerdos compartidos",
-      "Lamento de tristeza",
-      "Sifón espiritual"
+      "Lamento de pesar",
+      "Sifón de espíritu"
     ],
     "desires": [
       {
-        "value": "hacer algo, si tan sólo pudiera recordar qué.",
+        "value": "hacer algo, si tan solo recordara qué.",
         "are": false
       },
       {
@@ -31,7 +31,7 @@
     "sensories": {
       "colors": [
         {
-          "name": "Espíritu Plata",
+          "name": "Plata espiritual",
           "color": "#c0c0c0"
         },
         {
@@ -39,13 +39,13 @@
           "color": "#d7bfd7"
         },
         {
-          "name": "azul brumoso",
+          "name": "Azul brumoso",
           "color": "#b0c4dd"
         }
       ],
       "sights": "figura que aparece y desaparece, cambiando sutilmente y a la deriva",
-      "sounds": "Sollozos débiles, pasos resonantes, un grito ocasional.",
-      "smells": "libros viejos, lavanda, recuerdos de la infancia."
+      "sounds": "sollozos débiles, pasos que resuenan, algún que otro grito",
+      "smells": "libros viejos, lavanda, recuerdos de la infancia"
     },
     "pool": {
       "diceNum": 0,
@@ -54,11 +54,11 @@
     "tables": [
       {
         "name": "Asuntos pendientes",
-        "instructions": "Tira 3d6, interpreta",
+        "instructions": "Tira 3d6 e interpreta",
         "table": [
           [
             "reliquia de familia",
-            "bienes",
+            "finca",
             "retrato",
             "llave",
             "diario",

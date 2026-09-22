@@ -3,7 +3,7 @@
   "type": "arcana",
   "img": "icons/equipment/feet/boots-collared-pink.webp",
   "system": {
-    "description": "<p>Te permite bailar con una gracia impecable, otorgando potencia para 4d Runs Out.</p>",
+    "description": "<p>Te permiten bailar con una gracia impecable y te otorgan potencia durante una reserva de 4d «Se agota».</p>",
     "notes": {
       "description": "",
       "label": ""

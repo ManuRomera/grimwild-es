@@ -4,34 +4,34 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Horribles demonios cubiertos de púas dentadas. Saborean el miedo y el tormento, y a menudo prolongan el sufrimiento lo más posible antes de asestar el golpe final.</p>",
+    "biography": "<p>Diablos horripilantes cubiertos de púas dentadas. Saborean el miedo y el tormento, y a menudo prolongan el sufrimiento todo lo posible antes de asestar el golpe final.</p>",
     "notes": "",
     "role": "lurker",
     "tier": "tough",
     "traits": [
-      "Púas enganchadas",
-      "Presencia horrible",
-      "Habla, Telepatía"
+      "Púas en forma de gancho",
+      "Presencia horripilante",
+      "Habla, telepatía"
     ],
     "moves": [
-      "abrazo de púas",
+      "Abrazo de púas",
       "Lanzar fuego del infierno",
-      "Burla lenta"
+      "Burlas lentas"
     ],
     "desires": [
       {
-        "value": "para saborear lentamente la agonía y las súplicas de misericordia.",
+        "value": "saborear lentamente la agonía y las súplicas de clemencia.",
         "are": false
       },
       {
-        "value": "para que se soporte el dolor que inflige.",
+        "value": "que alguien soporte el dolor que inflige.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "hollín negro",
+          "name": "Negro hollín",
           "color": "#2f2f2f"
         },
         {
@@ -39,13 +39,13 @@
           "color": "#b22222"
         },
         {
-          "name": "verde oscuro",
+          "name": "Verde oscuro",
           "color": "#566b30"
         }
       ],
-      "sights": "sombras retorciéndose de forma antinatural, púas retorciéndose",
-      "sounds": "Arañazos de púas a lo largo de las paredes, sonido desgarrador de carne",
-      "smells": "sangre fresca cobriza y agonía"
+      "sights": "sombras que se retuercen de forma antinatural, púas que se crispan",
+      "sounds": "arañazos de púas contra las paredes, sonido de carne desgarrada",
+      "smells": "sangre fresca con regusto a cobre y agonía"
     },
     "pool": {
       "diceNum": 0,
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "Convocado a...",
+        "name": "Invocado en…",
         "instructions": "",
         "table": [
           [
-            "Boda real, destinada a sellar una paz frágil.",
-            "Ejecución pública, destinada a aplastar la rebelión.",
-            "Consagración del templo, destinada a protegerse del mal.",
-            "Fiesta que marca el fin de una gran hambruna.",
-            "Juicio de un querido noble, acusado de traición.",
-            "Coronación de un gobernante vacilante, lleno de dudas."
+            "Una boda real que debía sellar una paz frágil.",
+            "Una ejecución pública que debía aplastar una rebelión.",
+            "La consagración de un templo que debía protegerlo del mal.",
+            "Un banquete que celebra el fin de una gran hambruna.",
+            "El juicio de un noble muy querido, acusado de traición.",
+            "La coronación de un gobernante vacilante, lleno de dudas."
           ]
         ]
       }

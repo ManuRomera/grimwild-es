@@ -5,7 +5,7 @@
   "_id": "LdIH416Klyqme0cT",
   "img": "icons/magic/control/silhouette-hold-change-blue.webp",
   "system": {
-    "description": "<p>Puede <strong>esfuérzate</strong> para declarar una zona que los enemigos no pueden cruzar sin tratar contigo. Si intentan pasar a tu lado, puedes <em><strong>interrumpir</strong></em> a ellos. En un perfecto, <strong>tomar chispa</strong>.</p>",
+    "description": "<p>Puedes <strong>esforzarte</strong> para declarar una zona que los enemigos no pueden cruzar sin vérselas contigo. Si intentan pasar, puedes <em><strong>interrumpirlos</strong></em>. Con un perfecto, <strong>ganas chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

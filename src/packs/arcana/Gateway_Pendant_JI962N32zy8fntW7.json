@@ -1,5 +1,5 @@
 {
-  "name": "Colgante de puerta de enlace",
+  "name": "Colgante del portal",
   "type": "arcana",
   "img": "icons/equipment/neck/pendant-round-gold-blue.webp",
   "system": {
@@ -9,7 +9,7 @@
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Cuando llegas, todos los recuerdos de ese lugar se pierden.</p>",
+    "limitations": "<p>Al llegar, pierdes todos tus recuerdos de ese lugar.</p>",
     "touchstones": "portal—memoria—anhelo",
     "tier": "mythic"
   },

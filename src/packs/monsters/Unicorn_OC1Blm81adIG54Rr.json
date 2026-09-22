@@ -4,14 +4,14 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Caballos graciosos y mágicos con un único cuerno en espiral. Deambulan por bosques antiguos, otorgando curación, luz y bendiciones a aquellos con corazones puros.</p>",
+    "biography": "<p>Caballos elegantes y mágicos con un único cuerno en espiral. Recorren bosques antiguos y conceden curación, luz y bendiciones a quienes tienen el corazón puro.</p>",
     "notes": "",
     "role": "protector",
     "tier": "tough",
     "traits": [
       "Espíritu puro",
       "Protegido por la naturaleza",
-      "Entiende, Telepatía"
+      "Entiende, telepatía"
     ],
     "moves": [
       "Toque curativo",
@@ -20,7 +20,7 @@
     ],
     "desires": [
       {
-        "value": "para mantener intactas las pocas purezas verdaderas del mundo.",
+        "value": "mantener intactas las pocas purezas verdaderas que quedan en el mundo.",
         "are": false
       },
       {
@@ -31,11 +31,11 @@
     "sensories": {
       "colors": [
         {
-          "name": "lavanda oscura",
+          "name": "Lavanda crepuscular",
           "color": "#7e5a9a"
         },
         {
-          "name": "rosa pálida",
+          "name": "Rosa pálido",
           "color": "#c08081"
         },
         {
@@ -43,8 +43,8 @@
           "color": "#4a6f44"
         }
       ],
-      "sights": "Brillo calmante, pelaje impecable, destellos tenues.",
-      "sounds": "suave clip-clop, suave relincho, relajante zumbido de magia",
+      "sights": "brillo sereno, pelaje inmaculado, leves destellos",
+      "sounds": "suave repiqueteo de cascos, suave relincho, zumbido relajante de magia",
       "smells": "olor a lavanda, rocío de la mañana, bosques antiguos"
     },
     "pool": {
@@ -58,11 +58,11 @@
         "table": [
           [
             "Cinco años más de vejez saludable.",
-            "Sexto sentido para cuando te engañan.",
+            "Sexto sentido para saber cuándo te engañan.",
             "Inmunidad a venenos y enfermedades.",
             "Puedes entender cualquier idioma.",
-            "Limpia el agua que toques de impurezas.",
-            "Conozca siempre la dirección a casa."
+            "Purificas cualquier agua que tocas.",
+            "Siempre sabes en qué dirección está tu hogar."
           ]
         ]
       }

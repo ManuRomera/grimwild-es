@@ -1,6 +1,6 @@
 {
   "folder": "FgSiOlAfW7ad583I",
-  "name": "Escuelas de Magia",
+  "name": "Escuelas de magia",
   "_id": "tnEydB0CU9F9LWNI",
   "img": "icons/sundries/books/book-embossed-gold-red.webp",
   "description": "",
@@ -42,7 +42,7 @@
       "_id": "08lUrDaDwkI6EaIZ",
       "name": "Conjuración",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>Invoca criaturas, objetos y teletransportes.</p>",
+      "description": "<p>Invoca criaturas y objetos, y teletransporta.</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -67,7 +67,7 @@
         3
       ],
       "_id": "Dfhe37EXkShRbBs0",
-      "name": "Divinidad",
+      "name": "Adivinación",
       "img": "icons/svg/d20-black.svg",
       "description": "<p>Revela información, predice el futuro y lee la mente.</p>",
       "drawn": false,
@@ -96,7 +96,7 @@
       "_id": "FImDImSWLt6GovzS",
       "name": "Encantamiento",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>Encanta, influye y maldice a criaturas sensibles.</p>",
+      "description": "<p>Hechiza, maldice e influye en criaturas conscientes.</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -148,7 +148,7 @@
         6
       ],
       "_id": "NAfJP85hYoPUicRJ",
-      "name": "Espejismo",
+      "name": "Ilusión",
       "img": "icons/svg/d20-black.svg",
       "description": "<p>Genera imágenes falsas y engaños sensoriales.</p>",
       "drawn": false,
@@ -177,7 +177,7 @@
       "_id": "ON8ck9ZfvQ8IKog4",
       "name": "Nigromancia",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>Manipula la vida, la muerte y los no-muertos.</p>",
+      "description": "<p>Manipula la vida, la muerte y a los no muertos.</p>",
       "drawn": false,
       "flags": {},
       "_stats": {

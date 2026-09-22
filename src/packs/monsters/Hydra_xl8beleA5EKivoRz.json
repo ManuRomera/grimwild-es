@@ -4,26 +4,26 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Bestias reptiles enormes con múltiples cabezas que pueden volver a crecer cuando se las corta, lo que las hace casi imposibles de matar. Acechan en pantanos y aguas oscuras.</p>",
+    "biography": "<p>Enormes bestias reptilianas con múltiples cabezas que vuelven a crecer cuando se cortan, lo que las hace casi imposibles de matar. Acechan en pantanos y aguas oscuras.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
       "Increíblemente vigilante",
-      "Cabezales regeneradores"
+      "Cabezas que se regeneran"
     ],
     "moves": [
       "Tira de brazos y piernas",
-      "Morder frenético",
-      "Volver a crecer la cabeza ahora"
+      "Mordiscos frenéticos",
+      "Regenerar cabeza ya"
     ],
     "desires": [
       {
-        "value": "para mantener las amenazas frente a él.",
+        "value": "tener las amenazas siempre delante.",
         "are": false
       },
       {
-        "value": "cualquier cosa que alguna vez toque su cuerpo.",
+        "value": "que nada le toque nunca el cuerpo.",
         "are": false
       }
     ],
@@ -34,17 +34,17 @@
           "color": "#3d4f1d"
         },
         {
-          "name": "Azul oscuro",
+          "name": "Azul crepuscular",
           "color": "#49646b"
         },
         {
-          "name": "rojo oxidado",
+          "name": "Rojo óxido",
           "color": "#8b0101"
         }
       ],
       "sights": "mandíbulas bien abiertas, escamas relucientes",
       "sounds": "silbidos, salpicaduras de agua, chasquidos de mandíbulas gigantes",
-      "smells": "vegetación podrida, agua estancada de lodo"
+      "smells": "vegetación podrida, agua estancada y cenagosa"
     },
     "pool": {
       "diceNum": 0,
@@ -52,16 +52,16 @@
     },
     "tables": [
       {
-        "name": "Recrecimiento de cabeza único",
+        "name": "Cabezas regeneradas singulares",
         "instructions": "",
         "table": [
           [
             "Cabeza de lodo que arroja una niebla venenosa.",
-            "Sólo el cráneo, lleno de energía necrótica.",
+            "Solo el cráneo, lleno de energía necrótica.",
             "Cabeza sin ojos, que puede leer la mente.",
             "Hermosa cabeza con un canto hipnótico.",
             "Cabeza con cuernos que puede embestir con fuerza.",
-            "La cabeza cortada se aleja tirando para formar una nueva hidra."
+            "La cabeza cortada se aleja rodando y forma una nueva hidra."
           ]
         ]
       }
@@ -185,7 +185,7 @@
         },
         "traits": [
           "Protege el cuerpo",
-          "Cabeza de regeneración 3d"
+          "3d Regenerar cabeza"
         ],
         "moves": [],
         "failure": []
@@ -232,7 +232,7 @@
         },
         "traits": [
           "Protege el cuerpo",
-          "Cabeza de regeneración 3d"
+          "3d Regenerar cabeza"
         ],
         "moves": [],
         "failure": []
@@ -279,7 +279,7 @@
         },
         "traits": [
           "Protege el cuerpo",
-          "Cabeza de regeneración 3d"
+          "3d Regenerar cabeza"
         ],
         "moves": [],
         "failure": []
@@ -326,7 +326,7 @@
         },
         "traits": [
           "Protege el cuerpo",
-          "Cabeza de regeneración 3d"
+          "3d Regenerar cabeza"
         ],
         "moves": [],
         "failure": []
@@ -372,7 +372,7 @@
           ]
         },
         "traits": [
-          "Mayormente sumergido"
+          "Sumergido en su mayor parte"
         ],
         "moves": [],
         "failure": []
@@ -418,9 +418,9 @@
           ]
         },
         "traits": [
-          "Relojes detrás",
-          "Corta las fugas",
-          "Cabeza de regeneración 3d"
+          "Vigila la retaguardia",
+          "Corta las huidas",
+          "3d Regenerar cabeza"
         ],
         "moves": [],
         "failure": []

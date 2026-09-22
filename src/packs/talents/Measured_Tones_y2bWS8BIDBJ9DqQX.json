@@ -1,11 +1,11 @@
 {
   "folder": "ho2SQrFiSNOlb9od",
-  "name": "Tonos medidos",
+  "name": "Tono mesurado",
   "type": "talent",
   "_id": "y2bWS8BIDBJ9DqQX",
   "img": "icons/skills/social/trading-justice-scale-yellow.webp",
   "system": {
-    "description": "<p>Cuando hablas en tonos mesurados, la gente siempre se detiene y escucha; puedes declarar <em><strong>bajo riesgo</strong> </em>si lo desea. A menos que esté completamente sorprendido, puede <strong>esfuérzate</strong> a <em><strong>interrumpir</strong> </em>un movimiento de impacto que inicia la agresión. Si cambias de opinión, <strong>tomar chispa</strong>.</p>",
+    "description": "<p>Cuando hablas con tono mesurado, la gente siempre se detiene a escuchar; si quieres, puedes declarar <em><strong>riesgo bajo</strong></em>. Salvo que te pillen totalmente por sorpresa, puedes <strong>esforzarte</strong> para <em><strong>interrumpir</strong> </em>un movimiento de impacto que inicie una agresión. Si les haces cambiar de idea, <strong>ganas chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

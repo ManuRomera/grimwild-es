@@ -4,18 +4,18 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Cadáveres resucitados consumidos por el odio, empuñando armas malditas para drenar la vida de sus enemigos. Defienden sus dominios con malicia implacable.</p>",
+    "biography": "<p>Cadáveres alzados y consumidos por el odio que empuñan armas malditas para drenar la vida de sus enemigos. Defienden sus dominios con una malicia implacable.</p>",
     "notes": "",
     "role": "marauder",
     "tier": "tough",
     "traits": [
-      "Golpes regenerativas",
-      "Las víctimas se convierten en espectros",
+      "Golpes regenerativos",
+      "Sus víctimas se convierten en tumularios",
       "Habla (sibilancias, jadeos)"
     ],
     "moves": [
-      "Destruir bonos",
-      "Levantar muertos vivientes",
+      "Destruir vínculos",
+      "Alzar no muertos",
       "Sentir la vida"
     ],
     "desires": [
@@ -24,7 +24,7 @@
         "are": false
       },
       {
-        "value": "para enfrentar aquello que causó su odio eterno.",
+        "value": "enfrentarse a aquello que causó su odio eterno.",
         "are": false
       }
     ],
@@ -39,12 +39,12 @@
           "color": "#dcdcdc"
         },
         {
-          "name": "gris mortal",
+          "name": "Gris mortal",
           "color": "#696969"
         }
       ],
       "sights": "ojos rojos brillantes, armadura corroída",
-      "sounds": "respiraciones gemidas, tintineo oxidado de armas antiguas",
+      "sounds": "resuellos quejumbrosos, tintineo oxidado de armas antiguas",
       "smells": "tierra húmeda, podredumbre, aire viciado"
     },
     "pool": {
@@ -57,12 +57,12 @@
         "instructions": "",
         "table": [
           [
-            "Heartstealer, una espada que drena el coraje.",
-            "Mindpiercer, una lanza que devora recuerdos.",
-            "Blackhelm, un yelmo que obliga a la obediencia.",
-            "Soulcrusher, una maza que llena de pavor.",
-            "Rise, una espada que levanta nuevos espectros.",
-            "Wailer, una cadena con púas que une a los espíritus."
+            "Robacorazones, una espada que drena el valor.",
+            "Perforamentes, una lanza que devora recuerdos.",
+            "Yelmonegro, un yelmo que obliga a obedecer.",
+            "Aplastaalmas, una maza que infunde pavor.",
+            "Alzamiento, una espada que levanta nuevos tumularios.",
+            "Plañidera, una cadena con púas que ata los espíritus a ella."
           ]
         ]
       }

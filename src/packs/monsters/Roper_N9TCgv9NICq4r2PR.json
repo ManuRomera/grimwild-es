@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Depredadores al acecho en cavernas, mezclándose con estalagmitas para emboscar a sus presas. Sus zarcillos arrastran a las víctimas para darles un mordisco mortal, haciendo que escapar sea casi imposible.</p>",
+    "biography": "<p>Depredadores que acechan en las cavernas confundidos con las estalagmitas para emboscar a sus presas. Sus zarcillos arrastran a las víctimas hacia un mordisco mortal y hacen casi imposible escapar.</p>",
     "notes": "",
     "role": "lurker",
     "tier": "tough",
@@ -14,24 +14,24 @@
       "Habla"
     ],
     "moves": [
-      "Sobrevivir al escrutinio",
-      "Enrollar",
-      "Causa paranoia"
+      "Resistir el escrutinio",
+      "Arrastrar hacia sí",
+      "Provocar paranoia"
     ],
     "desires": [
       {
-        "value": "para atacar objetivos solitarios.",
+        "value": "atacar objetivos solitarios.",
         "are": false
       },
       {
-        "value": "ser examinado y revelado.",
+        "value": "que lo examinen y lo descubran.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "cueva tierra",
+          "name": "Tierra de cueva",
           "color": "#8b4512"
         },
         {
@@ -44,8 +44,8 @@
         }
       ],
       "sights": "sombras de zarcillos, estalagmitas corrientes",
-      "sounds": "gruñido sordo y bajo, deslizamiento rocoso",
-      "smells": "piedra terrosa, musgo húmedo, carne débilmente podrida"
+      "sounds": "gruñido sordo y grave, deslizamiento pedregoso",
+      "smells": "piedra terrosa, musgo húmedo, tenue olor a carne podrida"
     },
     "pool": {
       "diceNum": 0,
@@ -53,15 +53,15 @@
     },
     "tables": [
       {
-        "name": "Cómo sobrevive al escrutinio",
+        "name": "Cómo resiste el escrutinio",
         "instructions": "",
         "table": [
           [
             "Imita agua que gotea, ecos lejanos.",
             "Se mueve increíblemente rápido cuando no lo miran.",
-            "Te hace sentir como si estuvieras siendo observado.",
+            "Te hace sentir que te observan.",
             "Absorbe la luz, creando sombras más largas.",
-            "Permanece mortalmente quieto, incluso bajo ataque.",
+            "Permanece inmóvil como un muerto, incluso si lo atacan.",
             "No deja rastro de sus comidas anteriores."
           ]
         ]

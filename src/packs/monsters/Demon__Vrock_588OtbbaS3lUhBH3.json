@@ -4,14 +4,14 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Un demonio parecido a un buitre que se siente atraído por el caos de los campos de batalla. Esparcen esporas venenosas con cada aleteo, deleitándose con el caos que trae debajo.</p>",
+    "biography": "<p>Demonios parecidos a buitres a los que atrae el caos de los campos de batalla. Esparcen esporas venenosas con cada aleteo y se deleitan con el caos que provocan abajo.</p>",
     "notes": "",
     "role": "marauder",
     "tier": "tough",
     "traits": [
       "Vuelo aterrador",
       "Plumaje repugnante",
-      "Entiende el lenguaje"
+      "Entiende el idioma"
     ],
     "moves": [
       "Chillido ensordecedor",
@@ -20,11 +20,11 @@
     ],
     "desires": [
       {
-        "value": "para mantener la batalla el mayor tiempo posible.",
+        "value": "prolongar la batalla todo lo posible.",
         "are": false
       },
       {
-        "value": "verse arrastrados directamente al conflicto mismo.",
+        "value": "verse arrastrado directamente al conflicto.",
         "are": false
       }
     ],
@@ -39,12 +39,12 @@
           "color": "#566b30"
         },
         {
-          "name": "Blanco Hueso",
+          "name": "Blanco hueso",
           "color": "#d7d4c5"
         }
       ],
       "sights": "nube de esporas, sombra oscura, plumas cubiertas de icor",
-      "sounds": "batir húmedo de alas, susurro de plumas enfermas",
+      "sounds": "aleteo húmedo, crujir de plumas enfermas",
       "smells": "descomposición rancia, esporas que obstruyen las fosas nasales"
     },
     "pool": {
@@ -57,12 +57,12 @@
         "instructions": "",
         "table": [
           [
-            "Traición, envenenando la confianza entre aliados.",
-            "Terror, provocando una desesperación imprudente.",
-            "Visiones que transforman a los aliados en horrores.",
-            "Rabia que se convierte en una sed de sangre extrema.",
-            "La envidia, que engendra una ambición traicionera.",
-            "Heroísmo, convirtiéndose en locura abnegada."
+            "Traición, que envenena la confianza entre aliados.",
+            "Terror, que provoca una desesperación temeraria.",
+            "Visiones, que convierten a los aliados en horrores.",
+            "Rabia, que crece hasta una sed de sangre extrema.",
+            "Envidia, que engendra una ambición traicionera.",
+            "Heroísmo, que se vuelve locura suicida."
           ]
         ]
       }

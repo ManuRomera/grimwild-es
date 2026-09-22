@@ -5,7 +5,7 @@
   "_id": "YGuWIQtQ1yPHIAsm",
   "img": "icons/skills/wounds/injury-face-impact-orange.webp",
   "system": {
-    "description": "<p>Una vez por sesión, o cuando te ensangrentes o te enojes, puedes ingresar a un <strong>frenesí</strong> para una escena. Durante el frenesí, sólo puedes realizar acciones agresivas. También:</p><p>◆ Toma +1d por cada marca que tengas e ignora todas las espinas de daños y marcas.<br/>◆ Infligir <em><strong>daño colateral</strong></em> en cada tirada de acción, independientemente del resultado. Debes elegir uno: <em>enviar algo volando</em>—<em>aplastar secuaces</em>—<em>lanzar insultos</em>—<em>arruinar algo</em>.<br/>◆ Siempre obtenga una acción final cuando se caiga. En caso crítico, ignora que te dejen caer.</p><p>Sólo puedes salir de un frenesí cuando <em>ningún retador se enfrenta a ti</em>, te dejan caer o <em><strong>esfuérzate</strong></em> para calmarse.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 3 niveles, gana 1 activación gratuita de esto por sesión.</p>",
+    "description": "<p>Una vez por sesión, o cuando quedas ensangrentado o sufres un arrebato, puedes entrar en <strong>frenesí</strong> durante una escena. Mientras dura, solo puedes hacer acciones agresivas. Además:</p><p>◆ Tienes +1d por cada marca que tengas e ignoras todas las espinas por daño grave y por marcas.<br/>◆ Causas <em><strong>daño colateral</strong></em> en cada tirada de acción, sea cual sea el resultado. Elige uno: <em>mandar algo por los aires</em>—<em>aplastar secuaces</em>—<em>soltar insultos</em>—<em>destrozar algo</em>.<br/>◆ Siempre haces una última acción cuando te derriban. Con un crítico, ignoras el derribo.</p><p>Solo puedes salir del frenesí cuando <em>no queda nadie que te plante cara</em>, cuando te derriban o si te <em><strong>esfuerzas</strong></em> para calmarte.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 3 niveles, ganas 1 activación gratuita de este talento por sesión.</p>",
     "core": true,
     "notes": {
       "description": "",
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "path": "Berserker"
+    "path": "berserker"
   },
   "effects": [],
   "sort": 0,

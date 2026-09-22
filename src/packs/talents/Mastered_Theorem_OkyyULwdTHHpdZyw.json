@@ -5,10 +5,10 @@
   "_id": "OkyyULwdTHHpdZyw",
   "img": "icons/magic/symbols/runes-triangle-orange.webp",
   "system": {
-    "description": "<p>Elige uno de tus teoremas de hechizos. Obtienes +1d al lanzarlo y ganas 1 extra <em><strong>hechizo potente</strong></em> casting del mismo por sesión. Su nombre se vincula a él y comienza a ganar popularidad en todo el mundo de la magia; realice un seguimiento de su difusión con grupos de campañas.</p>",
+    "description": "<p>Elige uno de tus teoremas de conjuro. Tienes +1d al lanzarlo y ganas 1 lanzamiento adicional de él como <em><strong>conjuro potente</strong></em> por sesión. Tu nombre queda ligado a él y empieza a popularizarse en el mundo de la magia: sigue su difusión con reservas de campaña.</p>",
     "core": false,
     "notes": {
-      "description": "<p><em>Escriba aquí su teorema dominado.</em></p>",
+      "description": "<p><em>Anota aquí tu teorema dominado.</em></p>",
       "label": "Teorema dominado"
     },
     "trackers": [

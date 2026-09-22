@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>El poder de algunos talentos u objetos, obtenido como parte de su uso o en lugar de una estadística. La misma tirada determina el resultado y arroja dados del @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Reserva}. Incluso si tiene éxito automáticamente, tira la reserva cuando la uses y tira los dados. Debes tirar todos los dados de la reserva.<em> </em>🎲 Se utiliza el talento o objeto. <em>Varita de bola de fuego 4d, dominio de clérigo 6d.</em></p>"
+        "content": "<p>El poder de algunos talentos u objetos, que se tira al usarlos o en lugar de un atributo. La misma tirada determina el resultado y descarta dados de la @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Reserva}. Aunque tengas éxito automáticamente, tira igualmente la reserva al usarla y descarta dados. Debes tirar todos los dados de la reserva.<em> </em>🎲 Se usa el talento u objeto. <em>4d Varita de bolas de fuego, 6d Dominio de clérigo.</em></p>"
       },
       "video": {
         "controls": true,

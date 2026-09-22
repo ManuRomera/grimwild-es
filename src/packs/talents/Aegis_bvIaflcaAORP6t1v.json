@@ -5,7 +5,7 @@
   "_id": "bvIaflcaAORP6t1v",
   "img": "icons/equipment/shield/heater-crystal-blue.webp",
   "system": {
-    "description": "<p>Obtienes +1d cuando defiendes con un escudo y puedes usarlo para hacer una tirada de defensa en el lugar de un aliado cercano. Puede <strong>esfuérzate</strong> para defender a múltiples aliados de un solo ataque, como <em>bloqueando el fuego del dragón</em>. En un perfecto, todos los que protegiste <strong>toma chispa</strong>.</p>",
+    "description": "<p>Tienes +1d al defenderte con un escudo y puedes usarlo para hacer una tirada de defensa en lugar de un aliado cercano. Puedes <strong>esforzarte</strong> para defender a varios aliados de un mismo ataque, como <em>parar el fuego de un dragón</em>. Con un perfecto, todos los que protegiste <strong>ganan chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

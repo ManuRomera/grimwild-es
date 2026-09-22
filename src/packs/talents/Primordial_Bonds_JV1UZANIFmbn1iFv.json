@@ -5,10 +5,10 @@
   "_id": "JV1UZANIFmbn1iFv",
   "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
   "system": {
-    "description": "<p>Tienes un vínculo con cada uno de los elementos primordiales, <em><strong>Aire</strong></em>, <em><strong>Tierra</strong></em>, <em><strong>Fuego</strong></em>, y <em><strong>Agua</strong></em>. Enrolle los bonos, luego cambie uno a <em><strong>profundo</strong></em>. Tienes el lanzamiento de hechizos, tirando Presencia para invocar un elemento, que sirve como piedra de toque. Puedes invocar cada elemento una vez por sesión, o dos veces si tu vínculo es <em><strong>profundo</strong></em>. Puedes marcar dos usos de un solo elemento para lanzar un hechizo potente. Puedes combinar el uso de dos elementos para obtener +1d y utilizar ambos como piedra de toque. Los bonos cambian <em>en la suerte y en la desgracia</em>—realizar grandes hazañas y rituales para <em><strong>profundizar</strong> </em>a ellos.</p>",
+    "description": "<p>Tienes un vínculo con cada uno de los elementos primordiales: <em><strong>Aire</strong></em>, <em><strong>Tierra</strong></em>, <em><strong>Fuego</strong></em> y <em><strong>Agua</strong></em>. Tira los vínculos y luego convierte uno en <em><strong>profundo</strong></em>. Puedes lanzar conjuros tirando Presencia para invocar un elemento, que sirve como piedra de toque. Puedes invocar cada elemento una vez por sesión, o dos si tu vínculo con él es <em><strong>profundo</strong></em>. Puedes marcar dos usos de un mismo elemento para lanzar un conjuro potente. Puedes combinar usos de dos elementos para tener +1d y usar ambos como piedra de toque. Los vínculos cambian, <em>para bien o para mal</em>: emprende grandes gestas y rituales para <em><strong>profundizarlos</strong></em>.</p>",
     "core": false,
     "notes": {
-      "description": "<p><em>Escriba aquí el vínculo para cada elemento y ajuste el rastreador para el elemento que está <strong>profundo</strong>.</em></p>",
+      "description": "<p><em>Anota aquí el vínculo con cada elemento y ajusta el contador del elemento cuyo vínculo es <strong>profundo</strong>.</em></p>",
       "label": "Vínculos"
     },
     "trackers": [

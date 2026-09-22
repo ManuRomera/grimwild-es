@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Masas enormes de enredaderas y lodo de pantano avanzando pesadamente a través de los pantanos. Engullen a sus presas y crecen con todas y cada una de las víctimas.</p>",
+    "biography": "<p>Masas descomunales de enredaderas y lodo que avanzan pesadamente por las ciénagas. Engullen a sus presas y crecen con todas y cada una de sus víctimas.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
@@ -13,13 +13,13 @@
       "Camuflaje pantanoso"
     ],
     "moves": [
-      "Recrecimiento",
-      "Latigazo de vid",
-      "Sumergir"
+      "Rebrote",
+      "Latigazo de enredadera",
+      "Engullir"
     ],
     "desires": [
       {
-        "value": "para encontrar y consumir prosperidad.",
+        "value": "encontrar y consumir la prosperidad.",
         "are": false
       },
       {
@@ -30,11 +30,11 @@
     "sensories": {
       "colors": [
         {
-          "name": "Verde vid",
+          "name": "Verde enredadera",
           "color": "#566b30"
         },
         {
-          "name": "Marrón sucio",
+          "name": "Marrón lodo",
           "color": "#4b3621"
         },
         {
@@ -42,7 +42,7 @@
           "color": "#395f0a"
         }
       ],
-      "sights": "masa de enredaderas enredadas, rayas en el lodo",
+      "sights": "masa de enredaderas enmarañadas, surcos en el lodo",
       "sounds": "chapoteo húmedo, ramas quebradas, gemido terroso",
       "smells": "vegetación podrida, lodo de pantano, tierra mojada"
     },
@@ -52,15 +52,15 @@
     },
     "tables": [
       {
-        "name": "Enterrado dentro",
+        "name": "Enterrado en su interior",
         "instructions": "",
         "table": [
           [
-            "Gran Druida, durmiendo dentro de un capullo.",
-            "Ataúd antiguo, sellando a un vampiro maldito.",
+            "Gran druida, dormido dentro de un capullo.",
+            "Ataúd antiguo que mantiene sellado a un vampiro maldito.",
             "Cantidad casi infinita de esqueletos animados.",
             "Máscara de enredaderas retorcidas que susurra acertijos.",
-            "Puerta de entrada fey, pulsando con energía de otro mundo.",
+            "Portal feérico, palpitante de energía de otro mundo.",
             "Estandarte de guerra de la verdadera reina."
           ]
         ]

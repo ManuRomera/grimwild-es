@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Dedica un esfuerzo extra para activar ciertos talentos que lo requieran. Después de usar el talento, @UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marca}<em> <strong>una estadística relacionada</strong> </em>(<em>tu elección</em>). Los talentos que requieren que te esfuerces se pueden activar sin marca una vez por sesión.</p><p>También puedes esforzarte para descartar el último dado de un @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{reserva decreciente} si fue una tirada de grupo de 1d y no se descartó.</p>"
+        "content": "<p>Haz un esfuerzo extra para activar ciertos talentos que lo requieren. Después de usar el talento, recibe una @UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marca}<em> <strong>en un atributo relacionado</strong> </em>(<em>a tu elección</em>). Los talentos que requieren esforzarte pueden activarse sin marca una vez por sesión.</p><p>También puedes esforzarte para descartar el último dado de una @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Reserva menguante} si se tiró con solo 1d y no se descartó.</p>"
       },
       "video": {
         "controls": true,

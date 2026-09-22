@@ -1,9 +1,9 @@
 {
-  "name": "Caja de música de recuerdos que hacen eco",
+  "name": "Caja de música de los recuerdos resonantes",
   "type": "arcana",
   "img": "icons/containers/chest/chest-reinforced-box-brown.webp",
   "system": {
-    "description": "<p>Reproduce suaves melodías que evocan recuerdos fugaces y agridulces.</p>",
+    "description": "<p>Toca suaves melodías que evocan recuerdos fugaces y agridulces.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,8 +23,8 @@
         }
       }
     ],
-    "limitations": "<p>Reserva de energía 4d, refrescada por genuinas lágrimas agridulces.</p>",
-    "touchstones": "música—memoria—nostalgia",
+    "limitations": "<p>Reserva de poder de 4d, que se renueva con auténticas lágrimas agridulces.</p>",
+    "touchstones": "música—recuerdo—nostalgia",
     "tier": "minor"
   },
   "effects": [],

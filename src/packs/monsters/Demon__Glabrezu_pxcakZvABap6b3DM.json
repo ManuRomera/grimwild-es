@@ -4,48 +4,48 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Demonios descomunales con cuatro brazos, dos de los cuales son garras. Tientan a los mortales ambiciosos, conceden Deseos y deleitan, ya que todo resulta contraproducente.</p>",
+    "biography": "<p>Demonios corpulentos con cuatro brazos, dos de ellos terminados en pinzas. Tientan a los mortales ambiciosos, les conceden deseos y disfrutan viendo cómo todo sale mal.</p>",
     "notes": "",
     "role": "trickster",
     "tier": "tough",
     "traits": [
-      "Conspirador tortuoso",
+      "Maquinador retorcido",
       "Resistencia mágica",
-      "Habla, Telepatía"
+      "Habla, telepatía"
     ],
     "moves": [
-      "crear oscuridad",
-      "conocer los Deseos",
+      "Crear oscuridad",
+      "Conocer los deseos",
       "Conceder deseo"
     ],
     "desires": [
       {
-        "value": "para saber qué te haría feliz.",
+        "value": "saber qué te haría feliz.",
         "are": false
       },
       {
-        "value": "que sus ofertas fueran rechazadas.",
+        "value": "que rechacen sus ofertas.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "rojo sangre",
+          "name": "Rojo sangre",
           "color": "#8b0101"
         },
         {
-          "name": "Púrpura demoníaca",
+          "name": "Púrpura demoníaco",
           "color": "#690dac"
         },
         {
-          "name": "Gris Profundo",
+          "name": "Gris profundo",
           "color": "#696969"
         }
       ],
-      "sights": "piedra arrancada, silueta descomunal, brillo espeluznante",
-      "sounds": "Débiles susurros de magia, chasquidos de garras, voz seductora.",
-      "smells": "Incienso amargo quemado, desconocidos aromas empalagosos y dulces."
+      "sights": "piedra arrancada a zarpazos, silueta descomunal, resplandor inquietante",
+      "sounds": "débiles susurros de magia, chasquido de pinzas, voz seductora",
+      "smells": "incienso quemado amargo, aromas desconocidos y empalagosos"
     },
     "pool": {
       "diceNum": 0,
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "Deseos concedidos (y la ruina pronto seguirá)",
+        "name": "Deseos concedidos (y pronto llega la ruina)",
         "instructions": "",
         "table": [
           [
-            "Amor, que lleva a la muerte de su amado.",
-            "Riqueza, que conduce a una avaricia nunca saciada.",
-            "Sabiduría, que conduce al descenso a la locura.",
-            "Victoria, que lleva a la culpa por cómo se ganó.",
-            "Belleza, que lleva al horror cuando se desvanece aunque sea un poco.",
-            "Fama, que genera celos en las personas cercanas."
+            "Amor, que acaba con la muerte del ser amado.",
+            "Riqueza, que conduce a una avaricia insaciable.",
+            "Sabiduría, que conduce a un descenso a la locura.",
+            "Victoria, que conduce a la culpa por cómo se logró.",
+            "Belleza, que conduce al horror en cuanto se marchita, aunque sea un poco.",
+            "Fama, que despierta los celos de los allegados."
           ]
         ]
       }

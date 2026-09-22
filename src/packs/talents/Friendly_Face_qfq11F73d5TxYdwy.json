@@ -1,11 +1,11 @@
 {
   "folder": "n7jEJF8MCm2SAEyA",
-  "name": "Cara amistosa",
+  "name": "Cara amable",
   "type": "talent",
   "_id": "qfq11F73d5TxYdwy",
   "img": "icons/skills/social/thumbsup-approval-like.webp",
   "system": {
-    "description": "<p>En cualquier pueblo o distrito nuevo de una ciudad al que vayas, siempre podrás: <em>ser reconocido por un fan</em>—<em>conocer a alguien útil</em>—<em>haz rápidamente un amigo</em>. Con mucho gusto le harán un favor razonable. <strong>toma chispa</strong> si prometes devolverles el dinero.</p>",
+    "description": "<p>En cualquier pueblo o barrio de una ciudad al que llegues por primera vez, siempre puedes: <em>ser reconocido por un admirador</em>—<em>conocer a alguien útil</em>—<em>hacer un amigo enseguida</em>. Te hará encantado un favor razonable. <strong>Ganas chispa</strong> si prometes devolvérselo.</p>",
     "core": false,
     "notes": {
       "description": "",

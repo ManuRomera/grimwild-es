@@ -1,11 +1,11 @@
 {
   "folder": "V3M0EcoDlbmFxQPL",
-  "name": "Crisoles DJ",
+  "name": "Crisoles del DJ",
   "_id": "czz9p07Cxj5KiIQu",
   "pages": [
     {
       "sort": 100000,
-      "name": "Crisoles DJ",
+      "name": "Crisoles del DJ",
       "type": "text",
       "_id": "JoYMnN7cbo9HmXPW",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.KAx8TYWLRm4w3jMW]{Crisol DJ 1}</p><hr/><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.L0E7bnZtFjI51p3y]{Crisol DJ 2}</p>"
+        "content": "<p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.KAx8TYWLRm4w3jMW]{Crisol del DJ 1}</p><hr/><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.L0E7bnZtFjI51p3y]{Crisol del DJ 2}</p>"
       },
       "video": {
         "controls": true,

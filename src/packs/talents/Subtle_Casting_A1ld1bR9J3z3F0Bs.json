@@ -1,11 +1,11 @@
 {
   "folder": "ce6PuVxHOMYhnUk3",
-  "name": "Fundición sutil",
+  "name": "Lanzamiento sutil",
   "type": "talent",
   "_id": "A1ld1bR9J3z3F0Bs",
   "img": "icons/magic/air/air-smoke-casting.webp",
   "system": {
-    "description": "<p>Siempre puedes lanzar hechizos sutilmente, capaz de ocultar que fuiste tú quien los lanzó. Por supuesto, esto no derrota al sentido común.</p>",
+    "description": "<p>Siempre puedes lanzar conjuros con sutileza, ocultando que has sido tú quien los ha lanzado. Eso sí, esto no anula el sentido común.</p>",
     "core": false,
     "notes": {
       "description": "",

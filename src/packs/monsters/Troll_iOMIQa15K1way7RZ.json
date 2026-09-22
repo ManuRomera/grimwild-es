@@ -1,26 +1,26 @@
 {
   "folder": null,
-  "name": "Gnomo",
+  "name": "Trol",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criaturas regeneradoras que se esconden en lugares pasados ​​desapercibidos y acumulan extraños trofeos. Hacen exigencias sencillas y normalmente negocian antes de romperse el cráneo.</p>",
+    "biography": "<p>Criaturas regenerativas que se esconden en lugares olvidados y acumulan extraños trofeos. Plantean exigencias sencillas y suelen negociar antes de ponerse a romper cráneos.</p>",
     "notes": "",
     "role": "marauder",
     "tier": "tough",
     "traits": [
-      "Regenera",
-      "Débil contra fuego, ácido",
+      "Se regenera",
+      "Débil contra fuego y ácido",
       "Habla (gruñidos, gestos)"
     ],
     "moves": [
       "Oferta convincente",
-      "Lanzar enemigo",
+      "Arrojar enemigo",
       "Derribar árboles"
     ],
     "desires": [
       {
-        "value": "su guarida se llene de huesos y trofeos.",
+        "value": "que su guarida se llene de huesos y trofeos.",
         "are": false
       },
       {
@@ -35,7 +35,7 @@
           "color": "#8b4512"
         },
         {
-          "name": "Gris Granito",
+          "name": "Gris granito",
           "color": "#696969"
         },
         {
@@ -44,7 +44,7 @@
         }
       ],
       "sights": "un montículo de forma extraña, brillo de garras afiladas",
-      "sounds": "Refunfuños bajos, crujido de huesos, masticación húmeda.",
+      "sounds": "refunfuños graves, crujido de huesos, masticar húmedo",
       "smells": "agua estancada de pantano, pelaje mojado, fuerte almizcle de moho"
     },
     "pool": {
@@ -53,14 +53,14 @@
     },
     "tables": [
       {
-        "name": "Guaridas pasadas por alto",
+        "name": "Guaridas olvidadas",
         "instructions": "",
         "table": [
           [
             "Molino abandonado, medio hundido en el pantano.",
             "Casa de baños en ruinas, inundada de lodo.",
             "Fuerte en ruinas perdido en densos bosques.",
-            "Árbol ahuecado a horcajadas sobre un campo de cereales.",
+            "Árbol hueco en medio de un campo de cereal.",
             "Capilla en ruinas cubierta de zarzas.",
             "Cueva rocosa detrás de una cascada."
           ]
@@ -69,7 +69,7 @@
     ]
   },
   "prototypeToken": {
-    "name": "Gnomo",
+    "name": "Trol",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

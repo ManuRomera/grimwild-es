@@ -1,11 +1,11 @@
 {
   "folder": "G9jADnKz2hd077Ex",
-  "name": "Descansar",
+  "name": "Descanso",
   "_id": "A46cKqR8SDVPmv1y",
   "pages": [
     {
       "sort": 100000,
-      "name": "Descansar",
+      "name": "Descanso",
       "type": "text",
       "_id": "6CrSSyShivhGkymR",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Un lapso de tiempo entre acciones significativas <em>(una noche de campamento, una semana de viaje)</em>. Un ritmo para el drama, no el realismo. Borrar todo @UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marcas} y @UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Daño}.</p>"
+        "content": "<p>Un periodo de tiempo entre acciones importantes <em>(una noche de acampada, una semana de viaje)</em>. Su ritmo lo marca el drama, no el realismo. Borra todas las @UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marcas} y el @UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Daño grave}.</p>"
       },
       "video": {
         "controls": true,

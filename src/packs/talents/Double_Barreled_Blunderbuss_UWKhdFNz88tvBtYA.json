@@ -1,11 +1,11 @@
 {
   "folder": "i53xgSVOBOe4n7Mr",
-  "name": "Trabuco de dos cañones",
+  "name": "Trabuco de doble cañón",
   "type": "talent",
   "_id": "UWKhdFNz88tvBtYA",
   "img": "icons/skills/ranged/cannon-barrel-firing-white-yellow.webp",
   "system": {
-    "description": "<p>Tienes un arma de fuego que dispara munición elaborada y especializada. Obtienes una carga de cada tipo por sesión. Cuando dispares, elige la munición: <em>núcleo explosivo—disparo perforante—disparo infernal—disparo disperso—explosión de metralla—disparo de enredo</em>. Cada disparo tiene un <em>secundario </em>o <em><strong>efecto colateral</strong> </em>relacionado con el tipo. Puedes disparar dos tipos de munición al mismo tiempo durante un <em><strong>disparo potente</strong></em>.</p>",
+    "description": "<p>Tienes un arma de fuego que dispara munición especial fabricada a mano. Tienes un disparo de cada tipo por sesión. Al disparar, elige la munición: <em>núcleo explosivo—disparo perforante—disparo infernal—disparo de dispersión—estallido de metralla—disparo enredador</em>. Cada disparo tiene un <em>efecto secundario </em>o un <em><strong>daño colateral</strong> </em>ligado a su tipo. Puedes disparar dos tipos de munición a la vez para hacer un <em><strong>disparo potente</strong></em>.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -53,7 +53,7 @@
       },
       {
         "type": "points",
-        "label": "Disparo disperso",
+        "label": "Disparo de dispersión",
         "points": {
           "value": 1,
           "max": 1,
@@ -66,7 +66,7 @@
       },
       {
         "type": "points",
-        "label": "Explosión de metralla",
+        "label": "Estallido de metralla",
         "points": {
           "value": 1,
           "max": 1,
@@ -79,7 +79,7 @@
       },
       {
         "type": "points",
-        "label": "Tiro de enredo",
+        "label": "Disparo enredador",
         "points": {
           "value": 1,
           "max": 1,

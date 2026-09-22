@@ -1,13 +1,13 @@
 {
-  "name": "Conocimiento bárdico",
+  "name": "Saber bárdico",
   "type": "talent",
   "_id": "iNOZlJHKpBxQtUFV",
   "img": "icons/sundries/books/book-open-purple.webp",
   "system": {
-    "description": "<p>Obtienes 3 sabios cualesquiera y 1 historia adicional por sesión. Obtienes +1d en cualquier tirada de historia relacionada con lo que sabes o los detalles de la historia que agregas.</p>",
+    "description": "<p>Ganas 3 saberes cualesquiera y 1 de historia adicional por sesión. Tienes +1d en cualquier tirada de historia relacionada con lo que sabes o con los detalles de la historia que añades.</p>",
     "notes": {
-      "description": "<p><em>Anota aquí tus sabios.</em></p>",
-      "label": "sabios"
+      "description": "<p><em>Anota aquí tus saberes.</em></p>",
+      "label": "Saberes"
     },
     "trackers": [
       {

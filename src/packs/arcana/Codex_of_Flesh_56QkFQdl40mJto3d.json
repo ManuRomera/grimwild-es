@@ -3,7 +3,7 @@
   "type": "arcana",
   "img": "icons/sundries/books/book-reye-reptile-brown.webp",
   "system": {
-    "description": "<p>Se convierte y actúa como cualquiera que escribe su nombre en su interior durante 1 día.</p>",
+    "description": "<p>Durante 1 día, se transforma en cualquiera que escriba su nombre en él y actúa como esa persona.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -22,7 +22,7 @@
         }
       }
     ],
-    "limitations": "<p>Puede imitar a cada persona una vez. Destruido si lo ven.</p>",
+    "limitations": "<p>Puede imitar a cada persona una sola vez. Se destruye si esa persona lo ve.</p>",
     "touchstones": "transformación—identidad—conocimiento",
     "tier": "major"
   },

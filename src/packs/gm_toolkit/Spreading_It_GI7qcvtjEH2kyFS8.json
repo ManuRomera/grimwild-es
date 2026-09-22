@@ -1,11 +1,11 @@
 {
   "folder": "WErPxEpB1oKJCPGq",
-  "name": "Repartirlo",
+  "name": "Repartir el golpe",
   "_id": "GI7qcvtjEH2kyFS8",
   "pages": [
     {
       "sort": 100000,
-      "name": "Repartirlo",
+      "name": "Repartir el golpe",
       "type": "text",
       "_id": "aSCtfeCczgKC4CCT",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Golpear a varios PJ, PNJ cercanos o incluso un PJ que no solicitó el movimiento. Las consecuencias pueden ser idénticas, variar en gravedad o diferir completamente. Si se golpea un PJ distinta a la que lo solicita, obtiene un @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Tirada de defensa}. Los diferenciales hacen que el impacto se sienta más amplio y atraigan a más personas a una escena dinámica.</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p>Golpea a varios PJ, a PNJ cercanos o incluso a un PJ que no detonó el movimiento. Las consecuencias pueden ser idénticas, de distinta gravedad o completamente diferentes. Si golpeas a un PJ distinto del que lo detonó, este tiene una @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Tirada de defensa}. Repartir el golpe hace que el impacto se sienta más amplio y arrastra a más gente a una escena dinámica.</p></div></div></div>"
       },
       "video": {
         "controls": true,

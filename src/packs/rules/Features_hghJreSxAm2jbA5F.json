@@ -1,11 +1,11 @@
 {
   "folder": "vUGdoKGy7PZ2fdfW",
-  "name": "Características",
+  "name": "Aspecto",
   "_id": "hghJreSxAm2jbA5F",
   "pages": [
     {
       "sort": 100000,
-      "name": "Características",
+      "name": "Aspecto",
       "type": "text",
       "_id": "NYUgq2t9qrQNpGyJ",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Detalla tus 3 características externas más distintivas que los demás notan rápidamente.</p>"
+        "content": "<p>Describe los 3 detalles externos más distintivos de tu aspecto, los que los demás notan enseguida.</p>"
       },
       "video": {
         "controls": true,

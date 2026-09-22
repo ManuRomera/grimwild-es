@@ -1,9 +1,9 @@
 {
-  "name": "Hacha hendedora de sombras",
+  "name": "Hacha hiendesombras",
   "type": "arcana",
   "img": "icons/weapons/axes/axe-double-evil.webp",
   "system": {
-    "description": "<p>Drena la luz del aire, creando un aura de sombras.</p>",
+    "description": "<p>Absorbe la luz del aire y crea un aura de sombras.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,8 +23,8 @@
         }
       }
     ],
-    "limitations": "<p>Reserva de recursos 4d, que se repone al matar a más de dos enemigos de un solo golpe.</p>",
-    "touchstones": "sombras—dividiendo—peso",
+    "limitations": "<p>Reserva de recursos de 4d, que se repone al matar a dos o más enemigos de un solo golpe.</p>",
+    "touchstones": "sombras—tajo—peso",
     "tier": "major"
   },
   "effects": [],

@@ -1,11 +1,11 @@
 {
   "folder": "5YXY1yqWw7ivAdLy",
-  "name": "Acumulación",
+  "name": "Preludio",
   "_id": "c73WkXl7z1UfIX1I",
   "pages": [
     {
       "sort": 100000,
-      "name": "Acumulación",
+      "name": "Preludio",
       "type": "text",
       "_id": "Ptc789qmzQ8UXbVY",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 34\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Da chispa a cada PJ, quienes dan una breve viñeta antes de la próxima acción.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>El dragón ruge en su guarida. Hagamos una preparación. • ¿Cómo es entrar al baile de máscaras?</em></span></p></div><div class=\"column\"><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">CONSTRUIR </span><span style=\"font-family:'Capito04VAR'\">para concentrarse en sus PJ y crear momentos que preparen el escenario para eventos importantes. Estas viñetas, ya sea una escena tranquila de una fogata o un momento tenso antes de una batalla, brindan a los jugadores la oportunidad de agregar profundidad y sentimiento a sus personajes que podrían pasar desapercibidos, y el \"</span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>gratis</strong></em></span><span style=\"font-family:'Capito04VAR'\">\" El @UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Chispa} que obtienen les permite saber que lo que les espera será un verdadero desafío.</span></p></div></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 34\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p>Da chispa a cada PJ, y cada jugador narra una breve viñeta antes de la acción que se avecina.</p><p><em>El dragón ruge en su guarida. Hagamos un preludio. • ¿Qué ves al entrar en el baile de máscaras?</em></p></div><div class=\"column\"><p></p><p>Usa el PRELUDIO para centrarte de lleno en los PJ y crear momentos que preparen el terreno para los grandes acontecimientos. Estas viñetas, ya sea una escena tranquila junto a la hoguera o un momento tenso antes de una batalla, dan a los jugadores la ocasión de añadir a sus personajes una profundidad y un sentimiento que de otro modo pasarían desapercibidos, y la @UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Chispa} «<em><strong>gratis</strong></em>» que ganan les avisa de que lo que viene será un auténtico desafío.</p></div></div></div></div>"
       },
       "video": {
         "controls": true,

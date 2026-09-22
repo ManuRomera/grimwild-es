@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Alegres embaucadores con patas de cabra y amantes del vino, la música y la juerga. Invitan a los vagabundos a su juerga, a veces con una sensación de malicia.</p>",
+    "biography": "<p>Alegres embaucadores con patas de cabra, amantes del vino, la música y la juerga. Invitan a los caminantes a unirse a su fiesta, a veces con cierta malicia.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
@@ -14,17 +14,17 @@
       "Habla"
     ],
     "moves": [
-      "flautas de pan",
-      "cabezazo",
-      "Llamadas burlonas"
+      "Flauta de Pan",
+      "Cabezazo",
+      "Gritos burlones"
     ],
     "desires": [
       {
-        "value": "para soltar lazos mortales.",
+        "value": "aflojar los lazos mortales.",
         "are": false
       },
       {
-        "value": "los mortales intenten resistir sus invitaciones.",
+        "value": "que los mortales intenten resistirse a sus invitaciones.",
         "are": false
       }
     ],
@@ -35,16 +35,16 @@
           "color": "#654320"
         },
         {
-          "name": "Otoño leonado",
+          "name": "Leonado otoñal",
           "color": "#daa521"
         },
         {
-          "name": "verde hierba",
+          "name": "Verde hierba",
           "color": "#6a8e22"
         }
       ],
-      "sights": "viajeros al bosque, sonrisa juguetona y maliciosa",
-      "sounds": "Melodía hipnótica de flautas de pan, baile y juerga.",
+      "sights": "viajeros que se adentran en el bosque, sonrisa pícara y maliciosa",
+      "sounds": "melodía hipnótica de flauta de Pan, bailes y jolgorio",
       "smells": "rico aroma a vino, frutos del bosque, dulzura persistente"
     },
     "pool": {
@@ -53,22 +53,22 @@
     },
     "tables": [
       {
-        "name": "Concursos y recompensas",
+        "name": "Competiciones y premios",
         "instructions": "",
         "table": [
           [
-            "cantando",
-            "baile",
-            "comiendo pasteles",
+            "canto",
+            "duelo de baile",
+            "comer pasteles",
             "duelo de ingenio",
-            "tira y afloja",
-            "tiro al arco"
+            "sogatira",
+            "tiro con arco"
           ],
           [
-            "licor raro",
-            "llave de oro para nada",
+            "licor exótico",
+            "llave de oro que no abre nada",
             "escritura de una posada",
-            "maldecir para darle a alguien",
+            "maldición para echársela a alguien",
             "ojo morado",
             "medio mapa del tesoro"
           ]

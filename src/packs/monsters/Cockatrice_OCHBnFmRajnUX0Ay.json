@@ -1,21 +1,21 @@
 {
   "folder": null,
-  "name": "Aciano",
+  "name": "Cocatriz",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criaturas pequeñas, parecidas a pollos, con rasgos reptilianos. Deambulan en bandadas y su picoteo convierte la carne en piedra, que utilizan para marcar su territorio.</p>",
+    "biography": "<p>Criaturas pequeñas, parecidas a gallinas, con rasgos de reptil. Deambulan en bandadas y su picotazo convierte la carne en piedra, que usan para marcar su territorio.</p>",
     "notes": "",
     "role": "swarmer",
     "tier": "tough",
     "traits": [
-      "Instinto de flocado",
+      "Instinto gregario",
       "Enjambre feroz"
     ],
     "moves": [
-      "Picoteos petrificantes",
-      "Retiro alado",
-      "Distracción Flappy"
+      "Picotazos petrificantes",
+      "Retirada alada",
+      "Aleteo distractor"
     ],
     "desires": [
       {
@@ -23,7 +23,7 @@
         "are": false
       },
       {
-        "value": "que se cuestione la autoridad de su rebaño.",
+        "value": "que se cuestione la autoridad de su bandada.",
         "are": false
       }
     ],
@@ -34,17 +34,17 @@
           "color": "#cd5d5c"
         },
         {
-          "name": "Marrón emplumado",
+          "name": "Marrón plumaje",
           "color": "#a0522c"
         },
         {
-          "name": "Oro oscuro",
+          "name": "Oro crepuscular",
           "color": "#daa521"
         }
       ],
-      "sights": "pequeños animales petrificados, masa de plumas dispersas",
-      "sounds": "Ráfaga de alas, coro de graznidos estridentes, chasquidos de picos.",
-      "smells": "olor no coincidente de plumas y escamas"
+      "sights": "pequeños animales petrificados, montones de plumas dispersas",
+      "sounds": "revuelo de alas, coro de graznidos estridentes, chasquidos de pico",
+      "smells": "mezcla discordante de olor a plumas y a escamas"
     },
     "pool": {
       "diceNum": 0,
@@ -56,11 +56,11 @@
         "instructions": "",
         "table": [
           [
-            "En una isla, hogar de un monasterio.",
-            "En una pequeña aldea, todos se quedaron en casa.",
-            "En un valle, un importante cruce comercial.",
-            "En toda una ciudad, se produce un caos absoluto.",
-            "Abajo en las minas, atrapando a los mineros en su interior.",
+            "A una isla donde se alza un monasterio.",
+            "A una pequeña aldea: todo el mundo se queda encerrado en casa.",
+            "A un valle, importante cruce de rutas comerciales.",
+            "Por toda una ciudad, con el caos absoluto que eso supone.",
+            "Al fondo de unas minas, dejando atrapados a los mineros.",
             "A bordo de un gran barco anclado en la bahía."
           ]
         ]
@@ -68,7 +68,7 @@
     ]
   },
   "prototypeToken": {
-    "name": "Aciano",
+    "name": "Cocatriz",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

@@ -1,11 +1,11 @@
 {
   "folder": "ce6PuVxHOMYhnUk3",
-  "name": "Maelstrom",
+  "name": "Vorágine",
   "type": "talent",
   "_id": "FoCmkVYg9QUQYXg5",
   "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
   "system": {
-    "description": "<p>Te abres completamente a la vorágine de la magia pura. Cuando lanzas un <em><strong>hechizo potente</strong></em>, los 5 cuentan como 6, pero los 4 cuentan como 1. Estos 4 también cuentan como 1 para @UUID[Compendium.grimwild.rules.JournalEntry.T61vQHWAc1MN4LDB]{oleada salvaje}.</p>",
+    "description": "<p>Te abres por completo a la vorágine de la magia en bruto. Cuando lanzas un <em><strong>conjuro potente</strong></em>, los 5 cuentan como 6, pero los 4 cuentan como 1. Esos 4 también cuentan como 1 a efectos de @UUID[Compendium.grimwild.rules.JournalEntry.T61vQHWAc1MN4LDB]{Oleada salvaje}.</p>",
     "core": false,
     "notes": {
       "description": "",

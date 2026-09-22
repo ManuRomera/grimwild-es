@@ -1,11 +1,11 @@
 {
   "folder": "0FZZ6ZaYmCNR9Vxc",
-  "name": "Tirador de primera",
+  "name": "Tirador certero",
   "type": "talent",
   "_id": "lRK5JdqVgmGTVd90",
   "img": "icons/skills/ranged/target-bullseye-arrow-blue.webp",
   "system": {
-    "description": "<p>Cuando tengas tiempo, podrás lograrlo. <em><strong>potentes hazañas de precisión a distancia</strong></em>, como disparar <em>justo más allá del rango máximo </em>o <em>en cobertura casi completa</em>. También puedes esforzarte para hacerlo en el acto.</p>",
+    "description": "<p>Si tienes tiempo, puedes lograr <em><strong>hazañas potentes de precisión a distancia</strong></em>, como disparar <em>justo más allá del alcance máximo </em>o <em>contra alguien a cubierto casi por completo</em>. También puedes esforzarte para hacerlo sobre la marcha.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

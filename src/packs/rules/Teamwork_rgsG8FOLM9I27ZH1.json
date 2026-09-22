@@ -15,7 +15,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Cuando más de 3 PJ trabajan juntos, el DJ elige quién realiza la acción, a veces el más hábil. <em>(levantando una roca)</em>, a veces lo menos <em>(entrando furtivamente)</em>. Las otras PJ @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Asistir}.</p><p></p>"
+        "content": "<p>Cuando 3 o más PJ trabajan juntos, el DJ elige quién hace la tirada de acción: a veces el más hábil <em>(levantar una roca enorme)</em>, a veces el menos <em>(colarse a hurtadillas)</em>. Los demás PJ usan @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Ayudar}.</p><p></p>"
       },
       "video": {
         "controls": true,

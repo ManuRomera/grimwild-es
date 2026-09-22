@@ -5,7 +5,7 @@
   "_id": "ew4RZ7dValDZVLWp",
   "img": "icons/equipment/head/hat-pointed-buckle-leather-purple.webp",
   "system": {
-    "description": "<p>En cada ciudad, algunos pueblos y alguna que otra mazmorra, puedes encontrar un <em>poderoso</em>, <em>excéntrico</em> colega mágico que te debe un favor, o tal vez tú le debes uno. Si haces todo lo posible para encontrarte y ponerte al día, <strong>tomar chispa</strong>.</p>",
+    "description": "<p>En cada ciudad, en algunos pueblos y en alguna que otra mazmorra, puedes encontrar a un colega hechicero <em>poderoso</em> y <em>excéntrico</em> que te debe un favor, o quizá se lo debes tú. Si te desvías de tu camino para ir a verlo y poneros al día, <strong>ganas chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",

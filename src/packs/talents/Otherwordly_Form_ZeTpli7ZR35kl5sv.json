@@ -1,11 +1,11 @@
 {
   "folder": "AqQ3YAkWtiAtqHH9",
-  "name": "Forma de otro mundo",
+  "name": "Forma ultraterrena",
   "type": "talent",
   "_id": "ZeTpli7ZR35kl5sv",
   "img": "icons/magic/air/wind-stream-purple.webp",
   "system": {
-    "description": "<p>Puedes convertirte en una forma flotante y dispersa, con el sabor de los adornos de tu patrón. <em>(enjambre de murciélagos, hojas soplando)</em>. Elija tres cosas que puede hacer en este formulario: <em>aparecer apenas visible—volar alto en el cielo—interactuar con objetos—moverse rápidamente—deslizarse a través de pequeños espacios—hablar</em>.</p>",
+    "description": "<p>Puedes transformarte en una forma dispersa y flotante, inspirada en los atributos de tu patrón <em>(un enjambre de murciélagos, hojas arrastradas por el viento)</em>. Elige tres cosas que puedes hacer con esta forma: <em>ser apenas visible—volar alto—interactuar con objetos—moverte con rapidez—colarte por rendijas—hablar</em>.</p>",
     "core": false,
     "notes": {
       "description": "",

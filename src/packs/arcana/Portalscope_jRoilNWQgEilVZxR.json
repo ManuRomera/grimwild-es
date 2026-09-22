@@ -1,9 +1,9 @@
 {
-  "name": "Portalscopio",
+  "name": "Catalejo de portales",
   "type": "arcana",
   "img": "icons/tools/navigation/spyglass-telescope-brass.webp",
   "system": {
-    "description": "<p>Te teletransporta instantáneamente de forma segura a un lugar donde puedas ver a través de él.</p>",
+    "description": "<p>Te teletransporta al instante y sin peligro a un lugar que puedas ver a través de él.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -22,8 +22,8 @@
         }
       }
     ],
-    "limitations": "<p>De un solo uso, luego vuelve a ser un catalejo mundano.</p>",
-    "touchstones": "teletransportación—visión—escape",
+    "limitations": "<p>Un solo uso; después vuelve a ser un catalejo corriente.</p>",
+    "touchstones": "teletransportación—visión—huida",
     "tier": "major"
   },
   "effects": [],

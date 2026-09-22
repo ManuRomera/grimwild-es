@@ -1,15 +1,15 @@
 {
-  "name": "Colgante Batamigo",
+  "name": "Colgante del murciélago amigo",
   "type": "arcana",
   "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
   "system": {
-    "description": "<p>Advierte de intrusos que se acercan mientras se encuentra al aire libre por la noche.</p>",
+    "description": "<p>Te avisa de los intrusos que se acercan cuando estás al aire libre de noche.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Sólo funciona al aire libre por la noche.</p>",
+    "limitations": "<p>Solo funciona al aire libre de noche.</p>",
     "touchstones": "murciélagos—vigilancia—compañía",
     "tier": "minor"
   },

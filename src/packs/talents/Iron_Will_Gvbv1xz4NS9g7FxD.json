@@ -5,7 +5,7 @@
   "_id": "Gvbv1xz4NS9g7FxD",
   "img": "icons/magic/control/silhouette-aura-energy.webp",
   "system": {
-    "description": "<p>En cada sesión tienes un <em><strong>Voluntad de hierro 3d</strong> </em>reserva de recursos. Cuando te pongas nervioso o te molestes, tira la reserva. Si quedan dados, ignora el daño. Si la situación lo permite, también puedes arremeter contra la causa o contra un espectador y: <em>infundir temor en sus corazones, sembrar dudas en sus mentes</em>.</p>",
+    "description": "<p>En cada sesión tienes una reserva de recursos de <em><strong>3d Voluntad de hierro</strong></em>. Cuando quedas alterado o sufres un arrebato, tira la reserva. Si quedan dados, ignoras el daño. Si la situación lo permite, también puedes revolverte contra la causa o contra alguien que esté mirando y: <em>infundir pavor en su corazón—sembrar la duda en su mente</em>.</p>",
     "core": false,
     "notes": {
       "description": "",

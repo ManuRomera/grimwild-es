@@ -4,14 +4,14 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Caballos majestuosos, alados y de espíritu noble. Surcan los cielos, atraídos por aquellos con coraje y bondad, y aparecen en momentos de extrema necesidad.</p>",
+    "biography": "<p>Majestuosos caballos alados de espíritu noble. Surcan los cielos, atraídos por quienes muestran valor y bondad, y aparecen en momentos de extrema necesidad.</p>",
     "notes": "",
     "role": "protector",
     "tier": "tough",
     "traits": [
       "Volador elegante",
       "De corazón puro",
-      "Entiende el lenguaje"
+      "Entiende el idioma"
     ],
     "moves": [
       "Carga alada",
@@ -20,31 +20,31 @@
     ],
     "desires": [
       {
-        "value": "para acudir en ayuda en momentos espantosos.",
+        "value": "acudir en ayuda en los momentos más desesperados.",
         "are": false
       },
       {
-        "value": "para ser montado.",
+        "value": "que lo monten.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Gris Plata",
+          "name": "Gris plata",
           "color": "#c0c0c0"
         },
         {
-          "name": "azul cielo",
+          "name": "Azul cielo",
           "color": "#b0c4dd"
         },
         {
-          "name": "nube blanca",
+          "name": "Nube blanca",
           "color": "#e4e7ec"
         }
       ],
       "sights": "plumas brillantes, andar elegante",
-      "sounds": "poderosos aleteos, suaves relinchos, viento que sopla",
+      "sounds": "poderosos aleteos, suaves relinchos, viento impetuoso",
       "smells": "aire fresco, leve aroma a flores silvestres"
     },
     "pool": {
@@ -53,15 +53,15 @@
     },
     "tables": [
       {
-        "name": "Mensajes llevados",
+        "name": "Mensajes que porta",
         "instructions": "",
         "table": [
           [
             "Citación real, sellada con cera encantada.",
-            "Carta de amor llena de terrible poesía.",
+            "Carta de amor llena de poesía espantosa.",
             "Plan de batalla garabateado apresuradamente.",
             "Súplica desesperada de un enemigo jurado.",
-            "Nota de rescate atada con una Roper negra.",
+            "Nota de rescate atada con un cordel negro.",
             "Declaración oficial de invasión."
           ]
         ]

@@ -3,14 +3,14 @@
   "type": "arcana",
   "img": "icons/magic/control/mouth-smile-deception-purple.webp",
   "system": {
-    "description": "<p>Muestra un vistazo fugaz de lo mejor del espectador.</p>",
+    "description": "<p>Muestra un atisbo fugaz de la mejor versión de quien se mira.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Tómate el control cuando lo uses, sabiendo que ese no eres tú ahora.</p>",
-    "touchstones": "reflexión—insight—esperanza",
+    "limitations": "<p>Al usarlo, quedas alterado, sabiendo que ahora no eres así.</p>",
+    "touchstones": "reflexión—perspicacia—esperanza",
     "tier": "minor"
   },
   "effects": [],

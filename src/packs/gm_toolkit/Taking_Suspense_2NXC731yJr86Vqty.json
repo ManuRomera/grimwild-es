@@ -1,11 +1,11 @@
 {
   "folder": "WErPxEpB1oKJCPGq",
-  "name": "Tomar suspense",
+  "name": "Ganar suspense",
   "_id": "2NXC731yJr86Vqty",
   "pages": [
     {
       "sort": 100000,
-      "name": "Tomar suspense",
+      "name": "Ganar suspense",
       "type": "text",
       "_id": "WFqI3HUVugsFGNGu",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Cuando no se le ocurra nada, omita el movimiento de impacto y realice </span><span style=\"font-family:'Capito04VARItalic'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span style=\"font-family:'Capito04VAR'\"> ¡en cambio!</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p>Cuando no se te ocurra nada, ¡sáltate el movimiento de impacto y gana @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense} en su lugar!</p></div></div></div>"
       },
       "video": {
         "controls": true,

@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 42\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">@UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Temporizadores} que marcan el ritmo de los eventos a largo plazo entre sesiones </span><span style=\"font-family:'Capito04VARItalic'\"><em>(eclipse lunar, migración de Guiverno)</em></span><span style=\"font-family:'Capito04VAR'\">. Funcionan como grupos @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GlsmiXNCf4oZEXVU]{Facción} pero no requieren detalles de facción. Úselos para señalar próximos eventos o recordarle que debe reintroducir tramas. </span><span style=\"font-family:'Capito04VARItalic'\"><em>(PNJ traicionado en busca de venganza)</em></span><span style=\"font-family:'Capito04VAR'\">.</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 42\"><div class=\"layoutArea\"><div class=\"column\"><p>@UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Relojes} que marcan el ritmo de acontecimientos a largo plazo a lo largo de varias sesiones <em>(un eclipse lunar, la migración de los guivernos)</em>. Funcionan como las reservas de @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GlsmiXNCf4oZEXVU]{Facción}, pero sin necesidad de detallar una facción. Úsalas para anunciar acontecimientos próximos o para recordarte que debes retomar tramas <em>(un PNJ traicionado busca venganza)</em>.</p></div></div></div>"
       },
       "video": {
         "controls": true,

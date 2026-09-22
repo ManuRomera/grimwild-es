@@ -5,16 +5,16 @@
   "_id": "KBhSjWUjfwBAlCUq",
   "img": "icons/skills/trades/academics-book-study-runes.webp",
   "system": {
-    "description": "<p>Tienes el lanzamiento de hechizos como el talento Spellcraft. Tiras Astucia y puedes lanzar 3 hechizos y 1 hechizo potente por sesión. Conoces 3 teoremas de hechizos, creados con @UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj.JournalEntryPage.oAUafgvMOjLisdE2]{Crisol de hechizos}, y puedes aprender nuevos hechizos de los pergaminos.</p>",
+    "description": "<p>Lanzas conjuros como con el talento Arte arcano. Tiras Ingenio y puedes lanzar 3 conjuros y 1 conjuro potente por sesión. Conoces 3 teoremas de conjuro, creados con el @UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj.JournalEntryPage.oAUafgvMOjLisdE2]{Crisol de conjuros}, y puedes aprender conjuros nuevos de pergaminos.</p>",
     "core": false,
     "notes": {
-      "description": "<p><em>Escribe aquí tus teoremas de hechizos.</em></p>",
-      "label": "Teoremas de hechizos"
+      "description": "<p><em>Anota aquí tus teoremas de conjuro.</em></p>",
+      "label": "Teoremas de conjuro"
     },
     "trackers": [
       {
         "type": "points",
-        "label": "Hechizos",
+        "label": "Conjuros",
         "points": {
           "value": 3,
           "max": 3,
@@ -26,7 +26,7 @@
       },
       {
         "type": "points",
-        "label": "Potente",
+        "label": "Potentes",
         "points": {
           "value": 1,
           "max": 1,

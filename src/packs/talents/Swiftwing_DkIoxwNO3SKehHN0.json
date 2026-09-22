@@ -5,7 +5,7 @@
   "_id": "DkIoxwNO3SKehHN0",
   "img": "icons/creatures/birds/raptor-hawk-flying.webp",
   "system": {
-    "description": "<p>Tienes <em>altamente maniobrable </em>alas que te permiten deslizarte (<em>no volar</em>). Ganas un <em><strong>reserva de poder 3d</strong> </em>mientras está en el aire, o <em><strong>4d</strong> </em>si tienes altura o velocidad extrema. Debes tirar la reserva como dado adicional con cualquier tirada física realizada mientras estás en el aire, incluidas las defensas. En 0d, regresas al suelo.</p>",
+    "description": "<p>Tienes alas <em>muy maniobrables </em>que te permiten planear (<em>no volar</em>). Mientras estás en el aire, ganas una <em><strong>reserva de poder de 3d</strong></em>, o de <em><strong>4d</strong> </em>si tienes muchísima altura o velocidad. Debes tirar la reserva como dados extra en cualquier tirada física que hagas en el aire, defensas incluidas. Cuando llega a 0d, desciendes planeando hasta el suelo.</p>",
     "core": false,
     "notes": {
       "description": "",

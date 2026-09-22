@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Gusanos enormes que irradian calor y tienen espinas al rojo vivo a lo largo de su espalda. Excavan a través de la tundra helada, devorando todo a su paso con mandíbulas abrasadoras.</p>",
+    "biography": "<p>Gusanos enormes que irradian calor y tienen púas al rojo vivo a lo largo del lomo. Excavan a través de la tundra helada y devoran todo a su paso con mandíbulas abrasadoras.</p>",
     "notes": "",
     "role": "predator",
     "tier": "tough",
@@ -35,7 +35,7 @@
           "color": "#5e9ea0"
         },
         {
-          "name": "rojo fundido",
+          "name": "Rojo fundido",
           "color": "#b22222"
         },
         {
@@ -43,9 +43,9 @@
           "color": "#a9a9a9"
         }
       ],
-      "sights": "Espinas brillantes al rojo vivo, ojos azules helados, crestas afiladas.",
-      "sounds": "silbidos de vapor, triturando mandíbulas, rompiendo hielo",
-      "smells": "metal quemado, tierra quemada, azufre"
+      "sights": "púas incandescentes al rojo vivo, ojos azul hielo, crestas afiladas",
+      "sounds": "siseo de vapor, rechinar de mandíbulas, hielo que se resquebraja",
+      "smells": "metal quemado, tierra abrasada, azufre"
     },
     "pool": {
       "diceNum": 0,
@@ -59,10 +59,10 @@
           [
             "Despierta a los dioses dormidos sepultados.",
             "Corta los vínculos sagrados de la sangre y la raíz.",
-            "Devora el corazón del héroe predicho.",
-            "Abre la Cripta del Rey Sin Nombre.",
-            "Quema las raíces del árbol del mundo.",
-            "Silencio las Campanas de la Ciudad Eterna."
+            "Devora el corazón del héroe profetizado.",
+            "Abre la cripta del Rey sin Nombre.",
+            "Quema las raíces del Árbol del Mundo.",
+            "Silencia las campanas de la Ciudad Eterna."
           ]
         ]
       }
@@ -185,11 +185,11 @@
           ]
         },
         "traits": [
-          "Cola errática y agitada",
+          "Cola errática que da latigazos",
           "Pocos asideros"
         ],
         "moves": [
-          "Fragmentos de hielo voladores",
+          "Esquirlas de hielo volando",
           "La cola golpea la pared"
         ],
         "failure": [
@@ -198,7 +198,7 @@
               "diceNum": 8,
               "max": null
             },
-            "value": "✘ Te nota (compartido en todos los desafíos)"
+            "value": "✘ Te detecta (compartido entre desafíos)"
           }
         ]
       },
@@ -222,7 +222,7 @@
       "_key": "!actors.items!ll9AHG8iIeAHViG0.GVRpXbnMy6HzUe0U"
     },
     {
-      "name": "Sección en medio",
+      "name": "Parte central",
       "type": "challenge",
       "_id": "n3ssZrE3i23jnV3Z",
       "img": "icons/svg/item-bag.svg",
@@ -244,10 +244,10 @@
         },
         "traits": [
           "Espinas al rojo vivo",
-          "Pocos lugares interesantes"
+          "Pocos puntos frescos"
         ],
         "moves": [
-          "Neblina brillante",
+          "Calima reverberante",
           "Giro repentino"
         ],
         "failure": [
@@ -256,7 +256,7 @@
               "diceNum": 8,
               "max": null
             },
-            "value": "✘ Te nota (compartido en todos los desafíos)"
+            "value": "✘ Te detecta (compartido entre desafíos)"
           }
         ]
       },
@@ -280,7 +280,7 @@
       "_key": "!actors.items!ll9AHG8iIeAHViG0.n3ssZrE3i23jnV3Z"
     },
     {
-      "name": "Capucha acampanada",
+      "name": "Capucha desplegada",
       "type": "challenge",
       "_id": "gCKfgDcFdP82UyY0",
       "img": "icons/svg/item-bag.svg",
@@ -301,12 +301,12 @@
           ]
         },
         "traits": [
-          "Platos anchos",
-          "escamas sueltas"
+          "Placas anchas",
+          "Escamas sueltas"
         ],
         "moves": [
-          "Giro rápido de la cabeza",
-          "Tragar presa"
+          "Giro rápido de cabeza",
+          "Engullir a la presa"
         ],
         "failure": [
           {
@@ -314,7 +314,7 @@
               "diceNum": 8,
               "max": null
             },
-            "value": "✘ Te nota (compartido en todos los desafíos)"
+            "value": "✘ Te detecta (compartido entre desafíos)"
           }
         ]
       },
@@ -359,8 +359,8 @@
           ]
         },
         "traits": [
-          "4d vientos racheados",
-          "6d Muros que se derrumban"
+          "4d Rachas de viento",
+          "6d Paredes que se derrumban"
         ],
         "moves": [],
         "failure": []

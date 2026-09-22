@@ -5,7 +5,7 @@
   "_id": "JwNK8Qq9gg8v9UQF",
   "img": "icons/magic/control/fear-fright-monster-grin-red-orange.webp",
   "system": {
-    "description": "<p>Tu presencia es muy perturbadora para los demás. El DJ juzga la respuesta de un PNJ, o puedes gastar historia para configurarla: <em>agitado</em>—<em>fracturado</em>—<em>paranoico</em>—<em>rechazado</em>. Una vez por sesión, cuando te enfades, una criatura sensible cercana (incluso un aliado) debe recibir una respuesta de enfado.</p>",
+    "description": "<p>Tu presencia resulta muy inquietante para los demás. El DJ decide la reacción de un PNJ, o puedes gastar historia para fijarla tú: <em>agitado</em>—<em>trastornado</em>—<em>paranoico</em>—<em>asqueado</em>. Una vez por sesión, cuando fueras a sufrir un arrebato, una criatura consciente cercana —incluso un aliado— lo sufre en tu lugar.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Vex",
+        "label": "Arrebato",
         "points": {
           "value": 1,
           "max": 1,

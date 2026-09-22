@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Si tienes la capacidad de <em><strong>siempre</strong> </em>tener éxito o recibir un beneficio, es cierto <em><strong>a menos que</strong> </em>el DJ hace un movimiento @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GNvl7ZFpU31MZe7z]{Contrarrestar}, hay un fuerte rasgo de PNJ en juego o surgen otras circunstancias atenuantes. <em>En resumen, \"siempre\" significa el 95% del tiempo.</em></p>"
+        "content": "<p>Si tienes la capacidad de <em><strong>siempre</strong> </em>tener éxito o recibir un beneficio, se cumple <em><strong>salvo que</strong> </em>el DJ haga el movimiento @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GNvl7ZFpU31MZe7z]{Contrarresta}, entre en juego un rasgo fuerte de un PNJ o surjan otras circunstancias excepcionales. <em>En resumen, «siempre» significa el 95 % de las veces.</em></p>"
       },
       "video": {
         "controls": true,

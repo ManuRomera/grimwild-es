@@ -1,10 +1,10 @@
 {
-  "name": "Asistir",
+  "name": "Ayudar",
   "_id": "odkrgM4X8udAbLNN",
   "pages": [
     {
       "sort": 100000,
-      "name": "Asistir",
+      "name": "Ayudar",
       "type": "text",
       "_id": "QWuXJGv9XSzUVuRj",
       "system": {},
@@ -15,7 +15,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Ayuda a otro PJ en racha. Estado <strong>cómo y por qué</strong>, entonces <em><strong>tira 1d y comparte el riesgo</strong></em>. Incluya el resultado de su tirada con el de ellos para obtener el resultado final; luego, cada uno narre su contribución, utilizando su propio resultado y vínculos como guía.</p><p><em><strong>Puedes ayudar cuando la acción de otro PJ genera una </strong></em>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto}. Haces un 1d @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Tirada de defensa} para ellos.</p><p>cuando tu <strong>compartir el riesgo</strong>, te expones a consecuencias, que pueden provocar un movimiento más poderoso o de impacto adicional, o el DJ puede tomar @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense} en su lugar.</p>"
+        "content": "<p>Ayuda a otro PJ en una tirada. Explica <strong>cómo lo haces y qué pretendes</strong> y después <em><strong>tira 1d y comparte el riesgo</strong></em>. Tu dado se une a los suyos para el resultado final; después, cada uno narra su aportación, guiándose por su propio resultado y sus vínculos.</p><p><em><strong>Puedes ayudar cuando la acción de otro PJ provoca un </strong></em>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto}. Haces por él una @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Tirada de defensa} de 1d.</p><p>Cuando <strong>compartes el riesgo</strong>, te expones a las consecuencias, lo que puede provocar un movimiento de impacto más potente o uno adicional; o bien el DJ puede ganar @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense} en su lugar.</p>"
       },
       "video": {
         "controls": true,

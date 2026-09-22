@@ -1,16 +1,16 @@
 {
-  "name": "Bastón de la desilusión",
+  "name": "Bastón del desengaño",
   "type": "arcana",
   "img": "icons/weapons/staves/staff-ornate-red.webp",
   "system": {
-    "description": "<p>Brilla de color rojo brillante cuando hay una ilusión cerca.</p>",
+    "description": "<p>Brilla con un rojo intenso cuando hay una ilusión cerca.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Ninguno.</p>",
-    "touchstones": "percepción—enfoque—verdad",
+    "limitations": "<p>Ninguna.</p>",
+    "touchstones": "percepción—concentración—verdad",
     "tier": "minor"
   },
   "effects": [],

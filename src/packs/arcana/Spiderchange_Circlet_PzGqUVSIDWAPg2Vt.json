@@ -1,15 +1,15 @@
 {
-  "name": "Aro de cambio de araña",
+  "name": "Diadema de metamorfosis arácnida",
   "type": "arcana",
   "img": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
   "system": {
-    "description": "<p>Te transforma en una araña, ganando extremidades, colmillos, telarañas e instintos.</p>",
+    "description": "<p>Te transforma en araña: obtienes patas, colmillos, hileras e instintos.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Sólo se activa cuando decide que es necesario.</p>",
+    "limitations": "<p>Solo se activa cuando ella decide que hace falta.</p>",
     "touchstones": "transformación—instintos—araña",
     "tier": "mythic"
   },

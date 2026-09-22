@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Figura imponente de dos cabezas con armas que no coinciden. Caminan pesadamente por el desierto, con ambas cabezas discutiendo interminablemente sobre asuntos triviales.</p>",
+    "biography": "<p>Figura descomunal de dos cabezas con armas dispares. Recorre pesadamente las tierras salvajes mientras ambas cabezas discuten sin fin por nimiedades.</p>",
     "notes": "<p></p>",
     "role": "brute",
     "tier": "tough",
     "traits": [
-      "Constantemente discutiendo",
+      "Discusión constante",
       "Paso torpe",
       "Habla"
     ],
     "moves": [
-      "Armas oscilantes",
+      "Blandir armas",
       "Cabezazos",
-      "Grito dual"
+      "Griterío a dúo"
     ],
     "desires": [
       {
-        "value": "Placeres simples en los que ambas cabezas pueden estar de acuerdo.",
+        "value": "placeres sencillos en los que coincidan ambas cabezas.",
         "are": false
       },
       {
-        "value": "para hacer cualquier cosa que requiera precisión.",
+        "value": "hacer nada que requiera precisión.",
         "are": false
       }
     ],
@@ -35,7 +35,7 @@
           "color": "#a9a9a9"
         },
         {
-          "name": "cuero oscuro",
+          "name": "Cuero oscuro",
           "color": "#4b3621"
         },
         {
@@ -44,7 +44,7 @@
         }
       ],
       "sights": "movimientos caóticos, arrastrar los pies, miradas frustradas",
-      "sounds": "Discusiones constantes, golpes torpes, palabras que no coinciden.",
+      "sounds": "riñas constantes, golpes torpes, palabras que no casan",
       "smells": "almizcle sudoroso, pieles de animales, pelo descuidado"
     },
     "pool": {
@@ -58,11 +58,11 @@
         "table": [
           [
             "Tres viejas brujas, que lo utilizan como guardaespaldas.",
-            "Un grupo heterogéneo de huérfanos que lo salvaron.",
-            "Duendes, porque lo adoran como a un dios.",
-            "Aldea de agricultores, que la alimentan.",
-            "Circo errante, usándolo como portero.",
-            "Ermitaño, amigos con ambas cabezas."
+            "Una variopinta pandilla de huérfanos que lo salvó.",
+            "Trasgos, porque lo adoran como a un dios.",
+            "Aldea de granjeros, que lo alimentan.",
+            "Circo ambulante, que lo usa como matón de la puerta.",
+            "Ermitaño, amigo de ambas cabezas."
           ]
         ]
       }
@@ -164,7 +164,7 @@
   },
   "items": [
     {
-      "name": "voz de piedra",
+      "name": "Voz de Piedra",
       "type": "challenge",
       "_id": "kROMYVpRVv7sMdnz",
       "img": "icons/svg/item-bag.svg",
@@ -185,9 +185,9 @@
           ]
         },
         "traits": [
-          "tranquilo, racional",
-          "busca una buena charla",
-          "Reacciona al juego de palabras."
+          "Tranquilo, racional",
+          "Busca una buena charla",
+          "Reacciona a los juegos de palabras"
         ],
         "moves": [],
         "failure": []
@@ -212,7 +212,7 @@
       "_key": "!actors.items!uvnZ6RIGgjm0pU15.kROMYVpRVv7sMdnz"
     },
     {
-      "name": "Corte de escenaza sangrienta",
+      "name": "Ladrido Sangriento",
       "type": "challenge",
       "_id": "VC2KWPJEzVKd7mq4",
       "img": "icons/svg/item-bag.svg",
@@ -234,7 +234,7 @@
         },
         "traits": [
           "Agresivo, ruidoso",
-          "busca violencia",
+          "Busca violencia",
           "Reacciona a la debilidad"
         ],
         "moves": [],
@@ -260,7 +260,7 @@
       "_key": "!actors.items!uvnZ6RIGgjm0pU15.VC2KWPJEzVKd7mq4"
     },
     {
-      "name": "Runejaw",
+      "name": "Quijada Rúnica",
       "type": "challenge",
       "_id": "f20aa0akSO6OlPWG",
       "img": "icons/svg/item-bag.svg",
@@ -282,7 +282,7 @@
         },
         "traits": [
           "Críptico, curioso",
-          "busca profetizar",
+          "Busca profetizar",
           "Reacciona al simbolismo"
         ],
         "moves": [],
@@ -308,7 +308,7 @@
       "_key": "!actors.items!uvnZ6RIGgjm0pU15.f20aa0akSO6OlPWG"
     },
     {
-      "name": "Fauces Doradas",
+      "name": "Fauces de Oro",
       "type": "challenge",
       "_id": "pq61xMmWuTGft4b3",
       "img": "icons/svg/item-bag.svg",
@@ -329,9 +329,9 @@
           ]
         },
         "traits": [
-          "Agudo, codicioso",
-          "Busca ganancia material",
-          "Reacciona a bienes raros."
+          "Astuto, codicioso",
+          "Busca beneficio material",
+          "Reacciona a los bienes raros"
         ],
         "moves": [],
         "failure": []
@@ -356,7 +356,7 @@
       "_key": "!actors.items!uvnZ6RIGgjm0pU15.pq61xMmWuTGft4b3"
     },
     {
-      "name": "Colmillo Hoot",
+      "name": "Colmillo Ululante",
       "type": "challenge",
       "_id": "3ncdhDHn8vOXzz8q",
       "img": "icons/svg/item-bag.svg",
@@ -378,7 +378,7 @@
         },
         "traits": [
           "Extravagante, egoísta",
-          "Busca verdaderos elogios",
+          "Busca elogios sinceros",
           "Reacciona al aburrimiento"
         ],
         "moves": [],
@@ -404,7 +404,7 @@
       "_key": "!actors.items!uvnZ6RIGgjm0pU15.3ncdhDHn8vOXzz8q"
     },
     {
-      "name": "Foulhorn",
+      "name": "Cuerno Fétido",
       "type": "challenge",
       "_id": "Psb1XoGMJuezQf8v",
       "img": "icons/svg/item-bag.svg",
@@ -426,7 +426,7 @@
         },
         "traits": [
           "Tranquilo, manipulador",
-          "busca estafar",
+          "Busca estafar",
           "Reacciona a la confusión"
         ],
         "moves": [],

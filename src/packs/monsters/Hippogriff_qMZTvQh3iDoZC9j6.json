@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criaturas nobles con cuerpo de caballo y alas de águila. Se elevan sobre llanuras y montañas, siendo leales y protectores con quienes se ganan su confianza.</p>",
+    "biography": "<p>Nobles criaturas con cuerpo de caballo y alas de águila. Surcan los cielos sobre llanuras y montañas, y son leales y protectoras con quienes se ganan su confianza.</p>",
     "notes": "",
     "role": "protector",
     "tier": "tough",
@@ -14,23 +14,23 @@
     ],
     "moves": [
       "Golpe de garra",
-      "chasquido de pico",
-      "Escapar"
+      "Picotazo",
+      "Alzar el vuelo"
     ],
     "desires": [
       {
-        "value": "para que sus crías crezcan fuertes y salvajes.",
+        "value": "que sus crías crezcan fuertes y salvajes.",
         "are": false
       },
       {
-        "value": "aquellos que confrontan a otros con agresión.",
+        "value": "a quienes se enfrentan a otros con agresividad.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Castaño",
+          "name": "Marrón castaño",
           "color": "#8b4512"
         },
         {
@@ -38,12 +38,12 @@
           "color": "#f5f5db"
         },
         {
-          "name": "leonado dorado",
+          "name": "Leonado dorado",
           "color": "#daa521"
         }
       ],
-      "sights": "Alas majestuosas, pico afilado, garras agarrando la tierra.",
-      "sounds": "ráfagas de viento, gritos estridentes, galope de cascos",
+      "sights": "alas majestuosas, pico afilado, garras que se aferran a la tierra",
+      "sounds": "embate del viento, chillidos estridentes, galope de cascos",
       "smells": "aroma terroso de campos abiertos, aire fresco de montaña"
     },
     "pool": {
@@ -59,8 +59,8 @@
             "Ladrón legendario que lo ayudó a escapar.",
             "Noble marginado que busca redención.",
             "Guardabosques que patrulla fronteras lejanas.",
-            "Bruja malvada que se cree un héroe.",
-            "Granjero normal que lo crió.",
+            "Una saga malvada a la que considera una heroína.",
+            "Un granjero corriente que lo crio.",
             "Gnoll que lo cuidó hasta que recuperó la salud."
           ]
         ]

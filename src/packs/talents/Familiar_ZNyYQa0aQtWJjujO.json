@@ -5,7 +5,7 @@
   "_id": "ZNyYQa0aQtWJjujO",
   "img": "icons/creatures/birds/corvid-watchful-glowing-green.webp",
   "system": {
-    "description": "<p>Manifestas una pequeña criatura mágica, una extensión de ti mismo. Puedes comunicarte telepáticamente y enviarlo a tareas sencillas, haciendo una historia para ver cómo va. Al entrar en trance, puedes utilizar sus sentidos. tu también puedes <strong>esfuérzate</strong> para lanzar un hechizo a través de él. Si tu familiar sufre daño, desaparece y reaparece al comienzo de la siguiente sesión.</p>",
+    "description": "<p>Manifiestas una pequeña criatura mágica, una extensión de ti mismo. Puedes comunicarte con ella por telepatía y enviarla a hacer tareas sencillas, con una tirada de historia para ver cómo le va. Si entras en trance, puedes usar sus sentidos. También puedes <strong>esforzarte</strong> para lanzar un conjuro a través de ella. Si tu familiar sufre daño, desaparece y reaparece al principio de la siguiente sesión.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

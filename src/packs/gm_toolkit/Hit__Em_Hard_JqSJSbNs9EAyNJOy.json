@@ -1,11 +1,11 @@
 {
   "folder": "g4byq082efDAWI1S",
-  "name": "Golpéalos fuerte",
+  "name": "Golpea fuerte",
   "_id": "JqSJSbNs9EAyNJOy",
   "pages": [
     {
       "sort": 100000,
-      "name": "Golpéalos fuerte",
+      "name": "Golpea fuerte",
       "type": "text",
       "_id": "NZQMO83b39JvyifZ",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 35\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Infligir daño a un PJ, como marcas ensangrentadas, sacudidas, irritadas o una condición.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"El techo se derrumba y te llueven piedras\". • \"Ella te sonríe con malicia; enojate, estás enojado\".</em></span></p><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">Golpéalos duro </span><span style=\"font-family:'Capito04VAR'\">cuando necesitas infligir consecuencias directas. Ya sea daño, traición o pérdida, esta medida subraya la gravedad de la situación. Es un duro recordatorio de que el mundo rechaza sus acciones. Cuando lo uses, deberías golpearlos con tanta fuerza como ellos intentan golpear al mundo.</span></p></div></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 35\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p>Inflige daño a un PJ, como ensangrentado, alterado, arrebato, marcas o una condición.</p><p><em>«El techo se derrumba y te llueven piedras». • «Te dedica una sonrisa malévola; sufres un arrebato, estás furioso».</em></p><p></p><p>GOLPEA FUERTE cuando necesites imponer consecuencias directas. Ya sea daño, traición o pérdida, este movimiento subraya la gravedad de la situación. Es un duro recordatorio de que el mundo responde a sus acciones. Cuando lo uses, deberías golpearlos con la misma fuerza con la que ellos intentan golpear al mundo.</p></div></div></div></div>"
       },
       "video": {
         "controls": true,

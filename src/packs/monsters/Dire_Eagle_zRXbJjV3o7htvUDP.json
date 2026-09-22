@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Grandes aves rapaces con enormes envergaduras de alas y garras afiladas. Se elevan desde altos acantilados y se sumergen con una precisión mortal y una sincronización perfecta para derribar a sus presas.</p>",
+    "biography": "<p>Enormes rapaces de gran envergadura y garras afiladas como cuchillas. Remontan el vuelo desde altos acantilados y se lanzan en picado con precisión mortal y una sincronización perfecta para abatir a sus presas.</p>",
     "notes": "",
     "role": "predator",
     "tier": "tough",
@@ -13,13 +13,13 @@
       "Extremadamente veloz"
     ],
     "moves": [
-      "Golpe hundido",
-      "Arranque en picada",
+      "Ataque en picado",
+      "Captura en vuelo rasante",
       "Grito penetrante"
     ],
     "desires": [
       {
-        "value": "otros depredadores lo vean y lo teman.",
+        "value": "que otros depredadores lo vean y lo teman.",
         "are": false
       },
       {
@@ -42,9 +42,9 @@
           "color": "#696969"
         }
       ],
-      "sights": "enorme pluma caída, garras en la tierra",
-      "sounds": "silbido de alas enormes, susurro de plumas",
-      "smells": "aire fresco a gran altitud, ligero olor a carroña"
+      "sights": "enorme pluma que cae, surcos de garras en la tierra",
+      "sounds": "batir de alas enormes, susurro de plumas",
+      "smells": "aire fresco de las alturas, leve olor a carroña"
     },
     "pool": {
       "diceNum": 0,
@@ -52,14 +52,14 @@
     },
     "tables": [
       {
-        "name": "Nidos únicos",
+        "name": "Nidos singulares",
         "instructions": "",
         "table": [
           [
-            "Aguja de la torre de un mago aún ocupada.",
+            "La aguja de la torre de un mago, aún habitada.",
             "En lo alto de una secuoya gigante, la más alta del mundo.",
-            "Afloramiento rocoso sobre un cementerio de elefantes brumoso.",
-            "Mesa desolada, huesos rodeando el nido.",
+            "Un risco rocoso sobre un brumoso cementerio de elefantes.",
+            "Lo alto de una mesa desolada, con huesos alrededor del nido.",
             "Entre los arcos de piedra de un antiguo puente.",
             "En la mano de una enorme estatua tallada."
           ]

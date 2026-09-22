@@ -1,11 +1,11 @@
 {
   "folder": "g4byq082efDAWI1S",
-  "name": "Fíjalo",
+  "name": "Hazlo definitivo",
   "_id": "Dsh3aKJ3gboNE9Qo",
   "pages": [
     {
       "sort": 100000,
-      "name": "Fíjalo",
+      "name": "Hazlo definitivo",
       "type": "text",
       "_id": "Ibu8agpTwQRib2l6",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 35\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Declarar que algo ocurre, cerrando los intentos inmediatos de cambiarlo. </span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"El ladrón se escapa y no se le ve por ningún lado\". • \"El puente detrás de ti se derrumba. No hay vuelta atrás\".</em></span></p></div><div class=\"column\"><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">BLOQUEARLO </span><span style=\"font-family:'Capito04VAR'\">cerrar definitivamente una oportunidad y cerrar una escena que amenaza con prolongarse. Los jugadores pueden ser tenaces y seguir intentando encontrar alguna manera de no ser derrotados. Esto pone fin definitivamente a una situación. Hace que los intentos de seguimiento sean imposibles, lo que reorienta la atención de los jugadores hacia adelante en lugar de tratar de encontrar otra forma de intentar algo en lo que ya fallaron.</span></p></div></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 35\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p>Declara que algo ocurre y cierra cualquier intento inmediato de cambiarlo. </p><p><em>«El ladrón se escapa y no hay ni rastro de él». • «El puente se derrumba a tu espalda. No hay vuelta atrás».</em></p></div><div class=\"column\"><p></p><p>HAZLO DEFINITIVO para cerrar de forma tajante una oportunidad y terminar una escena que amenaza con alargarse. Los jugadores pueden ser tenaces y seguir buscando la forma de no ser derrotados. Esto pone punto final a la situación. Impide nuevos intentos, lo que hace que los jugadores miren hacia delante en lugar de buscar otra forma más de intentar algo en lo que ya han fracasado.</p></div></div></div></div>"
       },
       "video": {
         "controls": true,

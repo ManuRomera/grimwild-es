@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Efectos beneficiosos <em>(intrépido, invisible) </em>que amplían @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Ventaja}, facilitan tareas, hacen que las tiradas sean innecesarias o brindan asistencia externa. Si le das un beneficio a un aliado que persiste en tu ausencia, puedes @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Asistir} tiradas relevantes sin riesgo.</p>"
+        "content": "<p>Efectos beneficiosos <em>(intrépido, invisible) </em>que amplían la @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Perspectiva}, facilitan tareas, hacen innecesarias las tiradas o proporcionan ayuda externa. Si das a un aliado una mejora que persiste en tu ausencia, puedes @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Ayudar} en las tiradas relevantes sin riesgo.</p>"
       },
       "video": {
         "controls": true,

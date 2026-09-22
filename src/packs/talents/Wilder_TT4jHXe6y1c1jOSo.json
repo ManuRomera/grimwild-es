@@ -5,7 +5,7 @@
   "_id": "TT4jHXe6y1c1jOSo",
   "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
   "system": {
-    "description": "<p>Tus poderes son inherentemente caóticos, ya sea por naturaleza o por crianza, y luchas por controlarlos. Toma +1d, pero también +1t, en todas las tiradas de bastión psiónico. Nunca puedes ignorar las espinas de ninguna fuente, incluido tu talento principal. En caso crítico, recupera los puntos de poder que acabas de gastar.</p>",
+    "description": "<p>Tus poderes son caóticos por naturaleza, sea de nacimiento o por tu crianza, y te cuesta controlarlos. Tienes +1d, pero también +1t, en todas las tiradas de bastión psiónico. Nunca puedes ignorar espinas de ninguna fuente, ni siquiera de tu talento principal. Con un crítico, recuperas los puntos de poder que acabas de gastar.</p>",
     "core": false,
     "notes": {
       "description": "",

@@ -5,7 +5,7 @@
   "_id": "dUqWchcGN40FFerl",
   "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
   "system": {
-    "description": "<p><strong>toma chispa</strong> cuando se corta uno de tus tiradas. También recibes +1d en la tirada de historia cuando lo sueltas. En un perfecto, ignora que te dejen caer.</p>",
+    "description": "<p><strong>Ganas chispa</strong> cuando se rebaja una de tus tiradas. Además, tienes +1d en la tirada de historia cuando te derriban. Con un perfecto, ignoras el derribo.</p>",
     "core": false,
     "notes": {
       "description": "",

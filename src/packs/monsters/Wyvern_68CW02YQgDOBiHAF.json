@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Reptiles feroces y alados con una cola venenosa con púas. Se lanzan en picado desde alturas invisibles y aseguran a sus presas con golpes rápidos y brutales.</p>",
+    "biography": "<p>Reptiles alados y feroces con una cola venenosa y llena de púas. Se lanzan en picado desde alturas donde nadie los ve y atrapan a sus presas con golpes rápidos y brutales.</p>",
     "notes": "",
     "role": "predator",
     "tier": "tough",
@@ -14,23 +14,23 @@
     ],
     "moves": [
       "Picadura venenosa",
-      "Golpe de buceo",
+      "Ataque en picado",
       "Arrebatar y volar"
     ],
     "desires": [
       {
-        "value": "para enseñar a sus crías la emoción de la caza.",
+        "value": "enseñar a sus crías la emoción de la caza.",
         "are": false
       },
       {
-        "value": "sentir un vínculo con una criatura ajena a su parentesco.",
+        "value": "sentir un vínculo con una criatura ajena a su especie.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "pizarra oscura",
+          "name": "Pizarra oscura",
           "color": "#2f4f4e"
         },
         {
@@ -42,9 +42,9 @@
           "color": "#566b30"
         }
       ],
-      "sights": "corriendo entre las nubes, animales corriendo para cubrirse",
-      "sounds": "chirrido desde increíblemente alto, silbido de su inmersión",
-      "smells": "olor de su lugar de anidación lejano"
+      "sights": "vuelo raudo entre las nubes, animales que corren a ponerse a cubierto",
+      "sounds": "chillido desde una altura imposible, silbido de su picado",
+      "smells": "olor de su lejano nido"
     },
     "pool": {
       "diceNum": 0,
@@ -52,15 +52,15 @@
     },
     "tables": [
       {
-        "name": "Maestros Guiverno",
+        "name": "Amos de guivernos",
         "instructions": "",
         "table": [
           [
             "Gorrak, infame pirata del cielo.",
             "Laraen, maga rebelde empeñada en vengarse.",
-            "Zurak, contrabandista de huevos de Guiverno en el mercado negro.",
-            "Tylara, una Druida que ejerce el poder de las tormentas.",
-            "Drazul, asesino del mejor postor.",
+            "Zurak, contrabandista de huevos de guiverno en el mercado negro.",
+            "Tylara, una druida que maneja el poder de las tormentas.",
+            "Drazul, asesino al servicio del mejor postor.",
             "Serdrak, señor mercenario de los cielos."
           ]
         ]

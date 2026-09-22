@@ -51,7 +51,7 @@
       "_key": "!tables.results!o9zE97tH5RUpn9GP.aKttu4GOgMbmMv2P"
     },
     {
-      "name": "helado",
+      "name": "glacial",
       "range": [
         3,
         3
@@ -75,7 +75,7 @@
       "_key": "!tables.results!o9zE97tH5RUpn9GP.quTEe9wuFPFiMBKt"
     },
     {
-      "name": "fumar",
+      "name": "humo",
       "range": [
         4,
         4
@@ -123,7 +123,7 @@
       "_key": "!tables.results!o9zE97tH5RUpn9GP.p7zUfUR8zIOQDcH8"
     },
     {
-      "name": "iluminación",
+      "name": "relámpago",
       "range": [
         6,
         6
@@ -171,7 +171,7 @@
       "_key": "!tables.results!o9zE97tH5RUpn9GP.IOoviF0wtZzgbtj8"
     },
     {
-      "name": "moscas",
+      "name": "chispas",
       "range": [
         8,
         8
@@ -483,7 +483,7 @@
       "_key": "!tables.results!o9zE97tH5RUpn9GP.vjP31oFwxE4xOzke"
     },
     {
-      "name": "auge",
+      "name": "estruendo",
       "range": [
         21,
         21
@@ -627,7 +627,7 @@
       "_key": "!tables.results!o9zE97tH5RUpn9GP.0RaiPo3jf30GOkLo"
     },
     {
-      "name": "oscuridad",
+      "name": "penumbra",
       "range": [
         27,
         27
@@ -771,7 +771,7 @@
       "_key": "!tables.results!o9zE97tH5RUpn9GP.DlNxTKNgFDf6GfxK"
     },
     {
-      "name": "girar",
+      "name": "torsión",
       "range": [
         33,
         33
@@ -843,7 +843,7 @@
       "_key": "!tables.results!o9zE97tH5RUpn9GP.3THh6U7O2mDy1e98"
     },
     {
-      "name": "tararear",
+      "name": "zumbido",
       "range": [
         36,
         36

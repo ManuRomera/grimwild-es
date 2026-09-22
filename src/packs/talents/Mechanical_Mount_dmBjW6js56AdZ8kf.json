@@ -1,20 +1,20 @@
 {
   "folder": "i53xgSVOBOe4n7Mr",
-  "name": "Montaje mecánico",
+  "name": "Montura mecánica",
   "type": "talent",
   "_id": "dmBjW6js56AdZ8kf",
   "img": "icons/commodities/tech/levers-colored.webp",
   "system": {
-    "description": "<p>Tienes un pequeño vehículo mecánico, como un <em>araña de vapor </em>o <em>carro que eructa humo</em>. Tiene tres características: <em>todo terreno—blindado—excavador—gancho de agarre—sumergible—turbo impulso</em>. Puedes activar cada beneficio una vez por sesión para lograr un <em><strong>potente hazaña de pilotaje</strong></em>. También tiene un inconveniente: <em>Llamativo—horripilante—lento—poco confiable</em>.</p>",
+    "description": "<p>Tienes un pequeño vehículo mecánico, como una <em>araña de vapor </em>o un <em>carro que escupe humo</em>. Tiene tres características: <em>todoterreno—blindado—excavador—garfio—sumergible—turbo</em>. Puedes activar cada característica una vez por sesión para lograr una <em><strong>hazaña potente de pilotaje</strong></em>. También tiene un inconveniente: <em>llamativo—espantoso—lento—poco fiable</em>.</p>",
     "core": false,
     "notes": {
-      "description": "<p><em>Anota aquí las 3 características y 1 inconveniente de tu montura.</em></p>",
-      "label": "Características y desventajas"
+      "description": "<p><em>Anota aquí las 3 características y el inconveniente de tu montura.</em></p>",
+      "label": "Características e inconveniente"
     },
     "trackers": [
       {
         "type": "points",
-        "label": "Potente característica 1",
+        "label": "Característica potente 1",
         "points": {
           "value": 1,
           "max": 1,
@@ -27,7 +27,7 @@
       },
       {
         "type": "points",
-        "label": "Potente característica 2",
+        "label": "Característica potente 2",
         "points": {
           "value": 1,
           "max": 1,
@@ -40,7 +40,7 @@
       },
       {
         "type": "points",
-        "label": "Potente característica 3",
+        "label": "Característica potente 3",
         "points": {
           "value": 1,
           "max": 1,

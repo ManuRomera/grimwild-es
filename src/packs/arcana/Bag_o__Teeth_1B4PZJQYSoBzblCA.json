@@ -3,7 +3,7 @@
   "type": "arcana",
   "img": "icons/containers/bags/sack-leather-stitched-brown.webp",
   "system": {
-    "description": "<p>Coloca un diente en la bolsa. Una vez después, crea una ilusión de esa criatura.</p>",
+    "description": "<p>Mete un diente en la bolsa. Más adelante, una sola vez, crea una ilusión de esa criatura.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -22,7 +22,7 @@
         }
       }
     ],
-    "limitations": "<p>Sólo 1 diente por tipo de criatura.</p>",
+    "limitations": "<p>Solo 1 diente por tipo de criatura, para siempre.</p>",
     "touchstones": "ilusiones—dientes—memoria",
     "tier": "minor"
   },

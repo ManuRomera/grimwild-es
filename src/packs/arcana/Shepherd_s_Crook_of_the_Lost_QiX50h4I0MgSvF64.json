@@ -3,13 +3,13 @@
   "type": "arcana",
   "img": "icons/weapons/staves/staff-simple-spiral-grey.webp",
   "system": {
-    "description": "<p>Atrae a los vagabundos y a los abandonados a tu lado.</p>",
+    "description": "<p>Atrae a tu lado a los errantes y los desamparados.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Ninguno, excepto el peso de quienes te encuentran.</p>",
+    "limitations": "<p>Ninguna, salvo el peso de quienes te encuentran.</p>",
     "touchstones": "guía—conexión—carga",
     "tier": "mythic"
   },

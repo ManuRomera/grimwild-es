@@ -4,26 +4,26 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Aves colosales con alas que bloquean el sol. Aparecen en tiempos de estancamiento para traer cambios al llevarse lo que ya no pertenece.</p>",
+    "biography": "<p>Aves colosales con alas que tapan el sol. Aparecen en tiempos de estancamiento para traer cambios llevándose lo que ya no debe estar ahí.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
-      "Bloquea el sol",
-      "Impermeable al daño"
+      "Tapa el sol",
+      "Inmune al daño"
     ],
     "moves": [
       "Vientos huracanados",
-      "Agarre de garra",
+      "Agarre de garras",
       "Tragar entero"
     ],
     "desires": [
       {
-        "value": "para volver a su nido.",
+        "value": "volver a su nido.",
         "are": false
       },
       {
-        "value": "distraerse de lo que debe hacer.",
+        "value": "que lo distraigan de lo que debe hacer.",
         "are": false
       }
     ],
@@ -43,7 +43,7 @@
         }
       ],
       "sights": "tan grande como las nubes, vasta silueta en el horizonte",
-      "sounds": "aleteos resonantes, ráfagas masivas de viento",
+      "sounds": "aleteos retumbantes, enormes ráfagas de viento",
       "smells": "almizcle terroso abrumador, plumas secas"
     },
     "pool": {
@@ -56,12 +56,12 @@
         "instructions": "",
         "table": [
           [
-            "Emperatriz moribunda, que se alimentará de él para vivir.",
-            "Dragón, que lo utilizará para intercambiar por su vida.",
-            "Antiguo lich, que creará su mayor esbirro.",
-            "Gigante de la tormenta, que lo levantará como montura.",
-            "Pirata infame, que lo ve como un futuro skyship.",
-            "Orden druídica, que la desatará en el mundo."
+            "Emperatriz moribunda, que se lo comerá para seguir viviendo.",
+            "Dragón, que lo usará para negociar por su vida.",
+            "Liche antiguo, que creará con él su mayor esbirro.",
+            "Gigante de tormenta, que lo criará como montura.",
+            "Pirata infame, que ve en él un futuro barco volador.",
+            "Orden druídica, que lo desatará sobre el mundo."
           ]
         ]
       }

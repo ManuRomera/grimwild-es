@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Enormes bestias peludas deambulan entre picos helados, protegiendo ferozmente los pasos remotos como si estuvieran atadas a la tierra por alguna fuerza invisible.</p>",
+    "biography": "<p>Bestias enormes y peludas que vagan entre picos helados y guardan con ferocidad los pasos remotos, como si alguna fuerza invisible las atara a la tierra.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
@@ -20,18 +20,18 @@
     ],
     "desires": [
       {
-        "value": "mantener su solitaria vigilia, instintivamente.",
+        "value": "mantener su solitaria vigilia, por instinto.",
         "are": false
       },
       {
-        "value": "para que los terribles secretos que hay debajo vean la luz.",
+        "value": "que los terribles secretos de abajo salgan a la luz.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Gris congelado",
+          "name": "Gris escarcha",
           "color": "#b0b0b0"
         },
         {
@@ -39,13 +39,13 @@
           "color": "#e0e9f0"
         },
         {
-          "name": "azul helado",
+          "name": "Azul hielo",
           "color": "#9ac0cd"
         }
       ],
       "sights": "la nieve moviéndose, el aliento humeante, los ojos azul pálido",
-      "sounds": "Crujido de nieve bajo pies enormes, rugidos profundos.",
-      "smells": "nieve fresca cortada por un sabor salvaje"
+      "sounds": "crujido de nieve bajo pies enormes, rugidos graves",
+      "smells": "nieve fresca con un toque salvaje"
     },
     "pool": {
       "diceNum": 0,
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "bajo el hielo",
+        "name": "Bajo el hielo",
         "instructions": "",
         "table": [
           [
-            "Ciudad congelada en el tiempo, sus campanas siguen sonando.",
+            "Ciudad congelada en el tiempo, cuyas campanas aún suenan.",
             "Almas errantes, perdidas bajo el hielo.",
             "Portal a un reino de invierno eterno.",
             "Hoja maldita atrapada en hielo que no se derrite.",
-            "Phoenix atrapado en un ciclo de muerte y renacimiento.",
-            "Balor encadenado con cadenas forjadas en hielo."
+            "Fénix atrapado en un ciclo de muerte y renacimiento.",
+            "Bálor encadenado con cadenas forjadas en hielo."
           ]
         ]
       }

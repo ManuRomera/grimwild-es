@@ -5,7 +5,7 @@
   "_id": "nE6eoObfKcHrxjzZ",
   "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
   "system": {
-    "description": "<p>En un perfecto paso furtivo o observando en secreto criaturas sensibles, ellos: <em>dejar escapar un secreto</em>—<em>darte una oportunidad de oro</em>. Si te pillan escabulléndote, puedes <strong>esfuérzate</strong> permanecer completamente quieto y evitar ser detectado, pero debe abandonar el área inmediatamente después.</p>",
+    "description": "<p>Con un perfecto al pasar a hurtadillas junto a criaturas conscientes o al observarlas en secreto, estas: <em>dejan escapar un secreto</em>—<em>te brindan una oportunidad de oro</em>. Si te pillan a hurtadillas, puedes <strong>esforzarte</strong> para quedarte totalmente inmóvil y no ser detectado, pero justo después debes abandonar la zona.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

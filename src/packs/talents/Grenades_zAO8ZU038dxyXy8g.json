@@ -5,7 +5,7 @@
   "_id": "zAO8ZU038dxyXy8g",
   "img": "icons/skills/ranged/bomb-grenade-thrown-yellow.webp",
   "system": {
-    "description": "<p>En cada sesión tienes un <em><strong>Granadas 4d</strong> </em>reserva de recursos. Tienes acceso a las siguientes bombas: <em>asfixia—explosión—pegamento—humo—hedor</em>. Las bombas pueden afectar a múltiples objetivos o a un área incluso sin <em><strong>potencia</strong></em>. Puedes soltar 1 y tirar la reserva para tener un <em><strong>granada potente</strong></em>.</p>",
+    "description": "<p>En cada sesión tienes una reserva de recursos de <em><strong>4d Granadas</strong></em>. Tienes acceso a estas bombas: <em>asfixiante—cegadora—pegamento—humo—fétida</em>. Las bombas pueden afectar a varios objetivos o a una zona incluso sin <em><strong>potencia</strong></em>. Puedes descartar 1d y tirar la reserva para tener una <em><strong>granada potente</strong></em>.</p>",
     "core": false,
     "notes": {
       "description": "",

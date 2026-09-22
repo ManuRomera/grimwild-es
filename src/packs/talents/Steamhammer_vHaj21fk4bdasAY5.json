@@ -5,7 +5,7 @@
   "_id": "vHaj21fk4bdasAY5",
   "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
   "system": {
-    "description": "<p>Tienes un gran martillo de guerra infundido con vapor. En cada sesión tienes un <em><strong>Martillo de vapor 6d</strong></em> reserva de poder. Puedes tirar la reserva para lograrlo. <em><strong>potentes hazañas de fuerza pulverizadora</strong></em>. Tampoco puedes gastar su vapor para usarlo como un martillo de guerra normal.</p>",
+    "description": "<p>Tienes un gran martillo de guerra impulsado por vapor. En cada sesión tienes una reserva de poder de <em><strong>6d Martillo de vapor</strong></em>. Puedes tirar la reserva para lograr <em><strong>hazañas potentes de fuerza demoledora</strong></em>. También puedes usarlo como un martillo de guerra normal, sin gastar vapor.</p>",
     "core": false,
     "notes": {
       "description": "",

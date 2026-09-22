@@ -5,7 +5,7 @@
   "_id": "Fu2l4AoktGRQxSxr",
   "img": "icons/environment/people/infantry-army.webp",
   "system": {
-    "description": "<p>Durante una secuencia de acción intensa, puedes <strong>esfuérzate</strong> para etiquetar 3 elementos de la escena inmediatamente y 1 más adelante en la secuencia. Cuando un aliado interactúa con un elemento etiquetado, ayudas sin riesgo en la tirada. Si no se necesita tirada, <strong>tomar chispa</strong>.</p>",
+    "description": "<p>Durante una secuencia de acción intensa, puedes <strong>esforzarte</strong> para señalar 3 elementos de la escena de inmediato y 1 más adelante en la secuencia. Cuando un aliado interactúa con un elemento señalado, le ayudas sin riesgo en la tirada. Si no hace falta tirar, <strong>gana chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

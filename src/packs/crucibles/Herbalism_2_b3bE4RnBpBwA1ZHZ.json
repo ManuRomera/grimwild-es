@@ -3,7 +3,7 @@
   "formula": "1d36",
   "results": [
     {
-      "name": "tapa",
+      "name": "sombrero",
       "range": [
         1,
         1
@@ -99,7 +99,7 @@
       "_key": "!tables.results!b3bE4RnBpBwA1ZHZ.hDekbNjoHemlwGdj"
     },
     {
-      "name": "provenir",
+      "name": "tallo",
       "range": [
         5,
         5
@@ -147,7 +147,7 @@
       "_key": "!tables.results!b3bE4RnBpBwA1ZHZ.aXt7LO6DmPeMvDhN"
     },
     {
-      "name": "mosto",
+      "name": "hierba",
       "range": [
         7,
         7
@@ -219,7 +219,7 @@
       "_key": "!tables.results!b3bE4RnBpBwA1ZHZ.PughcG6PYWhCafF6"
     },
     {
-      "name": "brote",
+      "name": "capullo",
       "range": [
         10,
         10
@@ -243,7 +243,7 @@
       "_key": "!tables.results!b3bE4RnBpBwA1ZHZ.4vQAYwQ1jQQh8peS"
     },
     {
-      "name": "disparar",
+      "name": "retoño",
       "range": [
         11,
         11
@@ -267,7 +267,7 @@
       "_key": "!tables.results!b3bE4RnBpBwA1ZHZ.EAvKMVSybyfznR3H"
     },
     {
-      "name": "frijol",
+      "name": "haba",
       "range": [
         12,
         12
@@ -387,7 +387,7 @@
       "_key": "!tables.results!b3bE4RnBpBwA1ZHZ.mPGp7ekZiTO0jz43"
     },
     {
-      "name": "ladrar",
+      "name": "corteza",
       "range": [
         17,
         17
@@ -579,7 +579,7 @@
       "_key": "!tables.results!b3bE4RnBpBwA1ZHZ.Yvxqft0FZEhz7RuS"
     },
     {
-      "name": "hongo",
+      "name": "seta",
       "range": [
         25,
         25
@@ -603,7 +603,7 @@
       "_key": "!tables.results!b3bE4RnBpBwA1ZHZ.U56Ml623iOpIumbS"
     },
     {
-      "name": "columna vertebral",
+      "name": "púa",
       "range": [
         26,
         26
@@ -627,7 +627,7 @@
       "_key": "!tables.results!b3bE4RnBpBwA1ZHZ.ViNOPZl0FcRSb0mB"
     },
     {
-      "name": "césped",
+      "name": "grama",
       "range": [
         27,
         27
@@ -651,7 +651,7 @@
       "_key": "!tables.results!b3bE4RnBpBwA1ZHZ.WZrG9HXcUYvq62Mh"
     },
     {
-      "name": "cordón",
+      "name": "encaje",
       "range": [
         28,
         28
@@ -723,7 +723,7 @@
       "_key": "!tables.results!b3bE4RnBpBwA1ZHZ.Dp774RuOA1PGOSyz"
     },
     {
-      "name": "brotar",
+      "name": "brote",
       "range": [
         31,
         31
@@ -843,7 +843,7 @@
       "_key": "!tables.results!b3bE4RnBpBwA1ZHZ.yXELF2ef8shF5tVi"
     },
     {
-      "name": "hierba",
+      "name": "matojo",
       "range": [
         36,
         36

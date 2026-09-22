@@ -1,20 +1,20 @@
 {
   "folder": "2tvdSlgYZ5v4Jiye",
-  "name": "Hechizo",
+  "name": "Arte arcano",
   "type": "talent",
   "_id": "AxZp1G4i81EHnKl3",
   "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
   "system": {
-    "description": "<p>Tienes habilidad para lanzar hechizos. Tiras Astucia para lanzarlo y el teorema del hechizo que estás lanzando sirve como piedra de toque. Conoces 4 teoremas de hechizos inscritos en tu libro de hechizos, creados usando @UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj.JournalEntryPage.oAUafgvMOjLisdE2]{Crisol de hechizos}. En cada sesión, puedes lanzar 4 hechizos y 2 hechizos potentes. Tu eliges qué teorema de hechizo usar cuando lo lanzas.</p><p>Puedes aprender nuevos teoremas de hechizos estudiando y experimentando con pergaminos, que puedes encontrar como tesoros u obtener de otros magos. Esto consume el pergamino.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, aumenta en 1 el lanzamiento de hechizos y hechizos potentes por sesión y crea 1 nuevo teorema con el <strong>@UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj.JournalEntryPage.oAUafgvMOjLisdE2]{Crisol de hechizos}</strong>.</p>",
+    "description": "<p>Puedes lanzar conjuros. Tiras Ingenio para lanzar, y el teorema del conjuro que lanzas sirve como piedra de toque. Conoces 4 teoremas de conjuro inscritos en tu libro de conjuros, creados con el @UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj.JournalEntryPage.oAUafgvMOjLisdE2]{Crisol de conjuros}. En cada sesión puedes lanzar 4 conjuros y 2 conjuros potentes. Al lanzar, eliges qué teorema usar.</p><p>Puedes aprender teoremas nuevos estudiando pergaminos y experimentando con ellos; puedes encontrarlos como tesoro u obtenerlos de otros magos. El pergamino se consume.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, aumenta en 1 los lanzamientos de conjuros y de conjuros potentes por sesión, y crea 1 teorema nuevo con el <strong>@UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj.JournalEntryPage.oAUafgvMOjLisdE2]{Crisol de conjuros}</strong>.</p>",
     "core": true,
     "notes": {
-      "description": "<p><em>Escribe aquí tus teoremas de hechizos.</em></p>",
-      "label": "Teoremas de hechizos"
+      "description": "<p><em>Anota aquí tus teoremas de conjuro.</em></p>",
+      "label": "Teoremas de conjuro"
     },
     "trackers": [
       {
         "type": "points",
-        "label": "Hechizos",
+        "label": "Conjuros",
         "points": {
           "value": 4,
           "max": 4,
@@ -26,7 +26,7 @@
       },
       {
         "type": "points",
-        "label": "Hechizos potentes",
+        "label": "Conjuros potentes",
         "points": {
           "value": 2,
           "max": 2,

@@ -3,7 +3,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Animales colosales, ferozmente territoriales, con pelaje espeso y garras enormes. Responde con saña a cualquier intrusión en su territorio.</p>",
+    "biography": "<p>Animales colosales, ferozmente territoriales, de pelaje espeso y garras enormes. Responden con saña a cualquier intrusión en su territorio.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
@@ -12,17 +12,17 @@
       "Velocidad sorprendente"
     ],
     "moves": [
-      "Cargo de prueba",
-      "Rugido bramido",
-      "Garfio demoledor"
+      "Carga de tanteo",
+      "Rugido atronador",
+      "Abrazo destrozador"
     ],
     "desires": [
       {
-        "value": "para fomentar la próxima generación de nuevos gobernantes.",
+        "value": "criar a la próxima generación de nuevos amos del territorio.",
         "are": false
       },
       {
-        "value": "para que se rompan sus fronteras.",
+        "value": "que se violen sus fronteras.",
         "are": false
       }
     ],
@@ -37,13 +37,13 @@
           "color": "#221c1c"
         },
         {
-          "name": "Marrón Grizzly",
+          "name": "Marrón pardo",
           "color": "#623d09"
         }
       ],
-      "sights": "Árboles partidos, aliento humeante en el aire frío.",
-      "sounds": "rugido ensordecedor resonando, pasos fuertes",
-      "smells": "Pino crujiente, tierra volcada, pelaje mojado."
+      "sights": "árboles partidos, aliento que humea en el aire frío",
+      "sounds": "rugido ensordecedor que retumba, pisadas atronadoras",
+      "smells": "pino fresco, tierra removida, pelaje mojado"
     },
     "pool": {
       "diceNum": 0,
@@ -51,16 +51,16 @@
     },
     "tables": [
       {
-        "name": "Problemas territoriales",
+        "name": "Problemas en su territorio",
         "instructions": "",
         "table": [
           [
-            "Tiene demasiados cubos.",
-            "Se ha convocado una gran cacería para ello.",
-            "Ha llegado otro terrible depredador.",
+            "Tiene demasiadas crías.",
+            "Se ha convocado una gran cacería para darle muerte.",
+            "Ha llegado otro superdepredador terrible.",
             "La civilización invade sus fronteras.",
-            "Las barreras totémicas restringen sus zonas de itinerancia.",
-            "Los duendes hacen la guerra a los orcos en sus tierras."
+            "Unas salvaguardas totémicas limitan su zona de caza.",
+            "Los trasgos guerrean contra los orcos en sus tierras."
           ]
         ]
       }

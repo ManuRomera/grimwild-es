@@ -1,14 +1,14 @@
 {
   "folder": "Km2uusPM1YvfRSZe",
-  "name": "Canalizar la Divinidad",
+  "name": "Canalizar divinidad",
   "type": "talent",
   "_id": "IbwvTRCpK7Ljyai9",
   "img": "icons/magic/holy/prayer-hands-glowing-yellow-green.webp",
   "system": {
-    "description": "<p>Tu dios te otorga la habilidad de lanzar hechizos. Tiras un grupo de dominios para lanzar y ese grupo de dominios y el epíteto de tu dios sirven como piedras de toque.</p><p>Crea tu dios (<em>abajo</em>). Tienes <strong>1 dominio principal</strong>, un grupo de energía 6d, y <strong>2 dominios menores</strong>, cada uno un grupo de energía 4d. Estas reservas se reponen en cada sesión. Puedes soltar 1d y tirar el dominio para lanzar un <em><strong>hechizo potente</strong></em>.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, aumenta un grupo de dominios en 1d (máximo 8d).</p>",
+    "description": "<p>Tu dios te concede la capacidad de lanzar conjuros. Para lanzar tiras la reserva de un dominio, y ese dominio y el epíteto de tu dios sirven como piedras de toque.</p><p>Crea a tu dios (<em>abajo</em>). Tienes <strong>1 dominio mayor</strong>, una reserva de poder de 6d, y <strong>2 dominios menores</strong>, cada uno con una reserva de poder de 4d. Estas reservas se reponen en cada sesión. Puedes descartar 1d y tirar el dominio para lanzar un <em><strong>conjuro potente</strong></em>.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, aumenta en 1d la reserva de un dominio (máximo 8d).</p>",
     "core": true,
     "notes": {
-      "description": "<p><em>Escribe aquí el nombre y los dominios de tu Dios.</em></p>",
+      "description": "<p><em>Escribe aquí el nombre de tu dios y sus dominios.</em></p>",
       "label": "Dios"
     },
     "trackers": [

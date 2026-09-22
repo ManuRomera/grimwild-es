@@ -1,11 +1,11 @@
 {
   "folder": "AlWljQLa4nCSGD2H",
-  "name": "Presagiar",
+  "name": "Presagia",
   "_id": "BgDBVoiRbx5zUcoA",
   "pages": [
     {
       "sort": 100000,
-      "name": "Presagiar",
+      "name": "Presagia",
       "type": "text",
       "_id": "48OnrMzmAhjHNjvo",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 33\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Insinúa problemas, a veces con un reserva de reloj. Provoca un movimiento de impacto posterior.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"El mago entrecierra los ojos con enojo cuando entras\". • \"Se oyen ruidos de cascos, un reloj 4d\".</em></span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em><br/></em></span></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">PRESAGIAR </span><span style=\"font-family:'Capito04VAR'\">para señalar amenazas próximas y dar a los jugadores la oportunidad de reaccionar. Esta es una excelente manera de introducir la adversidad cuando no tienes o no quieres gastar. </span><span style=\"font-family:'Capito04VARItalic'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span style=\"font-family:'Capito04VAR'\">. Si no logran afrontarlo o ignoran el peligro, genera un @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto} y el ritmo de la historia se acelera.</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 33\"><div class=\"layoutArea\"><div class=\"column\"><p>Insinúa problemas, a veces con una reserva de reloj. Detona más adelante un movimiento de impacto.</p><p><em>«El mago entorna los ojos con enfado cuando entras». • «Oyes cascos de caballos que se acercan: un reloj de 4d».</em></p><p><em><br/></em></p><p>PRESAGIA para anunciar amenazas que se avecinan y dar a los jugadores la ocasión de reaccionar. Es una forma estupenda de introducir adversidad cuando no tienes @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense} o no quieres gastarlo. Si no consiguen afrontarlo o ignoran el peligro, se detona un @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto} y el ritmo de la historia se acelera.</p></div></div></div>"
       },
       "video": {
         "controls": true,

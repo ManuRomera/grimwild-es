@@ -5,7 +5,7 @@
   "_id": "VQCjpLQxWDSfYs9C",
   "img": "icons/skills/toxins/poison-bottle-open-fire-purple.webp",
   "system": {
-    "description": "<p>En cada sesión tienes un <em><strong>Venenos 4d</strong> </em>reserva de recursos. Tienes acceso a los siguientes venenos: <em>alucinaciones—golpe de gracia—pérdida de memoria—náuseas—parálisis—suero de la verdad</em>. Cada uno de ellos necesita un poco de tiempo para hacer efecto y son más eficaces si se ingieren.</p>",
+    "description": "<p>En cada sesión tienes una reserva de recursos de <em><strong>4d Venenos</strong></em>. Tienes acceso a estos venenos: <em>alucinógeno—somnífero—amnésico—nauseabundo—paralizante—suero de la verdad</em>. Todos tardan un poco en hacer efecto y son más eficaces si se ingieren.</p>",
     "core": false,
     "notes": {
       "description": "",

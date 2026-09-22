@@ -5,7 +5,7 @@
   "_id": "Me7VMy86RNScK7bI",
   "img": "icons/magic/perception/third-eye-blue-red.webp",
   "system": {
-    "description": "<p>Tienes habilidad para lanzar hechizos. Elige 2 bastiones a continuación, que actúan como piedras de toque para tu magia psiónica. Tiras dos estadísticas combinadas para lanzar, formando la tirada sumando las estadísticas clave del bastión y restando dos (<em>3 músculos y 2 ingenios = 3d</em>).</p><p>En cada sesión tienes <strong>8 puntos de poder</strong>. Gasta 1 punto de poder para lanzar un hechizo. Puede <strong>aumentar</strong> gastar 1 o más puntos para: <em>lanzar un hechizo potente: tomar +1d (máximo una vez) en la tirada, ignorar las espinas del daño, agregar otro de tus bastiones como piedra de toque.</em>.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, aprende un nuevo bastión y gana 2 puntos de poder por sesión.</p>",
+    "description": "<p>Puedes lanzar conjuros. Elige 2 de los bastiones de abajo, que actúan como piedras de toque de tu magia psiónica. Para lanzar tiras dos atributos combinados: sumas los atributos clave del bastión y restas dos (<em>3 de Músculo y 2 de Ingenio = 3d</em>).</p><p>En cada sesión tienes <strong>8 puntos de poder</strong>. Gasta 1 punto de poder para lanzar un conjuro. Puedes <strong>potenciarlo</strong> gastando 1 punto o más para: <em>lanzar un conjuro potente—tener +1d en la tirada (una vez como máximo)—ignorar las espinas por daño—añadir otro de tus bastiones como piedra de toque</em>.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, aprendes un bastión nuevo y ganas 2 puntos de poder por sesión.</p>",
     "core": true,
     "notes": {
       "description": "<p><em>Anota aquí tus bastiones.</em></p>",

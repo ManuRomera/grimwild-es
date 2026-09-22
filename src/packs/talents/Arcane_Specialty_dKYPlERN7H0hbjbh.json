@@ -1,11 +1,11 @@
 {
   "folder": "2tvdSlgYZ5v4Jiye",
-  "name": "Especialidad Arcana",
+  "name": "Especialidad arcana",
   "type": "talent",
   "_id": "dKYPlERN7H0hbjbh",
   "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
   "system": {
-    "description": "<p>Elige tu escuela de especialidad. Todos tus teoremas de hechizos ahora lo tienen más otra escuela. Al realizar el casting, elija qué escuela utilizar. En una crítica con su escuela de especialidad, <strong>tomar chispa</strong>.</p>",
+    "description": "<p>Elige tu escuela de especialidad. Todos tus teoremas de conjuro pasan a tenerla, además de otra escuela. Al lanzar, eliges qué escuela usar. Con un crítico usando tu escuela de especialidad, <strong>ganas chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "<p><em>Anota aquí tu escuela de especialidad.</em></p>",

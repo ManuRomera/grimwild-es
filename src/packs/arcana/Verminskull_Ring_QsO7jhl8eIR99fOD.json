@@ -1,5 +1,5 @@
 {
-  "name": "Anillo de calavera de alimañas",
+  "name": "Anillo de la calavera de alimaña",
   "type": "arcana",
   "img": "icons/equipment/finger/ring-inlay-skull-silver.webp",
   "system": {
@@ -23,8 +23,8 @@
         }
       }
     ],
-    "limitations": "<p>Reserva de energía 8d, refrescada alimentando uno de tus dedos.</p>",
-    "touchstones": "alimañas—comando—enjambre",
+    "limitations": "<p>Reserva de poder de 8d, que se renueva dándole de comer uno de tus dedos.</p>",
+    "touchstones": "alimañas—mando—enjambre",
     "tier": "mythic"
   },
   "effects": [],

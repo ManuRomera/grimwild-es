@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Daño leve, un obstáculo temporal para una estadística. <em>(sin aliento, confundido)</em>. <em><strong>Toma +1 espina en la siguiente tirada con esa estadística, luego borra la marca.</strong></em></p><p>Si una estadística ya está marcada, toma @UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Daño} en su lugar. Siempre que una estadística esté marcada, incluso si tienes el daño relacionado, puedes marcarla.</p><p>Las marcas a menudo se combinan con otra marca u otras consecuencias cuando se infligen directamente <em>(Marca de agilidad + tirado de tu caballo)</em>. También tomas una marca cuando @UUID[Compendium.grimwild.rules.JournalEntry.i7KRerD2wyqcWclD]{Esfuérzate}.</p>"
+        "content": "<p>Daño leve, un lastre temporal en un atributo <em>(sin aliento, confundido)</em>. <em><strong>Tienes +1t en la siguiente tirada con ese atributo y luego borras la marca.</strong></em></p><p>Si un atributo ya tiene una marca, recibes @UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Daño grave} en su lugar. Mientras un atributo no tenga marca, puedes recibir una marca en él aunque ya tengas su daño grave relacionado.</p><p>Las marcas suelen combinarse con otra marca u otras consecuencias cuando se infligen directamente <em>(marca en Agilidad + te derriban del caballo)</em>. También recibes una marca cuando usas @UUID[Compendium.grimwild.rules.JournalEntry.i7KRerD2wyqcWclD]{Esfuérzate}.</p>"
       },
       "video": {
         "controls": true,

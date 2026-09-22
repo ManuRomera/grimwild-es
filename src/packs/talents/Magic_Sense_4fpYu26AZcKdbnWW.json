@@ -5,7 +5,7 @@
   "_id": "4fpYu26AZcKdbnWW",
   "img": "icons/magic/perception/eye-slit-orange.webp",
   "system": {
-    "description": "<p>Siempre obtienes un <strong>pista</strong> o <strong>revelar</strong> sobre vigilancia que involucra magia. Cuando lo evitas o lo interrumpes, <strong>tomar chispa</strong>.</p>",
+    "description": "<p>Siempre obtienes una <strong>pista</strong> o una <strong>revelación</strong> en las tiradas de vigilancia relacionadas con la magia. Cuando la evitas o la desbaratas, <strong>ganas chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",

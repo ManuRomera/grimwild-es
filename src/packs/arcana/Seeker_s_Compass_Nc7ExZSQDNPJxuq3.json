@@ -3,7 +3,7 @@
   "type": "arcana",
   "img": "icons/tools/navigation/compass-brass-blue-red.webp",
   "system": {
-    "description": "<p>Pregúntale \"¿Dónde puedo encontrar ~?\" y te lo dirá. Siempre lo crees.</p>",
+    "description": "<p>Pregúntale «¿Dónde puedo encontrar ~?» y te lo dirá. Siempre la crees.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,7 +23,7 @@
         }
       }
     ],
-    "limitations": "<p>Grupo de poder 4d, realizado como una tirada de historia. Reabastecido a las 0d.</p>",
+    "limitations": "<p>Reserva de poder de 4d, que se tira como una tirada de historia. Se repone al llegar a 0d.</p>",
     "touchstones": "guía—confianza—esperanza",
     "tier": "minor"
   },

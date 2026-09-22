@@ -1,11 +1,11 @@
 {
   "folder": "WErPxEpB1oKJCPGq",
-  "name": "Pensar fuera de pantalla",
+  "name": "Pensar fuera de escena",
   "_id": "fAxmXNJNE9XqqMmc",
   "pages": [
     {
       "sort": 100000,
-      "name": "Pensar fuera de pantalla",
+      "name": "Pensar fuera de escena",
       "type": "text",
       "_id": "Rl8ndBbeMqLMBOQD",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Repercusiones que ocurren más allá de la acción inmediata. No todas las consecuencias tienen que ocurrir en el centro de atención. Golpear en otro lugar genera tensión, acelera los problemas que se avecinan o crea oportunidades perdidas. Estos eventos invisibles hacen que el mundo se sienta vivo, agregando profundidad más allá del momento presente.</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p>Repercusiones que ocurren más allá de la acción inmediata. No todas las consecuencias tienen que ocurrir bajo el foco. Golpear en otra parte crea tensión, acelera los problemas que se acercan o hace que se pierdan oportunidades. Estos sucesos invisibles hacen que el mundo parezca vivo y le dan profundidad más allá del momento presente.</p></div></div></div>"
       },
       "video": {
         "controls": true,

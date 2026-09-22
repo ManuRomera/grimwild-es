@@ -4,46 +4,46 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Altísimos crustáceos con enormes garras aplastantes, sólo vulnerables cuando mudan. Se escabullen por los bajíos costeros, devorando todo lo que encuentran a su paso.</p>",
+    "biography": "<p>Crustáceos gigantescos con enormes pinzas trituradoras, que solo son vulnerables cuando mudan. Corretean por los bajíos costeros devorando todo lo que encuentran a su paso.</p>",
     "notes": "",
     "role": "marauder",
     "tier": "tough",
     "traits": [
       "Caparazón impenetrable",
-      "Apetitos voraces"
+      "Apetito voraz"
     ],
     "moves": [
-      "Haga clic, clac",
-      "Cortar, cortar",
-      "rasgar por la mitad"
+      "Clic, clac",
+      "Tris, tras",
+      "Partir por la mitad"
     ],
     "desires": [
       {
-        "value": "sus descendientes invadan las playas.",
+        "value": "que sus crías invadan las playas.",
         "are": false
       },
       {
-        "value": "que algo se meta debajo de él.",
+        "value": "que algo se le meta debajo.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Concha Roja",
+          "name": "Rojo caparazón",
           "color": "#b22222"
         },
         {
-          "name": "rosa coralino",
+          "name": "Rosa coral",
           "color": "#ff7f50"
         },
         {
-          "name": "Naranja carnosa",
+          "name": "Naranja carne",
           "color": "#ffa07a"
         }
       ],
-      "sights": "cantos rodados cortados por la mitad, agujeros extraños en la arena",
-      "sounds": "crujido de su concha chirriando, chasquido de patas",
+      "sights": "rocas partidas por la mitad, extraños agujeros en la arena",
+      "sounds": "crujido chirriante de su caparazón, chasquido de patas",
       "smells": "arena mojada, algas y vida marina en descomposición"
     },
     "pool": {
@@ -56,12 +56,12 @@
         "instructions": "",
         "table": [
           [
-            "Barco pirata hundido, ahora embrujado.",
-            "Torreta del castillo caída, llena de explosivos.",
-            "Calavera de gigante, con un reluciente diente de oro.",
-            "Caja torácica de ballena, cubierta de percebes.",
-            "Submarino gnómico, todavía estanco.",
-            "Caldero de hierro que alguna vez usó un gigante."
+            "Un barco pirata hundido, ahora encantado.",
+            "El torreón caído de un castillo, lleno de explosivos.",
+            "La calavera de un gigante, con un reluciente diente de oro.",
+            "El costillar de una ballena, cubierto de percebes.",
+            "Un submarino gnomo, todavía estanco.",
+            "Un caldero de hierro que en su día usó un gigante."
           ]
         ]
       }

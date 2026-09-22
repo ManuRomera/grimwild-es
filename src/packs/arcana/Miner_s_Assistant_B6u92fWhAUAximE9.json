@@ -1,9 +1,9 @@
 {
-  "name": "Ayudante de minero",
+  "name": "Ayudante del minero",
   "type": "arcana",
   "img": "icons/sundries/lights/lantern-iron-yellow.webp",
   "system": {
-    "description": "<p>Arde más brillante cuanto más profundo profundizas.</p>",
+    "description": "<p>Brilla más cuanto más hondo desciendes.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,8 +23,8 @@
         }
       }
     ],
-    "limitations": "<p>Si una criatura poderosa acecha cerca, te llevará hasta su nuevo dueño.</p>",
-    "touchstones": "luz-profundidad-guía",
+    "limitations": "<p>Si una criatura poderosa acecha cerca, te conduce hasta su nuevo dueño.</p>",
+    "touchstones": "luz—profundidad—guía",
     "tier": "minor"
   },
   "effects": [],

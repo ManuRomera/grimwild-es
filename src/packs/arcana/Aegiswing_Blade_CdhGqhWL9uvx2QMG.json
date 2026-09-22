@@ -1,16 +1,16 @@
 {
-  "name": "Espada alada de égida",
+  "name": "Espada de la Égida Alada",
   "type": "arcana",
   "img": "icons/weapons/swords/sword-gold-holy.webp",
   "system": {
-    "description": "<p>Lucha junto a ti como un aliado de confianza, como si fuera un luchador de nivel 1 con Bulwark.</p>",
+    "description": "<p>Lucha a tu lado como un aliado de confianza, como si fuera un combatiente de nivel 1 con Baluarte.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
     "limitations": "<p>Si se destruye, mueres.</p>",
-    "touchstones": "huida—protección—lealtad",
+    "touchstones": "vuelo—protección—lealtad",
     "tier": "mythic"
   },
   "effects": [],

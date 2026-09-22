@@ -3,13 +3,13 @@
   "type": "arcana",
   "img": "icons/creatures/magical/humanoid-silhouette-glowing-pink.webp",
   "system": {
-    "description": "<p>Crece una copia viva de alguien, completa con sus recuerdos.</p>",
+    "description": "<p>Hace crecer una copia viva de alguien, recuerdos incluidos.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Se debe plantar y crecer durante un año y un día.</p>",
+    "limitations": "<p>Hay que plantarla y dejarla crecer durante un año y un día.</p>",
     "touchstones": "replicación—vida—misterio",
     "tier": "mythic"
   },

@@ -5,7 +5,7 @@
   "_id": "w989kCy4tafGs3ys",
   "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
   "system": {
-    "description": "<p>En cada sesión tienes un <em><strong>Devoraconjuros 3d</strong></em> reserva de recursos. Cuando sufras de magia, tira la reserva. Si quedan dados, ignora el efecto y la guarda esencia (máximo 2). Puedes gastar <em><strong>esencia</strong></em> para aumentar el resultado de un dado de hechicería en 1, pero activa <em><strong>@UUID[Compendium.grimwild.rules.JournalEntry.T61vQHWAc1MN4LDB]{oleada salvaje}</strong></em>.</p>",
+    "description": "<p>En cada sesión tienes una reserva de recursos de <em><strong>3d Devoraconjuros</strong></em>. Cuando la magia te afecte, tira la reserva. Si quedan dados, ignoras el efecto y acumulas esencia (2 como máximo). Puedes gastar <em><strong>esencia</strong></em> para aumentar en 1 el resultado de un dado de lanzamiento de conjuros, pero desencadena una <em><strong>@UUID[Compendium.grimwild.rules.JournalEntry.T61vQHWAc1MN4LDB]{Oleada salvaje}</strong></em>.</p>",
     "core": false,
     "notes": {
       "description": "",

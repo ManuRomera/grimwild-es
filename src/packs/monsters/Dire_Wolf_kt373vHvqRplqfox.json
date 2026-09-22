@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Lobo corpulento con pelaje erizado y colmillos como dagas. Cazan con una manada de lobos menores, usando una temible coordinación para atrapar y derribar a sus presas.</p>",
+    "biography": "<p>Lobos corpulentos de pelaje erizado y colmillos como dagas. Cazan con una manada de lobos menores y se coordinan de forma temible para acorralar y derribar a sus presas.</p>",
     "notes": "",
     "role": "overseer",
     "tier": "tough",
@@ -13,17 +13,17 @@
       "Coordinación de manada"
     ],
     "moves": [
-      "Paquete de llamadas",
-      "Afrontar la presa",
+      "Llamar a la manada",
+      "Placar a la presa",
       "Ataque de manada"
     ],
     "desires": [
       {
-        "value": "para proteger su manada.",
+        "value": "proteger a su manada.",
         "are": false
       },
       {
-        "value": "cualquier cosa que le impida andar libremente.",
+        "value": "cualquier cosa que le impida vagar en libertad.",
         "are": false
       }
     ],
@@ -43,8 +43,8 @@
         }
       ],
       "sights": "silueta al borde del claro, huellas en el barro",
-      "sounds": "aullido inquietante, gruñido gutural, respiración agitada",
-      "smells": "pelaje mezclado con tierra fresca, sudor, aire de montaña"
+      "sounds": "aullido escalofriante, gruñido gutural, respiración pesada",
+      "smells": "pelaje con olor a tierra fresca, sudor, aire de montaña"
     },
     "pool": {
       "diceNum": 0,
@@ -56,12 +56,12 @@
         "instructions": "",
         "table": [
           [
-            "Luna nueva, patrullas fronterizas inquietas.",
-            "Creciente, los jóvenes se vuelven rebeldes.",
-            "Luna llena, aullidos ensordecedores.",
-            "Giboso, el dominio de la manada cambia.",
-            "Luna de sangre, arrasa fuera de sus fronteras.",
-            "Luna azul, nace camada de lobos terribles."
+            "Luna nueva: patrullas inquietas por las fronteras.",
+            "Creciente: los jóvenes se vuelven rebeldes.",
+            "Luna llena: aullidos ensordecedores.",
+            "Gibosa: cambia el dominio dentro de la manada.",
+            "Luna de sangre: arrasan más allá de sus fronteras.",
+            "Luna azul: nace una camada de lobos terribles."
           ]
         ]
       }

@@ -5,7 +5,7 @@
   "_id": "y3owSThkSnGqUUp0",
   "img": "icons/magic/control/mouth-smile-deception-purple.webp",
   "system": {
-    "description": "<p>Cuando se le da tiempo, se puede decir <strong>mentiras potentes</strong> como <em>decirle al rey que eres su bastardo</em> o un <em>profecía que predice la caída de la capital</em>. Puedes esforzarte para hacerlo en el acto.</p>",
+    "description": "<p>Si tienes tiempo, puedes contar <strong>mentiras potentes</strong>, como <em>decirle al rey que eres su bastardo</em> o una <em>profecía que anuncia la caída de la capital</em>. Puedes esforzarte para hacerlo sobre la marcha.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

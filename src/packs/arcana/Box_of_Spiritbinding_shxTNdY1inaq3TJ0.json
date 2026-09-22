@@ -1,9 +1,9 @@
 {
-  "name": "Caja de vinculación espiritual",
+  "name": "Caja atrapaespíritus",
   "type": "arcana",
   "img": "icons/containers/boxes/box-gift-blue.webp",
   "system": {
-    "description": "<p>Tiene un fantasma que puedes invocar. Si está vacío, puedes atrapar un espíritu en su interior.</p>",
+    "description": "<p>Contiene un fantasma que puedes invocar. Si está vacía, puedes atrapar un espíritu en su interior.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,8 +23,8 @@
         }
       }
     ],
-    "limitations": "<p>4d Ghost Escapes, rodado con cada uso.</p>",
-    "touchstones": "fantasmas-vinculantes-horripilantes",
+    "limitations": "<p>Reserva de 4d «El fantasma escapa», que se tira en cada uso.</p>",
+    "touchstones": "fantasmas—ataduras—horripilante",
     "tier": "major"
   },
   "effects": [],

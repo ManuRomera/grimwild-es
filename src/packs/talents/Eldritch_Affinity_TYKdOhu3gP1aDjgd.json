@@ -5,11 +5,11 @@
   "_id": "TYKdOhu3gP1aDjgd",
   "img": "icons/magic/light/hand-sparks-smoke-green.webp",
   "system": {
-    "description": "<p>Tienes el lanzamiento de hechizos, como talento de Hechicería. Tiras Presencia para lanzar y eliges 3 de los caminos y técnicas mágicas que sirven como piedras de toque. No puedes lanzar hechizos potentes ni te arriesgas a una oleada salvaje.</p>",
+    "description": "<p>Lanzas conjuros como con el talento Hechicería. Tiras Presencia para lanzar y eliges 3 caminos mágicos y técnicas, que sirven como piedras de toque. No puedes lanzar conjuros potentes, pero tampoco te arriesgas a una oleada salvaje.</p>",
     "core": false,
     "notes": {
-      "description": "<p><em>Anota aquí tus 3 caminos y técnicas mágicas.</em></p>",
-      "label": "Caminos y técnicas mágicas"
+      "description": "<p><em>Anota aquí tus 3 caminos mágicos y técnicas.</em></p>",
+      "label": "Caminos mágicos y técnicas"
     },
     "trackers": [],
     "path": "rogue"

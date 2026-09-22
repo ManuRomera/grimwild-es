@@ -11,41 +11,41 @@
     "traits": [
       "Sigilo lento",
       "Piel espinosa",
-      "Agudo sentido del olfato"
+      "Olfato agudo"
     ],
     "moves": [
       "Mirada petrificante",
-      "Muerde y golpea",
-      "Largarse"
+      "Muerde y se revuelve",
+      "Escabullirse"
     ],
     "desires": [
       {
-        "value": "para comer una deliciosa estatua, más tarde.",
+        "value": "zamparse una deliciosa estatua, más tarde.",
         "are": false
       },
       {
-        "value": "luz que revela sus escondites.",
+        "value": "que la luz revele sus escondites.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "verde escamoso",
+          "name": "Verde escamoso",
           "color": "#566b30"
         },
         {
-          "name": "marrón musgo",
+          "name": "Marrón musgo",
           "color": "#8b4512"
         },
         {
-          "name": "gris rocoso",
+          "name": "Gris rocoso",
           "color": "#708090"
         }
       ],
-      "sights": "brillo de escamas, senderos deslizándose a través del polvo",
-      "sounds": "silencio, silbido áspero, crujido de piedra masticada",
-      "smells": "olor a tiza de piedra molida, aire seco"
+      "sights": "brillo de escamas, rastros sinuosos en el polvo",
+      "sounds": "silencio, siseo áspero, crujido de piedra masticada",
+      "smells": "olor calcáreo a piedra molida, aire reseco"
     },
     "pool": {
       "diceNum": 0,
@@ -57,11 +57,11 @@
         "instructions": "",
         "table": [
           [
-            "Debajo de un puente en ruinas, pero todavía en uso.",
+            "Bajo un puente ruinoso, pero todavía en uso.",
             "Dentro del cadáver podrido de un dragón caído.",
-            "En el quinto historia de una torre de vigilancia abandonada.",
+            "En el quinto piso de una atalaya abandonada.",
             "En un campo lleno de estatuas de osos a medio comer.",
-            "Dentro de un laberinto de tuberías oxidadas y resonantes.",
+            "Dentro de un laberinto de tuberías oxidadas donde resuena el eco.",
             "Entre las raíces retorcidas de un árbol gigante."
           ]
         ]

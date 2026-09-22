@@ -1,10 +1,10 @@
 {
   "folder": null,
-  "name": "Bruja marina",
+  "name": "Saga marina",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Grotescos habitantes del mar cuya mirada inspira terror. Acechan en cuevas costeras, maldiciendo a los marineros y deleitándose con los terribles gritos de los que se ahogan.</p>",
+    "biography": "<p>Grotescas moradoras del mar cuya mirada inspira terror. Acechan en cuevas costeras, maldicen a los marineros y se deleitan con los gritos aterrados de los que se ahogan.</p>",
     "notes": "",
     "role": "tactician",
     "tier": "tough",
@@ -14,37 +14,37 @@
       "Habla"
     ],
     "moves": [
-      "Mirada horrible",
+      "Mirada espantosa",
       "Maldición de ahogamiento",
-      "Llamar criaturas"
+      "Llamar a las criaturas"
     ],
     "desires": [
       {
-        "value": "para recoger almas perdidas en las profundidades de los mares.",
+        "value": "recoger las almas perdidas en las profundidades del mar.",
         "are": false
       },
       {
-        "value": "alguien que haga fortuna en los mares.",
+        "value": "que alguien haga fortuna en el mar.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Algas Verdes",
+          "name": "Verde alga",
           "color": "#2e8a57"
         },
         {
-          "name": "Madera flotante oscura",
+          "name": "Madera de deriva oscura",
           "color": "#4b3621"
         },
         {
-          "name": "Azul Mar",
+          "name": "Azul mar",
           "color": "#4682b4"
         }
       ],
-      "sights": "piel viscosa, pelo enredado de algas, ojos vidriosos",
-      "sounds": "olas rompiendo, suaves gorgoteos, llamadas resonantes",
+      "sights": "piel viscosa, pelo enmarañado de algas, ojos vidriosos",
+      "sounds": "olas que rompen, suaves gorgoteos, llamadas que resuenan",
       "smells": "agua salada, pescado podrido, olor salado a algas"
     },
     "pool": {
@@ -53,31 +53,31 @@
     },
     "tables": [
       {
-        "name": "Crisol de hechizos marinos (hacer 3 hechizos)",
+        "name": "Crisol de conjuros marinos (crea 3 conjuros)",
         "instructions": "Tira 2d6 tres veces.",
         "table": [
           [
-            "hinchazón",
-            "ondulación",
-            "gluglú",
+            "creciente",
+            "ondulante",
+            "borboteante",
             "espumoso",
-            "surgiendo",
+            "embravecido",
             "salado"
           ],
           [
-            "chabola",
+            "saloma",
             "gemido",
-            "agarre",
+            "presa",
             "reflujo",
             "ola",
-            "actual"
+            "corriente"
           ]
         ]
       }
     ]
   },
   "prototypeToken": {
-    "name": "Bruja marina",
+    "name": "Saga marina",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

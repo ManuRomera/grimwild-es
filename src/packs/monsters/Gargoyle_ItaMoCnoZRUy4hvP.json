@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criaturas aladas parecidas a piedras que se disfrazan como parte de edificios y sirven como guardianes. Pueden permanecer inmóviles durante años hasta que se acercan intrusos.</p>",
+    "biography": "<p>Criaturas aladas de aspecto pétreo que se hacen pasar por parte de los edificios y actúan como guardianes. Pueden permanecer inmóviles durante años hasta que se acercan intrusos.</p>",
     "notes": "",
     "role": "protector",
     "tier": "tough",
@@ -14,28 +14,28 @@
       "Habla"
     ],
     "moves": [
-      "saltar susto",
-      "Arrebatar y volar",
+      "Susto repentino",
+      "Agarrar y alzar el vuelo",
       "Garras de piedra"
     ],
     "desires": [
       {
-        "value": "dejar que los intrusos pasen el punto de no retorno.",
+        "value": "dejar que los intrusos crucen el punto de no retorno.",
         "are": false
       },
       {
-        "value": "para sobrevivir a su deber.",
+        "value": "sobrevivir a su deber.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Gris Piedra",
+          "name": "Gris piedra",
           "color": "#696969"
         },
         {
-          "name": "Negro Ceniza",
+          "name": "Negro ceniza",
           "color": "#2f2f2f"
         },
         {
@@ -43,9 +43,9 @@
           "color": "#6a8e22"
         }
       ],
-      "sights": "nada de interés, alas desplegadas, ojos abiertos",
-      "sounds": "Lento raspado de piedra, suave silbido de alas, fuerte ruido sordo.",
-      "smells": "tierra polvorienta, piedra antigua, sabor a agua de lluvia"
+      "sights": "nada de interés, alas que se despliegan, ojos que se abren",
+      "sounds": "lento roce de piedra, suave batir de alas, golpe sordo y pesado",
+      "smells": "tierra polvorienta, piedra antigua, regusto a agua de lluvia"
     },
     "pool": {
       "diceNum": 0,
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "Salas impares",
+        "name": "Custodias extrañas",
         "instructions": "",
         "table": [
           [
             "Puerta que debe permanecer abierta.",
             "Trono destinado a un rey caído.",
             "Puerta que aparentemente no lleva a ninguna parte.",
-            "Altar mucho tiempo sin su dios.",
-            "Campanario, ni una sola vez sonó.",
-            "Pozo vacío, su comunidad ahora polvo."
+            "Altar que lleva mucho tiempo sin su dios.",
+            "Campanario que nunca ha sonado.",
+            "Pozo escalonado vacío; su comunidad ya es polvo."
           ]
         ]
       }

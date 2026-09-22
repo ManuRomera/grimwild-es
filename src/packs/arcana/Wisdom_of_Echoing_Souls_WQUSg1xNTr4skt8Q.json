@@ -1,16 +1,16 @@
 {
-  "name": "Sabiduría de las almas que hacen eco",
+  "name": "Sabiduría de las almas resonantes",
   "type": "arcana",
   "img": "icons/equipment/neck/pendant-rounded-blue.webp",
   "system": {
-    "description": "<p>Contiene débiles impresiones de propietarios anteriores. Da tres sabios.</p>",
+    "description": "<p>Contiene tenues impresiones de sus antiguos dueños. Otorga tres saberes.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
     "limitations": "<p>Gasta chispa para usarlo. De vez en cuando exige un favor.</p>",
-    "touchstones": "sabiduría—historia—orientación",
+    "touchstones": "sabiduría—historia—guía",
     "tier": "major"
   },
   "effects": [],

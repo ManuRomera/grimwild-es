@@ -1,11 +1,11 @@
 {
   "folder": "V3M0EcoDlbmFxQPL",
-  "name": "Inmediatez",
+  "name": "Detonante",
   "_id": "alGNquysp2VSzQHw",
   "pages": [
     {
       "sort": 100000,
-      "name": "Inmediatez",
+      "name": "Detonante",
       "type": "text",
       "_id": "aRbQ7hWKfG1USszp",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Un desencadenante para que hagas un movimiento de impacto, causado por cosas como tiradas de acción sombrías o complicadas, una reserva agotada relevante, un problema sin resolver. </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.BgDBVoiRbx5zUcoA]{Presagiar} </span><span style=\"font-family:'Capito04VAR'\">mudarse o gastando @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}.</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p>Algo que te lleva a hacer un movimiento de impacto, como una tirada de acción sombría o complicada, el agotamiento de una reserva relevante, un movimiento de @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.BgDBVoiRbx5zUcoA]{Presagia} al que no se ha hecho frente o gastar @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}.</p></div></div></div>"
       },
       "video": {
         "controls": true,

@@ -5,10 +5,10 @@
   "_id": "N3ih0zhf2LSmP8dM",
   "img": "icons/skills/melee/strike-dagger-skull-white.webp",
   "system": {
-    "description": "<p>Elige un conjunto de habilidades como tu especialidad:</p><p><em><strong>Trampas</strong></em>: Obtén +1d en sigilo, forzando cerraduras, mintiendo y prestidigitación.</p><p><em><strong>Asesinato</strong></em>: Obtén +1d en sigilo, seguimiento de personas, ataques iniciales y disfraces.</p><p>En cada sesión tienes un <em><strong>Contingencia 3d</strong> </em>reserva de recursos, siempre planificando con anticipación. Puedes tirar la reserva como dado de bonificación después de cualquier tirada que esté dentro de tu especialidad.</p>",
+    "description": "<p>Elige como pericia uno de estos conjuntos de habilidades:</p><p><em><strong>Artimañas</strong></em>: Tienes +1d al moverte con sigilo, forzar cerraduras, mentir y en juegos de manos.</p><p><em><strong>Asesinato</strong></em>: Tienes +1d al moverte con sigilo, seguir a personas, en ataques por sorpresa y con disfraces.</p><p>En cada sesión tienes una reserva de recursos de <em><strong>3d Contingencia</strong></em>, porque siempre vas un paso por delante. Puedes tirar la reserva como dados extra después de cualquier tirada que entre en tu pericia.</p>",
     "core": true,
     "notes": {
-      "description": "<p><em>Escriba aquí su experiencia.</em></p>",
+      "description": "<p><em>Anota aquí tu pericia.</em></p>",
       "label": "Conjunto de habilidades"
     },
     "trackers": [

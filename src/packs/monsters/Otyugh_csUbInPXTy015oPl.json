@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Grotescos carroñeros con tentáculos acechan en alcantarillas y montones de basura. Devoran cadáveres podridos y abruman cualquier perturbación con inmundicia enfermiza.</p>",
+    "biography": "<p>Carroñeros grotescos con tentáculos que acechan en alcantarillas y vertederos. Devoran cadáveres podridos y ahogan cualquier molestia en inmundicia infecta.</p>",
     "notes": "",
     "role": "marauder",
     "tier": "tough",
     "traits": [
-      "Toque enfermo",
-      "Hedor apestoso",
-      "Entiende, Telepatía"
+      "Toque infeccioso",
+      "Hedor nauseabundo",
+      "Entiende, telepatía"
     ],
     "moves": [
-      "Rociar suciedad",
+      "Rociar inmundicia",
       "Trago pútrido",
-      "Tentáculo de lodo"
+      "Tentáculo de fango"
     ],
     "desires": [
       {
-        "value": "para lograr treguas simples por el territorio.",
+        "value": "pactar treguas sencillas por el territorio.",
         "are": false
       },
       {
-        "value": "para que su inmundicia acumulada sea lavada.",
+        "value": "que le laven la inmundicia acumulada.",
         "are": false
       }
     ],
@@ -35,7 +35,7 @@
           "color": "#6b4226"
         },
         {
-          "name": "Alcantarilla verde",
+          "name": "Verde cloaca",
           "color": "#566b30"
         },
         {
@@ -44,8 +44,8 @@
         }
       ],
       "sights": "tentáculos viscosos, inmundicia podrida, huesos esparcidos",
-      "sounds": "movimientos blandos, gorgoteos húmedos, zumbidos de moscas",
-      "smells": "podredumbre pútrida, descomposición, agua estancada del pantano"
+      "sounds": "movimientos viscosos, gorgoteos húmedos, zumbido de moscas",
+      "smells": "putrefacción, descomposición, agua estancada de pantano"
     },
     "pool": {
       "diceNum": 0,
@@ -57,12 +57,12 @@
         "instructions": "",
         "table": [
           [
-            "Escupiendo enjambres de hongos animados.",
-            "Impulsado por un culto a la ruina.",
-            "Controlado por trabajadores sanitarios de la ciudad.",
-            "Seguido por una horda de ratas plagadas.",
-            "Montado por un asqueroso chamán duende.",
-            "Poseído por el espíritu de un Druida caído."
+            "Escupe enjambres de hongos animados.",
+            "Lo empuja un culto de la ruina.",
+            "Lo controlan los poceros de la ciudad.",
+            "Lo sigue una horda de ratas apestadas.",
+            "Lo monta un repugnante chamán trasgo.",
+            "Lo posee el espíritu de un druida caído."
           ]
         ]
       }

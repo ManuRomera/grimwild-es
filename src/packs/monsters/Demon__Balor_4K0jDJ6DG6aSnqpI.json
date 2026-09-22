@@ -4,34 +4,34 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Encarnaciones imponentes del mal puro, con enormes alas parecidas a las de un murciélago. Gobiernan con caos y destrucción, y tienen un hambre insaciable de más poder.</p>",
-    "notes": "<p>Argumento de la historia: INFIERNO PARA PAGAR.</p><p>\"El balor emerge del destrozado círculo de invocación mientras la catedral estalla en llamas a su alrededor. Aquellos que lo perturbaron yacen muertos y ahora la capital sentirá su furia\".</p>",
+    "biography": "<p>Imponentes encarnaciones del mal puro, con enormes alas de murciélago. Gobiernan con caos y destrucción, y tienen un hambre insaciable de más poder.</p>",
+    "notes": "<p>Gancho de historia: UN INFIERNO QUE PAGAR.</p><p>«El bálor surge del círculo de invocación hecho añicos mientras la catedral arde en llamas a su alrededor. Quienes lo perturbaron yacen muertos y ahora la capital sentirá su furia».</p>",
     "role": "overseer",
     "tier": "tough",
     "traits": [
-      "Perfora engaños",
+      "Ve a través de los engaños",
       "Aura ardiente",
-      "Habla, Telepatía"
+      "Habla, telepatía"
     ],
     "moves": [
       "Látigo ardiente",
       "Espada crepitante",
-      "Teletransporte en auge"
+      "Teletransporte atronador"
     ],
     "desires": [
       {
-        "value": "disfrutar de su propia grandeza.",
+        "value": "regodearse en su propia grandeza.",
         "are": false
       },
       {
-        "value": "su control absoluto vacilara, aunque fuera por un segundo.",
+        "value": "que su control absoluto vacile, aunque sea un segundo.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "rojo infierno",
+          "name": "Rojo infierno",
           "color": "#b22222"
         },
         {
@@ -39,13 +39,13 @@
           "color": "#2f2f2f"
         },
         {
-          "name": "Naranja ascua",
+          "name": "Naranja brasa",
           "color": "#ff4500"
         }
       ],
-      "sights": "llamas danzantes caóticas, grandes huellas humeantes",
-      "sounds": "Latigazos, relámpagos crepitantes, cantos guturales",
-      "smells": "azufre abrumador, ceniza sofocante"
+      "sights": "llamas que danzan caóticas, grandes huellas humeantes",
+      "sounds": "chasquidos de látigo, rayos crepitantes, cánticos guturales",
+      "smells": "azufre abrumador, ceniza asfixiante"
     },
     "pool": {
       "diceNum": 0,
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "agonía de muerte",
-        "instructions": "Tirada 2",
+        "name": "Estertores de muerte",
+        "instructions": "Tira 2 veces",
         "table": [
           [
-            "Explosión devastadora, reduciendo todo a cenizas.",
-            "Un destello brillante que cega a todos los que lo presencian.",
-            "Los géiseres de lava brotan del suelo.",
-            "Los meteoros Hellfire bombardean la zona.",
-            "Un ciclón abrasador y una lluvia derretida causan estragos.",
-            "Se abre un portal al abismo, una entrada obligada."
+            "Una explosión devastadora lo reduce todo a cenizas.",
+            "Un destello cegador deja ciegos a todos los que lo presencian.",
+            "Brotan géiseres de lava del suelo.",
+            "Meteoros de fuego infernal bombardean la zona.",
+            "Un ciclón abrasador y una lluvia fundida causan estragos.",
+            "Se abre un portal al Abismo que obliga a entrar."
           ]
         ]
       }
@@ -185,10 +185,10 @@
           ]
         },
         "traits": [
-          "bien defendido"
+          "Bien defendida"
         ],
         "moves": [
-          "Burlas horribles",
+          "Burlas atroces",
           "Cruel"
         ],
         "failure": []
@@ -238,7 +238,7 @@
         ],
         "moves": [
           "Latigazo",
-          "Arrastrar cerca"
+          "Atraer hacia sí"
         ],
         "failure": []
       },
@@ -262,7 +262,7 @@
       "_key": "!actors.items!4K0jDJ6DG6aSnqpI.rm165nOj5917NVJJ"
     },
     {
-      "name": "Magia demoniaca",
+      "name": "Magia demoníaca",
       "type": "challenge",
       "_id": "Fy9mzsxl1NjlYTGj",
       "img": "icons/svg/item-bag.svg",
@@ -283,7 +283,7 @@
           ]
         },
         "traits": [
-          "Ward el Balor"
+          "Protege al bálor"
         ],
         "moves": [
           "Invocar demonios",
@@ -336,7 +336,7 @@
         ],
         "moves": [
           "Decapitar",
-          "Golpe de arco"
+          "Tajo en arco"
         ],
         "failure": []
       },

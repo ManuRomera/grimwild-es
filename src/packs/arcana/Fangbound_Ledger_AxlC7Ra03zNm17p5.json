@@ -1,5 +1,5 @@
 {
-  "name": "Libro mayor colmillo",
+  "name": "Libro de cuentas con colmillos",
   "type": "arcana",
   "img": "icons/sundries/books/book-mimic.webp",
   "system": {
@@ -9,7 +9,7 @@
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Si no está escrito, revela sus secretos a los transeúntes.</p>",
+    "limitations": "<p>Si no se escribe en él, revela sus secretos a los transeúntes.</p>",
     "touchstones": "secretos—protección—tentación",
     "tier": "minor"
   },

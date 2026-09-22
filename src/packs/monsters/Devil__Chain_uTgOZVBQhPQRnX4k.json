@@ -1,26 +1,26 @@
 {
   "folder": null,
-  "name": "Diablo encadenado",
+  "name": "Diablo de las cadenas",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Demonios sádicos que manipulan cadenas como serpientes para atrapar y desollar a sus víctimas. Disfrutan del terror y la lucha de sus cautivos confinados.</p>",
+    "biography": "<p>Diablos sádicos que manejan cadenas como si fueran serpientes para atrapar y desollar a sus víctimas. Se regodean en el terror y los forcejeos de sus cautivos.</p>",
     "notes": "",
     "role": "tactician",
     "tier": "tough",
     "traits": [
       "Aura de cadenas animadas",
-      "Enlaces dentados",
-      "Habla, Telepatía"
+      "Eslabones dentados",
+      "Habla, telepatía"
     ],
     "moves": [
-      "Cadenas de invocación",
-      "Pestaña de cadena",
-      "Carrete en"
+      "Invocar cadenas",
+      "Latigazo de cadena",
+      "Recoger la cadena"
     ],
     "desires": [
       {
-        "value": "sus víctimas resistan antes de romperse.",
+        "value": "que sus víctimas resistan antes de quebrarse.",
         "are": false
       },
       {
@@ -35,7 +35,7 @@
           "color": "#4b4b4b"
         },
         {
-          "name": "Azul Acero",
+          "name": "Azul acero",
           "color": "#3e5c80"
         },
         {
@@ -43,9 +43,9 @@
           "color": "#8b0101"
         }
       ],
-      "sights": "Metal brillante, sombras en cadena lenta, risa lenta.",
-      "sounds": "tintineos y traqueteos, chasquidos apretando, ruidos metálicos",
-      "smells": "Metal oxidado y apestoso, sudor acre y miedo."
+      "sights": "destellos de metal, lentas sombras de cadenas, risa pausada",
+      "sounds": "tintineo y traqueteo, chasquidos al tensarse, estrépito metálico",
+      "smells": "metal oxidado y hediondo, sudor acre y miedo"
     },
     "pool": {
       "diceNum": 0,
@@ -53,23 +53,23 @@
     },
     "tables": [
       {
-        "name": "Encarcelado dentro...",
+        "name": "Encerrado en…",
         "instructions": "",
         "table": [
           [
-            "Pasillos laberínticos de la reina loca.",
-            "Retrato maldito en un lujoso salón.",
-            "Casa de baños opulenta y humeante en la capital.",
-            "Relicario de un templo respetado.",
-            "Bóveda del gremio comercial, sellada con poderosas runas.",
-            "Sinuosos senderos forestales que rodean la ciudad."
+            "Los pasillos laberínticos de la reina loca.",
+            "Un retrato maldito en un salón lujoso.",
+            "Unos baños opulentos y llenos de vapor en la capital.",
+            "El relicario de un templo respetado.",
+            "La cámara acorazada de un gremio de mercaderes, sellada con poderosas runas.",
+            "Los sinuosos senderos del bosque que rodea el pueblo."
           ]
         ]
       }
     ]
   },
   "prototypeToken": {
-    "name": "Diablo encadenado",
+    "name": "Diablo de las cadenas",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

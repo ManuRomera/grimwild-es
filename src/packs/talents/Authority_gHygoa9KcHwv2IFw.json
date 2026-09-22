@@ -5,7 +5,7 @@
   "_id": "gHygoa9KcHwv2IFw",
   "img": "icons/magic/perception/eye-ringed-green.webp",
   "system": {
-    "description": "<p>Tu presencia llena el aire de autoridad. El DJ juzga la respuesta de un PNJ, o puedes gastar historia para configurarla: <em>admiración—obediencia—respeto—desafío</em>. Puede <strong>esfuérzate</strong> para lograr un <em><strong>potente hazaña de mando justo</strong></em>, como <em>ordenar a un demonio que se arrodille </em>o <em>silenciar un motín con una palabra</em>.</p>",
+    "description": "<p>Tu presencia llena el aire de autoridad. El DJ decide la reacción de un PNJ, o puedes gastar historia para fijarla tú: <em>admiración—obediencia—respeto—rebeldía</em>. Puedes <strong>esforzarte</strong> para lograr una <em><strong>hazaña potente de mando justo</strong></em>, como <em>ordenar a un demonio que se arrodille </em>o <em>acallar un motín con una sola palabra</em>.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

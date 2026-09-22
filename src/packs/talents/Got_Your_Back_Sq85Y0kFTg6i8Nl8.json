@@ -5,7 +5,7 @@
   "_id": "Sq85Y0kFTg6i8Nl8",
   "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
   "system": {
-    "description": "<p>Puede <strong>esfuérzate</strong> para ayudar a un aliado después de que obtenga un resultado sombrío. El aliado también puede tirar 1d. En un perfecto, ambos <strong>tomar chispa</strong>.</p>",
+    "description": "<p>Puedes <strong>esforzarte</strong> para ayudar a un aliado después de que saque un sombrío. El aliado también puede tirar 1d. Con un perfecto, ambos <strong>ganáis chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

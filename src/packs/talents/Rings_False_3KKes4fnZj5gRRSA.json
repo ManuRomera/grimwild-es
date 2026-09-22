@@ -1,11 +1,11 @@
 {
   "folder": "Km2uusPM1YvfRSZe",
-  "name": "Anillos falsos",
+  "name": "Suena a falso",
   "type": "talent",
   "_id": "3KKes4fnZj5gRRSA",
   "img": "icons/tools/instruments/bell-gold.webp",
   "system": {
-    "description": "<p>Siempre se sabe cuando alguien miente, aunque no necesariamente la verdad. Obtienes +1d en un seguimiento si revelas que sabes que están mintiendo.</p>",
+    "description": "<p>Siempre sabes cuándo alguien miente, aunque no necesariamente cuál es la verdad. Tienes +1d en una acción inmediata si revelas que sabes que miente.</p>",
     "core": false,
     "notes": {
       "description": "",

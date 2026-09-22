@@ -1,9 +1,9 @@
 {
-  "name": "Brazales de Magébano",
+  "name": "Brazales matamagos",
   "type": "arcana",
   "img": "icons/equipment/wrist/bracer-leather-purple-steel.webp",
   "system": {
-    "description": "<p>Siempre tira Brawn en las tiradas de defensa contra ataques mágicos.</p>",
+    "description": "<p>Tira siempre Músculo en las tiradas de defensa contra ataques mágicos.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,8 +23,8 @@
         }
       }
     ],
-    "limitations": "<p>8d Shatters, rodado en un complicado. En 0d, lo complicado se vuelve sombrío.</p>",
-    "touchstones": "resiliencia—antimagia—escudo",
+    "limitations": "<p>Reserva de 8d «Se hace añicos», que se tira con un complicado. A 0d, los complicados pasan a ser sombríos.</p>",
+    "touchstones": "resistencia—antimagia—escudo",
     "tier": "major"
   },
   "effects": [],

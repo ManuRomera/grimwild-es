@@ -1,11 +1,11 @@
 {
   "folder": "vUGdoKGy7PZ2fdfW",
-  "name": "Estadísticas",
+  "name": "Atributos",
   "_id": "rgrd5FQnGkUcfNDl",
   "pages": [
     {
       "sort": 100000,
-      "name": "Estadísticas",
+      "name": "Atributos",
       "type": "text",
       "_id": "qyCoSxkOHtEIVMv3",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Sus capacidades principales calificadas desde 1/<em>pobre </em>a 3/<em>excelente</em>, utilizado para tiradas de acción y defensa.</p><p><strong>QUESO DE CERDO </strong><em>Poder, amenaza, dureza. </em></p><p><strong>AGILIDAD</strong> <em>Precisión, atletismo, reflejos.</em></p><p><strong>INGENIO</strong> <em>Inteligencia, engaño, situaciones de lectura. </em></p><p><strong>PRESENCIA </strong><em>Influencia, fuerza de voluntad, lectura de personas.</em></p><p>◆ Fuerza y ​​agilidad están emparejadas <strong>físico</strong> estadísticas. </p><p>◆ El ingenio y la presencia están emparejados <strong>mental</strong> estadísticas.</p>"
+        "content": "<p>Tus capacidades principales, puntuadas de 1/<em>pobre </em>a 3/<em>excelente</em>, que se usan en las tiradas de acción y de defensa.</p><p><strong>MÚSCULO </strong><em>Poder, amenaza, dureza. </em></p><p><strong>AGILIDAD</strong> <em>Precisión, atletismo, reflejos.</em></p><p><strong>INGENIO</strong> <em>Inteligencia, astucia, leer situaciones. </em></p><p><strong>PRESENCIA </strong><em>Influencia, fuerza de voluntad, leer a la gente.</em></p><p>◆ Músculo y Agilidad forman la pareja de atributos <strong>físicos</strong>. </p><p>◆ Ingenio y Presencia forman la pareja de atributos <strong>mentales</strong>.</p>"
       },
       "video": {
         "controls": true,

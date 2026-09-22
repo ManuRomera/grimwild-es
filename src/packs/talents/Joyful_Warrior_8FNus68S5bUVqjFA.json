@@ -5,14 +5,14 @@
   "_id": "8FNus68S5bUVqjFA",
   "img": "icons/magic/life/heart-hand-gold-green-light.webp",
   "system": {
-    "description": "<p>En un momento crítico o cuando estés ensangrentado en la batalla, <strong>tomar chispa</strong> y puede: <em>elimina una marca de cada aliado: trae de vuelta a la escena un aliado caído (no muerto)</em>.</p>",
+    "description": "<p>Con un crítico, o cuando quedas ensangrentado en combate, <strong>ganas chispa</strong> y puedes: <em>borrar una marca a cada aliado—devolver a la escena a un aliado derribado (no muerto)</em>.</p>",
     "core": false,
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "path": "Berserker"
+    "path": "berserker"
   },
   "effects": [],
   "sort": 0,

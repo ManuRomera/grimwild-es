@@ -1,16 +1,16 @@
 {
-  "name": "Arco de ramas",
+  "name": "Arco de ramitas",
   "type": "arcana",
   "img": "icons/weapons/bows/shortbow-leaves-green.webp",
   "system": {
-    "description": "<p>Siempre suministra flechas a su portador cuando está en la naturaleza.</p>",
+    "description": "<p>Siempre proporciona flechas a quien lo empuña cuando está en plena naturaleza.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Sólo funciona cerca de árboles.</p>",
-    "touchstones": "naturaleza—flechas—ingenio",
+    "limitations": "<p>Solo funciona cerca de árboles.</p>",
+    "touchstones": "naturaleza—flechas—inventiva",
     "tier": "minor"
   },
   "effects": [],

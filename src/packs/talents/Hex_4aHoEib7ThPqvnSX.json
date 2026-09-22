@@ -5,7 +5,7 @@
   "_id": "4aHoEib7ThPqvnSX",
   "img": "icons/magic/control/debuff-energy-hold-pink.webp",
   "system": {
-    "description": "<p>Puedes tirar Presencia para hechizar a alguien con: <em>pavor—torpeza—confusión—olvido—desgracia—somnolencia</em>. Decide cuándo entra en vigor: <em>ahora, pronto, mucho más tarde, desencadenante específico</em>. Este es un efecto cósmico. Es mágico, pero no completamente bajo tu control.</p>",
+    "description": "<p>Puedes tirar Presencia para echarle a alguien un maleficio de: <em>pavor—torpeza—confusión—olvido—infortunio—somnolencia</em>. Decide cuándo surte efecto: <em>ahora—pronto—mucho más tarde—ante un detonante concreto</em>. Es un efecto cósmico: es magia, pero no está del todo bajo tu control.</p>",
     "core": false,
     "notes": {
       "description": "",

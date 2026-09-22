@@ -1,11 +1,11 @@
 {
   "folder": "vUGdoKGy7PZ2fdfW",
-  "name": "Crisol de hechizos",
+  "name": "Crisol de conjuros",
   "_id": "WJWQtGwZcUubnCMj",
   "pages": [
     {
       "sort": 100000,
-      "name": "Crisol de hechizos",
+      "name": "Crisol de conjuros",
       "type": "text",
       "_id": "oAUafgvMOjLisdE2",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p><em>Estilo, esencia y forma del tirada. Elija 2 y luego asigne una escuela.</em></p><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.It97TCUGhQfa7I5n]{Estilo}</p><hr/><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.1sh14AQ5dmCICtQZ]{Esencia}</p><hr/><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.XO9Fu2nSiTKNTrbM]{Forma}</p><h2><strong>Escuelas de Magia</strong></h2><p><em>Elige o tira por ello @UUID[Compendium.grimwild.crucibles.RollTable.tnEydB0CU9F9LWNI]{Escuelas de Magia}</em></p><ul><li><p><strong>A</strong><span class=\"s2\"><strong>bj</strong></span><strong>uración</strong>: Protege, bloquea, disipa o destierra.</p></li><li><p class=\"p1\"><strong>Conjuración</strong>: Invoca criaturas, objetos y se teletransporta.</p></li><li><p class=\"p1\"><span class=\"s3\"><strong>Divinidad</strong>: Revela información, predice el futuro y lee la mente.</span></p></li><li><p class=\"p1\"><span class=\"s2\"><strong>Encantamiento</strong></span>: Encanta, influye y maldice a criaturas sensibles.</p></li><li><p class=\"p1\"><strong>Evocación</strong>: Crea y controla fuerzas elementales y mágicas.</p></li><li><p class=\"p1\"><strong>Espejismo</strong>: Genera imágenes falsas y engaños sensoriales.</p></li><li><p class=\"p1\"><strong>Nigromancia</strong>: Manipula la vida, la muerte y los muertos vivientes.</p></li><li><p class=\"p1\"><strong>Transmutación</strong>: Transforma la materia y altera las propiedades físicas.</p></li></ul>"
+        "content": "<p><em>Tira estilo, esencia y forma. Elige 2 y luego asigna una escuela.</em></p><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.It97TCUGhQfa7I5n]{Estilo}</p><hr/><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.1sh14AQ5dmCICtQZ]{Esencia}</p><hr/><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.XO9Fu2nSiTKNTrbM]{Forma}</p><h2><strong>Escuelas de magia</strong></h2><p><em>Elige una o tírala en @UUID[Compendium.grimwild.crucibles.RollTable.tnEydB0CU9F9LWNI]{Escuelas de magia}</em></p><ul><li><p><strong>A</strong><span class=\"s2\"><strong>bj</strong></span><strong>uración</strong>: protege, bloquea, disipa o destierra.</p></li><li><p class=\"p1\"><strong>Conjuración</strong>: invoca criaturas y objetos, y teletransporta.</p></li><li><p class=\"p1\"><span class=\"s3\"><strong>Adivinación</strong>: revela información, predice el futuro y lee mentes.</span></p></li><li><p class=\"p1\"><span class=\"s2\"><strong>Encantamiento</strong></span>: hechiza, influye y maldice a criaturas inteligentes.</p></li><li><p class=\"p1\"><strong>Evocación</strong>: crea y controla fuerzas elementales y mágicas.</p></li><li><p class=\"p1\"><strong>Ilusión</strong>: genera imágenes falsas y engaños sensoriales.</p></li><li><p class=\"p1\"><strong>Nigromancia</strong>: manipula la vida, la muerte y a los muertos vivientes.</p></li><li><p class=\"p1\"><strong>Transmutación</strong>: transforma la materia y altera sus propiedades físicas.</p></li></ul>"
       },
       "video": {
         "controls": true,

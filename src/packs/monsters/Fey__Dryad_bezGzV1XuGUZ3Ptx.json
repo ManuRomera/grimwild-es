@@ -1,10 +1,10 @@
 {
   "folder": null,
-  "name": "Feérico: dríada",
+  "name": "Feérico: dríade",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Espíritus de árboles místicos que encarnan la esencia de un árbol específico, protegiéndolo a él y a la arboleda circundante. Son ferozmente protectores de su hogar.</p>",
+    "biography": "<p>Místicos espíritus arbóreos que encarnan la esencia de un árbol concreto y lo custodian junto con la arboleda que lo rodea. Protegen su hogar con fiereza.</p>",
     "notes": "",
     "role": "protector",
     "tier": "tough",
@@ -14,13 +14,13 @@
       "Habla"
     ],
     "moves": [
-      "Raíces enredadas",
-      "Persona encantadora",
-      "Explosión floreciente"
+      "Raíces enredadoras",
+      "Hechizar persona",
+      "Estallido floral"
     ],
     "desires": [
       {
-        "value": "para acoger a quienes tienen buenas intenciones.",
+        "value": "acoger a quienes vienen con buenas intenciones.",
         "are": false
       },
       {
@@ -35,17 +35,17 @@
           "color": "#566b30"
         },
         {
-          "name": "Corte de escenaza marrón",
+          "name": "Marrón corteza",
           "color": "#8b4512"
         },
         {
-          "name": "Verde Bosque",
+          "name": "Verde bosque",
           "color": "#495d3a"
         }
       ],
-      "sights": "Enredaderas retorcidas, flores en flor, hojas arremolinadas",
-      "sounds": "suave susurro, canto melódico de pájaros, crujido de ramitas",
-      "smells": "Aroma terroso, aroma a madera, hojas frescas y crujientes."
+      "sights": "enredaderas retorcidas, flores abriéndose, hojas arremolinadas",
+      "sounds": "susurro suave, trinos melodiosos, crujido de ramitas",
+      "smells": "olor a tierra, aroma a madera, hojas frescas y tersas"
     },
     "pool": {
       "diceNum": 0,
@@ -53,15 +53,15 @@
     },
     "tables": [
       {
-        "name": "Linaje aboreal",
+        "name": "Linaje arbóreo",
         "instructions": "",
         "table": [
           [
             "Sauce llorón, tímido pero juguetón.",
-            "Roble, sombrío y firme.",
+            "Roble, severo y firme.",
             "Arce, dulce y protector.",
-            "Ceniza, resistente y sabia.",
-            "Elm, triste pero de buen corazón.",
+            "Fresno, resistente y sabio.",
+            "Olmo, melancólico pero afectuoso.",
             "Tejo, resistente y vengativo."
           ]
         ]
@@ -69,7 +69,7 @@
     ]
   },
   "prototypeToken": {
-    "name": "Feérico: dríada",
+    "name": "Feérico: dríade",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

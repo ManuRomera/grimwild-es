@@ -1,11 +1,11 @@
 {
   "folder": "85AhjhNgoBP9pTvr",
-  "name": "Manos curativas",
+  "name": "Manos sanadoras",
   "type": "talent",
   "_id": "CY7h0RAsH3IgI3eC",
   "img": "icons/magic/life/heart-hand-gold-green.webp",
   "system": {
-    "description": "<p>Puedes curar a un aliado que esté ensangrentado. Esto funciona automáticamente, pero debes hacer una tirada de defensa de Presencia para evitar ser ensangrentado: cargas con su dolor y debes defenderte.</p>",
+    "description": "<p>Puedes curar a un aliado ensangrentado. Funciona automáticamente, pero debes hacer una tirada de defensa de Presencia para no quedar tú ensangrentado: cargas con su dolor y tienes que sobreponerte.</p>",
     "core": false,
     "notes": {
       "description": "",

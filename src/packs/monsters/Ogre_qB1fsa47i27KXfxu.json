@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criaturas imponentes y brutales con piel gruesa y armas toscas. Deambulan por bosques y cuevas, aplastando todo lo que encuentran a su paso para entretenerse.</p>",
+    "biography": "<p>Criaturas imponentes y brutales de piel gruesa y armas toscas. Deambulan por bosques y cuevas, aplastando todo lo que encuentran a su paso para entretenerse.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
@@ -16,22 +16,22 @@
     "moves": [
       "Agarrar y aplastar",
       "Rugido furioso",
-      "Golpe corporal"
+      "Placaje"
     ],
     "desires": [
       {
-        "value": "vagar y destruir: una buena vida.",
+        "value": "vagar y destruir: eso sí es vida.",
         "are": false
       },
       {
-        "value": "ser burlado por criaturas más pequeñas.",
+        "value": "que criaturas más pequeñas lo burlen.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "bronceado oxidado",
+          "name": "Tostado óxido",
           "color": "#8a5a2a"
         },
         {
@@ -39,12 +39,12 @@
           "color": "#a0522c"
         },
         {
-          "name": "Verde Bosque",
+          "name": "Verde bosque",
           "color": "#4e6b4d"
         }
       ],
       "sights": "imponente silueta entre los árboles, garrote nudoso",
-      "sounds": "Pasos pesados, gruñidos bajos",
+      "sounds": "pasos pesados, gruñidos bajos",
       "smells": "sudor rancio, suciedad, olor persistente a carne cruda"
     },
     "pool": {
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "Elegido líder de la...",
+        "name": "Elegido líder de los...",
         "instructions": "",
         "table": [
           [
-            "Trolls, después de casarse con su jefe.",
-            "Duendes de las colinas, temiendo su ira.",
-            "Espíritus del pantano, atados a su voluntad.",
-            "Hada salvaje, atraída por su salvajismo.",
-            "Gigantes de las colinas, que piensan que es un genio.",
-            "Otros ogros, un pequeño ejército de ellos."
+            "Trols, tras casarse con su cabecilla.",
+            "Trasgos de las colinas, por miedo a su ira.",
+            "Espíritus del pantano, sometidos a su voluntad.",
+            "Feéricos salvajes, atraídos por su salvajismo.",
+            "Gigantes de las colinas, que lo tienen por un genio.",
+            "Otros ogros, todo un pequeño ejército."
           ]
         ]
       }

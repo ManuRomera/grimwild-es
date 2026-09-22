@@ -1,11 +1,11 @@
 {
   "folder": "x6w85f8sAHMiKcbw",
-  "name": "Vex",
+  "name": "Arrebato",
   "_id": "LjjAaVn72uputf9b",
   "pages": [
     {
       "sort": 100000,
-      "name": "Vex",
+      "name": "Arrebato",
       "type": "text",
       "_id": "5cCe9E0toE6GOgUH",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Un intenso destello de emoción como <em>enojo</em>, <em>miedo</em>, o <em>confusión</em>. Vex se inflige como consecuencia, a veces además de una marca o daño. Vex provoca una respuesta inmediata e instintiva. Elige uno:</p><table><tbody><tr><td><p style=\"text-align:center\"><em>Luchar</em></p></td><td><p style=\"text-align:center\"><em>Vuelo</em></p></td><td><p style=\"text-align:center\"><em>Congelar</em></p></td><td><p style=\"text-align:center\"><em>Enloquecer</em></p></td></tr></tbody></table><p>Interprete la respuesta, que suele durar uno o dos segundos. Tu PJ es <em>impulsado por la emoción</em>, pero tú decides cómo se desarrolla. Trate de equilibrar lo que es divertido y lo que encaja con la historia, y lo que surge de la emoción.</p>"
+        "content": "<p>Un estallido intenso de emoción, como <em>ira</em>, <em>miedo</em> o <em>confusión</em>. El arrebato se inflige como consecuencia, a veces además de una marca o un daño grave. Provoca una respuesta inmediata e instintiva. Elige una:</p><table><tbody><tr><td><p style=\"text-align:center\"><em>Luchar</em></p></td><td><p style=\"text-align:center\"><em>Huir</em></p></td><td><p style=\"text-align:center\"><em>Paralizarte</em></p></td><td><p style=\"text-align:center\"><em>Perder los nervios</em></p></td></tr></tbody></table><p>Interpreta la respuesta, que suele durar un momento o dos. Tu PJ <em>se deja llevar por la emoción</em>, pero tú decides cómo se desarrolla. Busca el equilibrio entre lo que es divertido, lo que encaja con la historia y lo que surge de la emoción.</p>"
       },
       "video": {
         "controls": true,

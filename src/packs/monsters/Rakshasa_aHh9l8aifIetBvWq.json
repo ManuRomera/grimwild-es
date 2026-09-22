@@ -15,8 +15,8 @@
     ],
     "moves": [
       "Encantar persona",
-      "ilusiones",
-      "mentiras perfectas"
+      "Ilusiones",
+      "Mentiras perfectas"
     ],
     "desires": [
       {
@@ -43,8 +43,8 @@
           "color": "#d66a2c"
         }
       ],
-      "sights": "ropa adornada, pelaje bien cuidado",
-      "sounds": "voz suave, susurro de seda, pasos que resonaban débilmente",
+      "sights": "ropajes ornamentados, pelaje bien cuidado",
+      "sounds": "voz melosa, frufrú de seda, pasos con un leve eco",
       "smells": "incienso, toques de perfumes caros"
     },
     "pool": {
@@ -59,10 +59,10 @@
           [
             "Gremio de ladrones. Encaja perfectamente.",
             "Coalición de comerciantes. Vendieron su alma por ello.",
-            "Flota pirata. Lo ganó en un duelo.",
-            "Casa noble. Felizmente casado con él.",
-            "Banda de mercenarios. Lo controla desde lejos.",
-            "Anillo espía. Funciona para cuatro lados diferentes."
+            "Flota pirata. La ganó en un duelo.",
+            "Casa noble. Entró en ella por un matrimonio feliz.",
+            "Banda de mercenarios. La controla desde lejos.",
+            "Red de espías. Trabaja para cuatro bandos distintos."
           ]
         ]
       }

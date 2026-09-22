@@ -1,11 +1,11 @@
 {
   "folder": "g4byq082efDAWI1S",
-  "name": "Forzar una elección",
+  "name": "Fuerza una elección",
   "_id": "2kDKawjIklAB7LFS",
   "pages": [
     {
       "sort": 100000,
-      "name": "Forzar una elección",
+      "name": "Fuerza una elección",
       "type": "text",
       "_id": "xYiWtMrlzbwZHVFw",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 35\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Presente opciones difíciles, con espacio para elegir solo una.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"Tu bolsa de oro y tu espada se deslizan hacia la lava\". • \"Ahora es la elección: ¿el príncipe o el marqués?\"</em></span></p><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">FORZAR UNA ELECCIÓN </span><span style=\"font-family:'Capito04VAR'\">para presentar decisiones crudas y binarias de las que no pueden escapar. Esta medida no ofrece una salida fácil. Cuando lo uses, asegúrate de seguir sin suavizar el impacto. Esto añade un toque cinematográfico real, que refleja las decisiones realmente difíciles que deben afrontar los protagonistas.</span></p></div></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 35\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p>Plantea opciones difíciles, de las que solo se puede elegir una.</p><p><em>«Tu bolsa de oro y tu espada se deslizan hacia la lava». • «Ha llegado el momento de elegir: ¿el príncipe o el marqués?»</em></p><p></p><p>FUERZA UNA ELECCIÓN para plantear decisiones crudas y excluyentes de las que no puedan escabullirse. Este movimiento no ofrece salidas fáciles. Cuando lo uses, llévalo hasta el final sin suavizar el impacto. Añade un toque muy cinematográfico, reflejo de las decisiones realmente difíciles a las que se enfrentan los protagonistas.</p></div></div></div></div>"
       },
       "video": {
         "controls": true,

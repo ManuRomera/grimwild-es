@@ -1,15 +1,15 @@
 {
-  "name": "Fragmento de dimensión",
+  "name": "Esquirla dimensional",
   "type": "arcana",
   "img": "icons/commodities/gems/gem-faceted-diamond-pink.webp",
   "system": {
-    "description": "<p>Tiene una dimensión de refugio pequeña, del tamaño de una ciudad, donde el tiempo fluye de manera diferente.</p>",
+    "description": "<p>Contiene una pequeña dimensión refugio, del tamaño de un pueblo, donde el tiempo transcurre de otra manera.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>El tiempo pasa 10 veces más rápido o más lento en el interior, elegido al azar.</p>",
+    "limitations": "<p>Dentro, el tiempo pasa 10 veces más rápido o más lento, al azar.</p>",
     "touchstones": "refugio—tiempo—cambio",
     "tier": "mythic"
   },

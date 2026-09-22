@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>descansos prolongados <em>(un mes, una temporada)</em>. Cura completamente, incluidas las condiciones relevantes, y reinicia los talentos por sesión. El DJ tira @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GlsmiXNCf4oZEXVU]{Grupos de Facciones}, luego elige uno y lo agota por completo para hacer avanzar la historia.</p>"
+        "content": "<p>Pausas prolongadas <em>(un mes, una estación)</em>. Te curas por completo, incluidas las condiciones pertinentes, y recuperas los talentos de uso por sesión. El DJ tira las @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GlsmiXNCf4oZEXVU]{Reservas de facción}, luego elige una y la agota por completo para hacer avanzar la historia.</p>"
       },
       "video": {
         "controls": true,

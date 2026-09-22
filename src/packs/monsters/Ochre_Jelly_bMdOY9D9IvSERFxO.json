@@ -1,25 +1,25 @@
 {
   "folder": null,
-  "name": "Jalea Ocre",
+  "name": "Cieno ocre",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Exudados pulsantes y ácidos que disuelven todo lo que tocan mientras se deslizan silenciosamente por las mazmorras. Se dividieron en versiones más pequeñas cuando fueron golpeados.</p>",
+    "biography": "<p>Cienos ácidos y palpitantes que disuelven todo lo que tocan mientras reptan en silencio por las mazmorras. Al ser golpeados, se dividen en versiones más pequeñas.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
       "Extremadamente pegajoso",
-      "Se divide cuando se golpea"
+      "Se divide al ser golpeado"
     ],
     "moves": [
-      "sorber hacia adelante",
+      "Avanzar sorbiendo",
       "Absorber",
-      "Largarse"
+      "Escabullirse"
     ],
     "desires": [
       {
-        "value": "para convertirse en la más grande de todas las jaleas.",
+        "value": "convertirse en el mayor de todos los cienos.",
         "are": false
       },
       {
@@ -52,23 +52,23 @@
     },
     "tables": [
       {
-        "name": "Jaleas recién partidas (no es pegajosa)",
+        "name": "Cienos recién divididos (no son pegajosos)",
         "instructions": "",
         "table": [
           [
-            "Gelatina de azur, con un toque helado.",
-            "Gelatina carmesí, chilla y sangra cuando la golpean.",
-            "Jalea verde, propaga vida vegetal carnívora.",
-            "Gelatina de mercurio, refleja perfectamente su entorno.",
-            "Gelatina espectral, brilla como un espejismo.",
-            "Jalea de ónix, deja un rastro de alquitrán espeso y burbujeante."
+            "Cieno azur, de tacto gélido.",
+            "Cieno carmesí, chilla y sangra cuando lo golpean.",
+            "Cieno verdeante, propaga vida vegetal carnívora.",
+            "Cieno de mercurio, refleja a la perfección su entorno.",
+            "Cieno espectral, reluce como un espejismo.",
+            "Cieno de ónice, deja un rastro de alquitrán espeso y burbujeante."
           ]
         ]
       }
     ]
   },
   "prototypeToken": {
-    "name": "Jalea Ocre",
+    "name": "Cieno ocre",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

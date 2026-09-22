@@ -4,23 +4,23 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Enormes aberraciones parecidas a las de una langosta con una boca llena de tentáculos. Se sienten atraídos por la magia y atesoran las reliquias que encuentran en sus complicadas guaridas.</p>",
+    "biography": "<p>Enormes aberraciones parecidas a langostas, con la boca llena de tentáculos. Les atrae la magia y acumulan las reliquias que encuentran en sus abarrotadas guaridas.</p>",
     "notes": "",
     "role": "predator",
     "tier": "tough",
     "traits": [
-      "Cáscara endurecida",
-      "Sentir magia cercana",
+      "Caparazón endurecido",
+      "Percibe la magia cercana",
       "Habla"
     ],
     "moves": [
-      "Impresionante tentáculo",
-      "Bloqueo de garra",
-      "Arrastrar hacia abajo"
+      "Tentáculo aturdidor",
+      "Presa de pinza",
+      "Arrastrar al fondo"
     ],
     "desires": [
       {
-        "value": "Acaparar fuentes de magia, instintivamente.",
+        "value": "acaparar fuentes de magia, por instinto.",
         "are": false
       },
       {
@@ -44,8 +44,8 @@
         }
       ],
       "sights": "agua turbulenta, zarcillos resbaladizos",
-      "sounds": "gemido burbujeante de agua, bofetada húmeda de tentáculos",
-      "smells": "empalagoso sabor a magia, penetrante olor a crustáceo"
+      "sounds": "gorgoteo burbujeante del agua, chasquido húmedo de tentáculos",
+      "smells": "regusto empalagoso a magia, penetrante olor a crustáceo"
     },
     "pool": {
       "diceNum": 0,
@@ -58,11 +58,11 @@
         "table": [
           [
             "ácido",
-            "claveteado",
-            "pensativo",
+            "con púas",
+            "reflectante",
             "extensible",
-            "brillante",
-            "detección de magia"
+            "luminoso",
+            "detector de magia"
           ],
           [
             "caparazón",

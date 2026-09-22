@@ -1,5 +1,5 @@
 {
-  "name": "Chitterfang",
+  "name": "Colmillo zumbador",
   "type": "arcana",
   "img": "icons/weapons/daggers/dagger-straight-green.webp",
   "system": {
@@ -9,7 +9,7 @@
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Pierde poder cuando el insecto vivo en la empuñadura se va ocasionalmente.</p>",
+    "limitations": "<p>Pierde poder cuando el insecto vivo de la empuñadura se marcha, algo que ocurre de vez en cuando.</p>",
     "touchstones": "insecto—precisión—resonancia",
     "tier": "minor"
   },

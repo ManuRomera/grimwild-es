@@ -4,14 +4,14 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Cadáveres en descomposición impulsados ​​por una antigua plaga que desea extenderse una vez más. Están llenos de hambre y rabia, y dejan a las víctimas desordenadamente esparcidas.</p>",
+    "biography": "<p>Cadáveres en descomposición impulsados por una antigua plaga que ansía propagarse de nuevo. Están llenos de hambre y rabia, y dejan a sus víctimas desperdigadas de cualquier manera.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
       "Hedor podrido",
-      "Portador de plaga",
-      "Habla (arcaico)"
+      "Portador de la plaga",
+      "Habla (arcaica)"
     ],
     "moves": [
       "Exhalación pútrida",
@@ -20,18 +20,18 @@
     ],
     "desires": [
       {
-        "value": "para alimentarse, propagando sin darse cuenta la plaga.",
+        "value": "alimentarse, propagando la plaga sin darse cuenta.",
         "are": false
       },
       {
-        "value": "renunciar a una comida carnosa.",
+        "value": "renunciar a un banquete de carne.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Carne desgastada",
+          "name": "Carne curtida",
           "color": "#8a7d6c"
         },
         {
@@ -39,12 +39,12 @@
           "color": "#395f0a"
         },
         {
-          "name": "Mancha de sangre roja",
+          "name": "Rojo mancha de sangre",
           "color": "#7c0902"
         }
       ],
-      "sights": "piel pálida, dientes dentados, hinchados y amarillentos",
-      "sounds": "gruñidos guturales, respiración agitada, bofetadas de pies descalzos",
+      "sights": "piel pálida, dientes mellados, cuerpo hinchado y amarillento",
+      "sounds": "gruñidos guturales, respiración pesada, chapoteo de pies descalzos",
       "smells": "carne podrida, hedor agrio, moho"
     },
     "pool": {
@@ -57,12 +57,12 @@
         "instructions": "",
         "table": [
           [
-            "La podredumbre llorosa, que convierte la carne en un exudado negro.",
-            "La plaga carmesí, que hace que las venas exploten.",
-            "El Ashen Grip, que endurece las extremidades hasta convertirlas en piedra.",
-            "El verdor vil, que cultiva plantas a partir de las heridas.",
-            "El miasma asfixiante, que llena los pulmones de lodo.",
-            "La descomposición espinada, de la que brotan púas de la piel."
+            "La Podredumbre Llorosa, que convierte la carne en cieno negro.",
+            "La Plaga Carmesí, que hace estallar las venas.",
+            "La Garra Cenicienta, que endurece las extremidades hasta volverlas piedra.",
+            "El Verdor Vil, que hace brotar plantas de las heridas.",
+            "El Miasma Asfixiante, que llena los pulmones de lodo.",
+            "La Putrefacción Espinosa, que hace brotar púas de la piel."
           ]
         ]
       }

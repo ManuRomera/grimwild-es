@@ -4,23 +4,23 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Hechiceras decadentes con cuerpo de león que atraen a las víctimas con encanto e ilusión, buscando corromperlas y controlarlas. Están impulsados ​​por Deseos hedonistas.</p>",
+    "biography": "<p>Hechiceras decadentes con cuerpo de león que atraen a sus víctimas con encantos e ilusiones para corromperlas y controlarlas. Las mueven deseos hedonistas.</p>",
     "notes": "",
     "role": "trickster",
     "tier": "tough",
     "traits": [
       "Agilidad elegante",
-      "Forma de persona ilusoria",
+      "Forma humana ilusoria",
       "Habla"
     ],
     "moves": [
       "Toque maldito",
-      "ilusiones",
+      "Ilusiones",
       "Encantamiento"
     ],
     "desires": [
       {
-        "value": "para recopilar secretos y diversión de sus víctimas.",
+        "value": "obtener secretos y diversión de sus víctimas.",
         "are": false
       },
       {
@@ -39,12 +39,12 @@
           "color": "#a0522c"
         },
         {
-          "name": "Arena dorada",
+          "name": "Oro arenoso",
           "color": "#d2b370"
         }
       ],
       "sights": "adornos dorados, silueta elegante, ondas suaves",
-      "sounds": "risas seductoras, crujido de arena, cánticos en el viento",
+      "sounds": "risas seductoras, susurro de arena, cánticos en el viento",
       "smells": "brisa del desierto, jazmín tenue, mirra especiada"
     },
     "pool": {
@@ -57,11 +57,11 @@
         "instructions": "",
         "table": [
           [
-            "Susurros que profecías salen de sus labios.",
-            "Afirmaba mostrar secretos del pasado a través de los sueños.",
-            "Se rumorea que se une con promesas melosas.",
-            "Fábula para recuperar almas perdidas de las garras de la muerte.",
-            "Prometió revelar el propósito más profundo de uno.",
+            "Se susurra que de sus labios brotan profecías.",
+            "Se afirma que muestra secretos del pasado en sueños.",
+            "Se rumorea que ata con promesas melosas.",
+            "Cuenta la leyenda que arranca almas perdidas de las garras de la muerte.",
+            "Promete revelar a cada cual su propósito más profundo.",
             "Las canciones hablan de sueños entretejidos en la realidad."
           ]
         ]

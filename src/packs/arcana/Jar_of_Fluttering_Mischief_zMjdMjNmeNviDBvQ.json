@@ -1,9 +1,9 @@
 {
-  "name": "Tarro de travesuras revoloteando",
+  "name": "Tarro de mariposas traviesas",
   "type": "arcana",
   "img": "icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp",
   "system": {
-    "description": "<p>Libera enjambres de mariposas para distraer y hacerle cosquillas a alguien cercano.</p>",
+    "description": "<p>Libera enjambres de mariposas que distraen y hacen cosquillas a alguien cercano.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,8 +23,8 @@
         }
       }
     ],
-    "limitations": "<p>Reserva de energía 4d, que se repone al escuchar la risa cordial de un niño.</p>",
-    "touchstones": "mariposas—distracción—alegría",
+    "limitations": "<p>Reserva de poder de 4d, que se repone al oír la risa sincera de un niño.</p>",
+    "touchstones": "mariposas—distracción—picardía",
     "tier": "minor"
   },
   "effects": [],

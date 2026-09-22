@@ -1,10 +1,10 @@
 {
-  "name": "Ventaja",
+  "name": "Perspectiva",
   "_id": "uLhjdcEsx67R7ADM",
   "pages": [
     {
       "sort": 100000,
-      "name": "Ventaja",
+      "name": "Perspectiva",
       "type": "text",
       "_id": "ckHxupYkeqqhm5O4",
       "system": {},
@@ -15,7 +15,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>El marco de referencia de tu personaje, la suma de tu historia de fondo, tus talentos y la ficción actual: todo lo que está en tu hoja y lo que te afecta en la historia. Cuando surja una pregunta sobre lo que puedes hacer, tener o saber, compárala con tu punto de vista: ¿te parece una <em><strong>dado</strong></em>, a <em><strong>estirar</strong></em>, o un <em><strong>alcanzar</strong></em>?</p><p><em>Un médico puede suturar una herida, un ladrón probablemente tenga una ganzúa, pero un granjero probablemente no conocería a una actriz.</em></p><p><strong>ventaja adecuada</strong> abre posibilidades y da la libertad de declarar detalles de la historia. La falta de ella hace que las cosas sean más difíciles, o incluso imposibles.</p><p></p>"
+        "content": "<p>El marco de referencia de tu personaje: la suma de tu pasado, tus talentos y la ficción actual, es decir, todo lo que hay en tu hoja y lo que te afecta en la historia. Cuando surja una duda sobre lo que puedes hacer, tener o saber, compárala con tu perspectiva: ¿es <em><strong>evidente</strong></em>, <em><strong>forzado</strong></em> o <em><strong>muy forzado</strong></em>?</p><p><em>Un médico puede suturar una herida y un ladrón seguramente tenga una ganzúa, pero un granjero probablemente no conocería a una actriz.</em></p><p><strong>Tener la perspectiva adecuada</strong> abre posibilidades y da libertad para declarar detalles de historia. Sin ella, las cosas son más difíciles, o incluso imposibles.</p><p></p>"
       },
       "video": {
         "controls": true,

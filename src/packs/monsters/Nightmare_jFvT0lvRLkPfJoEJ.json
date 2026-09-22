@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Corceles envueltos en llamas que emergen del inframundo, galopando en la noche. Sus cascos dejan rastros chamuscados por la tierra.</p>",
+    "biography": "<p>Corceles envueltos en llamas que surgen del inframundo y galopan en la noche. Sus cascos dejan rastros chamuscados por toda la tierra.</p>",
     "notes": "",
     "role": "marauder",
     "tier": "tough",
     "traits": [
       "Envuelto en llamas",
-      "Deslizamientos entre aviones",
-      "Entiende el lenguaje"
+      "Se desliza entre planos",
+      "Entiende el idioma"
     ],
     "moves": [
       "Aliento de fuego infernal",
       "Teletransporte sombrío",
-      "Trasero arriba y relincho"
+      "Encabritarse y relinchar"
     ],
     "desires": [
       {
-        "value": "para llevar a los que buscan venganza.",
+        "value": "llevar a quienes buscan venganza.",
         "are": false
       },
       {
-        "value": "para presenciar actos de misericordia o bondad.",
+        "value": "presenciar actos de misericordia o bondad.",
         "are": false
       }
     ],
@@ -43,8 +43,8 @@
           "color": "#484848"
         }
       ],
-      "sights": "Huellas de cascos carbonizadas, rastro de humo, ojos rojos brillantes.",
-      "sounds": "Crepitar de llamas, golpes de cascos, relinchos espeluznantes",
+      "sights": "huellas de cascos carbonizadas, rastro de humo, ojos rojos brillantes",
+      "sounds": "crepitar de llamas, golpes de cascos, relinchos espeluznantes",
       "smells": "azufre quemado, cenizas humeantes"
     },
     "pool": {
@@ -53,7 +53,7 @@
     },
     "tables": [
       {
-        "name": "JINETES IRATOS",
+        "name": "Jinetes iracundos",
         "instructions": "",
         "table": [
           [
@@ -62,7 +62,7 @@
             "Poeta ahorcado, cuyas palabras sonaron demasiado ciertas.",
             "Príncipe descarriado, que nunca volverá a casa.",
             "Rebelde desesperado, el último con vida.",
-            "Vidente amargo, cuyas advertencias fueron ignoradas."
+            "Vidente amargado, cuyas advertencias fueron ignoradas."
           ]
         ]
       }

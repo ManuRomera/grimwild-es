@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Figuras solitarias e imponentes que valoran su territorio personal por encima de todo. Recogen cantos rodados y piedras, tratándolos como símbolos de poder.</p>",
+    "biography": "<p>Figuras solitarias e imponentes que valoran su territorio por encima de todo. Reúnen rocas y piedras y las tratan como símbolos de poder.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
-      "Enfoque singular e intenso",
+      "Concentración única e intensa",
       "Inmensamente fuerte",
       "Entiende el idioma"
     ],
     "moves": [
-      "Lanzamiento de roca",
-      "Golpe de tierra",
+      "Lanzar roca",
+      "Golpe sísmico",
       "Bramido temible"
     ],
     "desires": [
       {
-        "value": "escondites de rocas, símbolo de territorio y poder.",
+        "value": "alijos de rocas, símbolo de territorio y poder.",
         "are": false
       },
       {
-        "value": "distraerse o sentir que lo están engañando.",
+        "value": "distraerse o tener la sensación de que lo están engañando.",
         "are": false
       }
     ],
@@ -35,7 +35,7 @@
           "color": "#d1b48c"
         },
         {
-          "name": "globo ocular blanco",
+          "name": "Blanco globo ocular",
           "color": "#e8e8e6"
         },
         {
@@ -43,9 +43,9 @@
           "color": "#8b4512"
         }
       ],
-      "sights": "Montones de rocas, enorme entrada a la cueva.",
-      "sounds": "retumbar gutural, silbido de una roca volando",
-      "smells": "piel sucia, cueva terrosa, polvo de piedra afilado"
+      "sights": "montones de rocas, enorme entrada de cueva",
+      "sounds": "retumbar gutural, silbido de una roca en el aire",
+      "smells": "piel sin lavar, cueva que huele a tierra, polvo de piedra punzante"
     },
     "pool": {
       "diceNum": 0,
@@ -57,12 +57,12 @@
         "instructions": "",
         "table": [
           [
-            "Sólo puede ver de noche.",
-            "Sólo puede salir a la calle bajo la lluvia.",
+            "Solo puede ver de noche.",
+            "Solo puede salir al exterior cuando llueve.",
             "Cada uno de sus pasos provoca un temblor.",
             "Le aterrorizan los pequeños mamíferos.",
-            "Nunca podrá dejar de caminar.",
-            "Es solitario, el último de su tipo."
+            "No puede dejar de caminar jamás.",
+            "Está solo: es el último de su especie."
           ]
         ]
       }

@@ -3,13 +3,13 @@
   "type": "arcana",
   "img": "icons/sundries/lights/torch-brown-lit.webp",
   "system": {
-    "description": "<p>Arde sin cesar, no importa lo que hagas para apagarlo.</p>",
+    "description": "<p>Arde sin fin, hagas lo que hagas para apagarla.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Siempre estás atrapado cargando un objeto en llamas.</p>",
+    "limitations": "<p>Siempre te toca cargar con un objeto en llamas.</p>",
     "touchstones": "fuego—luz—perseverancia.",
     "tier": "minor"
   },

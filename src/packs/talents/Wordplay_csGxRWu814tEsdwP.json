@@ -5,7 +5,7 @@
   "_id": "csGxRWu814tEsdwP",
   "img": "icons/sundries/misc/teeth-dentures.webp",
   "system": {
-    "description": "<p>En una tirada de defensa perfecta, cuando la situación permite bromas verbales, las haces: <em>avergonzarse</em>—<em>dejar escapar un secreto</em>—<em>centrarse en ti o perderte de vista</em>. Una vez por sesión, puedes incitar al DJ a gastar suspense en la conversación.</p>",
+    "description": "<p>Con un perfecto en una tirada de defensa, cuando la situación permita soltar pullas, haces que el otro: <em>quede en ridículo</em>—<em>deje escapar un secreto</em>—<em>se centre en ti o te pierda de vista</em>. Una vez por sesión, puedes pinchar al DJ para que gaste suspense en una conversación.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Incita al DJ",
+        "label": "Pinchar al DJ",
         "pool": {
           "diceNum": 0,
           "max": null

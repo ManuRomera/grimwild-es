@@ -1,9 +1,9 @@
 {
-  "name": "Dije de ojo de basilisco",
+  "name": "Amuleto del ojo de basilisco",
   "type": "arcana",
   "img": "icons/creatures/eyes/slime-stalk-green.webp",
   "system": {
-    "description": "<p>Convierte a alguien en piedra con una mirada y le otorga inmunidad a la petrificación.</p>",
+    "description": "<p>Convierte a alguien en piedra con la mirada y te otorga inmunidad a la petrificación.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,7 +23,7 @@
         }
       }
     ],
-    "limitations": "<p>Reserva de energía 4d, que se repone cuando llega a 0d.</p>",
+    "limitations": "<p>Reserva de poder de 4d, que se repone al llegar a 0d.</p>",
     "touchstones": "petrificación—mirada—protección",
     "tier": "major"
   },

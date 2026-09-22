@@ -1,11 +1,11 @@
 {
   "folder": "AlWljQLa4nCSGD2H",
-  "name": "Envuélvelo",
+  "name": "Cierra la escena",
   "_id": "I4Aj7JK4MsDtnCAM",
   "pages": [
     {
       "sort": 100000,
-      "name": "Envuélvelo",
+      "name": "Cierra la escena",
       "type": "text",
       "_id": "Ts3GNaASlXrS3Oy2",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 33\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Solicite una tirada de montaje o salte a una conclusión probable de una escena.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"Vamos a montar tu escape de la mazmorra que se derrumba\". • \"Está bien, termina de limpiar a la chusma de duendes\".</em></span></p><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">RESUMEN </span><span style=\"font-family:'Capito04VAR'\">cuando una escena ha cumplido su propósito, se ha vuelto obsoleta o parece una conclusión inevitable. No pierdas el tiempo del juego con estos. Cerrar estas escenas decisivamente mantiene la narrativa firme y se centra en lo que sigue.</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 33\"><div class=\"layoutArea\"><div class=\"column\"><p>Pide una tirada de montaje o salta a la conclusión más probable de una escena.</p><p><em>«Hagamos un montaje de vuestra huida de la mazmorra que se derrumba». • «Vale, acabáis de barrer a esa chusma de trasgos».</em></p><p></p><p>CIERRA LA ESCENA cuando haya cumplido su propósito, se haya estancado o su desenlace parezca cantado. No malgastes tiempo de juego en ellas. Cerrar estas escenas con decisión mantiene la narración ágil y centrada en lo que viene.</p></div></div></div>"
       },
       "video": {
         "controls": true,

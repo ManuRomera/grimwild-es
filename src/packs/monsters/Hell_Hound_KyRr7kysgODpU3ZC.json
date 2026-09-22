@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Perros de caza feroces y feroces con ojos brillantes y olor a azufre. Cazan en manadas y rastrean almas marcadas para la condenación.</p>",
+    "biography": "<p>Sabuesos ígneos y feroces de ojos brillantes que huelen a azufre. Cazan en jauría y rastrean las almas marcadas para la condenación.</p>",
     "notes": "",
     "role": "predator",
     "tier": "tough",
     "traits": [
-      "Cazador de manada",
-      "Pistas ardientes",
-      "Entiende el lenguaje"
+      "Cazador en jauría",
+      "Huellas ardientes",
+      "Entiende el idioma"
     ],
     "moves": [
-      "Aliento de llama",
-      "Llamada aullante",
+      "Aliento de fuego",
+      "Llamada de aullidos",
       "Gruñido de advertencia"
     ],
     "desires": [
       {
-        "value": "para hacer pagar al culpable.",
+        "value": "hacer pagar a los culpables.",
         "are": false
       },
       {
-        "value": "siendo obligados a salir bajo las fuertes lluvias.",
+        "value": "verse obligado a salir bajo la lluvia punzante.",
         "are": false
       }
     ],
@@ -35,17 +35,17 @@
           "color": "#b22222"
         },
         {
-          "name": "Negro Carbón",
+          "name": "Negro carbón",
           "color": "#2f2f2f"
         },
         {
-          "name": "Gris Carbón",
+          "name": "Gris carbón",
           "color": "#374550"
         }
       ],
-      "sights": "Narices humeantes, hierba chamuscada, lecho de cenizas.",
-      "sounds": "Gruñidos profundos, llamas crepitantes, garras raspando piedra.",
-      "smells": "azufre y azufre, carne carbonizada"
+      "sights": "hocicos humeantes, hierba chamuscada, lecho de cenizas",
+      "sounds": "gruñidos graves, llamas crepitantes, garras que arañan la piedra",
+      "smells": "azufre y piedra de azufre, carne carbonizada"
     },
     "pool": {
       "diceNum": 0,
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "Llamar a cazar",
+        "name": "Llamada a la caza",
         "instructions": "",
         "table": [
           [
-            "Persiguiendo almas marcadas por juramentos rotos.",
-            "Almas acechadoras escaparon del inframundo.",
-            "Cazando traidores que traicionaron a sus propios parientes.",
-            "Seguimiento de quienes derramaron sangre inocente.",
-            "Acosando a quienes huyen de la justicia.",
-            "Erróneamente tras la pista de personas completamente inocentes."
+            "Persigue almas marcadas por juramentos rotos.",
+            "Acecha almas fugadas del inframundo.",
+            "Caza traidores que traicionaron a los suyos.",
+            "Rastrea a quienes derramaron sangre inocente.",
+            "Acosa a quienes huyen de la justicia.",
+            "Sigue por error el rastro de alguien completamente inocente."
           ]
         ]
       }

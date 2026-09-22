@@ -5,7 +5,7 @@
   "_id": "e2jyifYyn7el4wQF",
   "img": "icons/skills/targeting/crosshair-scope-sniper-green.webp",
   "system": {
-    "description": "<p>Dos veces por sesión, puedes declarar una debilidad en una criatura no humanoide. Describe lo que sabes o ves, etiquetándolo con un <em><strong>2d debilidad</strong></em> reserva. Cuando alguien apunta específicamente a la debilidad, tiras la reserva como dado adicional en su tirada. A medida que se agota, la criatura aprende a ocultar su debilidad, lo que hace que cambie su comportamiento. <strong>toma chispa</strong> cuando un dado de Debilidad obtiene un resultado perfecto (no el resultado general).</p><p><em><strong>Valor</strong></em>: Obtén +1d en sigilo, recorrido, colocación de trampas y seguimiento.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, puedes usar Hunter's Mark una vez más por sesión.</p>",
+    "description": "<p>Dos veces por sesión, puedes declarar un punto débil en una criatura no humanoide. Describe lo que sabes o ves y márcalo con una reserva de <em><strong>2d Debilidad</strong></em>. Cuando alguien ataca específicamente ese punto débil, tiras la reserva como dados extra en su tirada. A medida que se agota, la criatura aprende a ocultar su debilidad y cambia su comportamiento. <strong>Ganas chispa</strong> cuando un dado de Debilidad saca un perfecto (no el resultado total).</p><p><em><strong>Destreza</strong></em>: Tienes +1d al moverte con sigilo, desplazarte por terreno difícil, poner trampas y rastrear.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, puedes usar Marca del cazador una vez más por sesión.</p>",
     "core": true,
     "notes": {
       "description": "",

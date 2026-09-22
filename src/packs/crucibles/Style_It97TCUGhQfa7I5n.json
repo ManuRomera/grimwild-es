@@ -61,7 +61,7 @@
         3
       ],
       "_id": "O8DNeH6b3aSK8oYV",
-      "name": "Curioso",
+      "name": "Peculiar",
       "img": "icons/svg/d20-black.svg",
       "description": "",
       "drawn": false,
@@ -78,10 +78,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.O8DNeH6b3aSK8oYV"
     },
     {
-      "name": "rezumando",
+      "name": "Supurante",
       "range": [
-        1,
-        1
+        4,
+        4
       ],
       "weight": 1,
       "_id": "EuzNYwCFVzUkZdmD",
@@ -102,10 +102,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.EuzNYwCFVzUkZdmD"
     },
     {
-      "name": "Blindaje",
+      "name": "Impenetrable",
       "range": [
-        2,
-        2
+        5,
+        5
       ],
       "weight": 1,
       "_id": "K6YZKe7mqbBkyOhs",
@@ -126,10 +126,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.K6YZKe7mqbBkyOhs"
     },
     {
-      "name": "Vago",
+      "name": "Crepuscular",
       "range": [
-        3,
-        3
+        6,
+        6
       ],
       "weight": 1,
       "_id": "mC4clhujDSx54frT",
@@ -152,8 +152,8 @@
     {
       "name": "Llameante",
       "range": [
-        4,
-        4
+        7,
+        7
       ],
       "weight": 1,
       "_id": "9dsTMQwIB5UH1mrf",
@@ -174,10 +174,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.9dsTMQwIB5UH1mrf"
     },
     {
-      "name": "Lento",
+      "name": "Ralentizante",
       "range": [
-        5,
-        5
+        8,
+        8
       ],
       "weight": 1,
       "_id": "bkhPAVQx7H1wDQEn",
@@ -198,10 +198,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.bkhPAVQx7H1wDQEn"
     },
     {
-      "name": "Colérico",
+      "name": "Fulminante",
       "range": [
-        6,
-        6
+        9,
+        9
       ],
       "weight": 1,
       "_id": "oxkp1TWHwOQcYUpj",
@@ -224,8 +224,8 @@
     {
       "name": "Petrificante",
       "range": [
-        7,
-        7
+        10,
+        10
       ],
       "weight": 1,
       "_id": "FmEkIBxmJcD8OYkj",
@@ -246,10 +246,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.FmEkIBxmJcD8OYkj"
     },
     {
-      "name": "Hambriento",
+      "name": "Voraz",
       "range": [
-        8,
-        8
+        11,
+        11
       ],
       "weight": 1,
       "_id": "JoHnSxKJpUEOOSSi",
@@ -270,10 +270,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.JoHnSxKJpUEOOSSi"
     },
     {
-      "name": "Majestuoso",
+      "name": "Imponente",
       "range": [
-        9,
-        9
+        12,
+        12
       ],
       "weight": 1,
       "_id": "7oDocKDVI9n74xZt",
@@ -294,10 +294,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.7oDocKDVI9n74xZt"
     },
     {
-      "name": "Encantador",
+      "name": "Atrayente",
       "range": [
-        10,
-        10
+        13,
+        13
       ],
       "weight": 1,
       "_id": "FjvOMKSflm0M1mew",
@@ -318,10 +318,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.FjvOMKSflm0M1mew"
     },
     {
-      "name": "Silencioso",
+      "name": "Silente",
       "range": [
-        11,
-        11
+        14,
+        14
       ],
       "weight": 1,
       "_id": "vMQwN3N9jnNqb7h7",
@@ -344,8 +344,8 @@
     {
       "name": "Deslumbrante",
       "range": [
-        12,
-        12
+        15,
+        15
       ],
       "weight": 1,
       "_id": "HOuaEPPrzYHYo7FE",
@@ -366,10 +366,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.HOuaEPPrzYHYo7FE"
     },
     {
-      "name": "Perforación",
+      "name": "Perforante",
       "range": [
-        13,
-        13
+        16,
+        16
       ],
       "weight": 1,
       "_id": "IyzUnZLMh7bS32Fy",
@@ -392,8 +392,8 @@
     {
       "name": "Jovial",
       "range": [
-        14,
-        14
+        17,
+        17
       ],
       "weight": 1,
       "_id": "9kA3fH4yaDNDz8dr",
@@ -414,10 +414,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.9kA3fH4yaDNDz8dr"
     },
     {
-      "name": "Frenético",
+      "name": "Delirante",
       "range": [
-        15,
-        15
+        18,
+        18
       ],
       "weight": 1,
       "_id": "zHczUgzCVZewSFWi",
@@ -438,10 +438,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.zHczUgzCVZewSFWi"
     },
     {
-      "name": "Críptico",
+      "name": "Indescifrable",
       "range": [
-        16,
-        16
+        19,
+        19
       ],
       "weight": 1,
       "_id": "pDne0FeAWrGF87io",
@@ -462,10 +462,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.pDne0FeAWrGF87io"
     },
     {
-      "name": "Marchitez",
+      "name": "Desecante",
       "range": [
-        17,
-        17
+        20,
+        20
       ],
       "weight": 1,
       "_id": "Z3vkjan1iB7GGqLR",
@@ -486,10 +486,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.Z3vkjan1iB7GGqLR"
     },
     {
-      "name": "Primitivo",
+      "name": "Primordial",
       "range": [
-        18,
-        18
+        21,
+        21
       ],
       "weight": 1,
       "_id": "LW79D8wEY3M8x5Eb",
@@ -512,8 +512,8 @@
     {
       "name": "Estridente",
       "range": [
-        19,
-        19
+        22,
+        22
       ],
       "weight": 1,
       "_id": "rP49d4kx8PkOIkE4",
@@ -534,10 +534,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.rP49d4kx8PkOIkE4"
     },
     {
-      "name": "Atronador",
+      "name": "Retumbante",
       "range": [
-        20,
-        20
+        23,
+        23
       ],
       "weight": 1,
       "_id": "gvMFZeEJPOh6x4gn",
@@ -558,10 +558,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.gvMFZeEJPOh6x4gn"
     },
     {
-      "name": "Prismático",
+      "name": "Iridiscente",
       "range": [
-        21,
-        21
+        24,
+        24
       ],
       "weight": 1,
       "_id": "vKnO5EeLxjUQXqiW",
@@ -582,10 +582,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.vKnO5EeLxjUQXqiW"
     },
     {
-      "name": "Congelación",
+      "name": "Congelante",
       "range": [
-        22,
-        22
+        25,
+        25
       ],
       "weight": 1,
       "_id": "ANc79BG024MCloTF",
@@ -606,10 +606,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.ANc79BG024MCloTF"
     },
     {
-      "name": "filtrando",
+      "name": "Rezumante",
       "range": [
-        23,
-        23
+        26,
+        26
       ],
       "weight": 1,
       "_id": "T7VVpQC8ILFbr2vj",
@@ -632,8 +632,8 @@
     {
       "name": "Feroz",
       "range": [
-        24,
-        24
+        27,
+        27
       ],
       "weight": 1,
       "_id": "WXY1ieLPutsfixwZ",
@@ -654,10 +654,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.WXY1ieLPutsfixwZ"
     },
     {
-      "name": "Avaro",
+      "name": "Atenazante",
       "range": [
-        25,
-        25
+        28,
+        28
       ],
       "weight": 1,
       "_id": "N5jirdOc5w4cSJz2",
@@ -678,10 +678,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.N5jirdOc5w4cSJz2"
     },
     {
-      "name": "Venenoso",
+      "name": "Emponzoñante",
       "range": [
-        26,
-        26
+        29,
+        29
       ],
       "weight": 1,
       "_id": "IILcA6Eg5w9rcunU",
@@ -702,10 +702,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.IILcA6Eg5w9rcunU"
     },
     {
-      "name": "Nauseabundo",
+      "name": "Repugnante",
       "range": [
-        27,
-        27
+        30,
+        30
       ],
       "weight": 1,
       "_id": "WvDi5Lbk6Z6g1s9w",
@@ -726,10 +726,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.WvDi5Lbk6Z6g1s9w"
     },
     {
-      "name": "fascinante",
+      "name": "Fascinante",
       "range": [
-        28,
-        28
+        31,
+        31
       ],
       "weight": 1,
       "_id": "mlOthKUPJta2IzbO",
@@ -752,8 +752,8 @@
     {
       "name": "Invisible",
       "range": [
-        29,
-        29
+        32,
+        32
       ],
       "weight": 1,
       "_id": "pWHMuGC3q67MEkT4",
@@ -774,10 +774,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.pWHMuGC3q67MEkT4"
     },
     {
-      "name": "En expansión",
+      "name": "Creciente",
       "range": [
-        30,
-        30
+        33,
+        33
       ],
       "weight": 1,
       "_id": "w2mc0KdQhMeOmJZj",
@@ -798,10 +798,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.w2mc0KdQhMeOmJZj"
     },
     {
-      "name": "Rápido",
+      "name": "Veloz",
       "range": [
-        31,
-        31
+        34,
+        34
       ],
       "weight": 1,
       "_id": "9O7PcC8IhciDw76x",
@@ -824,8 +824,8 @@
     {
       "name": "Fantasma",
       "range": [
-        32,
-        32
+        35,
+        35
       ],
       "weight": 1,
       "_id": "znTcWYVBZ2s0Hgks",
@@ -846,10 +846,10 @@
       "_key": "!tables.results!It97TCUGhQfa7I5n.znTcWYVBZ2s0Hgks"
     },
     {
-      "name": "Horrible",
+      "name": "Terrible",
       "range": [
-        33,
-        33
+        36,
+        36
       ],
       "weight": 1,
       "_id": "Dd27OudjS7OxiEhj",

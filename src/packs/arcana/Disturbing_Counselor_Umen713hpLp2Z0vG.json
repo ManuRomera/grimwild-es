@@ -1,5 +1,5 @@
 {
-  "name": "Consejero perturbador",
+  "name": "Consejero inquietante",
   "type": "arcana",
   "img": "icons/equipment/neck/necklace-simple-bone-skull.webp",
   "system": {
@@ -23,7 +23,7 @@
         }
       }
     ],
-    "limitations": "<p>Reserva de energía 4d, que se repone alimentando sus desconcertantes vicios.</p>",
+    "limitations": "<p>Reserva de poder de 4d, que se repone alimentando sus inquietantes vicios.</p>",
     "touchstones": "sabiduría—secretos—arte de gobernar",
     "tier": "major"
   },

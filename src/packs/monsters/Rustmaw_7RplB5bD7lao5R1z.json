@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criaturas quitinosas que se alimentan de metal, oxidando armas y armaduras con un toque. Sus antanas temblorosas los guían directamente a su próxima comida metálica.</p>",
+    "biography": "<p>Criaturas quitinosas que se alimentan de metal y oxidan armas y armaduras con solo tocarlas. Sus antenas temblorosas las guían directas a su siguiente comida metálica.</p>",
     "notes": "",
     "role": "skirmisher",
     "tier": "tough",
@@ -13,9 +13,9 @@
       "Caparazón duro"
     ],
     "moves": [
-      "Saltar y esconderse",
-      "comer arma",
-      "Antenas de contracción"
+      "Corretear y esconderse",
+      "Comer arma",
+      "Agitar las antenas"
     ],
     "desires": [
       {
@@ -23,14 +23,14 @@
         "are": false
       },
       {
-        "value": "accidentalmente masticar madera o vidrio.",
+        "value": "masticar madera o vidrio por accidente.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Decadencia de metales",
+          "name": "Metal corroído",
           "color": "#b1723f"
         },
         {
@@ -43,8 +43,8 @@
         }
       ],
       "sights": "antenas temblorosas, migas de óxido esparcidas",
-      "sounds": "raspado de mandíbulas, movimiento susurrante",
-      "smells": "fuerte sabor metálico, leve olor a descomposición"
+      "sounds": "chirrido de mandíbulas, movimiento crujiente",
+      "smells": "fuerte regusto metálico, leve olor a descomposición"
     },
     "pool": {
       "diceNum": 0,
@@ -52,7 +52,7 @@
     },
     "tables": [
       {
-        "name": "Efectos residuales de comer arcanos",
+        "name": "Efectos residuales de comerse arcanos",
         "instructions": "",
         "table": [
           [
@@ -60,7 +60,7 @@
             "Deja un rastro de chispas tras de sí.",
             "Flota ligeramente por encima del suelo.",
             "Habla en términos muy básicos.",
-            "Vibra como un diapasón cuando se golpea.",
+            "Vibra como un diapasón al ser golpeado.",
             "Es completamente invisible."
           ]
         ]

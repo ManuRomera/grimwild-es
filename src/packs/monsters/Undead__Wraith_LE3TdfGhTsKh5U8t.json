@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Figuras sombrías y espectrales formadas de puro lamento volátil. Se deslizan silenciosamente a través de la oscuridad, extrayendo calor de todo lo que tocan.</p>",
+    "biography": "<p>Figuras sombrías y espectrales formadas de puro lamento volátil. Se deslizan en silencio a través de la oscuridad y arrebatan el calor a todo lo que tocan.</p>",
     "notes": "",
     "role": "marauder",
     "tier": "tough",
     "traits": [
-      "Forma incorporal",
-      "Aura fría y mortal",
+      "Forma incorpórea",
+      "Aura de frío mortal",
       "Habla"
     ],
     "moves": [
       "Toque drenante",
-      "Sombra Melf",
+      "Fundirse con las sombras",
       "Lamento de desesperación"
     ],
     "desires": [
       {
-        "value": "para que otros sientan las emociones que lo formaron.",
+        "value": "que otros sientan las emociones que lo formaron.",
         "are": false
       },
       {
-        "value": "para que la verdadera alegría atraviese su malicia.",
+        "value": "que la verdadera alegría atraviese su malicia.",
         "are": false
       }
     ],
@@ -39,13 +39,13 @@
           "color": "#a9a9a9"
         },
         {
-          "name": "Azul espantoso",
+          "name": "Azul fantasmal",
           "color": "#6a7b8b"
         }
       ],
       "sights": "niebla arremolinada, luz azul parpadeante",
-      "sounds": "Lamentos espeluznantes, susurros lejanos del aire, débiles susurros.",
-      "smells": "aire helado, piedra húmeda, sabor metálico del miedo"
+      "sounds": "lamentos espeluznantes, lejano susurro del aire, débiles murmullos",
+      "smells": "aire gélido, piedra húmeda, regusto metálico del miedo"
     },
     "pool": {
       "diceNum": 0,
@@ -59,10 +59,10 @@
           [
             "Número incalculable de muertos por la guerra.",
             "Corte real y familia masacradas durante un golpe de estado.",
-            "El reinado de terror de décadas del asesino en serie.",
-            "Masacre de una inocente aldea \"monstruosa\".",
-            "Peste propagada por una persona que abandonó el barco.",
-            "El noble sacrificio de la comunidad pasa desapercibido."
+            "Décadas de reinado del terror de un asesino en serie.",
+            "Masacre de una aldea «monstruosa» inocente.",
+            "Peste propagada por alguien que desertó de un barco.",
+            "El noble sacrificio de una comunidad, que pasó desapercibido."
           ]
         ]
       }

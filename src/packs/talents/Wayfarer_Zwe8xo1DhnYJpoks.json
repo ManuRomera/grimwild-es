@@ -5,7 +5,7 @@
   "_id": "Zwe8xo1DhnYJpoks",
   "img": "icons/magic/movement/trail-streak-pink.webp",
   "system": {
-    "description": "<p>Puede <strong>esfuérzate</strong> para teletransportarse. Cuanto más o menos familiar sea el destino, menos preciso será el teletransporte. La autonomía máxima es de dos días de viaje. Cualquier cosa que esté a la vista y sin obstrucciones no requiere tirada; de lo contrario, haz una tirada de historia. Puedes traer a otros, tomando +1t por persona.</p>",
+    "description": "<p>Puedes <strong>esforzarte</strong> para teletransportarte. Cuanto más lejano o menos conocido sea el destino, menos preciso será el teletransporte. El alcance máximo es de dos días a caballo. Si el destino está a la vista y sin obstáculos, no hace falta tirar; si no, haz una tirada de historia. Puedes llevar a otros, con +1t por persona.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

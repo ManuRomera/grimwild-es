@@ -1,10 +1,10 @@
 {
-  "name": "Asistencia externa",
+  "name": "Ayuda externa",
   "_id": "6TBoTUBA9NuSvCCH",
   "pages": [
     {
       "sort": 100000,
-      "name": "Asistencia externa",
+      "name": "Ayuda externa",
       "type": "text",
       "_id": "tztDQ25sqN8rua7L",
       "system": {},
@@ -15,7 +15,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Cuando un @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Asistir} o @UUID[Compendium.grimwild.rules.JournalEntry.DcbQOR4iu3apZR17]{Ambientación} proviene del mundo, como un PNJ o el entorno, <em><strong>el DJ tira 1d</strong> </em>para representarlo.</p>"
+        "content": "<p>Cuando una @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Ayuda} o una @UUID[Compendium.grimwild.rules.JournalEntry.DcbQOR4iu3apZR17]{Preparación} viene del mundo, como un PNJ o el entorno, <em><strong>el DJ tira 1d</strong> </em>para representarla.</p>"
       },
       "video": {
         "controls": true,

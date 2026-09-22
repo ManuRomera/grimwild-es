@@ -1,15 +1,15 @@
 {
-  "name": "Hacha caída",
+  "name": "Hacha funesta",
   "type": "arcana",
   "img": "icons/weapons/axes/axe-battle-worn-eye.webp",
   "system": {
-    "description": "<p>Matar algo con este hacha garantiza que nunca podrá recuperarse.</p>",
+    "description": "<p>Lo que matas con esta hacha ya nunca podrá volver a la vida.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Te exige que mates a cualquiera contra quien empuñes esto.</p>",
+    "limitations": "<p>Te exige matar a cualquiera contra quien la empuñes.</p>",
     "touchstones": "nigromancia—violencia—muerte",
     "tier": "major"
   },

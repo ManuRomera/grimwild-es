@@ -1,11 +1,11 @@
 {
   "folder": "i53xgSVOBOe4n7Mr",
-  "name": "Tiro de anclaje",
+  "name": "Disparo ancla",
   "type": "talent",
   "_id": "VljVPyIk0taV9T5l",
   "img": "icons/skills/ranged/arrow-flying-broadhead-metal.webp",
   "system": {
-    "description": "<p>Tienes un artilugio de gancho, arpón y Roper que ancla monstruos grandes al suelo. Con ello tienes <em><strong>potencia</strong></em> para obstaculizar el movimiento de cualquier cosa del tamaño de un elefante o más. Cuando es golpeado, el objetivo se vuelve <em><strong>4d atado</strong></em>. Se ancla al suelo para que puedas dejarlo.</p>",
+    "description": "<p>Tienes un artilugio de gancho, arpón y cuerda que ancla monstruos grandes al suelo. Con él tienes <em><strong>potencia</strong></em> para frenar el movimiento de cualquier cosa del tamaño de un elefante o mayor. Cuando lo alcanzas, el objetivo queda <em><strong>4d Amarrado</strong></em>. Queda anclado al suelo, así que puedes dejarlo ahí.</p>",
     "core": false,
     "notes": {
       "description": "",

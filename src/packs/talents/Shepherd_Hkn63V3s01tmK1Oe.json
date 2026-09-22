@@ -5,7 +5,7 @@
   "_id": "Hkn63V3s01tmK1Oe",
   "img": "icons/magic/nature/root-vine-coiled-crook.webp",
   "system": {
-    "description": "<p>Cuando ayudas a un aliado en una tirada de defensa que lo dejaría nervioso o molesto, puedes <em><strong>invoca tu vínculo</strong> </em>para tomar +1d en la tirada. En un perfecto, ambos <strong>tomar chispa</strong>.</p>",
+    "description": "<p>Cuando ayudas a un aliado en una tirada de defensa que lo dejaría alterado o con un arrebato, puedes <em><strong>invocar tu vínculo</strong> </em>para tener +1d en la tirada. Con un perfecto, ambos <strong>ganáis chispa</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",

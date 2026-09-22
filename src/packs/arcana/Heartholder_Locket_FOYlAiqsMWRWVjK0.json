@@ -1,15 +1,15 @@
 {
-  "name": "Medallón de corazón",
+  "name": "Guardapelo del corazón",
   "type": "arcana",
   "img": "icons/equipment/neck/amulet-heart.webp",
   "system": {
-    "description": "<p>Teletransporta a la persona que más quieres directamente hacia ti.</p>",
+    "description": "<p>Teletransporta directamente hasta ti a la persona que más quieres.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Sólo funciona si sus sentimientos por ti son mutuos.</p>",
+    "limitations": "<p>Solo funciona si el sentimiento es mutuo.</p>",
     "touchstones": "amor—teletransportación—apertura",
     "tier": "mythic"
   },

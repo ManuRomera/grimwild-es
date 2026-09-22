@@ -1,11 +1,11 @@
 {
   "folder": "85AhjhNgoBP9pTvr",
-  "name": "Atar",
+  "name": "Atadura",
   "type": "talent",
   "_id": "w4nKIMcv6epYkUMZ",
   "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
   "system": {
-    "description": "<p>Una vez por sesión, puedes tocar a alguien para vincular tus espíritus. Puedes sentir sus sentimientos y saber siempre dónde están. Puede <strong>esfuérzate</strong> a: <em>ayudarles—hablar en su mente—sufrir daño mental por ellos—teletransportarse a ellos</em>. Si ellos se caen, tú también. Debes tocar nuevamente o descansar para que finalice el enlace. Cuando lo haga, cambie <em>(o crear) </em>tu vínculo con ellos.</p>",
+    "description": "<p>Una vez por sesión, puedes tocar a alguien para unir vuestros espíritus. Sientes lo que siente y siempre sabes dónde está. Puedes <strong>esforzarte</strong> para: <em>ayudarle—hablarle en su mente—sufrir daño mental en su lugar—teletransportarte a su lado</em>. Si lo derriban, a ti también. Para romper la unión debes volver a tocarle o descansar. Cuando se rompa, cambia <em>(o crea) </em>tu vínculo con esa persona.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,
@@ -27,7 +27,7 @@
       },
       {
         "type": "points",
-        "label": "Atar",
+        "label": "Atadura",
         "points": {
           "value": 1,
           "max": 1,

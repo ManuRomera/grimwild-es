@@ -5,7 +5,7 @@
   "_id": "5wYPsQCeXcoVNH25",
   "img": "icons/skills/social/diplomacy-handshake.webp",
   "system": {
-    "description": "<p>Dos veces por sesión, puedes <strong>invocar el vínculo de un aliado contigo</strong> para aumentar el resultado de su tirada de dado en 1 (3→4). No es necesario que estés en la misma escena; es posible que evoquen un recuerdo.</p>",
+    "description": "<p>Dos veces por sesión, puedes <strong>invocar el vínculo que un aliado tiene contigo</strong> para aumentar en 1 el resultado de un dado de su tirada (3→4). No hace falta que estés en la misma escena: puede que recuerde algo que vivisteis.</p>",
     "core": false,
     "notes": {
       "description": "",

@@ -9,18 +9,18 @@
     "role": "tactician",
     "tier": "tough",
     "traits": [
-      "Madrigueras sin esfuerzo",
+      "Excava sin esfuerzo",
       "Quitina resistente",
       "Habla"
     ],
     "moves": [
       "Mirada hipnótica",
       "Excavación rápida",
-      "Colapso del suelo"
+      "Derrumbar el suelo"
     ],
     "desires": [
       {
-        "value": "para darse un festín con criaturas de la superficie.",
+        "value": "darse un festín con criaturas de la superficie.",
         "are": false
       },
       {
@@ -31,21 +31,21 @@
     "sensories": {
       "colors": [
         {
-          "name": "Bronce Quitina",
+          "name": "Bronce quitina",
           "color": "#cd8032"
         },
         {
-          "name": "Ocre de tierra",
+          "name": "Ocre terroso",
           "color": "#8a5a2a"
         },
         {
-          "name": "Ocre Piedra",
+          "name": "Ocre piedra",
           "color": "#b29655"
         }
       ],
-      "sights": "madrigueras grandes, tierra agrietada, quitina reluciente",
-      "sounds": "Ruidos lejanos, tierra que se mueve, chasquidos de mandíbulas.",
-      "smells": "tierra recién removida, sabor rico en minerales, almizcle terroso"
+      "sights": "grandes agujeros de madriguera, tierra agrietada, quitina reluciente",
+      "sounds": "retumbar lejano, tierra que se mueve, chasquido de mandíbulas",
+      "smells": "tierra recién removida, intenso regusto mineral, almizcle terroso"
     },
     "pool": {
       "diceNum": 0,
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "Se derrumba...",
+        "name": "Derrumba...",
         "instructions": "",
         "table": [
           [
-            "Pasto de granjero, lleno de vacas.",
-            "Plaza del pueblo durante un festival.",
-            "Jardín de Noble, durante una fiesta.",
-            "La mía bulliciosa, justo cuando golpearon la veta madre.",
-            "Tienda del general, tras una gloriosa victoria.",
-            "Cementerio real, mientras el rey descansa."
+            "El pasto de un granjero, lleno de vacas.",
+            "La plaza del pueblo durante un festival.",
+            "El jardín de un noble, durante un banquete.",
+            "Una mina bulliciosa, justo cuando dan con el filón principal.",
+            "La tienda del general, tras una gloriosa victoria.",
+            "El cementerio real, mientras dan sepultura al rey."
           ]
         ]
       }

@@ -1,15 +1,15 @@
 {
-  "name": "Jarra de poder ligado",
+  "name": "Tarro del poder encerrado",
   "type": "arcana",
   "img": "icons/creatures/magical/fae-fairy-winged-glowing-green.webp",
   "system": {
-    "description": "<p>Tiene una fuerza terrible disfrazada de hada inofensiva.</p>",
+    "description": "<p>Contiene una fuerza terrible disfrazada de hada inofensiva.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Se rompe violentamente si se maneja mal, liberando todo su poder.</p>",
+    "limitations": "<p>Si se maneja mal, estalla violentamente y libera todo su poder.</p>",
     "touchstones": "malevolencia—contención—destrucción",
     "tier": "mythic"
   },

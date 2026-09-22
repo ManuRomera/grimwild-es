@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Señores brutales del hielo y la piedra, honrando la fuerza y ​​la tradición por encima de todo. Buscan demostrar que son dignos de los duros e implacables yermos helados.</p>",
+    "biography": "<p>Brutales señores del hielo y la piedra que honran la fuerza y la tradición por encima de todo. Buscan demostrar que son dignos de los yermos helados, duros e implacables.</p>",
     "notes": "",
     "role": "blaster",
     "tier": "tough",
@@ -15,23 +15,23 @@
     ],
     "moves": [
       "Aliento de escarcha",
-      "Invocar tormenta de nieve",
-      "Martillo congelado"
+      "Invocar ventisca",
+      "Martillo helado"
     ],
     "desires": [
       {
-        "value": "para dominar las amplias vistas de la tundra.",
+        "value": "gobernar las vastas extensiones de la tundra.",
         "are": false
       },
       {
-        "value": "sentir el frío filtrarse de sus huesos.",
+        "value": "sentir que el frío abandona sus huesos.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "azul helado",
+          "name": "Azul hielo",
           "color": "#add9e6"
         },
         {
@@ -39,13 +39,13 @@
           "color": "#d3d3d3"
         },
         {
-          "name": "Gris Piedra",
+          "name": "Gris piedra",
           "color": "#696969"
         }
       ],
       "sights": "enormes carámbanos colgantes, nubes de copos de nieve",
-      "sounds": "crujido de hielo, aullidos de viento helado, crujido de escarcha",
-      "smells": "Frío cortante, aire helado, pinos, nieve fresca."
+      "sounds": "chasquido de lo que se congela, aullido de vientos helados, crujir de escarcha",
+      "smells": "frío cortante, aire gélido, pinos, nieve recién caída"
     },
     "pool": {
       "diceNum": 0,
@@ -53,15 +53,15 @@
     },
     "tables": [
       {
-        "name": "Ubicaciones inesperadas",
+        "name": "Lugares inesperados",
         "instructions": "",
         "table": [
           [
-            "Toda la torre construida a su alrededor, manteniéndola congelada.",
-            "Pasa a través de un portal y llega a una playa de arena.",
-            "Montando sobre un iceberg flotante hacia una ciudad portuaria.",
+            "Una torre entera construida a su alrededor que lo mantiene congelado.",
+            "Cruza un portal y aparece en una playa de arena.",
+            "A lomos de un iceberg a la deriva rumbo a una ciudad portuaria.",
             "En el laboratorio de un gran mago.",
-            "Emergiendo de una extraña tormenta de nieve a mediados de primavera.",
+            "Surge de una extraña ventisca en plena primavera.",
             "Atado en medio de un vasto desierto."
           ]
         ]
@@ -188,8 +188,8 @@
           "Pilares y estatuas de hielo agrietados"
         ],
         "moves": [
-          "Nube Iceling 4d (Enjambre Secuaz)",
-          "8d | Remorhaz (depredador de élite)"
+          "4d Nube de escarchitas (Enjambre secuaz)",
+          "8d | Remorhaz (Depredador de élite)"
         ],
         "failure": []
       },
@@ -213,7 +213,7 @@
       "_key": "!actors.items!BtbyjzUztKLvhRPE.DPY1AOkPcTgPa0oF"
     },
     {
-      "name": "Salas heladas",
+      "name": "Salones helados",
       "type": "challenge",
       "_id": "xz6BeTgNv83MTfgC",
       "img": "icons/svg/item-bag.svg",
@@ -235,11 +235,11 @@
         },
         "traits": [
           "Pasillos laberínticos",
-          "4d aullido aterrador"
+          "4d Aullidos aterradores"
         ],
         "moves": [
-          "Lobos de invierno 6d (depredadores duros)",
-          "6d | Lobo invernal terrible (supervisor de élite)"
+          "6d Lobos invernales (Depredadores duros)",
+          "6d | Lobo invernal terrible (Capataz de élite)"
         ],
         "failure": []
       },
@@ -263,7 +263,7 @@
       "_key": "!actors.items!BtbyjzUztKLvhRPE.xz6BeTgNv83MTfgC"
     },
     {
-      "name": "Salón del trono congelado",
+      "name": "Salón del trono helado",
       "type": "challenge",
       "_id": "jjgDIDaDecJ5e7j8",
       "img": "icons/svg/item-bag.svg",
@@ -284,13 +284,13 @@
           ]
         },
         "traits": [
-          "intensamente frio",
-          "Carámbanos que caen 4d"
+          "Frío intenso",
+          "4d Caída de carámbanos"
         ],
         "moves": [
-          "3 trolls de hielo (merodeadores duros)",
-          "Elementales de aire 6d (blásteres de élite)",
-          "8d-8d | Gigante de Hielo (Boss Blaster)"
+          "3 Troles de hielo (Saqueadores duros)",
+          "6d Elementales de aire (Artilleros de élite)",
+          "8d-8d | Gigante de escarcha (Jefe artillero)"
         ],
         "failure": []
       },

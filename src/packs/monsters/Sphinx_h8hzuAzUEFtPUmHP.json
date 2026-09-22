@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criaturas majestuosas con cuerpo de león y cabeza de humano. Guardan secretos y conceden Deseos, poniendo a prueba a las personas con acertijos para demostrar su valía.</p>",
+    "biography": "<p>Criaturas majestuosas con cuerpo de león y cabeza humana. Guardan secretos y conceden deseos, y ponen a prueba a la gente con acertijos para que demuestre su valía.</p>",
     "notes": "",
     "role": "tactician",
     "tier": "tough",
     "traits": [
       "Maestro de acertijos",
-      "Sin dejarse engañar",
+      "Imposible de engañar",
       "Habla"
     ],
     "moves": [
       "Aletazo",
-      "Hechizo de adivinación",
+      "Conjuro de adivinación",
       "Teletransportarse"
     ],
     "desires": [
       {
-        "value": "para dejar pasar a los verdaderamente dignos.",
+        "value": "dejar pasar a quienes son verdaderamente dignos.",
         "are": false
       },
       {
-        "value": "enfrentar engaños o engaños de cualquier tipo.",
+        "value": "toparse con trucos o engaños de ningún tipo.",
         "are": false
       }
     ],
@@ -35,16 +35,16 @@
           "color": "#b8860b"
         },
         {
-          "name": "Azul oscuro",
+          "name": "Azul crepuscular",
           "color": "#49646b"
         },
         {
-          "name": "arena del desierto",
+          "name": "Arena del desierto",
           "color": "#d1b48c"
         }
       ],
-      "sights": "Pelaje dorado, postura regia, ojos vigilantes.",
-      "sounds": "voz resonante, viento soplando, rugidos lejanos",
+      "sights": "pelaje dorado, postura regia, ojos vigilantes",
+      "sounds": "voz resonante, viento que barre, rugidos lejanos",
       "smells": "arena cálida, incienso antiguo, suaves aromas florales"
     },
     "pool": {
@@ -53,35 +53,35 @@
     },
     "tables": [
       {
-        "name": "Opciones de Deseos",
+        "name": "Deseos a elegir",
         "instructions": "",
         "table": [
           [
-            "Haga cualquier pregunta de sí o no.",
+            "Haz cualquier pregunta de sí o no.",
             "Pide cualquier objeto y es tuyo.",
-            "Pide tener la edad que quieras... ¿para siempre?",
+            "Pide tener la edad que quieras… ¿para siempre?",
             "Pide que cualquier ser deje de ser.",
             "Pide que traigan de vuelta a cualquier ser.",
-            "Pide una oportunidad para corregir un solo arrepentimiento."
+            "Pide una oportunidad de enmendar un único arrepentimiento."
           ]
         ]
       },
       {
-        "name": "Enigma",
-        "instructions": "Tira 3, elige 1 o 2, plantéalo como un acertijo (si estás relativamente cerca, acéptalo. Combina dos para obtener un acertijo difícil).",
+        "name": "Acertijo",
+        "instructions": "Tira 3, elige 1 o 2 y plantéalo como acertijo (si la respuesta se acerca bastante, acéptala; combina dos para un acertijo difícil).",
         "table": [
           [
             "Fluye pero no tiene forma.",
-            "Crece y luego desaparece.",
+            "Crece y crece, y luego desaparece.",
             "Viaja lejos pero no da pasos.",
             "Arde pero no deja cenizas.",
             "Cuenta los momentos pero no tiene manos.",
-            "Cae pero no hace ningún sonido."
+            "Cae pero no hace ruido."
           ],
           [
-            "Hace frío pero no helado.",
-            "Es brillante pero no caliente.",
-            "Tararea cuando el mundo está en silencio.",
+            "Está frío pero no helado.",
+            "Brilla pero no quema.",
+            "Zumba cuando el mundo está en calma.",
             "Está lleno pero nunca completo.",
             "Es fugaz pero siempre regresa.",
             "Está escondido a plena vista."
@@ -89,7 +89,7 @@
           [
             "Crece cuando la luz disminuye.",
             "Te sigue en los días soleados.",
-            "Nos devuelve la mirada desde aguas tranquilas.",
+            "Te devuelve la mirada desde las aguas quietas.",
             "Está enterrado pero no muerto.",
             "Es un compañero silencioso.",
             "Es un camino sin fin."

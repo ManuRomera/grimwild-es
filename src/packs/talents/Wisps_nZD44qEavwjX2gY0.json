@@ -5,16 +5,16 @@
   "_id": "nZD44qEavwjX2gY0",
   "img": "icons/magic/unholy/projectiles-binary-pink.webp",
   "system": {
-    "description": "<p>Dos pequeñas esferas de tu camino mágico flotan a tu alrededor. Dales 2 rasgos: <em>molesto—caprichoso—malévolo—fascinante—caprichoso</em>. Sirven como piedras de toque. Puedes sacrificar uno para: <em>ayudar sin riesgo—distraer a alguien—enviar un breve mensaje lejos—sufrir molestias en su lugar</em>. Haz tiradas de historia para determinar los efectos si se sacrifica. Regresan en cada sesión.</p>",
+    "description": "<p>Dos pequeñas esferas de tu camino mágico flotan a tu alrededor. Dales 2 rasgos: <em>molestas—caprichosas—malévolas—hipnóticas—juguetonas</em>. Sirven como piedras de toque. Puedes sacrificar una para: <em>ayudar sin riesgo—distraer a alguien—enviar un mensaje breve a lo lejos—sufrir un arrebato en tu lugar</em>. Si sacrificas una, haz tiradas de historia para determinar los efectos. Vuelven en cada sesión.</p>",
     "core": false,
     "notes": {
-      "description": "<p><em>Escribe aquí tus 2 rasgos de wisp.</em></p>",
+      "description": "<p><em>Anota aquí los 2 rasgos de tus fuegos fatuos.</em></p>",
       "label": "Rasgos"
     },
     "trackers": [
       {
         "type": "points",
-        "label": "sacrificado",
+        "label": "Sacrificados",
         "points": {
           "value": 0,
           "max": 2,

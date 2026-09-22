@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Híbridos monstruosos, violentos y caóticos de un león, una cabra y un dragón. Rara vez permanecen en un lugar por mucho tiempo, sufriendo una incesante pasión por los viajes.</p>",
+    "biography": "<p>Híbridos monstruosos, violentos y caóticos de león, cabra y dragón. Rara vez se quedan mucho tiempo en un mismo lugar, pues sufren un ansia de vagar implacable.</p>",
     "notes": "",
     "role": "marauder",
     "tier": "tough",
     "traits": [
-      "multicabeza",
+      "Varias cabezas",
       "Imprevisible",
-      "Entiende el lenguaje"
+      "Entiende el idioma"
     ],
     "moves": [
       "Aliento de fuego",
-      "Salto volador",
-      "Garra, Mordedura, Cuernos"
+      "Abalanzarse en vuelo",
+      "Garra, mordisco, cuernos"
     ],
     "desires": [
       {
-        "value": "para seguir vagando.",
+        "value": "seguir vagando.",
         "are": false
       },
       {
-        "value": "enfrentar opciones en las que sus jefes no están de acuerdo.",
+        "value": "enfrentarse a decisiones en las que sus cabezas no se ponen de acuerdo.",
         "are": false
       }
     ],
@@ -35,7 +35,7 @@
           "color": "#654320"
         },
         {
-          "name": "Sombra quemada",
+          "name": "Siena tostada",
           "color": "#8a3224"
         },
         {
@@ -43,9 +43,9 @@
           "color": "#b22222"
         }
       ],
-      "sights": "vetas de tierra quemada, humo de sus fosas nasales",
-      "sounds": "gruñidos, rugidos y silbidos, silbido y crujido repentinos",
-      "smells": "olor acre a azufre y ceniza, pelaje húmedo almizclado"
+      "sights": "franjas de tierra chamuscada, humo que le sale por los ollares",
+      "sounds": "gruñidos, rugidos y siseos, fogonazos y crepitar repentinos",
+      "smells": "olor acre a azufre y ceniza, pelaje húmedo y almizclado"
     },
     "pool": {
       "diceNum": 0,
@@ -74,9 +74,9 @@
           ],
           [
             "murciélago vampiro",
-            "ranura",
+            "perezoso",
             "chacal",
-            "monstruo de gila",
+            "monstruo de Gila",
             "pangolín",
             "cobra"
           ]

@@ -4,13 +4,13 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Masas transparentes, gelatinosas, lo suficientemente grandes como para llenar los pasillos de las mazmorras por las que se deslizan. Engullen todo lo que tocan y lo disuelven con digestión ácida.</p>",
+    "biography": "<p>Masas transparentes y gelatinosas tan grandes que llenan los pasillos de las mazmorras por los que se deslizan. Engullen todo lo que tocan y lo disuelven con su digestión ácida.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
       "Casi invisible",
-      "muy lento"
+      "Muy lento"
     ],
     "moves": [
       "Absorber presa",
@@ -19,11 +19,11 @@
     ],
     "desires": [
       {
-        "value": "para seguir avanzando.",
+        "value": "seguir avanzando.",
         "are": false
       },
       {
-        "value": "Objetos tenaces que persisten en su interior.",
+        "value": "objetos resistentes que se quedan en su interior.",
         "are": false
       }
     ],
@@ -42,7 +42,7 @@
           "color": "#d3d39f"
         }
       ],
-      "sights": "brillo tenue, elementos medio disueltos suspendidos en el aire",
+      "sights": "brillo tenue, objetos medio disueltos suspendidos en el aire",
       "sounds": "chapoteo húmedo, suave silbido ácido, gorgoteo inquietante",
       "smells": "olor agrio a ácido, olor punzante a metal corroído"
     },
@@ -56,12 +56,12 @@
         "instructions": "",
         "table": [
           [
-            "Centro hueco lleno de gel llameante y chapoteante.",
+            "Núcleo hueco lleno de gel en llamas que se agita.",
             "Cargado con arcos eléctricos crepitantes.",
-            "Cambiando constantemente en colores prismáticos.",
+            "Cambia sin cesar entre colores prismáticos.",
             "Lleno de trozos de metal afilados como navajas.",
             "Enjambre de cubos del tamaño de un dado.",
-            "Increíblemente denso, lento e indestructible."
+            "Imposiblemente denso, lento e indestructible."
           ]
         ]
       }

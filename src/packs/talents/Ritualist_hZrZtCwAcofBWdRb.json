@@ -5,7 +5,7 @@
   "_id": "hZrZtCwAcofBWdRb",
   "img": "icons/magic/unholy/hands-circle-light-green.webp",
   "system": {
-    "description": "<p>Obtienes +1d cuando trabajas para superar el desafío de un ritual y puedes reemplazar cualquiera de las anclas de un ritual por ti mismo.</p><p></p>",
+    "description": "<p>Tienes +1d cuando trabajas para superar el desafío de un ritual y puedes sustituir cualquiera de las anclas de un ritual por ti mismo.</p><p></p>",
     "core": false,
     "notes": {
       "description": "",

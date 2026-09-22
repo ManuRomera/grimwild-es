@@ -15,7 +15,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Tira para lograr algo arriesgado. Estado <strong>cómo y por qué</strong>, aclarando su intención. El DJ elige la estadística que coincide con tus intenciones.</p><p></p><p>Perfecto. Hazlo y evita problemas.</p><p>Complicado. Lo haces, pero hay problemas. <em>Provoca un movimiento de impacto</em>.</p><p>Sombrío. Fallas y hay problemas. <em>Provoca un movimiento de impacto</em>.</p><p></p><p>El DJ hace un @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto} para introducir consecuencias. No obtienes un @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Tirada de defensa} contra movimientos de impacto provocados por tus propias tiradas de acción; evitar el peligro ya está incluido en la tirada.</p>"
+        "content": "<p>Tira para lograr algo arriesgado. Explica <strong>cómo lo haces y qué pretendes</strong>, dejando clara tu intención. El DJ elige el atributo que encaja con lo que pretendes.</p><p></p><p>Perfecto. Lo consigues y evitas problemas.</p><p>Complicado. Lo consigues, pero hay problemas. <em>Provoca un movimiento de impacto</em>.</p><p>Sombrío. Fallas y hay problemas. <em>Provoca un movimiento de impacto</em>.</p><p></p><p>El DJ hace un @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto} para introducir consecuencias. No haces una @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Tirada de defensa} contra los movimientos de impacto provocados por tus propias tiradas de acción: evitar el peligro ya está incluido en la tirada.</p>"
       },
       "video": {
         "controls": true,

@@ -1,40 +1,40 @@
 {
   "folder": null,
-  "name": "Rastreador de cadáveres",
+  "name": "Carroñero reptante",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Gusanos enormes y viscosos con docenas de tentáculos que acechan bajo tierra para darse un festín con presas muertas o paralizadas. Se sienten atraídos por el olor de la muerte.</p>",
+    "biography": "<p>Gusanos enormes y viscosos con docenas de tentáculos prensiles que acechan bajo tierra para darse un festín con presas muertas o paralizadas. Les atrae el olor de la muerte.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
       "Toque paralítico",
-      "Aferrarse a las paredes"
+      "Se adhiere a las paredes"
     ],
     "moves": [
-      "Bofetadas de tentáculo",
-      "vomitar bilis",
-      "Breve hundimiento"
+      "Latigazos de tentáculo",
+      "Vomitar bilis",
+      "Correteo fugaz"
     ],
     "desires": [
       {
-        "value": "Más carne, siempre más carne.",
+        "value": "más carne, siempre más carne.",
         "are": false
       },
       {
-        "value": "sufrir el puro pánico del hambre.",
+        "value": "sufrir el pánico atroz del hambre.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "marrón podrido",
+          "name": "Marrón podrido",
           "color": "#8b4512"
         },
         {
-          "name": "Oliva opaca",
+          "name": "Oliva apagado",
           "color": "#6a8e22"
         },
         {
@@ -42,8 +42,8 @@
           "color": "#566b30"
         }
       ],
-      "sights": "Huesos prístinos, tentáculos retorciéndose, nubes de moscas.",
-      "sounds": "deslizamientos húmedos, chapoteo grotesco, chasquidos de huesos",
+      "sights": "huesos limpios, tentáculos que se retuercen, nubes de moscas",
+      "sounds": "reptar húmedo, chapoteo grotesco, chasquido de huesos",
       "smells": "hedor rancio, veneno empalagoso, moho y podredumbre"
     },
     "pool": {
@@ -56,19 +56,19 @@
         "instructions": "",
         "table": [
           [
-            "Los restos de una horrible batalla.",
-            "El resultado de un exitoso culto a la muerte.",
+            "Los restos de una batalla atroz.",
+            "La obra de un culto a la muerte que tuvo éxito.",
             "Un cementerio recién descongelado.",
             "Una plaga que acabó con rebaños de animales de granja.",
             "Una flota de barcos de invasión se estrelló contra las rocas.",
-            "Se le realizan sacrificios masivos, se le adora como a un dios."
+            "Sacrificios en masa en su honor, pues lo adoran como a un dios."
           ]
         ]
       }
     ]
   },
   "prototypeToken": {
-    "name": "Rastreador de cadáveres",
+    "name": "Carroñero reptante",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

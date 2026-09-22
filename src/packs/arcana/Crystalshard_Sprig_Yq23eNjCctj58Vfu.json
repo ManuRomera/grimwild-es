@@ -1,9 +1,9 @@
 {
-  "name": "Ramita de cristal",
+  "name": "Ramita de esquirlas de cristal",
   "type": "arcana",
   "img": "icons/weapons/staves/staff-engraved-red.webp",
   "system": {
-    "description": "<p>Dispara fragmentos de cristal que encierran a los objetivos.</p>",
+    "description": "<p>Dispara esquirlas de cristal que encierran a los objetivos.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,8 +23,8 @@
         }
       }
     ],
-    "limitations": "<p>4d reserva de poder, reabastecido en cada sesión.</p>",
-    "touchstones": "cristal—atrapamiento—precisión",
+    "limitations": "<p>Reserva de poder de 4d, que se repone en cada sesión.</p>",
+    "touchstones": "cristal—aprisionamiento—precisión",
     "tier": "major"
   },
   "effects": [],

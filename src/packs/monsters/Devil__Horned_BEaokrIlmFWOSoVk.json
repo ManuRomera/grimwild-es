@@ -4,16 +4,16 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Demonios temibles y poderosos con cuernos altísimos, cola puntiaguda y alas enormes. Blanden un tenedor en llamas y gobiernan con terror y crueldad.</p>",
+    "biography": "<p>Diablos temibles y poderosos con cuernos imponentes, cola con púas y alas enormes. Empuñan una horca llameante y gobiernan con terror y crueldad.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
       "Piel impenetrable",
-      "discurso. Telepatía"
+      "Habla, telepatía"
     ],
     "moves": [
-      "Tenedor llameante",
+      "Horca llameante",
       "Descarga de fuego infernal",
       "Herida supurante"
     ],
@@ -23,7 +23,7 @@
         "are": false
       },
       {
-        "value": "verse obligado a aceptar ningún compromiso.",
+        "value": "verse obligado a ceder en algo.",
         "are": false
       }
     ],
@@ -34,7 +34,7 @@
           "color": "#b22222"
         },
         {
-          "name": "Naranja quemada",
+          "name": "Naranja tostado",
           "color": "#cc5600"
         },
         {
@@ -42,9 +42,9 @@
           "color": "#1c1c1c"
         }
       ],
-      "sights": "sombras de cuernos que se extienden, tenedor reluciente, heridas de arma blanca",
+      "sights": "sombras alargadas de cuernos, horca reluciente, heridas punzantes",
       "sounds": "voz telepática resonante, risas malévolas",
-      "smells": "azufre acre, humo sofocante, azufre"
+      "smells": "azufre acre, humo asfixiante, olor a piedra de azufre"
     },
     "pool": {
       "diceNum": 0,
@@ -52,16 +52,16 @@
     },
     "tables": [
       {
-        "name": "Círculos de invocación rotos...",
+        "name": "Círculos de invocación rotos…",
         "instructions": "",
         "table": [
           [
-            "En un templo por un sacerdote que perdió la fe.",
-            "En una granja de una madre desconsolada.",
-            "En una torre por un mago consumido por los celos.",
+            "En un templo, por un sacerdote que perdió la fe.",
+            "En una granja, por una madre desconsolada.",
+            "En una torre, por un mago consumido por los celos.",
             "En el estudio de un héroe atormentado por el fracaso.",
-            "En una taberna junto a un juglar obsesionado por la fama.",
-            "En el sótano de un zapatero, por un prisionero que estuvo detenido durante mucho tiempo."
+            "En una taberna, por un juglar obsesionado con la fama.",
+            "En el sótano de un zapatero, por alguien que llevaba mucho tiempo preso."
           ]
         ]
       }

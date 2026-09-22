@@ -1,26 +1,26 @@
 {
   "folder": null,
-  "name": "Mímico",
+  "name": "Mimeto",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criatura que cambia de forma y se disfraza de objetos para atraer a sus presas. Se estiran para devorar a las víctimas de un solo trago y cobran vida cuando tienen asegurada la comida.</p>",
+    "biography": "<p>Criaturas que cambian de forma y se disfrazan de objetos para atraer a sus presas. Se estiran para devorar a sus víctimas de un bocado y cobran vida cuando tienen la comida asegurada.</p>",
     "notes": "",
     "role": "lurker",
     "tier": "tough",
     "traits": [
       "Cambiaformas",
       "Toque adhesivo",
-      "Entiende el lenguaje"
+      "Entiende el idioma"
     ],
     "moves": [
-      "Despertar la curiosidad",
-      "Desviar la sospecha",
-      "Tragar entero"
+      "Despertar curiosidad",
+      "Desviar sospechas",
+      "Tragarse entero"
     ],
     "desires": [
       {
-        "value": "para ser llevado a lugares con comidas más sabrosas.",
+        "value": "que lo lleven a lugares con comida más sabrosa.",
         "are": false
       },
       {
@@ -35,17 +35,17 @@
           "color": "#4b0081"
         },
         {
-          "name": "Hierro Negro",
+          "name": "Hierro negro",
           "color": "#2f2f2f"
         },
         {
-          "name": "Roble Envejecido",
+          "name": "Roble envejecido",
           "color": "#5d3a1a"
         }
       ],
-      "sights": "Superficies cambiantes como cera derritiéndose, textura ondulada.",
-      "sounds": "sorbos pegajosos, chasquidos repentinos, crujidos de presión",
-      "smells": "descomposición agria del adhesivo viejo, olor a aire atrapado"
+      "sights": "superficies cambiantes como cera que se derrite, textura que ondula",
+      "sounds": "sorbetones pegajosos, chasquidos repentinos, crujidos por la presión",
+      "smells": "olor agrio a adhesivo viejo en descomposición, bocanadas de aire encerrado"
     },
     "pool": {
       "diceNum": 0,
@@ -58,18 +58,18 @@
         "table": [
           [
             "Sencillo, como un barril, una alfombra o una estantería.",
-            "Difícil, como una puerta, un libro o un armario.",
-            "Atractivo, como una silla lujosa, una cama o un tocador.",
-            "Horrible, como una muñeca, una máscara o un ataúd.",
-            "Nostálgico, como un juguete de niño, un sombrero viejo o un laúd.",
-            "Necesario, como un baño, una escalera o un pozo."
+            "Engañoso, como una puerta, un libro o un armario.",
+            "Tentador, como un sillón mullido, una cama o un tocador.",
+            "Espeluznante, como una muñeca, una máscara o un ataúd.",
+            "Nostálgico, como un juguete infantil, un sombrero viejo o un laúd.",
+            "Necesario, como un retrete, una escalera o un pozo."
           ]
         ]
       }
     ]
   },
   "prototypeToken": {
-    "name": "Mímico",
+    "name": "Mimeto",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

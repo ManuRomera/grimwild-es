@@ -1,11 +1,11 @@
 {
   "folder": "n7jEJF8MCm2SAEyA",
-  "name": "Experto en todos los oficios",
+  "name": "Mil oficios",
   "type": "talent",
   "_id": "FvD0agNmsYSpVreY",
   "img": "icons/sundries/gaming/playing-cards.webp",
   "system": {
-    "description": "<p>Aumenta una de tus estadísticas que es de 1 a 2. También obtienes +1d en las tiradas de montaje.</p>",
+    "description": "<p>Sube a 2 uno de tus atributos que esté a 1. Además, tienes +1d en las tiradas de montaje.</p>",
     "core": false,
     "notes": {
       "description": "",

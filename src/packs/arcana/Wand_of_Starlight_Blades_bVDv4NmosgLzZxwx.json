@@ -1,9 +1,9 @@
 {
-  "name": "Varita de espadas de luz estelar",
+  "name": "Varita de hojas de luz estelar",
   "type": "arcana",
   "img": "icons/weapons/staves/staff-ornate-blue-jewel.webp",
   "system": {
-    "description": "<p>Envía brillantes zarcillos de luz que atraviesan la oscuridad y los enemigos.</p>",
+    "description": "<p>Lanza relucientes zarcillos de luz que atraviesan la oscuridad y a los enemigos.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,8 +23,8 @@
         }
       }
     ],
-    "limitations": "<p>Grupo de energía 8d, reabastecido en una noche sin nubes ni luna.</p>",
-    "touchstones": "Luz—Corte de escena—precisión",
+    "limitations": "<p>Reserva de poder de 8d, que se repone en una noche sin nubes ni luna.</p>",
+    "touchstones": "luz—corte—precisión",
     "tier": "major"
   },
   "effects": [],

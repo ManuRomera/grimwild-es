@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Infiernos en constante cambio que consumen todo a su paso. Arden con hambre insaciable, dejando tras de sí cenizas humeantes y ruinas fundidas.</p>",
+    "biography": "<p>Infiernos en cambio constante que consumen todo a su paso. Arden con un hambre insaciable y dejan tras de sí cenizas humeantes y ruinas fundidas.</p>",
     "notes": "",
     "role": "marauder",
     "tier": "tough",
@@ -14,38 +14,38 @@
       "Habla"
     ],
     "moves": [
-      "Latigazo de llama",
+      "Látigo de llamas",
       "Fundir metales",
-      "Invocar Firelings"
+      "Invocar llamitas"
     ],
     "desires": [
       {
-        "value": "para consumir y seguir adelante.",
+        "value": "consumir y seguir adelante.",
         "are": false
       },
       {
-        "value": "para dejar que se apaguen las brasas.",
+        "value": "dejar que se apaguen las brasas.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "rojo ardiente",
+          "name": "Rojo ardiente",
           "color": "#b22222"
         },
         {
-          "name": "oro quemado",
+          "name": "Oro quemado",
           "color": "#b8860b"
         },
         {
-          "name": "naranja fundida",
+          "name": "Naranja fundido",
           "color": "#ff4500"
         }
       ],
       "sights": "masa turbulenta, bordes parpadeantes, brasas incandescentes",
-      "sounds": "crujidos y pop, rugidos, zumbidos de metales fundidos",
-      "smells": "azufre, azufre, humo, carbón, sabor a metales"
+      "sounds": "chisporroteos y chasquidos, rugidos, zumbido de metales fundidos",
+      "smells": "azufre, piedra de azufre, humo, chamusquina, regusto metálico"
     },
     "pool": {
       "diceNum": 0,
@@ -53,7 +53,7 @@
     },
     "tables": [
       {
-        "name": "Encendido y personalidad",
+        "name": "Origen de la llama y personalidad",
         "instructions": "",
         "table": [
           [

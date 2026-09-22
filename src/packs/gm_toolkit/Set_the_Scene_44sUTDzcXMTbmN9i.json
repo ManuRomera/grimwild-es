@@ -1,11 +1,11 @@
 {
   "folder": "AlWljQLa4nCSGD2H",
-  "name": "Establecer la escena",
+  "name": "Plantea la escena",
   "_id": "44sUTDzcXMTbmN9i",
   "pages": [
     {
       "sort": 100000,
-      "name": "Establecer la escena",
+      "name": "Plantea la escena",
       "type": "text",
       "_id": "q2wMnbkD2ZdMG5lV",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 33\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Usa una tirada de historia para determinar cómo comienza una escena cuando no está clara.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>\"Todos parecen tener espíritu festivo en el gran salón\". • \"Todos los ojos se vuelven fríamente cuando entras al gran salón\".</em></span></p><p></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">ESTABLECER LA ESCENA </span><span style=\"font-family:'Capito04VAR'\">cuando no estás seguro de los detalles de la ficción actual o quieres sumergirte directamente en la acción. Omita la planificación detallada y los preparativos cautelosos que a menudo retrasan el juego. En cambio, </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>saltar directamente a la acción</strong></em></span><span style=\"font-family:'Capito04VAR'\">, ¡una toma in media res de cosas que ya están en movimiento! El tirada establece el ambiente inicial y lo que está en juego para la escena. En un escenario sombrío, incluso puede desencadenar un @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto}, lo que desencadena las cosas con fuerza y ​​aumenta la tensión de inmediato.</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 33\"><div class=\"layoutArea\"><div class=\"column\"><p>Usa una tirada de historia para decidir cómo empieza una escena cuando no está claro.</p><p><em>«En el gran salón todos parecen de humor festivo». • «Todas las miradas se vuelven frías cuando entras en el gran salón».</em></p><p></p><p>PLANTEA LA ESCENA cuando no tengas claros los detalles de la ficción o quieras lanzarte directamente a la acción. Sáltate la planificación detallada y los preámbulos cautelosos que a menudo lastran la partida. En su lugar, <em><strong>salta directamente a la acción</strong></em>: ¡un plano in medias res de algo que ya está en marcha! La tirada fija el ambiente inicial y lo que está en juego en la escena. Con un sombrío, puede incluso detonar un @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Movimiento de impacto}, arrancando por todo lo alto y subiendo la tensión desde el primer momento.</p></div></div></div>"
       },
       "video": {
         "controls": true,

@@ -1,30 +1,30 @@
 {
   "folder": null,
-  "name": "Bruja del pantano",
+  "name": "Saga del pantano",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Figuras malvadas que acechan en fétidos pantanos, tejiendo ilusiones para atormentar a los viajeros. Esparcen decadencia y veneno con alegría sádica.</p>",
+    "biography": "<p>Figuras malvadas que acechan en ciénagas fétidas y tejen ilusiones para atormentar a los viajeros. Siembran podredumbre y veneno con un regocijo sádico.</p>",
     "notes": "",
     "role": "trickster",
     "tier": "tough",
     "traits": [
       "Camuflaje pantanoso",
-      "Toque decadente",
+      "Toque putrefacto",
       "Habla"
     ],
     "moves": [
-      "ilusiones",
+      "Ilusiones",
       "Nube tóxica",
-      "Enredaderas atrapantes"
+      "Enredaderas atrapadoras"
     ],
     "desires": [
       {
-        "value": "dejar que las criaturas del pantano hicieran todo el trabajo.",
+        "value": "dejar que las criaturas del pantano hagan todo el trabajo.",
         "are": false
       },
       {
-        "value": "su pantano se convierte en el atajo de alguien.",
+        "value": "que su pantano se convierta en el atajo de nadie.",
         "are": false
       }
     ],
@@ -35,7 +35,7 @@
           "color": "#566b30"
         },
         {
-          "name": "musgo húmedo",
+          "name": "Musgo húmedo",
           "color": "#3d4f1d"
         },
         {
@@ -44,7 +44,7 @@
         }
       ],
       "sights": "ramas nudosas, musgo colgante, moscas zumbando",
-      "sounds": "crujido de árboles, croar de criaturas del pantano, carcajadas",
+      "sounds": "crujir de árboles, croar de criaturas del pantano, risotadas",
       "smells": "hojas en descomposición, agua putrefacta, barro"
     },
     "pool": {
@@ -53,23 +53,23 @@
     },
     "tables": [
       {
-        "name": "Crisol de hechizos de pantano (Haz 3 hechizos)",
+        "name": "Crisol de conjuros del pantano (crea 3 conjuros)",
         "instructions": "Tira 2d6 tres veces.",
         "table": [
           [
-            "silenciar",
-            "rezumando",
-            "apestando",
-            "podrido",
-            "hundimiento",
-            "retorciéndose"
+            "chapoteante",
+            "rezumante",
+            "hediondo",
+            "putrefacto",
+            "engullidor",
+            "retorcido"
           ],
           [
             "fango",
             "sanguijuela",
-            "ahogar",
-            "tragar",
-            "jalar",
+            "asfixia",
+            "trago",
+            "tirón",
             "nube"
           ]
         ]
@@ -77,7 +77,7 @@
     ]
   },
   "prototypeToken": {
-    "name": "Bruja del pantano",
+    "name": "Saga del pantano",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

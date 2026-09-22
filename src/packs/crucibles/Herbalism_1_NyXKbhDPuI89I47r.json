@@ -123,7 +123,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.dp8MI1aMcX9CtOlZ"
     },
     {
-      "name": "borrar",
+      "name": "chispazo",
       "range": [
         6,
         6
@@ -147,7 +147,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.t1JVpH6rGEpdLMS9"
     },
     {
-      "name": "pegajoso",
+      "name": "resina",
       "range": [
         7,
         7
@@ -243,7 +243,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.gA6NbEneoca5DXC9"
     },
     {
-      "name": "Hollín",
+      "name": "hollín",
       "range": [
         11,
         11
@@ -267,7 +267,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.69Ek0jSVecma5f7e"
     },
     {
-      "name": "explosión",
+      "name": "estallido",
       "range": [
         12,
         12
@@ -339,7 +339,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.mSLsjcU4h5rCKJoM"
     },
     {
-      "name": "demonio",
+      "name": "diablo",
       "range": [
         15,
         15
@@ -363,7 +363,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.jjUudfrgmhZBcFvV"
     },
     {
-      "name": "salvaje",
+      "name": "fiera",
       "range": [
         16,
         16
@@ -387,7 +387,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.8xmFzmXi4O7xVIbb"
     },
     {
-      "name": "congelar",
+      "name": "escarcha",
       "range": [
         17,
         17
@@ -435,7 +435,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.6qrHpx3q1IQ7AORm"
     },
     {
-      "name": "fumar",
+      "name": "humo",
       "range": [
         19,
         19
@@ -483,7 +483,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.btHv43EFHCXg0F2U"
     },
     {
-      "name": "Miel",
+      "name": "miel",
       "range": [
         21,
         21
@@ -531,7 +531,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.0pJU4yUGps4bBoLM"
     },
     {
-      "name": "picadura",
+      "name": "aguijón",
       "range": [
         23,
         23
@@ -579,7 +579,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.appXJlCW2jxDHJ9v"
     },
     {
-      "name": "grito",
+      "name": "chillido",
       "range": [
         25,
         25
@@ -603,7 +603,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.KDWISChNtM9xPCjW"
     },
     {
-      "name": "imitar",
+      "name": "mímico",
       "range": [
         26,
         26
@@ -723,7 +723,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.U9dqQaD6OEIiY31k"
     },
     {
-      "name": "risilla",
+      "name": "risita",
       "range": [
         31,
         31
@@ -795,7 +795,7 @@
       "_key": "!tables.results!NyXKbhDPuI89I47r.ji36iruN3412WdDG"
     },
     {
-      "name": "hinchar",
+      "name": "hinchazón",
       "range": [
         34,
         34

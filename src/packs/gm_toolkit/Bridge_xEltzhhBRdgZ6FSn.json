@@ -1,11 +1,11 @@
 {
   "folder": "5YXY1yqWw7ivAdLy",
-  "name": "Puente",
+  "name": "Tiende un puente",
   "_id": "xEltzhhBRdgZ6FSn",
   "pages": [
     {
       "sort": 100000,
-      "name": "Puente",
+      "name": "Tiende un puente",
       "type": "text",
       "_id": "OmVH2ZJVjYrs60Zg",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 34\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Resuelve un problema que enfrentan los PJ o usa la exposición para conectar algunos puntos.</span></p><p><span style=\"font-family:'Capito04VARItalic'\"><em>Escuchas desde arriba: “¿Necesitas ayuda ahí abajo?” • De repente tiene sentido: el barón es un vampiro.</em></span></p><p></p></div></div><div class=\"page\" title=\"Page 34\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">PUENTE </span><span style=\"font-family:'Capito04VAR'\">una escena en la que los jugadores están atrapados, arrinconados o una escena se siente aburrida. Proporciona una salida rápida y hace avanzar la historia. Normalmente, se sentiría como un obsequio inmerecido, el </span><span style=\"font-family:'Capito04VARItalic'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span style=\"font-family:'Capito04VAR'\"> lo que ganas lo convierte en un </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>comercio justo</strong></em></span><span style=\"font-family:'Capito04VAR'\">. Nunca lo uses cuando los jugadores estén ocupados; guárdalo para cuando sea necesario.</span></p></div></div></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 34\"><div class=\"section\"><div class=\"layoutArea\"><div class=\"column\"><p>Resuelve un problema al que se enfrentan los PJ o usa la exposición para atar algunos cabos.</p><p><em>Oyes desde arriba: «¿Necesitáis ayuda ahí abajo?» • De repente todo encaja: el barón es un vampiro.</em></p><p></p></div></div><div class=\"page\" title=\"Page 34\"><div class=\"layoutArea\"><div class=\"column\"><p>TIENDE UN PUENTE en una escena cuando los jugadores están atascados o acorralados, o cuando la escena se vuelve aburrida. Ofrece una salida rápida y hace avanzar la historia. Normalmente parecería un regalo inmerecido, pero el @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense} que ganas lo convierte en un <em><strong>trato justo</strong></em>. No lo uses nunca cuando los jugadores estén enganchados; resérvalo para cuando haga falta.</p></div></div></div></div></div>"
       },
       "video": {
         "controls": true,

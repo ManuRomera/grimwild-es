@@ -1,16 +1,16 @@
 {
-  "name": "Cuerno de juerga",
+  "name": "Cuerno del jolgorio",
   "type": "arcana",
   "img": "icons/commodities/bones/horn-drinking-white.webp",
   "system": {
-    "description": "<p>Atrae a personas que quieren compartir historias. Si escuchas, se animan.</p>",
+    "description": "<p>Atrae hacia ti a gente con ganas de contar historias. Si las escuchas, se animan.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Gasta chispa para usar.</p>",
-    "touchstones": "carisma—juerga—festividad",
+    "limitations": "<p>Gasta chispa para usarlo.</p>",
+    "touchstones": "carisma—jolgorio—festividad",
     "tier": "minor"
   },
   "effects": [],

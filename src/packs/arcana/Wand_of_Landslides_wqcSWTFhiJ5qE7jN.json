@@ -1,15 +1,15 @@
 {
-  "name": "Varita de deslizamientos de tierra",
+  "name": "Varita de corrimientos de tierra",
   "type": "arcana",
   "img": "icons/weapons/staves/staff-simple-knotted.webp",
   "system": {
-    "description": "<p>Ordena a la piedra y al suelo que suban o bajen a tu voluntad.</p>",
+    "description": "<p>Ordena a la piedra y la tierra que se alcen o se hundan a tu voluntad.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Enrolla Brawn para usarlo. Desestabiliza la tectónica de la región.</p>",
+    "limitations": "<p>Tira Músculo para usarla. Desestabiliza la tectónica de la región.</p>",
     "touchstones": "tierra—control—colosal",
     "tier": "mythic"
   },

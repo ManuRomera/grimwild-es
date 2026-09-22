@@ -1,18 +1,18 @@
 {
   "folder": "stI4BJrCCbXWUzHc",
-  "name": "Exceso",
+  "name": "Ensañamiento",
   "type": "talent",
   "_id": "NC2bCURA4NuBx4VZ",
   "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
   "system": {
-    "description": "<p>En una situación crítica a la hora de ejercer violencia, amenazas o destrucción, puedes: <em>causar un efecto secundario adicional: tira una reserva de tarea dos veces</em>.</p>",
+    "description": "<p>Con un crítico al recurrir a la violencia, las amenazas o la destrucción, puedes: <em>causar un efecto secundario adicional—tirar dos veces una reserva de tarea</em>.</p>",
     "core": false,
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "path": "Berserker"
+    "path": "berserker"
   },
   "effects": [],
   "sort": 0,

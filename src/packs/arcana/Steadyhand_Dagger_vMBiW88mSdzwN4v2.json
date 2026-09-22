@@ -1,16 +1,16 @@
 {
-  "name": "Daga de mano firme",
+  "name": "Daga del pulso firme",
   "type": "arcana",
   "img": "icons/weapons/daggers/dagger-bone-black.webp",
   "system": {
-    "description": "<p>Ignora las espinas del cascabel cuando uses esta daga.</p>",
+    "description": "<p>Ignora las espinas por estar alterado cuando usas esta daga.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Saltará a tu mano si te molestas.</p>",
-    "touchstones": "coraje—precisión—malicia",
+    "limitations": "<p>Salta a tu mano si sufres un arrebato.</p>",
+    "touchstones": "valor—precisión—malicia",
     "tier": "minor"
   },
   "effects": [],

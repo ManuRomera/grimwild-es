@@ -1,11 +1,11 @@
 {
   "folder": "stI4BJrCCbXWUzHc",
-  "name": "Heridas de carne",
+  "name": "Heridas superficiales",
   "type": "talent",
   "_id": "nUCHSMehDXUAptai",
   "img": "icons/skills/wounds/injury-triple-slash-bleed.webp",
   "system": {
-    "description": "<p>Cuando sufres daño físico, sólo un desastre puede derribarte. Puedes ensangrentarte varias veces. Cada tiempo extra inflige +1t a las tiradas. Estas espinas adicionales nunca pueden ignorarse <em>(p. ej., talentos Frenesí y Juramentados)</em> y también aplican espinas a cualquier intento de curaros.</p>",
+    "description": "<p>Cuando sufres daño físico, solo un desastre puede derribarte. Puedes quedar ensangrentado varias veces. Cada vez adicional impone +1t a tus tiradas. Estas espinas adicionales nunca se pueden ignorar <em>(p. ej., con los talentos Frenesí y Juramentado)</em> y también se aplican a cualquier intento de curarte.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -25,7 +25,7 @@
         }
       }
     ],
-    "path": "Berserker"
+    "path": "berserker"
   },
   "effects": [],
   "sort": 0,

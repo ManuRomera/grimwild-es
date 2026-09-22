@@ -5,7 +5,7 @@
   "_id": "G6vKePZEOFa1FuG9",
   "img": "icons/magic/nature/root-vine-caduceus-healing.webp",
   "system": {
-    "description": "<p>Una vez por escena, puedes despertar una característica natural viva (plantas, animales, insectos, hongos o similares) dentro o cerca de la escena. Gana conciencia y propósito, formando una <em><strong>reserva de poder 3d</strong></em> puedes dirigir, guiado por su naturaleza. Sólo una vez, puedes hacer de este un efecto de nivel ritual.</p>",
+    "description": "<p>Una vez por escena, puedes despertar un elemento natural vivo —plantas, animales, insectos, hongos o similares— que esté en la escena o cerca. Adquiere conciencia y propósito y forma una <em><strong>reserva de poder de 3d</strong></em> que puedes dirigir, siempre guiada por su naturaleza. Una sola vez, puedes convertir esto en un efecto de nivel ritual.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "pool",
-        "label": "Grupo de energía",
+        "label": "Reserva de poder",
         "pool": {
           "diceNum": 3,
           "max": 3

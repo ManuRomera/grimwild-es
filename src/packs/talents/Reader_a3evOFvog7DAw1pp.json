@@ -5,7 +5,7 @@
   "_id": "a3evOFvog7DAw1pp",
   "img": "icons/magic/perception/hand-eye-fire-blue.webp",
   "system": {
-    "description": "<p>Obtienes 1 historia por sesión y puedes gastar una historia cuando conoces a alguien por primera vez para conocer su pensamiento superficial más importante: es como un libro abierto para ti. Si le haces seguimiento, cuenta como un <strong>configuración</strong>.</p>",
+    "description": "<p>Ganas 1 de historia por sesión y, cuando conoces a alguien, puedes gastar historia para saber el pensamiento más inmediato que tiene en la cabeza: para ti es un libro abierto. Si actúas a partir de ello, cuenta como una <strong>preparación</strong>.</p>",
     "core": false,
     "notes": {
       "description": "",

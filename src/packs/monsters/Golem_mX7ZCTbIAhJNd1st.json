@@ -4,18 +4,18 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Construcciones mágicamente animadas forjadas con diversos materiales. Cumplen las órdenes de su creador con obediencia inquebrantable.</p>",
+    "biography": "<p>Constructos animados mágicamente y forjados con diversos materiales. Cumplen las órdenes de su creador con una obediencia inquebrantable.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
       "Inflexible",
-      "inmune a la magia"
+      "Inmune a la magia"
     ],
     "moves": [
       "Puños aplastantes",
-      "Pisotones en auge",
-      "Carga sin sentido"
+      "Pisotones atronadores",
+      "Carga ciega"
     ],
     "desires": [
       {
@@ -23,7 +23,7 @@
         "are": false
       },
       {
-        "value": "estar inseguro de qué hacer.",
+        "value": "no saber qué hacer.",
         "are": false
       }
     ],
@@ -42,9 +42,9 @@
           "color": "#696969"
         }
       ],
-      "sights": "forma pesada, runas talladas, grietas brillantes",
-      "sounds": "Juntas chirriantes, golpes huecos, leve zumbido de magia.",
-      "smells": "Olor abrumador del material del que estaba hecho."
+      "sights": "figura pesada, runas talladas, grietas luminosas",
+      "sounds": "articulaciones que rechinan, golpes huecos, leve zumbido mágico",
+      "smells": "olor abrumador del material del que está hecho"
     },
     "pool": {
       "diceNum": 0,
@@ -52,16 +52,16 @@
     },
     "tables": [
       {
-        "name": "Construcción de Gólems",
+        "name": "Construcción del gólem",
         "instructions": "",
         "table": [
           [
             "Arcilla, de forma maleable.",
             "Hierro, con un fuerte tirón magnético.",
-            "Cristal que refracta la luz en fragmentos deslumbrantes.",
+            "Cristal, que refracta la luz en destellos deslumbrantes.",
             "Jade, con mente y voluntad propias.",
-            "Carne, formando pequeños golems de carne o sangre si se corta.",
-            "Madera, regenerando rápidamente las partes dañadas."
+            "Carne, que forma diminutos gólems de carne o sangre si se corta.",
+            "Madera, que regenera deprisa las partes dañadas."
           ]
         ]
       }

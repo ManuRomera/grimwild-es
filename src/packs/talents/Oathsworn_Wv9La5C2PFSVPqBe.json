@@ -1,20 +1,20 @@
 {
   "folder": "y6k4T3gOk4ZxsYPe",
-  "name": "Juramentados",
+  "name": "Juramentado",
   "type": "talent",
   "_id": "Wv9La5C2PFSVPqBe",
   "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
   "system": {
-    "description": "<p>Obtienes poder de un juramento que juras mantener hasta que mueras. Tu juramento se compone de <strong>tres principios fundamentales</strong> que dictan tu comportamiento. No tomas espinas de personas ensangrentadas o sacudidas, sino que recibes +1d en las tiradas con las estadísticas físicas o mentales relacionadas. En cada sesión, también tienes <strong>3 golpes</strong>. Cuando atacas a alguien en combate o discusión, puedes gastarlo 1 por 1 para soltar dados de una reserva de tarea. <em><strong>después</strong> </em>tirarlo.</p><p><strong>Afirmación</strong>: En cada sesión, puedes <em><strong>darle chispa a un jugador</strong> </em>quién se unió a una escena que involucraba sus principios, ya sea que los siguieron o intentaron desviarlo. Cuando se viola un principio, analice el precio que le ha costado y piense en una posibilidad de expiación. <strong>Recibe 1 golpe menos</strong> por cada principio en violación. Cuando expías, <strong>tomar chispa</strong>.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, aumenta los golpes en 1.</p>",
+    "description": "<p>Obtienes poder de un juramento que has jurado cumplir hasta la muerte. Tu juramento consta de <strong>tres preceptos fundamentales</strong> que dictan tu conducta. No sufres espinas por estar ensangrentado o alterado; en su lugar, tienes +1d en las tiradas con los atributos físicos o mentales correspondientes. Además, en cada sesión tienes <strong>3 de castigo</strong>. Al atacar a alguien en un combate o una discusión, puedes gastarlo 1 a 1 para descartar dados de una reserva de tarea <em><strong>después</strong> </em>de tirarla.</p><p><strong>Reafirmación</strong>: En cada sesión, puedes <em><strong>dar chispa a un jugador</strong> </em>que se haya unido a una escena relacionada con tus preceptos, tanto si los respetó como si intentó apartarte de ellos. Cuando incumples un precepto, comenta el precio que eso te ha cobrado y piensa en una oportunidad de expiación. <strong>Tienes 1 de castigo menos</strong> por cada precepto incumplido. Cuando expías, <strong>ganas chispa</strong>.</p><hr/><p><strong>CRECIMIENTO</strong>: Cada 2 niveles, aumenta en 1 tu castigo.</p>",
     "core": true,
     "notes": {
-      "description": "<p><em>Escribe aquí tus tres principios</em></p>",
-      "label": "Principios"
+      "description": "<p><em>Escribe aquí tus tres preceptos.</em></p>",
+      "label": "Preceptos"
     },
     "trackers": [
       {
         "type": "points",
-        "label": "Herir",
+        "label": "Castigo",
         "points": {
           "value": 3,
           "max": 3,
@@ -27,7 +27,7 @@
       },
       {
         "type": "points",
-        "label": "Violación del principio 1",
+        "label": "Precepto 1 incumplido",
         "points": {
           "value": 0,
           "max": 2,
@@ -40,7 +40,7 @@
       },
       {
         "type": "points",
-        "label": "Violación del principio 2",
+        "label": "Precepto 2 incumplido",
         "points": {
           "value": 0,
           "max": 2,
@@ -53,7 +53,7 @@
       },
       {
         "type": "points",
-        "label": "Violación del principio 3",
+        "label": "Precepto 3 incumplido",
         "points": {
           "value": 0,
           "max": 2,

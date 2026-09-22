@@ -4,27 +4,27 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Criaturas enormes, parecidas a rocas, que encarnan la fuerza bruta de la tierra. Son lentos pero casi imparables, avanzando pesadamente sobre cualquier cosa que se interponga en su camino.</p>",
+    "biography": "<p>Criaturas enormes, parecidas a rocas, que encarnan la fuerza bruta de la tierra. Son lentas pero casi imparables, y arrollan pesadamente cualquier cosa que se interponga en su camino.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
       "Sólido como una roca",
-      "Sentido de temblor",
+      "Sentir temblores",
       "Habla"
     ],
     "moves": [
       "Terremoto",
       "Agujas de piedra",
-      "Lanzamiento de roca"
+      "Lanzar peñascos"
     ],
     "desires": [
       {
-        "value": "para perdurar más allá del tiempo.",
+        "value": "perdurar más allá del tiempo.",
         "are": false
       },
       {
-        "value": "para que su forma sea eliminada.",
+        "value": "que su forma se desgaste a golpes.",
         "are": false
       }
     ],
@@ -35,17 +35,17 @@
           "color": "#566b30"
         },
         {
-          "name": "Marrón rocoso",
+          "name": "Marrón roca",
           "color": "#8b4512"
         },
         {
-          "name": "Gris Piedra",
+          "name": "Gris piedra",
           "color": "#696969"
         }
       ],
-      "sights": "Tierra temblando, rocas tirando, púas de piedra.",
-      "sounds": "Gemidos retumbantes, crujidos ensordecedores de rocas, golpes",
-      "smells": "suelo arcilloso perturbado, musgo, piedra mojada, sabor mineral"
+      "sights": "suelo que tiembla, peñascos rodando, púas de piedra",
+      "sounds": "gemidos retumbantes, crujido ensordecedor de rocas, golpes sordos",
+      "smells": "tierra fértil removida, musgo, piedra mojada, regusto mineral"
     },
     "pool": {
       "diceNum": 0,
@@ -60,9 +60,9 @@
             "Bosque, arraigado y protector.",
             "Tierras baldías, duras e implacables.",
             "Montañas, orgullosas y resistentes.",
-            "Cuevas, inquietantes y vigilantes.",
-            "Marismas, lentas pero decididas.",
-            "Pastizales, pacientes y duraderos."
+            "Cuevas, taciturnas y vigilantes.",
+            "Lodazales, lentos pero decididos.",
+            "Praderas, pacientes y resistentes."
           ]
         ]
       }

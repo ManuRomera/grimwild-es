@@ -1,11 +1,11 @@
 {
   "folder": "WErPxEpB1oKJCPGq",
-  "name": "Apuestas",
+  "name": "Lo que está en juego",
   "_id": "GK93FOTaTusCxeWy",
   "pages": [
     {
       "sort": 100000,
-      "name": "Apuestas",
+      "name": "Lo que está en juego",
       "type": "text",
       "_id": "YB3DrSdHYuaBItET",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Enmarcar el peligro cuando no es lo predeterminado. La mayoría de las tiradas asumen consecuencias significativas. declarando <strong>en juego</strong> antes de que una tirada o una situación indiquen que hay mucho en juego: la muerte o algo peor se avecina (</span><span style=\"font-family:'Capito04VARItalic'\"><em>un asesino ataca</em></span><span style=\"font-family:'Capito04VAR'\">). <strong>Apuestas mansas</strong> cambia los resultados a un territorio más ligero, tirando por cosas que normalmente te saltarías, con consecuencias más suaves (</span><span style=\"font-family:'Capito04VARItalic'\"><em>un gato está atrapado en un árbol</em></span><span style=\"font-family:'Capito04VAR'\">). Es una herramienta para el tono, que se mueve entre un juego intenso y ligero.</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p>Enmarca el peligro cuando no es el habitual. La mayoría de las tiradas dan por hecho consecuencias importantes. Declarar antes de una tirada o situación que lo que está en juego es <strong>grave</strong> indica que hay muchísimo en riesgo: se cierne la muerte o algo peor (<em>un asesino ataca</em>). Si lo que está en juego es <strong>leve</strong>, los resultados pasan a un terreno más ligero: se tira por cosas que normalmente te saltarías, con consecuencias más suaves (<em>un gato se ha quedado atascado en un árbol</em>). Es una herramienta para el tono, para moverse entre un juego intenso y uno ligero.</p></div></div></div>"
       },
       "video": {
         "controls": true,

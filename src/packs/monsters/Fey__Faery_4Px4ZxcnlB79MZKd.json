@@ -4,12 +4,12 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Pequeñas criaturas aladas con una naturaleza traviesa. Revolotean por las praderas, lanzando ilusiones y gastando bromas a los vagabundos para su propia diversión.</p>",
+    "biography": "<p>Diminutas criaturas aladas de naturaleza traviesa. Revolotean por los prados, creando ilusiones y gastando bromas a los caminantes para divertirse.</p>",
     "notes": "",
     "role": "trickster",
     "tier": "tough",
     "traits": [
-      "Enjambre juntos",
+      "Se agrupan en enjambre",
       "Invisibilidad a voluntad",
       "Habla"
     ],
@@ -20,18 +20,18 @@
     ],
     "desires": [
       {
-        "value": "jugar trucos en su mayoría inofensivos a los mortales.",
+        "value": "gastar bromas, casi siempre inofensivas, a los mortales.",
         "are": false
       },
       {
-        "value": "estar cerca del hierro.",
+        "value": "estar cerca del hierro, por poco que sea.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "rosa pétalo",
+          "name": "Rosa pétalo",
           "color": "#d2a5a0"
         },
         {
@@ -43,8 +43,8 @@
           "color": "#a9c4d5"
         }
       ],
-      "sights": "Senderos resplandecientes, figuras veloces, vislumbres fugaces",
-      "sounds": "risas aireadas, aleteo de pequeñas alas, campanadas melódicas",
+      "sights": "estelas centelleantes, figuras que pasan como flechas, atisbos fugaces",
+      "sounds": "risitas etéreas, aleteo de alas diminutas, tintineos melodiosos",
       "smells": "néctar delicado, lavanda y jazmín, aroma azucarado"
     },
     "pool": {
@@ -57,12 +57,12 @@
         "instructions": "",
         "table": [
           [
-            "Hongos brillando débilmente en el crepúsculo.",
-            "Anillo de girasoles en un campo de hierba.",
+            "Setas que brillan débilmente al anochecer.",
+            "Corro de girasoles en un prado.",
             "Hojas caídas después de una lluvia.",
             "Precarias torres de guijarros que desafían la gravedad.",
-            "Luciérnagas bailando en una espiral brillante.",
-            "Anillo de bellotas alrededor de un retoño."
+            "Luciérnagas que danzan en una espiral luminosa.",
+            "Corro de bellotas alrededor de un arbolillo."
           ]
         ]
       }

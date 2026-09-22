@@ -5,7 +5,7 @@
   "_id": "6kFxq9Wi70IYvD8Q",
   "img": "icons/magic/air/wind-weather-snow-gusts.webp",
   "system": {
-    "description": "<p></p><p>Tu voz se lleva los vientos a grandes distancias. Puedes esforzarte para convocar o despedir, pero no controlar: <em>niebla densa</em>—<em>temperaturas de buceo</em>—<em>Lluvia Pesada</em>—<em>nevada</em>—<em>fuerte</em> <em>vientos</em>— <em>trueno</em>. Puedes realizar rituales climáticos sin anclas rituales.</p>",
+    "description": "<p></p><p>Tu voz viaja con el viento a grandes distancias. Puedes esforzarte para invocar o disipar, pero no controlar: <em>niebla densa</em>—<em>temperaturas gélidas</em>—<em>lluvia intensa</em>—<em>nevadas</em>—<em>vientos</em> <em>fuertes</em>— <em>truenos</em>. Puedes hacer rituales climáticos sin anclas rituales.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

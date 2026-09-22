@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Bestias masivas con escamas con alas y ataques de aliento elemental. Acaparan tesoros e infunden miedos profundos e instintivos como un depredador superior.</p>",
+    "biography": "<p>Enormes bestias escamosas y aladas con ataques de aliento elemental. Acumulan tesoros y, como superdepredadores, infunden miedos profundos e instintivos.</p>",
     "notes": "<p></p>",
     "role": "blaster",
     "tier": "tough",
@@ -20,18 +20,18 @@
     ],
     "desires": [
       {
-        "value": "para afirmar su supremacía sobre todo.",
+        "value": "imponer su supremacía sobre todos.",
         "are": false
       },
       {
-        "value": "ser humillado de ninguna manera.",
+        "value": "verse humillado de cualquier forma.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Esmeralda escama",
+          "name": "Esmeralda de escama",
           "color": "#4f7251"
         },
         {
@@ -39,13 +39,13 @@
           "color": "#8b0101"
         },
         {
-          "name": "Acento dorado",
+          "name": "Toque dorado",
           "color": "#daa521"
         }
       ],
-      "sights": "rasgos masivos, postura engreída",
-      "sounds": "rugido atronador, batir de alas, inhalación",
-      "smells": "leve aroma a oro y reliquias antiguas"
+      "sights": "rasgos descomunales, porte arrogante",
+      "sounds": "rugido atronador, batir de alas, una honda inspiración",
+      "smells": "leve olor a oro y a reliquias antiguas"
     },
     "pool": {
       "diceNum": 0,
@@ -53,7 +53,7 @@
     },
     "tables": [
       {
-        "name": "Instintos de acaparamiento",
+        "name": "Instintos acaparadores",
         "instructions": "además del oro",
         "table": [
           [

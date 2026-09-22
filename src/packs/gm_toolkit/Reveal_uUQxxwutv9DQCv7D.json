@@ -1,11 +1,11 @@
 {
   "folder": "8qrZk7eOvPVdUhzZ",
-  "name": "Revelar",
+  "name": "Revelación",
   "_id": "uUQxxwutv9DQCv7D",
   "pages": [
     {
       "sort": 100000,
-      "name": "Revelar",
+      "name": "Revelación",
       "type": "text",
       "_id": "2FihoraBCusgJKLU",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 38\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VARItalic'\"><em>Pone a prueba la habilidad de un personaje.</em></span></p><p><span style=\"font-family:'Capito04VAR-Light-SC850'\">PRESAGIAR </span><span style=\"font-family:'Capito04VAR'\">con una revelación obvia de una amenaza inmediatamente inminente. </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>la computadora</strong> </em></span><span style=\"font-family:'Capito04VAR'\">que toma conciencia tiene una oportunidad de reaccionar antes de que llegue el peligro. </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>La competencia del personaje guía la historia hacia adelante.</strong></em></span><span style=\"font-family:'Capito04VAR'\">. </span><span style=\"font-family:'Capito04VARItalic'\"><em>Descubriendo al asesino escondido. Un giro de engranajes delata la oscilante guadaña trampa a punto de saltar.</em></span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 38\"><div class=\"layoutArea\"><div class=\"column\"><p><em>Pone a prueba la habilidad del personaje.</em></p><p>PRESAGIA desvelando claramente una amenaza inminente. <em><strong>El PJ</strong> </em>que se da cuenta tiene una oportunidad de reaccionar antes de que el peligro golpee. <em><strong>La competencia del personaje hace avanzar la historia</strong></em>. <em>Descubres al asesino escondido. Un zumbido de engranajes delata la trampa de guadaña a punto de saltar.</em></p></div></div></div>"
       },
       "video": {
         "controls": true,

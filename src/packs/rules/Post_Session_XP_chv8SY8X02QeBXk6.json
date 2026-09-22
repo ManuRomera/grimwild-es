@@ -1,11 +1,11 @@
 {
   "folder": "9seG8V3dqcMX06FZ",
-  "name": "XP posterior a la sesión",
+  "name": "PX tras la sesión",
   "_id": "chv8SY8X02QeBXk6",
   "pages": [
     {
       "sort": 100000,
-      "name": "XP posterior a la sesión",
+      "name": "PX tras la sesión",
       "type": "text",
       "_id": "1usTgocyWqInt2xE",
       "system": {},
@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Después de cada sesión, <em><strong>toma 1 XP</strong> </em>y rellene su casilla. Comienzas en el nivel 1 y avanzas cuando llenas casillas iguales al siguiente nivel. <em>(Nivel 4</em>→<em>5 = 5 cajas más)</em>. Esto le permite elegir un <em><strong>nuevo talento</strong></em>.</p><p><em><strong>El DJ puede otorgar 1 XP extra por una sesión destacada</strong> </em>(<em>aproximadamente 1 de cada 4</em>). Para un ritmo más lento, Corte de escena cada cuadro de XP antes de llenarlo.</p>"
+        "content": "<p>Al final de cada sesión, <em><strong>ganas 1 PX</strong> </em>y marcas su casilla. Empiezas en el nivel 1 y subes de nivel cuando rellenas tantas casillas como el número del siguiente nivel <em>(niv. 4</em>→<em>5 = 5 casillas más)</em>. Esto te permite elegir un <em><strong>talento nuevo</strong></em>.</p><p><em><strong>El DJ puede conceder 1 PX extra por una sesión destacada</strong> </em>(<em>más o menos 1 de cada 4</em>). Para un ritmo más lento, tacha cada casilla de PX antes de rellenarla.</p>"
       },
       "video": {
         "controls": true,

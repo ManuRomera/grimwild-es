@@ -9,32 +9,32 @@
     "role": "predator",
     "tier": "tough",
     "traits": [
-      "Reloj atento",
+      "Vigilancia aguda",
       "Majestad salvaje"
     ],
     "moves": [
-      "Advertencia Woosh",
-      "chasquido de pico",
+      "Aleteo de advertencia",
+      "Picotazo",
       "Chirrido resonante"
     ],
     "desires": [
       {
-        "value": "por sus chillidos para advertir a los intrusos que se alejen.",
+        "value": "que sus chillidos ahuyenten a los intrusos.",
         "are": false
       },
       {
-        "value": "cualquier amenaza a sus parientes.",
+        "value": "ninguna amenaza, por mínima que sea, contra los suyos.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "León de oro",
+          "name": "Oro león",
           "color": "#b8860b"
         },
         {
-          "name": "Blanco plumoso",
+          "name": "Blanco pluma",
           "color": "#d3d3d3"
         },
         {
@@ -42,8 +42,8 @@
           "color": "#6a7b8b"
         }
       ],
-      "sights": "majestuoso vuelo, destello de pelaje dorado, ojos conocedores",
-      "sounds": "chasquido de pico, aleteo de plumas, rasguño del suelo",
+      "sights": "vuelo majestuoso, destello de pelaje dorado, mirada sabia",
+      "sounds": "chasquido de pico, aleteo de plumas, arañazos en el suelo",
       "smells": "aire fresco de montaña, leve olor a presa salvaje"
     },
     "pool": {
@@ -57,11 +57,11 @@
         "table": [
           [
             "Sátiros, atraídos por sus celebraciones.",
-            "Brujas, que caza por deporte.",
-            "Pastores, asaltando sus rebaños.",
-            "Caravanas de comerciantes, curiosos por sus carros.",
-            "Cazadores, en venganza por matar a parientes.",
-            "Bandidos, ahuyentándolos de sus tierras."
+            "Sagas, a las que caza por deporte.",
+            "Pastores, cuyos rebaños asalta.",
+            "Caravanas de mercaderes, cuyos carros le despiertan curiosidad.",
+            "Cazadores, para vengar a los suyos.",
+            "Bandidos, a los que ahuyenta de sus tierras."
           ]
         ]
       }

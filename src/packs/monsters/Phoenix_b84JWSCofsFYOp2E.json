@@ -4,34 +4,34 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Aves de fuego míticas que emergen para traer destrucción y nuevos comienzos. Mientras arden en el cielo, sus brasas propagan infiernos purificadores.</p>",
+    "biography": "<p>Aves míticas de fuego que surgen para traer a la vez destrucción y nuevos comienzos. Mientras surcan el cielo en llamas, sus ascuas propagan incendios purificadores.</p>",
     "notes": "",
     "role": "blaster",
     "tier": "tough",
     "traits": [
       "Irradia calor intenso",
-      "Renacer tras la muerte",
+      "Renace tras la muerte",
       "Habla"
     ],
     "moves": [
-      "Explosión de llama",
-      "Sendero de ascuas",
-      "Llame a tormenta de fuego"
+      "Estallido de llamas",
+      "Estela de ascuas",
+      "Invocar tormenta de fuego"
     ],
     "desires": [
       {
-        "value": "venir sólo cuando más se los necesita.",
+        "value": "acudir solo cuando más se le necesita.",
         "are": false
       },
       {
-        "value": "enfrentar el dolor y el horror de su renacimiento.",
+        "value": "afrontar el dolor y el horror de su renacimiento.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Oro Infernal",
+          "name": "Oro infernal",
           "color": "#daa521"
         },
         {
@@ -39,12 +39,12 @@
           "color": "#d63900"
         },
         {
-          "name": "Gris Ceniza",
+          "name": "Gris ceniza",
           "color": "#bebebe"
         }
       ],
       "sights": "alas de fuego, estelas de brasas resplandecientes, plumaje vibrante",
-      "sounds": "Llamas crepitantes, arrullos suaves ocasionales.",
+      "sounds": "llamas crepitantes, arrullos suaves ocasionales",
       "smells": "ceniza cálida, toques de azufre, dulce ahumado"
     },
     "pool": {
@@ -54,23 +54,23 @@
     "tables": [
       {
         "name": "Poderes alquímicos",
-        "instructions": "(Tirada 2 por parte asegurado)",
+        "instructions": "(Tira 2 por cada parte obtenida)",
         "table": [
           [
             "Inmunidad al fuego",
-            "curar cualquier enfermedad",
+            "Curar cualquier enfermedad",
             "Alas enormes y ardientes",
             "Resurrección",
             "Telepatía",
-            "Convocar a los bomberos"
+            "Invocar pequeños seres de fuego"
           ],
           [
             "Toque llameante",
-            "Deslizamiento entre realidades",
-            "Aura de reprensión ardiente",
-            "Sendero de ceniza",
-            "Adivinación de llamas",
-            "Velocidad increíble"
+            "Deslizarse entre realidades",
+            "Aura de represalia ígnea",
+            "Estela de cenizas",
+            "Adivinación por las llamas",
+            "Velocidad abrasadora"
           ]
         ]
       }

@@ -5,7 +5,7 @@
   "_id": "K3c6gsWpZ6lvuJ2J",
   "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
   "system": {
-    "description": "<p>La vorágine de la magia ha retorcido tu cuerpo. Obtienes una característica física permanente como <em>garras desgarradoras de metales</em>, <em>colmillos venenosos</em>, <em>alas coriáceas</em>, o <em>tentáculos azotadores</em>. Además de sus beneficios obvios, ahora sirve como piedra de toque.</p>",
+    "description": "<p>La vorágine de la magia ha deformado tu cuerpo. Ganas un rasgo físico permanente, como <em>garras que desgarran el metal</em>, <em>colmillos venenosos</em>, <em>alas membranosas</em> o <em>tentáculos que se agitan</em>. Además de sus ventajas evidentes, ahora te sirve como piedra de toque.</p>",
     "core": false,
     "notes": {
       "description": "",

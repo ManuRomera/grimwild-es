@@ -5,7 +5,7 @@
   "_id": "AYWLTZpxchXlm8fo",
   "img": "icons/equipment/finger/ring-faceted-gold-teal.webp",
   "system": {
-    "description": "<p>Toma +1d al tirar la reserva de un arcano e ignora el primer dado que se lanzaría. tu tambien ganas <em><strong>3 arcanos menores</strong></em> y <em><strong>1 arcano mayor</strong></em> que has creado o encontrado.</p>",
+    "description": "<p>Tienes +1d al tirar la reserva de un arcano e ignoras el primer dado que se descartaría. Además, ganas <em><strong>3 arcanos menores</strong></em> y <em><strong>1 arcano mayor</strong></em> que has creado o encontrado.</p>",
     "core": false,
     "notes": {
       "description": "",

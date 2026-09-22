@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Toros enchapados en metal que escupen una nube de gas petrificante. Cargan a través de él y destrozan a la víctima de piedra en mil pedazos.</p>",
+    "biography": "<p>Toros acorazados de metal que resoplan una nube de gas petrificante. Cargan a través de ella y hacen añicos a la víctima convertida en piedra.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
@@ -13,12 +13,12 @@
     ],
     "moves": [
       "Aliento petrificante",
-      "carrera de toros",
-      "Lanzamiento de cuerno"
+      "Embestida",
+      "Cornada"
     ],
     "desires": [
       {
-        "value": "cargar contra todo aquel que se atreva a enfrentarlo.",
+        "value": "embestir a cualquiera que se atreva a plantarle cara.",
         "are": false
       },
       {
@@ -29,21 +29,21 @@
     "sensories": {
       "colors": [
         {
-          "name": "Gris metalizado",
+          "name": "Gris metálico",
           "color": "#a9a9a9"
         },
         {
-          "name": "Destacados de bronce",
+          "name": "Reflejos de bronce",
           "color": "#cd8032"
         },
         {
-          "name": "Verde Gaseoso",
+          "name": "Verde gaseoso",
           "color": "#a1a875"
         }
       ],
-      "sights": "ojos serpentinos, zarcillos de gas saliendo de las fosas nasales",
+      "sights": "ojos de serpiente, volutas de gas que brotan de los ollares",
       "sounds": "placas metálicas deslizantes, resoplidos mecánicos, silbido de vapor",
-      "smells": "fuerte olor metálico, ligero viciado en el aire"
+      "smells": "fuerte olor metálico, aire ligeramente viciado"
     },
     "pool": {
       "diceNum": 0,
@@ -58,9 +58,9 @@
             "Titanio, ligero e increíblemente rápido.",
             "Plomo, lento pero casi indestructible.",
             "Acero, cubierto de púas afiladas.",
-            "Plata, luz que refleja cegadoramente.",
-            "Latón, emitiendo un zumbido inquietante.",
-            "Bronce, resistiendo toda magia."
+            "Plata, que refleja la luz de forma cegadora.",
+            "Latón, que emite un zumbido inquietante.",
+            "Bronce, que resiste toda magia."
           ]
         ]
       }

@@ -3,13 +3,13 @@
   "type": "arcana",
   "img": "icons/equipment/shield/heater-emossed-spiral-green.webp",
   "system": {
-    "description": "<p>Cuando se golpea, libera energía vital que hace que las plantas crezcan y atrapen a los enemigos.</p>",
+    "description": "<p>Al recibir un golpe, libera energía vital que hace crecer plantas que atrapan a los enemigos.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Oblígate a usarlo. Utiliza tu propia energía vital.</p>",
+    "limitations": "<p>Esfuérzate para usarlo. Consume tu propia energía vital.</p>",
     "touchstones": "reacción—verdor—enredo",
     "tier": "major"
   },

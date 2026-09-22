@@ -4,34 +4,34 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Serpientes celestiales con plumas de arco iris que actúan como sabios protectores y guardianes de lugares sagrados. Buscan preservar el equilibrio e impartir sabiduría.</p>",
+    "biography": "<p>Serpientes celestiales de plumas irisadas que actúan como sabias protectoras y guardianas de lugares sagrados. Buscan preservar el equilibrio e impartir sabiduría.</p>",
     "notes": "",
     "role": "protector",
     "tier": "tough",
     "traits": [
-      "vinculado a la verdad",
-      "Cambiador de forma",
+      "Ligado a la verdad",
+      "Cambiaformas",
       "Telepatía"
     ],
     "moves": [
-      "leer mentes",
-      "Apretar",
-      "Magia Radiante"
+      "Leer mentes",
+      "Constreñir",
+      "Magia radiante"
     ],
     "desires": [
       {
-        "value": "para garantizar que los sitios sagrados permanezcan ocultos.",
+        "value": "asegurarse de que los lugares sagrados sigan ocultos.",
         "are": false
       },
       {
-        "value": "su sabiduría es ignorada.",
+        "value": "que se ignore su sabiduría.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "Bronce Oro",
+          "name": "Oro bronce",
           "color": "#b8860b"
         },
         {
@@ -44,8 +44,8 @@
         }
       ],
       "sights": "escamas iridiscentes, plumas vívidas, rastro de luz",
-      "sounds": "zumbido de otro mundo, suave susurro, vientos susurrantes",
-      "smells": "brisa fresca y limpia, incienso calmante, magia esperanzadora"
+      "sounds": "zumbido sobrenatural, suave rumor, vientos susurrantes",
+      "smells": "brisa fresca y limpia, incienso relajante, magia esperanzadora"
     },
     "pool": {
       "diceNum": 0,
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "Tarea Sagrada",
+        "name": "Tarea sagrada",
         "instructions": "",
         "table": [
           [
-            "Recupera un artefacto sagrado, tu espada.",
-            "Protege a un elegido, tu enemigo.",
-            "Encuentra el conocimiento antiguo, tu secreto.",
+            "Recuperar un artefacto sagrado: tu espada.",
+            "Proteger a un elegido: tu enemigo.",
+            "Encontrar un saber antiguo: tu secreto.",
             "Enseñarte un idioma olvidado.",
             "Evitar que destruyas el mundo.",
-            "Engañado por un diablo para destruirte."
+            "Un diablo lo ha engañado para que te destruya."
           ]
         ]
       }

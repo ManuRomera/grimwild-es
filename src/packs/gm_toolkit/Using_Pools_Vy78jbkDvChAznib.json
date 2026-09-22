@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">Aumenta la presión con peligro o temporizador @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Reservas}. Iniciar o hacer funcionar una reserva de presión o temporizador como otra salida para las consecuencias, a menudo </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>fuera de la pantalla</strong></em></span><span style=\"font-family:'Capito04VAR'\">. Estos crean amenazas inminentes y situaciones que los PJ quieren evitar o mitigar. Generan presión y ofrecen una fuerte alternativa a omitir el movimiento y guardar </span><span style=\"font-family:'Capito04VARItalic'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span style=\"font-family:'Capito04VAR'\">.</span></p></div></div></div>"
+        "content": "<div class=\"page\" title=\"Page 32\"><div class=\"layoutArea\"><div class=\"column\"><p>Aumenta la presión con @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Reservas} de peligro o de reloj. Crea o tira una reserva de presión o de reloj como otra forma de canalizar las consecuencias, a menudo <em><strong>fuera de escena</strong></em>. Generan amenazas inminentes y situaciones que los PJ quieren evitar o mitigar. Aumentan la presión y son una buena alternativa a saltarse el movimiento y guardarse el @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}.</p></div></div></div>"
       },
       "video": {
         "controls": true,

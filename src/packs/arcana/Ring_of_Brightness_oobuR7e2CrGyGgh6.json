@@ -1,5 +1,5 @@
 {
-  "name": "Anillo de brillo",
+  "name": "Anillo del resplandor",
   "type": "arcana",
   "img": "icons/equipment/finger/ring-faceted-gold-teal.webp",
   "system": {
@@ -23,7 +23,7 @@
         }
       }
     ],
-    "limitations": "<p>Reserva de energía 8d. No se puede reponer.</p>",
+    "limitations": "<p>Reserva de poder de 8d. No se puede reponer.</p>",
     "touchstones": "luz—intensidad—haz",
     "tier": "major"
   },

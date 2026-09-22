@@ -5,7 +5,7 @@
   "_id": "PbpG5CeFndV9DXjn",
   "img": "icons/consumables/plants/leaf-hastate-glowing-green.webp",
   "system": {
-    "description": "<p>Antes de cada sesión, use @UUID[Compendium.grimwild.rules.JournalEntry.VTidfshGP2QVF5qd]{Crisol de Herboristería} para hacer dos nombres de hierbas. <em>(mora serpiente, azote explosivo)</em>. Tienes <em><strong>1 poción menor de 1 y 1 poción mayor del otro</strong></em>. El nombre es la piedra de toque. Pierden efecto tras la sesión. Sólo una vez, puedes tener 1 poción mítica. <em>(elige después de rodar)</em>.</p>",
+    "description": "<p>Antes de cada sesión, usa el @UUID[Compendium.grimwild.rules.JournalEntry.VTidfshGP2QVF5qd]{Crisol de herboristería} para crear dos nombres de hierba <em>(bayaserpiente, ruinaestallido)</em>. Tienes <em><strong>1 poción menor de una y 1 poción mayor de la otra</strong></em>. El nombre es la piedra de toque. Pierden su efecto al acabar la sesión. Una sola vez, puedes tener 1 poción mítica <em>(elígelo después de tirar)</em>.</p>",
     "core": false,
     "notes": {
       "description": "<p><em>Escribe aquí los nombres de tus dos hierbas.</em></p>",

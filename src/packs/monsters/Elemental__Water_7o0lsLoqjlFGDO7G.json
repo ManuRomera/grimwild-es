@@ -10,17 +10,17 @@
     "tier": "tough",
     "traits": [
       "Forma turbulenta",
-      "Flujo apresurado",
+      "Flujo impetuoso",
       "Habla"
     ],
     "moves": [
       "Resaca",
-      "Aumento",
-      "Torbellino"
+      "Oleada",
+      "Remolino"
     ],
     "desires": [
       {
-        "value": "fluir a lo largo de canales hacia el crecimiento.",
+        "value": "fluir por cauces que lleven al crecimiento.",
         "are": false
       },
       {
@@ -31,11 +31,11 @@
     "sensories": {
       "colors": [
         {
-          "name": "azul océano",
+          "name": "Azul océano",
           "color": "#5989c9"
         },
         {
-          "name": "Cresta ondulada blanca",
+          "name": "Blanco cresta de ola",
           "color": "#d9e4ea"
         },
         {
@@ -43,9 +43,9 @@
           "color": "#88a891"
         }
       ],
-      "sights": "Aguas rompientes, corrientes agitadas, zarcillos relucientes",
-      "sounds": "rugido de las olas, chapoteo, chapoteo, burbujeo, gorgoteo",
-      "smells": "océano salado, suelo empapado, agua dulce picante"
+      "sights": "aguas que rompen, corrientes revueltas, zarcillos relucientes",
+      "sounds": "rugido de olas, salpicaduras, chapoteos, burbujeo, gorgoteo",
+      "smells": "océano salobre, tierra empapada, agua dulce penetrante"
     },
     "pool": {
       "diceNum": 0,
@@ -57,7 +57,7 @@
         "instructions": "",
         "table": [
           [
-            "Reserva de marea, juguetona y voluble.",
+            "Charca de marea, juguetona y voluble.",
             "Rápidos furiosos, implacables e imprudentes.",
             "Pantano turbio, engañoso y asfixiante.",
             "Lluvia, suave y melancólica.",

@@ -5,7 +5,7 @@
   "_id": "2QvyIPWC20pJqxbB",
   "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
   "system": {
-    "description": "<p>Cuando alguien cercano tira defensa, recibes +1d en un seguimiento inmediato. En un crítico por parte de un aliado cercano, puedes <strong>esfuérzate</strong> para agregar otra bonificación crítica.</p>",
+    "description": "<p>Cuando alguien cercano hace una tirada de defensa, tienes +1d en una acción inmediata a continuación. Cuando un aliado cercano saca un crítico, puedes <strong>esforzarte</strong> para añadir otra bonificación de crítico.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

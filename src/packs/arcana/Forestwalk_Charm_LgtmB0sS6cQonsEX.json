@@ -1,15 +1,15 @@
 {
-  "name": "Encanto del paseo forestal",
+  "name": "Amuleto del caminante del bosque",
   "type": "arcana",
   "img": "icons/equipment/neck/necklace-simple-carved-wood-green.webp",
   "system": {
-    "description": "<p>Le permite moverse a través del denso follaje con tanta facilidad como caminar por una calle.</p>",
+    "description": "<p>Te permite moverte entre follaje denso con la misma facilidad que por una calle.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Ninguno.</p>",
+    "limitations": "<p>Ninguna.</p>",
     "touchstones": "naturaleza—movimiento—facilidad",
     "tier": "major"
   },

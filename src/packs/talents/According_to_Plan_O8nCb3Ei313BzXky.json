@@ -5,7 +5,7 @@
   "_id": "O8nCb3Ei313BzXky",
   "img": "icons/sundries/misc/lock-open-yellow.webp",
   "system": {
-    "description": "<p>Obtienes 1 historia por sesión y puedes gastar la historia en un flashback para utilizar subterfugios de una manera que sea inmediatamente relevante, como deslizar algunas llaves, pagarle a un guardia o preparar una ruta de escape. Haz una tirada de montaje, tomando +1d por Experiencia. El DJ siempre toma suspense en lugar de un movimiento de impacto.</p>",
+    "description": "<p>Ganas 1 de historia por sesión y puedes gastar historia para hacer un flashback en el que usaste artimañas de un modo que ahora resulta útil, como birlar unas llaves, sobornar a un guardia o preparar una ruta de huida. Haz una tirada de montaje con +1d por Pericia. El DJ siempre gana suspense en lugar de hacer un movimiento de impacto.</p>",
     "core": false,
     "notes": {
       "description": "",

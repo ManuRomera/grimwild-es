@@ -1,9 +1,9 @@
 {
-  "name": "Llave charlatana",
+  "name": "Llave chismosa",
   "type": "arcana",
   "img": "icons/sundries/misc/key-brass.webp",
   "system": {
-    "description": "<p>Responde una pregunta sobre el propietario de una cerradura, pero las siguientes son verdades a medias.</p>",
+    "description": "<p>Responde a una pregunta sobre el dueño de una cerradura, pero las siguientes respuestas son medias verdades.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -23,7 +23,7 @@
         }
       }
     ],
-    "limitations": "<p>Reserva de recursos 4d, que se repone contándole un secreto bien guardado.</p>",
+    "limitations": "<p>Reserva de recursos de 4d, que se repone contándole un secreto bien guardado.</p>",
     "touchstones": "llaves—cerraduras—verdades",
     "tier": "major"
   },

@@ -1,11 +1,11 @@
 {
   "folder": "AqQ3YAkWtiAtqHH9",
-  "name": "Mirada conocedora",
+  "name": "Mirada penetrante",
   "type": "talent",
   "_id": "rHZb7l97jPPTMeva",
   "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
   "system": {
-    "description": "<p>Cuando tengas tiempo, podrás mirar a alguien a los ojos y aprender: <em>su mayor deseo: lo que esconden, lo que quieren proteger, a quién sirven</em>. Esto es <em><strong>altamente desconcertante</strong> </em>y sólo funciona en alguien una vez. Puede <strong>esfuérzate</strong> para hacer esto en el acto.</p>",
+    "description": "<p>Si tienes tiempo, puedes mirar a alguien a los ojos y averiguar: <em>su mayor deseo—lo que oculta—lo que quiere proteger—a quién sirve</em>. Resulta <em><strong>muy desconcertante</strong> </em>y solo funciona una vez con cada persona. Puedes <strong>esforzarte</strong> para hacerlo sobre la marcha.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

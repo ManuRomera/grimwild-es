@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Reptiles enormes con escamas parecidas al hierro y fauces dentadas. Acechan al acecho en aguas turbias, prácticamente imperceptibles hasta que se mueven.</p>",
+    "biography": "<p>Reptiles enormes con escamas duras como el hierro y fauces dentadas. Aguardan al acecho en aguas turbias, prácticamente imperceptibles hasta que se mueven.</p>",
     "notes": "",
     "role": "lurker",
     "tier": "tough",
@@ -12,9 +12,9 @@
       "Camuflaje pantanoso"
     ],
     "moves": [
-      "Estocada brusca",
-      "Tirada de muerte",
-      "Ahogar presa"
+      "Embestida con mordisco",
+      "Giro de la muerte",
+      "Ahogar a la presa"
     ],
     "desires": [
       {
@@ -22,7 +22,7 @@
         "are": false
       },
       {
-        "value": "moverse cuando sea innecesario.",
+        "value": "moverse sin necesidad.",
         "are": false
       }
     ],
@@ -33,7 +33,7 @@
           "color": "#566b30"
         },
         {
-          "name": "marrón fangoso",
+          "name": "Marrón fangoso",
           "color": "#8b4512"
         },
         {
@@ -41,9 +41,9 @@
           "color": "#2f2f2f"
         }
       ],
-      "sights": "ojos enormes sobre la línea de flotación, aguas tranquilas",
-      "sounds": "raspar el vientre contra el suelo, agitar el agua",
-      "smells": "barro y algas, agua estancada de pantanos"
+      "sights": "ojos enormes asomando sobre el agua, aguas quietas",
+      "sounds": "roce del vientre contra el suelo, agua agitada",
+      "smells": "barro y algas, agua estancada de pantano"
     },
     "pool": {
       "diceNum": 0,
@@ -51,16 +51,16 @@
     },
     "tables": [
       {
-        "name": "Adoradores (el cro no lo sabe)",
+        "name": "Adoradores (el coco no lo sabe)",
         "instructions": "",
         "table": [
           [
-            "Los pescadores locales, que lo ven como el dios de las inundaciones.",
+            "Pescadores del lugar, que lo ven como el dios de las crecidas.",
             "Cultistas, que ofrecen sacrificios.",
-            "Elementales de agua, creyendo que protege el río.",
+            "Elementales de agua, que creen que protege el río.",
             "Tritones, que viven junto a él.",
             "Gigantes de las colinas, envidiosos de su hambre eterna.",
-            "Brujas del pantano, creyendo que les da magia."
+            "Sagas del pantano, que creen que les da magia."
           ]
         ]
       }

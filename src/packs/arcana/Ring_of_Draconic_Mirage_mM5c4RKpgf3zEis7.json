@@ -3,7 +3,7 @@
   "type": "arcana",
   "img": "icons/equipment/finger/ring-ouroboros-copper.webp",
   "system": {
-    "description": "<p>Invoca un dragón ilusorio que se eleva sobre nuestras cabezas.</p>",
+    "description": "<p>Invoca un dragón ilusorio que surca el cielo sobre vuestras cabezas.</p>",
     "notes": {
       "description": "",
       "label": ""
@@ -22,7 +22,7 @@
         }
       }
     ],
-    "limitations": "<p>Utilizable una vez por sesión. El dragón actúa de forma impredecible.</p>",
+    "limitations": "<p>Solo se puede usar una vez por sesión. El dragón actúa de forma impredecible.</p>",
     "touchstones": "dragón—ilusión—asombro",
     "tier": "major"
   },

@@ -5,7 +5,7 @@
   "_id": "Q2UyyVx8LiaJCDk6",
   "img": "icons/magic/light/explosion-glow-spiral-yellow.webp",
   "system": {
-    "description": "<p>Después de una tirada de acción o defensa, siempre puedes mantener el foco de atención para evitar que el DJ gaste suspense. Esto continúa mientras sigas tomando medidas y no hagas un gesto sombrío.</p>",
+    "description": "<p>Después de una tirada de acción o de defensa, siempre puedes quedarte con el foco para impedir que el DJ gaste suspense. Esto dura mientras sigas actuando y no saques un sombrío.</p>",
     "core": false,
     "notes": {
       "description": "",

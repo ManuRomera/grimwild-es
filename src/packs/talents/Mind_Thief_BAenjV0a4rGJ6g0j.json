@@ -5,7 +5,7 @@
   "_id": "BAenjV0a4rGJ6g0j",
   "img": "icons/magic/control/encase-creature-humanoid-hold.webp",
   "system": {
-    "description": "<p>En un crítico en una tirada de bastión, reembolsa los puntos de poder gastados y gana 3 puntos de poder. Esto causa problemas mentales. <em><strong>daño colateral</strong> </em>a tu alrededor: <em>confusión—alucinaciones—dolores de cabeza—pánico</em>. Solo una vez, puedes hacer de esto un efecto de nivel ritual, que afecte a todos en un radio de kilómetros.</p>",
+    "description": "<p>Con un crítico en una tirada de bastión, recuperas los puntos de poder gastados y ganas 3 puntos de poder. Esto causa <em><strong>daño colateral</strong> </em>mental a tu alrededor: <em>confusión—alucinaciones—dolores de cabeza—pánico</em>. Una sola vez, puedes convertirlo en un efecto de nivel ritual que afecte a todos en kilómetros a la redonda.</p>",
     "core": false,
     "notes": {
       "description": "",

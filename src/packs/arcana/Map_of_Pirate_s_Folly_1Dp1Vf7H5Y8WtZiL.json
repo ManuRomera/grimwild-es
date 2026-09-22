@@ -1,5 +1,5 @@
 {
-  "name": "Mapa de La locura del pirata",
+  "name": "Mapa de la Locura del Pirata",
   "type": "arcana",
   "img": "icons/tools/navigation/map-marked-gold.webp",
   "system": {
@@ -9,7 +9,7 @@
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Debes declarar en voz alta en público que estás buscando un tesoro.</p>",
+    "limitations": "<p>Tienes que anunciar a voz en grito, en público, que vas a la caza de un tesoro.</p>",
     "touchstones": "mapas—tesoro—engaño",
     "tier": "minor"
   },

@@ -51,7 +51,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.wcl8LgfF7imq17Mq"
     },
     {
-      "name": "brillante",
+      "name": "resplandeciente",
       "range": [
         3,
         3
@@ -99,7 +99,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.GRJ9FUX8u0h6saPp"
     },
     {
-      "name": "rápido",
+      "name": "veloz",
       "range": [
         5,
         5
@@ -147,7 +147,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.LzXvHdMlQ7x2Do1I"
     },
     {
-      "name": "oler",
+      "name": "olor",
       "range": [
         7,
         7
@@ -171,7 +171,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.ncwmWdTMSPHsOqrS"
     },
     {
-      "name": "estático",
+      "name": "estática",
       "range": [
         8,
         8
@@ -267,7 +267,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.tqOHnmWywTWJZ6E5"
     },
     {
-      "name": "luz tenue",
+      "name": "destello",
       "range": [
         12,
         12
@@ -291,7 +291,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.Q6wsSn7ztP9XlgAj"
     },
     {
-      "name": "levantado",
+      "name": "en el aire",
       "range": [
         13,
         13
@@ -315,7 +315,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.hxeZ1wmXSAmiBLDK"
     },
     {
-      "name": "cambiar",
+      "name": "cambio",
       "range": [
         14,
         14
@@ -363,7 +363,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.8IHaPsuL9DFUPWbc"
     },
     {
-      "name": "choque",
+      "name": "sacudida",
       "range": [
         16,
         16
@@ -435,7 +435,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.ITBSfebLiV3Ug9m9"
     },
     {
-      "name": "aplastante",
+      "name": "añicos",
       "range": [
         19,
         19
@@ -483,7 +483,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.hqkas96hTUdpxHTR"
     },
     {
-      "name": "sentimiento",
+      "name": "sensación",
       "range": [
         21,
         21
@@ -555,7 +555,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.n6GsczpSa2MpYG9J"
     },
     {
-      "name": "lucirse",
+      "name": "titileo",
       "range": [
         24,
         24
@@ -579,7 +579,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.McKZUJ29dEkl4qFs"
     },
     {
-      "name": "cambio",
+      "name": "desplazamiento",
       "range": [
         25,
         25
@@ -699,7 +699,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.ll5BZF6dpVFVZdsL"
     },
     {
-      "name": "lucirse",
+      "name": "centelleo",
       "range": [
         30,
         30
@@ -795,7 +795,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.xFA0T5K1FhMHB0Ku"
     },
     {
-      "name": "marca",
+      "name": "señal",
       "range": [
         34,
         34
@@ -843,7 +843,7 @@
       "_key": "!tables.results!7IpCiKXDnmcjS7lf.kWGqMW26qbiplYKd"
     },
     {
-      "name": "deslumbrar",
+      "name": "deslumbramiento",
       "range": [
         36,
         36

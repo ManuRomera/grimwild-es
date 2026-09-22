@@ -3,13 +3,13 @@
   "type": "arcana",
   "img": "icons/equipment/finger/ring-eye-silver-green.webp",
   "system": {
-    "description": "<p>Mire a través de la niebla, el humo o las paredes.</p>",
+    "description": "<p>Mira a través de la niebla, el humo o las paredes.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Si ves algo sensible, también puede verte a ti.</p>",
+    "limitations": "<p>Si ves algo consciente, también puede verte a ti.</p>",
     "touchstones": "percepción—claridad—conexión",
     "tier": "minor"
   },

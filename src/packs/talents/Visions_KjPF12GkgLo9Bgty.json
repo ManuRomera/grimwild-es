@@ -5,14 +5,14 @@
   "_id": "KjPF12GkgLo9Bgty",
   "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
   "system": {
-    "description": "<p>Puedes tirar Presencia para pedirle a tu patrón conocimientos prohibidos, como <em>secretos bien guardados</em> o <em>lo que no se debe saber</em>. Hazle al DJ una pregunta específica. La respuesta puede ser críptica o retorcida para satisfacer los Deseos de su cliente, pero nunca será una mentira absoluta. En un estado complicado o sombrío, tira la reserva Paciencia.</p>",
+    "description": "<p>Puedes tirar Presencia para pedir a tu patrón conocimiento prohibido, como <em>secretos celosamente guardados</em> o <em>aquello que no debería saberse</em>. Hazle al DJ una pregunta concreta. La respuesta puede ser críptica o estar retorcida según los deseos de tu patrón, pero nunca será una mentira descarada. Con un complicado o un sombrío, tira la reserva de Paciencia.</p>",
     "core": false,
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "path": ""
+    "path": "warlock"
   },
   "effects": [],
   "sort": 0,

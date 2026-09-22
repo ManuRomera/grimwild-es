@@ -16,7 +16,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Ventajas y capacidades especiales que distinguen a tu PJ. En la creación del personaje, eliges un <strong>camino</strong> <em>(pícaro, mago, luchador)</em>, que le brinda su talento principal y una lista de talentos que se alinean temáticamente con él. Obtienes nuevos talentos a medida que subes de nivel, eligiendo de tu lista de caminos o tomando talentos de otros caminos.</p><p>El nombre de la ruta es simplemente una etiqueta para organizar los talentos temáticamente. Por sí solo, no expande @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Ventaja}. Sin embargo, los talentos amplían la ventaja. <em>Ser un \"luchador\" no significa nada, pero el talento principal del Estilo de lucha amplía tu ventaja.</em></p>"
+        "content": "<p>Ventajas y capacidades especiales que distinguen a tu PJ. Al crear el personaje, eliges un <strong>camino</strong> <em>(pícaro, mago, combatiente)</em>, que te da su talento principal y una lista de talentos temáticamente afines. Ganas talentos nuevos al subir de nivel, eligiéndolos de la lista de tu camino o tomándolos de otros caminos.</p><p>El nombre del camino es solo una etiqueta para organizar los talentos por temas. Por sí solo no amplía la @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Perspectiva}. Los talentos, en cambio, sí la amplían. <em>Ser «combatiente» no significa nada, pero el talento principal Estilo de lucha amplía tu perspectiva.</em></p>"
       },
       "video": {
         "controls": true,

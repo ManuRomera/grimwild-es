@@ -1,5 +1,5 @@
 {
-  "name": "Encanto caminante de olas",
+  "name": "Amuleto del caminante de las olas",
   "type": "arcana",
   "img": "icons/equipment/neck/amulet-round-blue.webp",
   "system": {
@@ -23,7 +23,7 @@
         }
       }
     ],
-    "limitations": "<p>4d Hundirse, activado por cualquier tirada de acción mientras se usa.</p>",
+    "limitations": "<p>Reserva de 4d «Te hundes», que se tira con cada tirada de acción mientras lo usas.</p>",
     "touchstones": "libertad—agua—gracia",
     "tier": "major"
   },

@@ -52,7 +52,7 @@
       "_key": "!tables.results!1sh14AQ5dmCICtQZ.A8AiIV8orgLNRE61"
     },
     {
-      "name": "Ciencia",
+      "name": "Saber",
       "range": [
         3,
         3
@@ -76,7 +76,7 @@
       "_key": "!tables.results!1sh14AQ5dmCICtQZ.wI1q0r54OatwcGAd"
     },
     {
-      "name": "Rayo",
+      "name": "Relámpago",
       "range": [
         4,
         4
@@ -556,7 +556,7 @@
       "_key": "!tables.results!1sh14AQ5dmCICtQZ.0JQB1nOpArA0yLBR"
     },
     {
-      "name": "Borrador",
+      "name": "Brebaje",
       "range": [
         24,
         24
@@ -580,7 +580,7 @@
       "_key": "!tables.results!1sh14AQ5dmCICtQZ.XUOUoVydVrlxA2CD"
     },
     {
-      "name": "Condenar",
+      "name": "Fatalidad",
       "range": [
         25,
         25
@@ -604,7 +604,7 @@
       "_key": "!tables.results!1sh14AQ5dmCICtQZ.dWy5DUEk3lrogigo"
     },
     {
-      "name": "Fumar",
+      "name": "Humo",
       "range": [
         26,
         26

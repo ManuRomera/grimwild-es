@@ -24,18 +24,18 @@
         "are": false
       },
       {
-        "value": "para ser ignorado.",
+        "value": "que lo ignoren.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "nube blanca",
+          "name": "Blanco nube",
           "color": "#e3e6eb"
         },
         {
-          "name": "azul cielo",
+          "name": "Azul cielo",
           "color": "#a4c5e4"
         },
         {
@@ -43,8 +43,8 @@
           "color": "#a9a9a9"
         }
       ],
-      "sights": "hojas y escombros arremolinándose, polvo y arena levantados",
-      "sounds": "Viento aullante, ráfagas de aire, ráfagas silbantes",
+      "sights": "hojas y restos arremolinados, polvo y arena levantados",
+      "sounds": "viento aullante, torrentes de aire, ráfagas silbantes",
       "smells": "vientos de gran altitud, lluvia y tierra recién removida"
     },
     "pool": {
@@ -60,9 +60,9 @@
             "Ciclón arremolinado, errático y salvaje.",
             "Nube flotante, serena y evasiva.",
             "Tornado, furioso e imparable.",
-            "Diablo del polvo, astuto y persistente.",
+            "Remolino de polvo, taimado y persistente.",
             "Vientos racheados, juguetones y traviesos.",
-            "Zephyr, amable pero poco confiable."
+            "Céfiro, amable pero poco fiable."
           ]
         ]
       }

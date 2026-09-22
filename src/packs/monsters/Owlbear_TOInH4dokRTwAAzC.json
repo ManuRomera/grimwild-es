@@ -1,29 +1,29 @@
 {
   "folder": null,
-  "name": "Osobúho",
+  "name": "Osolechuza",
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Bestias descomunales, ferozmente territoriales, con cuerpo de oso y cabeza de búho. Cazan en los bosques, utilizando sus agudos sentidos y su fuerza bruta.</p>",
+    "biography": "<p>Bestias descomunales y ferozmente territoriales, con cuerpo de oso y cabeza de búho. Cazan en los bosques valiéndose de sus agudos sentidos y su fuerza bruta.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
       "Cazador nocturno",
-      "Velocidad de tala"
+      "Pesado pero veloz"
     ],
     "moves": [
-      "Rugido Territorial",
+      "Rugido territorial",
       "Pico aplastante",
       "Chillido penetrante"
     ],
     "desires": [
       {
-        "value": "para proteger su territorio.",
+        "value": "proteger su territorio.",
         "are": false
       },
       {
-        "value": "cualquier amenaza a su cueva de anidación.",
+        "value": "amenazas cerca de la cueva donde anida.",
         "are": false
       }
     ],
@@ -34,7 +34,7 @@
           "color": "#d1b48c"
         },
         {
-          "name": "Marrón peludo",
+          "name": "Pardo peludo",
           "color": "#8b4512"
         },
         {
@@ -43,7 +43,7 @@
         }
       ],
       "sights": "imponente silueta entre los árboles, garrote nudoso",
-      "sounds": "Pasos pesados, gruñidos bajos",
+      "sounds": "pasos pesados, gruñidos bajos",
       "smells": "sudor rancio, suciedad, olor persistente a carne cruda"
     },
     "pool": {
@@ -52,15 +52,15 @@
     },
     "tables": [
       {
-        "name": "Víctimas, aún frescas",
+        "name": "Víctimas aún frescas",
         "instructions": "",
         "table": [
           [
-            "Erudito, boca abajo, con dibujos esparcidos por todas partes.",
+            "Erudito, bocabajo, con dibujos esparcidos alrededor.",
             "Cultista, muerto en un árbol sin un rasguño.",
-            "Messenger, pergamino a medio consumir en mano.",
-            "Granjero, sosteniendo un ramo marchito.",
-            "Contrabandista, sosteniendo un frasco de veneno púrpura.",
+            "Mensajero, con un pergamino a medio comer en la mano.",
+            "Granjero, con un ramo marchito en la mano.",
+            "Contrabandista, aferrado a un vial de veneno púrpura.",
             "Artista, disfrazado y con la máscara todavía puesta."
           ]
         ]
@@ -68,7 +68,7 @@
     ]
   },
   "prototypeToken": {
-    "name": "Osobúho",
+    "name": "Osolechuza",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,

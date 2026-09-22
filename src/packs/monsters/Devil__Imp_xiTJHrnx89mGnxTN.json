@@ -4,34 +4,34 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Pequeños demonios alados impulsados ​​por el engaño y el caos. Les encanta sembrar travesuras y confusión, picando con venenos que distorsionan la mente antes de desaparecer.</p>",
+    "biography": "<p>Diminutos diablos alados movidos por el engaño y el caos. Disfrutan sembrando travesuras y confusión, y pican con venenos que trastornan la mente antes de desvanecerse.</p>",
     "notes": "",
     "role": "trickster",
     "tier": "tough",
     "traits": [
       "Travesura compulsiva",
       "Invisibilidad a voluntad",
-      "Habla, Telepatía"
+      "Habla, telepatía"
     ],
     "moves": [
       "Picadura venenosa",
-      "Forma de alimañas",
+      "Forma de alimaña",
       "Encantar objeto"
     ],
     "desires": [
       {
-        "value": "para coser sutiles semillas de caos.",
+        "value": "sembrar sutiles semillas de caos.",
         "are": false
       },
       {
-        "value": "ser confrontado directamente, arruinando la sorpresa.",
+        "value": "que lo confronten directamente y le arruinen la sorpresa.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "rojo malvado",
+          "name": "Rojo malvado",
           "color": "#8b0101"
         },
         {
@@ -43,9 +43,9 @@
           "color": "#696969"
         }
       ],
-      "sights": "rápido destello de movimiento, huellas de garras",
-      "sounds": "zumbido de alas, silencio inquietante, risitas persistentes",
-      "smells": "leves olores a veneno y azufre"
+      "sights": "fugaz destello de movimiento, huellas con garras",
+      "sounds": "zumbido de alas, silencio inquietante, risitas que perduran",
+      "smells": "leves vaharadas de veneno y azufre"
     },
     "pool": {
       "diceNum": 0,
@@ -53,16 +53,16 @@
     },
     "tables": [
       {
-        "name": "Trampas traviesas",
+        "name": "Trampas diabólicas",
         "instructions": "",
         "table": [
           [
-            "Cuchara que hace que la comida tenga un sabor ligeramente podrido.",
-            "Pluma que entreteje insultos en mensajes.",
-            "Vela que se apaga en el peor momento.",
-            "Mapa que cambia piedras de toque y carreteras.",
-            "Brújula que siempre apunta hacia la diversión.",
-            "Muñeca que se muda a un lugar nuevo cada noche."
+            "Una cuchara que da a la comida un sabor ligeramente podrido.",
+            "Una pluma que cuela insultos en los mensajes.",
+            "Una vela que se apaga en el peor momento.",
+            "Un mapa que cambia de sitio los puntos de referencia y los caminos.",
+            "Una brújula que siempre señala hacia la diversión.",
+            "Una muñeca que aparece en un sitio nuevo cada noche."
           ]
         ]
       }

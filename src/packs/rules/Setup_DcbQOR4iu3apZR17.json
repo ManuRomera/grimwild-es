@@ -1,10 +1,10 @@
 {
-  "name": "Ambientación",
+  "name": "Preparación",
   "_id": "DcbQOR4iu3apZR17",
   "pages": [
     {
       "sort": 100000,
-      "name": "Ambientación",
+      "name": "Preparación",
       "type": "text",
       "_id": "R0lYIzI6uaOE9gZL",
       "system": {},
@@ -15,7 +15,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Cuando una acción previa hace que un seguimiento sea más efectivo, @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Asistir} sin riesgo. Tiras 1d como asistencia normal, pero no compartes el riesgo. Si fue tu propia acción, recibes +1d.</p>"
+        "content": "<p>Cuando una acción previa hace más eficaz una continuación, puedes @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Ayudar} sin riesgo. Tiras 1d como en una ayuda normal, pero no compartes el riesgo. Si fue tu propia acción, obtienes +1d.</p>"
       },
       "video": {
         "controls": true,

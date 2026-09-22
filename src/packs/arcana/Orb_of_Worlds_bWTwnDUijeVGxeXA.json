@@ -1,16 +1,16 @@
 {
-  "name": "Orbe de mundos",
+  "name": "Orbe de los mundos",
   "type": "arcana",
   "img": "icons/commodities/gems/pearl-storm.webp",
   "system": {
-    "description": "<p>Revela visiones de reinos y planos de existencia distantes.</p>",
+    "description": "<p>Muestra visiones de reinos lejanos y planos de existencia.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Tome sonajero cuando se use.</p>",
-    "touchstones": "visiones—reinos—distantes",
+    "limitations": "<p>Al usarlo, quedas alterado.</p>",
+    "touchstones": "visiones—reinos—lejanía",
     "tier": "mythic"
   },
   "effects": [],

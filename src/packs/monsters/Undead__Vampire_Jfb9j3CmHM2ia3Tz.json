@@ -4,34 +4,34 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Cazadores elegantes y nocturnos impulsados ​​por la sed de sangre. Se integran perfectamente en la sociedad, evitando la luz del día a toda costa.</p>",
+    "biography": "<p>Cazadores nocturnos y elegantes impulsados por la sed de sangre. Se integran a la perfección en la sociedad mientras evitan la luz del día a toda costa.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
     "traits": [
-      "encanto antinatural",
+      "Encanto antinatural",
       "Fuerza sobrenatural",
       "Habla"
     ],
     "moves": [
-      "Drenaje de sangre",
+      "Drenar sangre",
       "Regeneración",
-      "revelar los dientes"
+      "Enseñar los colmillos"
     ],
     "desires": [
       {
-        "value": "perseguir sus Deseos, sin ningún objetivo final en mente.",
+        "value": "perseguir sus deseos, sin ningún objetivo final en mente.",
         "are": false
       },
       {
-        "value": "para recordar cuando era mortal.",
+        "value": "que le recuerden cuando era mortal.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "carmesí profundo",
+          "name": "Carmesí profundo",
           "color": "#7c0902"
         },
         {
@@ -43,8 +43,8 @@
           "color": "#e1d9c2"
         }
       ],
-      "sights": "luz de vela parpadeante, terciopelo manchado de sangre",
-      "sounds": "susurros suaves, el susurro de la tela",
+      "sights": "luz de vela titilante, terciopelo manchado de sangre",
+      "sounds": "susurros suaves, el frufrú de la tela",
       "smells": "sangre vieja, leve perfume de rosas"
     },
     "pool": {
@@ -53,7 +53,7 @@
     },
     "tables": [
       {
-        "name": "Intenciones de engendro",
+        "name": "Motivos para engendrar",
         "instructions": "",
         "table": [
           [
@@ -61,14 +61,14 @@
             "Ofréceles una redención retorcida.",
             "Enséñales la vanidad de la vida mortal.",
             "Preserva su amor prohibido.",
-            "Atraparlos en un arrepentimiento interminable.",
-            "Úsalos para controlar a aquellos que alguna vez amaron."
+            "Atrápalos en un arrepentimiento interminable.",
+            "Úsalos para controlar a quienes una vez amaron."
           ]
         ]
       },
       {
         "name": "De héroe a vampiro",
-        "instructions": "Tira 2d6 (elige 1) para el camino/núcleo. Tira 1d8 y cuenta con su lista de talentos (con 8, tira 2d8). Adáptate como rasgos y movimientos.",
+        "instructions": "Tira 2d6 (elige 1) para el camino/talento principal. Tira 1d8 y cuenta en su lista de talentos (con un 8, tira 2d8). Adáptalos como rasgos y movimientos.",
         "table": [
           [
             "Bardo",
@@ -90,15 +90,15 @@
       },
       {
         "name": "Poder",
-        "instructions": "Por cada 50 años de no vida, lanza un nuevo poder.",
+        "instructions": "Por cada 50 años de no vida, tira un nuevo poder.",
         "table": [
           [
             "Forma de murciélago, niebla o lobo",
-            "Mirada fascinante",
-            "Aferrarse a las paredes",
+            "Mirada hipnótica",
+            "Trepar por las paredes",
             "Velocidad sobrenatural",
-            "sentido de vida",
-            "llamar alimañas"
+            "Sentir la vida",
+            "Llamar a las alimañas"
           ]
         ]
       },
@@ -110,8 +110,8 @@
             "Símbolos sagrados",
             "Ajo",
             "Agua corriente",
-            "Falta de reflexión",
-            "Sólo invitación",
+            "No se refleja",
+            "Solo entra si lo invitan",
             "Sed extrema"
           ]
         ]

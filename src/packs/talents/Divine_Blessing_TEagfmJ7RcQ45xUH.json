@@ -1,14 +1,14 @@
 {
   "folder": "y6k4T3gOk4ZxsYPe",
-  "name": "Bendición Divina",
+  "name": "Bendición divina",
   "type": "talent",
   "_id": "TEagfmJ7RcQ45xUH",
   "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
   "system": {
-    "description": "<p>Tienes el lanzamiento de hechizos como talento Canalizar Divinidad. Detalla a tu dios y elige un dominio menor, un <em><strong>reserva de poder 4d</strong></em>. Puedes soltar 1 y tirar la reserva para lanzar un hechizo potente. Se repone en cada sesión.</p>",
+    "description": "<p>Lanzas conjuros como con el talento Canalizar divinidad. Describe a tu dios y elige un dominio menor, una <em><strong>reserva de poder de 4d</strong></em>. Puedes descartar 1d y tirar la reserva para lanzar un conjuro potente. Se repone en cada sesión.</p>",
     "core": false,
     "notes": {
-      "description": "<p><em>Escribe aquí tu Dios y dominio.</em></p>",
+      "description": "<p><em>Escribe aquí tu dios y tu dominio.</em></p>",
       "label": "Dios"
     },
     "trackers": [

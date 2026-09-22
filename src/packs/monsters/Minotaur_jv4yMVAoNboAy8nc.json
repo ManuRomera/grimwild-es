@@ -4,7 +4,7 @@
   "type": "monster",
   "img": "icons/svg/mystery-man.svg",
   "system": {
-    "biography": "<p>Figuras imponentes con cabezas de toro que custodian laberintos. Acechan implacablemente sus pasadizos, cargando con fuerza salvaje a la primera señal de intrusos.</p>",
+    "biography": "<p>Figuras imponentes con cabeza de toro que custodian laberintos. Acechan sin descanso por sus pasadizos y cargan con fuerza salvaje al primer indicio de intrusos.</p>",
     "notes": "",
     "role": "brute",
     "tier": "tough",
@@ -14,37 +14,37 @@
       "Habla"
     ],
     "moves": [
-      "Emboscada del laberinto",
-      "Toro resopla",
-      "Lanzamiento de cuerno"
+      "Emboscada en el laberinto",
+      "Resoplido de toro",
+      "Voltear con los cuernos"
     ],
     "desires": [
       {
-        "value": "víctimas a entrar en su laberinto, para satisfacer su sed de sangre.",
+        "value": "que las víctimas entren en su laberinto, para saciar su sed de sangre.",
         "are": false
       },
       {
-        "value": "sentir el aguijón de la soledad una vez más.",
+        "value": "sentir de nuevo el aguijón de la soledad.",
         "are": false
       }
     ],
     "sensories": {
       "colors": [
         {
-          "name": "cuero oscuro",
+          "name": "Cuero oscuro",
           "color": "#4b3621"
         },
         {
-          "name": "Toro Marrón",
+          "name": "Marrón toro",
           "color": "#8b4512"
         },
         {
-          "name": "Rojo Bestial",
+          "name": "Rojo bestial",
           "color": "#8b0101"
         }
       ],
-      "sights": "músculos abultados, cascos levantando polvo",
-      "sounds": "resoplidos enojados, ruido sordo de cascos hendidos contra la piedra",
+      "sights": "músculos abultados, pezuñas que levantan polvo",
+      "sounds": "resoplidos furiosos, golpes sordos de pezuñas hendidas sobre la piedra",
       "smells": "almizcle terroso, sangre vieja y sudor"
     },
     "pool": {
@@ -58,10 +58,10 @@
         "table": [
           [
             "Intrincado sistema de alcantarillado de la antigua capital.",
-            "Caminos llenos de espinas esconden hadas traviesas.",
+            "Senderos ahogados de espinas que esconden feéricos traviesos.",
             "Túneles de una cueva marina, medio llenos de agua.",
             "Caminos de piedra bordeados de frágiles espejos.",
-            "Pozo profundo con varios caminos cortados.",
+            "Pozo escalonado profundo con varios caminos cortados.",
             "Bosques encantados con caminos cambiantes."
           ]
         ]

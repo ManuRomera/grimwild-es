@@ -1,15 +1,15 @@
 {
-  "name": "El fin del miedo",
+  "name": "Fin del Miedo",
   "type": "arcana",
   "img": "icons/sundries/flags/banner-flag-pirate-blue.webp",
   "system": {
-    "description": "<p>Cuando se vuela sobre un barco, aparece como la bandera del país de origen del espectador.</p>",
+    "description": "<p>Izada en un barco, se ve como la bandera de la nación de origen de quien la mira.</p>",
     "notes": {
       "description": "",
       "label": ""
     },
     "trackers": [],
-    "limitations": "<p>Muestra la bandera de una nación enemiga a aquellos con corazones malvados.</p>",
+    "limitations": "<p>Muestra la bandera de una nación enemiga a quienes tienen el corazón malvado.</p>",
     "touchstones": "bandera—engaño—esperanza",
     "tier": "minor"
   },

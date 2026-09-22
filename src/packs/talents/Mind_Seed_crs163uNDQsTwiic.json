@@ -5,7 +5,7 @@
   "_id": "crs163uNDQsTwiic",
   "img": "icons/magic/control/debuff-energy-hold-blue-yellow.webp",
   "system": {
-    "description": "<p>Cuando plantas pensamientos o alteras recuerdos en la cabeza de alguien, siempre puedes elegir que surtan efecto exactamente cuando lo desees. Puedes decidir esto en cualquier momento más adelante. Una vez por sesión, puedes usar esto por un <em><strong>interrumpir</strong></em>.</p>",
+    "description": "<p>Cuando implantas pensamientos o alteras recuerdos en la mente de alguien, siempre puedes hacer que surtan efecto justo cuando tú quieras. Puedes decidirlo en cualquier momento posterior. Una vez por sesión, puedes usar esto para <em><strong>interrumpir</strong></em>.</p>",
     "core": false,
     "notes": {
       "description": "",

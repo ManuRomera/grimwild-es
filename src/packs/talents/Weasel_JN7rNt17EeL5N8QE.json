@@ -1,11 +1,11 @@
 {
   "folder": "QQwq5i3yUUjhboM4",
-  "name": "Comadreja",
+  "name": "Escurridizo",
   "type": "talent",
   "_id": "JN7rNt17EeL5N8QE",
   "img": "icons/creatures/mammals/humanoid-fox-cat-archer.webp",
   "system": {
-    "description": "<p>Si lo atrapan en una mentira o con las manos en la masa, puede <strong>esfuérzate</strong> para salir de la situación, por ahora. Obtienes una salida, pero definitivamente se dan cuenta de lo que pasó poco después.</p>",
+    "description": "<p>Si te pillan en una mentira o con las manos en la masa, puedes <strong>esforzarte</strong> para escabullirte de la situación… por ahora. Encuentras una salida, pero poco después se dan cuenta sin duda de lo que ha pasado.</p>",
     "core": false,
     "notes": {
       "description": "",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "points",
-        "label": "Empujar",
+        "label": "Esfuérzate",
         "points": {
           "value": 1,
           "max": 1,

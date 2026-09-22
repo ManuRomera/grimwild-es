@@ -5,7 +5,7 @@
   "_id": "KQM82DlCYc9UZiJD",
   "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
   "system": {
-    "description": "<p>En cada sesión tienes un <em><strong>pociones 4d</strong></em> reserva de recursos. Puedes tener una poción menor y tirar la reserva, o soltar 1 y tirar para obtener una poción mayor. Conoces recetas para tus teoremas de hechizos, además de dos más obtenidas en @UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj]{Crisol de hechizos}. Aprende nuevas recetas sacrificando pociones.</p>",
+    "description": "<p>En cada sesión tienes una reserva de recursos de <em><strong>4d Pociones</strong></em>. Puedes sacar una poción menor y tirar la reserva, o descartar 1d y tirarla para sacar una poción mayor. Conoces las recetas de tus teoremas de conjuro y dos más obtenidas en el @UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj]{Crisol de conjuros}. Aprendes recetas nuevas sacrificando pociones.</p>",
     "core": false,
     "notes": {
       "description": "<p><em>Anota aquí tus recetas.</em></p>",
@@ -14,7 +14,7 @@
     "trackers": [
       {
         "type": "pool",
-        "label": "pociones",
+        "label": "Pociones",
         "pool": {
           "diceNum": 4,
           "max": 4

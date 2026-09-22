@@ -5,7 +5,7 @@
   "_id": "zXK8rjJ7unzPhgie",
   "img": "icons/skills/movement/figure-running-gray.webp",
   "system": {
-    "description": "<p>Siempre puedes aparecer en una escena en cualquier lugar y en cualquier momento, limitado únicamente por tus capacidades físicas. Haz una tirada de historia [[/r 3d]] para preparar el escenario para tu entrada.</p>",
+    "description": "<p>Siempre puedes aparecer en una escena en cualquier lugar y momento, con el único límite de tus capacidades físicas. Haz una tirada de historia de [[/r 3d]] para describir tu entrada en escena.</p>",
     "notes": {
       "description": "",
       "label": ""
