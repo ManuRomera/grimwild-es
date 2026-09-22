@@ -1,13 +1,16 @@
+import { ConMemoria } from "../../ui/memoria.mjs";
+
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
 const { ActorSheetV2 } = foundry.applications.sheets;
 
-export class GrimwildBaseVueActorSheet extends ActorSheetV2 {
+export class GrimwildBaseVueActorSheet extends ConMemoria(ActorSheetV2) {
+	/** Scroll containers remembered between openings. */
+	static SCROLL_MEMORIA = [".gw-scroll", ".gw-panels"];
+
 	constructor(options = {}) {
 		super(options);
 		this.#dragDrop = this.#createDragDropHandlers();
 	}
-
-	activeItems = {};
 
 	/** @override */
 	static DEFAULT_OPTIONS = {
@@ -50,7 +53,6 @@ export class GrimwildBaseVueActorSheet extends ActorSheetV2 {
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
-			toggleItem: this._toggleItem,
 			importFromCompendium: this._onImportFromCompendium
 		},
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
@@ -107,13 +109,6 @@ export class GrimwildBaseVueActorSheet extends ActorSheetV2 {
 			context.itemTypes[type] = items.sort((a, b) => (a.sort || 0) - (b.sort || 0));
 		}
 
-		for (const [key, item] of this.document.items.entries()) {
-			if (typeof this.activeItems?.[item.id] === "undefined") {
-				this.activeItems[item.id] = true;
-			}
-		}
-
-		context.activeItems = this.activeItems;
 	}
 
 	/* -------------------------------------------- */
@@ -155,7 +150,7 @@ export class GrimwildBaseVueActorSheet extends ActorSheetV2 {
 	 */
 	static async _onEditImage(event, target) {
 		if (!this.isEditable) return false;
-		const attr = target.dataset.edit;
+		const attr = target.dataset.edit ?? target.querySelector("[data-edit]")?.dataset.edit ?? "img";
 		const current = foundry.utils.getProperty(this.document, attr);
 		const { img } = this.document.constructor.getDefaultArtwork?.(this.document.toObject()) ?? {};
 		const fp = new FilePicker({
@@ -192,17 +187,6 @@ export class GrimwildBaseVueActorSheet extends ActorSheetV2 {
 		} return console.warn("Could not find document class");
 	}
 
-	static async _toggleItem(event, target) {
-		const { itemId } = target.dataset;
-		if (itemId && typeof this.activeItems[itemId] !== "undefined") {
-			this.activeItems[itemId] = !this.activeItems[itemId];
-		}
-		else {
-			this.activeItems[itemId] = true;
-		}
-		this.render(true);
-	}
-
 	/**
 	 * Renders an embedded document's sheet
 	 *
@@ -226,7 +210,7 @@ export class GrimwildBaseVueActorSheet extends ActorSheetV2 {
 	 */
 	static async _deleteDoc(event, target) {
 		const doc = this._getEmbeddedDocument(target);
-		await doc.delete();
+		await doc?.deleteDialog();
 	}
 
 	/**

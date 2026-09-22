@@ -21,6 +21,7 @@ import * as models from "./data/_module.mjs";
 
 import { SUSPENSE_TRACKER } from "./controls/suspense.mjs";
 import { GrimwildTokenHud } from "./apps/token-hud.mjs";
+import { registrarInterfaz } from "./ui/interfaz.mjs";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -214,6 +215,7 @@ Hooks.once("init", function () {
 	};
 
 	SUSPENSE_TRACKER.init();
+	registrarInterfaz();
 
 	// Enable harm pools.
 	game.settings.register("grimwild", "enableHarmPools", {

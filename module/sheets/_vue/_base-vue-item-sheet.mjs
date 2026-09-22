@@ -1,6 +1,11 @@
+import { ConMemoria } from "../../ui/memoria.mjs";
+
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
 
-export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSheetV2 {
+export class GrimwildBaseVueItemSheet extends ConMemoria(foundry.applications.sheets.ItemSheetV2) {
+	/** Scroll containers remembered between openings. */
+	static SCROLL_MEMORIA = [".gw-panels"];
+
 	/** @override */
 	static DEFAULT_OPTIONS = {
 		classes: ["grimwild", "item"],
@@ -103,7 +108,7 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 	 */
 	static async _onEditImage(event, target) {
 		if (!this.isEditable) return false;
-		const attr = target.dataset.edit;
+		const attr = target.dataset.edit ?? target.querySelector("[data-edit]")?.dataset.edit ?? "img";
 		const current = foundry.utils.getProperty(this.document, attr);
 		const { img } = this.document.constructor.getDefaultArtwork?.(this.document.toObject()) ?? {};
 		const fp = new FilePicker({

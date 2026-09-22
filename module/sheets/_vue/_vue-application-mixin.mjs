@@ -1,4 +1,4 @@
-import { createApp } from "../../../lib/vue.esm-browser.js";
+import { createApp, reactive, watch } from "../../../lib/vue.esm-browser.js";
 
 /**
  * Vue rendering mixin for ApplicationV2.
@@ -126,6 +126,18 @@ export default function VueRenderingMixin(BaseApplication) {
 			// Expose the document.
 			this.vueApp.provide("rawDocument", this.document);
 
+			// Interface state (tab, expanded sections, compact mode…), remembered per user.
+			// `this.ui` comes from ConMemoria; here it becomes reactive and is saved on change.
+			if (this.ui) {
+				this.ui = reactive(this.ui);
+				this.vueApp.provide("ui", this.ui);
+				watch(this.ui, () => {
+					clearTimeout(this._uiTimer);
+					this._uiTimer = setTimeout(() => this.recordarUI?.(), 300);
+				}, { deep: true });
+			}
+			this.vueApp.provide("sheet", this);
+
 			// Mount and store the vue application.
 			this.vueRoot = this.vueApp.mount(target);
 
@@ -148,6 +160,13 @@ export default function VueRenderingMixin(BaseApplication) {
 		 * @protected
 		 * @override
 		 */
+		/** @override */
+		_onFirstRender(context, options) {
+			super._onFirstRender?.(context, options);
+			// Wait for Vue to paint before restoring the remembered scroll position.
+			requestAnimationFrame(() => this.restaurarScroll?.());
+		}
+
 		async _renderHTML(context, options) {
 			// Force certain updates.
 			this._renderKey++;
