@@ -41,6 +41,14 @@
       "tokenActions": {
         "name": "[Variante] Iniciativa con fichas",
         "hint": "Activa la regla variante de <strong>Iniciativa con fichas</strong>, que da a cada jugador 2 fichas por \"ronda\" de combate o escena. Si no, se usará un contador sencillo de acciones realizadas."
+      },
+      "accesibilidad": {
+        "name": "Modo de accesibilidad",
+        "hint": "Texto algo mayor, más contraste y controles más grandes y siempre visibles en las fichas y diálogos de Grimwild. Ajuste de este navegador."
+      },
+      "olvidarVentanas": {
+        "name": "Olvidar la posición de las ventanas",
+        "hint": "Marca la casilla y guarda para borrar la posición, el tamaño, las pestañas y las secciones recordadas de todas las ventanas de Grimwild en este navegador."
       }
     },
     "Stat": {
@@ -67,7 +75,7 @@
       "rattled": "Alterado",
       "conditions": "Condiciones",
       "ignored": "ignorado del daño",
-      "vex": "Vex",
+      "vex": "Arrebato",
       "dropped": "Derribado"
     },
     "Traits": {
@@ -183,16 +191,50 @@
       "majorArcana": "Arcano mayor",
       "mythicArcana": "Arcano mítico",
       "marks": "Marcas",
-      "harm": "Daño",
-      "takeSpark": "Tomar chispa",
-      "grantSpark": "otorga chispa",
+      "harm": "Daño grave",
+      "takeSpark": "Ganar chispa",
+      "grantSpark": "da chispa",
       "traitsMoves": "Rasgos / Movimientos",
       "tables": "Tablas",
       "wants": "Quiere",
       "doesNotWant": "No quiere",
       "pool": "Reserva",
-      "addQuickPool": "+ Reserva",
-      "none": "Ninguno"
+      "addQuickPool": "Añadir reserva",
+      "none": "Ninguna",
+      "less": "Menos",
+      "more": "Más",
+      "poolDice": "Dados de la reserva",
+      "rollPool": "Tirar reserva {name} ({dice}d)",
+      "hideFromPlayers": "Ocultar a los jugadores",
+      "showToPlayers": "Mostrar a los jugadores",
+      "hiddenFromPlayers": "Oculta a los jugadores",
+      "quickPools": "Reservas rápidas",
+      "quickPool": "Reserva rápida",
+      "suspenseUp": "Aumentar suspense",
+      "suspenseDown": "Reducir suspense",
+      "configurePools": "Configurar reservas rápidas",
+      "doneConfiguring": "Terminar de configurar",
+      "compactView": "Vista compacta",
+      "fullView": "Ficha completa",
+      "noArcana": "Sin arcanos. Añade uno o arrástralo desde el compendio.",
+      "noTalents": "Sin talentos. Añade uno o arrástralo desde el compendio.",
+      "noConditions": "Sin condiciones.",
+      "noBonds": "Sin vínculos.",
+      "noChallenges": "Sin desafíos.",
+      "noTrackers": "Sin marcadores.",
+      "duration": "Duración",
+      "editPortrait": "Cambiar retrato",
+      "traitIs": "Es",
+      "traitIsNot": "No es",
+      "play": "Juego",
+      "collapseAll": "Contraer todo",
+      "expandAll": "Desplegar todo",
+      "sendToChat": "Enviar {name} al chat",
+      "rollStat": "Tirar {stat}",
+      "mark": "Marca",
+      "editCrucible": "Editar crisol",
+      "viewCrucible": "Ver crisol",
+      "instructions": "Instrucciones"
     },
     "SheetLabels": {
       "Actor": "Hoja de actor de Grimwild",
@@ -437,13 +479,18 @@
       "Roll": "Tirar",
       "GrimwildRoll": "Tirada de Grimwild",
       "Assist": "Ayuda",
-      "WeaponMastery": "Maestría con armas"
+      "WeaponMastery": "Dominio de armas",
+      "RemoveAssist": "Quitar ayuda",
+      "UseSpark": "Gastar chispa",
+      "OtherAssist": "Otra ayuda"
     },
     "Notification": {
       "NoCharacterForSpark": "No hay personajes activos de este usuario a los que añadir chispa.",
       "NoCharacterForMark": "No hay personajes activos de este usuario a los que añadir una marca.",
       "MaxSpark": "{name} ya tiene el máximo de chispa. Úsala más a menudo.",
-      "OwnedItemsOnly": "Solo puedes crear botones de macro para objetos poseídos"
+      "OwnedItemsOnly": "Solo puedes crear botones de macro para objetos poseídos",
+      "VentanasOlvidadas": "Se ha borrado la memoria de ventanas de Grimwild.",
+      "ItemNotFound": "No se encuentra el objeto {name}. Quizá tengas que borrar y volver a crear esta macro."
     },
     "Combat": {
       "ActionCount": "Tiradas",
@@ -451,8 +498,107 @@
       "ResetActionTokens": "Restablecer fichas de acción",
       "AddActionToken": "Añadir ficha de acción",
       "RemoveActionToken": "Quitar ficha de acción",
-      "SpotlightActor": "Foco",
-      "TokenActions": "Acciones"
+      "SpotlightActor": "Poner el foco",
+      "TokenActions": "Acciones",
+      "SpotlightTooltip": "Poner el foco en este combatiente"
+    },
+    "Chat": {
+      "cutTo": "rebajado a",
+      "poolChange": "Reserva antes → después",
+      "markStat": "Marcar",
+      "poolEmpty": "Reserva agotada",
+      "poolRolled": "Reserva tirada"
+    },
+    "Ayuda": {
+      "verRegla": "Ver la regla",
+      "stat": {
+        "titulo": "Atributo",
+        "texto": "Haz clic para una tirada de acción con tantos dados como su valor. Cuenta el dado más alto: 6 perfecto, 4-5 complicado, 1-3 sombrío; dos 6, crítico."
+      },
+      "mark": {
+        "titulo": "Marca",
+        "texto": "Daño leve en un atributo: +1t en la siguiente tirada con él y después se borra. Si ya estaba marcado, recibes daño grave."
+      },
+      "bloodied": {
+        "titulo": "Ensangrentado",
+        "texto": "Daño físico grave (o marcas acumuladas en Músculo o Agilidad): +1t en todas las tiradas. Si lo sufres otra vez, quedas derribado."
+      },
+      "rattled": {
+        "titulo": "Alterado",
+        "texto": "Daño mental grave (o marcas acumuladas en Ingenio o Presencia): +1t en todas las tiradas. Si lo sufres otra vez, quedas derribado."
+      },
+      "dropped": {
+        "titulo": "Derribado",
+        "texto": "Quedas fuera de la escena. Haz una tirada de historia (normalmente 2d) para ver cómo acaba."
+      },
+      "spark": {
+        "titulo": "Chispa",
+        "texto": "Energía de protagonista (máx. 2). La ganas al añadir un enredo, sacar un desastre, resolver un arco argumental o en una disputa. Gasta 1 para +1d en una tirada."
+      },
+      "story": {
+        "titulo": "Historia",
+        "texto": "Impulso cinematográfico: 2 por sesión. Gástala para añadir detalles que vayan más allá de los detalles de escena y encajen con tu perspectiva."
+      },
+      "dice": {
+        "titulo": "Dados",
+        "texto": "d6 que tiras: atributo, chispa gastada y ayudas. Cuenta el más alto."
+      },
+      "thorns": {
+        "titulo": "Espinas",
+        "texto": "d8 que añade el DJ cuando la tarea es más difícil de lo normal. Cada 7 u 8 rebaja el resultado un paso, salvo en un crítico."
+      },
+      "conditions": {
+        "titulo": "Condiciones",
+        "texto": "Lesiones o males concretos. Tienes +1t cuando una condición entorpece la tirada. Su reserva mide cuánto dura."
+      },
+      "pool": {
+        "titulo": "Reserva",
+        "texto": "Tira sus dados y descarta 1d por cada 1-3. Al llegar a 0d, la reserva se agota y la ficción cambia."
+      },
+      "powerPool": {
+        "titulo": "Reserva de poder",
+        "texto": "Se tira al usar el talento u objeto, o en lugar de un atributo. La misma tirada da el resultado y descarta dados de la reserva."
+      },
+      "assist": {
+        "titulo": "Ayuda",
+        "texto": "Otro PJ explica cómo te ayuda, tira 1d y comparte el riesgo. Su dado se suma a los tuyos."
+      },
+      "traits": {
+        "titulo": "Rasgos",
+        "texto": "Cómo es y cómo no es tu personaje. Pulsa la etiqueta para cambiar entre «es» y «no es»."
+      },
+      "desires": {
+        "titulo": "Deseos",
+        "texto": "Dos cosas que tu personaje desea mucho y una que no desea en absoluto."
+      },
+      "bonds": {
+        "titulo": "Vínculos",
+        "texto": "Tu visión predominante de cada PJ. Puedes cambiarla en cualquier momento; narra una breve viñeta cuando lo hagas."
+      },
+      "backgrounds": {
+        "titulo": "Trasfondos",
+        "texto": "De dónde vienes. Cada trasfondo tiene tres saberes: campos que conoces bien."
+      },
+      "xp": {
+        "titulo": "Nivel y PX",
+        "texto": "Ganas 1 PX al final de cada sesión. Subes de nivel al rellenar tantas casillas como el número del siguiente nivel."
+      },
+      "suspense": {
+        "titulo": "Suspense",
+        "texto": "Tensión acumulada del DJ. La gana al saltarse un movimiento de impacto o con un movimiento de suspense, y la gasta para detonar uno en cualquier momento."
+      },
+      "quickPools": {
+        "titulo": "Reservas rápidas",
+        "texto": "Reservas de la escena (relojes, peligros, tareas). Al tirarlas se descarta 1d por cada 1-3."
+      },
+      "spotlight": {
+        "titulo": "Foco",
+        "texto": "Pone el foco en este combatiente: pasa a ser el turno activo."
+      },
+      "challenge": {
+        "titulo": "Desafío",
+        "texto": "Reserva de dados del desafío. Al tirarla se descarta 1d por cada 1-3; cuando llega a 0d, el desafío queda superado."
+      }
     }
   },
   "TYPES": {
@@ -464,7 +610,7 @@
     },
     "Item": {
       "talent": "Talento",
-      "arcana": "Arcana",
+      "arcana": "Arcano",
       "challenge": "Desafío"
     }
   }

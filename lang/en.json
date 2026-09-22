@@ -40,6 +40,14 @@
       "tokenActions": {
         "name": "[Variant] Token Initiative",
         "hint": "Enable the variant <strong>Token Initiative</strong> rule that gives each players 2 tokens per \"round\" of combat/scenes. Otherwise, a simple action counter will be used to count how many actions have been taken."
+      },
+      "accesibilidad": {
+        "name": "Accessibility mode",
+        "hint": "Slightly larger text, higher contrast and bigger, always-visible controls in Grimwild sheets and dialogs. Setting for this browser."
+      },
+      "olvidarVentanas": {
+        "name": "Forget window positions",
+        "hint": "Tick and save to clear the remembered position, size, tabs and sections of every Grimwild window in this browser."
       }
     },
     "Stat": {
@@ -190,7 +198,42 @@
       "wants": "Wants",
       "doesNotWant": "Doesn't want",
       "pool": "Pool",
-      "addQuickPool": "+ Pool"
+      "addQuickPool": "Add pool",
+      "none": "None",
+      "less": "Less",
+      "more": "More",
+      "poolDice": "Pool dice",
+      "rollPool": "Roll pool {name} ({dice}d)",
+      "hideFromPlayers": "Hide from players",
+      "showToPlayers": "Show to players",
+      "hiddenFromPlayers": "Hidden from players",
+      "quickPools": "Quick pools",
+      "quickPool": "Quick pool",
+      "suspenseUp": "Increase suspense",
+      "suspenseDown": "Decrease suspense",
+      "configurePools": "Configure quick pools",
+      "doneConfiguring": "Done configuring",
+      "compactView": "Compact view",
+      "fullView": "Full sheet",
+      "noArcana": "No arcana. Add one or drag it from the compendium.",
+      "noTalents": "No talents. Add one or drag it from the compendium.",
+      "noConditions": "No conditions.",
+      "noBonds": "No bonds.",
+      "noChallenges": "No challenges.",
+      "noTrackers": "No trackers.",
+      "duration": "Duration",
+      "editPortrait": "Change portrait",
+      "traitIs": "Is",
+      "traitIsNot": "Isn't",
+      "play": "Play",
+      "collapseAll": "Collapse all",
+      "expandAll": "Expand all",
+      "sendToChat": "Send {name} to chat",
+      "rollStat": "Roll {stat}",
+      "mark": "Mark",
+      "editCrucible": "Edit Crucible",
+      "viewCrucible": "View Crucible",
+      "instructions": "Instructions"
     },
     "SheetLabels": {
       "Actor": "Grimwild Actor Sheet",
@@ -435,13 +478,18 @@
       "Roll": "Roll",
       "GrimwildRoll": "Grimwild Roll",
       "Assist": "Assist",
-      "WeaponMastery": "Weapon Mastery"
+      "WeaponMastery": "Weapon Mastery",
+      "RemoveAssist": "Remove assist",
+      "UseSpark": "Spend spark",
+      "OtherAssist": "Other assist"
     },
     "Notification": {
       "NoCharacterForSpark": "No active characters on this user to add spark to.",
       "NoCharacterForMark": "No active characters on this user to add a mark to.",
       "MaxSpark": "{name} already has maximum spark. Use it more often!",
-      "OwnedItemsOnly": "You can only create macro buttons for owned Items"
+      "OwnedItemsOnly": "You can only create macro buttons for owned Items",
+      "VentanasOlvidadas": "Grimwild window memory cleared.",
+      "ItemNotFound": "Could not find item {name}. You may need to delete and recreate this macro."
     },
     "Combat": {
       "ActionCount": "Rolls",
@@ -450,7 +498,106 @@
       "AddActionToken": "Add Action Token",
       "RemoveActionToken": "Remove Action Token",
       "SpotlightActor": "Spotlight",
-      "TokenActions": "Actions"
+      "TokenActions": "Actions",
+      "SpotlightTooltip": "Spotlight this combatant"
+    },
+    "Chat": {
+      "cutTo": "cut to",
+      "poolChange": "Pool before → after",
+      "markStat": "Mark",
+      "poolEmpty": "Pool depleted",
+      "poolRolled": "Pool rolled"
+    },
+    "Ayuda": {
+      "verRegla": "Open the rule",
+      "stat": {
+        "titulo": "Stat",
+        "texto": "Click for an action roll with as many dice as its value. The highest die counts: 6 perfect, 4-5 messy, 1-3 grim; two 6s, crit."
+      },
+      "mark": {
+        "titulo": "Mark",
+        "texto": "Light damage to a stat: +1t on the next roll with it, then clear it. If it is already marked, you take harm instead."
+      },
+      "bloodied": {
+        "titulo": "Bloodied",
+        "texto": "Heavy physical damage (or stacked marks to Brawn or Agility): +1t on all rolls. Taking it again leaves you dropped."
+      },
+      "rattled": {
+        "titulo": "Rattled",
+        "texto": "Heavy mental damage (or stacked marks to Wits or Presence): +1t on all rolls. Taking it again leaves you dropped."
+      },
+      "dropped": {
+        "titulo": "Dropped",
+        "texto": "You're out of the scene. Make a story roll (usually 2d) to see how it ends."
+      },
+      "spark": {
+        "titulo": "Spark",
+        "texto": "Pure protagonist energy (max 2). Take it when you add a tangle, roll a disaster, resolve a story arc, or quarrel. Spend 1 for +1d on a roll."
+      },
+      "story": {
+        "titulo": "Story",
+        "texto": "Cinematic momentum: 2 per session. Spend it to add details beyond set dressing that fit your vantage."
+      },
+      "dice": {
+        "titulo": "Dice",
+        "texto": "d6 you roll: stat, spent spark and assists. The highest counts."
+      },
+      "thorns": {
+        "titulo": "Thorns",
+        "texto": "d8 the GM adds for tougher tasks. Each 7 or 8 cuts the outcome one step, except on a crit."
+      },
+      "conditions": {
+        "titulo": "Conditions",
+        "texto": "Specific injuries or afflictions. Take +1t when a condition hinders the roll. Its pool tracks how long it lasts."
+      },
+      "pool": {
+        "titulo": "Pool",
+        "texto": "Roll its dice and drop 1d for each 1-3. At 0d the pool is depleted and the fiction changes."
+      },
+      "powerPool": {
+        "titulo": "Power pool",
+        "texto": "Rolled when using the talent or item, or in place of a stat. The same roll sets the outcome and drops dice from the pool."
+      },
+      "assist": {
+        "titulo": "Assist",
+        "texto": "Another PC says how they help, rolls 1d and shares the risk. Their die joins yours."
+      },
+      "traits": {
+        "titulo": "Traits",
+        "texto": "What your character is and isn't. Click the tag to switch between \"is\" and \"isn't\"."
+      },
+      "desires": {
+        "titulo": "Desires",
+        "texto": "Two things your character strongly wants and one they don't want at all."
+      },
+      "bonds": {
+        "titulo": "Bonds",
+        "texto": "Your prevailing view of each PC. Change it at any time; narrate a short vignette when you do."
+      },
+      "backgrounds": {
+        "titulo": "Backgrounds",
+        "texto": "Where you come from. Each background has three wises: fields you know well."
+      },
+      "xp": {
+        "titulo": "Level and XP",
+        "texto": "Gain 1 XP at the end of each session. Level up when you fill as many boxes as the next level's number."
+      },
+      "suspense": {
+        "titulo": "Suspense",
+        "texto": "The GM's building tension. Gained by skipping an impact move or with a suspense move; spent to trigger one at any time."
+      },
+      "quickPools": {
+        "titulo": "Quick pools",
+        "texto": "Scene pools (timers, dangers, tasks). Rolling drops 1d for each 1-3."
+      },
+      "spotlight": {
+        "titulo": "Spotlight",
+        "texto": "Put the spotlight on this combatant: it becomes the active turn."
+      },
+      "challenge": {
+        "titulo": "Challenge",
+        "texto": "The challenge's dice pool. Rolling drops 1d for each 1-3; at 0d the challenge is overcome."
+      }
     }
   },
   "TYPES": {
@@ -465,5 +612,6 @@
       "arcana": "Arcana",
       "challenge": "Challenge"
     }
-  }
+  },
+  "Name": "Name"
 }
