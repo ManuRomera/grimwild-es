@@ -1,81 +1,47 @@
 <template>
-	<div :class="`grimwild-vue standard-form flexcol`">
-		<div class="grimwild-sheet-layout grid grid-4col">
-			<CharSidebar :context="context" />
-
-			<!-- Header -->
-			 <section class="grimwild-main flexcol grid-span-3">
-				<CharHeader :context="context" />
-
-				<div class="section--main flexcol">
-					<!-- Tab links -->
-					<Tabs :tabs="tabs.primary" no-span="true"/>
-
-					<section class="section--fields flexcol">
-						<!-- Biography / Notes -->
-						<Tab group="primary" :tab="tabs.primary.biography">
-							<fieldset class="fieldset-prose-mirror">
-								<legend>{{ context.systemFields.biography.label }}</legend>
-								<Prosemirror :editable="context.editable" :field="context.editors['system.biography']"/>
-							</fieldset>
-						</Tab>
-
-						<!-- Notes fields -->
-						<Tab group="primary" :tab="tabs.primary.notes">
-							<fieldset class="fieldset-prose-mirror">
-								<legend>{{ context.systemFields.notes.label }}</legend>
-								<Prosemirror :editable="context.editable" :field="context.editors['system.notes']"/>
-							</fieldset>
-						</Tab>
-
-						<!-- Details fields -->
-						<Tab group="primary" :tab="tabs.primary.details">
-							<CharDetails :actor="context.actor" :context="context"/>
-						</Tab>
-
-						<!-- Attack fields -->
-						<Tab v-if="context.actor.type === 'character'" group="primary" :tab="tabs.primary.talents">
-							<CharTalents :actor="context.actor" :context="context"/>
-						</Tab>
-
-						<!-- Arcana -->
-						<Tab v-if="context.actor.type === 'character'" group="primary" :tab="tabs.primary.arcana">
-							<CharArcana :actor="context.actor" :context="context"/>
-						</Tab>
-
-						<!-- @todo Active effects disabled for now. -->
-						<!-- Active Effect Fields -->
-						<!-- <Tab group="primary" :tab="tabs.primary.effects">
-							<CharEffects :actor="context.actor" :context="context" :key="context._renderKey"/>
-						</Tab> -->
-					</section>
+	<div class="grimwild-vue gw-sheet gw-char standard-form" :class="{ 'is-compact': ui?.compacto }">
+		<CharCompact v-if="ui?.compacto" :context="context" />
+		<div v-else class="gw-char__layout gw-scroll">
+			<CharIdentity :context="context" />
+			<div class="gw-char__main">
+				<CharPlay :context="context" />
+				<Tabs :tabs="tabs" />
+				<div class="gw-panels">
+					<Tab :tab="tabs.details" :tabs="tabs">
+						<CharDetails :context="context" />
+					</Tab>
+					<Tab :tab="tabs.talents" :tabs="tabs">
+						<CharTalents :context="context" />
+					</Tab>
+					<Tab :tab="tabs.arcana" :tabs="tabs">
+						<CharArcana :context="context" />
+					</Tab>
+					<Tab :tab="tabs.biography" :tabs="tabs">
+						<section class="gw-prose">
+							<h3 class="gw-heading">{{ context.systemFields.biography.label }}</h3>
+							<Prosemirror :editable="context.editable" :field="context.editors['system.biography']" />
+						</section>
+					</Tab>
+					<Tab :tab="tabs.notes" :tabs="tabs">
+						<section class="gw-prose">
+							<h3 class="gw-heading">{{ context.systemFields.notes.label }}</h3>
+							<Prosemirror :editable="context.editable" :field="context.editors['system.notes']" />
+						</section>
+					</Tab>
 				</div>
-			 </section>
+			</div>
 		</div>
-
 	</div>
 </template>
 
 <script setup>
+import { inject, toRaw } from 'vue';
 import {
-	Tabs,
-	Tab,
-	CharSidebar,
-	CharHeader,
-	CharDetails,
-	CharTalents,
-	CharArcana,
-	CharEffects,
-	Prosemirror
+	Tabs, Tab, CharIdentity, CharPlay, CharDetails, CharTalents, CharArcana, CharCompact, Prosemirror
 } from '@/components';
-import { reactive, toRaw } from 'vue';
 
 const props = defineProps(['context']);
-// Convert the tabs into a new reactive variable so that they
-// don't change every time the item is updated.
-const rawTabs = toRaw(props.context.tabs);
-const tabs = reactive({...rawTabs});
-// Retrieve a copy of the full item document instance provided by
-// the VueApplicationMixin.
-// const actor = inject('rawDocument');
+const ui = inject('ui');
+// Tabs are fixed for the life of the sheet.
+const tabs = toRaw(props.context.tabs).primary;
 </script>

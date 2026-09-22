@@ -1,77 +1,50 @@
 <template>
-	<div :class="`grimwild-vue standard-form flexcol`">
-		<!-- Colors (MONSTERS ONLY) -->
-		<div v-if="context.actor.type === 'monster'" class="monster-colors flexrow">
-			<template v-for="(color, colorKey) in context.system.sensories.colors" :key="colorKey">
-				<div v-if="color.color" class="monster-color-wrapper">
-					<div class="monster-color" :style="`background-color:${color.color}`"></div>
-					<div v-if="color.name" class="monster-color-name">{{ color.name }}</div>
-				</div>
-			</template>
-		</div>
-		<div class="grimwild-sheet-layout flexcol">
-			<MonsterHeader :context="context" />
-			
-			<div class="section--main flexcol">
-				<!-- Tab links -->
-				<Tabs :tabs="tabs.primary" no-span="true"/>
-				<section class="section--fields flexcol">
-					<!-- Biography (MONSTERS ONLY) -->
-					<Tab v-if="context.actor.type === 'monster'" group="primary" :tab="tabs.primary.biography">
-						<MonsterBiography :context="context" />
-					</Tab>
-
-					<!-- Traits, Moves, and Desires -->
-					<Tab group="primary" :tab="tabs.primary.moves">
-						<MonsterTraitsMoves :context="context" />
-						<!-- Desires (MONSTERS ONLY) -->
-						<MonsterDesires v-if="context.actor.type === 'monster'" :context="context" />
-					</Tab>
-
-					<!-- Tables (MONSTERS ONLY) -->
-					<Tab v-if="context.actor.type === 'monster'" group="primary" :tab="tabs.primary.tables">
-						<MonsterTables :context="context" />
-					</Tab>
-
-					<!-- Challenges fields -->
-					<Tab group="primary" :tab="tabs.primary.challenges">
-						<MonsterChallenges :context="context"/>
-					</Tab>
-
-					<!-- Notes fields -->
-					<Tab group="primary" :tab="tabs.primary.notes">
-						<fieldset class="fieldset-prose-mirror">
-							<legend>{{ context.systemFields.notes.label }}</legend>
-							<Prosemirror :editable="context.editable" :field="context.editors['system.notes']"/>
-						</fieldset>
-					</Tab>
-				</section>
+	<div class="grimwild-vue gw-sheet gw-monster standard-form">
+		<!-- Sensory colour band (monsters only) -->
+		<div v-if="isMonster && colors.length" class="gw-colorband" role="list" :aria-label="t('GRIMWILD.UI.colors')">
+			<div v-for="(color, i) in colors" :key="i" class="gw-colorband__item" role="listitem">
+				<span class="gw-colorband__swatch" :style="{ backgroundColor: color.color }"></span>
+				<span v-if="color.name" class="gw-colorband__name">{{ color.name }}</span>
 			</div>
-
+		</div>
+		<div class="gw-monster__layout gw-scroll">
+			<MonsterHeader :context="context" />
+			<Tabs :tabs="tabs" />
+			<div class="gw-panels">
+				<Tab v-if="tabs.biography" :tab="tabs.biography" :tabs="tabs">
+					<MonsterBiography :context="context" />
+				</Tab>
+				<Tab :tab="tabs.moves" :tabs="tabs">
+					<MonsterTraitsMoves :context="context" />
+					<MonsterDesires v-if="isMonster" :context="context" />
+				</Tab>
+				<Tab v-if="tabs.tables" :tab="tabs.tables" :tabs="tabs">
+					<MonsterTables :context="context" />
+				</Tab>
+				<Tab :tab="tabs.challenges" :tabs="tabs">
+					<MonsterChallenges :context="context" />
+				</Tab>
+				<Tab :tab="tabs.notes" :tabs="tabs">
+					<section class="gw-prose">
+						<h3 class="gw-heading">{{ context.systemFields.notes.label }}</h3>
+						<Prosemirror :editable="context.editable" :field="context.editors['system.notes']" />
+					</section>
+				</Tab>
+			</div>
 		</div>
 	</div>
 </template>
 
 <script setup>
+import { computed, toRaw } from 'vue';
 import {
-	Tabs,
-	Tab,
-	MonsterHeader,
-	MonsterChallenges,
-	MonsterBiography,
-	MonsterTables,
-	MonsterTraitsMoves,
-	MonsterDesires,
+	Tabs, Tab, MonsterHeader, MonsterChallenges, MonsterBiography, MonsterTables, MonsterTraitsMoves, MonsterDesires,
 	Prosemirror
 } from '@/components';
-import { reactive, toRaw } from 'vue';
+import { t } from '@/composables/ui.mjs';
 
 const props = defineProps(['context']);
-// Convert the tabs into a new reactive variable so that they
-// don't change every time the item is updated.
-const rawTabs = toRaw(props.context.tabs);
-const tabs = reactive({...rawTabs});
-// Retrieve a copy of the full item document instance provided by
-// the VueApplicationMixin.
-// const actor = inject('rawDocument');
+const tabs = toRaw(props.context.tabs).primary;
+const isMonster = computed(() => props.context.actor.type === 'monster');
+const colors = computed(() => (props.context.system.sensories?.colors ?? []).filter((c) => c.color));
 </script>

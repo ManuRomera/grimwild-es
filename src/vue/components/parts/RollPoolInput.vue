@@ -1,57 +1,40 @@
 <template>
-	<div class="roll-pool form-group">
-		<button class="roll-pool-button"
-			:data-action="buttonAction"
+	<div class="gw-pool" data-ayuda="pool">
+		<button type="button" class="gw-pool__roll"
+			:data-action="buttonAction ?? 'rollPool'"
 			:data-roll-type="buttonRollType"
 			:data-item-id="itemId"
 			:data-field="field"
 			:data-key="fieldKey"
-		><i class="fas fa-dice-d6"></i><strong v-if="buttonLabel">{{ buttonLabel }}</strong></button>
-		<template v-if="noInput">
-			<span class="roll-pool-suffix">{{pool.diceNum}}d</span>
-		</template>
+			:aria-label="ariaLabel"
+			:data-tooltip="buttonLabel ? null : ariaLabel"
+			:disabled="!(pool?.diceNum > 0)"
+		><i class="fa-solid fa-dice-d6" inert></i><span v-if="buttonLabel">{{ buttonLabel }}</span></button>
+		<span v-if="noInput" class="gw-pool__value">{{ pool?.diceNum ?? 0 }}d</span>
 		<template v-else>
-			<input type="number"
-				class="roll-pool-input"
+			<input type="number" class="gw-pool__input"
 				:data-action-change="inputAction"
 				:data-item-id="itemId"
-				:name="fieldNameProp"
-				:value="pool.diceNum"
-				:min="min"
-				:max="max"
+				:name="inputName"
+				:value="pool?.diceNum ?? 0"
+				:min="min ?? 0"
+				:max="max || null"
+				:aria-label="t('GRIMWILD.UI.poolDice')"
 			/>
-			<span class="roll-pool-suffix">{{ suffix ?? 'd' }}</span>
+			<span class="gw-pool__suffix">{{ suffix ?? 'd' }}</span>
 		</template>
 	</div>
 </template>
 
 <script setup>
-import { inject } from 'vue';
+import { computed } from 'vue';
+import { t } from '@/composables/ui.mjs';
+
 const props = defineProps([
-	'name',
-	'buttonAction',
-	'buttonRollType',
-	'buttonLabel',
-	'inputAction',
-	'field',
-	'fieldKey',
-	'fieldName',
-	'noInput',
-	'itemId',
-	'pool',
-	'min',
-	'max',
-	'suffix'
+	'buttonAction', 'buttonRollType', 'buttonLabel', 'inputAction',
+	'field', 'fieldKey', 'fieldName', 'noInput', 'itemId', 'pool', 'min', 'max', 'suffix', 'label'
 ]);
 
-if (!props.buttonAction) props.buttonAction = 'rollPool';
-if (!props.min) props.min = 0;
-
-let fieldNameProp = null;
-if (props.fieldName) {
-	fieldNameProp = props.fieldName;
-} else if (props.field) {
-	fieldNameProp = `system.${props.field}.diceNum`;
-}
-
+const inputName = computed(() => props.fieldName ?? (props.field ? `system.${props.field}.diceNum` : null));
+const ariaLabel = computed(() => t('GRIMWILD.UI.rollPool', { name: props.label ?? props.buttonLabel ?? '', dice: props.pool?.diceNum ?? 0 }).trim());
 </script>

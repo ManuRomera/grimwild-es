@@ -1,73 +1,36 @@
 <template>
-	<div :class="`grimwild-vue standard-form flexcol`">
-		<div class="grimwild-sheet-layout flexcol">
-			<!-- <CharSidebar :context="context" /> -->
-
-			<!-- Header -->
-			 <section class="grimwild-main flexcol grid-span-3">
-				<ItemHeader :context="context" />
-
-				<div class="section--main flexcol">
-					<!-- Tab links -->
-					<Tabs :tabs="tabs.primary" no-span="true"/>
-
-					<section class="section--fields">
-						<!-- Details fields -->
-						<Tab group="primary" :tab="tabs.primary.description">
-							<!-- Description -->
-							<ItemDescription :item="context.item" :context="context"/>
-							<!-- Notes -->
-							<fieldset v-if="context.system?.notes">
-								<legend>Notes</legend>
-								<div class="notes form-group stacked">
-									<label>Label</label>
-									<input type="text" :name="`system.notes.label`" v-model="context.system.notes.label"/>
-								</div>
-								<div class="field">
-									<Prosemirror :editable="context.editable" :field="context.editors['system.notes.description']"/>
-								</div>
-							</fieldset>
-						</Tab>
-
-						<!-- Attack fields -->
-						<Tab group="primary" :tab="tabs.primary.attributes">
-							<!-- Arcana Details -->
-							<ArcanaDetails v-if="context.item.type === 'arcana'" :context="context"/>
-							<!-- Trackers -->
-							<ItemAttributes :context="context" />
-						</Tab>
-
-						<!-- @todo Active effects disabled for now. -->
-						<!-- Active Effect Fields -->
-						<!-- <Tab group="primary" :tab="tabs.primary.effects">
-							Effects
-						</Tab> -->
+	<div class="grimwild-vue gw-sheet gw-itemsheet standard-form">
+		<div class="gw-itemsheet__layout gw-scroll">
+			<ItemHeader :context="context" />
+			<Tabs :tabs="tabs" />
+			<div class="gw-panels">
+				<Tab :tab="tabs.description" :tabs="tabs">
+					<ItemDescription :context="context" />
+					<section v-if="context.system?.notes" class="gw-prose">
+						<h3 class="gw-heading">{{ t('GRIMWILD.UI.notes') }}</h3>
+						<div class="gw-field">
+							<label :for="`${uid}-notes-label`" class="gw-label">{{ t('GRIMWILD.UI.label') }}</label>
+							<input type="text" :id="`${uid}-notes-label`" name="system.notes.label" v-model="context.system.notes.label"
+								:disabled="!context.editable" />
+						</div>
+						<Prosemirror :editable="context.editable" :field="context.editors['system.notes.description']" />
 					</section>
-				</div>
-			 </section>
+				</Tab>
+				<Tab :tab="tabs.attributes" :tabs="tabs">
+					<ArcanaDetails v-if="context.item.type === 'arcana'" :context="context" />
+					<ItemAttributes :context="context" />
+				</Tab>
+			</div>
 		</div>
-
 	</div>
 </template>
 
 <script setup>
-import {
-	Tabs,
-	Tab,
-	ItemHeader,
-	ItemDescription,
-	ItemAttributes,
-	Prosemirror,
-	ArcanaDetails
-} from '@/components';
-import { reactive, toRaw } from 'vue';
+import { inject, toRaw } from 'vue';
+import { Tabs, Tab, ItemHeader, ItemDescription, ItemAttributes, Prosemirror, ArcanaDetails } from '@/components';
+import { t } from '@/composables/ui.mjs';
 
 const props = defineProps(['context']);
-// Convert the tabs into a new reactive variable so that they
-// don't change every time the item is updated.
-const rawTabs = toRaw(props.context.tabs);
-const tabs = reactive({...rawTabs});
-// Retrieve a copy of the full item document instance provided by
-// the VueApplicationMixin.
-// const item = inject('rawDocument');
+const uid = inject('sheet')?.id ?? 'grimwild';
+const tabs = toRaw(props.context.tabs).primary;
 </script>

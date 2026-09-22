@@ -1,126 +1,71 @@
 <template>
-	<section class="items challenges flexcol">
-		<!-- Header row -->
-		<div class="flexrow items-header">
-			<div class="item-name">Challenges</div>
-			<div class="item-controls">
-				<template v-if="context.editable">
-					<button class="item-control item-create"
-						title="Create item"
-						data-action="createDoc"
-						data-document-class="Item"
-						data-type="challenge"
-						type="button"
-					>
-						<i class="fas fa-plus"></i><span>Add</span>
-					</button>
-				</template>
-			</div>
-		</div>
-		<ol class="items-list grid-span-3">
-			<!-- Challenge rows -->
-			<li v-for="(item, id) in context.itemTypes.challenge" :key="id"
-				:class="`item challenge flexcol ${context.activeItems?.[item._id] ? 'active' : ''}`"
-				:data-item-id="item._id"
-				data-drag="true"
-				draggable="true"
-				data-document-class="Item"
+	<section class="gw-challenges-wrap">
+		<header class="gw-section-head">
+			<h3 class="gw-heading">{{ t('GRIMWILD.Actor.Tabs.Challenges') }}</h3>
+			<button v-if="context.editable" type="button" class="gw-button"
+				data-action="createDoc" data-document-class="Item" data-type="challenge"
+			><i class="fa-solid fa-plus" inert></i><span>{{ t('GRIMWILD.UI.add') }}</span></button>
+		</header>
+		<p v-if="!challenges.length" class="gw-empty">{{ t('GRIMWILD.UI.noChallenges') }}</p>
+		<ol class="gw-challenges">
+			<li v-for="item in challenges" :key="item._id" class="gw-challenge"
+				:data-item-id="item._id" data-drag="true" draggable="true" data-document-class="Item"
 			>
-				<!-- Summary, always visible -->
-				<div class="item-summary flexcol">
-					<div class="item-name flexrow">
-						<!-- Pool -->
-						<div class="challenge-pool">
-							<RollPoolInput
-								button-action="roll"
-								button-roll-type="item"
-								input-action="updateChallengePool"
-								:item-id="item.id"
-								:pool="item.system.pool"
-								:no-input="true"
-								min="0"
-							/>
-						</div>
-						<!-- Name -->
-						<div class="challenge-name">{{ item.name }}</div>
+				<header class="gw-challenge__head">
+					<div class="gw-pool gw-pool--challenge" data-ayuda="challenge">
+						<button type="button" class="gw-pool__roll" data-action="roll" data-roll-type="item"
+							:aria-label="t('GRIMWILD.UI.rollPool', { name: item.name, dice: item.system.pool.diceNum })"
+							:disabled="!(item.system.pool.diceNum > 0)"
+						><i class="fa-solid fa-dice-d6" inert></i></button>
+						<span class="gw-pool__value">{{ item.system.pool.diceNum }}d</span>
 					</div>
-					<div class="suspense-controls flexrow">
-						<!-- Suspense -->
-						<div class="suspense form-group stacked">
-							<div class="form-inputs">
-								<input type="checkbox"
-									data-action-change="updateItemField"
-									data-field="system.suspense.steps"
-									data-key="0"
-									:data-item-id="item.id"
-									v-model="item.system.suspense.steps[0]"
-								/>
-								<input type="checkbox"
-									data-action-change="updateItemField"
-									data-field="system.suspense.steps"
-									data-key="1"
-									:data-item-id="item.id"
-									v-model="item.system.suspense.steps[1]"
-								/>
-							</div>
-						</div>
-						<div class="item-controls">
-							<a class="item-control item-edit"
-								:title="game.i18n.format('DOCUMENT.Edit', {type: 'talent'})"
-								data-action="viewDoc"
-							><i class="fas fa-edit"></i></a>
-							<a class="item-control item-delete"
-								v-if="context.editable"
-								:title="game.i18n.format('DOCUMENT.Delete', {type: 'talent'})"
-								data-action="deleteDoc"
-							><i class="fas fa-trash"></i></a>
-						</div>
+					<h4 class="gw-challenge__name">{{ item.name }}</h4>
+				</header>
+				<div class="gw-challenge__bar">
+					<div class="gw-challenge__suspense">
+						<span class="gw-label">{{ t('GRIMWILD.Resources.suspense') }}</span>
+						<Pips :steps="item.system.suspense.steps" kind="suspense" ayuda="suspense"
+							icon="fa-solid fa-hourglass-half" :label="t('GRIMWILD.Resources.suspense')"
+							change-action="updateItemField" change-field="system.suspense.steps" :item-id="item._id" />
+					</div>
+					<div class="gw-challenge__controls">
+						<button type="button" class="gw-icon-button" data-action="viewDoc"
+							:aria-label="t('DOCUMENT.Edit', { type: typeLabel })" :data-tooltip="t('DOCUMENT.Edit', { type: typeLabel })"
+						><i class="fa-solid fa-pen-to-square" inert></i></button>
+						<button v-if="context.editable" type="button" class="gw-icon-button gw-danger" data-action="deleteDoc"
+							:aria-label="t('DOCUMENT.Delete', { type: typeLabel })" :data-tooltip="t('DOCUMENT.Delete', { type: typeLabel })"
+						><i class="fa-solid fa-trash" inert></i></button>
 					</div>
 				</div>
-
-				<!-- Description, visible when toggled on. -->
-				<div class="challenge-fields-wrapper">
-					<div class="item-description flexcol">
-						<div v-if="item.system.description.length" class="item-description-content" v-html="context.editors[`items.${item.id}.system.description`].enriched"></div>
-						<!-- Traits -->
-						<ul v-if="item.system.traits.length > 0" class="item-traits">
-							<li v-for="(trait, traitKey) in item.system.traits" :key="traitKey" class="item-trait">{{ trait }}</li>
-						</ul>
-						<!-- Moves -->
-						<template v-if="item.system.moves.length > 0">
-							<hr/>
-							<ul class="item-moves">
-								<li v-for="(move, moveKey) in item.system.moves" :key="moveKey" class="item-move">{{ move }}</li>
-							</ul>
-						</template>
-						<!-- Failure states -->
-						<template v-if="item.system.failure.length > 0">
-							<hr/>
-							<ul class="item-failure">
-								<li v-for="(fail, failKey) in item.system.failure" :key="failKey" class="item-fail form-group">
-									<RollPoolInput v-if="fail.pool.diceNum > 0"
-										button-action="rollPool"
-										button-roll-type="item"
-										field="failure"
-										:field-key="failKey"
-										:no-input="true"
-										:item-id="item.id"
-										:pool="fail.pool"
-										min="0"
-									/>
-									<span>{{ fail.value }}</span>
-								</li>
-							</ul>
-						</template>
-					</div>
+				<div class="gw-challenge__body">
+					<div v-if="item.system.description?.length" class="gw-challenge__desc"
+						v-html="context.editors[`items.${item._id}.system.description`]?.enriched"></div>
+					<ul v-if="item.system.traits.length" class="gw-challenge__traits">
+						<li v-for="(trait, i) in item.system.traits" :key="i">{{ trait }}</li>
+					</ul>
+					<ul v-if="item.system.moves.length" class="gw-challenge__moves">
+						<li v-for="(move, i) in item.system.moves" :key="i">{{ move }}</li>
+					</ul>
+					<ul v-if="item.system.failure.length" class="gw-challenge__fails">
+						<li v-for="(fail, i) in item.system.failure" :key="i">
+							<RollPoolInput v-if="fail.pool.diceNum > 0"
+								field="failure" :field-key="i" :no-input="true" :item-id="item._id"
+								:pool="fail.pool" :label="fail.value" />
+							<i v-else class="fa-solid fa-xmark gw-challenge__fail-mark" inert></i>
+							<span>{{ fail.value }}</span>
+						</li>
+					</ul>
 				</div>
-
 			</li>
 		</ol>
 	</section>
 </template>
 
 <script setup>
-import { RollPoolInput } from "@/components";
-const props = defineProps(["actor", "context"]);
+import { computed } from 'vue';
+import { RollPoolInput, Pips } from '@/components';
+import { t } from '@/composables/ui.mjs';
+const props = defineProps(['context']);
+const challenges = computed(() => props.context.itemTypes?.challenge ?? []);
+const typeLabel = t('TYPES.Item.challenge');
 </script>

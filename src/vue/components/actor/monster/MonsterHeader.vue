@@ -1,82 +1,46 @@
 <template>
-	<header class="sheet-header">
-		<section class="header-fields grid grid-4col">
-			<!-- Avatar -->
-			<div class="grimwild-avatar">
-				<img
-					class="profile-img"
-					:src="context.actor.img"
-					data-edit="img"
-					data-action="onEditImage"
-					:title="context.actor.name"
-					height="100"
-					width="100"
-				/>
-			</div>
-			<!-- Name -->
-			<div class="form-group stacked grid-span-3">
-				<div class="form-group">
-					<div :class="`name form-group stacked ${context.actor.type === 'monster' ? 'grid-span-2' : 'grid-span-3'}`">
-						<label>{{ game.i18n.localize('Name') }}</label>
-						<input type="text" name="name" v-model="context.actor.name"/>
-					</div>
-					<!-- Health Pool -->
-					<div v-if="context.actor.type === 'linkedChallenge' || (context.actor.type === 'monster' && ['boss', 'elite'].includes(context.system.tier))" class="challenge-pool form-group stacked">
-						<label>Challenge Pool</label>
-						<RollPoolInput
-							button-action="rollPool"
-							field="pool"
-							:pool="context.system.pool"
-							min="0"
-						/>
-					</div>
-				</div>
-				<!-- Additional Monster fields -->
-				<div v-if="context.actor.type === 'monster'" class="form-group">
-					<div class="form-group stacked monster-role">
-						<label>Role</label>
-						<select name="system.role" v-model="context.system.role">
-							<option value="">—</option>
-							<option v-for="(option, key) in roles" :key="key" :value="key">{{ option }}</option>
-						</select>
-					</div>
-					<div class="form-group stacked monster-tier">
-						<label>Tier</label>
-						<select name="system.tier" v-model="context.system.tier">
-							<option v-for="(option, key) in tiers" :key="key" :value="key">{{ option }}</option>
-						</select>
-					</div>
+	<header class="gw-mhead">
+		<button type="button" class="gw-portrait gw-portrait--monster" data-action="onEditImage"
+			:aria-label="t('GRIMWILD.UI.editPortrait')" :disabled="!context.editable"
+		><img :src="context.actor.img" data-edit="img" :alt="context.actor.name" /></button>
+		<div class="gw-mhead__main">
+			<input type="text" class="gw-mhead__name" name="name" v-model="context.actor.name"
+				:aria-label="t('Name')" :placeholder="t('Name')" :disabled="!context.editable" />
+			<div class="gw-mhead__meta">
+				<label v-if="isMonster" class="gw-select-chip">
+					<span>{{ t('GRIMWILD.Actor.Monster.FIELDS.role.label') }}</span>
+					<select name="system.role" v-model="context.system.role" :disabled="!context.editable">
+						<option value="">—</option>
+						<option v-for="(label, key) in roles" :key="key" :value="key">{{ label }}</option>
+					</select>
+				</label>
+				<label v-if="isMonster" class="gw-select-chip">
+					<span>{{ t('GRIMWILD.Item.Arcana.FIELDS.tier.label') }}</span>
+					<select name="system.tier" v-model="context.system.tier" :disabled="!context.editable">
+						<option v-for="(label, key) in tiers" :key="key" :value="key">{{ label }}</option>
+					</select>
+				</label>
+				<div v-if="showPool" class="gw-mhead__pool" data-ayuda="challenge">
+					<span class="gw-label">{{ t('GRIMWILD.UI.challengePool') }}</span>
+					<RollPoolInput field="pool" :pool="context.system.pool" :label="context.actor.name" min="0" />
 				</div>
 			</div>
-		</section>
+		</div>
 	</header>
 </template>
 
 <script setup>
-import { inject } from "vue";
-import { RollPoolInput } from "@/components";
-const props = defineProps(["context"]);
-const actor = inject("rawDocument");
+import { computed } from 'vue';
+import { RollPoolInput } from '@/components';
+import { t } from '@/composables/ui.mjs';
 
-const tiers = {
-	mook: 'Mook',
-	tough: 'Tough',
-	elite: 'Elite',
-	boss: 'Boss'
-};
+const props = defineProps(['context']);
+const isMonster = computed(() => props.context.actor.type === 'monster');
+const showPool = computed(() => props.context.actor.type === 'linkedChallenge'
+	|| (isMonster.value && ['boss', 'elite'].includes(props.context.system.tier)));
 
-const roles = {
-	blaster: 'Blaster',
-	brute: 'Brute',
-	lurker: 'Lurker',
-	marauder: 'Marauder',
-	marksman: 'Marksman',
-	overseer: 'Overseer',
-	predator: 'Predator',
-	protector: 'Protector',
-	skirmisher: 'Skirmisher',
-	swarmer: 'Swarmer',
-	tactician: 'Tactician',
-	trickster: 'Trickster',
-}
+const tiers = Object.fromEntries(['mook', 'tough', 'elite', 'boss']
+	.map((k) => [k, t(`GRIMWILD.Actor.Monster.Tiers.${k}`)]));
+const roles = Object.fromEntries(['blaster', 'brute', 'lurker', 'marauder', 'marksman', 'overseer', 'predator',
+	'protector', 'skirmisher', 'swarmer', 'tactician', 'trickster'].map((k) => [k, t(`GRIMWILD.Actor.Monster.Roles.${k}`)]));
 </script>

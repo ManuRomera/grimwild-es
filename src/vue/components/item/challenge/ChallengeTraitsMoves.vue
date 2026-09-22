@@ -1,90 +1,41 @@
 <template>
-	<!-- Traits -->
-	<fieldset class="traits-fieldset add-another-entries">
-		<legend>{{ context.systemFields.traits.label }}</legend>
-		<button class="trait-control legend-control entry-create"
-			title="Add trait"
-			data-action="createArrayEntry"
-			data-field="traits"
-		><i class="fas fa-plus"></i></button>
-		<div class="traits entries form-group stacked">
-			<div class="trait entry form-group stacked" v-for="(trait, key) in context.system.traits" :key="key">
-				<input type="text"
-					:name="`system.traits.${key}`"
-					v-model="context.system.traits[key]"
-					placeholder="Trait description"/>
-				<a class="trait-control entry-delete"
-					title="Delete trait"
-					data-action="deleteArrayEntry"
-					data-field="traits"
-					:data-key="key"
-				><i class="fas fa-trash"></i></a>
-			</div>
-		</div>
-	</fieldset>
-	
-	<!-- Moves -->
-	<fieldset class="moves-fieldset add-another-entries">
-		<legend>{{ context.systemFields.moves.label }}</legend>
-		<button class="move-control legend-control entry-create"
-			title="Add move"
-			data-action="createArrayEntry"
-			data-field="moves"
-		><i class="fas fa-plus"></i></button>
-		<div class="moves entries form-group stacked">
-			<div class="move entry form-group stacked" v-for="(move, key) in context.system.moves" :key="key">
-				<input type="text"
-					:name="`system.moves.${key}`"
-					v-model="context.system.moves[key]"
-					placeholder="Trait description"/>
-				<a class="move-control entry-delete"
-					title="Delete move"
-					data-action="deleteArrayEntry"
-					data-field="moves"
-					:data-key="key"
-				><i class="fas fa-trash"></i></a>
-			</div>
-		</div>
-	</fieldset>
+	<div class="gw-lists">
+		<EntryList :context="context" field="traits" kind="trait" icon="fa-diamond"
+			:title="context.systemFields.traits.label"
+			:add="t('GRIMWILD.UI.addTrait')" :remove="t('GRIMWILD.UI.deleteTrait')"
+			:placeholder="t('GRIMWILD.UI.traitDescription')" />
+		<EntryList :context="context" field="moves" kind="move" icon="fa-caret-right"
+			:title="context.systemFields.moves.label"
+			:add="t('GRIMWILD.UI.addMove')" :remove="t('GRIMWILD.UI.deleteMove')"
+			:placeholder="t('GRIMWILD.UI.moveDescription')" />
 
-	<!-- Failure States -->
-	<fieldset class="failure-fieldset add-another-entries">
-		<legend>{{ context.systemFields.failure.label }}</legend>
-		<button class="fail-control legend-control entry-create"
-			title="Add failure state"
-			data-action="createArrayEntry"
-			data-field="failure"
-		><i class="fas fa-plus"></i></button>
-		<div class="failure entries form-group stacked">
-			<div class="fail entry form-group stacked" v-for="(fail, key) in context.system.failure" :key="key">
-				<div class="failure-state-row flexrow">
-					<RollPoolInput
-						button-action="rollPool"
-						field="failure"
-						:field-key="key"
-						:field-name="`system.failure.${key}.pool.diceNum`"
-						:pool="fail.pool"
-						min="0"
-					/>
-					<input type="text"
-						:name="`system.failure.${key}.value`"
-						v-model="context.system.failure[key].value"
-						placeholder="Trait description"/>
-					<a class="fail-control entry-delete"
-						title="Delete fail"
-						data-action="deleteArrayEntry"
-						data-field="failure"
-						:data-key="key"
-					><i class="fas fa-trash"></i></a>
-				</div>
-			</div>
-		</div>
-	</fieldset>
+		<section class="gw-entries gw-entries--fail">
+			<header class="gw-section-head">
+				<h3 class="gw-heading">{{ context.systemFields.failure.label }}</h3>
+				<button v-if="context.editable" type="button" class="gw-icon-button"
+					data-action="createArrayEntry" data-field="failure"
+					:aria-label="t('GRIMWILD.UI.addFailureState')" :data-tooltip="t('GRIMWILD.UI.addFailureState')"
+				><i class="fa-solid fa-plus" inert></i></button>
+			</header>
+			<ul class="gw-entries__list">
+				<li v-for="(fail, key) in context.system.failure" :key="key" class="gw-entry gw-entry--fail">
+					<RollPoolInput field="failure" :field-key="key" :field-name="`system.failure.${key}.pool.diceNum`"
+						:pool="fail.pool" :label="fail.value" min="0" />
+					<input type="text" :name="`system.failure.${key}.value`" v-model="context.system.failure[key].value"
+						:placeholder="t('GRIMWILD.UI.failureDescription')" :aria-label="`${context.systemFields.failure.label} ${key + 1}`"
+						:disabled="!context.editable" />
+					<button v-if="context.editable" type="button" class="gw-icon-button gw-danger"
+						data-action="deleteArrayEntry" data-field="failure" :data-key="key"
+						:aria-label="t('GRIMWILD.UI.deleteFail')" :data-tooltip="t('GRIMWILD.UI.deleteFail')"
+					><i class="fa-solid fa-xmark" inert></i></button>
+				</li>
+			</ul>
+		</section>
+	</div>
 </template>
 
 <script setup>
-import { inject } from "vue";
-import { RollPoolInput } from "@/components";
-const props = defineProps(["context"]);
-// const actor = inject("rawDocument");
+import { RollPoolInput, EntryList } from '@/components';
+import { t } from '@/composables/ui.mjs';
+defineProps(['context']);
 </script>

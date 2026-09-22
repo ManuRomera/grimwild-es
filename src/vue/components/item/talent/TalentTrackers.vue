@@ -1,88 +1,61 @@
 <template>
-	<fieldset class="trackers">
-		<legend>{{ context.systemFields.trackers.label }}</legend>
-		<div class="tracker form-group stacked">
-			<!-- Trackers -->
-			<div class="tracker-values form-group stacked">
-				<!-- Tracker -->
-				<div v-for="(tracker, trackerKey) in context.system.trackers" :key="trackerKey" class="form-group stacked trackers-group">
-					<!-- Type -->
-					<div class="tracker-type-group form-group">
-						<div class="tracker-type form-group stacked">
-							<label>Type</label>
-							<select :name="`system.trackers.${trackerKey}.type`" v-model="tracker.type">
-								<option value="pool">Pool</option>
-								<option value="points">Points</option>
-							</select>
-						</div>
-						<div v-if="tracker.type === 'pool'" class="tracker-power-pool form-group stacked">
-							<label>Power Pool</label>
-							<input type="checkbox" :name="`system.trackers.${trackerKey}.pool.powerPool`" v-model="tracker.pool.powerPool">
-						</div>
-					</div>
-					<!-- Options -->
-					<div class="tracker-options form-group">
-						<!-- Label -->
-						<div class="tracker-label form-group stacked">
-							<label>Label</label>
-							<input type="text" :name="`system.trackers.${trackerKey}.label`" v-model="tracker.label"/>
-						</div>
-						<!-- Pool -->
-						<div v-if="tracker.type === 'pool'" class="tracker-value form-group stacked">
-							<label>Value</label>
-							<input type="number"
-								:name="`system.trackers.${trackerKey}.pool.diceNum`"
-								v-model="tracker.pool.diceNum"
-								min="0"
-								:max="tracker.pool.max > 0 ? tracker.pool.max : null"
-							/>
-						</div>
-						<!-- Value -->
-						<div v-if="tracker.type === 'points'" class="tracker-value form-group stacked">
-							<label>Value</label>
-							<input type="number"
-								:name="`system.trackers.${trackerKey}.points.value`"
-								min="0"
-								:max="tracker.points.max"
-								v-model="tracker.points.value"/>
-						</div>
-						<!-- Max -->
-						<div class="tracker-value tracker-max form-group stacked">
-							<label>Max</label>
-							<input type="number"
-								:name="`system.trackers.${trackerKey}.${tracker.type}.max`"
-								min="1"
-								v-model="tracker[tracker.type].max"/>
-						</div>
-						<!-- Steps -->
-						<div v-if="tracker.type === 'points'" class="tracker-steps form-group stacked">
-							<label>Display</label>
-							<select :name="`system.trackers.${trackerKey}.points.showSteps`" v-model="tracker.points.showSteps">
-								<option value="false">Number</option>
-								<option value="true">Checkboxes</option>
-							</select>
-						</div>
-						<!-- Delete control -->
-						<a class="tracker-control tracker-delete"
-							title="Delete pool"
-							data-action="deleteTracker"
-							:data-key="trackerKey"
-						><i class="fas fa-trash"></i></a>
-					</div>
+	<section class="gw-trackers-edit">
+		<header class="gw-section-head">
+			<h3 class="gw-heading">{{ context.systemFields.trackers.label }}</h3>
+			<button v-if="context.editable" type="button" class="gw-button" data-action="createTracker">
+				<i class="fa-solid fa-plus" inert></i><span>{{ t('GRIMWILD.UI.addTracker') }}</span>
+			</button>
+		</header>
+		<p v-if="!context.system.trackers.length" class="gw-empty">{{ t('GRIMWILD.UI.noTrackers') }}</p>
+		<ul class="gw-cards">
+			<li v-for="(tracker, key) in context.system.trackers" :key="key" class="gw-tracker-edit">
+				<div class="gw-field">
+					<label :for="`${uid}-tr-${key}-label`" class="gw-label">{{ t('GRIMWILD.UI.label') }}</label>
+					<input type="text" :id="`${uid}-tr-${key}-label`" :name="`system.trackers.${key}.label`" v-model="tracker.label" />
 				</div>
-			</div>
-			<!-- Create tracker button -->
-			<button class="tracker-control tracker-create"
-				type="button"
-				title="Add pool"
-				data-action="createTracker"
-			><i class="fas fa-plus"></i>Add tracker</button>
-		</div>
-	</fieldset>
+				<div class="gw-field">
+					<label :for="`${uid}-tr-${key}-type`" class="gw-label">{{ t('GRIMWILD.UI.type') }}</label>
+					<select :id="`${uid}-tr-${key}-type`" :name="`system.trackers.${key}.type`" v-model="tracker.type">
+						<option value="pool">{{ t('GRIMWILD.UI.pool') }}</option>
+						<option value="points">{{ t('GRIMWILD.Resources.points') }}</option>
+					</select>
+				</div>
+				<label v-if="tracker.type === 'pool'" class="gw-field gw-field--check" data-ayuda="powerPool">
+					<input type="checkbox" :name="`system.trackers.${key}.pool.powerPool`" v-model="tracker.pool.powerPool" />
+					<span class="gw-label">{{ t('GRIMWILD.UI.powerPool') }}</span>
+				</label>
+				<div class="gw-field">
+					<label :for="`${uid}-tr-${key}-value`" class="gw-label">{{ t('GRIMWILD.UI.value') }}</label>
+					<input v-if="tracker.type === 'pool'" type="number" :id="`${uid}-tr-${key}-value`"
+						:name="`system.trackers.${key}.pool.diceNum`" v-model="tracker.pool.diceNum"
+						min="0" :max="tracker.pool.max > 0 ? tracker.pool.max : null" />
+					<input v-else type="number" :id="`${uid}-tr-${key}-value`"
+						:name="`system.trackers.${key}.points.value`" v-model="tracker.points.value"
+						min="0" :max="tracker.points.max" />
+				</div>
+				<div class="gw-field">
+					<label :for="`${uid}-tr-${key}-max`" class="gw-label">{{ t('GRIMWILD.UI.max') }}</label>
+					<input type="number" :id="`${uid}-tr-${key}-max`" :name="`system.trackers.${key}.${tracker.type}.max`"
+						min="1" v-model="tracker[tracker.type].max" />
+				</div>
+				<div v-if="tracker.type === 'points'" class="gw-field">
+					<label :for="`${uid}-tr-${key}-steps`" class="gw-label">{{ t('GRIMWILD.UI.display') }}</label>
+					<select :id="`${uid}-tr-${key}-steps`" :name="`system.trackers.${key}.points.showSteps`" v-model="tracker.points.showSteps">
+						<option :value="false">{{ t('GRIMWILD.UI.number') }}</option>
+						<option :value="true">{{ t('GRIMWILD.UI.checkboxes') }}</option>
+					</select>
+				</div>
+				<button type="button" class="gw-icon-button gw-danger gw-tracker-edit__delete" data-action="deleteTracker" :data-key="key"
+					:aria-label="t('GRIMWILD.UI.deletePool')" :data-tooltip="t('GRIMWILD.UI.deletePool')"
+				><i class="fa-solid fa-trash" inert></i></button>
+			</li>
+		</ul>
+	</section>
 </template>
 
 <script setup>
 import { inject } from 'vue';
-const props = defineProps(['context']);
-const item = inject('rawDocument');
+import { t } from '@/composables/ui.mjs';
+defineProps(['context']);
+const uid = inject('sheet')?.id ?? 'grimwild';
 </script>

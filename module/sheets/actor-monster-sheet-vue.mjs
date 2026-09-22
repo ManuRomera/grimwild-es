@@ -1,4 +1,5 @@
 import { MonsterSheetVue } from "../../vue/components.vue.es.mjs";
+import { poolFlavor } from "../helpers/config.mjs";
 import { GrimwildActorSheetVue } from "./actor-sheet-vue.mjs";
 
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
@@ -22,6 +23,9 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			]
 		}
 	};
+
+	/** Monsters have no compact view. */
+	static COMPACTO = null;
 
 	/** @override */
 	static DEFAULT_OPTIONS = {
@@ -165,6 +169,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			context.tabs.primary.biography = {
 				key: "biography",
 				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Biography"),
+				icon: "fa-solid fa-eye",
 				active: false
 			};
 		}
@@ -172,6 +177,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		context.tabs.primary.moves = {
 			key: "moves",
 			label: game.i18n.localize("GRIMWILD.UI.traitsMoves"),
+				icon: "fa-solid fa-bolt",
 			active: false
 		};
 
@@ -179,6 +185,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			context.tabs.primary.tables = {
 				key: "tables",
 				label: game.i18n.localize("GRIMWILD.UI.tables"),
+				icon: "fa-solid fa-table-list",
 				active: false
 			};
 		}
@@ -186,12 +193,14 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		context.tabs.primary.challenges = {
 			key: "challenges",
 			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Challenges"),
+				icon: "fa-solid fa-dragon",
 			active: true
 		};
 
 		context.tabs.primary.notes = {
 			key: "notes",
 			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Notes"),
+				icon: "fa-solid fa-note-sticky",
 			active: false
 		};
 	}
@@ -241,7 +250,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			// Initialize chat data.
 			const speaker = ChatMessage.getSpeaker({ actor: this.actor });
 			const rollMode = game.settings.get("core", "rollMode");
-			const label = `[${field}] ${this.document.name}`;
+			const label = poolFlavor(field, item ? `${item.name}: ${item.system?.[field]?.[key]?.value ?? ""}` : this.document.name);
 			// Send to chat.
 			const msg = await roll.toMessage({
 				speaker: speaker,

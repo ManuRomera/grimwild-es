@@ -1,16 +1,15 @@
 <template>
-  <div :class="`tab tab-${tab.key} ${['arcana', 'talents'].includes(tab.key) ? 'tab-items' : ''} ${tab.active ? 'active' : ''} ${classes ? classes : ''}`" :data-group="group" :data-tab="tab.key">
-    <slot></slot>
-  </div>
+	<div v-show="active === tab.key" class="gw-panel" :class="`gw-panel--${tab.key}`"
+		role="tabpanel" tabindex="-1"
+		:id="`${uid}-panel-${tab.key}`"
+		:aria-labelledby="`${uid}-tab-${tab.key}`"
+	>
+		<slot></slot>
+	</div>
 </template>
 
-<script>
-  export default {
-    name: 'Tab',
-    props: ['context', 'actor', 'tab', 'group', 'classes']
-  }
+<script setup>
+import { useTabs } from '@/composables/tabs.mjs';
+const props = defineProps(['tab', 'tabs']);
+const { uid, active } = useTabs(props.tabs);
 </script>
-
-<style lang="scss">
-
-</style>

@@ -1,4 +1,5 @@
 import VueRenderingMixin from "./_vue/_vue-application-mixin.mjs";
+import { poolFlavor } from "../helpers/config.mjs";
 import { GrimwildBaseVueItemSheet } from "./_vue/_base-vue-item-sheet.mjs";
 import { ItemSheetVue } from "../../vue/components.vue.es.mjs";
 
@@ -23,8 +24,8 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
-			width: 600
-			// height: 720,
+			width: 600,
+			height: 560
 		},
 		window: {
 			resizable: true
@@ -158,6 +159,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		context.tabs.primary.description = {
 			key: "description",
 			label: game.i18n.localize("GRIMWILD.Item.Tabs.Description"),
+			icon: "fa-solid fa-scroll",
 			active: this.document.type !== "challenge"
 		};
 
@@ -165,6 +167,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		context.tabs.primary.attributes = {
 			key: "attributes",
 			label: game.i18n.localize("GRIMWILD.Item.Tabs.Attributes"),
+			icon: "fa-solid fa-sliders",
 			active: this.document.type === "challenge"
 		};
 
@@ -384,7 +387,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			// Initialize chat data.
 			const speaker = ChatMessage.getSpeaker({ actor: this?.actor ?? game.user?.character });
 			const rollMode = game.settings.get("core", "rollMode");
-			const label = `[${field}] ${this.document.name}`;
+			const label = poolFlavor(field, fieldData?.diceNum ? this.document.name : `${this.document.name}: ${fieldData?.[key]?.value ?? ""}`);
 			// Send to chat.
 			const msg = await roll.toMessage({
 				speaker: speaker,

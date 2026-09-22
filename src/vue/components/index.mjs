@@ -1,6 +1,7 @@
 // Character.
-export { default as CharSidebar } from "@/components/actor/character/CharSidebar.vue";
-export { default as CharHeader } from "@/components/actor/character/CharHeader.vue";
+export { default as CharIdentity } from "@/components/actor/character/CharIdentity.vue";
+export { default as CharPlay } from "@/components/actor/character/CharPlay.vue";
+export { default as CharCompact } from "@/components/actor/character/CharCompact.vue";
 export { default as CharDetails } from "@/components/actor/character/CharDetails.vue";
 export { default as CharTalents } from "@/components/actor/character/CharTalents.vue";
 export { default as CharArcana } from "@/components/actor/character/CharArcana.vue";
@@ -25,3 +26,10 @@ export { default as Tabs } from "@/components/parts/Tabs.vue";
 export { default as Tab } from "@/components/parts/Tab.vue";
 export { default as Prosemirror } from "@/components/parts/Prosemirror.vue";
 export { default as RollPoolInput } from "@/components/parts/RollPoolInput.vue";
+export { default as StatBlock } from "@/components/parts/StatBlock.vue";
+export { default as HarmTrack } from "@/components/parts/HarmTrack.vue";
+export { default as Pips } from "@/components/parts/Pips.vue";
+export { default as Toggle } from "@/components/parts/Toggle.vue";
+export { default as ItemTracker } from "@/components/parts/ItemTracker.vue";
+export { default as ItemRows } from "@/components/parts/ItemRows.vue";
+export { default as EntryList } from "@/components/parts/EntryList.vue";

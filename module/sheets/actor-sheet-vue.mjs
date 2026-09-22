@@ -1,6 +1,8 @@
 import VueRenderingMixin from "./_vue/_vue-application-mixin.mjs";
+import { poolFlavor } from "../helpers/config.mjs";
 import { GrimwildBaseVueActorSheet } from "./_vue/_base-vue-actor-sheet.mjs";
 import { DocumentSheetVue } from "../../vue/components.vue.es.mjs";
+import { carpetaDelCamino } from "../helpers/claves.mjs";
 
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
 
@@ -32,6 +34,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 	_arrayEntryKey = 0;
 
+	/** Default geometry of the compact (play) view. */
+	static COMPACTO = { width: 400, height: 600 };
+
 	/** @override */
 	static DEFAULT_OPTIONS = {
 		classes: ["grimwild", "actor", "character"],
@@ -61,7 +66,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			changeXp: this._changeXp,
 			updateItemTracker: this._updateItemTracker,
 			rollPool: this._rollPool,
-			roll: this._onRoll
+			roll: this._onRoll,
+			toggleCompact: this._onToggleCompact
 		},
 		changeActions: {
 			updateItemTracker: this._updateItemTracker
@@ -85,6 +91,43 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		super._onRender(context, options);
 		// @todo figure out how to attach this to the application frame rather than
 		// using render key to prevent redundant events.
+	}
+
+	/** @override */
+	async _renderFrame(options) {
+		const frame = await super._renderFrame(options);
+		// Visible header button to switch between the full sheet and the compact play view.
+		if (this.hasFrame && this.constructor.COMPACTO) {
+			const button = document.createElement("button");
+			button.type = "button";
+			button.dataset.action = "toggleCompact";
+			this.window.controls.before(button);
+			this._botonCompacto = button;
+			this.#actualizarBotonCompacto();
+		}
+		frame.classList.toggle("compacto", this.compacto);
+		return frame;
+	}
+
+	#actualizarBotonCompacto() {
+		const button = this._botonCompacto;
+		if (!button) return;
+		const label = game.i18n.localize(this.compacto ? "GRIMWILD.UI.fullView" : "GRIMWILD.UI.compactView");
+		button.className = `header-control icon fa-solid ${this.compacto
+			? "fa-up-right-and-down-left-from-center"
+			: "fa-down-left-and-up-right-to-center"}`;
+		button.dataset.tooltip = label;
+		button.setAttribute("aria-label", label);
+		button.setAttribute("aria-pressed", String(this.compacto));
+	}
+
+	/**
+	 * Switch between the full sheet and the compact play view.
+	 * @this {GrimwildActorSheetVue}
+	 */
+	static async _onToggleCompact() {
+		await this.alternarCompacto();
+		this.#actualizarBotonCompacto();
 	}
 
 	/**
@@ -266,18 +309,21 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			context.tabs.primary.details = {
 				key: "details",
 				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Details"),
+				icon: "fa-solid fa-scroll",
 				active: true
 			};
 
 			context.tabs.primary.talents = {
 				key: "talents",
 				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Talents"),
+				icon: "fa-solid fa-star",
 				active: false
 			};
 
 			context.tabs.primary.arcana = {
 				key: "arcana",
 				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Arcana"),
+				icon: "fa-solid fa-gem",
 				active: false
 			};
 		}
@@ -286,12 +332,14 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		context.tabs.primary.biography = {
 			key: "biography",
 			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Biography"),
+				icon: "fa-solid fa-feather-pointed",
 			active: false
 		};
 
 		context.tabs.primary.notes = {
 			key: "notes",
 			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Notes"),
+				icon: "fa-solid fa-note-sticky",
 			active: false
 		};
 
@@ -325,11 +373,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		const compendium = game.packs.get(pack);
 
 		if (compendium?.apps?.[0]) {
-			// Open the character's relevant path, if one exists.
-			const path = this.document.system.path;
-			const folder = compendium.folders.find((f) => {
-				return f.name.trim().toLocaleLowerCase() === path.trim().toLocaleLowerCase();
-			});
+			// Open the character's path folder, found by stable path key (see helpers/claves.mjs).
+			const folder = pack === "grimwild.talents" ? await carpetaDelCamino(compendium, this.document) : null;
 			if (folder) {
 				const otherFolders = compendium.folders.filter((f) => f.id !== folder.id);
 				game.folders._expanded[folder.uuid] = true;
@@ -601,7 +646,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 						name: this.actor.name,
 						spark: rollData?.spark,
 						stat: null,
-						diceLabel: `[${item.name}] ${tracker.label}`,
+						diceLabel: [item.name, tracker.label].filter(Boolean).join(": "),
 						diceDefault: pool.diceNum,
 						isBloodied: rollData?.isBloodied,
 						isRattled: rollData?.isRattled,
@@ -647,8 +692,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				const speaker = ChatMessage.getSpeaker({ actor: this.actor });
 				const rollMode = game.settings.get("core", "rollMode");
 				const label = item && tracker.label
-					? `[${item.name}] ${tracker.label}`
-					: (item ? item.name : `[${field}] ${fieldData[key]?.name ?? ""}`);
+					? `${item.name}: ${tracker.label}`
+					: (item ? item.name : poolFlavor(field, fieldData[key]?.name));
 				// Send to chat.
 				const msg = await roll.toMessage({
 					speaker: speaker,
@@ -685,8 +730,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				const speaker = ChatMessage.getSpeaker({ actor: this.actor });
 				const rollMode = game.settings.get("core", "rollMode");
 				const label = item
-					? `[${item.type}] ${item.name}`
-					: `[${field}] ${fieldData[key]?.name ?? ""}`;
+					? poolFlavor(`item:${item.type}`, [item.name, tracker?.label].filter(Boolean).join(": "))
+					: poolFlavor(field, fieldData[key]?.name);
 				// Send to chat.
 				const msg = await roll.toMessage({
 					speaker: speaker,

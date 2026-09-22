@@ -1,32 +1,32 @@
 <template>
   <fieldset class="crucible">
-    <legend>Crucible</legend>
+    <legend>{{ t('GRIMWILD.UI.crucible') }}</legend>
     <div class="form-group stacked">
       <div class="form-group">
-        <label>Name</label>
+        <label>{{ t('Name') }}</label>
         <input type="text"
           name="system.crucible.name"
           v-model="context.system.crucible.name"
-          placeholder="Name"
+          :placeholder="t('Name')"
         />
       </div>
       <div class="form-group">
-        <label>Instructions</label>
+        <label>{{ t('GRIMWILD.UI.instructions') }}</label>
         <input type="text"
           name="system.crucible.instructions"
           v-model="context.system.crucible.instructions"
-          placeholder="Instructions"
+          :placeholder="t('GRIMWILD.UI.instructions')"
         />
       </div>
       <div class="form-group stacked">
         <div class="form-group">
           <button type="button"
             data-action="rollCrucible"
-          ><i class="fas fa-dice-d6"></i> Roll Crucible</button>
+          ><i class="fas fa-dice-d6" inert></i> {{ t('GRIMWILD.UI.rollCrucible') }}</button>
           <button type="button"
             v-if="context.editable"
             @click="toggleEdit"
-          ><i :class="`fas fa-${editMode ? 'eye' : 'pencil'}`"></i> {{editMode ? 'View Crucible' : 'Edit Crucible'}}</button>
+          ><i :class="`fas fa-${editMode ? 'eye' : 'pencil'}`"></i> {{ editMode ? t('GRIMWILD.UI.viewCrucible') : t('GRIMWILD.UI.editCrucible') }}</button>
         </div>
         <div class="responsive-table">
           <table>
@@ -51,6 +51,7 @@
 
 <script setup>
 import { inject, ref } from 'vue';
+import { t } from '@/composables/ui.mjs';
 const props = defineProps(['context']);
 const item = inject('rawDocument');
 const d66Array = Array.fromRange(6, 1);
