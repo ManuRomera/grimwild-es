@@ -13,7 +13,7 @@ sus compendios, logotipos, texturas ni demás recursos. Es una localización der
 > **Sustituye al sistema original.** Conserva el identificador `grimwild` para que funcionen las referencias internas de
 > los compendios (`Compendium.grimwild…`) y los mundos ya creados. No se puede instalar a la vez que el Grimwild oficial.
 
-- Versión: **0.5.3-es.2** (basada en Grimwild 0.5.3 para Foundry)
+- Versión: **0.5.3-es.3** (basada en Grimwild 0.5.3 para Foundry). Historial en [CHANGELOG.md](CHANGELOG.md).
 - Foundry VTT: **v13** (verificado en 13.351). No es compatible con v14.
 
 ## Características
@@ -26,6 +26,7 @@ sus compendios, logotipos, texturas ni demás recursos. Es una localización der
   - Monstruos, con sus desafíos, tablas, sensaciones y colores.
   - Crisoles: tablas aleatorias para conjuros, oleadas salvajes, herboristería y el DJ.
   - Herramientas del DJ.
+- **Creación de personajes** guiada paso a paso o completamente aleatoria.
 - **Suspense y reservas rápidas** siempre a mano sobre la barra de macros.
 - **Tracker de combate** a la manera de Grimwild: foco, fichas de acción, Chispa y daño.
 
@@ -42,6 +43,20 @@ sus compendios, logotipos, texturas ni demás recursos. Es una localización der
   - estrecha, con las pestañas en un menú.
 - **Modo compacto** para escenas y combates (botón en la barra de la ventana): atributos, daño, Chispa, Historia,
   condiciones activas y reservas de talentos, en unos 400 px.
+
+**Creación de personajes.**
+
+- El **asistente guiado** sigue los pasos del reglamento en una sola ventana:
+  - trasfondos, de la tabla o del crisol de ascendencia;
+  - rasgos y deseos;
+  - aspecto;
+  - camino, con su talento principal y un segundo talento;
+  - atributos, repartiendo 1 + 4 puntos, con un máximo de 3;
+  - arcos y vínculos con los demás PJ.
+- Cada paso tiene su dado, y «Todo al azar» rellena el personaje completo.
+- **Personaje aleatorio** crea un PJ jugable con un clic.
+- Se abre desde el directorio de actores y desde el menú de la ficha. También al crear un personaje vacío,
+  si está activado el ajuste.
 
 **Tiradas.**
 
@@ -87,15 +102,14 @@ Todavía no hay capturas en el repositorio. Conviene añadir capturas reales (si
 Instala desde **Configuración → Sistemas de juego → Instalar sistema**, con esta URL de manifiesto:
 
 ```text
-https://raw.githubusercontent.com/ManuRomera/grimwild-es/main/system.json
+https://github.com/ManuRomera/grimwild-es/releases/latest/download/system.json
 ```
+
+Cada versión se publica como *release* de GitHub, con su `system.json` y su `grimwild.zip`, así que Foundry avisa de
+las actualizaciones y las instala desde su gestor de sistemas.
 
 **Si el repositorio es privado**, Foundry no puede descargar el manifiesto ni el zip, porque no se autentica en GitHub.
-En ese caso, descarga el repositorio y copia su contenido en:
-
-```text
-FoundryVTT/Data/systems/grimwild
-```
+En ese caso, descarga `grimwild.zip` de la release y descomprímelo en `FoundryVTT/Data/systems/grimwild`.
 
 Si ya tienes instalado el Grimwild oficial, **esta versión lo sustituye**: haz copia de tus mundos antes.
 
@@ -123,6 +137,13 @@ npm run build
 ```bash
 npm run check
 ```
+
+```bash
+npm test
+```
+
+**Publicar una versión:** sube la versión en `system.json`, incluido el `download` con la etiqueta nueva, y añade la
+entrada a `CHANGELOG.md`. Después sube la etiqueta `v<versión>`: el flujo `Publicar` valida y crea la release.
 
 - `npm run check` busca claves de traducción que falten, textos en inglés sin traducir en plantillas y componentes,
   JSON inválidos y enlaces `@UUID` rotos en los compendios.

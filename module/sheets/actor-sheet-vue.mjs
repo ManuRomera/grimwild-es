@@ -48,10 +48,17 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			height: 750
 		},
 		window: {
-			resizable: true
+			resizable: true,
+			controls: [{
+				action: "abrirCreador",
+				icon: "fa-solid fa-user-plus",
+				label: "GRIMWILD.Creador.botonAsistente",
+				ownership: "OWNER"
+			}]
 		},
 		tag: "form",
 		actions: {
+			abrirCreador: this._onAbrirCreador,
 			onEditImage: this._onEditImage,
 			viewDoc: this._viewDoc,
 			createDoc: this._createDoc,
@@ -119,6 +126,14 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		button.dataset.tooltip = label;
 		button.setAttribute("aria-label", label);
 		button.setAttribute("aria-pressed", String(this.compacto));
+	}
+
+	/**
+	 * Open the guided character creator for this character.
+	 * @this {GrimwildActorSheetVue}
+	 */
+	static _onAbrirCreador() {
+		grimwild.applications.GrimwildCreador.abrir(this.document);
 	}
 
 	/**

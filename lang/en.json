@@ -48,6 +48,10 @@
       "olvidarVentanas": {
         "name": "Forget window positions",
         "hint": "Tick and save to clear the remembered position, size, tabs and sections of every Grimwild window in this browser."
+      },
+      "asistenteAlCrear": {
+        "name": "Wizard when creating characters",
+        "hint": "Open the creation wizard when an empty character is created."
       }
     },
     "Stat": {
@@ -325,6 +329,10 @@
                 }
               }
             }
+          },
+          "features": {
+            "label": "Features",
+            "placeholder": "Three features others quickly notice"
           }
         }
       },
@@ -597,7 +605,56 @@
       "challenge": {
         "titulo": "Challenge",
         "texto": "The challenge's dice pool. Rolling drops 1d for each 1-3; at 0d the challenge is overcome."
+      },
+      "features": {
+        "titulo": "Features",
+        "texto": "Your PC's 3 most distinctive, outward features that others quickly notice."
       }
+    },
+    "Creador": {
+      "titulo": "Create character",
+      "tituloActor": "Create character · {name}",
+      "pasos": "Creation steps",
+      "intro": "Follow the rulebook steps or click the die on any step. \"Randomize all\" fills the whole character; change anything before creating it.",
+      "paso": {
+        "nombre": "Name",
+        "trasfondos": "Backgrounds",
+        "rasgos": "Traits",
+        "deseos": "Desires",
+        "aspecto": "Features",
+        "camino": "Path and talents",
+        "atributos": "Stats",
+        "arcos": "Arcs",
+        "vinculos": "Bonds"
+      },
+      "nota": {
+        "trasfondos": "Choose two backgrounds, each with three wises. Take them from the table, roll a heritage (folk, land and mood) or write your own.",
+        "rasgos": "Choose 2 traits you very much are and 1 you definitely aren't.",
+        "deseos": "Choose 2 things you truly desire and 1 you definitely don't.",
+        "aspecto": "Three distinctive features others soon notice: strong hands, kind eyes, a gravelly voice…",
+        "camino": "Choose a path: gain its core talent and another talent from its list or, if it fits your story, a non-core talent from another path.",
+        "atributos": "Begin with 1 in each stat, then assign 4 more points, to a max of 3.",
+        "arcos": "One or two character arcs to explore. Don't get too detailed: they get fleshed out in play. Saved to notes.",
+        "vinculos": "One bond towards each PC: match an intensity and a nature, or write your own."
+      },
+      "azar": "Random",
+      "ascendencia": "Roll heritage (crucible)",
+      "elegirTabla": "Choose from the table…",
+      "principal": "Core talent",
+      "segundo": "Second talent",
+      "mismoCamino": "Same path",
+      "repartoOk": "Valid assignment.",
+      "puntosRestantes": "Points left",
+      "sinOtros": "There are no other PCs in the world yet.",
+      "todoAzar": "Randomize all",
+      "crear": "Create character",
+      "aplicar": "Apply to character",
+      "arcos": "Character arcs",
+      "sinNombre": "Nameless adventurer",
+      "creado": "Character ready: {name}.",
+      "avisoAtributos": "Stats are not 1 + 4 points (max 3): saved anyway; check the sheet.",
+      "botonAsistente": "Character wizard",
+      "botonAzar": "Random character"
     }
   },
   "TYPES": {

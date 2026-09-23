@@ -1,0 +1,303 @@
+// Asistente de creación de personajes.
+.grimwild-creador {
+	min-width: 420px;
+
+	.window-content {
+		padding: 0;
+		overflow: hidden;
+	}
+}
+
+.gw-creador {
+	container: gwcreador / inline-size;
+	flex: 1;
+	min-height: 0;
+	display: grid;
+	grid-template-columns: 170px minmax(0, 1fr);
+	grid-template-rows: minmax(0, 1fr) auto;
+	grid-template-areas: "indice pasos" "pie pie";
+	background: var(--gw-paper);
+}
+
+.gw-creador__indice {
+	grid-area: indice;
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	padding: 12px 8px;
+	border-right: 1px solid var(--gw-rule);
+	overflow-y: auto;
+
+	button {
+		@include boton-plano;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		min-height: var(--gw-hit);
+		padding: 0 6px;
+		border-radius: var(--gw-radius);
+		text-align: left;
+		cursor: pointer;
+		color: var(--gw-ink-soft);
+
+		&:hover,
+		&:focus-visible {
+			color: var(--gw-ink);
+			background: var(--gw-paper-sunk);
+		}
+	}
+}
+
+.gw-creador__num {
+	display: inline-grid;
+	place-items: center;
+	flex: 0 0 auto;
+	width: 1.6em;
+	height: 1.6em;
+	border: 1px solid var(--gw-rule-strong);
+	border-radius: 50%;
+	font-family: var(--gw-font-display);
+	font-size: 0.85em;
+	font-weight: 700;
+}
+
+.gw-creador__pasos {
+	grid-area: pasos;
+	overflow-y: auto;
+	scrollbar-width: thin;
+	padding: 12px 16px 20px;
+}
+
+.gw-creador__intro,
+.gw-creador__nota {
+	margin: 0 0 8px;
+	color: var(--gw-ink-soft);
+	font-style: italic;
+}
+
+.gw-creador__paso {
+	margin-bottom: 18px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid var(--gw-rule);
+	scroll-margin-top: 8px;
+
+	> .gw-heading {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		margin-bottom: 4px;
+
+		.gw-icon-button {
+			margin-left: auto;
+		}
+	}
+}
+
+.gw-creador__fila {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+
+	> input,
+	> select {
+		flex: 1;
+		min-width: 0;
+	}
+}
+
+.gw-creador__dos,
+.gw-creador__tres {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 8px 12px;
+}
+
+.gw-creador__tres {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gw-creador__tarjeta {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	padding: 8px;
+	border: 1px solid var(--gw-rule-strong);
+	border-radius: var(--gw-radius);
+	background: var(--gw-paper-raised);
+
+	.gw-creador__titulo {
+		font-size: 1.15em;
+		font-weight: 700;
+		font-variant: small-caps;
+	}
+}
+
+.gw-creador__eleccion {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+
+	> span {
+		font-size: 0.75em;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	&.is > span {
+		color: var(--gw-moss);
+	}
+
+	&.isnt > span {
+		color: var(--gw-accent);
+	}
+}
+
+.gw-creador__caminos {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+	gap: 6px;
+	margin-bottom: 10px;
+}
+
+.gw-creador__camino {
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+	padding: 6px 8px;
+	border: 1px dashed var(--gw-rule-strong);
+	border-radius: var(--gw-radius);
+	cursor: pointer;
+
+	small {
+		color: var(--gw-ink-faint);
+		font-style: italic;
+	}
+
+	&:hover {
+		border-color: var(--gw-accent);
+	}
+
+	&:has(input:focus-visible) {
+		outline: 2px solid var(--gw-focus);
+		outline-offset: 2px;
+	}
+
+	&.on {
+		border: 2px solid var(--gw-accent);
+		padding: 5px 7px;
+		background: color-mix(in srgb, var(--gw-accent) 10%, transparent);
+
+		small {
+			color: var(--gw-ink-soft);
+		}
+	}
+}
+
+.gw-creador__talentos p {
+	margin: 0 0 6px;
+}
+
+.gw-creador__atributos {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 8px;
+}
+
+.gw-creador__atributo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+	padding: 6px;
+	border: 1px solid var(--gw-rule-strong);
+	border-radius: var(--gw-radius);
+	background: var(--gw-paper-raised);
+}
+
+.gw-creador__atributo-nombre {
+	font-family: var(--gw-font-display);
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.gw-creador__estado {
+	margin: 8px 0 0;
+	color: var(--gw-accent);
+
+	&.ok {
+		color: var(--gw-moss);
+	}
+}
+
+.gw-creador__vinculo {
+	margin-bottom: 4px;
+
+	.gw-creador__vinculo-nombre {
+		flex: 0 0 9em;
+		font-weight: 700;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}
+
+.gw-creador__pie {
+	grid-area: pie;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 16px;
+	border-top: 1px solid var(--gw-rule-strong);
+
+	.gw-creador__crear {
+		width: auto;
+		min-height: 38px;
+		padding: 0 18px;
+		font-family: var(--gw-font-display);
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+}
+
+@container gwcreador (max-width: 620px) {
+	.gw-creador {
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-areas: "pasos" "pie";
+	}
+
+	.gw-creador__indice {
+		display: none;
+	}
+
+	.gw-creador__dos,
+	.gw-creador__tres {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.gw-creador__atributos {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+// Botones del directorio de actores.
+.gw-creador-botones {
+	display: flex;
+	gap: 4px;
+	flex: 1 1 100%;
+
+	button {
+		flex: 1;
+	}
+}
+
+.gw-features {
+	margin-bottom: 14px;
+
+	input {
+		width: 100%;
+		font-style: italic;
+	}
+}

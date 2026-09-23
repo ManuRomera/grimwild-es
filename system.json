@@ -2,14 +2,14 @@
   "id": "grimwild",
   "title": "Grimwild (castellano no oficial)",
   "description": "Traducción no oficial al castellano del sistema Grimwild para FoundryVTT. Grimwild no es propiedad de este repositorio.",
-  "version": "0.5.3-es.2",
+  "version": "0.5.3-es.3",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351",
     "maximum": "13"
   },
-  "manifest": "https://raw.githubusercontent.com/ManuRomera/grimwild-es/main/system.json",
-  "download": "https://github.com/ManuRomera/grimwild-es/archive/refs/heads/main.zip",
+  "manifest": "https://github.com/ManuRomera/grimwild-es/releases/latest/download/system.json",
+  "download": "https://github.com/ManuRomera/grimwild-es/releases/download/v0.5.3-es.3/grimwild.zip",
   "authors": [
     {
       "name": "Asacolips",

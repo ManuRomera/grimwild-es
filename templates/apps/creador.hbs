@@ -1,0 +1,177 @@
+<div class="gw-creador gw-roll">
+	<nav class="gw-creador__indice" aria-label="{{localize "GRIMWILD.Creador.pasos"}}">
+		{{#each pasos}}
+		<button type="button" data-action="ir" data-paso="{{clave}}"><span class="gw-creador__num">{{num}}</span> {{localize (concat "GRIMWILD.Creador.paso." clave)}}</button>
+		{{/each}}
+	</nav>
+
+	<div class="gw-creador__pasos">
+		<p class="gw-creador__intro">{{localize "GRIMWILD.Creador.intro"}}</p>
+
+		{{!-- 1. Nombre --}}
+		<section class="gw-creador__paso" id="{{@root.id}}-paso-nombre">
+			<h3 class="gw-heading"><span class="gw-creador__num">1</span> {{localize "GRIMWILD.Creador.paso.nombre"}}</h3>
+			<div class="gw-creador__fila">
+				<input type="text" name="nombre" value="{{b.nombre}}" placeholder="{{localize "Name"}}" aria-label="{{localize "Name"}}">
+				<button type="button" class="gw-icon-button" data-action="azar" data-paso="nombre" data-tooltip="{{localize "GRIMWILD.Creador.azar"}}" aria-label="{{localize "GRIMWILD.Creador.azar"}}"><i class="fa-solid fa-dice" inert></i></button>
+			</div>
+		</section>
+
+		{{!-- 2. Trasfondos --}}
+		<section class="gw-creador__paso" id="{{@root.id}}-paso-trasfondos">
+			<h3 class="gw-heading"><span class="gw-creador__num">2</span> {{localize "GRIMWILD.Creador.paso.trasfondos"}}</h3>
+			<p class="gw-creador__nota">{{localize "GRIMWILD.Creador.nota.trasfondos"}}</p>
+			<div class="gw-creador__dos">
+				{{#each trasfondos}}
+				<article class="gw-creador__tarjeta">
+					<div class="gw-creador__fila">
+						<select name="trasfondoTabla" data-index="{{i}}" aria-label="{{localize "GRIMWILD.Creador.elegirTabla"}}">
+							<option value="">{{localize "GRIMWILD.Creador.elegirTabla"}}</option>
+							{{#each @root.tablaTrasfondos}}<option value="{{nombre}}" {{#if (eq nombre ../name)}}selected{{/if}}>{{nombre}} — {{saberes}}</option>{{/each}}
+						</select>
+						<button type="button" class="gw-icon-button" data-action="azar" data-paso="trasfondo" data-index="{{i}}" data-tooltip="{{localize "GRIMWILD.Creador.azar"}}" aria-label="{{localize "GRIMWILD.Creador.azar"}}"><i class="fa-solid fa-dice" inert></i></button>
+						<button type="button" class="gw-icon-button" data-action="azar" data-paso="ascendencia" data-index="{{i}}" data-tooltip="{{localize "GRIMWILD.Creador.ascendencia"}}" aria-label="{{localize "GRIMWILD.Creador.ascendencia"}}"><i class="fa-solid fa-mountain-sun" inert></i></button>
+					</div>
+					<input type="text" class="gw-creador__titulo" name="trasfondos.{{i}}.name" value="{{name}}" placeholder="{{localize "GRIMWILD.Actor.Character.FIELDS.backgrounds.placeholder"}}" aria-label="{{localize "GRIMWILD.Actor.Character.FIELDS.backgrounds.label"}}">
+					<span class="gw-label">{{localize "GRIMWILD.Actor.Character.FIELDS.backgrounds.FIELDS.wises.label"}}</span>
+					{{#each wises as |w wi|}}
+					<input type="text" name="trasfondos.{{../i}}.wises.{{wi}}" value="{{w}}" aria-label="{{localize "GRIMWILD.Actor.Character.FIELDS.backgrounds.FIELDS.wises.label"}}">
+					{{/each}}
+				</article>
+				{{/each}}
+			</div>
+		</section>
+
+		{{!-- 3. Rasgos --}}
+		<section class="gw-creador__paso" id="{{@root.id}}-paso-rasgos">
+			<h3 class="gw-heading"><span class="gw-creador__num">3</span> {{localize "GRIMWILD.Creador.paso.rasgos"}}
+				<button type="button" class="gw-icon-button" data-action="azar" data-paso="rasgos" data-tooltip="{{localize "GRIMWILD.Creador.azar"}}" aria-label="{{localize "GRIMWILD.Creador.azar"}}"><i class="fa-solid fa-dice" inert></i></button></h3>
+			<p class="gw-creador__nota">{{localize "GRIMWILD.Creador.nota.rasgos"}}</p>
+			<div class="gw-creador__tres">
+				{{#each rasgos.si}}
+				<label class="gw-creador__eleccion is"><span>{{localize "GRIMWILD.UI.traitIs"}}</span>
+					<select name="rasgos.si.{{i}}"><option value="">—</option>{{#each opciones}}<option value="{{clave}}" {{#if elegido}}selected{{/if}}>{{etiqueta}}</option>{{/each}}</select></label>
+				{{/each}}
+				<label class="gw-creador__eleccion isnt"><span>{{localize "GRIMWILD.UI.traitIsNot"}}</span>
+					<select name="rasgos.no"><option value="">—</option>{{#each rasgos.no}}<option value="{{clave}}" {{#if elegido}}selected{{/if}}>{{etiqueta}}</option>{{/each}}</select></label>
+			</div>
+		</section>
+
+		{{!-- 4. Deseos --}}
+		<section class="gw-creador__paso" id="{{@root.id}}-paso-deseos">
+			<h3 class="gw-heading"><span class="gw-creador__num">4</span> {{localize "GRIMWILD.Creador.paso.deseos"}}
+				<button type="button" class="gw-icon-button" data-action="azar" data-paso="deseos" data-tooltip="{{localize "GRIMWILD.Creador.azar"}}" aria-label="{{localize "GRIMWILD.Creador.azar"}}"><i class="fa-solid fa-dice" inert></i></button></h3>
+			<p class="gw-creador__nota">{{localize "GRIMWILD.Creador.nota.deseos"}}</p>
+			<div class="gw-creador__tres">
+				{{#each deseos.si}}
+				<label class="gw-creador__eleccion is"><span>{{localize "GRIMWILD.UI.wants"}}</span>
+					<select name="deseos.si.{{i}}"><option value="">—</option>{{#each opciones}}<option value="{{clave}}" {{#if elegido}}selected{{/if}}>{{etiqueta}}</option>{{/each}}</select></label>
+				{{/each}}
+				<label class="gw-creador__eleccion isnt"><span>{{localize "GRIMWILD.UI.doesNotWant"}}</span>
+					<select name="deseos.no"><option value="">—</option>{{#each deseos.no}}<option value="{{clave}}" {{#if elegido}}selected{{/if}}>{{etiqueta}}</option>{{/each}}</select></label>
+			</div>
+		</section>
+
+		{{!-- 5. Aspecto --}}
+		<section class="gw-creador__paso" id="{{@root.id}}-paso-aspecto">
+			<h3 class="gw-heading"><span class="gw-creador__num">5</span> {{localize "GRIMWILD.Creador.paso.aspecto"}}
+				<button type="button" class="gw-icon-button" data-action="azar" data-paso="aspecto" data-tooltip="{{localize "GRIMWILD.Creador.azar"}}" aria-label="{{localize "GRIMWILD.Creador.azar"}}"><i class="fa-solid fa-dice" inert></i></button></h3>
+			<p class="gw-creador__nota">{{localize "GRIMWILD.Creador.nota.aspecto"}}</p>
+			<div class="gw-creador__tres">
+				{{#each aspecto}}<input type="text" name="aspecto.{{i}}" value="{{valor}}" list="{{@root.id}}-aspecto" aria-label="{{localize "GRIMWILD.Creador.paso.aspecto"}}">{{/each}}
+			</div>
+			<datalist id="{{@root.id}}-aspecto">{{#each sugerenciasAspecto}}<option value="{{this}}"></option>{{/each}}</datalist>
+		</section>
+
+		{{!-- 6. Camino y talentos --}}
+		<section class="gw-creador__paso" id="{{@root.id}}-paso-camino">
+			<h3 class="gw-heading"><span class="gw-creador__num">6</span> {{localize "GRIMWILD.Creador.paso.camino"}}
+				<button type="button" class="gw-icon-button" data-action="azar" data-paso="camino" data-tooltip="{{localize "GRIMWILD.Creador.azar"}}" aria-label="{{localize "GRIMWILD.Creador.azar"}}"><i class="fa-solid fa-dice" inert></i></button></h3>
+			<p class="gw-creador__nota">{{localize "GRIMWILD.Creador.nota.camino"}}</p>
+			<div class="gw-creador__caminos" role="radiogroup" aria-label="{{localize "GRIMWILD.Actor.Character.FIELDS.path.label"}}">
+				{{#each caminos}}
+				<label class="gw-creador__camino {{#if elegido}}on{{/if}}">
+					<input type="radio" class="visually-hidden" name="camino" value="{{id}}" {{checked elegido}}>
+					<strong>{{nombre}}</strong>
+					<small>{{principal.nombre}}</small>
+				</label>
+				{{/each}}
+			</div>
+			{{#if principal}}
+			<div class="gw-creador__talentos">
+				<p><span class="gw-label">{{localize "GRIMWILD.Creador.principal"}}</span> <strong>{{principal.nombre}}</strong></p>
+				<div class="gw-creador__fila">
+					<label class="gw-label" for="{{@root.id}}-segundo">{{localize "GRIMWILD.Creador.segundo"}}</label>
+					<select id="{{@root.id}}-segundo" name="segundo">
+						<option value="">—</option>
+						<optgroup label="{{localize "GRIMWILD.Creador.mismoCamino"}}">
+							{{#each segundos.mismo}}<option value="{{id}}" {{#if elegido}}selected{{/if}}>{{nombre}}</option>{{/each}}
+						</optgroup>
+						{{#each segundos.otros}}
+						<optgroup label="{{nombre}}">
+							{{#each talentos}}<option value="{{id}}" {{#if elegido}}selected{{/if}}>{{nombre}}</option>{{/each}}
+						</optgroup>
+						{{/each}}
+					</select>
+					<button type="button" class="gw-icon-button" data-action="azar" data-paso="segundo" data-tooltip="{{localize "GRIMWILD.Creador.azar"}}" aria-label="{{localize "GRIMWILD.Creador.azar"}}"><i class="fa-solid fa-dice" inert></i></button>
+				</div>
+			</div>
+			{{/if}}
+		</section>
+
+		{{!-- 7. Atributos --}}
+		<section class="gw-creador__paso" id="{{@root.id}}-paso-atributos">
+			<h3 class="gw-heading"><span class="gw-creador__num">7</span> {{localize "GRIMWILD.Creador.paso.atributos"}}
+				<button type="button" class="gw-icon-button" data-action="azar" data-paso="atributos" data-tooltip="{{localize "GRIMWILD.Creador.azar"}}" aria-label="{{localize "GRIMWILD.Creador.azar"}}"><i class="fa-solid fa-dice" inert></i></button></h3>
+			<p class="gw-creador__nota">{{localize "GRIMWILD.Creador.nota.atributos"}}</p>
+			<div class="gw-creador__atributos">
+				{{#each atributos}}
+				<div class="gw-creador__atributo">
+					<span class="gw-creador__atributo-nombre">{{nombre}}</span>
+					<div class="gw-stepper">
+						<button type="button" data-action="paso" data-clave="{{clave}}" data-delta="-1" {{#unless puedeBajar}}disabled{{/unless}} aria-label="{{localize "GRIMWILD.UI.less"}} {{nombre}}"><i class="fa-solid fa-minus" inert></i></button>
+						<input type="number" value="{{valor}}" readonly aria-label="{{nombre}}">
+						<button type="button" data-action="paso" data-clave="{{clave}}" data-delta="1" {{#unless puedeSubir}}disabled{{/unless}} aria-label="{{localize "GRIMWILD.UI.more"}} {{nombre}}"><i class="fa-solid fa-plus" inert></i></button>
+					</div>
+				</div>
+				{{/each}}
+			</div>
+			<p class="gw-creador__estado {{#if estadoAtributos.valido}}ok{{/if}}" aria-live="polite">
+				{{#if estadoAtributos.valido}}<i class="fa-solid fa-check" inert></i> {{localize "GRIMWILD.Creador.repartoOk"}}
+				{{else}}<i class="fa-solid fa-circle-exclamation" inert></i> {{localize "GRIMWILD.Creador.puntosRestantes"}}: <strong>{{estadoAtributos.restantes}}</strong>{{/if}}
+			</p>
+		</section>
+
+		{{!-- 8. Arcos --}}
+		<section class="gw-creador__paso" id="{{@root.id}}-paso-arcos">
+			<h3 class="gw-heading"><span class="gw-creador__num">8</span> {{localize "GRIMWILD.Creador.paso.arcos"}}
+				<button type="button" class="gw-icon-button" data-action="azar" data-paso="arcos" data-tooltip="{{localize "GRIMWILD.Creador.azar"}}" aria-label="{{localize "GRIMWILD.Creador.azar"}}"><i class="fa-solid fa-dice" inert></i></button></h3>
+			<p class="gw-creador__nota">{{localize "GRIMWILD.Creador.nota.arcos"}}</p>
+			<div class="gw-creador__dos">
+				{{#each arcos}}<input type="text" name="arcos.{{i}}" value="{{valor}}" list="{{@root.id}}-arcos" aria-label="{{localize "GRIMWILD.Creador.paso.arcos"}}">{{/each}}
+			</div>
+			<datalist id="{{@root.id}}-arcos">{{#each sugerenciasArcos}}<option value="{{this}}"></option>{{/each}}</datalist>
+		</section>
+
+		{{!-- 9. Vínculos --}}
+		<section class="gw-creador__paso" id="{{@root.id}}-paso-vinculos">
+			<h3 class="gw-heading"><span class="gw-creador__num">9</span> {{localize "GRIMWILD.Creador.paso.vinculos"}}</h3>
+			<p class="gw-creador__nota">{{localize "GRIMWILD.Creador.nota.vinculos"}}</p>
+			{{#each vinculos}}
+			<div class="gw-creador__fila gw-creador__vinculo">
+				<span class="gw-creador__vinculo-nombre"><i class="fa-solid fa-user" inert></i> {{nombre}}</span>
+				<input type="text" name="vinculos.{{i}}" value="{{valor}}" list="{{@root.id}}-vinculos" aria-label="{{localize "GRIMWILD.Creador.paso.vinculos"}}: {{nombre}}">
+				<button type="button" class="gw-icon-button" data-action="azar" data-paso="vinculo" data-nombre="{{nombre}}" data-tooltip="{{localize "GRIMWILD.Creador.azar"}}" aria-label="{{localize "GRIMWILD.Creador.azar"}}"><i class="fa-solid fa-dice" inert></i></button>
+			</div>
+			{{else}}
+			<p class="gw-empty">{{localize "GRIMWILD.Creador.sinOtros"}}</p>
+			{{/each}}
+			<datalist id="{{@root.id}}-vinculos">{{#each sugerenciasVinculos}}<option value="{{this}}"></option>{{/each}}</datalist>
+		</section>
+	</div>
+
+	<footer class="gw-creador__pie">
+		<button type="button" class="gw-button" data-action="todoAzar"><i class="fa-solid fa-dice" inert></i> {{localize "GRIMWILD.Creador.todoAzar"}}</button>
+		<button type="submit" class="gw-creador__crear"><i class="fa-solid fa-check" inert></i> {{#if nuevo}}{{localize "GRIMWILD.Creador.crear"}}{{else}}{{localize "GRIMWILD.Creador.aplicar"}}{{/if}}</button>
+	</footer>
+</div>

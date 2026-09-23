@@ -29,6 +29,7 @@ const AYUDA_REGLAS = {
 	bonds: "Compendium.grimwild.rules.JournalEntry.J3qpvKK8eSPQ181G",
 	backgrounds: "Compendium.grimwild.rules.JournalEntry.83BZRL246W4kP7jc",
 	xp: "Compendium.grimwild.rules.JournalEntry.IApWfIfwGKsmPCd2",
+	features: "Compendium.grimwild.rules.JournalEntry.hghJreSxAm2jbA5F",
 	suspense: "Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm",
 	quickPools: "Compendium.grimwild.gm_toolkit.JournalEntry.Vy78jbkDvChAznib",
 	spotlight: "Compendium.grimwild.gm_toolkit.JournalEntry.HIO9pDCMlifR7iox",

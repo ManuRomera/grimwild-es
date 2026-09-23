@@ -414,37 +414,53 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
 }, ht = { class: "gw-details" }, yt = {
   class: "gw-details__col gw-backgrounds",
   "data-ayuda": "backgrounds"
-}, gt = { class: "gw-heading" }, xt = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], $t = { class: "gw-label" }, It = { class: "gw-bg__wises" }, wt = ["name", "onUpdate:modelValue", "aria-label", "disabled"], ft = { class: "gw-details__col" }, _t = {
+}, gt = {
+  class: "gw-features",
+  "data-ayuda": "features"
+}, xt = { class: "gw-heading" }, $t = ["placeholder", "aria-label", "disabled"], It = { class: "gw-heading" }, wt = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], ft = { class: "gw-label" }, _t = { class: "gw-bg__wises" }, kt = ["name", "onUpdate:modelValue", "aria-label", "disabled"], vt = { class: "gw-details__col" }, pt = {
   class: "gw-conditions",
   "data-ayuda": "conditions"
-}, kt = { class: "gw-section-head" }, vt = { class: "gw-heading" }, pt = {
+}, Dt = { class: "gw-section-head" }, Lt = { class: "gw-heading" }, Mt = {
   key: 0,
   type: "button",
   class: "gw-button",
   "data-action": "createArrayEntry",
   "data-field": "conditions"
-}, Dt = {
+}, Ut = {
   key: 0,
   class: "gw-empty"
-}, Lt = { class: "gw-cards" }, Mt = { class: "gw-cond__row" }, Ut = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], Rt = ["data-key", "aria-label", "data-tooltip"], Gt = { class: "gw-cond__row" }, Wt = ["name", "onUpdate:modelValue", "aria-label", "disabled"], Vt = ["value"], Tt = {
+}, Rt = { class: "gw-cards" }, Gt = { class: "gw-cond__row" }, Wt = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], Vt = ["data-key", "aria-label", "data-tooltip"], Tt = { class: "gw-cond__row" }, At = ["name", "onUpdate:modelValue", "aria-label", "disabled"], Ft = ["value"], Ct = {
   class: "gw-bonds",
   "data-ayuda": "bonds"
-}, At = { class: "gw-section-head" }, Ft = { class: "gw-heading" }, Ct = {
+}, Et = { class: "gw-section-head" }, Nt = { class: "gw-heading" }, St = {
   key: 0,
   type: "button",
   class: "gw-button",
   "data-action": "createArrayEntry",
   "data-field": "bonds"
-}, Et = {
+}, Pt = {
   key: 0,
   class: "gw-empty"
-}, Nt = { class: "gw-cards" }, St = { class: "gw-bond__text" }, Pt = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], Ot = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], Ht = ["data-key", "aria-label", "data-tooltip"], jt = {
+}, Ot = { class: "gw-cards" }, Ht = { class: "gw-bond__text" }, jt = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], Bt = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], qt = ["data-key", "aria-label", "data-tooltip"], Yt = {
   __name: "CharDetails",
   props: ["context"],
   setup(e) {
     return (m, o) => (l(), n("div", ht, [
       t("section", yt, [
-        t("h3", gt, u(e.context.systemFields.backgrounds.label), 1),
+        t("div", gt, [
+          t("h3", xt, u(a(s)("GRIMWILD.Actor.Character.FIELDS.features.label")), 1),
+          w(t("input", {
+            type: "text",
+            name: "system.features",
+            "onUpdate:modelValue": o[0] || (o[0] = (i) => e.context.system.features = i),
+            placeholder: a(s)("GRIMWILD.Actor.Character.FIELDS.features.placeholder"),
+            "aria-label": a(s)("GRIMWILD.Actor.Character.FIELDS.features.label"),
+            disabled: !e.context.editable
+          }, null, 8, $t), [
+            [p, e.context.system.features]
+          ])
+        ]),
+        t("h3", It, u(e.context.systemFields.backgrounds.label), 1),
         (l(!0), n($, null, f(e.context.system.backgrounds, (i, r) => (l(), n("article", {
           key: r,
           class: "gw-bg"
@@ -457,11 +473,11 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
             placeholder: a(s)("GRIMWILD.Actor.Character.FIELDS.backgrounds.placeholder"),
             "aria-label": `${e.context.systemFields.backgrounds.label} ${r + 1}`,
             disabled: !e.context.editable
-          }, null, 8, xt), [
+          }, null, 8, wt), [
             [p, i.name]
           ]),
-          t("span", $t, u(a(s)("GRIMWILD.Actor.Character.FIELDS.backgrounds.FIELDS.wises.label")), 1),
-          t("ul", It, [
+          t("span", ft, u(a(s)("GRIMWILD.Actor.Character.FIELDS.backgrounds.FIELDS.wises.label")), 1),
+          t("ul", _t, [
             (l(), n($, null, f([0, 1, 2], (d) => t("li", { key: d }, [
               w(t("input", {
                 type: "text",
@@ -469,32 +485,32 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                 "onUpdate:modelValue": (c) => i.wises[d] = c,
                 "aria-label": `${a(s)("GRIMWILD.Actor.Character.FIELDS.backgrounds.FIELDS.wises.label")} ${d + 1}`,
                 disabled: !e.context.editable
-              }, null, 8, wt), [
+              }, null, 8, kt), [
                 [p, i.wises[d]]
               ])
             ])), 64))
           ])
         ]))), 128))
       ]),
-      t("div", ft, [
-        t("section", _t, [
-          t("header", kt, [
-            t("h3", vt, u(e.context.systemFields.conditions.label), 1),
-            e.context.editable ? (l(), n("button", pt, [
-              o[0] || (o[0] = t("i", {
+      t("div", vt, [
+        t("section", pt, [
+          t("header", Dt, [
+            t("h3", Lt, u(e.context.systemFields.conditions.label), 1),
+            e.context.editable ? (l(), n("button", Mt, [
+              o[1] || (o[1] = t("i", {
                 class: "fa-solid fa-plus",
                 inert: ""
               }, null, -1)),
               t("span", null, u(a(s)("GRIMWILD.UI.addCondition")), 1)
             ])) : g("", !0)
           ]),
-          e.context.system.conditions.length ? g("", !0) : (l(), n("p", Dt, u(a(s)("GRIMWILD.UI.noConditions")), 1)),
-          t("ul", Lt, [
+          e.context.system.conditions.length ? g("", !0) : (l(), n("p", Ut, u(a(s)("GRIMWILD.UI.noConditions")), 1)),
+          t("ul", Rt, [
             (l(!0), n($, null, f(e.context.system.conditions, (i, r) => (l(), n("li", {
               key: r,
               class: D(["gw-cond", `gw-cond--${i.severity || "none"}`])
             }, [
-              t("div", Mt, [
+              t("div", Gt, [
                 w(t("input", {
                   type: "text",
                   class: "gw-cond__name",
@@ -503,7 +519,7 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                   placeholder: a(s)("GRIMWILD.UI.conditionName"),
                   "aria-label": a(s)("GRIMWILD.UI.conditionName"),
                   disabled: !e.context.editable
-                }, null, 8, Ut), [
+                }, null, 8, Wt), [
                   [p, i.name]
                 ]),
                 e.context.editable ? (l(), n("button", {
@@ -515,14 +531,14 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                   "data-key": r,
                   "aria-label": a(s)("GRIMWILD.UI.deleteCondition"),
                   "data-tooltip": a(s)("GRIMWILD.UI.deleteCondition")
-                }, o[1] || (o[1] = [
+                }, o[2] || (o[2] = [
                   t("i", {
                     class: "fa-solid fa-trash",
                     inert: ""
                   }, null, -1)
-                ]), 8, Rt)) : g("", !0)
+                ]), 8, Vt)) : g("", !0)
               ]),
-              t("div", Gt, [
+              t("div", Tt, [
                 w(t("select", {
                   class: "gw-cond__severity",
                   name: `system.conditions.${r}.severity`,
@@ -533,8 +549,8 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                   (l(!0), n($, null, f(e.context.systemFields.conditions.element.fields.severity.choices, (d, c) => (l(), n("option", {
                     key: c,
                     value: c
-                  }, u(a(s)(d)), 9, Vt))), 128))
-                ], 8, Wt), [
+                  }, u(a(s)(d)), 9, Ft))), 128))
+                ], 8, At), [
                   [A, i.severity]
                 ]),
                 i.severity !== "permanent" ? (l(), M(a(V), {
@@ -550,29 +566,29 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
             ], 2))), 128))
           ])
         ]),
-        t("section", Tt, [
-          t("header", At, [
-            t("h3", Ft, u(e.context.systemFields.bonds.label), 1),
-            e.context.editable ? (l(), n("button", Ct, [
-              o[2] || (o[2] = t("i", {
+        t("section", Ct, [
+          t("header", Et, [
+            t("h3", Nt, u(e.context.systemFields.bonds.label), 1),
+            e.context.editable ? (l(), n("button", St, [
+              o[3] || (o[3] = t("i", {
                 class: "fa-solid fa-plus",
                 inert: ""
               }, null, -1)),
               t("span", null, u(a(s)("GRIMWILD.UI.addBond")), 1)
             ])) : g("", !0)
           ]),
-          e.context.system.bonds.length ? g("", !0) : (l(), n("p", Et, u(a(s)("GRIMWILD.UI.noBonds")), 1)),
-          t("ul", Nt, [
+          e.context.system.bonds.length ? g("", !0) : (l(), n("p", Pt, u(a(s)("GRIMWILD.UI.noBonds")), 1)),
+          t("ul", Ot, [
             (l(!0), n($, null, f(e.context.system.bonds, (i, r) => (l(), n("li", {
               key: r,
               class: "gw-bond",
               "data-bond-actor": ""
             }, [
-              o[4] || (o[4] = t("i", {
+              o[5] || (o[5] = t("i", {
                 class: "fa-solid fa-user gw-bond__icon",
                 inert: ""
               }, null, -1)),
-              t("div", St, [
+              t("div", Ht, [
                 w(t("input", {
                   type: "text",
                   class: "gw-bond__name",
@@ -581,7 +597,7 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                   placeholder: a(s)("GRIMWILD.UI.bondCharacter"),
                   "aria-label": a(s)("GRIMWILD.UI.bondCharacter"),
                   disabled: !e.context.editable
-                }, null, 8, Pt), [
+                }, null, 8, jt), [
                   [p, i.name]
                 ]),
                 w(t("input", {
@@ -592,7 +608,7 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                   placeholder: a(s)("GRIMWILD.UI.bondDescription"),
                   "aria-label": a(s)("GRIMWILD.UI.bondDescription"),
                   disabled: !e.context.editable
-                }, null, 8, Ot), [
+                }, null, 8, Bt), [
                   [p, i.description]
                 ])
               ]),
@@ -605,19 +621,19 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                 "data-key": r,
                 "aria-label": a(s)("GRIMWILD.UI.deleteBond"),
                 "data-tooltip": a(s)("GRIMWILD.UI.deleteBond")
-              }, o[3] || (o[3] = [
+              }, o[4] || (o[4] = [
                 t("i", {
                   class: "fa-solid fa-trash",
                   inert: ""
                 }, null, -1)
-              ]), 8, Ht)) : g("", !0)
+              ]), 8, qt)) : g("", !0)
             ]))), 128))
           ])
         ])
       ])
     ]));
   }
-}, Bt = {
+}, zt = {
   __name: "CharTalents",
   props: ["context"],
   setup(e) {
@@ -629,13 +645,13 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
       empty: a(s)("GRIMWILD.UI.noTalents")
     }, null, 8, ["context", "title", "empty"]));
   }
-}, qt = { class: "gw-arcana__meta" }, Yt = { class: "gw-tag" }, zt = {
+}, Xt = { class: "gw-arcana__meta" }, Jt = { class: "gw-tag" }, Qt = {
   key: 0,
   class: "gw-arcana__touch"
-}, Xt = {
+}, Zt = {
   key: 0,
   class: "gw-arcana__limits"
-}, Jt = ["innerHTML"], Qt = {
+}, Kt = ["innerHTML"], ea = {
   __name: "CharArcana",
   props: ["context"],
   setup(e) {
@@ -649,36 +665,36 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
       details: U(({ item: i }) => {
         var r;
         return [
-          t("p", qt, [
-            t("span", Yt, u(a(s)(`GRIMWILD.UI.${i.system.tier || "minor"}Arcana`)), 1),
-            i.system.touchstones ? (l(), n("span", zt, [
+          t("p", Xt, [
+            t("span", Jt, u(a(s)(`GRIMWILD.UI.${i.system.tier || "minor"}Arcana`)), 1),
+            i.system.touchstones ? (l(), n("span", Qt, [
               t("strong", null, u(a(s)("GRIMWILD.Item.Arcana.FIELDS.touchstones.label")) + ":", 1),
               o[0] || (o[0] = W()),
               t("em", null, u(i.system.touchstones), 1)
             ])) : g("", !0)
           ]),
-          i.system.limitations ? (l(), n("div", Xt, [
+          i.system.limitations ? (l(), n("div", Zt, [
             t("strong", null, u(a(s)("GRIMWILD.Item.Arcana.FIELDS.limitations.label")) + ":", 1),
             t("div", {
               innerHTML: (r = e.context.editors[`items.${i._id}.system.limitations`]) == null ? void 0 : r.enriched
-            }, null, 8, Jt)
+            }, null, 8, Kt)
           ])) : g("", !0)
         ];
       }),
       _: 1
     }, 8, ["context", "title", "empty"]));
   }
-}, Zt = { class: "gw-mhead" }, Kt = ["aria-label", "disabled"], ea = ["src", "alt"], ta = { class: "gw-mhead__main" }, aa = ["aria-label", "placeholder", "disabled"], la = { class: "gw-mhead__meta" }, sa = {
+}, ta = { class: "gw-mhead" }, aa = ["aria-label", "disabled"], la = ["src", "alt"], sa = { class: "gw-mhead__main" }, na = ["aria-label", "placeholder", "disabled"], oa = { class: "gw-mhead__meta" }, ia = {
   key: 0,
   class: "gw-select-chip"
-}, na = ["disabled"], oa = ["value"], ia = {
+}, da = ["disabled"], ca = ["value"], ra = {
   key: 1,
   class: "gw-select-chip"
-}, da = ["disabled"], ca = ["value"], ra = {
+}, ua = ["disabled"], ma = ["value"], ba = {
   key: 2,
   class: "gw-mhead__pool",
   "data-ayuda": "challenge"
-}, ua = { class: "gw-label" }, ma = {
+}, ha = { class: "gw-label" }, ya = {
   __name: "MonsterHeader",
   props: ["context"],
   setup(e) {
@@ -696,7 +712,7 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
       "tactician",
       "trickster"
     ].map((c) => [c, s(`GRIMWILD.Actor.Monster.Roles.${c}`)]));
-    return (c, b) => (l(), n("header", Zt, [
+    return (c, b) => (l(), n("header", ta, [
       t("button", {
         type: "button",
         class: "gw-portrait gw-portrait--monster",
@@ -708,9 +724,9 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
           src: e.context.actor.img,
           "data-edit": "img",
           alt: e.context.actor.name
-        }, null, 8, ea)
-      ], 8, Kt),
-      t("div", ta, [
+        }, null, 8, la)
+      ], 8, aa),
+      t("div", sa, [
         w(t("input", {
           type: "text",
           class: "gw-mhead__name",
@@ -719,11 +735,11 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
           "aria-label": a(s)("Name"),
           placeholder: a(s)("Name"),
           disabled: !e.context.editable
-        }, null, 8, aa), [
+        }, null, 8, na), [
           [p, e.context.actor.name]
         ]),
-        t("div", la, [
-          o.value ? (l(), n("label", sa, [
+        t("div", oa, [
+          o.value ? (l(), n("label", ia, [
             t("span", null, u(a(s)("GRIMWILD.Actor.Monster.FIELDS.role.label")), 1),
             w(t("select", {
               name: "system.role",
@@ -734,12 +750,12 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
               (l(!0), n($, null, f(a(d), (h, x) => (l(), n("option", {
                 key: x,
                 value: x
-              }, u(h), 9, oa))), 128))
-            ], 8, na), [
+              }, u(h), 9, ca))), 128))
+            ], 8, da), [
               [A, e.context.system.role]
             ])
           ])) : g("", !0),
-          o.value ? (l(), n("label", ia, [
+          o.value ? (l(), n("label", ra, [
             t("span", null, u(a(s)("GRIMWILD.Item.Arcana.FIELDS.tier.label")), 1),
             w(t("select", {
               name: "system.tier",
@@ -749,13 +765,13 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
               (l(!0), n($, null, f(a(r), (h, x) => (l(), n("option", {
                 key: x,
                 value: x
-              }, u(h), 9, ca))), 128))
-            ], 8, da), [
+              }, u(h), 9, ma))), 128))
+            ], 8, ua), [
               [A, e.context.system.tier]
             ])
           ])) : g("", !0),
-          i.value ? (l(), n("div", ra, [
-            t("span", ua, u(a(s)("GRIMWILD.UI.challengePool")), 1),
+          i.value ? (l(), n("div", ba, [
+            t("span", ha, u(a(s)("GRIMWILD.UI.challengePool")), 1),
             y(a(V), {
               field: "pool",
               pool: e.context.system.pool,
@@ -767,33 +783,33 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
       ])
     ]));
   }
-}, ba = { class: "gw-challenges-wrap" }, ha = { class: "gw-section-head" }, ya = { class: "gw-heading" }, ga = {
+}, ga = { class: "gw-challenges-wrap" }, xa = { class: "gw-section-head" }, $a = { class: "gw-heading" }, Ia = {
   key: 0,
   type: "button",
   class: "gw-button",
   "data-action": "createDoc",
   "data-document-class": "Item",
   "data-type": "challenge"
-}, xa = {
+}, wa = {
   key: 0,
   class: "gw-empty"
-}, $a = { class: "gw-challenges" }, Ia = ["data-item-id"], wa = { class: "gw-challenge__head" }, fa = {
+}, fa = { class: "gw-challenges" }, _a = ["data-item-id"], ka = { class: "gw-challenge__head" }, va = {
   class: "gw-pool gw-pool--challenge",
   "data-ayuda": "challenge"
-}, _a = ["aria-label", "disabled"], ka = { class: "gw-pool__value" }, va = { class: "gw-challenge__name" }, pa = { class: "gw-challenge__bar" }, Da = { class: "gw-challenge__suspense" }, La = { class: "gw-label" }, Ma = { class: "gw-challenge__controls" }, Ua = ["aria-label", "data-tooltip"], Ra = ["aria-label", "data-tooltip"], Ga = { class: "gw-challenge__body" }, Wa = ["innerHTML"], Va = {
+}, pa = ["aria-label", "disabled"], Da = { class: "gw-pool__value" }, La = { class: "gw-challenge__name" }, Ma = { class: "gw-challenge__bar" }, Ua = { class: "gw-challenge__suspense" }, Ra = { class: "gw-label" }, Ga = { class: "gw-challenge__controls" }, Wa = ["aria-label", "data-tooltip"], Va = ["aria-label", "data-tooltip"], Ta = { class: "gw-challenge__body" }, Aa = ["innerHTML"], Fa = {
   key: 1,
   class: "gw-challenge__traits"
-}, Ta = {
+}, Ca = {
   key: 2,
   class: "gw-challenge__moves"
-}, Aa = {
+}, Ea = {
   key: 3,
   class: "gw-challenge__fails"
-}, Fa = {
+}, Na = {
   key: 1,
   class: "fa-solid fa-xmark gw-challenge__fail-mark",
   inert: ""
-}, Ca = {
+}, Sa = {
   __name: "MonsterChallenges",
   props: ["context"],
   setup(e) {
@@ -801,10 +817,10 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
       var r;
       return ((r = m.context.itemTypes) == null ? void 0 : r.challenge) ?? [];
     }), i = s("TYPES.Item.challenge");
-    return (r, d) => (l(), n("section", ba, [
-      t("header", ha, [
-        t("h3", ya, u(a(s)("GRIMWILD.Actor.Tabs.Challenges")), 1),
-        e.context.editable ? (l(), n("button", ga, [
+    return (r, d) => (l(), n("section", ga, [
+      t("header", xa, [
+        t("h3", $a, u(a(s)("GRIMWILD.Actor.Tabs.Challenges")), 1),
+        e.context.editable ? (l(), n("button", Ia, [
           d[0] || (d[0] = t("i", {
             class: "fa-solid fa-plus",
             inert: ""
@@ -812,8 +828,8 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
           t("span", null, u(a(s)("GRIMWILD.UI.add")), 1)
         ])) : g("", !0)
       ]),
-      o.value.length ? g("", !0) : (l(), n("p", xa, u(a(s)("GRIMWILD.UI.noChallenges")), 1)),
-      t("ol", $a, [
+      o.value.length ? g("", !0) : (l(), n("p", wa, u(a(s)("GRIMWILD.UI.noChallenges")), 1)),
+      t("ol", fa, [
         (l(!0), n($, null, f(o.value, (c) => {
           var b, h;
           return l(), n("li", {
@@ -824,8 +840,8 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
             draggable: "true",
             "data-document-class": "Item"
           }, [
-            t("header", wa, [
-              t("div", fa, [
+            t("header", ka, [
+              t("div", va, [
                 t("button", {
                   type: "button",
                   class: "gw-pool__roll",
@@ -838,14 +854,14 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                     class: "fa-solid fa-dice-d6",
                     inert: ""
                   }, null, -1)
-                ]), 8, _a),
-                t("span", ka, u(c.system.pool.diceNum) + "d", 1)
+                ]), 8, pa),
+                t("span", Da, u(c.system.pool.diceNum) + "d", 1)
               ]),
-              t("h4", va, u(c.name), 1)
+              t("h4", La, u(c.name), 1)
             ]),
-            t("div", pa, [
-              t("div", Da, [
-                t("span", La, u(a(s)("GRIMWILD.Resources.suspense")), 1),
+            t("div", Ma, [
+              t("div", Ua, [
+                t("span", Ra, u(a(s)("GRIMWILD.Resources.suspense")), 1),
                 y(a(F), {
                   steps: c.system.suspense.steps,
                   kind: "suspense",
@@ -857,7 +873,7 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                   "item-id": c._id
                 }, null, 8, ["steps", "label", "item-id"])
               ]),
-              t("div", Ma, [
+              t("div", Ga, [
                 t("button", {
                   type: "button",
                   class: "gw-icon-button",
@@ -869,7 +885,7 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                     class: "fa-solid fa-pen-to-square",
                     inert: ""
                   }, null, -1)
-                ]), 8, Ua),
+                ]), 8, Wa),
                 e.context.editable ? (l(), n("button", {
                   key: 0,
                   type: "button",
@@ -882,22 +898,22 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                     class: "fa-solid fa-trash",
                     inert: ""
                   }, null, -1)
-                ]), 8, Ra)) : g("", !0)
+                ]), 8, Va)) : g("", !0)
               ])
             ]),
-            t("div", Ga, [
+            t("div", Ta, [
               (b = c.system.description) != null && b.length ? (l(), n("div", {
                 key: 0,
                 class: "gw-challenge__desc",
                 innerHTML: (h = e.context.editors[`items.${c._id}.system.description`]) == null ? void 0 : h.enriched
-              }, null, 8, Wa)) : g("", !0),
-              c.system.traits.length ? (l(), n("ul", Va, [
+              }, null, 8, Aa)) : g("", !0),
+              c.system.traits.length ? (l(), n("ul", Fa, [
                 (l(!0), n($, null, f(c.system.traits, (x, I) => (l(), n("li", { key: I }, u(x), 1))), 128))
               ])) : g("", !0),
-              c.system.moves.length ? (l(), n("ul", Ta, [
+              c.system.moves.length ? (l(), n("ul", Ca, [
                 (l(!0), n($, null, f(c.system.moves, (x, I) => (l(), n("li", { key: I }, u(x), 1))), 128))
               ])) : g("", !0),
-              c.system.failure.length ? (l(), n("ul", Aa, [
+              c.system.failure.length ? (l(), n("ul", Ea, [
                 (l(!0), n($, null, f(c.system.failure, (x, I) => (l(), n("li", { key: I }, [
                   x.pool.diceNum > 0 ? (l(), M(a(V), {
                     key: 0,
@@ -907,17 +923,17 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                     "item-id": c._id,
                     pool: x.pool,
                     label: x.value
-                  }, null, 8, ["field-key", "item-id", "pool", "label"])) : (l(), n("i", Fa)),
+                  }, null, 8, ["field-key", "item-id", "pool", "label"])) : (l(), n("i", Na)),
                   t("span", null, u(x.value), 1)
                 ]))), 128))
               ])) : g("", !0)
             ])
-          ], 8, Ia);
+          ], 8, _a);
         }), 128))
       ])
     ]));
   }
-}, Ea = { class: "gw-senses" }, Na = { class: "gw-heading" }, Sa = ["for"], Pa = ["id", "name", "onUpdate:modelValue", "disabled"], Oa = { class: "gw-colors" }, Ha = { class: "gw-heading" }, ja = { class: "gw-colors__grid" }, Ba = ["innerHTML"], qa = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], Ya = { class: "gw-prose" }, za = { class: "gw-heading" }, Xa = {
+}, Pa = { class: "gw-senses" }, Oa = { class: "gw-heading" }, Ha = ["for"], ja = ["id", "name", "onUpdate:modelValue", "disabled"], Ba = { class: "gw-colors" }, qa = { class: "gw-heading" }, Ya = { class: "gw-colors__grid" }, za = ["innerHTML"], Xa = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], Ja = { class: "gw-prose" }, Qa = { class: "gw-heading" }, Za = {
   __name: "MonsterBiography",
   props: ["context"],
   setup(e) {
@@ -928,8 +944,8 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
       { key: "smells", icon: "fa-wind", label: s("GRIMWILD.UI.smells") }
     ];
     return (r, d) => (l(), n($, null, [
-      t("section", Ea, [
-        t("h3", Na, u(a(s)("GRIMWILD.UI.sensories")), 1),
+      t("section", Pa, [
+        t("h3", Oa, u(a(s)("GRIMWILD.UI.sensories")), 1),
         (l(), n($, null, f(o, (c) => t("div", {
           key: c.key,
           class: "gw-sense"
@@ -941,21 +957,21 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
           t("label", {
             for: `${a(m)}-${c.key}`,
             class: "gw-label"
-          }, u(c.label), 9, Sa),
+          }, u(c.label), 9, Ha),
           w(t("input", {
             type: "text",
             id: `${a(m)}-${c.key}`,
             name: `system.sensories.${c.key}`,
             "onUpdate:modelValue": (b) => e.context.system.sensories[c.key] = b,
             disabled: !e.context.editable
-          }, null, 8, Pa), [
+          }, null, 8, ja), [
             [p, e.context.system.sensories[c.key]]
           ])
         ])), 64))
       ]),
-      t("section", Oa, [
-        t("h3", Ha, u(a(s)("GRIMWILD.UI.colors")), 1),
-        t("div", ja, [
+      t("section", Ba, [
+        t("h3", qa, u(a(s)("GRIMWILD.UI.colors")), 1),
+        t("div", Ya, [
           (l(!0), n($, null, f(e.context.system.sensories.colors, (c, b) => (l(), n("div", {
             key: b,
             class: "gw-color-edit"
@@ -963,7 +979,7 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
             t("div", {
               class: "gw-color-edit__picker",
               innerHTML: e.context.customElements[`system.sensories.colors.${b}.color`].outerHTML
-            }, null, 8, Ba),
+            }, null, 8, za),
             w(t("input", {
               type: "text",
               name: `system.sensories.colors.${b}.name`,
@@ -971,14 +987,14 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
               placeholder: a(s)("GRIMWILD.UI.colorName"),
               "aria-label": a(s)("GRIMWILD.UI.colorName"),
               disabled: !e.context.editable
-            }, null, 8, qa), [
+            }, null, 8, Xa), [
               [p, c.name]
             ])
           ]))), 128))
         ])
       ]),
-      t("section", Ya, [
-        t("h3", za, u(e.context.systemFields.biography.label), 1),
+      t("section", Ja, [
+        t("h3", Qa, u(e.context.systemFields.biography.label), 1),
         y(a(T), {
           editable: e.context.editable,
           field: e.context.editors["system.biography"]
@@ -986,16 +1002,16 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
       ])
     ], 64));
   }
-}, Ja = { class: "monster-tables-wrapper form-group stacked" }, Qa = ["aria-label", "data-tooltip", "data-key"], Za = { class: "form-group" }, Ka = ["name", "placeholder", "onUpdate:modelValue"], el = { class: "form-group" }, tl = ["name", "placeholder", "onUpdate:modelValue"], al = { class: "tables-wrapper form-group stacked" }, ll = { class: "form-group stacked" }, sl = ["aria-label", "data-tooltip", "data-field", "data-key"], nl = ["name", "onUpdate:modelValue"], ol = ["data-field"], il = {
+}, Ka = { class: "monster-tables-wrapper form-group stacked" }, el = ["aria-label", "data-tooltip", "data-key"], tl = { class: "form-group" }, al = ["name", "placeholder", "onUpdate:modelValue"], ll = { class: "form-group" }, sl = ["name", "placeholder", "onUpdate:modelValue"], nl = { class: "tables-wrapper form-group stacked" }, ol = { class: "form-group stacked" }, il = ["aria-label", "data-tooltip", "data-field", "data-key"], dl = ["name", "onUpdate:modelValue"], cl = ["data-field"], rl = {
   class: "monster-table-create entry-create",
   type: "button",
   "data-action": "createArrayEntry",
   "data-field": "tables"
-}, dl = {
+}, ul = {
   __name: "MonsterTables",
   props: ["context"],
   setup(e) {
-    return (m, o) => (l(), n("section", Ja, [
+    return (m, o) => (l(), n("section", Ka, [
       (l(), n("div", {
         class: "monster-tables form-group stacked",
         key: e.context._arrayEntryKey
@@ -1018,31 +1034,31 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
               class: "fas fa-trash",
               inert: ""
             }, null, -1)
-          ]), 8, Qa),
-          t("div", Za, [
+          ]), 8, el),
+          t("div", tl, [
             t("label", null, u(a(s)("GRIMWILD.UI.tableName")), 1),
             w(t("input", {
               type: "text",
               name: `system.tables.${r}.name`,
               placeholder: a(s)("GRIMWILD.UI.tableNamePlaceholder"),
               "onUpdate:modelValue": (d) => i.name = d
-            }, null, 8, Ka), [
+            }, null, 8, al), [
               [p, i.name]
             ])
           ]),
-          t("div", el, [
+          t("div", ll, [
             t("label", null, u(a(s)("GRIMWILD.UI.tableInstructions")), 1),
             w(t("input", {
               type: "text",
               name: `system.tables.${r}.instructions`,
               placeholder: a(s)("GRIMWILD.UI.tableInstructionsPlaceholder"),
               "onUpdate:modelValue": (d) => i.instructions = d
-            }, null, 8, tl), [
+            }, null, 8, sl), [
               [p, i.instructions]
             ])
           ]),
-          t("div", al, [
-            t("div", ll, [
+          t("div", nl, [
+            t("div", ol, [
               (l(!0), n($, null, f(i.table, (d, c) => (l(), n("fieldset", {
                 class: "tables-wrapper add-another-entries",
                 key: c
@@ -1061,7 +1077,7 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                     class: "fas fa-trash",
                     inert: ""
                   }, null, -1)
-                ]), 8, sl),
+                ]), 8, il),
                 (l(!0), n($, null, f(d, (b, h) => (l(), n("div", {
                   key: h,
                   class: "form-group"
@@ -1071,7 +1087,7 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                     type: "text",
                     name: `system.tables.${r}.table.${c}.${h}`,
                     "onUpdate:modelValue": (x) => e.context.system.tables[r].table[c][h] = x
-                  }, null, 8, nl), [
+                  }, null, 8, dl), [
                     [p, e.context.system.tables[r].table[c][h]]
                   ])
                 ]))), 128))
@@ -1090,10 +1106,10 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                 inert: ""
               }, null, -1)),
               W(" " + u(a(s)("GRIMWILD.UI.addD6TableGroup")), 1)
-            ], 8, ol)
+            ], 8, cl)
           ])
         ]))), 128)),
-        t("button", il, [
+        t("button", rl, [
           o[3] || (o[3] = t("i", {
             class: "fas fa-plus",
             inert: ""
@@ -1103,11 +1119,11 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
       ]))
     ]));
   }
-}, cl = { class: "gw-lists" }, rl = {
+}, ml = { class: "gw-lists" }, bl = {
   __name: "MonsterTraitsMoves",
   props: ["context"],
   setup(e) {
-    return (m, o) => (l(), n("div", cl, [
+    return (m, o) => (l(), n("div", ml, [
       y(a(O), {
         context: e.context,
         field: "traits",
@@ -1130,14 +1146,14 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
       }, null, 8, ["context", "title", "add", "remove", "placeholder"])
     ]));
   }
-}, ul = { class: "gw-desires" }, ml = { class: "gw-heading" }, bl = { class: "gw-desire gw-desire--want" }, hl = { class: "gw-desire__label" }, yl = ["aria-label", "disabled"], gl = { class: "gw-desire gw-desire--avoid" }, xl = { class: "gw-desire__label" }, $l = ["aria-label", "disabled"], Il = {
+}, hl = { class: "gw-desires" }, yl = { class: "gw-heading" }, gl = { class: "gw-desire gw-desire--want" }, xl = { class: "gw-desire__label" }, $l = ["aria-label", "disabled"], Il = { class: "gw-desire gw-desire--avoid" }, wl = { class: "gw-desire__label" }, fl = ["aria-label", "disabled"], _l = {
   __name: "MonsterDesires",
   props: ["context"],
   setup(e) {
-    return (m, o) => (l(), n("section", ul, [
-      t("h3", ml, u(a(s)("GRIMWILD.Actor.Character.FIELDS.desires.label")), 1),
-      t("div", bl, [
-        t("span", hl, [
+    return (m, o) => (l(), n("section", hl, [
+      t("h3", yl, u(a(s)("GRIMWILD.Actor.Character.FIELDS.desires.label")), 1),
+      t("div", gl, [
+        t("span", xl, [
           o[2] || (o[2] = t("i", {
             class: "fa-solid fa-heart",
             inert: ""
@@ -1150,12 +1166,12 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
           "onUpdate:modelValue": o[0] || (o[0] = (i) => e.context.system.desires[0].value = i),
           "aria-label": a(s)("GRIMWILD.UI.wants"),
           disabled: !e.context.editable
-        }, null, 8, yl), [
+        }, null, 8, $l), [
           [p, e.context.system.desires[0].value]
         ])
       ]),
-      t("div", gl, [
-        t("span", xl, [
+      t("div", Il, [
+        t("span", wl, [
           o[3] || (o[3] = t("i", {
             class: "fa-solid fa-heart-crack",
             inert: ""
@@ -1168,32 +1184,32 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
           "onUpdate:modelValue": o[1] || (o[1] = (i) => e.context.system.desires[1].value = i),
           "aria-label": a(s)("GRIMWILD.UI.doesNotWant"),
           disabled: !e.context.editable
-        }, null, 8, $l), [
+        }, null, 8, fl), [
           [p, e.context.system.desires[1].value]
         ])
       ])
     ]));
   }
-}, wl = { class: "gw-prose" }, fl = { class: "gw-heading" }, _l = {
+}, kl = { class: "gw-prose" }, vl = { class: "gw-heading" }, pl = {
   __name: "ItemDescription",
   props: ["item", "context"],
   setup(e) {
-    return (m, o) => (l(), n("section", wl, [
-      t("h3", fl, u(e.context.systemFields.description.label), 1),
+    return (m, o) => (l(), n("section", kl, [
+      t("h3", vl, u(e.context.systemFields.description.label), 1),
       y(a(T), {
         editable: e.context.editable,
         field: e.context.editors["system.description"]
       }, null, 8, ["editable", "field"])
     ]));
   }
-}, kl = { class: "gw-mhead gw-ihead" }, vl = ["aria-label", "disabled"], pl = ["src", "alt"], Dl = { class: "gw-mhead__main" }, Ll = ["placeholder", "aria-label", "disabled"], Ml = { class: "gw-mhead__meta" }, Ul = { class: "gw-tag" }, Rl = {
+}, Dl = { class: "gw-mhead gw-ihead" }, Ll = ["aria-label", "disabled"], Ml = ["src", "alt"], Ul = { class: "gw-mhead__main" }, Rl = ["placeholder", "aria-label", "disabled"], Gl = { class: "gw-mhead__meta" }, Wl = { class: "gw-tag" }, Vl = {
   class: "gw-mhead__pool",
   "data-ayuda": "challenge"
-}, Gl = { class: "gw-label" }, Wl = { class: "gw-mhead__pool" }, Vl = { class: "gw-label" }, Tl = {
+}, Tl = { class: "gw-label" }, Al = { class: "gw-mhead__pool" }, Fl = { class: "gw-label" }, Cl = {
   __name: "ItemHeader",
   props: ["context"],
   setup(e) {
-    return (m, o) => (l(), n("header", kl, [
+    return (m, o) => (l(), n("header", Dl, [
       t("button", {
         type: "button",
         class: "gw-portrait gw-portrait--item",
@@ -1205,9 +1221,9 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
           src: e.context.item.img,
           "data-edit": "img",
           alt: e.context.item.name
-        }, null, 8, pl)
-      ], 8, vl),
-      t("div", Dl, [
+        }, null, 8, Ml)
+      ], 8, Ll),
+      t("div", Ul, [
         w(t("input", {
           type: "text",
           class: "gw-mhead__name",
@@ -1216,14 +1232,14 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
           placeholder: a(s)("Name"),
           "aria-label": a(s)("Name"),
           disabled: !e.context.editable
-        }, null, 8, Ll), [
+        }, null, 8, Rl), [
           [p, e.context.item.name]
         ]),
-        t("div", Ml, [
-          t("span", Ul, u(a(s)(`TYPES.Item.${e.context.item.type}`)), 1),
+        t("div", Gl, [
+          t("span", Wl, u(a(s)(`TYPES.Item.${e.context.item.type}`)), 1),
           e.context.item.type === "challenge" ? (l(), n($, { key: 0 }, [
-            t("div", Rl, [
-              t("span", Gl, u(e.context.systemFields.pool.label), 1),
+            t("div", Vl, [
+              t("span", Tl, u(e.context.systemFields.pool.label), 1),
               y(a(V), {
                 field: "pool",
                 pool: e.context.system.pool,
@@ -1231,8 +1247,8 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                 min: "0"
               }, null, 8, ["pool", "label"])
             ]),
-            t("div", Wl, [
-              t("span", Vl, u(e.context.systemFields.suspense.label), 1),
+            t("div", Al, [
+              t("span", Fl, u(e.context.systemFields.suspense.label), 1),
               y(a(F), {
                 steps: e.context.system.suspense.steps,
                 name: "system.suspense.steps",
@@ -1247,46 +1263,46 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
       ])
     ]));
   }
-}, Al = {
+}, El = {
   __name: "ItemAttributes",
   props: ["context"],
   setup(e) {
     return R("rawDocument"), (m, o) => (l(), n($, null, [
-      ["arcana", "talent"].includes(e.context.item.type) ? (l(), M(a(ms), {
+      ["arcana", "talent"].includes(e.context.item.type) ? (l(), M(a(ys), {
         key: 0,
         context: e.context
       }, null, 8, ["context"])) : g("", !0),
-      e.context.item.type === "challenge" ? (l(), M(a(Vs), {
+      e.context.item.type === "challenge" ? (l(), M(a(Fs), {
         key: 1,
         context: e.context
       }, null, 8, ["context"])) : g("", !0)
     ], 64));
   }
-}, Fl = { class: "gw-trackers-edit" }, Cl = { class: "gw-section-head" }, El = { class: "gw-heading" }, Nl = {
+}, Nl = { class: "gw-trackers-edit" }, Sl = { class: "gw-section-head" }, Pl = { class: "gw-heading" }, Ol = {
   key: 0,
   type: "button",
   class: "gw-button",
   "data-action": "createTracker"
-}, Sl = {
+}, Hl = {
   key: 0,
   class: "gw-empty"
-}, Pl = { class: "gw-cards" }, Ol = { class: "gw-field" }, Hl = ["for"], jl = ["id", "name", "onUpdate:modelValue"], Bl = { class: "gw-field" }, ql = ["for"], Yl = ["id", "name", "onUpdate:modelValue"], zl = { value: "pool" }, Xl = { value: "points" }, Jl = {
+}, jl = { class: "gw-cards" }, Bl = { class: "gw-field" }, ql = ["for"], Yl = ["id", "name", "onUpdate:modelValue"], zl = { class: "gw-field" }, Xl = ["for"], Jl = ["id", "name", "onUpdate:modelValue"], Ql = { value: "pool" }, Zl = { value: "points" }, Kl = {
   key: 0,
   class: "gw-field gw-field--check",
   "data-ayuda": "powerPool"
-}, Ql = ["name", "onUpdate:modelValue"], Zl = { class: "gw-label" }, Kl = { class: "gw-field" }, es = ["for"], ts = ["id", "name", "onUpdate:modelValue", "max"], as = ["id", "name", "onUpdate:modelValue", "max"], ls = { class: "gw-field" }, ss = ["for"], ns = ["id", "name", "onUpdate:modelValue"], os = {
+}, es = ["name", "onUpdate:modelValue"], ts = { class: "gw-label" }, as = { class: "gw-field" }, ls = ["for"], ss = ["id", "name", "onUpdate:modelValue", "max"], ns = ["id", "name", "onUpdate:modelValue", "max"], os = { class: "gw-field" }, is = ["for"], ds = ["id", "name", "onUpdate:modelValue"], cs = {
   key: 1,
   class: "gw-field"
-}, is = ["for"], ds = ["id", "name", "onUpdate:modelValue"], cs = { value: !1 }, rs = { value: !0 }, us = ["data-key", "aria-label", "data-tooltip"], ms = {
+}, rs = ["for"], us = ["id", "name", "onUpdate:modelValue"], ms = { value: !1 }, bs = { value: !0 }, hs = ["data-key", "aria-label", "data-tooltip"], ys = {
   __name: "TalentTrackers",
   props: ["context"],
   setup(e) {
     var o;
     const m = ((o = R("sheet")) == null ? void 0 : o.id) ?? "grimwild";
-    return (i, r) => (l(), n("section", Fl, [
-      t("header", Cl, [
-        t("h3", El, u(e.context.systemFields.trackers.label), 1),
-        e.context.editable ? (l(), n("button", Nl, [
+    return (i, r) => (l(), n("section", Nl, [
+      t("header", Sl, [
+        t("h3", Pl, u(e.context.systemFields.trackers.label), 1),
+        e.context.editable ? (l(), n("button", Ol, [
           r[0] || (r[0] = t("i", {
             class: "fa-solid fa-plus",
             inert: ""
@@ -1294,57 +1310,57 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
           t("span", null, u(a(s)("GRIMWILD.UI.addTracker")), 1)
         ])) : g("", !0)
       ]),
-      e.context.system.trackers.length ? g("", !0) : (l(), n("p", Sl, u(a(s)("GRIMWILD.UI.noTrackers")), 1)),
-      t("ul", Pl, [
+      e.context.system.trackers.length ? g("", !0) : (l(), n("p", Hl, u(a(s)("GRIMWILD.UI.noTrackers")), 1)),
+      t("ul", jl, [
         (l(!0), n($, null, f(e.context.system.trackers, (d, c) => (l(), n("li", {
           key: c,
           class: "gw-tracker-edit"
         }, [
-          t("div", Ol, [
+          t("div", Bl, [
             t("label", {
               for: `${a(m)}-tr-${c}-label`,
               class: "gw-label"
-            }, u(a(s)("GRIMWILD.UI.label")), 9, Hl),
+            }, u(a(s)("GRIMWILD.UI.label")), 9, ql),
             w(t("input", {
               type: "text",
               id: `${a(m)}-tr-${c}-label`,
               name: `system.trackers.${c}.label`,
               "onUpdate:modelValue": (b) => d.label = b
-            }, null, 8, jl), [
+            }, null, 8, Yl), [
               [p, d.label]
             ])
           ]),
-          t("div", Bl, [
+          t("div", zl, [
             t("label", {
               for: `${a(m)}-tr-${c}-type`,
               class: "gw-label"
-            }, u(a(s)("GRIMWILD.UI.type")), 9, ql),
+            }, u(a(s)("GRIMWILD.UI.type")), 9, Xl),
             w(t("select", {
               id: `${a(m)}-tr-${c}-type`,
               name: `system.trackers.${c}.type`,
               "onUpdate:modelValue": (b) => d.type = b
             }, [
-              t("option", zl, u(a(s)("GRIMWILD.UI.pool")), 1),
-              t("option", Xl, u(a(s)("GRIMWILD.Resources.points")), 1)
-            ], 8, Yl), [
+              t("option", Ql, u(a(s)("GRIMWILD.UI.pool")), 1),
+              t("option", Zl, u(a(s)("GRIMWILD.Resources.points")), 1)
+            ], 8, Jl), [
               [A, d.type]
             ])
           ]),
-          d.type === "pool" ? (l(), n("label", Jl, [
+          d.type === "pool" ? (l(), n("label", Kl, [
             w(t("input", {
               type: "checkbox",
               name: `system.trackers.${c}.pool.powerPool`,
               "onUpdate:modelValue": (b) => d.pool.powerPool = b
-            }, null, 8, Ql), [
+            }, null, 8, es), [
               [B, d.pool.powerPool]
             ]),
-            t("span", Zl, u(a(s)("GRIMWILD.UI.powerPool")), 1)
+            t("span", ts, u(a(s)("GRIMWILD.UI.powerPool")), 1)
           ])) : g("", !0),
-          t("div", Kl, [
+          t("div", as, [
             t("label", {
               for: `${a(m)}-tr-${c}-value`,
               class: "gw-label"
-            }, u(a(s)("GRIMWILD.UI.value")), 9, es),
+            }, u(a(s)("GRIMWILD.UI.value")), 9, ls),
             d.type === "pool" ? w((l(), n("input", {
               key: 0,
               type: "number",
@@ -1353,7 +1369,7 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
               "onUpdate:modelValue": (b) => d.pool.diceNum = b,
               min: "0",
               max: d.pool.max > 0 ? d.pool.max : null
-            }, null, 8, ts)), [
+            }, null, 8, ss)), [
               [p, d.pool.diceNum]
             ]) : w((l(), n("input", {
               key: 1,
@@ -1363,38 +1379,38 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
               "onUpdate:modelValue": (b) => d.points.value = b,
               min: "0",
               max: d.points.max
-            }, null, 8, as)), [
+            }, null, 8, ns)), [
               [p, d.points.value]
             ])
           ]),
-          t("div", ls, [
+          t("div", os, [
             t("label", {
               for: `${a(m)}-tr-${c}-max`,
               class: "gw-label"
-            }, u(a(s)("GRIMWILD.UI.max")), 9, ss),
+            }, u(a(s)("GRIMWILD.UI.max")), 9, is),
             w(t("input", {
               type: "number",
               id: `${a(m)}-tr-${c}-max`,
               name: `system.trackers.${c}.${d.type}.max`,
               min: "1",
               "onUpdate:modelValue": (b) => d[d.type].max = b
-            }, null, 8, ns), [
+            }, null, 8, ds), [
               [p, d[d.type].max]
             ])
           ]),
-          d.type === "points" ? (l(), n("div", os, [
+          d.type === "points" ? (l(), n("div", cs, [
             t("label", {
               for: `${a(m)}-tr-${c}-steps`,
               class: "gw-label"
-            }, u(a(s)("GRIMWILD.UI.display")), 9, is),
+            }, u(a(s)("GRIMWILD.UI.display")), 9, rs),
             w(t("select", {
               id: `${a(m)}-tr-${c}-steps`,
               name: `system.trackers.${c}.points.showSteps`,
               "onUpdate:modelValue": (b) => d.points.showSteps = b
             }, [
-              t("option", cs, u(a(s)("GRIMWILD.UI.number")), 1),
-              t("option", rs, u(a(s)("GRIMWILD.UI.checkboxes")), 1)
-            ], 8, ds), [
+              t("option", ms, u(a(s)("GRIMWILD.UI.number")), 1),
+              t("option", bs, u(a(s)("GRIMWILD.UI.checkboxes")), 1)
+            ], 8, us), [
               [A, d.points.showSteps]
             ])
           ])) : g("", !0),
@@ -1410,24 +1426,24 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
               class: "fa-solid fa-trash",
               inert: ""
             }, null, -1)
-          ]), 8, us)
+          ]), 8, hs)
         ]))), 128))
       ])
     ]));
   }
-}, bs = { class: "gw-prose" }, hs = { class: "gw-heading" }, ys = { class: "gw-field" }, gs = ["for"], xs = ["id", "disabled"], $s = ["value"], Is = { class: "gw-field" }, ws = ["for"], fs = ["id", "disabled"], _s = { class: "gw-field gw-field--stacked" }, ks = { class: "gw-label" }, vs = {
+}, gs = { class: "gw-prose" }, xs = { class: "gw-heading" }, $s = { class: "gw-field" }, Is = ["for"], ws = ["id", "disabled"], fs = ["value"], _s = { class: "gw-field" }, ks = ["for"], vs = ["id", "disabled"], ps = { class: "gw-field gw-field--stacked" }, Ds = { class: "gw-label" }, Ls = {
   __name: "ArcanaDetails",
   props: ["context"],
   setup(e) {
     var o;
     const m = ((o = R("sheet")) == null ? void 0 : o.id) ?? "grimwild";
-    return (i, r) => (l(), n("section", bs, [
-      t("h3", hs, u(a(s)("GRIMWILD.UI.details")), 1),
-      t("div", ys, [
+    return (i, r) => (l(), n("section", gs, [
+      t("h3", xs, u(a(s)("GRIMWILD.UI.details")), 1),
+      t("div", $s, [
         t("label", {
           for: `${a(m)}-tier`,
           class: "gw-label"
-        }, u(e.context.systemFields.tier.label), 9, gs),
+        }, u(e.context.systemFields.tier.label), 9, Is),
         w(t("select", {
           id: `${a(m)}-tier`,
           name: "system.tier",
@@ -1437,28 +1453,28 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
           (l(), n($, null, f(["minor", "major", "mythic"], (d) => t("option", {
             key: d,
             value: d
-          }, u(a(s)(`GRIMWILD.UI.${d}Arcana`)), 9, $s)), 64))
-        ], 8, xs), [
+          }, u(a(s)(`GRIMWILD.UI.${d}Arcana`)), 9, fs)), 64))
+        ], 8, ws), [
           [A, e.context.system.tier]
         ])
       ]),
-      t("div", Is, [
+      t("div", _s, [
         t("label", {
           for: `${a(m)}-touchstones`,
           class: "gw-label"
-        }, u(e.context.systemFields.touchstones.label), 9, ws),
+        }, u(e.context.systemFields.touchstones.label), 9, ks),
         w(t("input", {
           type: "text",
           id: `${a(m)}-touchstones`,
           name: "system.touchstones",
           "onUpdate:modelValue": r[1] || (r[1] = (d) => e.context.system.touchstones = d),
           disabled: !e.context.editable
-        }, null, 8, fs), [
+        }, null, 8, vs), [
           [p, e.context.system.touchstones]
         ])
       ]),
-      t("div", _s, [
-        t("span", ks, u(e.context.systemFields.limitations.label), 1),
+      t("div", ps, [
+        t("span", Ds, u(e.context.systemFields.limitations.label), 1),
         y(a(T), {
           editable: e.context.editable,
           field: e.context.editors["system.limitations"]
@@ -1466,11 +1482,11 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
       ])
     ]));
   }
-}, ps = { class: "gw-lists" }, Ds = { class: "gw-entries gw-entries--fail" }, Ls = { class: "gw-section-head" }, Ms = { class: "gw-heading" }, Us = ["aria-label", "data-tooltip"], Rs = { class: "gw-entries__list" }, Gs = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], Ws = ["data-key", "aria-label", "data-tooltip"], Vs = {
+}, Ms = { class: "gw-lists" }, Us = { class: "gw-entries gw-entries--fail" }, Rs = { class: "gw-section-head" }, Gs = { class: "gw-heading" }, Ws = ["aria-label", "data-tooltip"], Vs = { class: "gw-entries__list" }, Ts = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], As = ["data-key", "aria-label", "data-tooltip"], Fs = {
   __name: "ChallengeTraitsMoves",
   props: ["context"],
   setup(e) {
-    return (m, o) => (l(), n("div", ps, [
+    return (m, o) => (l(), n("div", Ms, [
       y(a(O), {
         context: e.context,
         field: "traits",
@@ -1491,9 +1507,9 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
         remove: a(s)("GRIMWILD.UI.deleteMove"),
         placeholder: a(s)("GRIMWILD.UI.moveDescription")
       }, null, 8, ["context", "title", "add", "remove", "placeholder"]),
-      t("section", Ds, [
-        t("header", Ls, [
-          t("h3", Ms, u(e.context.systemFields.failure.label), 1),
+      t("section", Us, [
+        t("header", Rs, [
+          t("h3", Gs, u(e.context.systemFields.failure.label), 1),
           e.context.editable ? (l(), n("button", {
             key: 0,
             type: "button",
@@ -1507,9 +1523,9 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
               class: "fa-solid fa-plus",
               inert: ""
             }, null, -1)
-          ]), 8, Us)) : g("", !0)
+          ]), 8, Ws)) : g("", !0)
         ]),
-        t("ul", Rs, [
+        t("ul", Vs, [
           (l(!0), n($, null, f(e.context.system.failure, (i, r) => (l(), n("li", {
             key: r,
             class: "gw-entry gw-entry--fail"
@@ -1529,7 +1545,7 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
               placeholder: a(s)("GRIMWILD.UI.failureDescription"),
               "aria-label": `${e.context.systemFields.failure.label} ${r + 1}`,
               disabled: !e.context.editable
-            }, null, 8, Gs), [
+            }, null, 8, Ts), [
               [p, e.context.system.failure[r].value]
             ]),
             e.context.editable ? (l(), n("button", {
@@ -1546,7 +1562,7 @@ const s = (e, m) => m ? game.i18n.format(e, m) : game.i18n.localize(e), ie = ["d
                 class: "fa-solid fa-xmark",
                 inert: ""
               }, null, -1)
-            ]), 8, Ws)) : g("", !0)
+            ]), 8, As)) : g("", !0)
           ]))), 128))
         ])
       ])
@@ -1562,7 +1578,7 @@ function ae(e) {
     m && (m.pestana = b);
   } };
 }
-const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-selected", "aria-controls", "tabindex", "data-tab", "onClick"], Cs = { class: "gw-tab__label" }, Y = {
+const Cs = ["aria-expanded", "aria-controls"], Es = ["id"], Ns = ["id", "aria-selected", "aria-controls", "tabindex", "data-tab", "onClick"], Ss = { class: "gw-tab__label" }, Y = {
   __name: "Tabs",
   props: ["tabs"],
   setup(e) {
@@ -1615,7 +1631,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             class: "fa-solid fa-chevron-down gw-tabs__chev",
             inert: ""
           }, null, -1))
-        ], 8, Ts),
+        ], 8, Cs),
         t("div", {
           class: "gw-tabs__list",
           role: "tablist",
@@ -1639,13 +1655,13 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
               class: D(v.icon),
               inert: ""
             }, null, 2)) : g("", !0),
-            t("span", Cs, u(v.label), 1)
-          ], 10, Fs))), 128))
-        ], 40, As)
+            t("span", Ss, u(v.label), 1)
+          ], 10, Ns))), 128))
+        ], 40, Es)
       ], 2);
     };
   }
-}, Es = ["id", "aria-labelledby"], G = {
+}, Ps = ["id", "aria-labelledby"], G = {
   __name: "Tab",
   props: ["tab", "tabs"],
   setup(e) {
@@ -1658,11 +1674,11 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
       "aria-labelledby": `${a(o)}-tab-${e.tab.key}`
     }, [
       ee(r.$slots, "default")
-    ], 10, Es)), [
+    ], 10, Ps)), [
       [K, a(i) === e.tab.key]
     ]);
   }
-}, Ns = ["innerHTML"], T = {
+}, Os = ["innerHTML"], T = {
   __name: "Prosemirror",
   props: ["field", "editable"],
   setup(e) {
@@ -1671,16 +1687,16 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
       return l(), n("div", {
         class: "prose-mirror-wrapper",
         innerHTML: e.editable && ((i = e.field) != null && i.element) ? e.field.element.outerHTML : ((r = e.field) == null ? void 0 : r.enriched) ?? ""
-      }, null, 8, Ns);
+      }, null, 8, Os);
     };
   }
-}, Ss = {
+}, Hs = {
   class: "gw-pool",
   "data-ayuda": "pool"
-}, Ps = ["data-action", "data-roll-type", "data-item-id", "data-field", "data-key", "aria-label", "data-tooltip", "disabled"], Os = { key: 0 }, Hs = {
+}, js = ["data-action", "data-roll-type", "data-item-id", "data-field", "data-key", "aria-label", "data-tooltip", "disabled"], Bs = { key: 0 }, qs = {
   key: 0,
   class: "gw-pool__value"
-}, js = ["data-action-change", "data-item-id", "name", "value", "min", "max", "aria-label"], Bs = { class: "gw-pool__suffix" }, V = {
+}, Ys = ["data-action-change", "data-item-id", "name", "value", "min", "max", "aria-label"], zs = { class: "gw-pool__suffix" }, V = {
   __name: "RollPoolInput",
   props: [
     "buttonAction",
@@ -1705,7 +1721,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
     });
     return (r, d) => {
       var c, b, h;
-      return l(), n("div", Ss, [
+      return l(), n("div", Hs, [
         t("button", {
           type: "button",
           class: "gw-pool__roll",
@@ -1722,9 +1738,9 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             class: "fa-solid fa-dice-d6",
             inert: ""
           }, null, -1)),
-          e.buttonLabel ? (l(), n("span", Os, u(e.buttonLabel), 1)) : g("", !0)
-        ], 8, Ps),
-        e.noInput ? (l(), n("span", Hs, u(((b = e.pool) == null ? void 0 : b.diceNum) ?? 0) + "d", 1)) : (l(), n($, { key: 1 }, [
+          e.buttonLabel ? (l(), n("span", Bs, u(e.buttonLabel), 1)) : g("", !0)
+        ], 8, js),
+        e.noInput ? (l(), n("span", qs, u(((b = e.pool) == null ? void 0 : b.diceNum) ?? 0) + "d", 1)) : (l(), n($, { key: 1 }, [
           t("input", {
             type: "number",
             class: "gw-pool__input",
@@ -1735,13 +1751,13 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             min: e.min ?? 0,
             max: e.max || null,
             "aria-label": a(s)("GRIMWILD.UI.poolDice")
-          }, null, 8, js),
-          t("span", Bs, u(e.suffix ?? "d"), 1)
+          }, null, 8, Ys),
+          t("span", zs, u(e.suffix ?? "d"), 1)
         ], 64))
       ]);
     };
   }
-}, qs = ["data-stat", "aria-label"], Ys = { class: "gw-stat__name" }, zs = ["name", "min", "max", "aria-label", "disabled"], Xs = ["data-tooltip"], Js = ["name", "disabled"], Qs = { class: "gw-mark__text" }, N = {
+}, Xs = ["data-stat", "aria-label"], Js = { class: "gw-stat__name" }, Qs = ["name", "min", "max", "aria-label", "disabled"], Zs = ["data-tooltip"], Ks = ["name", "disabled"], en = { class: "gw-mark__text" }, N = {
   __name: "StatBlock",
   props: ["context", "stat", "compact"],
   setup(e) {
@@ -1758,12 +1774,12 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
         "aria-label": a(s)("GRIMWILD.UI.rollStat", { stat: r.value }),
         "data-ayuda": "stat"
       }, [
-        t("span", Ys, u(e.compact ? d.value : r.value), 1),
+        t("span", Js, u(e.compact ? d.value : r.value), 1),
         h[2] || (h[2] = t("i", {
           class: "fa-solid fa-dice-d6 gw-stat__dice",
           inert: ""
         }, null, -1))
-      ], 8, qs),
+      ], 8, Xs),
       w(t("input", {
         type: "number",
         class: "gw-stat__value",
@@ -1773,7 +1789,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
         max: i.value.fields.value.max,
         "aria-label": r.value,
         disabled: !c.value
-      }, null, 8, zs), [
+      }, null, 8, Qs), [
         [p, o.value.value]
       ]),
       t("label", {
@@ -1787,18 +1803,18 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
           name: `system.stats.${e.stat}.marked`,
           "onUpdate:modelValue": h[1] || (h[1] = (x) => o.value.marked = x),
           disabled: !c.value
-        }, null, 8, Js), [
+        }, null, 8, Ks), [
           [B, o.value.marked]
         ]),
         t("i", {
           class: D([o.value.marked ? "fa-solid" : "fa-regular", "fa-bookmark"]),
           inert: ""
         }, null, 2),
-        t("span", Qs, u(o.value.marked ? a(s)("GRIMWILD.Damage.marked") : a(s)("GRIMWILD.UI.mark")), 1)
-      ], 10, Xs)
+        t("span", en, u(o.value.marked ? a(s)("GRIMWILD.Damage.marked") : a(s)("GRIMWILD.UI.mark")), 1)
+      ], 10, Zs)
     ], 2));
   }
-}, Zs = ["data-ayuda"], Ks = ["name", "checked"], en = { class: "gw-toggle__text" }, tn = {
+}, tn = ["data-ayuda"], an = ["name", "checked"], ln = { class: "gw-toggle__text" }, sn = {
   key: 0,
   class: "fa-solid fa-check gw-toggle__check",
   inert: ""
@@ -1818,23 +1834,23 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
         name: e.name,
         checked: e.modelValue,
         onChange: r[0] || (r[0] = (d) => o("update:modelValue", d.target.checked))
-      }, null, 40, Ks),
+      }, null, 40, an),
       t("i", {
         class: D([e.modelValue ? "fa-solid" : "fa-regular", e.icon]),
         inert: ""
       }, null, 2),
-      t("span", en, u(e.label), 1),
-      e.modelValue ? (l(), n("i", tn)) : g("", !0)
-    ], 10, Zs));
+      t("span", ln, u(e.label), 1),
+      e.modelValue ? (l(), n("i", sn)) : g("", !0)
+    ], 10, tn));
   }
-}, an = { class: "gw-harm-wrap" }, ln = { class: "gw-harm-wrap" }, sn = { class: "gw-harm-wrap" }, le = {
+}, nn = { class: "gw-harm-wrap" }, on = { class: "gw-harm-wrap" }, dn = { class: "gw-harm-wrap" }, le = {
   __name: "HarmTrack",
   props: ["context", "compact"],
   setup(e) {
     return (m, o) => (l(), n("div", {
       class: D(["gw-harms", { compact: e.compact }])
     }, [
-      t("div", an, [
+      t("div", nn, [
         y(H, {
           kind: "bloodied",
           icon: "fa-droplet",
@@ -1855,7 +1871,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
           suffix: e.context.maxBloodied ? `/ ${e.context.maxBloodied}` : "d"
         }, null, 8, ["label", "pool", "max", "suffix"])) : g("", !0)
       ]),
-      t("div", ln, [
+      t("div", on, [
         y(H, {
           kind: "rattled",
           icon: "fa-brain",
@@ -1876,7 +1892,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
           suffix: e.context.maxRattled ? `/ ${e.context.maxRattled}` : "d"
         }, null, 8, ["label", "pool", "max", "suffix"])) : g("", !0)
       ]),
-      t("div", sn, [
+      t("div", dn, [
         y(H, {
           kind: "dropped",
           icon: "fa-skull",
@@ -1889,7 +1905,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
       ])
     ], 2));
   }
-}, nn = ["aria-label", "data-ayuda"], on = ["data-tooltip"], dn = ["name", "checked", "data-action-change", "data-field", "data-key", "data-item-id"], cn = { class: "visually-hidden" }, F = {
+}, cn = ["aria-label", "data-ayuda"], rn = ["data-tooltip"], un = ["name", "checked", "data-action-change", "data-field", "data-key", "data-item-id"], mn = { class: "visually-hidden" }, F = {
   __name: "Pips",
   props: ["steps", "name", "label", "icon", "kind", "ayuda", "changeAction", "changeField", "itemId"],
   setup(e) {
@@ -1913,22 +1929,22 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
           "data-field": e.changeField,
           "data-key": r,
           "data-item-id": e.itemId
-        }, null, 8, dn),
+        }, null, 8, un),
         t("i", {
           class: D(e.icon),
           inert: ""
         }, null, 2),
-        t("span", cn, u(e.label) + " " + u(r + 1), 1)
-      ], 10, on))), 128))
-    ], 10, nn));
+        t("span", mn, u(e.label) + " " + u(r + 1), 1)
+      ], 10, rn))), 128))
+    ], 10, cn));
   }
-}, rn = ["data-item-id", "data-key", "aria-label", "disabled", "data-ayuda"], un = { key: 0 }, mn = { class: "gw-tracker__num" }, bn = ["data-item-id", "data-tracker-key", "value", "max", "aria-label", "disabled"], hn = {
+}, bn = ["data-item-id", "data-key", "aria-label", "disabled", "data-ayuda"], hn = { key: 0 }, yn = { class: "gw-tracker__num" }, gn = ["data-item-id", "data-tracker-key", "value", "max", "aria-label", "disabled"], xn = {
   key: 0,
   class: "gw-tracker__label"
-}, yn = ["aria-label"], gn = ["aria-checked", "aria-label", "data-item-id", "data-tracker-key", "data-value", "data-tracker-value", "disabled"], xn = {
+}, $n = ["aria-label"], In = ["aria-checked", "aria-label", "data-item-id", "data-tracker-key", "data-value", "data-tracker-value", "disabled"], wn = {
   key: 2,
   class: "gw-tracker__num"
-}, $n = ["data-item-id", "data-tracker-key", "value", "max", "aria-label", "disabled"], In = { "aria-hidden": "true" }, j = {
+}, fn = ["data-item-id", "data-tracker-key", "value", "max", "aria-label", "disabled"], _n = { "aria-hidden": "true" }, j = {
   __name: "ItemTracker",
   props: ["tracker", "index", "itemId", "editable"],
   setup(e) {
@@ -1950,9 +1966,9 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             class: "fa-solid fa-dice-d6",
             inert: ""
           }, null, -1)),
-          e.tracker.label ? (l(), n("span", un, u(e.tracker.label), 1)) : g("", !0)
-        ], 8, rn),
-        t("span", mn, [
+          e.tracker.label ? (l(), n("span", hn, u(e.tracker.label), 1)) : g("", !0)
+        ], 8, bn),
+        t("span", yn, [
           t("input", {
             type: "number",
             "data-action-change": "updateItemTracker",
@@ -1963,11 +1979,11 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             max: e.tracker.pool.max > 0 ? e.tracker.pool.max : null,
             "aria-label": `${e.tracker.label ?? ""} (${a(s)("GRIMWILD.UI.poolDice")})`,
             disabled: !e.editable
-          }, null, 8, bn),
+          }, null, 8, gn),
           o[1] || (o[1] = t("span", { "aria-hidden": "true" }, "d", -1))
         ])
       ], 64)) : (l(), n($, { key: 1 }, [
-        e.tracker.label ? (l(), n("span", hn, u(e.tracker.label), 1)) : g("", !0),
+        e.tracker.label ? (l(), n("span", xn, u(e.tracker.label), 1)) : g("", !0),
         e.tracker.points.showSteps ? (l(), n("span", {
           key: 1,
           class: "gw-tracker__pips",
@@ -1987,8 +2003,8 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             "data-value": i,
             "data-tracker-value": e.tracker.points.value,
             disabled: !e.editable
-          }, null, 10, gn))), 128))
-        ], 8, yn)) : (l(), n("span", xn, [
+          }, null, 10, In))), 128))
+        ], 8, $n)) : (l(), n("span", wn, [
           t("input", {
             type: "number",
             "data-action-change": "updateItemTracker",
@@ -1999,25 +2015,25 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             max: e.tracker.points.max,
             "aria-label": e.tracker.label,
             disabled: !e.editable
-          }, null, 8, $n),
-          t("span", In, "/ " + u(e.tracker.points.max), 1)
+          }, null, 8, fn),
+          t("span", _n, "/ " + u(e.tracker.points.max), 1)
         ]))
       ], 64))
     ], 2));
   }
-}, wn = { class: "gw-items__head" }, fn = { class: "gw-heading" }, _n = { class: "gw-items__tools" }, kn = ["aria-label", "data-tooltip"], vn = ["data-type"], pn = ["data-pack"], Dn = {
+}, kn = { class: "gw-items__head" }, vn = { class: "gw-heading" }, pn = { class: "gw-items__tools" }, Dn = ["aria-label", "data-tooltip"], Ln = ["data-type"], Mn = ["data-pack"], Un = {
   key: 0,
   class: "gw-empty"
-}, Ln = { class: "gw-items__list" }, Mn = ["data-item-id"], Un = { class: "gw-item__head" }, Rn = ["aria-label", "data-tooltip"], Gn = ["src"], Wn = ["aria-expanded", "aria-controls", "onClick"], Vn = {
+}, Rn = { class: "gw-items__list" }, Gn = ["data-item-id"], Wn = { class: "gw-item__head" }, Vn = ["aria-label", "data-tooltip"], Tn = ["src"], An = ["aria-expanded", "aria-controls", "onClick"], Fn = {
   key: 0,
   class: "gw-item__trackers"
-}, Tn = { class: "gw-item__controls" }, An = ["aria-label", "data-tooltip"], Fn = ["aria-label", "data-tooltip"], Cn = ["id", "inert"], En = { class: "gw-item__inner" }, Nn = {
+}, Cn = { class: "gw-item__controls" }, En = ["aria-label", "data-tooltip"], Nn = ["aria-label", "data-tooltip"], Sn = ["id", "inert"], Pn = { class: "gw-item__inner" }, On = {
   key: 0,
   class: "gw-item__trackers gw-item__trackers--more"
-}, Sn = ["innerHTML"], Pn = {
+}, Hn = ["innerHTML"], jn = {
   key: 2,
   class: "gw-item__notes"
-}, On = { key: 0 }, Hn = ["innerHTML"], E = 2, se = {
+}, Bn = { key: 0 }, qn = ["innerHTML"], E = 2, se = {
   __name: "ItemRows",
   props: ["context", "type", "pack", "title", "empty"],
   setup(e) {
@@ -2029,9 +2045,9 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
     return (k, v) => (l(), n("section", {
       class: D(["gw-items", `gw-items--${e.type}`])
     }, [
-      t("header", wn, [
-        t("h3", fn, u(e.title), 1),
-        t("div", _n, [
+      t("header", kn, [
+        t("h3", vn, u(e.title), 1),
+        t("div", pn, [
           b.value.length ? (l(), n("button", {
             key: 0,
             type: "button",
@@ -2044,7 +2060,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
               class: D(["fa-solid", h.value ? "fa-angles-up" : "fa-angles-down"]),
               inert: ""
             }, null, 2)
-          ], 8, kn)) : g("", !0),
+          ], 8, Dn)) : g("", !0),
           e.context.editable ? (l(), n("button", {
             key: 1,
             type: "button",
@@ -2058,7 +2074,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
               inert: ""
             }, null, -1)),
             t("span", null, u(a(s)("GRIMWILD.UI.add")), 1)
-          ], 8, vn)) : g("", !0),
+          ], 8, Ln)) : g("", !0),
           t("button", {
             type: "button",
             class: "gw-button",
@@ -2070,11 +2086,11 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
               inert: ""
             }, null, -1)),
             t("span", null, u(a(s)("GRIMWILD.UI.compendium")), 1)
-          ], 8, pn)
+          ], 8, Mn)
         ])
       ]),
-      b.value.length ? g("", !0) : (l(), n("p", Dn, u(e.empty), 1)),
-      t("ol", Ln, [
+      b.value.length ? g("", !0) : (l(), n("p", Un, u(e.empty), 1)),
+      t("ol", Rn, [
         (l(!0), n($, null, f(b.value, (_) => {
           var S, z, X, J, Q;
           return l(), n("li", {
@@ -2085,7 +2101,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             draggable: "true",
             "data-document-class": "Item"
           }, [
-            t("div", Un, [
+            t("div", Wn, [
               t("button", {
                 type: "button",
                 class: "gw-item__img",
@@ -2099,8 +2115,8 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
                   alt: "",
                   width: "32",
                   height: "32"
-                }, null, 8, Gn)
-              ], 8, Rn),
+                }, null, 8, Tn)
+              ], 8, Vn),
               t("button", {
                 type: "button",
                 class: "gw-item__name",
@@ -2113,8 +2129,8 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
                   class: "fa-solid fa-chevron-down gw-item__chev",
                   inert: ""
                 }, null, -1))
-              ], 8, Wn),
-              (S = _.system.trackers) != null && S.length ? (l(), n("div", Vn, [
+              ], 8, An),
+              (S = _.system.trackers) != null && S.length ? (l(), n("div", Fn, [
                 (l(!0), n($, null, f(_.system.trackers.slice(0, E), (P, C) => (l(), M(j, {
                   key: C,
                   tracker: P,
@@ -2123,7 +2139,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
                   editable: e.context.editable
                 }, null, 8, ["tracker", "index", "item-id", "editable"]))), 128))
               ])) : g("", !0),
-              t("div", Tn, [
+              t("div", Cn, [
                 t("button", {
                   type: "button",
                   class: "gw-icon-button",
@@ -2135,7 +2151,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
                     class: "fa-solid fa-pen-to-square",
                     inert: ""
                   }, null, -1)
-                ]), 8, An),
+                ]), 8, En),
                 e.context.editable ? (l(), n("button", {
                   key: 0,
                   type: "button",
@@ -2148,7 +2164,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
                     class: "fa-solid fa-trash",
                     inert: ""
                   }, null, -1)
-                ]), 8, Fn)) : g("", !0)
+                ]), 8, Nn)) : g("", !0)
               ])
             ]),
             t("div", {
@@ -2156,8 +2172,8 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
               id: `${a(o)}-${_._id}-body`,
               inert: !a(i)(c(_))
             }, [
-              t("div", En, [
-                ((z = _.system.trackers) == null ? void 0 : z.length) > E ? (l(), n("div", Nn, [
+              t("div", Pn, [
+                ((z = _.system.trackers) == null ? void 0 : z.length) > E ? (l(), n("div", On, [
                   (l(!0), n($, null, f(_.system.trackers.slice(E), (P, C) => (l(), M(j, {
                     key: C + E,
                     tracker: P,
@@ -2171,29 +2187,29 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
                   key: 1,
                   class: "gw-item__desc",
                   innerHTML: (X = e.context.editors[`items.${_._id}.system.description`]) == null ? void 0 : X.enriched
-                }, null, 8, Sn)) : g("", !0),
-                (J = _.system.notes) != null && J.description ? (l(), n("div", Pn, [
-                  _.system.notes.label ? (l(), n("strong", On, u(_.system.notes.label), 1)) : g("", !0),
+                }, null, 8, Hn)) : g("", !0),
+                (J = _.system.notes) != null && J.description ? (l(), n("div", jn, [
+                  _.system.notes.label ? (l(), n("strong", Bn, u(_.system.notes.label), 1)) : g("", !0),
                   t("div", {
                     innerHTML: (Q = e.context.editors[`items.${_._id}.system.notes.description`]) == null ? void 0 : Q.enriched
-                  }, null, 8, Hn)
+                  }, null, 8, qn)
                 ])) : g("", !0)
               ])
-            ], 8, Cn)
-          ], 10, Mn);
+            ], 8, Sn)
+          ], 10, Gn);
         }), 128))
       ])
     ], 2));
   }
-}, jn = { class: "gw-section-head" }, Bn = { class: "gw-heading" }, qn = ["data-field", "aria-label", "data-tooltip"], Yn = { class: "gw-entries__list" }, zn = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], Xn = ["data-field", "data-key", "aria-label", "data-tooltip"], O = {
+}, Yn = { class: "gw-section-head" }, zn = { class: "gw-heading" }, Xn = ["data-field", "aria-label", "data-tooltip"], Jn = { class: "gw-entries__list" }, Qn = ["name", "onUpdate:modelValue", "placeholder", "aria-label", "disabled"], Zn = ["data-field", "data-key", "aria-label", "data-tooltip"], O = {
   __name: "EntryList",
   props: ["context", "field", "kind", "icon", "title", "add", "remove", "placeholder"],
   setup(e) {
     return (m, o) => (l(), n("section", {
       class: D(["gw-entries", `gw-entries--${e.kind}`])
     }, [
-      t("header", jn, [
-        t("h3", Bn, u(e.title), 1),
+      t("header", Yn, [
+        t("h3", zn, u(e.title), 1),
         e.context.editable ? (l(), n("button", {
           key: 0,
           type: "button",
@@ -2207,9 +2223,9 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             class: "fa-solid fa-plus",
             inert: ""
           }, null, -1)
-        ]), 8, qn)) : g("", !0)
+        ]), 8, Xn)) : g("", !0)
       ]),
-      t("ul", Yn, [
+      t("ul", Jn, [
         (l(!0), n($, null, f(e.context.system[e.field], (i, r) => (l(), n("li", {
           key: r,
           class: "gw-entry"
@@ -2225,7 +2241,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             placeholder: e.placeholder,
             "aria-label": `${e.title} ${r + 1}`,
             disabled: !e.context.editable
-          }, null, 8, zn), [
+          }, null, 8, Qn), [
             [p, e.context.system[e.field][r]]
           ]),
           e.context.editable ? (l(), n("button", {
@@ -2242,15 +2258,15 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
               class: "fa-solid fa-xmark",
               inert: ""
             }, null, -1)
-          ]), 8, Xn)) : g("", !0)
+          ]), 8, Zn)) : g("", !0)
         ]))), 128))
       ])
     ], 2));
   }
-}, Jn = {
+}, Kn = {
   key: 1,
   class: "gw-char__layout gw-scroll"
-}, Qn = { class: "gw-char__main" }, Zn = { class: "gw-panels" }, Kn = { class: "gw-prose" }, eo = { class: "gw-heading" }, to = { class: "gw-prose" }, ao = { class: "gw-heading" }, wo = {
+}, eo = { class: "gw-char__main" }, to = { class: "gw-panels" }, ao = { class: "gw-prose" }, lo = { class: "gw-heading" }, so = { class: "gw-prose" }, no = { class: "gw-heading" }, ko = {
   __name: "DocumentSheet",
   props: ["context"],
   setup(e) {
@@ -2263,18 +2279,18 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
         (b = a(o)) != null && b.compacto ? (l(), M(a(bt), {
           key: 0,
           context: e.context
-        }, null, 8, ["context"])) : (l(), n("div", Jn, [
+        }, null, 8, ["context"])) : (l(), n("div", Kn, [
           y(a(Ge), { context: e.context }, null, 8, ["context"]),
-          t("div", Qn, [
+          t("div", eo, [
             y(a(Oe), { context: e.context }, null, 8, ["context"]),
             y(a(Y), { tabs: a(i) }, null, 8, ["tabs"]),
-            t("div", Zn, [
+            t("div", to, [
               y(a(G), {
                 tab: a(i).details,
                 tabs: a(i)
               }, {
                 default: U(() => [
-                  y(a(jt), { context: e.context }, null, 8, ["context"])
+                  y(a(Yt), { context: e.context }, null, 8, ["context"])
                 ]),
                 _: 1
               }, 8, ["tab", "tabs"]),
@@ -2283,7 +2299,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
                 tabs: a(i)
               }, {
                 default: U(() => [
-                  y(a(Bt), { context: e.context }, null, 8, ["context"])
+                  y(a(zt), { context: e.context }, null, 8, ["context"])
                 ]),
                 _: 1
               }, 8, ["tab", "tabs"]),
@@ -2292,7 +2308,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
                 tabs: a(i)
               }, {
                 default: U(() => [
-                  y(a(Qt), { context: e.context }, null, 8, ["context"])
+                  y(a(ea), { context: e.context }, null, 8, ["context"])
                 ]),
                 _: 1
               }, 8, ["tab", "tabs"]),
@@ -2301,8 +2317,8 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
                 tabs: a(i)
               }, {
                 default: U(() => [
-                  t("section", Kn, [
-                    t("h3", eo, u(e.context.systemFields.biography.label), 1),
+                  t("section", ao, [
+                    t("h3", lo, u(e.context.systemFields.biography.label), 1),
                     y(a(T), {
                       editable: e.context.editable,
                       field: e.context.editors["system.biography"]
@@ -2316,8 +2332,8 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
                 tabs: a(i)
               }, {
                 default: U(() => [
-                  t("section", to, [
-                    t("h3", ao, u(e.context.systemFields.notes.label), 1),
+                  t("section", so, [
+                    t("h3", no, u(e.context.systemFields.notes.label), 1),
                     y(a(T), {
                       editable: e.context.editable,
                       field: e.context.editors["system.notes"]
@@ -2332,10 +2348,10 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
       ], 2);
     };
   }
-}, lo = { class: "grimwild-vue gw-sheet gw-monster standard-form" }, so = ["aria-label"], no = {
+}, oo = { class: "grimwild-vue gw-sheet gw-monster standard-form" }, io = ["aria-label"], co = {
   key: 0,
   class: "gw-colorband__name"
-}, oo = { class: "gw-monster__layout gw-scroll" }, io = { class: "gw-panels" }, co = { class: "gw-prose" }, ro = { class: "gw-heading" }, fo = {
+}, ro = { class: "gw-monster__layout gw-scroll" }, uo = { class: "gw-panels" }, mo = { class: "gw-prose" }, bo = { class: "gw-heading" }, vo = {
   __name: "MonsterSheet",
   props: ["context"],
   setup(e) {
@@ -2343,7 +2359,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
       var d;
       return (((d = m.context.system.sensories) == null ? void 0 : d.colors) ?? []).filter((c) => c.color);
     });
-    return (d, c) => (l(), n("div", lo, [
+    return (d, c) => (l(), n("div", oo, [
       i.value && r.value.length ? (l(), n("div", {
         key: 0,
         class: "gw-colorband",
@@ -2359,20 +2375,20 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             class: "gw-colorband__swatch",
             style: oe({ backgroundColor: b.color })
           }, null, 4),
-          b.name ? (l(), n("span", no, u(b.name), 1)) : g("", !0)
+          b.name ? (l(), n("span", co, u(b.name), 1)) : g("", !0)
         ]))), 128))
-      ], 8, so)) : g("", !0),
-      t("div", oo, [
-        y(a(ma), { context: e.context }, null, 8, ["context"]),
+      ], 8, io)) : g("", !0),
+      t("div", ro, [
+        y(a(ya), { context: e.context }, null, 8, ["context"]),
         y(a(Y), { tabs: a(o) }, null, 8, ["tabs"]),
-        t("div", io, [
+        t("div", uo, [
           a(o).biography ? (l(), M(a(G), {
             key: 0,
             tab: a(o).biography,
             tabs: a(o)
           }, {
             default: U(() => [
-              y(a(Xa), { context: e.context }, null, 8, ["context"])
+              y(a(Za), { context: e.context }, null, 8, ["context"])
             ]),
             _: 1
           }, 8, ["tab", "tabs"])) : g("", !0),
@@ -2381,8 +2397,8 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             tabs: a(o)
           }, {
             default: U(() => [
-              y(a(rl), { context: e.context }, null, 8, ["context"]),
-              i.value ? (l(), M(a(Il), {
+              y(a(bl), { context: e.context }, null, 8, ["context"]),
+              i.value ? (l(), M(a(_l), {
                 key: 0,
                 context: e.context
               }, null, 8, ["context"])) : g("", !0)
@@ -2395,7 +2411,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             tabs: a(o)
           }, {
             default: U(() => [
-              y(a(dl), { context: e.context }, null, 8, ["context"])
+              y(a(ul), { context: e.context }, null, 8, ["context"])
             ]),
             _: 1
           }, 8, ["tab", "tabs"])) : g("", !0),
@@ -2404,7 +2420,7 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             tabs: a(o)
           }, {
             default: U(() => [
-              y(a(Ca), { context: e.context }, null, 8, ["context"])
+              y(a(Sa), { context: e.context }, null, 8, ["context"])
             ]),
             _: 1
           }, 8, ["tab", "tabs"]),
@@ -2413,8 +2429,8 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             tabs: a(o)
           }, {
             default: U(() => [
-              t("section", co, [
-                t("h3", ro, u(e.context.systemFields.notes.label), 1),
+              t("section", mo, [
+                t("h3", bo, u(e.context.systemFields.notes.label), 1),
                 y(a(T), {
                   editable: e.context.editable,
                   field: e.context.editors["system.notes"]
@@ -2427,20 +2443,20 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
       ])
     ]));
   }
-}, uo = { class: "grimwild-vue gw-sheet gw-itemsheet standard-form" }, mo = { class: "gw-itemsheet__layout gw-scroll" }, bo = { class: "gw-panels" }, ho = {
+}, ho = { class: "grimwild-vue gw-sheet gw-itemsheet standard-form" }, yo = { class: "gw-itemsheet__layout gw-scroll" }, go = { class: "gw-panels" }, xo = {
   key: 0,
   class: "gw-prose"
-}, yo = { class: "gw-heading" }, go = { class: "gw-field" }, xo = ["for"], $o = ["id", "disabled"], _o = {
+}, $o = { class: "gw-heading" }, Io = { class: "gw-field" }, wo = ["for"], fo = ["id", "disabled"], po = {
   __name: "ItemSheet",
   props: ["context"],
   setup(e) {
     var r;
     const m = e, o = ((r = R("sheet")) == null ? void 0 : r.id) ?? "grimwild", i = q(m.context.tabs).primary;
-    return (d, c) => (l(), n("div", uo, [
-      t("div", mo, [
-        y(a(Tl), { context: e.context }, null, 8, ["context"]),
+    return (d, c) => (l(), n("div", ho, [
+      t("div", yo, [
+        y(a(Cl), { context: e.context }, null, 8, ["context"]),
         y(a(Y), { tabs: a(i) }, null, 8, ["tabs"]),
-        t("div", bo, [
+        t("div", go, [
           y(a(G), {
             tab: a(i).description,
             tabs: a(i)
@@ -2448,21 +2464,21 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             default: U(() => {
               var b;
               return [
-                y(a(_l), { context: e.context }, null, 8, ["context"]),
-                (b = e.context.system) != null && b.notes ? (l(), n("section", ho, [
-                  t("h3", yo, u(a(s)("GRIMWILD.UI.notes")), 1),
-                  t("div", go, [
+                y(a(pl), { context: e.context }, null, 8, ["context"]),
+                (b = e.context.system) != null && b.notes ? (l(), n("section", xo, [
+                  t("h3", $o, u(a(s)("GRIMWILD.UI.notes")), 1),
+                  t("div", Io, [
                     t("label", {
                       for: `${a(o)}-notes-label`,
                       class: "gw-label"
-                    }, u(a(s)("GRIMWILD.UI.label")), 9, xo),
+                    }, u(a(s)("GRIMWILD.UI.label")), 9, wo),
                     w(t("input", {
                       type: "text",
                       id: `${a(o)}-notes-label`,
                       name: "system.notes.label",
                       "onUpdate:modelValue": c[0] || (c[0] = (h) => e.context.system.notes.label = h),
                       disabled: !e.context.editable
-                    }, null, 8, $o), [
+                    }, null, 8, fo), [
                       [p, e.context.system.notes.label]
                     ])
                   ]),
@@ -2480,11 +2496,11 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
             tabs: a(i)
           }, {
             default: U(() => [
-              e.context.item.type === "arcana" ? (l(), M(a(vs), {
+              e.context.item.type === "arcana" ? (l(), M(a(Ls), {
                 key: 0,
                 context: e.context
               }, null, 8, ["context"])) : g("", !0),
-              y(a(Al), { context: e.context }, null, 8, ["context"])
+              y(a(El), { context: e.context }, null, 8, ["context"])
             ]),
             _: 1
           }, 8, ["tab", "tabs"])
@@ -2494,8 +2510,8 @@ const Ts = ["aria-expanded", "aria-controls"], As = ["id"], Fs = ["id", "aria-se
   }
 };
 export {
-  wo as DocumentSheetVue,
-  _o as ItemSheetVue,
-  fo as MonsterSheetVue
+  ko as DocumentSheetVue,
+  po as ItemSheetVue,
+  vo as MonsterSheetVue
 };
 //# sourceMappingURL=components.vue.es.mjs.map

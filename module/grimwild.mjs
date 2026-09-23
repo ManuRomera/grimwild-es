@@ -22,6 +22,7 @@ import * as models from "./data/_module.mjs";
 import { SUSPENSE_TRACKER } from "./controls/suspense.mjs";
 import { GrimwildTokenHud } from "./apps/token-hud.mjs";
 import { registrarInterfaz } from "./ui/interfaz.mjs";
+import { GrimwildCreador, registrarCreador } from "./apps/creador.mjs";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -45,7 +46,8 @@ globalThis.grimwild = {
 		GrimwildItemSheetVue,
 		GrimwildCombatTracker,
 		GrimwildRollTableCrucibleSheet,
-		GrimwildRollDialog
+		GrimwildRollDialog,
+		GrimwildCreador
 	},
 	utils: {
 		rollItemMacro
@@ -135,6 +137,7 @@ Hooks.once("init", function () {
 
 	// Handlebars utilities.
 	utils.preloadHandlebarsTemplates();
+	foundry.applications.handlebars.loadTemplates(["systems/grimwild/templates/apps/creador.hbs"]);
 	utils.registerHandlebarsHelpers();
 
 	// Custom settings.
@@ -216,6 +219,7 @@ Hooks.once("init", function () {
 
 	SUSPENSE_TRACKER.init();
 	registrarInterfaz();
+	registrarCreador();
 
 	// Enable harm pools.
 	game.settings.register("grimwild", "enableHarmPools", {

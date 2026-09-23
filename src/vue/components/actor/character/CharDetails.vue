@@ -2,6 +2,12 @@
 	<div class="gw-details">
 		<!-- Backgrounds: editorial; name as a heading, wises listed below. -->
 		<section class="gw-details__col gw-backgrounds" data-ayuda="backgrounds">
+			<div class="gw-features" data-ayuda="features">
+				<h3 class="gw-heading">{{ t('GRIMWILD.Actor.Character.FIELDS.features.label') }}</h3>
+				<input type="text" name="system.features" v-model="context.system.features"
+					:placeholder="t('GRIMWILD.Actor.Character.FIELDS.features.placeholder')"
+					:aria-label="t('GRIMWILD.Actor.Character.FIELDS.features.label')" :disabled="!context.editable" />
+			</div>
 			<h3 class="gw-heading">{{ context.systemFields.backgrounds.label }}</h3>
 			<article v-for="(background, key) in context.system.backgrounds" :key="key" class="gw-bg">
 				<input type="text" class="gw-bg__name"

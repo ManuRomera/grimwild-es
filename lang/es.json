@@ -49,6 +49,10 @@
       "olvidarVentanas": {
         "name": "Olvidar la posición de las ventanas",
         "hint": "Marca la casilla y guarda para borrar la posición, el tamaño, las pestañas y las secciones recordadas de todas las ventanas de Grimwild en este navegador."
+      },
+      "asistenteAlCrear": {
+        "name": "Asistente al crear personajes",
+        "hint": "Abre el asistente de creación al crear un personaje vacío."
       }
     },
     "Stat": {
@@ -326,6 +330,10 @@
                 }
               }
             }
+          },
+          "features": {
+            "label": "Aspecto",
+            "placeholder": "Tres rasgos que los demás notan enseguida"
           }
         }
       },
@@ -598,7 +606,56 @@
       "challenge": {
         "titulo": "Desafío",
         "texto": "Reserva de dados del desafío. Al tirarla se descarta 1d por cada 1-3; cuando llega a 0d, el desafío queda superado."
+      },
+      "features": {
+        "titulo": "Aspecto",
+        "texto": "Los tres rasgos externos más llamativos de tu PJ, los que los demás notan enseguida."
       }
+    },
+    "Creador": {
+      "titulo": "Crear personaje",
+      "tituloActor": "Crear personaje · {name}",
+      "pasos": "Pasos de creación",
+      "intro": "Sigue los pasos del reglamento o pulsa el dado de cualquier paso. «Todo al azar» rellena el personaje completo; puedes cambiar lo que quieras antes de crearlo.",
+      "paso": {
+        "nombre": "Nombre",
+        "trasfondos": "Trasfondos",
+        "rasgos": "Rasgos",
+        "deseos": "Deseos",
+        "aspecto": "Aspecto",
+        "camino": "Camino y talentos",
+        "atributos": "Atributos",
+        "arcos": "Arcos",
+        "vinculos": "Vínculos"
+      },
+      "nota": {
+        "trasfondos": "Elige dos trasfondos, cada uno con tres saberes. Puedes tomarlos de la tabla, tirar la ascendencia (pueblo, tierra y carácter) o escribir los tuyos.",
+        "rasgos": "Elige 2 rasgos que te describan claramente y 1 que no te describa en absoluto.",
+        "deseos": "Elige 2 cosas que deseas mucho y 1 que no deseas en absoluto.",
+        "aspecto": "Tres rasgos externos que los demás notan enseguida: manos fuertes, ojos amables, voz ronca…",
+        "camino": "Elige un camino: recibes su talento principal y otro talento de su lista o, si encaja con tu historia, uno no principal de otro camino.",
+        "atributos": "Empiezas con 1 en cada atributo y repartes 4 puntos más, con un máximo de 3.",
+        "arcos": "Uno o dos arcos de personaje para explorar. No hace falta detallarlos: se concretan jugando. Se guardan en las notas.",
+        "vinculos": "Un vínculo hacia cada PJ: combina una intensidad y una naturaleza, o escribe el tuyo."
+      },
+      "azar": "Al azar",
+      "ascendencia": "Tirar ascendencia (crisol)",
+      "elegirTabla": "Elegir de la tabla…",
+      "principal": "Talento principal",
+      "segundo": "Segundo talento",
+      "mismoCamino": "Mismo camino",
+      "repartoOk": "Reparto correcto.",
+      "puntosRestantes": "Puntos por repartir",
+      "sinOtros": "No hay otros PJ en el mundo todavía.",
+      "todoAzar": "Todo al azar",
+      "crear": "Crear personaje",
+      "aplicar": "Aplicar al personaje",
+      "arcos": "Arcos de personaje",
+      "sinNombre": "Aventurero sin nombre",
+      "creado": "Personaje listo: {name}.",
+      "avisoAtributos": "El reparto de atributos no es 1 + 4 puntos (máximo 3): se guarda igualmente; revísalo en la ficha.",
+      "botonAsistente": "Asistente de personaje",
+      "botonAzar": "Personaje aleatorio"
     }
   },
   "TYPES": {
