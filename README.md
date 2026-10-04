@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/grimwild-system-logo.webp" alt="Grimwild" width="420">
+  <img src="docs/img/banner.png" alt="Grimwild en castellano · Traducción no oficial para Foundry VTT" width="100%">
 </p>
 
 # Grimwild en castellano para Foundry VTT
@@ -23,6 +23,12 @@ sus compendios, logotipos, texturas ni demás recursos. Es una localización der
 
 - Versión: **0.5.3-es.3** (basada en Grimwild 0.5.3 para Foundry). Historial en [CHANGELOG.md](CHANGELOG.md).
 - Foundry VTT: **v13** (verificado en 13.351). No es compatible con v14.
+
+## Así se ve
+
+<p align="center">
+  <img src="docs/img/ficha.png" alt="Ficha de personaje traducida: atributos, rasgos, deseos, trasfondos y vínculos" width="70%">
+</p>
 
 ## Características
 
